@@ -58,7 +58,7 @@ export default function Home() {
       </Head>
 
       {/* Top-right controls */}
-      <div className="fixed top-4 right-4 z-20 flex items-center gap-2">
+      <div className="fixed top-4 left-1/2 -translate-x-1/2 w-full max-w-md z-20 flex items-center justify-end gap-2 px-4">
         <LanguageDropdown
           selectedLanguage={selectedLanguage}
           onSelectLanguage={setSelectedLanguage}
@@ -75,7 +75,7 @@ export default function Home() {
         </button>
       </div>
 
-      <main className="min-h-screen bg-white">
+      <main className="min-h-screen bg-white max-w-md mx-auto">
         {/* Hero Section */}
         <HeroSection category={selectedCategory} />
 

@@ -10,7 +10,7 @@ export const HeroSection = ({
 }: HeroSectionProps) => {
   return (
     <div
-      className="fixed top-0 left-0 right-0 h-[30vh] flex flex-col"
+      className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-md h-[30vh] flex flex-col"
       style={{ backgroundColor: category.color }}
     >
       {/* Centered emoji */}

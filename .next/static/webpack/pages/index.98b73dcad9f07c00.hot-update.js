@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("pages/index",{
+
+/***/ "./data/french/supermarket.json":
+/*!**************************************!*\
+  !*** ./data/french/supermarket.json ***!
+  \**************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"categoryId":"supermarket","languageId":"french","phrases":[{"id":"fr-supermarket-1","english":"Where is...?","translation":"Où est... ?","pronunciation":"Oo eh...?"},{"id":"fr-supermarket-2","english":"Do you have...?","translation":"Est-ce que vous avez... ?","pronunciation":"Ess-kuh voo zah-vay...?"},{"id":"fr-supermarket-3","english":"How much is this?","translation":"Combien ça coûte ?","pronunciation":"Kom-bee-en sah koot?"},{"id":"fr-supermarket-p1","english":"Do you have a loyalty card?","translation":"Avez-vous une carte de fidélité ?","pronunciation":"Ah-vay voo oon kart duh fee-day-lee-tay?"},{"id":"fr-supermarket-p2","english":"Your total is... euros","translation":"Votre total est de... euros","pronunciation":"Vo-truh toh-tal eh duh... uh-roh"},{"id":"fr-supermarket-p3","english":"Do you need a bag?","translation":"Avez-vous besoin d\'un sac ?","pronunciation":"Ah-vay voo buh-zwan dun sahk?"},{"id":"fr-supermarket-4","english":"A bag please","translation":"Un sac, s\'il vous plaît","pronunciation":"Un sahk, seel voo pleh"},{"id":"fr-supermarket-5","english":"I don\'t need a bag","translation":"Pas de sac, merci","pronunciation":"Pah duh sahk, mair-see"},{"id":"fr-supermarket-p4","english":"Cash or card?","translation":"Espèces ou carte ?","pronunciation":"Ess-pess oo kart?"},{"id":"fr-supermarket-6","english":"I\'ll pay by card","translation":"Par carte","pronunciation":"Par kart"},{"id":"fr-supermarket-7","english":"I\'ll pay with cash","translation":"En espèces","pronunciation":"On ess-pess"},{"id":"fr-supermarket-8","english":"Can I have a receipt?","translation":"Est-ce que je peux avoir un reçu ?","pronunciation":"Ess-kuh zhuh puh ah-vwahr un ruh-soo?"}],"words":[{"id":"fr-supermarket-w1","english":"water","translation":"eau","pronunciation":"oh"},{"id":"fr-supermarket-w2","english":"milk","translation":"lait","pronunciation":"leh"},{"id":"fr-supermarket-w3","english":"bread","translation":"pain","pronunciation":"pan"},{"id":"fr-supermarket-w4","english":"eggs","translation":"œufs","pronunciation":"uh"},{"id":"fr-supermarket-w5","english":"rice","translation":"riz","pronunciation":"ree"},{"id":"fr-supermarket-w6","english":"fruit","translation":"fruit","pronunciation":"frwee"},{"id":"fr-supermarket-w7","english":"snack","translation":"en-cas","pronunciation":"on-kah"},{"id":"fr-supermarket-w8","english":"candy","translation":"bonbon","pronunciation":"bon-bon"},{"id":"fr-supermarket-w9","english":"cheese","translation":"fromage","pronunciation":"fro-mahzh"},{"id":"fr-supermarket-w10","english":"baguette","translation":"baguette","pronunciation":"bah-get"},{"id":"fr-supermarket-w11","english":"bag","translation":"sac","pronunciation":"sahk"},{"id":"fr-supermarket-w12","english":"receipt","translation":"reçu","pronunciation":"ruh-soo"},{"id":"fr-supermarket-w13","english":"cash","translation":"espèces","pronunciation":"ess-pess"},{"id":"fr-supermarket-w14","english":"card","translation":"carte","pronunciation":"kart"},{"id":"fr-supermarket-w15","english":"change","translation":"monnaie","pronunciation":"mo-neh"},{"id":"fr-supermarket-w16","english":"price","translation":"prix","pronunciation":"pree"},{"id":"fr-supermarket-w17","english":"cheap","translation":"bon marché","pronunciation":"bon mar-shay"},{"id":"fr-supermarket-w18","english":"expensive","translation":"cher","pronunciation":"shair"},{"id":"fr-supermarket-w19","english":"entrance","translation":"entrée","pronunciation":"on-tray"},{"id":"fr-supermarket-w20","english":"exit","translation":"sortie","pronunciation":"sor-tee"}]}');
+
+/***/ })
+
+});

@@ -1,0 +1,43 @@
+{
+  "categoryId": "hotel",
+  "languageId": "japanese",
+  "phrases": [
+    { "id": "jp-hotel-p1", "english": "Do you have a reservation?", "translation": "ご予約はありますか？", "pronunciation": "Goyoyaku wa arimasu ka?" },
+    { "id": "jp-hotel-1", "english": "I have a reservation", "translation": "予約があります", "pronunciation": "Yoyaku ga arimasu" },
+    { "id": "jp-hotel-2", "english": "I'd like to check in", "translation": "チェックインしたいです", "pronunciation": "Chekkuin shitai desu" },
+    { "id": "jp-hotel-3", "english": "I'd like to check out", "translation": "チェックアウトしたいです", "pronunciation": "Chekkuauto shitai desu" },
+    { "id": "jp-hotel-p2", "english": "Your room is on the 3rd floor", "translation": "お部屋は3階です", "pronunciation": "Oheya wa sangai desu" },
+    { "id": "jp-hotel-4", "english": "A single room, please", "translation": "シングルルームをお願いします", "pronunciation": "Shinguru ruumu wo onegaishimasu" },
+    { "id": "jp-hotel-5", "english": "A double room, please", "translation": "ダブルルームをお願いします", "pronunciation": "Daburu ruumu wo onegaishimasu" },
+    { "id": "jp-hotel-6", "english": "How much per night?", "translation": "一泊いくらですか？", "pronunciation": "Ippaku ikura desu ka?" },
+    { "id": "jp-hotel-7", "english": "Is breakfast included?", "translation": "朝食は含まれていますか？", "pronunciation": "Choushoku wa fukumarete imasu ka?" },
+    { "id": "jp-hotel-8", "english": "What time is checkout?", "translation": "チェックアウトは何時ですか？", "pronunciation": "Chekkuauto wa nanji desu ka?" },
+    { "id": "jp-hotel-p3", "english": "Checkout is at 11am", "translation": "チェックアウトは11時です", "pronunciation": "Chekkuauto wa juuichiji desu" },
+    { "id": "jp-hotel-9", "english": "Can I leave my luggage?", "translation": "荷物を預けてもいいですか？", "pronunciation": "Nimotsu wo azukete mo ii desu ka?" },
+    { "id": "jp-hotel-10", "english": "The Wi-Fi password, please", "translation": "Wi-Fiのパスワードを教えてください", "pronunciation": "Waifai no pasuwaado wo oshiete kudasai" },
+    { "id": "jp-hotel-11", "english": "Could I get extra towels?", "translation": "タオルを追加でもらえますか？", "pronunciation": "Taoru wo tsuika de moraemasu ka?" },
+    { "id": "jp-hotel-12", "english": "The air conditioning doesn't work", "translation": "エアコンが動きません", "pronunciation": "Eakon ga ugokimasen" }
+  ],
+  "words": [
+    { "id": "jp-hotel-w1", "english": "room", "translation": "部屋", "pronunciation": "Heya" },
+    { "id": "jp-hotel-w2", "english": "key", "translation": "鍵", "pronunciation": "Kagi" },
+    { "id": "jp-hotel-w3", "english": "floor", "translation": "階", "pronunciation": "Kai" },
+    { "id": "jp-hotel-w4", "english": "elevator", "translation": "エレベーター", "pronunciation": "Erebeetaa" },
+    { "id": "jp-hotel-w5", "english": "stairs", "translation": "階段", "pronunciation": "Kaidan" },
+    { "id": "jp-hotel-w6", "english": "lobby", "translation": "ロビー", "pronunciation": "Robii" },
+    { "id": "jp-hotel-w7", "english": "front desk", "translation": "フロント", "pronunciation": "Furonto" },
+    { "id": "jp-hotel-w8", "english": "bed", "translation": "ベッド", "pronunciation": "Beddo" },
+    { "id": "jp-hotel-w9", "english": "pillow", "translation": "枕", "pronunciation": "Makura" },
+    { "id": "jp-hotel-w10", "english": "blanket", "translation": "毛布", "pronunciation": "Moufu" },
+    { "id": "jp-hotel-w11", "english": "towel", "translation": "タオル", "pronunciation": "Taoru" },
+    { "id": "jp-hotel-w12", "english": "bathroom", "translation": "バスルーム", "pronunciation": "Basuruumu" },
+    { "id": "jp-hotel-w13", "english": "shower", "translation": "シャワー", "pronunciation": "Shawaa" },
+    { "id": "jp-hotel-w14", "english": "hot water", "translation": "お湯", "pronunciation": "Oyu" },
+    { "id": "jp-hotel-w15", "english": "air conditioning", "translation": "エアコン", "pronunciation": "Eakon" },
+    { "id": "jp-hotel-w16", "english": "luggage", "translation": "荷物", "pronunciation": "Nimotsu" },
+    { "id": "jp-hotel-w17", "english": "passport", "translation": "パスポート", "pronunciation": "Pasupooto" },
+    { "id": "jp-hotel-w18", "english": "reservation", "translation": "予約", "pronunciation": "Yoyaku" },
+    { "id": "jp-hotel-w19", "english": "breakfast", "translation": "朝食", "pronunciation": "Choushoku" },
+    { "id": "jp-hotel-w20", "english": "Wi-Fi", "translation": "ワイファイ", "pronunciation": "Waifai" }
+  ]
+}

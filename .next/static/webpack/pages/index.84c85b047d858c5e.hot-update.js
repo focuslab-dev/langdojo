@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("pages/index",{
+
+/***/ "./data/korean/train.json":
+/*!********************************!*\
+  !*** ./data/korean/train.json ***!
+  \********************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"categoryId":"train","languageId":"korean","phrases":[{"id":"ko-train-1","english":"One ticket to... please","translation":"...까지 표 한 장 주세요","pronunciation":"...kkaji pyo han jang juseyo"},{"id":"ko-train-2","english":"Round trip ticket","translation":"왕복 표 주세요","pronunciation":"wangbok pyo juseyo"},{"id":"ko-train-3","english":"What time is the next train?","translation":"다음 기차는 몇 시에 있어요?","pronunciation":"daeum gichaneun myeot sie isseoyo?"},{"id":"ko-train-4","english":"Which platform?","translation":"몇 번 승강장이에요?","pronunciation":"myeot beon seunggangjangieyo?"},{"id":"ko-train-5","english":"Where should I transfer?","translation":"어디서 환승해야 돼요?","pronunciation":"eodiseo hwanseunghaeya dwaeyo?"},{"id":"ko-train-p1","english":"This train goes to...","translation":"이 기차는 ...행입니다","pronunciation":"i gichaneun ...haengimnida"},{"id":"ko-train-6","english":"Is this the train to...?","translation":"이 기차가 ...에 가요?","pronunciation":"i gichaga ...e gayo?"},{"id":"ko-train-p2","english":"The train is arriving","translation":"열차가 들어오고 있습니다","pronunciation":"yeolchaga deureoogo itseumnida"},{"id":"ko-train-7","english":"Is this seat taken?","translation":"이 자리 비어 있어요?","pronunciation":"i jari bieo isseoyo?"},{"id":"ko-train-p3","english":"The next stop is...","translation":"다음 정거장은 ...입니다","pronunciation":"daeum jeonggeojang-eun ...imnida"},{"id":"ko-train-8","english":"Where is the ticket office?","translation":"매표소가 어디에 있어요?","pronunciation":"maepyosoga eodie isseoyo?"},{"id":"ko-train-9","english":"Reserved seat please","translation":"지정석으로 주세요","pronunciation":"jijeongseog-euro juseyo"}],"words":[{"id":"ko-train-w1","english":"ticket","translation":"표","pronunciation":"pyo"},{"id":"ko-train-w2","english":"platform","translation":"승강장","pronunciation":"seunggangjang"},{"id":"ko-train-w3","english":"express (KTX)","translation":"KTX / 고속열차","pronunciation":"KTX / gosok yeolcha"},{"id":"ko-train-w4","english":"local train","translation":"무궁화호","pronunciation":"mugunghwaho"},{"id":"ko-train-w5","english":"subway","translation":"지하철","pronunciation":"jihacheol"},{"id":"ko-train-w6","english":"transfer","translation":"환승","pronunciation":"hwanseung"},{"id":"ko-train-w7","english":"exit","translation":"출구","pronunciation":"chulgu"},{"id":"ko-train-w8","english":"entrance","translation":"입구","pronunciation":"ipgu"},{"id":"ko-train-w9","english":"one-way","translation":"편도","pronunciation":"pyeondo"},{"id":"ko-train-w10","english":"round trip","translation":"왕복","pronunciation":"wangbok"},{"id":"ko-train-w11","english":"reserved seat","translation":"지정석","pronunciation":"jijeongseok"},{"id":"ko-train-w12","english":"free seat","translation":"자유석","pronunciation":"jayuseok"},{"id":"ko-train-w13","english":"timetable","translation":"시간표","pronunciation":"siganpyo"},{"id":"ko-train-w14","english":"departure","translation":"출발","pronunciation":"chulbal"},{"id":"ko-train-w15","english":"arrival","translation":"도착","pronunciation":"dochak"},{"id":"ko-train-w16","english":"ticket gate","translation":"개찰구","pronunciation":"gaechalgu"},{"id":"ko-train-w17","english":"line","translation":"호선","pronunciation":"hoseon"},{"id":"ko-train-w18","english":"delay","translation":"지연","pronunciation":"jiyeon"},{"id":"ko-train-w19","english":"T-money card","translation":"티머니 카드","pronunciation":"timeoni kadeu"},{"id":"ko-train-w20","english":"last train","translation":"막차","pronunciation":"makcha"},{"id":"ko-train-w21","english":"to / until","translation":"까지","pronunciation":"kkaji"},{"id":"ko-train-w22","english":"please (give me)","translation":"주세요","pronunciation":"juseyo"}]}');
+
+/***/ })
+
+});

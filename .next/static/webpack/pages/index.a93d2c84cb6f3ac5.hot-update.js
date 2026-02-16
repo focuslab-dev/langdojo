@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("pages/index",{
+
+/***/ "./data/spanish/bus.json":
+/*!*******************************!*\
+  !*** ./data/spanish/bus.json ***!
+  \*******************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"categoryId":"bus","languageId":"spanish","phrases":[{"id":"es-bus-1","english":"Where is the bus stop?","translation":"¿Dónde está la parada de autobús?","pronunciation":"DOHN-deh ehs-TAH lah pah-RAH-dah deh ow-toh-BOOS?"},{"id":"es-bus-2","english":"What time is the last bus?","translation":"¿A qué hora es el último autobús?","pronunciation":"Ah keh OH-rah ehs ehl OOL-tee-moh ow-toh-BOOS?"},{"id":"es-bus-3","english":"Does this bus go to...?","translation":"¿Este autobús va a...?","pronunciation":"EHS-teh ow-toh-BOOS vah ah...?"},{"id":"es-bus-4","english":"Which bus goes to...?","translation":"¿Qué autobús va a...?","pronunciation":"Keh ow-toh-BOOS vah ah...?"},{"id":"es-bus-5","english":"How much is the fare?","translation":"¿Cuánto cuesta el billete?","pronunciation":"KWAHN-toh KWEHS-tah ehl bee-YEH-teh?"},{"id":"es-bus-6","english":"Can I use a card?","translation":"¿Puedo usar tarjeta?","pronunciation":"PWEH-doh oo-SAR tar-HEH-tah?"},{"id":"es-bus-p1","english":"Please validate your ticket","translation":"Valide su billete, por favor","pronunciation":"VAH-lee-deh soo bee-YEH-teh pohr fah-VOHR"},{"id":"es-bus-7","english":"Please tell me when we arrive at...","translation":"Avíseme cuando lleguemos a..., por favor","pronunciation":"Ah-VEE-seh-meh KWAHN-doh yeh-GEH-mohs ah... pohr fah-VOHR"},{"id":"es-bus-p2","english":"Next stop is...","translation":"Próxima parada...","pronunciation":"PROHK-see-mah pah-RAH-dah..."},{"id":"es-bus-8","english":"I want to get off here","translation":"Quiero bajar aquí","pronunciation":"Kee-EH-roh bah-HAR ah-KEE"},{"id":"es-bus-p3","english":"Please exit from the back","translation":"Salgan por la puerta de atrás, por favor","pronunciation":"SAHL-gahn pohr lah PWEHR-tah deh ah-TRAHS pohr fah-VOHR"}],"words":[{"id":"es-bus-w1","english":"bus stop","translation":"parada de autobús","pronunciation":"pah-RAH-dah deh ow-toh-BOOS"},{"id":"es-bus-w2","english":"route","translation":"ruta / línea","pronunciation":"ROO-tah / LEE-neh-ah"},{"id":"es-bus-w3","english":"fare","translation":"tarifa","pronunciation":"tah-REE-fah"},{"id":"es-bus-w4","english":"seat","translation":"asiento","pronunciation":"ah-see-EHN-toh"},{"id":"es-bus-w5","english":"next","translation":"próximo","pronunciation":"PROHK-see-moh"},{"id":"es-bus-w6","english":"last","translation":"último","pronunciation":"OOL-tee-moh"},{"id":"es-bus-w7","english":"first","translation":"primero","pronunciation":"pree-MEH-roh"},{"id":"es-bus-w8","english":"exit","translation":"salida","pronunciation":"sah-LEE-dah"},{"id":"es-bus-w9","english":"entrance","translation":"entrada","pronunciation":"ehn-TRAH-dah"},{"id":"es-bus-w10","english":"card","translation":"tarjeta","pronunciation":"tar-HEH-tah"},{"id":"es-bus-w11","english":"cash","translation":"efectivo","pronunciation":"eh-fehk-TEE-voh"},{"id":"es-bus-w12","english":"driver","translation":"conductor","pronunciation":"kohn-dook-TOHR"},{"id":"es-bus-w13","english":"door","translation":"puerta","pronunciation":"PWEHR-tah"},{"id":"es-bus-w14","english":"front","translation":"delante","pronunciation":"deh-LAHN-teh"},{"id":"es-bus-w15","english":"back","translation":"atrás","pronunciation":"ah-TRAHS"},{"id":"es-bus-w16","english":"where?","translation":"¿dónde?","pronunciation":"DOHN-deh?"},{"id":"es-bus-w17","english":"to","translation":"a","pronunciation":"ah"}]}');
+
+/***/ })
+
+});

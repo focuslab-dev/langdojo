@@ -1,0 +1,218 @@
+{
+  "categoryId": "cafe",
+  "languageId": "korean",
+  "phrases": [
+    {
+      "id": "ko-cafe-1",
+      "english": "Can I have the menu?",
+      "translation": "메뉴 주세요",
+      "pronunciation": "menyu juseyo"
+    },
+    {
+      "id": "ko-cafe-2",
+      "english": "One coffee please",
+      "translation": "커피 한 잔 주세요",
+      "pronunciation": "keopi han jan juseyo"
+    },
+    {
+      "id": "ko-cafe-3",
+      "english": "One Americano please",
+      "translation": "아메리카노 한 잔 주세요",
+      "pronunciation": "amerikano han jan juseyo"
+    },
+    {
+      "id": "ko-cafe-p1",
+      "english": "What size?",
+      "translation": "사이즈 어떤 걸로 하시겠어요?",
+      "pronunciation": "saijeu eotteon geollo hasigesseoyo?"
+    },
+    {
+      "id": "ko-cafe-4",
+      "english": "Medium size please",
+      "translation": "미디움 사이즈로 주세요",
+      "pronunciation": "midium saijeu-ro juseyo"
+    },
+    {
+      "id": "ko-cafe-p2",
+      "english": "Hot or iced?",
+      "translation": "뜨거운 걸로 드릴까요, 차가운 걸로 드릴까요?",
+      "pronunciation": "tteugeoun geollo deurilkkayo, chagaun geollo deurilkkayo?"
+    },
+    {
+      "id": "ko-cafe-5",
+      "english": "Hot please",
+      "translation": "뜨거운 걸로 주세요",
+      "pronunciation": "tteugeoun geollo juseyo"
+    },
+    {
+      "id": "ko-cafe-6",
+      "english": "Iced please",
+      "translation": "아이스로 주세요",
+      "pronunciation": "aiseu-ro juseyo"
+    },
+    {
+      "id": "ko-cafe-p3",
+      "english": "For here or to go?",
+      "translation": "매장에서 드실 건가요, 가져가실 건가요?",
+      "pronunciation": "maejang-eseo deusil geongayo, gajyeogasil geongayo?"
+    },
+    {
+      "id": "ko-cafe-7",
+      "english": "To eat here",
+      "translation": "매장에서 먹을게요",
+      "pronunciation": "maejang-eseo meogeulgeyo"
+    },
+    {
+      "id": "ko-cafe-8",
+      "english": "To take away",
+      "translation": "가져갈게요",
+      "pronunciation": "gajyeogalgeyo"
+    },
+    {
+      "id": "ko-cafe-p4",
+      "english": "Would you like anything else?",
+      "translation": "다른 것도 필요하세요?",
+      "pronunciation": "dareun geotdo piryohaseyo?"
+    },
+    {
+      "id": "ko-cafe-9",
+      "english": "The bill please",
+      "translation": "계산해 주세요",
+      "pronunciation": "gyesanhae juseyo"
+    }
+  ],
+  "words": [
+    {
+      "id": "ko-cafe-w1",
+      "english": "coffee",
+      "translation": "커피",
+      "pronunciation": "keopi"
+    },
+    {
+      "id": "ko-cafe-w2",
+      "english": "latte",
+      "translation": "라떼",
+      "pronunciation": "latte"
+    },
+    {
+      "id": "ko-cafe-w3",
+      "english": "americano",
+      "translation": "아메리카노",
+      "pronunciation": "amerikano"
+    },
+    {
+      "id": "ko-cafe-w4",
+      "english": "espresso",
+      "translation": "에스프레소",
+      "pronunciation": "eseupeuleso"
+    },
+    {
+      "id": "ko-cafe-w5",
+      "english": "cappuccino",
+      "translation": "카푸치노",
+      "pronunciation": "kapuchino"
+    },
+    {
+      "id": "ko-cafe-w6",
+      "english": "green tea latte",
+      "translation": "녹차 라떼",
+      "pronunciation": "nokcha latte"
+    },
+    {
+      "id": "ko-cafe-w7",
+      "english": "tea",
+      "translation": "차",
+      "pronunciation": "cha"
+    },
+    {
+      "id": "ko-cafe-w8",
+      "english": "milk",
+      "translation": "우유",
+      "pronunciation": "uyu"
+    },
+    {
+      "id": "ko-cafe-w9",
+      "english": "sugar",
+      "translation": "설탕",
+      "pronunciation": "seoltang"
+    },
+    {
+      "id": "ko-cafe-w10",
+      "english": "ice",
+      "translation": "얼음",
+      "pronunciation": "eoreum"
+    },
+    {
+      "id": "ko-cafe-w11",
+      "english": "hot",
+      "translation": "뜨거운",
+      "pronunciation": "tteugeoun"
+    },
+    {
+      "id": "ko-cafe-w12",
+      "english": "cold / iced",
+      "translation": "차가운 / 아이스",
+      "pronunciation": "chagaun / aiseu"
+    },
+    {
+      "id": "ko-cafe-w13",
+      "english": "cup",
+      "translation": "컵",
+      "pronunciation": "keop"
+    },
+    {
+      "id": "ko-cafe-w14",
+      "english": "straw",
+      "translation": "빨대",
+      "pronunciation": "ppaldae"
+    },
+    {
+      "id": "ko-cafe-w15",
+      "english": "small",
+      "translation": "스몰",
+      "pronunciation": "seumol"
+    },
+    {
+      "id": "ko-cafe-w16",
+      "english": "medium",
+      "translation": "미디움",
+      "pronunciation": "midium"
+    },
+    {
+      "id": "ko-cafe-w17",
+      "english": "large",
+      "translation": "라지",
+      "pronunciation": "raji"
+    },
+    {
+      "id": "ko-cafe-w18",
+      "english": "water",
+      "translation": "물",
+      "pronunciation": "mul"
+    },
+    {
+      "id": "ko-cafe-w19",
+      "english": "cake",
+      "translation": "케이크",
+      "pronunciation": "keikeu"
+    },
+    {
+      "id": "ko-cafe-w20",
+      "english": "cookie",
+      "translation": "쿠키",
+      "pronunciation": "kuki"
+    },
+    {
+      "id": "ko-cafe-w21",
+      "english": "please (give me)",
+      "translation": "주세요",
+      "pronunciation": "juseyo"
+    },
+    {
+      "id": "ko-cafe-w22",
+      "english": "by / with (means)",
+      "translation": "(으)로",
+      "pronunciation": "(eu)ro"
+    }
+  ]
+}

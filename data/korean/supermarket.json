@@ -1,0 +1,212 @@
+{
+  "categoryId": "supermarket",
+  "languageId": "korean",
+  "phrases": [
+    {
+      "id": "ko-super-1",
+      "english": "Where is...?",
+      "translation": "...은/는 어디에 있어요?",
+      "pronunciation": "...eun/neun eodie isseoyo?"
+    },
+    {
+      "id": "ko-super-2",
+      "english": "Do you have...?",
+      "translation": "...있어요?",
+      "pronunciation": "...isseoyo?"
+    },
+    {
+      "id": "ko-super-3",
+      "english": "How much is this?",
+      "translation": "이거 얼마예요?",
+      "pronunciation": "igeo eolmayeyo?"
+    },
+    {
+      "id": "ko-super-p1",
+      "english": "Do you have a membership card?",
+      "translation": "멤버십 카드 있으세요?",
+      "pronunciation": "membeosip kadeu isseuseyo?"
+    },
+    {
+      "id": "ko-super-p2",
+      "english": "Your total is... won",
+      "translation": "총 ...원입니다",
+      "pronunciation": "chong ...wonimnida"
+    },
+    {
+      "id": "ko-super-p3",
+      "english": "Do you need a bag?",
+      "translation": "봉투 필요하세요?",
+      "pronunciation": "bongtu piryohaseyo?"
+    },
+    {
+      "id": "ko-super-4",
+      "english": "A bag please",
+      "translation": "봉투 하나 주세요",
+      "pronunciation": "bongtu hana juseyo"
+    },
+    {
+      "id": "ko-super-5",
+      "english": "I don't need a bag",
+      "translation": "봉투 필요 없어요",
+      "pronunciation": "bongtu piryo eopseoyo"
+    },
+    {
+      "id": "ko-super-p4",
+      "english": "Cash or card?",
+      "translation": "현금이요, 카드요?",
+      "pronunciation": "hyeongeumi-yo, kadeu-yo?"
+    },
+    {
+      "id": "ko-super-6",
+      "english": "I'll pay by card",
+      "translation": "카드로 결제할게요",
+      "pronunciation": "kadeu-ro gyeoljaehalgeyo"
+    },
+    {
+      "id": "ko-super-7",
+      "english": "I'll pay with cash",
+      "translation": "현금으로 결제할게요",
+      "pronunciation": "hyeongeum-euro gyeoljaehalgeyo"
+    },
+    {
+      "id": "ko-super-8",
+      "english": "Can I have a receipt?",
+      "translation": "영수증 주세요",
+      "pronunciation": "yeongsujeung juseyo"
+    }
+  ],
+  "words": [
+    {
+      "id": "ko-super-w1",
+      "english": "water",
+      "translation": "물",
+      "pronunciation": "mul"
+    },
+    {
+      "id": "ko-super-w2",
+      "english": "milk",
+      "translation": "우유",
+      "pronunciation": "uyu"
+    },
+    {
+      "id": "ko-super-w3",
+      "english": "bread",
+      "translation": "빵",
+      "pronunciation": "ppang"
+    },
+    {
+      "id": "ko-super-w4",
+      "english": "eggs",
+      "translation": "계란",
+      "pronunciation": "gyeran"
+    },
+    {
+      "id": "ko-super-w5",
+      "english": "rice",
+      "translation": "쌀",
+      "pronunciation": "ssal"
+    },
+    {
+      "id": "ko-super-w6",
+      "english": "fruit",
+      "translation": "과일",
+      "pronunciation": "gwail"
+    },
+    {
+      "id": "ko-super-w7",
+      "english": "snack",
+      "translation": "과자",
+      "pronunciation": "gwaja"
+    },
+    {
+      "id": "ko-super-w8",
+      "english": "candy",
+      "translation": "사탕",
+      "pronunciation": "satang"
+    },
+    {
+      "id": "ko-super-w9",
+      "english": "ramen",
+      "translation": "라면",
+      "pronunciation": "ramyeon"
+    },
+    {
+      "id": "ko-super-w10",
+      "english": "kimchi",
+      "translation": "김치",
+      "pronunciation": "gimchi"
+    },
+    {
+      "id": "ko-super-w11",
+      "english": "bag",
+      "translation": "봉투",
+      "pronunciation": "bongtu"
+    },
+    {
+      "id": "ko-super-w12",
+      "english": "receipt",
+      "translation": "영수증",
+      "pronunciation": "yeongsujeung"
+    },
+    {
+      "id": "ko-super-w13",
+      "english": "cash",
+      "translation": "현금",
+      "pronunciation": "hyeongeum"
+    },
+    {
+      "id": "ko-super-w14",
+      "english": "card",
+      "translation": "카드",
+      "pronunciation": "kadeu"
+    },
+    {
+      "id": "ko-super-w15",
+      "english": "change",
+      "translation": "거스름돈",
+      "pronunciation": "geoseureumdeon"
+    },
+    {
+      "id": "ko-super-w16",
+      "english": "price",
+      "translation": "가격",
+      "pronunciation": "gagyeok"
+    },
+    {
+      "id": "ko-super-w17",
+      "english": "cheap",
+      "translation": "싼",
+      "pronunciation": "ssan"
+    },
+    {
+      "id": "ko-super-w18",
+      "english": "expensive",
+      "translation": "비싼",
+      "pronunciation": "bissan"
+    },
+    {
+      "id": "ko-super-w19",
+      "english": "entrance",
+      "translation": "입구",
+      "pronunciation": "ipgu"
+    },
+    {
+      "id": "ko-super-w20",
+      "english": "exit",
+      "translation": "출구",
+      "pronunciation": "chulgu"
+    },
+    {
+      "id": "ko-super-w21",
+      "english": "please (give me)",
+      "translation": "주세요",
+      "pronunciation": "juseyo"
+    },
+    {
+      "id": "ko-super-w22",
+      "english": "by (means of)",
+      "translation": "(으)로",
+      "pronunciation": "(eu)ro"
+    }
+  ]
+}

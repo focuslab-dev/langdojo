@@ -1,0 +1,176 @@
+{
+  "categoryId": "greetings",
+  "languageId": "french",
+  "phrases": [
+    {
+      "id": "fr-greetings-1",
+      "english": "Welcome",
+      "translation": "Bienvenue",
+      "pronunciation": "Bee-en-veh-noo"
+    },
+    {
+      "id": "fr-greetings-2",
+      "english": "Hello",
+      "translation": "Bonjour",
+      "pronunciation": "Bon-zhoor"
+    },
+    {
+      "id": "fr-greetings-3",
+      "english": "Good morning",
+      "translation": "Bonjour",
+      "pronunciation": "Bon-zhoor"
+    },
+    {
+      "id": "fr-greetings-4",
+      "english": "Good evening",
+      "translation": "Bonsoir",
+      "pronunciation": "Bon-swahr"
+    },
+    {
+      "id": "fr-greetings-5",
+      "english": "Excuse me / Sorry",
+      "translation": "Excusez-moi / Pardon",
+      "pronunciation": "Eks-koo-zay mwah / Par-don"
+    },
+    {
+      "id": "fr-greetings-6",
+      "english": "Please",
+      "translation": "S'il vous plaît",
+      "pronunciation": "Seel voo pleh"
+    },
+    {
+      "id": "fr-greetings-7",
+      "english": "Yes",
+      "translation": "Oui",
+      "pronunciation": "Wee"
+    },
+    {
+      "id": "fr-greetings-8",
+      "english": "No",
+      "translation": "Non",
+      "pronunciation": "Non"
+    },
+    {
+      "id": "fr-greetings-9",
+      "english": "I don't understand",
+      "translation": "Je ne comprends pas",
+      "pronunciation": "Zhuh nuh kom-pron pah"
+    },
+    {
+      "id": "fr-greetings-10",
+      "english": "Please wait a moment",
+      "translation": "Attendez un moment, s'il vous plaît",
+      "pronunciation": "Ah-ton-day un mo-mon, seel voo pleh"
+    },
+    {
+      "id": "fr-greetings-11",
+      "english": "Thank you",
+      "translation": "Merci",
+      "pronunciation": "Mair-see"
+    },
+    {
+      "id": "fr-greetings-12",
+      "english": "You're welcome",
+      "translation": "De rien",
+      "pronunciation": "Duh ree-en"
+    },
+    {
+      "id": "fr-greetings-13",
+      "english": "Goodbye",
+      "translation": "Au revoir",
+      "pronunciation": "Oh ruh-vwahr"
+    }
+  ],
+  "words": [
+    {
+      "id": "fr-greetings-w1",
+      "english": "morning",
+      "translation": "matin",
+      "pronunciation": "mah-tan"
+    },
+    {
+      "id": "fr-greetings-w2",
+      "english": "evening",
+      "translation": "soir",
+      "pronunciation": "swahr"
+    },
+    {
+      "id": "fr-greetings-w3",
+      "english": "night",
+      "translation": "nuit",
+      "pronunciation": "nwee"
+    },
+    {
+      "id": "fr-greetings-w4",
+      "english": "today",
+      "translation": "aujourd'hui",
+      "pronunciation": "oh-zhoor-dwee"
+    },
+    {
+      "id": "fr-greetings-w5",
+      "english": "tomorrow",
+      "translation": "demain",
+      "pronunciation": "duh-man"
+    },
+    {
+      "id": "fr-greetings-w6",
+      "english": "yesterday",
+      "translation": "hier",
+      "pronunciation": "ee-air"
+    },
+    {
+      "id": "fr-greetings-w7",
+      "english": "name",
+      "translation": "nom",
+      "pronunciation": "nom"
+    },
+    {
+      "id": "fr-greetings-w8",
+      "english": "person",
+      "translation": "personne",
+      "pronunciation": "pair-son"
+    },
+    {
+      "id": "fr-greetings-w9",
+      "english": "friend",
+      "translation": "ami",
+      "pronunciation": "ah-mee"
+    },
+    {
+      "id": "fr-greetings-w10",
+      "english": "I / me",
+      "translation": "je / moi",
+      "pronunciation": "zhuh / mwah"
+    },
+    {
+      "id": "fr-greetings-w11",
+      "english": "you",
+      "translation": "vous",
+      "pronunciation": "voo"
+    },
+    {
+      "id": "fr-greetings-w12",
+      "english": "this",
+      "translation": "ceci",
+      "pronunciation": "suh-see"
+    },
+    {
+      "id": "fr-greetings-w13",
+      "english": "that",
+      "translation": "cela",
+      "pronunciation": "suh-lah"
+    },
+    {
+      "id": "fr-greetings-w14",
+      "english": "here",
+      "translation": "ici",
+      "pronunciation": "ee-see"
+    },
+    {
+      "id": "fr-greetings-w15",
+      "english": "there",
+      "translation": "là-bas",
+      "pronunciation": "lah-bah"
+    }
+  ]
+}

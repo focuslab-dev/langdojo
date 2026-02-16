@@ -1,0 +1,42 @@
+{
+  "categoryId": "train",
+  "languageId": "japanese",
+  "phrases": [
+    { "id": "jp-train-1", "english": "One ticket to..., please", "translation": "...まで一枚ください", "pronunciation": "...made ichimai kudasai" },
+    { "id": "jp-train-7", "english": "Round trip ticket, please", "translation": "往復切符をください", "pronunciation": "Oufuku kippu wo kudasai" },
+    { "id": "jp-train-8", "english": "Reserved seat, please", "translation": "指定席をお願いします", "pronunciation": "Shiteiseki wo onegaishimasu" },
+    { "id": "jp-train-4", "english": "What time is the next train?", "translation": "次の電車は何時ですか？", "pronunciation": "Tsugi no densha wa nanji desuka?" },
+    { "id": "jp-train-2", "english": "Which platform for...?", "translation": "...行きは何番線ですか？", "pronunciation": "...yuki wa nanban-sen desuka?" },
+    { "id": "jp-train-5", "english": "Where should I transfer?", "translation": "どこで乗り換えますか？", "pronunciation": "Doko de norikaemasu ka?" },
+    { "id": "jp-train-p4", "english": "This train is bound for...", "translation": "この電車は...行きです", "pronunciation": "Kono densha wa...yuki desu" },
+    { "id": "jp-train-3", "english": "Is this the train to...?", "translation": "これは...行きですか？", "pronunciation": "Kore wa...yuki desuka?" },
+    { "id": "jp-train-p2", "english": "Please stand behind the yellow line", "translation": "黄色い線の内側にお下がりください", "pronunciation": "Kiiroi sen no uchigawa ni osagari kudasai" },
+    { "id": "jp-train-p1", "english": "The train is arriving", "translation": "電車がまいります", "pronunciation": "Densha ga mairimasu" },
+    { "id": "jp-train-6", "english": "Is this seat taken?", "translation": "この席は空いていますか？", "pronunciation": "Kono seki wa aite imasuka?" },
+    { "id": "jp-train-p3", "english": "The next stop is...", "translation": "次は...です", "pronunciation": "Tsugi wa...desu" }
+  ],
+  "words": [
+    { "id": "jp-train-w1", "english": "ticket", "translation": "切符", "pronunciation": "Kippu" },
+    { "id": "jp-train-w2", "english": "platform", "translation": "ホーム", "pronunciation": "Hoomu" },
+    { "id": "jp-train-w3", "english": "express", "translation": "急行", "pronunciation": "Kyuukou" },
+    { "id": "jp-train-w4", "english": "local train", "translation": "各停", "pronunciation": "Kakutei" },
+    { "id": "jp-train-w5", "english": "bullet train", "translation": "新幹線", "pronunciation": "Shinkansen" },
+    { "id": "jp-train-w6", "english": "transfer", "translation": "乗り換え", "pronunciation": "Norikae" },
+    { "id": "jp-train-w7", "english": "exit", "translation": "出口", "pronunciation": "Deguchi" },
+    { "id": "jp-train-w8", "english": "entrance", "translation": "入口", "pronunciation": "Iriguchi" },
+    { "id": "jp-train-w9", "english": "one-way", "translation": "片道", "pronunciation": "Katamichi" },
+    { "id": "jp-train-w10", "english": "round trip", "translation": "往復", "pronunciation": "Oufuku" },
+    { "id": "jp-train-w11", "english": "reserved seat", "translation": "指定席", "pronunciation": "Shiteiseki" },
+    { "id": "jp-train-w12", "english": "free seat", "translation": "自由席", "pronunciation": "Jiyuuseki" },
+    { "id": "jp-train-w13", "english": "timetable", "translation": "時刻表", "pronunciation": "Jikokuhyou" },
+    { "id": "jp-train-w14", "english": "departure", "translation": "出発", "pronunciation": "Shuppatsu" },
+    { "id": "jp-train-w15", "english": "arrival", "translation": "到着", "pronunciation": "Touchaku" },
+    { "id": "jp-train-w16", "english": "ticket gate", "translation": "改札", "pronunciation": "Kaisatsu" },
+    { "id": "jp-train-w17", "english": "line", "translation": "線", "pronunciation": "Sen" },
+    { "id": "jp-train-w18", "english": "delay", "translation": "遅延", "pronunciation": "Chien" },
+    { "id": "jp-train-w19", "english": "IC card", "translation": "ICカード", "pronunciation": "Aishii kaado" },
+    { "id": "jp-train-w20", "english": "last train", "translation": "終電", "pronunciation": "Shuuden" },
+    { "id": "jp-train-w21", "english": "to / until", "translation": "まで", "pronunciation": "Made" },
+    { "id": "jp-train-w22", "english": "bound for", "translation": "行き", "pronunciation": "Yuki" }
+  ]
+}

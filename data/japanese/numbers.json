@@ -1,0 +1,41 @@
+{
+  "categoryId": "numbers",
+  "languageId": "japanese",
+  "phrases": [
+    { "id": "jp-num-1", "english": "How much is this?", "translation": "これはいくらですか？", "pronunciation": "Kore wa ikura desu ka?" },
+    { "id": "jp-num-p1", "english": "It's 500 yen", "translation": "五百円です", "pronunciation": "Gohyaku en desu" },
+    { "id": "jp-num-2", "english": "One please", "translation": "一つください", "pronunciation": "Hitotsu kudasai" },
+    { "id": "jp-num-3", "english": "Two people", "translation": "二人です", "pronunciation": "Futari desu" },
+    { "id": "jp-num-4", "english": "Three of these please", "translation": "これを三つください", "pronunciation": "Kore wo mittsu kudasai" },
+    { "id": "jp-num-5", "english": "What time is it?", "translation": "何時ですか？", "pronunciation": "Nanji desu ka?" },
+    { "id": "jp-num-p2", "english": "It's 3 o'clock", "translation": "三時です", "pronunciation": "San-ji desu" },
+    { "id": "jp-num-6", "english": "One ticket please", "translation": "一枚ください", "pronunciation": "Ichimai kudasai" },
+    { "id": "jp-num-p3", "english": "That's 1,000 yen", "translation": "千円になります", "pronunciation": "Sen en ni narimasu" },
+    { "id": "jp-num-7", "english": "How many?", "translation": "いくつですか？", "pronunciation": "Ikutsu desu ka?" }
+  ],
+  "words": [
+    { "id": "jp-num-w1", "english": "1", "translation": "一", "pronunciation": "Ichi" },
+    { "id": "jp-num-w2", "english": "2", "translation": "二", "pronunciation": "Ni" },
+    { "id": "jp-num-w3", "english": "3", "translation": "三", "pronunciation": "San" },
+    { "id": "jp-num-w4", "english": "4", "translation": "四", "pronunciation": "Yon / Shi" },
+    { "id": "jp-num-w5", "english": "5", "translation": "五", "pronunciation": "Go" },
+    { "id": "jp-num-w6", "english": "6", "translation": "六", "pronunciation": "Roku" },
+    { "id": "jp-num-w7", "english": "7", "translation": "七", "pronunciation": "Nana / Shichi" },
+    { "id": "jp-num-w8", "english": "8", "translation": "八", "pronunciation": "Hachi" },
+    { "id": "jp-num-w9", "english": "9", "translation": "九", "pronunciation": "Kyuu / Ku" },
+    { "id": "jp-num-w10", "english": "10", "translation": "十", "pronunciation": "Juu" },
+    { "id": "jp-num-w11", "english": "11", "translation": "十一", "pronunciation": "Juu-ichi" },
+    { "id": "jp-num-w12", "english": "20", "translation": "二十", "pronunciation": "Ni-juu" },
+    { "id": "jp-num-w13", "english": "21", "translation": "二十一", "pronunciation": "Ni-juu-ichi" },
+    { "id": "jp-num-w14", "english": "50", "translation": "五十", "pronunciation": "Go-juu" },
+    { "id": "jp-num-w15", "english": "100", "translation": "百", "pronunciation": "Hyaku" },
+    { "id": "jp-num-w16", "english": "300", "translation": "三百", "pronunciation": "Sanbyaku" },
+    { "id": "jp-num-w17", "english": "1,000", "translation": "千", "pronunciation": "Sen" },
+    { "id": "jp-num-w18", "english": "3,000", "translation": "三千", "pronunciation": "Sanzen" },
+    { "id": "jp-num-w19", "english": "8,000", "translation": "八千", "pronunciation": "Hassen" },
+    { "id": "jp-num-w20", "english": "10,000", "translation": "一万", "pronunciation": "Ichiman" },
+    { "id": "jp-num-w21", "english": "1 (thing)", "translation": "一つ", "pronunciation": "Hitotsu" },
+    { "id": "jp-num-w22", "english": "2 (things)", "translation": "二つ", "pronunciation": "Futatsu" },
+    { "id": "jp-num-w23", "english": "3 (things)", "translation": "三つ", "pronunciation": "Mittsu" }
+  ]
+}

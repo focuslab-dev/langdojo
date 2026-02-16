@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("pages/index",{
+
+/***/ "./data/thai/taxi.json":
+/*!*****************************!*\
+  !*** ./data/thai/taxi.json ***!
+  \*****************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = /*#__PURE__*/JSON.parse('{"categoryId":"taxi","languageId":"thai","phrases":[{"id":"th-taxi-p1","english":"Where are you going?","translation":"ไปไหน?","pronunciation":"Pai nai?"},{"id":"th-taxi-1","english":"To this address, please","translation":"ไปที่นี่","pronunciation":"Pai tee nee"},{"id":"th-taxi-2","english":"To the train station, please","translation":"ไปสถานีรถไฟ","pronunciation":"Pai satanee rot fai"},{"id":"th-taxi-3","english":"To the airport, please","translation":"ไปสนามบิน","pronunciation":"Pai sanam bin"},{"id":"th-taxi-6","english":"Please use the meter","translation":"เปิดมิเตอร์ด้วย","pronunciation":"Perd meter duay"},{"id":"th-taxi-7","english":"Turn on the air conditioning","translation":"เปิดแอร์ด้วย","pronunciation":"Perd air duay"},{"id":"th-taxi-5","english":"How much will it cost?","translation":"เท่าไหร่?","pronunciation":"Tao rai?"},{"id":"th-taxi-p2","english":"It will be about... baht","translation":"ประมาณ...บาท","pronunciation":"Praman...baht"},{"id":"th-taxi-8","english":"Turn right / left","translation":"เลี้ยวขวา / ซ้าย","pronunciation":"Liao kwa / sai"},{"id":"th-taxi-9","english":"Go straight","translation":"ตรงไป","pronunciation":"Trong pai"},{"id":"th-taxi-4","english":"Please stop here","translation":"จอดที่นี่","pronunciation":"Jort tee nee"},{"id":"th-taxi-p3","english":"We\'ve arrived","translation":"ถึงแล้ว","pronunciation":"Teung laew"}],"words":[{"id":"th-taxi-w1","english":"right","translation":"ขวา","pronunciation":"Kwa"},{"id":"th-taxi-w2","english":"left","translation":"ซ้าย","pronunciation":"Sai"},{"id":"th-taxi-w3","english":"straight","translation":"ตรงไป","pronunciation":"Trong pai"},{"id":"th-taxi-w4","english":"here","translation":"ที่นี่","pronunciation":"Tee nee"},{"id":"th-taxi-w5","english":"there","translation":"ที่นั่น","pronunciation":"Tee nan"},{"id":"th-taxi-w6","english":"near","translation":"ใกล้","pronunciation":"Glai"},{"id":"th-taxi-w7","english":"far","translation":"ไกล","pronunciation":"Glai"},{"id":"th-taxi-w8","english":"fast","translation":"เร็ว","pronunciation":"Reo"},{"id":"th-taxi-w9","english":"slow","translation":"ช้า","pronunciation":"Cha"},{"id":"th-taxi-w10","english":"stop","translation":"จอด","pronunciation":"Jort"},{"id":"th-taxi-w11","english":"airport","translation":"สนามบิน","pronunciation":"Sanam bin"},{"id":"th-taxi-w12","english":"train station","translation":"สถานีรถไฟ","pronunciation":"Satanee rot fai"},{"id":"th-taxi-w13","english":"hotel","translation":"โรงแรม","pronunciation":"Rong raem"},{"id":"th-taxi-w14","english":"map","translation":"แผนที่","pronunciation":"Phaen tee"},{"id":"th-taxi-w15","english":"address","translation":"ที่อยู่","pronunciation":"Tee yoo"},{"id":"th-taxi-w16","english":"meter","translation":"มิเตอร์","pronunciation":"Meter"},{"id":"th-taxi-w17","english":"money","translation":"เงิน","pronunciation":"Ngern"},{"id":"th-taxi-w18","english":"traffic jam","translation":"รถติด","pronunciation":"Rot tit"},{"id":"th-taxi-w19","english":"also / please (add-on)","translation":"ด้วย","pronunciation":"Duay"},{"id":"th-taxi-w20","english":"turn","translation":"เลี้ยว","pronunciation":"Liao"}]}');
+
+/***/ })
+
+});

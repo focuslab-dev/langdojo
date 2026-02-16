@@ -1,0 +1,43 @@
+{
+  "categoryId": "hotel",
+  "languageId": "korean",
+  "phrases": [
+    { "id": "ko-hotel-p1", "english": "Do you have a reservation?", "translation": "예약하셨나요?", "pronunciation": "Yeyak hasyeonnayo?" },
+    { "id": "ko-hotel-1", "english": "I have a reservation", "translation": "예약했어요", "pronunciation": "Yeyak haesseoyo" },
+    { "id": "ko-hotel-2", "english": "I'd like to check in", "translation": "체크인 하고 싶어요", "pronunciation": "Chekeu-in hago sipeoyo" },
+    { "id": "ko-hotel-3", "english": "I'd like to check out", "translation": "체크아웃 하고 싶어요", "pronunciation": "Chekeu-aut hago sipeoyo" },
+    { "id": "ko-hotel-p2", "english": "Your room is on the 3rd floor", "translation": "방은 3층에 있습니다", "pronunciation": "Bangeun samcheunge isseumnida" },
+    { "id": "ko-hotel-4", "english": "A single room, please", "translation": "싱글룸 하나 주세요", "pronunciation": "Singgeul-rum hana juseyo" },
+    { "id": "ko-hotel-5", "english": "A double room, please", "translation": "더블룸 하나 주세요", "pronunciation": "Deobeul-rum hana juseyo" },
+    { "id": "ko-hotel-6", "english": "How much per night?", "translation": "1박에 얼마예요?", "pronunciation": "Ilbage eolmayeyo?" },
+    { "id": "ko-hotel-7", "english": "Is breakfast included?", "translation": "조식 포함인가요?", "pronunciation": "Josik poham-ingayo?" },
+    { "id": "ko-hotel-8", "english": "What time is checkout?", "translation": "체크아웃 몇 시예요?", "pronunciation": "Chekeu-aut myeot siyeyo?" },
+    { "id": "ko-hotel-p3", "english": "Checkout is at 11am", "translation": "체크아웃은 오전 11시입니다", "pronunciation": "Chekeu-auteun ojeon yeolhan-siimnida" },
+    { "id": "ko-hotel-9", "english": "Can I leave my luggage?", "translation": "짐을 맡길 수 있어요?", "pronunciation": "Jimeul matgil su isseoyo?" },
+    { "id": "ko-hotel-10", "english": "The Wi-Fi password, please", "translation": "와이파이 비밀번호 알려주세요", "pronunciation": "Waipai bimilbeonho allyeojuseyo" },
+    { "id": "ko-hotel-11", "english": "Could I get extra towels?", "translation": "수건 더 주실 수 있어요?", "pronunciation": "Sugeon deo jusil su isseoyo?" },
+    { "id": "ko-hotel-12", "english": "The air conditioning doesn't work", "translation": "에어컨이 안 돼요", "pronunciation": "Eieokeon-i an dwaeyo" }
+  ],
+  "words": [
+    { "id": "ko-hotel-w1", "english": "room", "translation": "방", "pronunciation": "Bang" },
+    { "id": "ko-hotel-w2", "english": "key", "translation": "열쇠", "pronunciation": "Yeolsoe" },
+    { "id": "ko-hotel-w3", "english": "floor", "translation": "층", "pronunciation": "Cheung" },
+    { "id": "ko-hotel-w4", "english": "elevator", "translation": "엘리베이터", "pronunciation": "Ellibeiteo" },
+    { "id": "ko-hotel-w5", "english": "stairs", "translation": "계단", "pronunciation": "Gyedan" },
+    { "id": "ko-hotel-w6", "english": "lobby", "translation": "로비", "pronunciation": "Robi" },
+    { "id": "ko-hotel-w7", "english": "front desk", "translation": "프런트", "pronunciation": "Peuronteu" },
+    { "id": "ko-hotel-w8", "english": "bed", "translation": "침대", "pronunciation": "Chimdae" },
+    { "id": "ko-hotel-w9", "english": "pillow", "translation": "베개", "pronunciation": "Begae" },
+    { "id": "ko-hotel-w10", "english": "blanket", "translation": "담요", "pronunciation": "Damnyo" },
+    { "id": "ko-hotel-w11", "english": "towel", "translation": "수건", "pronunciation": "Sugeon" },
+    { "id": "ko-hotel-w12", "english": "bathroom", "translation": "욕실", "pronunciation": "Yoksil" },
+    { "id": "ko-hotel-w13", "english": "shower", "translation": "샤워", "pronunciation": "Syawo" },
+    { "id": "ko-hotel-w14", "english": "hot water", "translation": "뜨거운 물", "pronunciation": "Tteugeoun mul" },
+    { "id": "ko-hotel-w15", "english": "air conditioning", "translation": "에어컨", "pronunciation": "Eieokeon" },
+    { "id": "ko-hotel-w16", "english": "luggage", "translation": "짐", "pronunciation": "Jim" },
+    { "id": "ko-hotel-w17", "english": "passport", "translation": "여권", "pronunciation": "Yeogwon" },
+    { "id": "ko-hotel-w18", "english": "reservation", "translation": "예약", "pronunciation": "Yeyak" },
+    { "id": "ko-hotel-w19", "english": "breakfast", "translation": "조식", "pronunciation": "Josik" },
+    { "id": "ko-hotel-w20", "english": "Wi-Fi", "translation": "와이파이", "pronunciation": "Waipai" }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "categoryId": "greetings",
+  "languageId": "spanish",
+  "phrases": [
+    {
+      "id": "es-greetings-p1",
+      "english": "Welcome",
+      "translation": "Bienvenido",
+      "pronunciation": "Bee-ehn-veh-NEE-doh"
+    },
+    {
+      "id": "es-greetings-1",
+      "english": "Hello",
+      "translation": "Hola",
+      "pronunciation": "OH-lah"
+    },
+    {
+      "id": "es-greetings-2",
+      "english": "Good morning",
+      "translation": "Buenos días",
+      "pronunciation": "BWEH-nohs DEE-ahs"
+    },
+    {
+      "id": "es-greetings-3",
+      "english": "Good evening",
+      "translation": "Buenas tardes",
+      "pronunciation": "BWEH-nahs TAR-dehs"
+    },
+    {
+      "id": "es-greetings-4",
+      "english": "Excuse me / Sorry",
+      "translation": "Perdón / Disculpe",
+      "pronunciation": "Pehr-DOHN / Dees-KOOL-peh"
+    },
+    {
+      "id": "es-greetings-5",
+      "english": "Please",
+      "translation": "Por favor",
+      "pronunciation": "Pohr fah-VOHR"
+    },
+    {
+      "id": "es-greetings-6",
+      "english": "Yes",
+      "translation": "Sí",
+      "pronunciation": "SEE"
+    },
+    {
+      "id": "es-greetings-7",
+      "english": "No",
+      "translation": "No",
+      "pronunciation": "NOH"
+    },
+    {
+      "id": "es-greetings-8",
+      "english": "I don't understand",
+      "translation": "No entiendo",
+      "pronunciation": "Noh ehn-tee-EHN-doh"
+    },
+    {
+      "id": "es-greetings-p2",
+      "english": "Please wait a moment",
+      "translation": "Espere un momento, por favor",
+      "pronunciation": "Ehs-PEH-reh oon moh-MEHN-toh pohr fah-VOHR"
+    },
+    {
+      "id": "es-greetings-9",
+      "english": "Thank you",
+      "translation": "Gracias",
+      "pronunciation": "GRAH-see-ahs"
+    },
+    {
+      "id": "es-greetings-p3",
+      "english": "You're welcome",
+      "translation": "De nada",
+      "pronunciation": "Deh NAH-dah"
+    },
+    {
+      "id": "es-greetings-10",
+      "english": "Goodbye",
+      "translation": "Adiós",
+      "pronunciation": "Ah-dee-OHS"
+    }
+  ],
+  "words": [
+    {
+      "id": "es-greetings-w1",
+      "english": "morning",
+      "translation": "mañana",
+      "pronunciation": "mah-NYAH-nah"
+    },
+    {
+      "id": "es-greetings-w2",
+      "english": "evening",
+      "translation": "tarde",
+      "pronunciation": "TAR-deh"
+    },
+    {
+      "id": "es-greetings-w3",
+      "english": "night",
+      "translation": "noche",
+      "pronunciation": "NOH-cheh"
+    },
+    {
+      "id": "es-greetings-w4",
+      "english": "today",
+      "translation": "hoy",
+      "pronunciation": "OY"
+    },
+    {
+      "id": "es-greetings-w5",
+      "english": "tomorrow",
+      "translation": "mañana",
+      "pronunciation": "mah-NYAH-nah"
+    },
+    {
+      "id": "es-greetings-w6",
+      "english": "yesterday",
+      "translation": "ayer",
+      "pronunciation": "ah-YEHR"
+    },
+    {
+      "id": "es-greetings-w7",
+      "english": "name",
+      "translation": "nombre",
+      "pronunciation": "NOHM-breh"
+    },
+    {
+      "id": "es-greetings-w8",
+      "english": "person",
+      "translation": "persona",
+      "pronunciation": "pehr-SOH-nah"
+    },
+    {
+      "id": "es-greetings-w9",
+      "english": "friend",
+      "translation": "amigo",
+      "pronunciation": "ah-MEE-goh"
+    },
+    {
+      "id": "es-greetings-w10",
+      "english": "I / me",
+      "translation": "yo",
+      "pronunciation": "YOH"
+    },
+    {
+      "id": "es-greetings-w11",
+      "english": "you",
+      "translation": "tú / usted",
+      "pronunciation": "TOO / oos-TEHD"
+    },
+    {
+      "id": "es-greetings-w12",
+      "english": "this",
+      "translation": "esto",
+      "pronunciation": "EHS-toh"
+    },
+    {
+      "id": "es-greetings-w13",
+      "english": "that",
+      "translation": "eso",
+      "pronunciation": "EH-soh"
+    },
+    {
+      "id": "es-greetings-w14",
+      "english": "here",
+      "translation": "aquí",
+      "pronunciation": "ah-KEE"
+    },
+    {
+      "id": "es-greetings-w15",
+      "english": "there",
+      "translation": "allí",
+      "pronunciation": "ah-YEE"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "categoryId": "greetings",
+  "languageId": "korean",
+  "phrases": [
+    {
+      "id": "ko-greet-1",
+      "english": "Welcome",
+      "translation": "환영합니다",
+      "pronunciation": "hwanyeonghamnida"
+    },
+    {
+      "id": "ko-greet-2",
+      "english": "Hello",
+      "translation": "안녕하세요",
+      "pronunciation": "annyeonghaseyo"
+    },
+    {
+      "id": "ko-greet-3",
+      "english": "Good morning",
+      "translation": "좋은 아침이에요",
+      "pronunciation": "joeun achimieyo"
+    },
+    {
+      "id": "ko-greet-4",
+      "english": "Good evening",
+      "translation": "좋은 저녁이에요",
+      "pronunciation": "joeun jeonyeogieyo"
+    },
+    {
+      "id": "ko-greet-5",
+      "english": "Excuse me / Sorry",
+      "translation": "죄송합니다",
+      "pronunciation": "joesonghamnida"
+    },
+    {
+      "id": "ko-greet-6",
+      "english": "Please",
+      "translation": "부탁합니다",
+      "pronunciation": "butakhamnida"
+    },
+    {
+      "id": "ko-greet-7",
+      "english": "Yes",
+      "translation": "네",
+      "pronunciation": "ne"
+    },
+    {
+      "id": "ko-greet-8",
+      "english": "No",
+      "translation": "아니요",
+      "pronunciation": "aniyo"
+    },
+    {
+      "id": "ko-greet-9",
+      "english": "I don't understand",
+      "translation": "이해하지 못해요",
+      "pronunciation": "ihaehaji mothaeyo"
+    },
+    {
+      "id": "ko-greet-10",
+      "english": "Please wait a moment",
+      "translation": "잠시만 기다려 주세요",
+      "pronunciation": "jamsiman gidaryeo juseyo"
+    },
+    {
+      "id": "ko-greet-11",
+      "english": "Thank you",
+      "translation": "감사합니다",
+      "pronunciation": "gamsahamnida"
+    },
+    {
+      "id": "ko-greet-12",
+      "english": "You're welcome",
+      "translation": "천만에요",
+      "pronunciation": "cheonmaneyo"
+    },
+    {
+      "id": "ko-greet-13",
+      "english": "Goodbye",
+      "translation": "안녕히 가세요",
+      "pronunciation": "annyeonghi gaseyo"
+    }
+  ],
+  "words": [
+    {
+      "id": "ko-greet-w1",
+      "english": "morning",
+      "translation": "아침",
+      "pronunciation": "achim"
+    },
+    {
+      "id": "ko-greet-w2",
+      "english": "evening",
+      "translation": "저녁",
+      "pronunciation": "jeonyeok"
+    },
+    {
+      "id": "ko-greet-w3",
+      "english": "night",
+      "translation": "밤",
+      "pronunciation": "bam"
+    },
+    {
+      "id": "ko-greet-w4",
+      "english": "today",
+      "translation": "오늘",
+      "pronunciation": "oneul"
+    },
+    {
+      "id": "ko-greet-w5",
+      "english": "tomorrow",
+      "translation": "내일",
+      "pronunciation": "naeil"
+    },
+    {
+      "id": "ko-greet-w6",
+      "english": "yesterday",
+      "translation": "어제",
+      "pronunciation": "eoje"
+    },
+    {
+      "id": "ko-greet-w7",
+      "english": "name",
+      "translation": "이름",
+      "pronunciation": "ireum"
+    },
+    {
+      "id": "ko-greet-w8",
+      "english": "person",
+      "translation": "사람",
+      "pronunciation": "saram"
+    },
+    {
+      "id": "ko-greet-w9",
+      "english": "friend",
+      "translation": "친구",
+      "pronunciation": "chingu"
+    },
+    {
+      "id": "ko-greet-w10",
+      "english": "I / me",
+      "translation": "저",
+      "pronunciation": "jeo"
+    },
+    {
+      "id": "ko-greet-w11",
+      "english": "you",
+      "translation": "당신",
+      "pronunciation": "dangsin"
+    },
+    {
+      "id": "ko-greet-w12",
+      "english": "this",
+      "translation": "이것",
+      "pronunciation": "igeot"
+    },
+    {
+      "id": "ko-greet-w13",
+      "english": "that",
+      "translation": "그것",
+      "pronunciation": "geugeot"
+    },
+    {
+      "id": "ko-greet-w14",
+      "english": "here",
+      "translation": "여기",
+      "pronunciation": "yeogi"
+    },
+    {
+      "id": "ko-greet-w15",
+      "english": "there",
+      "translation": "거기",
+      "pronunciation": "geogi"
+    }
+  ]
+}

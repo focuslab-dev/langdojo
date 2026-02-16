@@ -1,0 +1,41 @@
+{
+  "categoryId": "numbers",
+  "languageId": "french",
+  "phrases": [
+    { "id": "fr-num-1", "english": "How much is it?", "translation": "C'est combien ?", "pronunciation": "Say com-bee-en?" },
+    { "id": "fr-num-p1", "english": "It's 10 euros", "translation": "C'est dix euros", "pronunciation": "Say dees eu-roh" },
+    { "id": "fr-num-2", "english": "One ticket please", "translation": "Un billet, s'il vous plaît", "pronunciation": "Uhn bee-yeh, seel voo pleh" },
+    { "id": "fr-num-3", "english": "Two coffees please", "translation": "Deux cafés, s'il vous plaît", "pronunciation": "Duh kah-fay, seel voo pleh" },
+    { "id": "fr-num-4", "english": "Table for four", "translation": "Une table pour quatre", "pronunciation": "Ewn tahbl poor katr" },
+    { "id": "fr-num-5", "english": "What time is it?", "translation": "Quelle heure est-il ?", "pronunciation": "Kel uhr eh-teel?" },
+    { "id": "fr-num-p2", "english": "It's 3 o'clock", "translation": "Il est trois heures", "pronunciation": "Eel eh twah uhr" },
+    { "id": "fr-num-6", "english": "How many?", "translation": "Combien ?", "pronunciation": "Com-bee-en?" },
+    { "id": "fr-num-p3", "english": "That's 50 euros", "translation": "Ça fait cinquante euros", "pronunciation": "Sah feh san-kont eu-roh" },
+    { "id": "fr-num-7", "english": "I'd like five please", "translation": "J'en voudrais cinq, s'il vous plaît", "pronunciation": "Zhon voo-dreh sank, seel voo pleh" }
+  ],
+  "words": [
+    { "id": "fr-num-w1", "english": "1", "translation": "un", "pronunciation": "Uhn" },
+    { "id": "fr-num-w2", "english": "2", "translation": "deux", "pronunciation": "Duh" },
+    { "id": "fr-num-w3", "english": "3", "translation": "trois", "pronunciation": "Twah" },
+    { "id": "fr-num-w4", "english": "4", "translation": "quatre", "pronunciation": "Katr" },
+    { "id": "fr-num-w5", "english": "5", "translation": "cinq", "pronunciation": "Sank" },
+    { "id": "fr-num-w6", "english": "6", "translation": "six", "pronunciation": "Sees" },
+    { "id": "fr-num-w7", "english": "7", "translation": "sept", "pronunciation": "Set" },
+    { "id": "fr-num-w8", "english": "8", "translation": "huit", "pronunciation": "Weet" },
+    { "id": "fr-num-w9", "english": "9", "translation": "neuf", "pronunciation": "Nuhf" },
+    { "id": "fr-num-w10", "english": "10", "translation": "dix", "pronunciation": "Dees" },
+    { "id": "fr-num-w11", "english": "11", "translation": "onze", "pronunciation": "Onz" },
+    { "id": "fr-num-w12", "english": "16", "translation": "seize", "pronunciation": "Sez" },
+    { "id": "fr-num-w13", "english": "17", "translation": "dix-sept", "pronunciation": "Dee-set" },
+    { "id": "fr-num-w14", "english": "20", "translation": "vingt", "pronunciation": "Van" },
+    { "id": "fr-num-w15", "english": "21", "translation": "vingt et un", "pronunciation": "Van-tay-uhn" },
+    { "id": "fr-num-w16", "english": "50", "translation": "cinquante", "pronunciation": "San-kont" },
+    { "id": "fr-num-w17", "english": "70", "translation": "soixante-dix", "pronunciation": "Swah-sont-dees" },
+    { "id": "fr-num-w18", "english": "80", "translation": "quatre-vingts", "pronunciation": "Katr-van" },
+    { "id": "fr-num-w19", "english": "90", "translation": "quatre-vingt-dix", "pronunciation": "Katr-van-dees" },
+    { "id": "fr-num-w20", "english": "100", "translation": "cent", "pronunciation": "Son" },
+    { "id": "fr-num-w21", "english": "500", "translation": "cinq cents", "pronunciation": "Sank-son" },
+    { "id": "fr-num-w22", "english": "1,000", "translation": "mille", "pronunciation": "Meel" },
+    { "id": "fr-num-w23", "english": "10,000", "translation": "dix mille", "pronunciation": "Dee meel" }
+  ]
+}

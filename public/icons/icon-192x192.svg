@@ -1,0 +1,6 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="192" height="192" rx="32" fill="#FCD34D"/>
+  <text x="96" y="110" font-size="72" text-anchor="middle" fill="#1F2937" font-family="system-ui, sans-serif" font-weight="bold">T</text>
+  <circle cx="140" cy="140" r="24" fill="#1F2937"/>
+  <path d="M132 140L138 146L148 134" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

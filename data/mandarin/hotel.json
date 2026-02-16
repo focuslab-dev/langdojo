@@ -1,0 +1,43 @@
+{
+  "categoryId": "hotel",
+  "languageId": "mandarin",
+  "phrases": [
+    { "id": "zh-hotel-p1", "english": "Do you have a reservation?", "translation": "您有预订吗？", "pronunciation": "Nín yǒu yùdìng ma?" },
+    { "id": "zh-hotel-1", "english": "I have a reservation", "translation": "我有预订", "pronunciation": "Wǒ yǒu yùdìng" },
+    { "id": "zh-hotel-2", "english": "I'd like to check in", "translation": "我要办理入住", "pronunciation": "Wǒ yào bànlǐ rùzhù" },
+    { "id": "zh-hotel-3", "english": "I'd like to check out", "translation": "我要退房", "pronunciation": "Wǒ yào tuìfáng" },
+    { "id": "zh-hotel-p2", "english": "Your room is on the 3rd floor", "translation": "您的房间在三楼", "pronunciation": "Nín de fángjiān zài sān lóu" },
+    { "id": "zh-hotel-4", "english": "A single room, please", "translation": "我要一间单人房", "pronunciation": "Wǒ yào yī jiān dānrénfáng" },
+    { "id": "zh-hotel-5", "english": "A double room, please", "translation": "我要一间双人房", "pronunciation": "Wǒ yào yī jiān shuāngrénfáng" },
+    { "id": "zh-hotel-6", "english": "How much per night?", "translation": "一晚多少钱？", "pronunciation": "Yī wǎn duōshao qián?" },
+    { "id": "zh-hotel-7", "english": "Is breakfast included?", "translation": "包含早餐吗？", "pronunciation": "Bāohán zǎocān ma?" },
+    { "id": "zh-hotel-8", "english": "What time is checkout?", "translation": "几点退房？", "pronunciation": "Jǐ diǎn tuìfáng?" },
+    { "id": "zh-hotel-p3", "english": "Checkout is at 11am", "translation": "退房时间是上午十一点", "pronunciation": "Tuìfáng shíjiān shì shàngwǔ shíyī diǎn" },
+    { "id": "zh-hotel-9", "english": "Can I leave my luggage?", "translation": "可以寄存行李吗？", "pronunciation": "Kěyǐ jìcún xínglǐ ma?" },
+    { "id": "zh-hotel-10", "english": "The Wi-Fi password, please", "translation": "请问Wi-Fi密码是什么？", "pronunciation": "Qǐngwèn Wi-Fi mìmǎ shì shénme?" },
+    { "id": "zh-hotel-11", "english": "Could I get extra towels?", "translation": "可以多给几条毛巾吗？", "pronunciation": "Kěyǐ duō gěi jǐ tiáo máojīn ma?" },
+    { "id": "zh-hotel-12", "english": "The air conditioning doesn't work", "translation": "空调坏了", "pronunciation": "Kōngtiáo huài le" }
+  ],
+  "words": [
+    { "id": "zh-hotel-w1", "english": "room", "translation": "房间", "pronunciation": "Fángjiān" },
+    { "id": "zh-hotel-w2", "english": "key", "translation": "钥匙", "pronunciation": "Yàoshi" },
+    { "id": "zh-hotel-w3", "english": "floor", "translation": "楼", "pronunciation": "Lóu" },
+    { "id": "zh-hotel-w4", "english": "elevator", "translation": "电梯", "pronunciation": "Diàntī" },
+    { "id": "zh-hotel-w5", "english": "stairs", "translation": "楼梯", "pronunciation": "Lóutī" },
+    { "id": "zh-hotel-w6", "english": "lobby", "translation": "大厅", "pronunciation": "Dàtīng" },
+    { "id": "zh-hotel-w7", "english": "front desk", "translation": "前台", "pronunciation": "Qiántái" },
+    { "id": "zh-hotel-w8", "english": "bed", "translation": "床", "pronunciation": "Chuáng" },
+    { "id": "zh-hotel-w9", "english": "pillow", "translation": "枕头", "pronunciation": "Zhěntou" },
+    { "id": "zh-hotel-w10", "english": "blanket", "translation": "毯子", "pronunciation": "Tǎnzi" },
+    { "id": "zh-hotel-w11", "english": "towel", "translation": "毛巾", "pronunciation": "Máojīn" },
+    { "id": "zh-hotel-w12", "english": "bathroom", "translation": "浴室", "pronunciation": "Yùshì" },
+    { "id": "zh-hotel-w13", "english": "shower", "translation": "淋浴", "pronunciation": "Línyù" },
+    { "id": "zh-hotel-w14", "english": "hot water", "translation": "热水", "pronunciation": "Rèshuǐ" },
+    { "id": "zh-hotel-w15", "english": "air conditioning", "translation": "空调", "pronunciation": "Kōngtiáo" },
+    { "id": "zh-hotel-w16", "english": "luggage", "translation": "行李", "pronunciation": "Xínglǐ" },
+    { "id": "zh-hotel-w17", "english": "passport", "translation": "护照", "pronunciation": "Hùzhào" },
+    { "id": "zh-hotel-w18", "english": "reservation", "translation": "预订", "pronunciation": "Yùdìng" },
+    { "id": "zh-hotel-w19", "english": "breakfast", "translation": "早餐", "pronunciation": "Zǎocān" },
+    { "id": "zh-hotel-w20", "english": "Wi-Fi", "translation": "无线网络", "pronunciation": "Wúxiàn wǎngluò" }
+  ]
+}

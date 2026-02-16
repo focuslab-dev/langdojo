@@ -1,0 +1,200 @@
+{
+  "categoryId": "taxi",
+  "languageId": "french",
+  "phrases": [
+    {
+      "id": "fr-taxi-p1",
+      "english": "Where are you going?",
+      "translation": "Où allez-vous ?",
+      "pronunciation": "Oo ah-lay voo?"
+    },
+    {
+      "id": "fr-taxi-1",
+      "english": "To this address please",
+      "translation": "À cette adresse, s'il vous plaît",
+      "pronunciation": "Ah set ah-dress, seel voo pleh"
+    },
+    {
+      "id": "fr-taxi-2",
+      "english": "To the station please",
+      "translation": "À la gare, s'il vous plaît",
+      "pronunciation": "Ah lah gar, seel voo pleh"
+    },
+    {
+      "id": "fr-taxi-3",
+      "english": "To the airport please",
+      "translation": "À l'aéroport, s'il vous plaît",
+      "pronunciation": "Ah lah-ay-ro-por, seel voo pleh"
+    },
+    {
+      "id": "fr-taxi-4",
+      "english": "How much will it cost?",
+      "translation": "Combien ça va coûter ?",
+      "pronunciation": "Kom-bee-en sah vah koo-tay?"
+    },
+    {
+      "id": "fr-taxi-p2",
+      "english": "It will be about... euros",
+      "translation": "Ce sera environ... euros",
+      "pronunciation": "Suh suh-rah on-vee-ron... uh-roh"
+    },
+    {
+      "id": "fr-taxi-5",
+      "english": "Can I pay by card?",
+      "translation": "Est-ce que je peux payer par carte ?",
+      "pronunciation": "Ess-kuh zhuh puh pay-yay par kart?"
+    },
+    {
+      "id": "fr-taxi-6",
+      "english": "Turn right / left",
+      "translation": "Tournez à droite / à gauche",
+      "pronunciation": "Toor-nay ah drwaht / ah gohsh"
+    },
+    {
+      "id": "fr-taxi-7",
+      "english": "Go straight",
+      "translation": "Allez tout droit",
+      "pronunciation": "Ah-lay too drwah"
+    },
+    {
+      "id": "fr-taxi-8",
+      "english": "Please stop here",
+      "translation": "Arrêtez-vous ici, s'il vous plaît",
+      "pronunciation": "Ah-reh-tay voo ee-see, seel voo pleh"
+    },
+    {
+      "id": "fr-taxi-9",
+      "english": "Can you wait here?",
+      "translation": "Pouvez-vous attendre ici ?",
+      "pronunciation": "Poo-vay voo ah-ton-druh ee-see?"
+    },
+    {
+      "id": "fr-taxi-p3",
+      "english": "We've arrived",
+      "translation": "Nous sommes arrivés",
+      "pronunciation": "Noo som ah-ree-vay"
+    }
+  ],
+  "words": [
+    {
+      "id": "fr-taxi-w1",
+      "english": "right",
+      "translation": "droite",
+      "pronunciation": "drwaht"
+    },
+    {
+      "id": "fr-taxi-w2",
+      "english": "left",
+      "translation": "gauche",
+      "pronunciation": "gohsh"
+    },
+    {
+      "id": "fr-taxi-w3",
+      "english": "straight",
+      "translation": "tout droit",
+      "pronunciation": "too drwah"
+    },
+    {
+      "id": "fr-taxi-w4",
+      "english": "here",
+      "translation": "ici",
+      "pronunciation": "ee-see"
+    },
+    {
+      "id": "fr-taxi-w5",
+      "english": "there",
+      "translation": "là-bas",
+      "pronunciation": "lah-bah"
+    },
+    {
+      "id": "fr-taxi-w6",
+      "english": "near",
+      "translation": "près",
+      "pronunciation": "preh"
+    },
+    {
+      "id": "fr-taxi-w7",
+      "english": "far",
+      "translation": "loin",
+      "pronunciation": "lwan"
+    },
+    {
+      "id": "fr-taxi-w8",
+      "english": "fast",
+      "translation": "rapide",
+      "pronunciation": "rah-peed"
+    },
+    {
+      "id": "fr-taxi-w9",
+      "english": "slow",
+      "translation": "lent",
+      "pronunciation": "lon"
+    },
+    {
+      "id": "fr-taxi-w10",
+      "english": "stop",
+      "translation": "arrêt",
+      "pronunciation": "ah-reh"
+    },
+    {
+      "id": "fr-taxi-w11",
+      "english": "airport",
+      "translation": "aéroport",
+      "pronunciation": "ah-ay-ro-por"
+    },
+    {
+      "id": "fr-taxi-w12",
+      "english": "station",
+      "translation": "gare",
+      "pronunciation": "gar"
+    },
+    {
+      "id": "fr-taxi-w13",
+      "english": "hotel",
+      "translation": "hôtel",
+      "pronunciation": "oh-tel"
+    },
+    {
+      "id": "fr-taxi-w14",
+      "english": "map",
+      "translation": "carte",
+      "pronunciation": "kart"
+    },
+    {
+      "id": "fr-taxi-w15",
+      "english": "address",
+      "translation": "adresse",
+      "pronunciation": "ah-dress"
+    },
+    {
+      "id": "fr-taxi-w16",
+      "english": "meter",
+      "translation": "compteur",
+      "pronunciation": "kon-tur"
+    },
+    {
+      "id": "fr-taxi-w17",
+      "english": "money",
+      "translation": "argent",
+      "pronunciation": "ar-zhon"
+    },
+    {
+      "id": "fr-taxi-w18",
+      "english": "traffic",
+      "translation": "circulation",
+      "pronunciation": "seer-koo-lah-syon"
+    },
+    {
+      "id": "fr-taxi-w19",
+      "english": "to / at",
+      "translation": "à",
+      "pronunciation": "ah"
+    },
+    {
+      "id": "fr-taxi-w20",
+      "english": "please",
+      "translation": "s'il vous plaît",
+      "pronunciation": "seel voo pleh"
+    }
+  ]
+}

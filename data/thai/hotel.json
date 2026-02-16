@@ -1,0 +1,43 @@
+{
+  "categoryId": "hotel",
+  "languageId": "thai",
+  "phrases": [
+    { "id": "th-hotel-p1", "english": "Do you have a reservation?", "translation": "มีการจองไหม?", "pronunciation": "Mee gan jorng mai?" },
+    { "id": "th-hotel-1", "english": "I have a reservation", "translation": "ฉันจองไว้แล้ว", "pronunciation": "Chan jorng wai laew" },
+    { "id": "th-hotel-2", "english": "I'd like to check in", "translation": "ขอเช็คอินครับ/ค่ะ", "pronunciation": "Kor check-in krap/ka" },
+    { "id": "th-hotel-3", "english": "I'd like to check out", "translation": "ขอเช็คเอาท์ครับ/ค่ะ", "pronunciation": "Kor check-out krap/ka" },
+    { "id": "th-hotel-p2", "english": "Your room is on the 3rd floor", "translation": "ห้องของคุณอยู่ชั้น 3", "pronunciation": "Horng kong kun yoo chan saam" },
+    { "id": "th-hotel-4", "english": "A single room, please", "translation": "ขอห้องเดี่ยว", "pronunciation": "Kor horng diao" },
+    { "id": "th-hotel-5", "english": "A double room, please", "translation": "ขอห้องคู่", "pronunciation": "Kor horng koo" },
+    { "id": "th-hotel-6", "english": "How much per night?", "translation": "คืนละเท่าไหร่?", "pronunciation": "Keun la tao rai?" },
+    { "id": "th-hotel-7", "english": "Is breakfast included?", "translation": "รวมอาหารเช้าไหม?", "pronunciation": "Ruam ahaan chao mai?" },
+    { "id": "th-hotel-8", "english": "What time is checkout?", "translation": "เช็คเอาท์กี่โมง?", "pronunciation": "Check-out gee mohng?" },
+    { "id": "th-hotel-p3", "english": "Checkout is at 11am", "translation": "เช็คเอาท์ตอน 11 โมง", "pronunciation": "Check-out torn sip-et mohng" },
+    { "id": "th-hotel-9", "english": "Can I leave my luggage?", "translation": "ฝากกระเป๋าได้ไหม?", "pronunciation": "Faak grapao dai mai?" },
+    { "id": "th-hotel-10", "english": "The Wi-Fi password, please", "translation": "ขอรหัส Wi-Fi ครับ/ค่ะ", "pronunciation": "Kor rahat Wi-Fi krap/ka" },
+    { "id": "th-hotel-11", "english": "Could I get extra towels?", "translation": "ขอผ้าเช็ดตัวเพิ่มได้ไหม?", "pronunciation": "Kor pa chet tua perm dai mai?" },
+    { "id": "th-hotel-12", "english": "The air conditioning doesn't work", "translation": "แอร์ไม่ทำงาน", "pronunciation": "Air mai tam ngaan" }
+  ],
+  "words": [
+    { "id": "th-hotel-w1", "english": "room", "translation": "ห้อง", "pronunciation": "Horng" },
+    { "id": "th-hotel-w2", "english": "key", "translation": "กุญแจ", "pronunciation": "Gunjae" },
+    { "id": "th-hotel-w3", "english": "floor", "translation": "ชั้น", "pronunciation": "Chan" },
+    { "id": "th-hotel-w4", "english": "elevator", "translation": "ลิฟต์", "pronunciation": "Lift" },
+    { "id": "th-hotel-w5", "english": "stairs", "translation": "บันได", "pronunciation": "Bandai" },
+    { "id": "th-hotel-w6", "english": "lobby", "translation": "ล็อบบี้", "pronunciation": "Lobby" },
+    { "id": "th-hotel-w7", "english": "front desk", "translation": "แผนกต้อนรับ", "pronunciation": "Panaek torn rap" },
+    { "id": "th-hotel-w8", "english": "bed", "translation": "เตียง", "pronunciation": "Tiang" },
+    { "id": "th-hotel-w9", "english": "pillow", "translation": "หมอน", "pronunciation": "Morn" },
+    { "id": "th-hotel-w10", "english": "blanket", "translation": "ผ้าห่ม", "pronunciation": "Pa hom" },
+    { "id": "th-hotel-w11", "english": "towel", "translation": "ผ้าเช็ดตัว", "pronunciation": "Pa chet tua" },
+    { "id": "th-hotel-w12", "english": "bathroom", "translation": "ห้องน้ำ", "pronunciation": "Horng nam" },
+    { "id": "th-hotel-w13", "english": "shower", "translation": "ฝักบัว", "pronunciation": "Fak bua" },
+    { "id": "th-hotel-w14", "english": "hot water", "translation": "น้ำร้อน", "pronunciation": "Nam rorn" },
+    { "id": "th-hotel-w15", "english": "air conditioning", "translation": "แอร์", "pronunciation": "Air" },
+    { "id": "th-hotel-w16", "english": "luggage", "translation": "กระเป๋า", "pronunciation": "Grapao" },
+    { "id": "th-hotel-w17", "english": "passport", "translation": "พาสปอร์ต", "pronunciation": "Passport" },
+    { "id": "th-hotel-w18", "english": "reservation", "translation": "การจอง", "pronunciation": "Gan jorng" },
+    { "id": "th-hotel-w19", "english": "breakfast", "translation": "อาหารเช้า", "pronunciation": "Ahaan chao" },
+    { "id": "th-hotel-w20", "english": "Wi-Fi", "translation": "ไวไฟ", "pronunciation": "Wai-fai" }
+  ]
+}

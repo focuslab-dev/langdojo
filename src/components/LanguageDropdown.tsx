@@ -60,18 +60,18 @@ export const LanguageDropdown = ({
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -10, scale: 0.95 }}
             transition={{ duration: 0.15 }}
-            className="absolute top-full right-0 mt-2 bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden min-w-[160px] z-50"
+            className="absolute top-full left-0 mt-2 bg-white rounded-2xl lg:rounded-xl shadow-lg border border-gray-100 overflow-hidden min-w-[160px] lg:min-w-[140px] z-50"
           >
             {languages.map((language) => (
               <button
                 key={language.id}
                 onClick={() => handleSelect(language)}
-                className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors ${
+                className={`w-full flex items-center gap-3 lg:gap-2 px-4 lg:px-3 py-3 lg:py-2 hover:bg-gray-50 transition-colors ${
                   selectedLanguage.id === language.id ? "bg-accent/10" : ""
                 }`}
               >
-                <span className="text-xl">{language.flag}</span>
-                <span className="text-sm font-medium text-gray-700">
+                <span className="text-xl lg:text-base">{language.flag}</span>
+                <span className="text-sm lg:text-xs font-medium text-gray-700">
                   {language.name}
                 </span>
               </button>

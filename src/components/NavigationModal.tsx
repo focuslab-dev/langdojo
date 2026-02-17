@@ -40,7 +40,7 @@ export const NavigationModal = ({
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-            className="fixed inset-4 bg-white rounded-3xl z-50 overflow-hidden flex flex-col"
+            className="fixed inset-4 lg:inset-auto lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-full lg:max-w-lg lg:max-h-[80vh] bg-white rounded-3xl z-50 overflow-hidden flex flex-col shadow-2xl"
           >
             {/* Header */}
             <div className="flex items-center justify-between p-4 border-b border-gray-100">
@@ -56,7 +56,7 @@ export const NavigationModal = ({
 
             {/* Category Grid */}
             <div className="flex-1 overflow-y-auto p-4">
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
                 {categories.map((category, index) => {
                   const isSelected = selectedCategoryId === category.id;
 

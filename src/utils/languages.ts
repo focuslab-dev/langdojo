@@ -87,7 +87,7 @@ export const categories: Category[] = [
     name: 'Taxi',
     icon: 'Car',
     emoji: '🚕',
-    color: '#FCD34D',
+    color: '#D97706',
   },
   {
     id: 'train',

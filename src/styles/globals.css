@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   padding: 0;
@@ -10,6 +14,13 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #FFFFFF;
   overflow-x: hidden;
+}
+
+/* Desktop: subtle background behind content area */
+@media (min-width: 1024px) {
+  body {
+    background-color: #F9FAFB;
+  }
 }
 
 * {

@@ -28,4 +28,4 @@ export interface Category {
 }
 
 export type LanguageId = 'japanese' | 'mandarin' | 'thai' | 'korean' | 'french' | 'spanish';
-export type CategoryId = 'favorites' | 'greetings' | 'numbers' | 'cafe' | 'restaurant' | 'supermarket' | 'taxi' | 'train' | 'bus' | 'hotel';
+export type CategoryId = 'favorites' | 'basics' | 'numbers' | 'cafe' | 'restaurant' | 'supermarket' | 'taxi' | 'train' | 'bus' | 'hotel';

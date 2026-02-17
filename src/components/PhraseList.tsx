@@ -8,6 +8,7 @@ interface PhraseListProps {
   words: Phrase[];
   languageId: LanguageId;
   categoryId: CategoryId;
+  speakingText: string | null;
   isFavorite: (phraseId: string, languageId: LanguageId) => boolean;
   onToggleFavorite: (phrase: Phrase, languageId: LanguageId, categoryId: string) => void;
   onSpeak: (text: string, languageId: string) => void;
@@ -18,6 +19,7 @@ export const PhraseList = ({
   words,
   languageId,
   categoryId,
+  speakingText,
   isFavorite,
   onToggleFavorite,
   onSpeak,
@@ -86,6 +88,7 @@ export const PhraseList = ({
               phrase={phrase}
               languageId={languageId}
               isFavorite={isFavorite(phrase.id, languageId)}
+              isSpeaking={speakingText === phrase.translation}
               onToggleFavorite={() => onToggleFavorite(phrase, languageId, categoryId)}
               onSpeak={() => onSpeak(phrase.translation, languageId)}
             />

@@ -1,8 +1,9 @@
-import { useCallback, useRef } from 'react';
+import { useCallback, useRef, useState } from 'react';
 import { getLanguageById } from '@/utils/languages';
 
 export const useTTS = () => {
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const [speakingText, setSpeakingText] = useState<string | null>(null);
 
   const speak = useCallback((text: string, languageId: string) => {
     if (typeof window === 'undefined' || !window.speechSynthesis) {
@@ -12,6 +13,7 @@ export const useTTS = () => {
 
     // Cancel any ongoing speech
     window.speechSynthesis.cancel();
+    setSpeakingText(null);
 
     const language = getLanguageById(languageId);
     if (!language) {
@@ -31,6 +33,10 @@ export const useTTS = () => {
       utterance.voice = voice;
     }
 
+    utterance.onstart = () => setSpeakingText(text);
+    utterance.onend = () => setSpeakingText(null);
+    utterance.onerror = () => setSpeakingText(null);
+
     utteranceRef.current = utterance;
     window.speechSynthesis.speak(utterance);
   }, []);
@@ -38,8 +44,9 @@ export const useTTS = () => {
   const stop = useCallback(() => {
     if (typeof window !== 'undefined' && window.speechSynthesis) {
       window.speechSynthesis.cancel();
+      setSpeakingText(null);
     }
   }, []);
 
-  return { speak, stop };
+  return { speak, stop, speakingText };
 };

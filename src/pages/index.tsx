@@ -3,7 +3,7 @@ import Head from "next/head";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { Language, LanguageId, CategoryId } from "@/types";
-import { languages, categories, getCategoryById } from "@/utils/languages";
+import { languages, categories, getCategoryById, getLanguageById } from "@/utils/languages";
 import { useFavorites } from "@/hooks/useFavorites";
 import { usePhraseData } from "@/hooks/usePhraseData";
 import { useTTS } from "@/hooks/useTTS";
@@ -13,16 +13,28 @@ import { NavigationModal } from "@/components/NavigationModal";
 import { LanguageDropdown } from "@/components/LanguageDropdown";
 
 export default function Home() {
-  const [selectedLanguage, setSelectedLanguage] = useState<Language>(
-    languages[0],
-  );
-  const [selectedCategoryId, setSelectedCategoryId] =
-    useState<CategoryId>("greetings");
+  const [selectedLanguage, setSelectedLanguage] = useState<Language>(() => {
+    if (typeof window === "undefined") return languages[0];
+    const saved = localStorage.getItem("selectedLanguageId");
+    return (saved && getLanguageById(saved)) || languages[0];
+  });
+  const [selectedCategoryId, setSelectedCategoryId] = useState<CategoryId>(() => {
+    if (typeof window === "undefined") return "basics";
+    return (localStorage.getItem("selectedCategoryId") as CategoryId) || "basics";
+  });
   const [isNavModalOpen, setIsNavModalOpen] = useState(false);
+
+  useEffect(() => {
+    localStorage.setItem("selectedLanguageId", selectedLanguage.id);
+  }, [selectedLanguage]);
+
+  useEffect(() => {
+    localStorage.setItem("selectedCategoryId", selectedCategoryId);
+  }, [selectedCategoryId]);
 
   const { isFavorite, toggleFavorite, getFavoritesByLanguage, isLoaded } =
     useFavorites();
-  const { speak } = useTTS();
+  const { speak, speakingText } = useTTS();
 
   const selectedCategory = getCategoryById(selectedCategoryId) || categories[1];
 
@@ -98,6 +110,7 @@ export default function Home() {
               words={currentWords}
               languageId={selectedLanguage.id as LanguageId}
               categoryId={selectedCategoryId}
+              speakingText={speakingText}
               isFavorite={isFavorite}
               onToggleFavorite={toggleFavorite}
               onSpeak={speak}

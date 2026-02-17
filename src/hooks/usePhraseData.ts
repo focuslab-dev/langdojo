@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import { LanguageId, CategoryId, Phrase, PhraseCategory } from "@/types";
 
 // Japanese
-import japaneseGreetings from "@/data/japanese/greetings.json";
+import japaneseBasics from "@/data/japanese/basics.json";
 import japaneseCafe from "@/data/japanese/cafe.json";
 import japaneseRestaurant from "@/data/japanese/restaurant.json";
 import japaneseSupermarket from "@/data/japanese/supermarket.json";
@@ -13,7 +13,7 @@ import japaneseNumbers from "@/data/japanese/numbers.json";
 import japaneseHotel from "@/data/japanese/hotel.json";
 
 // Mandarin
-import mandarinGreetings from "@/data/mandarin/greetings.json";
+import mandarinBasics from "@/data/mandarin/basics.json";
 import mandarinCafe from "@/data/mandarin/cafe.json";
 import mandarinRestaurant from "@/data/mandarin/restaurant.json";
 import mandarinSupermarket from "@/data/mandarin/supermarket.json";
@@ -24,7 +24,7 @@ import mandarinNumbers from "@/data/mandarin/numbers.json";
 import mandarinHotel from "@/data/mandarin/hotel.json";
 
 // Thai
-import thaiGreetings from "@/data/thai/greetings.json";
+import thaiBasics from "@/data/thai/basics.json";
 import thaiCafe from "@/data/thai/cafe.json";
 import thaiRestaurant from "@/data/thai/restaurant.json";
 import thaiSupermarket from "@/data/thai/supermarket.json";
@@ -35,7 +35,7 @@ import thaiNumbers from "@/data/thai/numbers.json";
 import thaiHotel from "@/data/thai/hotel.json";
 
 // Korean
-import koreanGreetings from "@/data/korean/greetings.json";
+import koreanBasics from "@/data/korean/basics.json";
 import koreanCafe from "@/data/korean/cafe.json";
 import koreanRestaurant from "@/data/korean/restaurant.json";
 import koreanSupermarket from "@/data/korean/supermarket.json";
@@ -46,7 +46,7 @@ import koreanNumbers from "@/data/korean/numbers.json";
 import koreanHotel from "@/data/korean/hotel.json";
 
 // French
-import frenchGreetings from "@/data/french/greetings.json";
+import frenchBasics from "@/data/french/basics.json";
 import frenchCafe from "@/data/french/cafe.json";
 import frenchRestaurant from "@/data/french/restaurant.json";
 import frenchSupermarket from "@/data/french/supermarket.json";
@@ -57,7 +57,7 @@ import frenchNumbers from "@/data/french/numbers.json";
 import frenchHotel from "@/data/french/hotel.json";
 
 // Spanish
-import spanishGreetings from "@/data/spanish/greetings.json";
+import spanishBasics from "@/data/spanish/basics.json";
 import spanishCafe from "@/data/spanish/cafe.json";
 import spanishRestaurant from "@/data/spanish/restaurant.json";
 import spanishSupermarket from "@/data/spanish/supermarket.json";
@@ -69,7 +69,7 @@ import spanishHotel from "@/data/spanish/hotel.json";
 
 const phraseData: Record<LanguageId, Record<string, PhraseCategory>> = {
   japanese: {
-    greetings: japaneseGreetings,
+    basics: japaneseBasics,
     numbers: japaneseNumbers,
     cafe: japaneseCafe,
     restaurant: japaneseRestaurant,
@@ -80,7 +80,7 @@ const phraseData: Record<LanguageId, Record<string, PhraseCategory>> = {
     hotel: japaneseHotel,
   },
   mandarin: {
-    greetings: mandarinGreetings,
+    basics: mandarinBasics,
     numbers: mandarinNumbers,
     cafe: mandarinCafe,
     restaurant: mandarinRestaurant,
@@ -91,7 +91,7 @@ const phraseData: Record<LanguageId, Record<string, PhraseCategory>> = {
     hotel: mandarinHotel,
   },
   thai: {
-    greetings: thaiGreetings,
+    basics: thaiBasics,
     numbers: thaiNumbers,
     cafe: thaiCafe,
     restaurant: thaiRestaurant,
@@ -102,7 +102,7 @@ const phraseData: Record<LanguageId, Record<string, PhraseCategory>> = {
     hotel: thaiHotel,
   },
   korean: {
-    greetings: koreanGreetings,
+    basics: koreanBasics,
     numbers: koreanNumbers,
     cafe: koreanCafe,
     restaurant: koreanRestaurant,
@@ -113,7 +113,7 @@ const phraseData: Record<LanguageId, Record<string, PhraseCategory>> = {
     hotel: koreanHotel,
   },
   french: {
-    greetings: frenchGreetings,
+    basics: frenchBasics,
     numbers: frenchNumbers,
     cafe: frenchCafe,
     restaurant: frenchRestaurant,
@@ -124,7 +124,7 @@ const phraseData: Record<LanguageId, Record<string, PhraseCategory>> = {
     hotel: frenchHotel,
   },
   spanish: {
-    greetings: spanishGreetings,
+    basics: spanishBasics,
     numbers: spanishNumbers,
     cafe: spanishCafe,
     restaurant: spanishRestaurant,

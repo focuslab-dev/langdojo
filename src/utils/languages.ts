@@ -48,8 +48,8 @@ export const categories: Category[] = [
     color: '#EF4444',
   },
   {
-    id: 'greetings',
-    name: 'Greetings',
+    id: 'basics',
+    name: 'Basics',
     icon: 'Hand',
     emoji: '👋',
     color: '#F59E0B',

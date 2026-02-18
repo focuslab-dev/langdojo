@@ -21,16 +21,21 @@ export const PhraseCard = ({
   return (
     <motion.div
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1, y: 0, scale: isSpeaking ? 1.03 : 1 }}
+      animate={{
+        opacity: 1,
+        // y: isSpeaking ? -10 : 0,
+        scale: isSpeaking ? 1.02 : 1,
+      }}
       exit={{ opacity: 0, y: -20 }}
-      transition={{ scale: { duration: 0.2 } }}
+      transition={{ scale: { duration: 0 } }}
       onClick={onSpeak}
       className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 cursor-pointer active:bg-gray-50 lg:hover:shadow-md lg:hover:-translate-y-0.5 lg:hover:border-gray-200 transition-all"
     >
       <div className="flex items-start justify-between gap-3">
         <div className="flex-1 min-w-0">
           {/* English (small, secondary) */}
-          <p className="text-sm text-gray-400">{phrase.english}</p>
+          <p className="text-sm text-pink-600">{phrase.english}</p>
+          {/* <p className="text-sm text-[#13aa98]">{phrase.english}</p> */}
 
           {/* Translation (large, primary) */}
           <p className="mt-2 text-lg font-semibold text-gray-800 leading-tight">

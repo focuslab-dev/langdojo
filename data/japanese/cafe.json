@@ -2,41 +2,167 @@
   "categoryId": "cafe",
   "languageId": "japanese",
   "phrases": [
-    { "id": "jp-cafe-6", "english": "Can I have the menu?", "translation": "メニューをお願いします", "pronunciation": "Menyuu wo onegaishimasu" },
-    { "id": "jp-cafe-1", "english": "One coffee, please", "translation": "コーヒーを一つください", "pronunciation": "Koohii wo hitotsu kudasai" },
-    { "id": "jp-cafe-5", "english": "Green tea latte, please", "translation": "抹茶ラテをください", "pronunciation": "Matcha rate wo kudasai" },
-    { "id": "jp-cafe-p2", "english": "What size would you like?", "translation": "サイズはいかがなさいますか？", "pronunciation": "Saizu wa ikaga nasaimasuka?" },
-    { "id": "jp-cafe-8", "english": "Medium size, please", "translation": "Mサイズでお願いします", "pronunciation": "Emu saizu de onegaishimasu" },
-    { "id": "jp-cafe-p3", "english": "Hot or iced?", "translation": "ホットとアイス、どちらになさいますか？", "pronunciation": "Hotto to aisu, dochira ni nasaimasuka?" },
-    { "id": "jp-cafe-2", "english": "Hot / Iced", "translation": "ホット / アイス", "pronunciation": "Hotto / Aisu" },
-    { "id": "jp-cafe-p1", "english": "For here or to go?", "translation": "店内でお召し上がりですか？", "pronunciation": "Tennai de omeshiagari desuka?" },
-    { "id": "jp-cafe-3", "english": "To eat here", "translation": "店内で", "pronunciation": "Tennai de" },
-    { "id": "jp-cafe-4", "english": "To take away", "translation": "持ち帰りで", "pronunciation": "Mochikaeri de" },
-    { "id": "jp-cafe-p4", "english": "Would you like anything else?", "translation": "他にご注文はございますか？", "pronunciation": "Hoka ni gochuumon wa gozaimasuka?" },
-    { "id": "jp-cafe-7", "english": "The bill, please", "translation": "お会計をお願いします", "pronunciation": "Okaikei wo onegaishimasu" }
+    {
+      "id": "jp-cafe-menu",
+      "translation": "Can I have the menu?",
+      "text": "メニューをお願いします",
+      "pronunciation": "menyuu wo onegaishimasu",
+      "words": [
+        { "text": "メニュー", "pronunciation": "menyuu", "translation": "menu" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please (give me)" }
+      ]
+    },
+    {
+      "id": "jp-cafe-one-coffee",
+      "translation": "One coffee, please",
+      "text": "コーヒーを一つください",
+      "pronunciation": "koohii wo hitotsu kudasai",
+      "words": [
+        { "text": "コーヒー", "pronunciation": "koohii", "translation": "coffee" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "一つ", "pronunciation": "hitotsu", "translation": "one" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "jp-cafe-matcha-latte",
+      "translation": "Green tea latte, please",
+      "text": "抹茶ラテをください",
+      "pronunciation": "matcha rate wo kudasai",
+      "words": [
+        { "text": "抹茶", "pronunciation": "matcha", "translation": "matcha (green tea)" },
+        { "text": "ラテ", "pronunciation": "rate", "translation": "latte" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "jp-cafe-what-size",
+      "translation": "What size would you like?",
+      "text": "サイズはいかがなさいますか？",
+      "pronunciation": "saizu wa ikaga nasaimasuka?",
+      "words": [
+        { "text": "サイズ", "pronunciation": "saizu", "translation": "size" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "いかがなさいますか", "pronunciation": "ikaga nasaimasuka", "translation": "how would you like (very polite)" }
+      ]
+    },
+    {
+      "id": "jp-cafe-medium-size",
+      "translation": "Medium size, please",
+      "text": "Mサイズでお願いします",
+      "pronunciation": "emu saizu de onegaishimasu",
+      "words": [
+        { "text": "Mサイズ", "pronunciation": "emu saizu", "translation": "M size / medium" },
+        { "text": "で", "pronunciation": "de", "translation": "(manner particle)" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-cafe-hot-or-iced",
+      "translation": "Hot or iced?",
+      "text": "ホットとアイス、どちらになさいますか？",
+      "pronunciation": "hotto to aisu, dochira ni nasaimasuka?",
+      "words": [
+        { "text": "ホット", "pronunciation": "hotto", "translation": "hot" },
+        { "text": "と", "pronunciation": "to", "translation": "and / or" },
+        { "text": "アイス", "pronunciation": "aisu", "translation": "iced" },
+        { "text": "どちら", "pronunciation": "dochira", "translation": "which one" },
+        { "text": "に", "pronunciation": "ni", "translation": "(direction particle)" },
+        { "text": "なさいますか", "pronunciation": "nasaimasuka", "translation": "will you have (very polite)" }
+      ]
+    },
+    {
+      "id": "jp-cafe-hot-iced",
+      "translation": "Hot / Iced",
+      "text": "ホット / アイス",
+      "pronunciation": "hotto / aisu",
+      "words": [
+        { "text": "ホット", "pronunciation": "hotto", "translation": "hot" },
+        { "text": "アイス", "pronunciation": "aisu", "translation": "iced / cold" }
+      ]
+    },
+    {
+      "id": "jp-cafe-for-here-or-go",
+      "translation": "For here or to go?",
+      "text": "店内でお召し上がりですか？",
+      "pronunciation": "tennai de omeshiagari desuka?",
+      "words": [
+        { "text": "店内", "pronunciation": "tennai", "translation": "inside the shop" },
+        { "text": "で", "pronunciation": "de", "translation": "(location particle)" },
+        { "text": "お召し上がり", "pronunciation": "omeshiagari", "translation": "eat / drink (honorific)" },
+        { "text": "ですか", "pronunciation": "desuka", "translation": "is it? (question)" }
+      ]
+    },
+    {
+      "id": "jp-cafe-eat-here",
+      "translation": "To eat here",
+      "text": "店内で",
+      "pronunciation": "tennai de",
+      "words": [
+        { "text": "店内", "pronunciation": "tennai", "translation": "inside the shop" },
+        { "text": "で", "pronunciation": "de", "translation": "(location / manner particle)" }
+      ]
+    },
+    {
+      "id": "jp-cafe-takeaway",
+      "translation": "To take away",
+      "text": "持ち帰りで",
+      "pronunciation": "mochikaeri de",
+      "words": [
+        { "text": "持ち帰り", "pronunciation": "mochikaeri", "translation": "takeaway / to go" },
+        { "text": "で", "pronunciation": "de", "translation": "(manner particle)" }
+      ]
+    },
+    {
+      "id": "jp-cafe-anything-else",
+      "translation": "Would you like anything else?",
+      "text": "他にご注文はございますか？",
+      "pronunciation": "hoka ni gochuumon wa gozaimasuka?",
+      "words": [
+        { "text": "他に", "pronunciation": "hoka ni", "translation": "in addition / anything else" },
+        { "text": "ご注文", "pronunciation": "gochuumon", "translation": "order (honorific)" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "ございますか", "pronunciation": "gozaimasuka", "translation": "is there (very polite)" }
+      ]
+    },
+    {
+      "id": "jp-cafe-bill",
+      "translation": "The bill, please",
+      "text": "お会計をお願いします",
+      "pronunciation": "okaikei wo onegaishimasu",
+      "words": [
+        { "text": "お会計", "pronunciation": "okaikei", "translation": "bill / check" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please" }
+      ]
+    }
   ],
   "words": [
-    { "id": "jp-cafe-w1", "english": "coffee", "translation": "コーヒー", "pronunciation": "Koohii" },
-    { "id": "jp-cafe-w2", "english": "latte", "translation": "ラテ", "pronunciation": "Rate" },
-    { "id": "jp-cafe-w3", "english": "americano", "translation": "アメリカーノ", "pronunciation": "Amerikaano" },
-    { "id": "jp-cafe-w4", "english": "espresso", "translation": "エスプレッソ", "pronunciation": "Esupuresso" },
-    { "id": "jp-cafe-w5", "english": "cappuccino", "translation": "カプチーノ", "pronunciation": "Kapuchiino" },
-    { "id": "jp-cafe-w6", "english": "matcha", "translation": "抹茶", "pronunciation": "Matcha" },
-    { "id": "jp-cafe-w7", "english": "tea", "translation": "お茶", "pronunciation": "Ocha" },
-    { "id": "jp-cafe-w8", "english": "milk", "translation": "ミルク", "pronunciation": "Miruku" },
-    { "id": "jp-cafe-w9", "english": "sugar", "translation": "砂糖", "pronunciation": "Satou" },
-    { "id": "jp-cafe-w10", "english": "ice", "translation": "氷", "pronunciation": "Koori" },
-    { "id": "jp-cafe-w11", "english": "hot", "translation": "ホット", "pronunciation": "Hotto" },
-    { "id": "jp-cafe-w12", "english": "cold / iced", "translation": "アイス", "pronunciation": "Aisu" },
-    { "id": "jp-cafe-w13", "english": "cup", "translation": "カップ", "pronunciation": "Kappu" },
-    { "id": "jp-cafe-w14", "english": "straw", "translation": "ストロー", "pronunciation": "Sutoroo" },
-    { "id": "jp-cafe-w15", "english": "small", "translation": "Sサイズ", "pronunciation": "Esu saizu" },
-    { "id": "jp-cafe-w16", "english": "medium", "translation": "Mサイズ", "pronunciation": "Emu saizu" },
-    { "id": "jp-cafe-w17", "english": "large", "translation": "Lサイズ", "pronunciation": "Eru saizu" },
-    { "id": "jp-cafe-w18", "english": "water", "translation": "水", "pronunciation": "Mizu" },
-    { "id": "jp-cafe-w19", "english": "cake", "translation": "ケーキ", "pronunciation": "Keeki" },
-    { "id": "jp-cafe-w20", "english": "cookie", "translation": "クッキー", "pronunciation": "Kukkii" },
-    { "id": "jp-cafe-w21", "english": "please (give me)", "translation": "ください", "pronunciation": "Kudasai" },
-    { "id": "jp-cafe-w22", "english": "please (request)", "translation": "お願いします", "pronunciation": "Onegaishimasu" }
+    { "id": "jp-cafe-w-coffee", "translation": "coffee", "text": "コーヒー", "pronunciation": "koohii" },
+    { "id": "jp-cafe-w-latte", "translation": "latte", "text": "ラテ", "pronunciation": "rate" },
+    { "id": "jp-cafe-w-americano", "translation": "americano", "text": "アメリカーノ", "pronunciation": "amerikaano" },
+    { "id": "jp-cafe-w-espresso", "translation": "espresso", "text": "エスプレッソ", "pronunciation": "esupuresso" },
+    { "id": "jp-cafe-w-cappuccino", "translation": "cappuccino", "text": "カプチーノ", "pronunciation": "kapuchiino" },
+    { "id": "jp-cafe-w-matcha", "translation": "matcha", "text": "抹茶", "pronunciation": "matcha" },
+    { "id": "jp-cafe-w-tea", "translation": "tea", "text": "お茶", "pronunciation": "ocha" },
+    { "id": "jp-cafe-w-milk", "translation": "milk", "text": "ミルク", "pronunciation": "miruku" },
+    { "id": "jp-cafe-w-sugar", "translation": "sugar", "text": "砂糖", "pronunciation": "satou" },
+    { "id": "jp-cafe-w-ice", "translation": "ice", "text": "氷", "pronunciation": "koori" },
+    { "id": "jp-cafe-w-hot", "translation": "hot", "text": "ホット", "pronunciation": "hotto" },
+    { "id": "jp-cafe-w-iced", "translation": "cold / iced", "text": "アイス", "pronunciation": "aisu" },
+    { "id": "jp-cafe-w-cup", "translation": "cup", "text": "カップ", "pronunciation": "kappu" },
+    { "id": "jp-cafe-w-straw", "translation": "straw", "text": "ストロー", "pronunciation": "sutoroo" },
+    { "id": "jp-cafe-w-size-small", "translation": "small", "text": "Sサイズ", "pronunciation": "esu saizu" },
+    { "id": "jp-cafe-w-size-medium", "translation": "medium", "text": "Mサイズ", "pronunciation": "emu saizu" },
+    { "id": "jp-cafe-w-size-large", "translation": "large", "text": "Lサイズ", "pronunciation": "eru saizu" },
+    { "id": "jp-cafe-w-water", "translation": "water", "text": "水", "pronunciation": "mizu" },
+    { "id": "jp-cafe-w-cake", "translation": "cake", "text": "ケーキ", "pronunciation": "keeki" },
+    { "id": "jp-cafe-w-cookie", "translation": "cookie", "text": "クッキー", "pronunciation": "kukkii" },
+    { "id": "jp-cafe-w-chocolate", "translation": "chocolate", "text": "チョコレート", "pronunciation": "chokoreeto" },
+    { "id": "jp-cafe-w-vanilla", "translation": "vanilla", "text": "バニラ", "pronunciation": "banira" },
+    { "id": "jp-cafe-w-syrup", "translation": "syrup", "text": "シロップ", "pronunciation": "shiroppu" },
+    { "id": "jp-cafe-w-sandwich", "translation": "sandwich", "text": "サンドイッチ", "pronunciation": "sandoicchi" }
   ]
 }

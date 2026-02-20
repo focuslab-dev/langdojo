@@ -2,44 +2,188 @@
   "categoryId": "cafe",
   "languageId": "mandarin",
   "phrases": [
-    { "id": "zh-cafe-6", "english": "Can I have the menu?", "translation": "可以看一下菜单吗？", "pronunciation": "Kěyǐ kàn yíxià càidān ma?" },
-    { "id": "zh-cafe-1", "english": "One coffee, please", "translation": "我要一杯咖啡", "pronunciation": "Wǒ yào yì bēi kāfēi" },
-    { "id": "zh-cafe-5", "english": "Milk tea, please", "translation": "我要奶茶", "pronunciation": "Wǒ yào nǎichá" },
-    { "id": "zh-cafe-p2", "english": "What size would you like?", "translation": "要什么大小？", "pronunciation": "Yào shénme dàxiǎo?" },
-    { "id": "zh-cafe-8", "english": "Medium size, please", "translation": "中杯", "pronunciation": "Zhōng bēi" },
-    { "id": "zh-cafe-p3", "english": "Hot or iced?", "translation": "热的还是冰的？", "pronunciation": "Rè de háishì bīng de?" },
-    { "id": "zh-cafe-2", "english": "Hot / Iced", "translation": "热的 / 冰的", "pronunciation": "Rè de / Bīng de" },
-    { "id": "zh-cafe-9", "english": "Less sugar", "translation": "少糖", "pronunciation": "Shǎo táng" },
-    { "id": "zh-cafe-10", "english": "No ice", "translation": "去冰", "pronunciation": "Qù bīng" },
-    { "id": "zh-cafe-p1", "english": "For here or to go?", "translation": "在这里喝还是带走？", "pronunciation": "Zài zhèlǐ hē háishì dài zǒu?" },
-    { "id": "zh-cafe-3", "english": "To eat here", "translation": "在这里喝", "pronunciation": "Zài zhèlǐ hē" },
-    { "id": "zh-cafe-4", "english": "To take away", "translation": "带走", "pronunciation": "Dài zǒu" },
-    { "id": "zh-cafe-p4", "english": "Would you like anything else?", "translation": "还要别的吗？", "pronunciation": "Hái yào bié de ma?" },
-    { "id": "zh-cafe-7", "english": "The bill, please", "translation": "买单", "pronunciation": "Mǎidān" }
+    {
+      "id": "zh-cafe-menu",
+      "translation": "Can I have the menu?",
+      "text": "可以看一下菜单吗？",
+      "pronunciation": "kěyǐ kàn yíxià càidān ma?",
+      "words": [
+        { "text": "可以", "pronunciation": "kěyǐ", "translation": "can / may" },
+        { "text": "看", "pronunciation": "kàn", "translation": "look / see" },
+        { "text": "一下", "pronunciation": "yíxià", "translation": "a moment / just" },
+        { "text": "菜单", "pronunciation": "càidān", "translation": "menu" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-cafe-one-coffee",
+      "translation": "One coffee, please",
+      "text": "我要一杯咖啡",
+      "pronunciation": "wǒ yào yì bēi kāfēi",
+      "words": [
+        { "text": "我", "pronunciation": "wǒ", "translation": "I / me" },
+        { "text": "要", "pronunciation": "yào", "translation": "want" },
+        { "text": "一杯", "pronunciation": "yì bēi", "translation": "one cup (measure)" },
+        { "text": "咖啡", "pronunciation": "kāfēi", "translation": "coffee" }
+      ]
+    },
+    {
+      "id": "zh-cafe-milk-tea",
+      "translation": "Milk tea, please",
+      "text": "我要奶茶",
+      "pronunciation": "wǒ yào nǎichá",
+      "words": [
+        { "text": "我", "pronunciation": "wǒ", "translation": "I / me" },
+        { "text": "要", "pronunciation": "yào", "translation": "want" },
+        { "text": "奶茶", "pronunciation": "nǎichá", "translation": "milk tea" }
+      ]
+    },
+    {
+      "id": "zh-cafe-what-size",
+      "translation": "What size would you like?",
+      "text": "要什么大小？",
+      "pronunciation": "yào shénme dàxiǎo?",
+      "words": [
+        { "text": "要", "pronunciation": "yào", "translation": "want" },
+        { "text": "什么", "pronunciation": "shénme", "translation": "what" },
+        { "text": "大小", "pronunciation": "dàxiǎo", "translation": "size" }
+      ]
+    },
+    {
+      "id": "zh-cafe-medium-size",
+      "translation": "Medium size, please",
+      "text": "中杯",
+      "pronunciation": "zhōng bēi",
+      "words": [
+        { "text": "中", "pronunciation": "zhōng", "translation": "medium / middle" },
+        { "text": "杯", "pronunciation": "bēi", "translation": "cup" }
+      ]
+    },
+    {
+      "id": "zh-cafe-hot-or-iced",
+      "translation": "Hot or iced?",
+      "text": "热的还是冰的？",
+      "pronunciation": "rè de háishì bīng de?",
+      "words": [
+        { "text": "热", "pronunciation": "rè", "translation": "hot" },
+        { "text": "的", "pronunciation": "de", "translation": "(descriptive particle)" },
+        { "text": "还是", "pronunciation": "háishì", "translation": "or (choice)" },
+        { "text": "冰", "pronunciation": "bīng", "translation": "ice / iced" },
+        { "text": "的", "pronunciation": "de", "translation": "(descriptive particle)" }
+      ]
+    },
+    {
+      "id": "zh-cafe-hot-iced",
+      "translation": "Hot / Iced",
+      "text": "热的 / 冰的",
+      "pronunciation": "rè de / bīng de",
+      "words": [
+        { "text": "热", "pronunciation": "rè", "translation": "hot" },
+        { "text": "的", "pronunciation": "de", "translation": "(descriptive particle)" },
+        { "text": "冰", "pronunciation": "bīng", "translation": "ice / iced" }
+      ]
+    },
+    {
+      "id": "zh-cafe-less-sugar",
+      "translation": "Less sugar",
+      "text": "少糖",
+      "pronunciation": "shǎo táng",
+      "words": [
+        { "text": "少", "pronunciation": "shǎo", "translation": "less / few" },
+        { "text": "糖", "pronunciation": "táng", "translation": "sugar" }
+      ]
+    },
+    {
+      "id": "zh-cafe-no-ice",
+      "translation": "No ice",
+      "text": "去冰",
+      "pronunciation": "qù bīng",
+      "words": [
+        { "text": "去", "pronunciation": "qù", "translation": "remove / without" },
+        { "text": "冰", "pronunciation": "bīng", "translation": "ice" }
+      ]
+    },
+    {
+      "id": "zh-cafe-here-or-go",
+      "translation": "For here or to go?",
+      "text": "在这里喝还是带走？",
+      "pronunciation": "zài zhèlǐ hē háishì dài zǒu?",
+      "words": [
+        { "text": "在", "pronunciation": "zài", "translation": "at / in" },
+        { "text": "这里", "pronunciation": "zhèlǐ", "translation": "here" },
+        { "text": "喝", "pronunciation": "hē", "translation": "drink" },
+        { "text": "还是", "pronunciation": "háishì", "translation": "or (choice)" },
+        { "text": "带走", "pronunciation": "dài zǒu", "translation": "take away" }
+      ]
+    },
+    {
+      "id": "zh-cafe-eat-here",
+      "translation": "To eat here",
+      "text": "在这里喝",
+      "pronunciation": "zài zhèlǐ hē",
+      "words": [
+        { "text": "在", "pronunciation": "zài", "translation": "at / in" },
+        { "text": "这里", "pronunciation": "zhèlǐ", "translation": "here" },
+        { "text": "喝", "pronunciation": "hē", "translation": "drink" }
+      ]
+    },
+    {
+      "id": "zh-cafe-takeaway",
+      "translation": "To take away",
+      "text": "带走",
+      "pronunciation": "dài zǒu",
+      "words": [
+        { "text": "带", "pronunciation": "dài", "translation": "take / bring" },
+        { "text": "走", "pronunciation": "zǒu", "translation": "leave / go" }
+      ]
+    },
+    {
+      "id": "zh-cafe-anything-else",
+      "translation": "Would you like anything else?",
+      "text": "还要别的吗？",
+      "pronunciation": "hái yào bié de ma?",
+      "words": [
+        { "text": "还", "pronunciation": "hái", "translation": "still / more" },
+        { "text": "要", "pronunciation": "yào", "translation": "want" },
+        { "text": "别的", "pronunciation": "bié de", "translation": "other / else" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-cafe-bill",
+      "translation": "The bill, please",
+      "text": "买单",
+      "pronunciation": "mǎidān",
+      "words": [
+        { "text": "买", "pronunciation": "mǎi", "translation": "pay / settle" },
+        { "text": "单", "pronunciation": "dān", "translation": "bill / order" }
+      ]
+    }
   ],
   "words": [
-    { "id": "zh-cafe-w1", "english": "coffee", "translation": "咖啡", "pronunciation": "Kāfēi" },
-    { "id": "zh-cafe-w2", "english": "latte", "translation": "拿铁", "pronunciation": "Ná tiě" },
-    { "id": "zh-cafe-w3", "english": "americano", "translation": "美式咖啡", "pronunciation": "Měishì kāfēi" },
-    { "id": "zh-cafe-w4", "english": "espresso", "translation": "浓缩咖啡", "pronunciation": "Nóngsuō kāfēi" },
-    { "id": "zh-cafe-w5", "english": "cappuccino", "translation": "卡布奇诺", "pronunciation": "Kǎbùqínuò" },
-    { "id": "zh-cafe-w6", "english": "milk tea", "translation": "奶茶", "pronunciation": "Nǎichá" },
-    { "id": "zh-cafe-w7", "english": "bubble tea", "translation": "珍珠奶茶", "pronunciation": "Zhēnzhū nǎichá" },
-    { "id": "zh-cafe-w8", "english": "tea", "translation": "茶", "pronunciation": "Chá" },
-    { "id": "zh-cafe-w9", "english": "milk", "translation": "牛奶", "pronunciation": "Niúnǎi" },
-    { "id": "zh-cafe-w10", "english": "sugar", "translation": "糖", "pronunciation": "Táng" },
-    { "id": "zh-cafe-w11", "english": "ice", "translation": "冰", "pronunciation": "Bīng" },
-    { "id": "zh-cafe-w12", "english": "hot", "translation": "热", "pronunciation": "Rè" },
-    { "id": "zh-cafe-w13", "english": "cold", "translation": "冷", "pronunciation": "Lěng" },
-    { "id": "zh-cafe-w14", "english": "cup", "translation": "杯子", "pronunciation": "Bēizi" },
-    { "id": "zh-cafe-w15", "english": "straw", "translation": "吸管", "pronunciation": "Xīguǎn" },
-    { "id": "zh-cafe-w16", "english": "small", "translation": "小杯", "pronunciation": "Xiǎo bēi" },
-    { "id": "zh-cafe-w17", "english": "medium", "translation": "中杯", "pronunciation": "Zhōng bēi" },
-    { "id": "zh-cafe-w18", "english": "large", "translation": "大杯", "pronunciation": "Dà bēi" },
-    { "id": "zh-cafe-w19", "english": "water", "translation": "水", "pronunciation": "Shuǐ" },
-    { "id": "zh-cafe-w20", "english": "cake", "translation": "蛋糕", "pronunciation": "Dàngāo" },
-    { "id": "zh-cafe-w21", "english": "want", "translation": "要", "pronunciation": "Yào" },
-    { "id": "zh-cafe-w22", "english": "can / may", "translation": "可以", "pronunciation": "Kěyǐ" },
-    { "id": "zh-cafe-w23", "english": "or", "translation": "还是", "pronunciation": "Háishì" }
+    { "id": "zh-cafe-w-coffee", "translation": "coffee", "text": "咖啡", "pronunciation": "kāfēi" },
+    { "id": "zh-cafe-w-latte", "translation": "latte", "text": "拿铁", "pronunciation": "ná tiě" },
+    { "id": "zh-cafe-w-americano", "translation": "americano", "text": "美式咖啡", "pronunciation": "měishì kāfēi" },
+    { "id": "zh-cafe-w-espresso", "translation": "espresso", "text": "浓缩咖啡", "pronunciation": "nóngsuō kāfēi" },
+    { "id": "zh-cafe-w-cappuccino", "translation": "cappuccino", "text": "卡布奇诺", "pronunciation": "kǎbùqínuò" },
+    { "id": "zh-cafe-w-milk-tea", "translation": "milk tea", "text": "奶茶", "pronunciation": "nǎichá" },
+    { "id": "zh-cafe-w-bubble-tea", "translation": "bubble tea", "text": "珍珠奶茶", "pronunciation": "zhēnzhū nǎichá" },
+    { "id": "zh-cafe-w-tea", "translation": "tea", "text": "茶", "pronunciation": "chá" },
+    { "id": "zh-cafe-w-milk", "translation": "milk", "text": "牛奶", "pronunciation": "niúnǎi" },
+    { "id": "zh-cafe-w-sugar", "translation": "sugar", "text": "糖", "pronunciation": "táng" },
+    { "id": "zh-cafe-w-ice", "translation": "ice", "text": "冰", "pronunciation": "bīng" },
+    { "id": "zh-cafe-w-hot", "translation": "hot", "text": "热", "pronunciation": "rè" },
+    { "id": "zh-cafe-w-cold", "translation": "cold", "text": "冷", "pronunciation": "lěng" },
+    { "id": "zh-cafe-w-cup", "translation": "cup", "text": "杯子", "pronunciation": "bēizi" },
+    { "id": "zh-cafe-w-straw", "translation": "straw", "text": "吸管", "pronunciation": "xīguǎn" },
+    { "id": "zh-cafe-w-small", "translation": "small", "text": "小杯", "pronunciation": "xiǎo bēi" },
+    { "id": "zh-cafe-w-medium", "translation": "medium", "text": "中杯", "pronunciation": "zhōng bēi" },
+    { "id": "zh-cafe-w-large", "translation": "large", "text": "大杯", "pronunciation": "dà bēi" },
+    { "id": "zh-cafe-w-water", "translation": "water", "text": "水", "pronunciation": "shuǐ" },
+    { "id": "zh-cafe-w-cake", "translation": "cake", "text": "蛋糕", "pronunciation": "dàngāo" },
+    { "id": "zh-cafe-w-juice", "translation": "juice", "text": "果汁", "pronunciation": "guǒzhī" },
+    { "id": "zh-cafe-w-sandwich", "translation": "sandwich", "text": "三明治", "pronunciation": "sānmíngzhì" },
+    { "id": "zh-cafe-w-smoothie", "translation": "smoothie / blended ice", "text": "沙冰", "pronunciation": "shābīng" },
+    { "id": "zh-cafe-w-cookie", "translation": "cookie / biscuit", "text": "饼干", "pronunciation": "bǐnggān" }
   ]
 }

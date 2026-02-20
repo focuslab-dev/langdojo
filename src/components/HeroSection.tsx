@@ -7,17 +7,19 @@ interface HeroSectionProps {
   category: Category;
   languageId: LanguageId;
   categoryId: CategoryId;
+  heroSectionHeight: number;
 }
 
 export const HeroSection = ({
   category,
   languageId,
   categoryId,
+  heroSectionHeight,
 }: HeroSectionProps) => {
   return (
     <div
-      className="fixed top-0 left-0 w-full h-[30vh] flex flex-col"
-      style={{ backgroundColor: category.color }}
+      className="fixed top-0 left-0 w-full flex flex-col"
+      style={{ backgroundColor: category.color, height: heroSectionHeight }}
     >
       {/* Centered emoji */}
       <div className="flex-1 flex flex-col items-center justify-center">
@@ -30,15 +32,13 @@ export const HeroSection = ({
         >
           {category.emoji}
         </motion.div>
-        {categoryId !== "favorites" && (
-          <Link
-            href={`/download?lang=${languageId}&cat=${categoryId}`}
-            className="mt-3 flex items-center gap-1.5 bg-white/20 hover:bg-white/30 text-white text-xs font-medium px-3 py-1.5 rounded-full transition-colors"
-          >
-            <Download className="w-3.5 h-3.5" />
-            Download
-          </Link>
-        )}
+        <Link
+          href={`/download?lang=${languageId}&cat=${categoryId}`}
+          className="mt-3 flex items-center gap-1.5 bg-white/20 hover:bg-white/30 text-white text-xs font-medium px-3 py-1.5 rounded-full transition-colors"
+        >
+          <Download className="w-3.5 h-3.5" />
+          Download
+        </Link>
       </div>
     </div>
   );

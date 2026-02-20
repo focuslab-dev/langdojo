@@ -2,35 +2,248 @@
   "categoryId": "greetings",
   "languageId": "japanese",
   "phrases": [
-    { "id": "jp-greet-p1", "english": "Welcome", "translation": "いらっしゃいませ", "pronunciation": "Irasshaimase" },
-    { "id": "jp-greet-1", "english": "Hello", "translation": "こんにちは", "pronunciation": "Konnichiwa" },
-    { "id": "jp-greet-2", "english": "Good morning", "translation": "おはようございます", "pronunciation": "Ohayou gozaimasu" },
-    { "id": "jp-greet-3", "english": "Good evening", "translation": "こんばんは", "pronunciation": "Konbanwa" },
-    { "id": "jp-greet-5", "english": "Excuse me / Sorry", "translation": "すみません", "pronunciation": "Sumimasen" },
-    { "id": "jp-greet-8", "english": "Please", "translation": "お願いします", "pronunciation": "Onegaishimasu" },
-    { "id": "jp-greet-6", "english": "Yes", "translation": "はい", "pronunciation": "Hai" },
-    { "id": "jp-greet-7", "english": "No", "translation": "いいえ", "pronunciation": "Iie" },
-    { "id": "jp-greet-10", "english": "I don't understand", "translation": "わかりません", "pronunciation": "Wakarimasen" },
-    { "id": "jp-greet-p3", "english": "Please wait a moment", "translation": "少々お待ちください", "pronunciation": "Shoushou omachi kudasai" },
-    { "id": "jp-greet-4", "english": "Thank you", "translation": "ありがとうございます", "pronunciation": "Arigatou gozaimasu" },
-    { "id": "jp-greet-p2", "english": "You're welcome", "translation": "どういたしまして", "pronunciation": "Douitashimashite" },
-    { "id": "jp-greet-9", "english": "Goodbye", "translation": "さようなら", "pronunciation": "Sayounara" }
+    {
+      "id": "jp-greet-welcome",
+      "translation": "Welcome",
+      "text": "いらっしゃいませ",
+      "pronunciation": "irasshaimase",
+      "words": []
+    },
+    {
+      "id": "jp-greet-hello",
+      "translation": "Hello",
+      "text": "こんにちは",
+      "pronunciation": "konnichiwa",
+      "words": []
+    },
+    {
+      "id": "jp-greet-good-morning",
+      "translation": "Good morning",
+      "text": "おはようございます",
+      "pronunciation": "ohayou gozaimasu",
+      "words": [
+        {
+          "text": "おはよう",
+          "pronunciation": "ohayou",
+          "translation": "good morning"
+        },
+        {
+          "text": "ございます",
+          "pronunciation": "gozaimasu",
+          "translation": "(polite honorific suffix)"
+        }
+      ]
+    },
+    {
+      "id": "jp-greet-good-evening",
+      "translation": "Good evening",
+      "text": "こんばんは",
+      "pronunciation": "konbanwa",
+      "words": []
+    },
+    {
+      "id": "jp-greet-excuse-me",
+      "translation": "Excuse me / Sorry",
+      "text": "すみません",
+      "pronunciation": "sumimasen",
+      "words": []
+    },
+    {
+      "id": "jp-greet-please",
+      "translation": "Please",
+      "text": "お願いします",
+      "pronunciation": "onegaishimasu",
+      "words": [
+        {
+          "text": "お願い",
+          "pronunciation": "onegai",
+          "translation": "request / wish"
+        },
+        {
+          "text": "します",
+          "pronunciation": "shimasu",
+          "translation": "do (polite present)"
+        }
+      ]
+    },
+    {
+      "id": "jp-greet-yes",
+      "translation": "Yes",
+      "text": "はい",
+      "pronunciation": "hai",
+      "words": []
+    },
+    {
+      "id": "jp-greet-no",
+      "translation": "No",
+      "text": "いいえ",
+      "pronunciation": "iie",
+      "words": []
+    },
+    {
+      "id": "jp-greet-dont-understand",
+      "translation": "I don't understand",
+      "text": "わかりません",
+      "pronunciation": "wakarimasen",
+      "words": [
+        {
+          "text": "わかり",
+          "pronunciation": "wakari",
+          "translation": "understand (verb stem)"
+        },
+        {
+          "text": "ません",
+          "pronunciation": "masen",
+          "translation": "(polite negative ending)"
+        }
+      ]
+    },
+    {
+      "id": "jp-greet-please-wait",
+      "translation": "Please wait a moment",
+      "text": "少々お待ちください",
+      "pronunciation": "shoushou omachi kudasai",
+      "words": [
+        {
+          "text": "少々",
+          "pronunciation": "shoushou",
+          "translation": "a brief moment"
+        },
+        {
+          "text": "お待ち",
+          "pronunciation": "omachi",
+          "translation": "wait (honorific form)"
+        },
+        {
+          "text": "ください",
+          "pronunciation": "kudasai",
+          "translation": "please"
+        }
+      ]
+    },
+    {
+      "id": "jp-greet-thank-you",
+      "translation": "Thank you",
+      "text": "ありがとうございます",
+      "pronunciation": "arigatou gozaimasu",
+      "words": [
+        {
+          "text": "ありがとう",
+          "pronunciation": "arigatou",
+          "translation": "thank you"
+        },
+        {
+          "text": "ございます",
+          "pronunciation": "gozaimasu",
+          "translation": "(polite honorific suffix)"
+        }
+      ]
+    },
+    {
+      "id": "jp-greet-youre-welcome",
+      "translation": "You're welcome",
+      "text": "どういたしまして",
+      "pronunciation": "douitashimashite",
+      "words": []
+    },
+    {
+      "id": "jp-greet-goodbye",
+      "translation": "Goodbye",
+      "text": "さようなら",
+      "pronunciation": "sayounara",
+      "words": []
+    }
   ],
   "words": [
-    { "id": "jp-greet-w1", "english": "morning", "translation": "朝", "pronunciation": "Asa" },
-    { "id": "jp-greet-w2", "english": "evening", "translation": "夜", "pronunciation": "Yoru" },
-    { "id": "jp-greet-w3", "english": "night", "translation": "夜中", "pronunciation": "Yonaka" },
-    { "id": "jp-greet-w4", "english": "today", "translation": "今日", "pronunciation": "Kyou" },
-    { "id": "jp-greet-w5", "english": "tomorrow", "translation": "明日", "pronunciation": "Ashita" },
-    { "id": "jp-greet-w6", "english": "yesterday", "translation": "昨日", "pronunciation": "Kinou" },
-    { "id": "jp-greet-w7", "english": "name", "translation": "名前", "pronunciation": "Namae" },
-    { "id": "jp-greet-w8", "english": "person", "translation": "人", "pronunciation": "Hito" },
-    { "id": "jp-greet-w9", "english": "friend", "translation": "友達", "pronunciation": "Tomodachi" },
-    { "id": "jp-greet-w10", "english": "I / me", "translation": "私", "pronunciation": "Watashi" },
-    { "id": "jp-greet-w11", "english": "you", "translation": "あなた", "pronunciation": "Anata" },
-    { "id": "jp-greet-w12", "english": "this", "translation": "これ", "pronunciation": "Kore" },
-    { "id": "jp-greet-w13", "english": "that", "translation": "あれ", "pronunciation": "Are" },
-    { "id": "jp-greet-w14", "english": "here", "translation": "ここ", "pronunciation": "Koko" },
-    { "id": "jp-greet-w15", "english": "there", "translation": "あそこ", "pronunciation": "Asoko" }
+    {
+      "id": "jp-greet-w-morning",
+      "translation": "morning",
+      "text": "朝",
+      "pronunciation": "asa"
+    },
+    {
+      "id": "jp-greet-w-evening",
+      "translation": "evening",
+      "text": "夜",
+      "pronunciation": "yoru"
+    },
+    {
+      "id": "jp-greet-w-night",
+      "translation": "night",
+      "text": "夜中",
+      "pronunciation": "yonaka"
+    },
+    {
+      "id": "jp-greet-w-today",
+      "translation": "today",
+      "text": "今日",
+      "pronunciation": "kyou"
+    },
+    {
+      "id": "jp-greet-w-tomorrow",
+      "translation": "tomorrow",
+      "text": "明日",
+      "pronunciation": "ashita"
+    },
+    {
+      "id": "jp-greet-w-yesterday",
+      "translation": "yesterday",
+      "text": "昨日",
+      "pronunciation": "kinou"
+    },
+    {
+      "id": "jp-greet-w-name",
+      "translation": "name",
+      "text": "名前",
+      "pronunciation": "namae"
+    },
+    {
+      "id": "jp-greet-w-person",
+      "translation": "person",
+      "text": "人",
+      "pronunciation": "hito"
+    },
+    {
+      "id": "jp-greet-w-friend",
+      "translation": "friend",
+      "text": "友達",
+      "pronunciation": "tomodachi"
+    },
+    {
+      "id": "jp-greet-w-i",
+      "translation": "I / me",
+      "text": "私",
+      "pronunciation": "watashi"
+    },
+    {
+      "id": "jp-greet-w-you",
+      "translation": "you",
+      "text": "あなた",
+      "pronunciation": "anata"
+    },
+    {
+      "id": "jp-greet-w-this",
+      "translation": "this",
+      "text": "これ",
+      "pronunciation": "kore"
+    },
+    {
+      "id": "jp-greet-w-that",
+      "translation": "that",
+      "text": "あれ",
+      "pronunciation": "are"
+    },
+    {
+      "id": "jp-greet-w-here",
+      "translation": "here",
+      "text": "ここ",
+      "pronunciation": "koko"
+    },
+    {
+      "id": "jp-greet-w-there",
+      "translation": "there",
+      "text": "あそこ",
+      "pronunciation": "asoko"
+    }
   ]
 }

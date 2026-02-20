@@ -2,35 +2,151 @@
   "categoryId": "bus",
   "languageId": "thai",
   "phrases": [
-    { "id": "th-bus-2", "english": "Where is the bus stop?", "translation": "ป้ายรถเมล์อยู่ที่ไหน?", "pronunciation": "Pai rot mae yoo tee nai?" },
-    { "id": "th-bus-7", "english": "What time is the last bus?", "translation": "รถเมล์เที่ยวสุดท้ายกี่โมง?", "pronunciation": "Rot mae tiao soot tai gee mong?" },
-    { "id": "th-bus-8", "english": "Which bus goes to...?", "translation": "รถสาย ไหนไป...?", "pronunciation": "Rot sai nai pai...?" },
-    { "id": "th-bus-1", "english": "Does this bus go to...?", "translation": "รถเมล์นี้ไป...ไหม?", "pronunciation": "Rot mae nee pai...mai?" },
-    { "id": "th-bus-5", "english": "How much is the fare?", "translation": "ค่ารถเท่าไหร่?", "pronunciation": "Ka rot tao rai?" },
-    { "id": "th-bus-6", "english": "Can I use a card?", "translation": "จ่ายบัตรได้ไหม?", "pronunciation": "Jai bat dai mai?" },
-    { "id": "th-bus-p3", "english": "Please tap your card", "translation": "กรุณาแตะบัตร", "pronunciation": "Karuna tae bat" },
-    { "id": "th-bus-3", "english": "Please tell me when we arrive at...", "translation": "ถึง...บอกด้วยนะ", "pronunciation": "Teung...bok duay na" },
-    { "id": "th-bus-p1", "english": "Next stop is...", "translation": "ป้ายต่อไป...", "pronunciation": "Pai tor pai..." },
-    { "id": "th-bus-4", "english": "I want to get off here", "translation": "ลงที่นี่", "pronunciation": "Long tee nee" },
-    { "id": "th-bus-p2", "english": "Please exit from the back", "translation": "ลงทางด้านหลัง", "pronunciation": "Long tang dan lang" }
+    {
+      "id": "th-bus-where-stop",
+      "translation": "Where is the bus stop?",
+      "text": "ป้ายรถเมล์อยู่ที่ไหน?",
+      "pronunciation": "bpâai rót-mae yòo têe nǎi?",
+      "words": [
+        { "text": "ป้าย", "pronunciation": "bpâai", "translation": "sign / stop" },
+        { "text": "รถเมล์", "pronunciation": "rót-mae", "translation": "bus" },
+        { "text": "อยู่", "pronunciation": "yòo", "translation": "is / located" },
+        { "text": "ที่ไหน", "pronunciation": "têe nǎi", "translation": "where" }
+      ]
+    },
+    {
+      "id": "th-bus-last-bus",
+      "translation": "What time is the last bus?",
+      "text": "รถเมล์เที่ยวสุดท้ายกี่โมง?",
+      "pronunciation": "rót-mae tîao sùt táai gèe mohng?",
+      "words": [
+        { "text": "รถเมล์", "pronunciation": "rót-mae", "translation": "bus" },
+        { "text": "เที่ยว", "pronunciation": "tîao", "translation": "journey / service" },
+        { "text": "สุดท้าย", "pronunciation": "sùt táai", "translation": "last / final" },
+        { "text": "กี่โมง", "pronunciation": "gèe mohng", "translation": "what time" }
+      ]
+    },
+    {
+      "id": "th-bus-which-bus",
+      "translation": "Which bus goes to...?",
+      "text": "รถสายไหนไป...?",
+      "pronunciation": "rót sǎai nǎi bpai...?",
+      "words": [
+        { "text": "รถ", "pronunciation": "rót", "translation": "vehicle / bus" },
+        { "text": "สาย", "pronunciation": "sǎai", "translation": "route / line" },
+        { "text": "ไหน", "pronunciation": "nǎi", "translation": "which" },
+        { "text": "ไป", "pronunciation": "bpai", "translation": "go to" }
+      ]
+    },
+    {
+      "id": "th-bus-does-go-to",
+      "translation": "Does this bus go to...?",
+      "text": "รถเมล์นี้ไป...ไหม?",
+      "pronunciation": "rót-mae née bpai...mǎi?",
+      "words": [
+        { "text": "รถเมล์", "pronunciation": "rót-mae", "translation": "bus" },
+        { "text": "นี้", "pronunciation": "née", "translation": "this" },
+        { "text": "ไป", "pronunciation": "bpai", "translation": "go to" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "th-bus-how-much-fare",
+      "translation": "How much is the fare?",
+      "text": "ค่ารถเท่าไหร่?",
+      "pronunciation": "khâa rót tâo rài?",
+      "words": [
+        { "text": "ค่า", "pronunciation": "khâa", "translation": "fee / cost" },
+        { "text": "รถ", "pronunciation": "rót", "translation": "vehicle / bus" },
+        { "text": "เท่าไหร่", "pronunciation": "tâo rài", "translation": "how much" }
+      ]
+    },
+    {
+      "id": "th-bus-pay-card",
+      "translation": "Can I use a card?",
+      "text": "จ่ายบัตรได้ไหม?",
+      "pronunciation": "jàai bàt dâi mǎi?",
+      "words": [
+        { "text": "จ่าย", "pronunciation": "jàai", "translation": "pay" },
+        { "text": "บัตร", "pronunciation": "bàt", "translation": "card" },
+        { "text": "ได้", "pronunciation": "dâi", "translation": "can / able to" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "th-bus-tap-card",
+      "translation": "Please tap your card",
+      "text": "กรุณาแตะบัตร",
+      "pronunciation": "gà-rú-naa tàe bàt",
+      "words": [
+        { "text": "กรุณา", "pronunciation": "gà-rú-naa", "translation": "please / kindly" },
+        { "text": "แตะ", "pronunciation": "tàe", "translation": "tap / touch" },
+        { "text": "บัตร", "pronunciation": "bàt", "translation": "card" }
+      ]
+    },
+    {
+      "id": "th-bus-tell-me-when",
+      "translation": "Please tell me when we arrive at...",
+      "text": "ถึง...บอกด้วยนะ",
+      "pronunciation": "tǔeng...bòk dûay ná",
+      "words": [
+        { "text": "ถึง", "pronunciation": "tǔeng", "translation": "arrive at / reach" },
+        { "text": "บอก", "pronunciation": "bòk", "translation": "tell / say" },
+        { "text": "ด้วย", "pronunciation": "dûay", "translation": "also / please" },
+        { "text": "นะ", "pronunciation": "ná", "translation": "(softening particle)" }
+      ]
+    },
+    {
+      "id": "th-bus-next-stop",
+      "translation": "Next stop is...",
+      "text": "ป้ายต่อไป...",
+      "pronunciation": "bpâai tòr bpai...",
+      "words": [
+        { "text": "ป้าย", "pronunciation": "bpâai", "translation": "sign / stop" },
+        { "text": "ต่อไป", "pronunciation": "tòr bpai", "translation": "next" }
+      ]
+    },
+    {
+      "id": "th-bus-get-off-here",
+      "translation": "I want to get off here",
+      "text": "ลงที่นี่",
+      "pronunciation": "long têe née",
+      "words": [
+        { "text": "ลง", "pronunciation": "long", "translation": "get off / descend" },
+        { "text": "ที่นี่", "pronunciation": "têe née", "translation": "here" }
+      ]
+    },
+    {
+      "id": "th-bus-exit-back",
+      "translation": "Please exit from the back",
+      "text": "ลงทางด้านหลัง",
+      "pronunciation": "long taang dâan lǎng",
+      "words": [
+        { "text": "ลง", "pronunciation": "long", "translation": "get off / exit" },
+        { "text": "ทาง", "pronunciation": "taang", "translation": "way / direction" },
+        { "text": "ด้าน", "pronunciation": "dâan", "translation": "side" },
+        { "text": "หลัง", "pronunciation": "lǎng", "translation": "back / rear" }
+      ]
+    }
   ],
   "words": [
-    { "id": "th-bus-w1", "english": "bus stop", "translation": "ป้ายรถเมล์", "pronunciation": "Pai rot mae" },
-    { "id": "th-bus-w2", "english": "route", "translation": "สาย", "pronunciation": "Sai" },
-    { "id": "th-bus-w3", "english": "fare", "translation": "ค่ารถ", "pronunciation": "Ka rot" },
-    { "id": "th-bus-w4", "english": "seat", "translation": "ที่นั่ง", "pronunciation": "Tee nang" },
-    { "id": "th-bus-w5", "english": "next", "translation": "ต่อไป", "pronunciation": "Tor pai" },
-    { "id": "th-bus-w6", "english": "last (final)", "translation": "สุดท้าย", "pronunciation": "Soot tai" },
-    { "id": "th-bus-w7", "english": "first", "translation": "แรก", "pronunciation": "Raek" },
-    { "id": "th-bus-w8", "english": "exit", "translation": "ทางออก", "pronunciation": "Tang ok" },
-    { "id": "th-bus-w9", "english": "entrance", "translation": "ทางเข้า", "pronunciation": "Tang khao" },
-    { "id": "th-bus-w10", "english": "card", "translation": "บัตร", "pronunciation": "Bat" },
-    { "id": "th-bus-w11", "english": "cash", "translation": "เงินสด", "pronunciation": "Ngern sod" },
-    { "id": "th-bus-w12", "english": "driver", "translation": "คนขับ", "pronunciation": "Khon khap" },
-    { "id": "th-bus-w13", "english": "door", "translation": "ประตู", "pronunciation": "Pratoo" },
-    { "id": "th-bus-w14", "english": "front", "translation": "ข้างหน้า", "pronunciation": "Khang naa" },
-    { "id": "th-bus-w15", "english": "back", "translation": "ข้างหลัง", "pronunciation": "Khang lang" },
-    { "id": "th-bus-w16", "english": "go", "translation": "ไป", "pronunciation": "Pai" },
-    { "id": "th-bus-w17", "english": "(question particle)", "translation": "ไหม", "pronunciation": "Mai" }
+    { "id": "th-bus-w-bus-stop", "translation": "bus stop", "text": "ป้ายรถเมล์", "pronunciation": "bpâai rót-mae" },
+    { "id": "th-bus-w-bus", "translation": "bus", "text": "รถเมล์", "pronunciation": "rót-mae" },
+    { "id": "th-bus-w-route", "translation": "route", "text": "สาย", "pronunciation": "sǎai" },
+    { "id": "th-bus-w-fare", "translation": "fare", "text": "ค่ารถ", "pronunciation": "khâa rót" },
+    { "id": "th-bus-w-seat", "translation": "seat", "text": "ที่นั่ง", "pronunciation": "têe nâng" },
+    { "id": "th-bus-w-next", "translation": "next", "text": "ต่อไป", "pronunciation": "tòr bpai" },
+    { "id": "th-bus-w-last", "translation": "last (final)", "text": "สุดท้าย", "pronunciation": "sùt táai" },
+    { "id": "th-bus-w-first", "translation": "first", "text": "แรก", "pronunciation": "râek" },
+    { "id": "th-bus-w-exit", "translation": "exit", "text": "ทางออก", "pronunciation": "taang òok" },
+    { "id": "th-bus-w-entrance", "translation": "entrance", "text": "ทางเข้า", "pronunciation": "taang khâo" },
+    { "id": "th-bus-w-card", "translation": "card", "text": "บัตร", "pronunciation": "bàt" },
+    { "id": "th-bus-w-cash", "translation": "cash", "text": "เงินสด", "pronunciation": "ngern sòt" },
+    { "id": "th-bus-w-driver", "translation": "driver", "text": "คนขับ", "pronunciation": "khon khàp" },
+    { "id": "th-bus-w-door", "translation": "door", "text": "ประตู", "pronunciation": "bprà-too" },
+    { "id": "th-bus-w-front", "translation": "front", "text": "ข้างหน้า", "pronunciation": "khâang nâa" },
+    { "id": "th-bus-w-back", "translation": "back", "text": "ข้างหลัง", "pronunciation": "khâang lǎng" },
+    { "id": "th-bus-w-get-on", "translation": "get on (board)", "text": "ขึ้น", "pronunciation": "khêun" },
+    { "id": "th-bus-w-get-off", "translation": "get off (alight)", "text": "ลง", "pronunciation": "long" }
   ]
 }

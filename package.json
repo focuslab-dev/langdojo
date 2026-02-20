@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "framer-motion": "^11.2.4",
     "jszip": "^3.10.1",
     "lucide-react": "^0.378.0",

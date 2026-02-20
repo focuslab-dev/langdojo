@@ -2,37 +2,136 @@
   "categoryId": "numbers",
   "languageId": "thai",
   "phrases": [
-    { "id": "th-num-1", "english": "How much is this?", "translation": "อันนี้เท่าไหร่?", "pronunciation": "An nee tao rai?" },
-    { "id": "th-num-p1", "english": "It's 100 baht", "translation": "ร้อยบาท", "pronunciation": "Roi baht" },
-    { "id": "th-num-2", "english": "One please", "translation": "ขอหนึ่งอัน", "pronunciation": "Kor nueng an" },
-    { "id": "th-num-3", "english": "Two of these", "translation": "อันนี้สองอัน", "pronunciation": "An nee song an" },
-    { "id": "th-num-4", "english": "Three people", "translation": "สามคน", "pronunciation": "Sam kon" },
-    { "id": "th-num-5", "english": "What time is it?", "translation": "กี่โมงแล้ว?", "pronunciation": "Gee mong laew?" },
-    { "id": "th-num-p2", "english": "It's 3 o'clock", "translation": "บ่ายสามโมง", "pronunciation": "Bai sam mong" },
-    { "id": "th-num-6", "english": "How many?", "translation": "กี่อัน?", "pronunciation": "Gee an?" },
-    { "id": "th-num-p3", "english": "That's 500 baht", "translation": "ห้าร้อยบาท", "pronunciation": "Ha roi baht" },
-    { "id": "th-num-7", "english": "Give me ten", "translation": "ขอสิบอัน", "pronunciation": "Kor sip an" }
+    {
+      "id": "th-num-how-much",
+      "translation": "How much is this?",
+      "text": "อันนี้เท่าไหร่?",
+      "pronunciation": "an née tâo rài?",
+      "words": [
+        { "text": "อัน", "pronunciation": "an", "translation": "(classifier)" },
+        { "text": "นี้", "pronunciation": "née", "translation": "this" },
+        { "text": "เท่าไหร่", "pronunciation": "tâo rài", "translation": "how much" }
+      ]
+    },
+    {
+      "id": "th-num-hundred-baht",
+      "translation": "It's 100 baht",
+      "text": "ร้อยบาท",
+      "pronunciation": "rói bàat",
+      "words": [
+        { "text": "ร้อย", "pronunciation": "rói", "translation": "hundred" },
+        { "text": "บาท", "pronunciation": "bàat", "translation": "baht (currency)" }
+      ]
+    },
+    {
+      "id": "th-num-one-please",
+      "translation": "One please",
+      "text": "ขอหนึ่งอัน",
+      "pronunciation": "khǒr nùeng an",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "หนึ่ง", "pronunciation": "nùeng", "translation": "one" },
+        { "text": "อัน", "pronunciation": "an", "translation": "(classifier)" }
+      ]
+    },
+    {
+      "id": "th-num-two-of-these",
+      "translation": "Two of these",
+      "text": "อันนี้สองอัน",
+      "pronunciation": "an née sǒng an",
+      "words": [
+        { "text": "อัน", "pronunciation": "an", "translation": "(classifier)" },
+        { "text": "นี้", "pronunciation": "née", "translation": "this" },
+        { "text": "สอง", "pronunciation": "sǒng", "translation": "two" }
+      ]
+    },
+    {
+      "id": "th-num-three-people",
+      "translation": "Three people",
+      "text": "สามคน",
+      "pronunciation": "sǎam khon",
+      "words": [
+        { "text": "สาม", "pronunciation": "sǎam", "translation": "three" },
+        { "text": "คน", "pronunciation": "khon", "translation": "person" }
+      ]
+    },
+    {
+      "id": "th-num-what-time",
+      "translation": "What time is it?",
+      "text": "กี่โมงแล้ว?",
+      "pronunciation": "gèe mohng láew?",
+      "words": [
+        { "text": "กี่", "pronunciation": "gèe", "translation": "how many / what" },
+        { "text": "โมง", "pronunciation": "mohng", "translation": "o'clock" },
+        { "text": "แล้ว", "pronunciation": "láew", "translation": "already / now" }
+      ]
+    },
+    {
+      "id": "th-num-three-oclock",
+      "translation": "It's 3 o'clock",
+      "text": "บ่ายสามโมง",
+      "pronunciation": "bàai sǎam mohng",
+      "words": [
+        { "text": "บ่าย", "pronunciation": "bàai", "translation": "afternoon" },
+        { "text": "สาม", "pronunciation": "sǎam", "translation": "three" },
+        { "text": "โมง", "pronunciation": "mohng", "translation": "o'clock" }
+      ]
+    },
+    {
+      "id": "th-num-how-many",
+      "translation": "How many?",
+      "text": "กี่อัน?",
+      "pronunciation": "gèe an?",
+      "words": [
+        { "text": "กี่", "pronunciation": "gèe", "translation": "how many" },
+        { "text": "อัน", "pronunciation": "an", "translation": "(classifier)" }
+      ]
+    },
+    {
+      "id": "th-num-five-hundred-baht",
+      "translation": "That's 500 baht",
+      "text": "ห้าร้อยบาท",
+      "pronunciation": "hâa rói bàat",
+      "words": [
+        { "text": "ห้า", "pronunciation": "hâa", "translation": "five" },
+        { "text": "ร้อย", "pronunciation": "rói", "translation": "hundred" },
+        { "text": "บาท", "pronunciation": "bàat", "translation": "baht (currency)" }
+      ]
+    },
+    {
+      "id": "th-num-give-ten",
+      "translation": "Give me ten",
+      "text": "ขอสิบอัน",
+      "pronunciation": "khǒr sìp an",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "สิบ", "pronunciation": "sìp", "translation": "ten" },
+        { "text": "อัน", "pronunciation": "an", "translation": "(classifier)" }
+      ]
+    }
   ],
   "words": [
-    { "id": "th-num-w1", "english": "1", "translation": "หนึ่ง", "pronunciation": "Nueng" },
-    { "id": "th-num-w2", "english": "2", "translation": "สอง", "pronunciation": "Song" },
-    { "id": "th-num-w3", "english": "3", "translation": "สาม", "pronunciation": "Sam" },
-    { "id": "th-num-w4", "english": "4", "translation": "สี่", "pronunciation": "See" },
-    { "id": "th-num-w5", "english": "5", "translation": "ห้า", "pronunciation": "Ha" },
-    { "id": "th-num-w6", "english": "6", "translation": "หก", "pronunciation": "Hok" },
-    { "id": "th-num-w7", "english": "7", "translation": "เจ็ด", "pronunciation": "Jet" },
-    { "id": "th-num-w8", "english": "8", "translation": "แปด", "pronunciation": "Paet" },
-    { "id": "th-num-w9", "english": "9", "translation": "เก้า", "pronunciation": "Gao" },
-    { "id": "th-num-w10", "english": "10", "translation": "สิบ", "pronunciation": "Sip" },
-    { "id": "th-num-w11", "english": "11", "translation": "สิบเอ็ด", "pronunciation": "Sip et" },
-    { "id": "th-num-w12", "english": "12", "translation": "สิบสอง", "pronunciation": "Sip song" },
-    { "id": "th-num-w13", "english": "20", "translation": "ยี่สิบ", "pronunciation": "Yee sip" },
-    { "id": "th-num-w14", "english": "21", "translation": "ยี่สิบเอ็ด", "pronunciation": "Yee sip et" },
-    { "id": "th-num-w15", "english": "50", "translation": "ห้าสิบ", "pronunciation": "Ha sip" },
-    { "id": "th-num-w16", "english": "100", "translation": "หนึ่งร้อย", "pronunciation": "Nueng roi" },
-    { "id": "th-num-w17", "english": "500", "translation": "ห้าร้อย", "pronunciation": "Ha roi" },
-    { "id": "th-num-w18", "english": "1,000", "translation": "หนึ่งพัน", "pronunciation": "Nueng pan" },
-    { "id": "th-num-w19", "english": "5,000", "translation": "ห้าพัน", "pronunciation": "Ha pan" },
-    { "id": "th-num-w20", "english": "10,000", "translation": "หนึ่งหมื่น", "pronunciation": "Nueng meun" }
+    { "id": "th-num-w-one", "translation": "1", "text": "หนึ่ง", "pronunciation": "nùeng" },
+    { "id": "th-num-w-two", "translation": "2", "text": "สอง", "pronunciation": "sǒng" },
+    { "id": "th-num-w-three", "translation": "3", "text": "สาม", "pronunciation": "sǎam" },
+    { "id": "th-num-w-four", "translation": "4", "text": "สี่", "pronunciation": "sèe" },
+    { "id": "th-num-w-five", "translation": "5", "text": "ห้า", "pronunciation": "hâa" },
+    { "id": "th-num-w-six", "translation": "6", "text": "หก", "pronunciation": "hòk" },
+    { "id": "th-num-w-seven", "translation": "7", "text": "เจ็ด", "pronunciation": "jèt" },
+    { "id": "th-num-w-eight", "translation": "8", "text": "แปด", "pronunciation": "bpàet" },
+    { "id": "th-num-w-nine", "translation": "9", "text": "เก้า", "pronunciation": "gâo" },
+    { "id": "th-num-w-ten", "translation": "10", "text": "สิบ", "pronunciation": "sìp" },
+    { "id": "th-num-w-eleven", "translation": "11", "text": "สิบเอ็ด", "pronunciation": "sìp ét" },
+    { "id": "th-num-w-twelve", "translation": "12", "text": "สิบสอง", "pronunciation": "sìp sǒng" },
+    { "id": "th-num-w-twenty", "translation": "20", "text": "ยี่สิบ", "pronunciation": "yêe sìp" },
+    { "id": "th-num-w-twenty-one", "translation": "21", "text": "ยี่สิบเอ็ด", "pronunciation": "yêe sìp ét" },
+    { "id": "th-num-w-fifty", "translation": "50", "text": "ห้าสิบ", "pronunciation": "hâa sìp" },
+    { "id": "th-num-w-hundred", "translation": "100", "text": "หนึ่งร้อย", "pronunciation": "nùeng rói" },
+    { "id": "th-num-w-five-hundred", "translation": "500", "text": "ห้าร้อย", "pronunciation": "hâa rói" },
+    { "id": "th-num-w-thousand", "translation": "1,000", "text": "หนึ่งพัน", "pronunciation": "nùeng pan" },
+    { "id": "th-num-w-five-thousand", "translation": "5,000", "text": "ห้าพัน", "pronunciation": "hâa pan" },
+    { "id": "th-num-w-ten-thousand", "translation": "10,000", "text": "หนึ่งหมื่น", "pronunciation": "nùeng mèun" },
+    { "id": "th-num-w-half", "translation": "half", "text": "ครึ่ง", "pronunciation": "khrûeng" },
+    { "id": "th-num-w-baht", "translation": "baht (currency)", "text": "บาท", "pronunciation": "bàat" }
   ]
 }

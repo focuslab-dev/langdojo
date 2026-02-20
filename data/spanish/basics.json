@@ -3,173 +3,268 @@
   "languageId": "spanish",
   "phrases": [
     {
-      "id": "es-greetings-p1",
-      "english": "Welcome",
-      "translation": "Bienvenido",
-      "pronunciation": "Bee-ehn-veh-NEE-doh"
+      "id": "es-greetings-welcome",
+      "translation": "Welcome",
+      "text": "Bienvenido",
+      "pronunciation": "Bee-ehn-veh-NEE-doh",
+      "words": []
     },
     {
-      "id": "es-greetings-1",
-      "english": "Hello",
-      "translation": "Hola",
-      "pronunciation": "OH-lah"
+      "id": "es-greetings-hello",
+      "translation": "Hello",
+      "text": "Hola",
+      "pronunciation": "OH-lah",
+      "words": []
     },
     {
-      "id": "es-greetings-2",
-      "english": "Good morning",
-      "translation": "Buenos días",
-      "pronunciation": "BWEH-nohs DEE-ahs"
+      "id": "es-greetings-good-morning",
+      "translation": "Good morning",
+      "text": "Buenos días",
+      "pronunciation": "BWEH-nohs DEE-ahs",
+      "words": [
+        {
+          "text": "Buenos",
+          "pronunciation": "BWEH-nohs",
+          "translation": "good (m.pl.)"
+        },
+        {
+          "text": "días",
+          "pronunciation": "DEE-ahs",
+          "translation": "days / morning"
+        }
+      ]
     },
     {
-      "id": "es-greetings-3",
-      "english": "Good evening",
-      "translation": "Buenas tardes",
-      "pronunciation": "BWEH-nahs TAR-dehs"
+      "id": "es-greetings-good-evening",
+      "translation": "Good evening",
+      "text": "Buenas tardes",
+      "pronunciation": "BWEH-nahs TAR-dehs",
+      "words": [
+        {
+          "text": "Buenas",
+          "pronunciation": "BWEH-nahs",
+          "translation": "good (f.pl.)"
+        },
+        {
+          "text": "tardes",
+          "pronunciation": "TAR-dehs",
+          "translation": "afternoons / evenings"
+        }
+      ]
     },
     {
-      "id": "es-greetings-4",
-      "english": "Excuse me / Sorry",
-      "translation": "Perdón / Disculpe",
-      "pronunciation": "Pehr-DOHN / Dees-KOOL-peh"
+      "id": "es-greetings-excuse-me",
+      "translation": "Excuse me / Sorry",
+      "text": "Perdón / Disculpe",
+      "pronunciation": "Pehr-DOHN / Dees-KOOL-peh",
+      "words": [
+        {
+          "text": "Perdón",
+          "pronunciation": "pehr-DOHN",
+          "translation": "pardon / sorry"
+        },
+        {
+          "text": "Disculpe",
+          "pronunciation": "dees-KOOL-peh",
+          "translation": "excuse me (formal)"
+        }
+      ]
     },
     {
-      "id": "es-greetings-5",
-      "english": "Please",
-      "translation": "Por favor",
-      "pronunciation": "Pohr fah-VOHR"
+      "id": "es-greetings-please",
+      "translation": "Please",
+      "text": "Por favor",
+      "pronunciation": "Pohr fah-VOHR",
+      "words": [
+        {
+          "text": "Por",
+          "pronunciation": "pohr",
+          "translation": "for / by"
+        },
+        {
+          "text": "favor",
+          "pronunciation": "fah-VOHR",
+          "translation": "favor"
+        }
+      ]
     },
     {
-      "id": "es-greetings-6",
-      "english": "Yes",
-      "translation": "Sí",
-      "pronunciation": "SEE"
+      "id": "es-greetings-yes",
+      "translation": "Yes",
+      "text": "Sí",
+      "pronunciation": "SEE",
+      "words": []
     },
     {
-      "id": "es-greetings-7",
-      "english": "No",
+      "id": "es-greetings-no",
       "translation": "No",
-      "pronunciation": "NOH"
+      "text": "No",
+      "pronunciation": "NOH",
+      "words": []
     },
     {
-      "id": "es-greetings-8",
-      "english": "I don't understand",
-      "translation": "No entiendo",
-      "pronunciation": "Noh ehn-tee-EHN-doh"
+      "id": "es-greetings-dont-understand",
+      "translation": "I don't understand",
+      "text": "No entiendo",
+      "pronunciation": "Noh ehn-tee-EHN-doh",
+      "words": [
+        {
+          "text": "No",
+          "pronunciation": "noh",
+          "translation": "no / not"
+        },
+        {
+          "text": "entiendo",
+          "pronunciation": "ehn-tee-EHN-doh",
+          "translation": "I understand"
+        }
+      ]
     },
     {
-      "id": "es-greetings-p2",
-      "english": "Please wait a moment",
-      "translation": "Espere un momento, por favor",
-      "pronunciation": "Ehs-PEH-reh oon moh-MEHN-toh pohr fah-VOHR"
+      "id": "es-greetings-wait-moment",
+      "translation": "Please wait a moment",
+      "text": "Espere un momento, por favor",
+      "pronunciation": "Ehs-PEH-reh oon moh-MEHN-toh pohr fah-VOHR",
+      "words": [
+        {
+          "text": "Espere",
+          "pronunciation": "ehs-PEH-reh",
+          "translation": "wait (formal)"
+        },
+        {
+          "text": "un momento,",
+          "pronunciation": "oon moh-MEHN-toh",
+          "translation": "a moment"
+        },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
+      ]
     },
     {
-      "id": "es-greetings-9",
-      "english": "Thank you",
-      "translation": "Gracias",
-      "pronunciation": "GRAH-see-ahs"
+      "id": "es-greetings-thank-you",
+      "translation": "Thank you",
+      "text": "Gracias",
+      "pronunciation": "GRAH-see-ahs",
+      "words": []
     },
     {
-      "id": "es-greetings-p3",
-      "english": "You're welcome",
-      "translation": "De nada",
-      "pronunciation": "Deh NAH-dah"
+      "id": "es-greetings-youre-welcome",
+      "translation": "You're welcome",
+      "text": "De nada",
+      "pronunciation": "Deh NAH-dah",
+      "words": [
+        {
+          "text": "De",
+          "pronunciation": "deh",
+          "translation": "of / from"
+        },
+        {
+          "text": "nada",
+          "pronunciation": "NAH-dah",
+          "translation": "nothing"
+        }
+      ]
     },
     {
-      "id": "es-greetings-10",
-      "english": "Goodbye",
-      "translation": "Adiós",
-      "pronunciation": "Ah-dee-OHS"
+      "id": "es-greetings-goodbye",
+      "translation": "Goodbye",
+      "text": "Adiós",
+      "pronunciation": "Ah-dee-OHS",
+      "words": []
     }
   ],
   "words": [
     {
-      "id": "es-greetings-w1",
-      "english": "morning",
-      "translation": "mañana",
+      "id": "es-greetings-w-morning",
+      "translation": "morning",
+      "text": "mañana",
       "pronunciation": "mah-NYAH-nah"
     },
     {
-      "id": "es-greetings-w2",
-      "english": "evening",
-      "translation": "tarde",
+      "id": "es-greetings-w-evening",
+      "translation": "evening",
+      "text": "tarde",
       "pronunciation": "TAR-deh"
     },
     {
-      "id": "es-greetings-w3",
-      "english": "night",
-      "translation": "noche",
+      "id": "es-greetings-w-night",
+      "translation": "night",
+      "text": "noche",
       "pronunciation": "NOH-cheh"
     },
     {
-      "id": "es-greetings-w4",
-      "english": "today",
-      "translation": "hoy",
+      "id": "es-greetings-w-today",
+      "translation": "today",
+      "text": "hoy",
       "pronunciation": "OY"
     },
     {
-      "id": "es-greetings-w5",
-      "english": "tomorrow",
-      "translation": "mañana",
+      "id": "es-greetings-w-tomorrow",
+      "translation": "tomorrow",
+      "text": "mañana",
       "pronunciation": "mah-NYAH-nah"
     },
     {
-      "id": "es-greetings-w6",
-      "english": "yesterday",
-      "translation": "ayer",
+      "id": "es-greetings-w-yesterday",
+      "translation": "yesterday",
+      "text": "ayer",
       "pronunciation": "ah-YEHR"
     },
     {
-      "id": "es-greetings-w7",
-      "english": "name",
-      "translation": "nombre",
+      "id": "es-greetings-w-name",
+      "translation": "name",
+      "text": "nombre",
       "pronunciation": "NOHM-breh"
     },
     {
-      "id": "es-greetings-w8",
-      "english": "person",
-      "translation": "persona",
+      "id": "es-greetings-w-person",
+      "translation": "person",
+      "text": "persona",
       "pronunciation": "pehr-SOH-nah"
     },
     {
-      "id": "es-greetings-w9",
-      "english": "friend",
-      "translation": "amigo",
+      "id": "es-greetings-w-friend",
+      "translation": "friend",
+      "text": "amigo",
       "pronunciation": "ah-MEE-goh"
     },
     {
-      "id": "es-greetings-w10",
-      "english": "I / me",
-      "translation": "yo",
+      "id": "es-greetings-w-i",
+      "translation": "I / me",
+      "text": "yo",
       "pronunciation": "YOH"
     },
     {
-      "id": "es-greetings-w11",
-      "english": "you",
-      "translation": "tú / usted",
+      "id": "es-greetings-w-you",
+      "translation": "you",
+      "text": "tú / usted",
       "pronunciation": "TOO / oos-TEHD"
     },
     {
-      "id": "es-greetings-w12",
-      "english": "this",
-      "translation": "esto",
+      "id": "es-greetings-w-this",
+      "translation": "this",
+      "text": "esto",
       "pronunciation": "EHS-toh"
     },
     {
-      "id": "es-greetings-w13",
-      "english": "that",
-      "translation": "eso",
+      "id": "es-greetings-w-that",
+      "translation": "that",
+      "text": "eso",
       "pronunciation": "EH-soh"
     },
     {
-      "id": "es-greetings-w14",
-      "english": "here",
-      "translation": "aquí",
+      "id": "es-greetings-w-here",
+      "translation": "here",
+      "text": "aquí",
       "pronunciation": "ah-KEE"
     },
     {
-      "id": "es-greetings-w15",
-      "english": "there",
-      "translation": "allí",
+      "id": "es-greetings-w-there",
+      "translation": "there",
+      "text": "allí",
       "pronunciation": "ah-YEE"
     }
   ]

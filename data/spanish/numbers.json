@@ -2,39 +2,348 @@
   "categoryId": "numbers",
   "languageId": "spanish",
   "phrases": [
-    { "id": "es-num-1", "english": "How much is this?", "translation": "¿Cuánto cuesta esto?", "pronunciation": "KWAHN-toh KWES-tah ES-toh?" },
-    { "id": "es-num-p1", "english": "It's 10 euros", "translation": "Son diez euros", "pronunciation": "Sohn dee-EHS EU-rohs" },
-    { "id": "es-num-2", "english": "One please", "translation": "Uno, por favor", "pronunciation": "OO-noh, pohr fah-VOHR" },
-    { "id": "es-num-3", "english": "Two tickets please", "translation": "Dos billetes, por favor", "pronunciation": "Dohs bee-YEH-tehs, pohr fah-VOHR" },
-    { "id": "es-num-4", "english": "Table for four", "translation": "Mesa para cuatro", "pronunciation": "MEH-sah PAH-rah KWAH-troh" },
-    { "id": "es-num-5", "english": "What time is it?", "translation": "¿Qué hora es?", "pronunciation": "Keh OH-rah ehs?" },
-    { "id": "es-num-p2", "english": "It's 3 o'clock", "translation": "Son las tres", "pronunciation": "Sohn lahs trehs" },
-    { "id": "es-num-6", "english": "How many?", "translation": "¿Cuántos?", "pronunciation": "KWAHN-tohs?" },
-    { "id": "es-num-p3", "english": "That's 50 euros", "translation": "Son cincuenta euros", "pronunciation": "Sohn seen-KWEHN-tah EU-rohs" },
-    { "id": "es-num-7", "english": "I'd like five please", "translation": "Quiero cinco, por favor", "pronunciation": "kee-EH-roh SEEN-koh, pohr fah-VOHR" }
+    {
+      "id": "es-num-how-much",
+      "translation": "How much is this?",
+      "text": "¿Cuánto cuesta esto?",
+      "pronunciation": "KWAHN-toh KWES-tah ES-toh?",
+      "words": [
+        {
+          "text": "¿Cuánto",
+          "pronunciation": "KWAHN-toh",
+          "translation": "how much"
+        },
+        {
+          "text": "cuesta",
+          "pronunciation": "KWEHS-tah",
+          "translation": "costs"
+        },
+        {
+          "text": "esto?",
+          "pronunciation": "EHS-toh",
+          "translation": "this"
+        }
+      ]
+    },
+    {
+      "id": "es-num-its-ten-euros",
+      "translation": "It's 10 euros",
+      "text": "Son diez euros",
+      "pronunciation": "Sohn dee-EHS EU-rohs",
+      "words": [
+        {
+          "text": "Son",
+          "pronunciation": "sohn",
+          "translation": "they are / it's"
+        },
+        {
+          "text": "diez",
+          "pronunciation": "dee-EHS",
+          "translation": "ten"
+        },
+        {
+          "text": "euros",
+          "pronunciation": "EU-rohs",
+          "translation": "euros"
+        }
+      ]
+    },
+    {
+      "id": "es-num-one-please",
+      "translation": "One please",
+      "text": "Uno, por favor",
+      "pronunciation": "OO-noh, pohr fah-VOHR",
+      "words": [
+        {
+          "text": "Uno,",
+          "pronunciation": "OO-noh",
+          "translation": "one"
+        },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
+      ]
+    },
+    {
+      "id": "es-num-two-tickets",
+      "translation": "Two tickets please",
+      "text": "Dos billetes, por favor",
+      "pronunciation": "Dohs bee-YEH-tehs, pohr fah-VOHR",
+      "words": [
+        {
+          "text": "Dos",
+          "pronunciation": "dohs",
+          "translation": "two"
+        },
+        {
+          "text": "billetes,",
+          "pronunciation": "bee-YEH-tehs",
+          "translation": "tickets"
+        },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
+      ]
+    },
+    {
+      "id": "es-num-table-for-four",
+      "translation": "Table for four",
+      "text": "Mesa para cuatro",
+      "pronunciation": "MEH-sah PAH-rah KWAH-troh",
+      "words": [
+        {
+          "text": "Mesa",
+          "pronunciation": "MEH-sah",
+          "translation": "table"
+        },
+        {
+          "text": "para",
+          "pronunciation": "PAH-rah",
+          "translation": "for"
+        },
+        {
+          "text": "cuatro",
+          "pronunciation": "KWAH-troh",
+          "translation": "four"
+        }
+      ]
+    },
+    {
+      "id": "es-num-what-time",
+      "translation": "What time is it?",
+      "text": "¿Qué hora es?",
+      "pronunciation": "Keh OH-rah ehs?",
+      "words": [
+        {
+          "text": "¿Qué",
+          "pronunciation": "keh",
+          "translation": "what"
+        },
+        {
+          "text": "hora",
+          "pronunciation": "OH-rah",
+          "translation": "hour / time"
+        },
+        {
+          "text": "es?",
+          "pronunciation": "ehs",
+          "translation": "is"
+        }
+      ]
+    },
+    {
+      "id": "es-num-its-three",
+      "translation": "It's 3 o'clock",
+      "text": "Son las tres",
+      "pronunciation": "Sohn lahs trehs",
+      "words": [
+        {
+          "text": "Son",
+          "pronunciation": "sohn",
+          "translation": "it is"
+        },
+        {
+          "text": "las",
+          "pronunciation": "lahs",
+          "translation": "the (f.pl.)"
+        },
+        {
+          "text": "tres",
+          "pronunciation": "trehs",
+          "translation": "three"
+        }
+      ]
+    },
+    {
+      "id": "es-num-how-many",
+      "translation": "How many?",
+      "text": "¿Cuántos?",
+      "pronunciation": "KWAHN-tohs?",
+      "words": []
+    },
+    {
+      "id": "es-num-fifty-euros",
+      "translation": "That's 50 euros",
+      "text": "Son cincuenta euros",
+      "pronunciation": "Sohn seen-KWEHN-tah EU-rohs",
+      "words": [
+        {
+          "text": "Son",
+          "pronunciation": "sohn",
+          "translation": "are / that's"
+        },
+        {
+          "text": "cincuenta",
+          "pronunciation": "seen-KWEHN-tah",
+          "translation": "fifty"
+        },
+        {
+          "text": "euros",
+          "pronunciation": "EU-rohs",
+          "translation": "euros"
+        }
+      ]
+    },
+    {
+      "id": "es-num-five-please",
+      "translation": "I'd like five please",
+      "text": "Quiero cinco, por favor",
+      "pronunciation": "kee-EH-roh SEEN-koh, pohr fah-VOHR",
+      "words": [
+        {
+          "text": "Quiero",
+          "pronunciation": "kee-EH-roh",
+          "translation": "I want / I'd like"
+        },
+        {
+          "text": "cinco,",
+          "pronunciation": "SEEN-koh",
+          "translation": "five"
+        },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
+      ]
+    }
   ],
   "words": [
-    { "id": "es-num-w1", "english": "1", "translation": "uno", "pronunciation": "OO-noh" },
-    { "id": "es-num-w2", "english": "2", "translation": "dos", "pronunciation": "Dohs" },
-    { "id": "es-num-w3", "english": "3", "translation": "tres", "pronunciation": "Trehs" },
-    { "id": "es-num-w4", "english": "4", "translation": "cuatro", "pronunciation": "KWAH-troh" },
-    { "id": "es-num-w5", "english": "5", "translation": "cinco", "pronunciation": "SEEN-koh" },
-    { "id": "es-num-w6", "english": "6", "translation": "seis", "pronunciation": "Says" },
-    { "id": "es-num-w7", "english": "7", "translation": "siete", "pronunciation": "see-EH-teh" },
-    { "id": "es-num-w8", "english": "8", "translation": "ocho", "pronunciation": "OH-choh" },
-    { "id": "es-num-w9", "english": "9", "translation": "nueve", "pronunciation": "NWEH-veh" },
-    { "id": "es-num-w10", "english": "10", "translation": "diez", "pronunciation": "Dee-EHS" },
-    { "id": "es-num-w11", "english": "11", "translation": "once", "pronunciation": "OHN-seh" },
-    { "id": "es-num-w12", "english": "15", "translation": "quince", "pronunciation": "KEEN-seh" },
-    { "id": "es-num-w13", "english": "16", "translation": "dieciséis", "pronunciation": "dee-eh-see-SAYS" },
-    { "id": "es-num-w14", "english": "20", "translation": "veinte", "pronunciation": "VAYN-teh" },
-    { "id": "es-num-w15", "english": "21", "translation": "veintiuno", "pronunciation": "vayn-tee-OO-noh" },
-    { "id": "es-num-w16", "english": "31", "translation": "treinta y uno", "pronunciation": "TRAYN-tah ee OO-noh" },
-    { "id": "es-num-w17", "english": "50", "translation": "cincuenta", "pronunciation": "seen-KWEHN-tah" },
-    { "id": "es-num-w18", "english": "100", "translation": "cien", "pronunciation": "See-EHN" },
-    { "id": "es-num-w19", "english": "500", "translation": "quinientos", "pronunciation": "kee-nee-EHN-tohs" },
-    { "id": "es-num-w20", "english": "1,000", "translation": "mil", "pronunciation": "Meel" },
-    { "id": "es-num-w21", "english": "5,000", "translation": "cinco mil", "pronunciation": "SEEN-koh meel" },
-    { "id": "es-num-w22", "english": "10,000", "translation": "diez mil", "pronunciation": "dee-EHS meel" }
+    {
+      "id": "es-num-w-one",
+      "translation": "1",
+      "text": "uno",
+      "pronunciation": "OO-noh"
+    },
+    {
+      "id": "es-num-w-two",
+      "translation": "2",
+      "text": "dos",
+      "pronunciation": "Dohs"
+    },
+    {
+      "id": "es-num-w-three",
+      "translation": "3",
+      "text": "tres",
+      "pronunciation": "Trehs"
+    },
+    {
+      "id": "es-num-w-four",
+      "translation": "4",
+      "text": "cuatro",
+      "pronunciation": "KWAH-troh"
+    },
+    {
+      "id": "es-num-w-five",
+      "translation": "5",
+      "text": "cinco",
+      "pronunciation": "SEEN-koh"
+    },
+    {
+      "id": "es-num-w-six",
+      "translation": "6",
+      "text": "seis",
+      "pronunciation": "Says"
+    },
+    {
+      "id": "es-num-w-seven",
+      "translation": "7",
+      "text": "siete",
+      "pronunciation": "see-EH-teh"
+    },
+    {
+      "id": "es-num-w-eight",
+      "translation": "8",
+      "text": "ocho",
+      "pronunciation": "OH-choh"
+    },
+    {
+      "id": "es-num-w-nine",
+      "translation": "9",
+      "text": "nueve",
+      "pronunciation": "NWEH-veh"
+    },
+    {
+      "id": "es-num-w-ten",
+      "translation": "10",
+      "text": "diez",
+      "pronunciation": "Dee-EHS"
+    },
+    {
+      "id": "es-num-w-eleven",
+      "translation": "11",
+      "text": "once",
+      "pronunciation": "OHN-seh"
+    },
+    {
+      "id": "es-num-w-fifteen",
+      "translation": "15",
+      "text": "quince",
+      "pronunciation": "KEEN-seh"
+    },
+    {
+      "id": "es-num-w-sixteen",
+      "translation": "16",
+      "text": "dieciséis",
+      "pronunciation": "dee-eh-see-SAYS"
+    },
+    {
+      "id": "es-num-w-twenty",
+      "translation": "20",
+      "text": "veinte",
+      "pronunciation": "VAYN-teh"
+    },
+    {
+      "id": "es-num-w-twenty-one",
+      "translation": "21",
+      "text": "veintiuno",
+      "pronunciation": "vayn-tee-OO-noh"
+    },
+    {
+      "id": "es-num-w-thirty-one",
+      "translation": "31",
+      "text": "treinta y uno",
+      "pronunciation": "TRAYN-tah ee OO-noh"
+    },
+    {
+      "id": "es-num-w-fifty",
+      "translation": "50",
+      "text": "cincuenta",
+      "pronunciation": "seen-KWEHN-tah"
+    },
+    {
+      "id": "es-num-w-hundred",
+      "translation": "100",
+      "text": "cien",
+      "pronunciation": "See-EHN"
+    },
+    {
+      "id": "es-num-w-five-hundred",
+      "translation": "500",
+      "text": "quinientos",
+      "pronunciation": "kee-nee-EHN-tohs"
+    },
+    {
+      "id": "es-num-w-thousand",
+      "translation": "1,000",
+      "text": "mil",
+      "pronunciation": "Meel"
+    },
+    {
+      "id": "es-num-w-five-thousand",
+      "translation": "5,000",
+      "text": "cinco mil",
+      "pronunciation": "SEEN-koh meel"
+    },
+    {
+      "id": "es-num-w-ten-thousand",
+      "translation": "10,000",
+      "text": "diez mil",
+      "pronunciation": "dee-EHS meel"
+    }
   ]
 }

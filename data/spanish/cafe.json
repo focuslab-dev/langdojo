@@ -3,216 +3,413 @@
   "languageId": "spanish",
   "phrases": [
     {
-      "id": "es-cafe-1",
-      "english": "Can I have the menu?",
-      "translation": "¿Me puede dar la carta?",
-      "pronunciation": "Meh PWEH-deh dar lah KAR-tah?"
+      "id": "es-cafe-menu",
+      "translation": "Can I have the menu?",
+      "text": "¿Me puede dar la carta?",
+      "pronunciation": "Meh PWEH-deh dar lah KAR-tah?",
+      "words": [
+        {
+          "text": "¿Me",
+          "pronunciation": "meh",
+          "translation": "to me"
+        },
+        {
+          "text": "puede",
+          "pronunciation": "PWEH-deh",
+          "translation": "can (you)"
+        },
+        {
+          "text": "dar",
+          "pronunciation": "dar",
+          "translation": "give"
+        },
+        {
+          "text": "la carta?",
+          "pronunciation": "lah KAR-tah",
+          "translation": "the menu"
+        }
+      ]
     },
     {
-      "id": "es-cafe-2",
-      "english": "One coffee please",
-      "translation": "Un café, por favor",
-      "pronunciation": "Oon kah-FEH pohr fah-VOHR"
+      "id": "es-cafe-one-coffee",
+      "translation": "One coffee please",
+      "text": "Un café, por favor",
+      "pronunciation": "Oon kah-FEH pohr fah-VOHR",
+      "words": [
+        {
+          "text": "Un",
+          "pronunciation": "oon",
+          "translation": "a / one (m.)"
+        },
+        {
+          "text": "café,",
+          "pronunciation": "kah-FEH",
+          "translation": "coffee"
+        },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
+      ]
     },
     {
-      "id": "es-cafe-3",
-      "english": "A cortado please",
-      "translation": "Un cortado, por favor",
-      "pronunciation": "Oon kor-TAH-doh pohr fah-VOHR"
+      "id": "es-cafe-cortado",
+      "translation": "A cortado please",
+      "text": "Un cortado, por favor",
+      "pronunciation": "Oon kor-TAH-doh pohr fah-VOHR",
+      "words": [
+        {
+          "text": "Un",
+          "pronunciation": "oon",
+          "translation": "a (m.)"
+        },
+        {
+          "text": "cortado,",
+          "pronunciation": "kor-TAH-doh",
+          "translation": "cortado"
+        },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
+      ]
     },
     {
-      "id": "es-cafe-p1",
-      "english": "What size?",
-      "translation": "¿Qué tamaño?",
-      "pronunciation": "Keh tah-MAH-nyoh?"
+      "id": "es-cafe-what-size",
+      "translation": "What size?",
+      "text": "¿Qué tamaño?",
+      "pronunciation": "Keh tah-MAH-nyoh?",
+      "words": [
+        {
+          "text": "¿Qué",
+          "pronunciation": "keh",
+          "translation": "what"
+        },
+        {
+          "text": "tamaño?",
+          "pronunciation": "tah-MAH-nyoh",
+          "translation": "size"
+        }
+      ]
     },
     {
-      "id": "es-cafe-4",
-      "english": "Medium size please",
-      "translation": "Tamaño mediano, por favor",
-      "pronunciation": "Tah-MAH-nyoh meh-dee-AH-noh pohr fah-VOHR"
+      "id": "es-cafe-medium-size",
+      "translation": "Medium size please",
+      "text": "Tamaño mediano, por favor",
+      "pronunciation": "Tah-MAH-nyoh meh-dee-AH-noh pohr fah-VOHR",
+      "words": [
+        {
+          "text": "Tamaño",
+          "pronunciation": "tah-MAH-nyoh",
+          "translation": "size"
+        },
+        {
+          "text": "mediano,",
+          "pronunciation": "meh-dee-AH-noh",
+          "translation": "medium"
+        },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
+      ]
     },
     {
-      "id": "es-cafe-p2",
-      "english": "Hot or iced?",
-      "translation": "¿Caliente o frío?",
-      "pronunciation": "Kah-lee-EHN-teh oh FREE-oh?"
+      "id": "es-cafe-hot-or-iced",
+      "translation": "Hot or iced?",
+      "text": "¿Caliente o frío?",
+      "pronunciation": "Kah-lee-EHN-teh oh FREE-oh?",
+      "words": [
+        {
+          "text": "¿Caliente",
+          "pronunciation": "kah-lee-EHN-teh",
+          "translation": "hot"
+        },
+        {
+          "text": "o",
+          "pronunciation": "oh",
+          "translation": "or"
+        },
+        {
+          "text": "frío?",
+          "pronunciation": "FREE-oh",
+          "translation": "cold / iced"
+        }
+      ]
     },
     {
-      "id": "es-cafe-5",
-      "english": "Hot",
-      "translation": "Caliente",
-      "pronunciation": "Kah-lee-EHN-teh"
+      "id": "es-cafe-hot",
+      "translation": "Hot",
+      "text": "Caliente",
+      "pronunciation": "Kah-lee-EHN-teh",
+      "words": []
     },
     {
-      "id": "es-cafe-6",
-      "english": "Iced",
-      "translation": "Frío / Con hielo",
-      "pronunciation": "FREE-oh / Kohn ee-EH-loh"
+      "id": "es-cafe-iced",
+      "translation": "Iced",
+      "text": "Frío / Con hielo",
+      "pronunciation": "FREE-oh / Kohn ee-EH-loh",
+      "words": [
+        {
+          "text": "Frío",
+          "pronunciation": "FREE-oh",
+          "translation": "cold"
+        },
+        {
+          "text": "Con hielo",
+          "pronunciation": "kohn ee-EH-loh",
+          "translation": "with ice"
+        }
+      ]
     },
     {
-      "id": "es-cafe-p3",
-      "english": "For here or to go?",
-      "translation": "¿Para tomar aquí o para llevar?",
-      "pronunciation": "PAH-rah toh-MAR ah-KEE oh PAH-rah yeh-VAR?"
+      "id": "es-cafe-here-or-to-go",
+      "translation": "For here or to go?",
+      "text": "¿Para tomar aquí o para llevar?",
+      "pronunciation": "PAH-rah toh-MAR ah-KEE oh PAH-rah yeh-VAR?",
+      "words": [
+        {
+          "text": "¿Para tomar",
+          "pronunciation": "PAH-rah toh-MAR",
+          "translation": "to have / drink"
+        },
+        {
+          "text": "aquí",
+          "pronunciation": "ah-KEE",
+          "translation": "here"
+        },
+        {
+          "text": "o para llevar?",
+          "pronunciation": "oh PAH-rah yeh-VAR",
+          "translation": "or to take away"
+        }
+      ]
     },
     {
-      "id": "es-cafe-7",
-      "english": "To eat here",
-      "translation": "Para tomar aquí",
-      "pronunciation": "PAH-rah toh-MAR ah-KEE"
+      "id": "es-cafe-eat-here",
+      "translation": "To eat here",
+      "text": "Para tomar aquí",
+      "pronunciation": "PAH-rah toh-MAR ah-KEE",
+      "words": [
+        {
+          "text": "Para tomar",
+          "pronunciation": "PAH-rah toh-MAR",
+          "translation": "to have / drink"
+        },
+        {
+          "text": "aquí",
+          "pronunciation": "ah-KEE",
+          "translation": "here"
+        }
+      ]
     },
     {
-      "id": "es-cafe-8",
-      "english": "To take away",
-      "translation": "Para llevar",
-      "pronunciation": "PAH-rah yeh-VAR"
+      "id": "es-cafe-takeaway",
+      "translation": "To take away",
+      "text": "Para llevar",
+      "pronunciation": "PAH-rah yeh-VAR",
+      "words": [
+        {
+          "text": "Para",
+          "pronunciation": "PAH-rah",
+          "translation": "to / for"
+        },
+        {
+          "text": "llevar",
+          "pronunciation": "yeh-VAR",
+          "translation": "take away"
+        }
+      ]
     },
     {
-      "id": "es-cafe-p4",
-      "english": "Would you like anything else?",
-      "translation": "¿Desea algo más?",
-      "pronunciation": "Deh-SEH-ah AHL-goh MAHS?"
+      "id": "es-cafe-anything-else",
+      "translation": "Would you like anything else?",
+      "text": "¿Desea algo más?",
+      "pronunciation": "Deh-SEH-ah AHL-goh MAHS?",
+      "words": [
+        {
+          "text": "¿Desea",
+          "pronunciation": "deh-SEH-ah",
+          "translation": "would you like"
+        },
+        {
+          "text": "algo",
+          "pronunciation": "AHL-goh",
+          "translation": "something"
+        },
+        {
+          "text": "más?",
+          "pronunciation": "mahs",
+          "translation": "more / else"
+        }
+      ]
     },
     {
-      "id": "es-cafe-9",
-      "english": "The bill please",
-      "translation": "La cuenta, por favor",
-      "pronunciation": "Lah KWEHN-tah pohr fah-VOHR"
+      "id": "es-cafe-bill",
+      "translation": "The bill please",
+      "text": "La cuenta, por favor",
+      "pronunciation": "Lah KWEHN-tah pohr fah-VOHR",
+      "words": [
+        {
+          "text": "La cuenta,",
+          "pronunciation": "lah KWEHN-tah",
+          "translation": "the bill"
+        },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
+      ]
     }
   ],
   "words": [
     {
-      "id": "es-cafe-w1",
-      "english": "coffee",
-      "translation": "café",
+      "id": "es-cafe-w-coffee",
+      "translation": "coffee",
+      "text": "café",
       "pronunciation": "kah-FEH"
     },
     {
-      "id": "es-cafe-w2",
-      "english": "latte",
-      "translation": "café con leche",
+      "id": "es-cafe-w-latte",
+      "translation": "latte",
+      "text": "café con leche",
       "pronunciation": "kah-FEH kohn LEH-cheh"
     },
     {
-      "id": "es-cafe-w3",
-      "english": "americano",
+      "id": "es-cafe-w-americano",
       "translation": "americano",
+      "text": "americano",
       "pronunciation": "ah-meh-ree-KAH-noh"
     },
     {
-      "id": "es-cafe-w4",
-      "english": "espresso",
-      "translation": "café solo",
+      "id": "es-cafe-w-espresso",
+      "translation": "espresso",
+      "text": "café solo",
       "pronunciation": "kah-FEH SOH-loh"
     },
     {
-      "id": "es-cafe-w5",
-      "english": "cortado",
+      "id": "es-cafe-w-cortado",
       "translation": "cortado",
+      "text": "cortado",
       "pronunciation": "kor-TAH-doh"
     },
     {
-      "id": "es-cafe-w6",
-      "english": "churros",
+      "id": "es-cafe-w-churros",
       "translation": "churros",
+      "text": "churros",
       "pronunciation": "CHOO-rohs"
     },
     {
-      "id": "es-cafe-w7",
-      "english": "tea",
-      "translation": "té",
+      "id": "es-cafe-w-tea",
+      "translation": "tea",
+      "text": "té",
       "pronunciation": "TEH"
     },
     {
-      "id": "es-cafe-w8",
-      "english": "milk",
-      "translation": "leche",
+      "id": "es-cafe-w-milk",
+      "translation": "milk",
+      "text": "leche",
       "pronunciation": "LEH-cheh"
     },
     {
-      "id": "es-cafe-w9",
-      "english": "sugar",
-      "translation": "azúcar",
+      "id": "es-cafe-w-sugar",
+      "translation": "sugar",
+      "text": "azúcar",
       "pronunciation": "ah-SOO-kar"
     },
     {
-      "id": "es-cafe-w10",
-      "english": "ice",
-      "translation": "hielo",
+      "id": "es-cafe-w-ice",
+      "translation": "ice",
+      "text": "hielo",
       "pronunciation": "ee-EH-loh"
     },
     {
-      "id": "es-cafe-w11",
-      "english": "hot",
-      "translation": "caliente",
+      "id": "es-cafe-w-hot",
+      "translation": "hot",
+      "text": "caliente",
       "pronunciation": "kah-lee-EHN-teh"
     },
     {
-      "id": "es-cafe-w12",
-      "english": "cold",
-      "translation": "frío",
+      "id": "es-cafe-w-cold",
+      "translation": "cold",
+      "text": "frío",
       "pronunciation": "FREE-oh"
     },
     {
-      "id": "es-cafe-w13",
-      "english": "cup",
-      "translation": "taza",
+      "id": "es-cafe-w-cup",
+      "translation": "cup",
+      "text": "taza",
       "pronunciation": "TAH-sah"
     },
     {
-      "id": "es-cafe-w14",
-      "english": "straw",
-      "translation": "pajita",
+      "id": "es-cafe-w-straw",
+      "translation": "straw",
+      "text": "pajita",
       "pronunciation": "pah-HEE-tah"
     },
     {
-      "id": "es-cafe-w15",
-      "english": "small",
-      "translation": "pequeño",
+      "id": "es-cafe-w-small",
+      "translation": "small",
+      "text": "pequeño",
       "pronunciation": "peh-KEH-nyoh"
     },
     {
-      "id": "es-cafe-w16",
-      "english": "medium",
-      "translation": "mediano",
+      "id": "es-cafe-w-medium",
+      "translation": "medium",
+      "text": "mediano",
       "pronunciation": "meh-dee-AH-noh"
     },
     {
-      "id": "es-cafe-w17",
-      "english": "large",
-      "translation": "grande",
+      "id": "es-cafe-w-large",
+      "translation": "large",
+      "text": "grande",
       "pronunciation": "GRAHN-deh"
     },
     {
-      "id": "es-cafe-w18",
-      "english": "water",
-      "translation": "agua",
+      "id": "es-cafe-w-water",
+      "translation": "water",
+      "text": "agua",
       "pronunciation": "AH-gwah"
     },
     {
-      "id": "es-cafe-w19",
-      "english": "cake",
-      "translation": "tarta",
+      "id": "es-cafe-w-cake",
+      "translation": "cake",
+      "text": "tarta",
       "pronunciation": "TAR-tah"
     },
     {
-      "id": "es-cafe-w20",
-      "english": "pastry",
-      "translation": "pastel",
+      "id": "es-cafe-w-pastry",
+      "translation": "pastry",
+      "text": "pastel",
       "pronunciation": "pahs-TEHL"
     },
     {
-      "id": "es-cafe-w21",
-      "english": "a (masc. / fem.)",
-      "translation": "un / una",
-      "pronunciation": "oon / OO-nah"
+      "id": "es-cafe-w-juice",
+      "translation": "juice",
+      "text": "zumo",
+      "pronunciation": "SOO-moh"
     },
     {
-      "id": "es-cafe-w22",
-      "english": "can I?",
-      "translation": "¿puedo?",
-      "pronunciation": "PWEH-doh?"
+      "id": "es-cafe-w-hot-chocolate",
+      "translation": "hot chocolate",
+      "text": "chocolate caliente",
+      "pronunciation": "choh-koh-LAH-teh kah-lee-EHN-teh"
+    },
+    {
+      "id": "es-cafe-w-croissant",
+      "translation": "croissant",
+      "text": "cruasán",
+      "pronunciation": "krwah-SAHN"
+    },
+    {
+      "id": "es-cafe-w-napkin",
+      "translation": "napkin",
+      "text": "servilleta",
+      "pronunciation": "sehr-vee-YEH-tah"
     }
   ]
 }

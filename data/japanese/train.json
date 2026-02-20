@@ -2,41 +2,178 @@
   "categoryId": "train",
   "languageId": "japanese",
   "phrases": [
-    { "id": "jp-train-1", "english": "One ticket to..., please", "translation": "...まで一枚ください", "pronunciation": "...made ichimai kudasai" },
-    { "id": "jp-train-7", "english": "Round trip ticket, please", "translation": "往復切符をください", "pronunciation": "Oufuku kippu wo kudasai" },
-    { "id": "jp-train-8", "english": "Reserved seat, please", "translation": "指定席をお願いします", "pronunciation": "Shiteiseki wo onegaishimasu" },
-    { "id": "jp-train-4", "english": "What time is the next train?", "translation": "次の電車は何時ですか？", "pronunciation": "Tsugi no densha wa nanji desuka?" },
-    { "id": "jp-train-2", "english": "Which platform for...?", "translation": "...行きは何番線ですか？", "pronunciation": "...yuki wa nanban-sen desuka?" },
-    { "id": "jp-train-5", "english": "Where should I transfer?", "translation": "どこで乗り換えますか？", "pronunciation": "Doko de norikaemasu ka?" },
-    { "id": "jp-train-p4", "english": "This train is bound for...", "translation": "この電車は...行きです", "pronunciation": "Kono densha wa...yuki desu" },
-    { "id": "jp-train-3", "english": "Is this the train to...?", "translation": "これは...行きですか？", "pronunciation": "Kore wa...yuki desuka?" },
-    { "id": "jp-train-p2", "english": "Please stand behind the yellow line", "translation": "黄色い線の内側にお下がりください", "pronunciation": "Kiiroi sen no uchigawa ni osagari kudasai" },
-    { "id": "jp-train-p1", "english": "The train is arriving", "translation": "電車がまいります", "pronunciation": "Densha ga mairimasu" },
-    { "id": "jp-train-6", "english": "Is this seat taken?", "translation": "この席は空いていますか？", "pronunciation": "Kono seki wa aite imasuka?" },
-    { "id": "jp-train-p3", "english": "The next stop is...", "translation": "次は...です", "pronunciation": "Tsugi wa...desu" }
+    {
+      "id": "jp-train-one-ticket-to",
+      "translation": "One ticket to..., please",
+      "text": "...まで一枚ください",
+      "pronunciation": "...made ichimai kudasai",
+      "words": [
+        { "text": "まで", "pronunciation": "made", "translation": "to / until" },
+        { "text": "一枚", "pronunciation": "ichimai", "translation": "one (flat item / ticket)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "jp-train-round-trip",
+      "translation": "Round trip ticket, please",
+      "text": "往復切符をください",
+      "pronunciation": "oufuku kippu wo kudasai",
+      "words": [
+        { "text": "往復", "pronunciation": "oufuku", "translation": "round trip" },
+        { "text": "切符", "pronunciation": "kippu", "translation": "ticket" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "jp-train-reserved-seat",
+      "translation": "Reserved seat, please",
+      "text": "指定席をお願いします",
+      "pronunciation": "shiteiseki wo onegaishimasu",
+      "words": [
+        { "text": "指定席", "pronunciation": "shiteiseki", "translation": "reserved seat" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-train-next-train-time",
+      "translation": "What time is the next train?",
+      "text": "次の電車は何時ですか？",
+      "pronunciation": "tsugi no densha wa nanji desuka?",
+      "words": [
+        { "text": "次の", "pronunciation": "tsugi no", "translation": "next (possessive)" },
+        { "text": "電車", "pronunciation": "densha", "translation": "train" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "何時", "pronunciation": "nanji", "translation": "what time" },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-train-which-platform",
+      "translation": "Which platform for...?",
+      "text": "...行きは何番線ですか？",
+      "pronunciation": "...yuki wa nanban-sen desuka?",
+      "words": [
+        { "text": "行き", "pronunciation": "yuki", "translation": "bound for" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "何番線", "pronunciation": "nanban-sen", "translation": "which platform number" },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-train-where-transfer",
+      "translation": "Where should I transfer?",
+      "text": "どこで乗り換えますか？",
+      "pronunciation": "doko de norikaemasu ka?",
+      "words": [
+        { "text": "どこ", "pronunciation": "doko", "translation": "where" },
+        { "text": "で", "pronunciation": "de", "translation": "(location particle)" },
+        { "text": "乗り換えます", "pronunciation": "norikaemasu", "translation": "transfer / change trains" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-train-bound-for",
+      "translation": "This train is bound for...",
+      "text": "この電車は...行きです",
+      "pronunciation": "kono densha wa...yuki desu",
+      "words": [
+        { "text": "この電車", "pronunciation": "kono densha", "translation": "this train" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "行き", "pronunciation": "yuki", "translation": "bound for" },
+        { "text": "です", "pronunciation": "desu", "translation": "(it) is" }
+      ]
+    },
+    {
+      "id": "jp-train-is-this-to",
+      "translation": "Is this the train to...?",
+      "text": "これは...行きですか？",
+      "pronunciation": "kore wa...yuki desuka?",
+      "words": [
+        { "text": "これ", "pronunciation": "kore", "translation": "this" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "行き", "pronunciation": "yuki", "translation": "bound for" },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-train-yellow-line",
+      "translation": "Please stand behind the yellow line",
+      "text": "黄色い線の内側にお下がりください",
+      "pronunciation": "kiiroi sen no uchigawa ni osagari kudasai",
+      "words": [
+        { "text": "黄色い線", "pronunciation": "kiiroi sen", "translation": "yellow line" },
+        { "text": "の", "pronunciation": "no", "translation": "(possessive particle)" },
+        { "text": "内側", "pronunciation": "uchigawa", "translation": "inner side / behind" },
+        { "text": "に", "pronunciation": "ni", "translation": "(direction particle)" },
+        { "text": "お下がり", "pronunciation": "osagari", "translation": "step back (honorific)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-train-arriving",
+      "translation": "The train is arriving",
+      "text": "電車がまいります",
+      "pronunciation": "densha ga mairimasu",
+      "words": [
+        { "text": "電車", "pronunciation": "densha", "translation": "train" },
+        { "text": "が", "pronunciation": "ga", "translation": "(subject particle)" },
+        { "text": "まいります", "pronunciation": "mairimasu", "translation": "is coming (humble / formal)" }
+      ]
+    },
+    {
+      "id": "jp-train-seat-taken",
+      "translation": "Is this seat taken?",
+      "text": "この席は空いていますか？",
+      "pronunciation": "kono seki wa aite imasuka?",
+      "words": [
+        { "text": "この席", "pronunciation": "kono seki", "translation": "this seat" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "空いて", "pronunciation": "aite", "translation": "free / available (te-form)" },
+        { "text": "います", "pronunciation": "imasu", "translation": "(progressive state)" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-train-next-stop",
+      "translation": "The next stop is...",
+      "text": "次は...です",
+      "pronunciation": "tsugi wa...desu",
+      "words": [
+        { "text": "次", "pronunciation": "tsugi", "translation": "next" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "です", "pronunciation": "desu", "translation": "(it) is" }
+      ]
+    }
   ],
   "words": [
-    { "id": "jp-train-w1", "english": "ticket", "translation": "切符", "pronunciation": "Kippu" },
-    { "id": "jp-train-w2", "english": "platform", "translation": "ホーム", "pronunciation": "Hoomu" },
-    { "id": "jp-train-w3", "english": "express", "translation": "急行", "pronunciation": "Kyuukou" },
-    { "id": "jp-train-w4", "english": "local train", "translation": "各停", "pronunciation": "Kakutei" },
-    { "id": "jp-train-w5", "english": "bullet train", "translation": "新幹線", "pronunciation": "Shinkansen" },
-    { "id": "jp-train-w6", "english": "transfer", "translation": "乗り換え", "pronunciation": "Norikae" },
-    { "id": "jp-train-w7", "english": "exit", "translation": "出口", "pronunciation": "Deguchi" },
-    { "id": "jp-train-w8", "english": "entrance", "translation": "入口", "pronunciation": "Iriguchi" },
-    { "id": "jp-train-w9", "english": "one-way", "translation": "片道", "pronunciation": "Katamichi" },
-    { "id": "jp-train-w10", "english": "round trip", "translation": "往復", "pronunciation": "Oufuku" },
-    { "id": "jp-train-w11", "english": "reserved seat", "translation": "指定席", "pronunciation": "Shiteiseki" },
-    { "id": "jp-train-w12", "english": "free seat", "translation": "自由席", "pronunciation": "Jiyuuseki" },
-    { "id": "jp-train-w13", "english": "timetable", "translation": "時刻表", "pronunciation": "Jikokuhyou" },
-    { "id": "jp-train-w14", "english": "departure", "translation": "出発", "pronunciation": "Shuppatsu" },
-    { "id": "jp-train-w15", "english": "arrival", "translation": "到着", "pronunciation": "Touchaku" },
-    { "id": "jp-train-w16", "english": "ticket gate", "translation": "改札", "pronunciation": "Kaisatsu" },
-    { "id": "jp-train-w17", "english": "line", "translation": "線", "pronunciation": "Sen" },
-    { "id": "jp-train-w18", "english": "delay", "translation": "遅延", "pronunciation": "Chien" },
-    { "id": "jp-train-w19", "english": "IC card", "translation": "ICカード", "pronunciation": "Aishii kaado" },
-    { "id": "jp-train-w20", "english": "last train", "translation": "終電", "pronunciation": "Shuuden" },
-    { "id": "jp-train-w21", "english": "to / until", "translation": "まで", "pronunciation": "Made" },
-    { "id": "jp-train-w22", "english": "bound for", "translation": "行き", "pronunciation": "Yuki" }
+    { "id": "jp-train-w-ticket", "translation": "ticket", "text": "切符", "pronunciation": "kippu" },
+    { "id": "jp-train-w-platform", "translation": "platform", "text": "ホーム", "pronunciation": "hoomu" },
+    { "id": "jp-train-w-express", "translation": "express", "text": "急行", "pronunciation": "kyuukou" },
+    { "id": "jp-train-w-local", "translation": "local train", "text": "各停", "pronunciation": "kakutei" },
+    { "id": "jp-train-w-shinkansen", "translation": "bullet train", "text": "新幹線", "pronunciation": "shinkansen" },
+    { "id": "jp-train-w-transfer", "translation": "transfer", "text": "乗り換え", "pronunciation": "norikae" },
+    { "id": "jp-train-w-exit", "translation": "exit", "text": "出口", "pronunciation": "deguchi" },
+    { "id": "jp-train-w-entrance", "translation": "entrance", "text": "入口", "pronunciation": "iriguchi" },
+    { "id": "jp-train-w-one-way", "translation": "one-way", "text": "片道", "pronunciation": "katamichi" },
+    { "id": "jp-train-w-round-trip", "translation": "round trip", "text": "往復", "pronunciation": "oufuku" },
+    { "id": "jp-train-w-reserved", "translation": "reserved seat", "text": "指定席", "pronunciation": "shiteiseki" },
+    { "id": "jp-train-w-unreserved", "translation": "free seat", "text": "自由席", "pronunciation": "jiyuuseki" },
+    { "id": "jp-train-w-timetable", "translation": "timetable", "text": "時刻表", "pronunciation": "jikokuhyou" },
+    { "id": "jp-train-w-departure", "translation": "departure", "text": "出発", "pronunciation": "shuppatsu" },
+    { "id": "jp-train-w-arrival", "translation": "arrival", "text": "到着", "pronunciation": "touchaku" },
+    { "id": "jp-train-w-ticket-gate", "translation": "ticket gate", "text": "改札", "pronunciation": "kaisatsu" },
+    { "id": "jp-train-w-line", "translation": "line", "text": "線", "pronunciation": "sen" },
+    { "id": "jp-train-w-delay", "translation": "delay", "text": "遅延", "pronunciation": "chien" },
+    { "id": "jp-train-w-ic-card", "translation": "IC card", "text": "ICカード", "pronunciation": "aishii kaado" },
+    { "id": "jp-train-w-last-train", "translation": "last train", "text": "終電", "pronunciation": "shuuden" },
+    { "id": "jp-train-w-green-car", "translation": "green car (first class)", "text": "グリーン車", "pronunciation": "guriinsha" },
+    { "id": "jp-train-w-fare-adjustment", "translation": "fare adjustment", "text": "精算", "pronunciation": "seisan" },
+    { "id": "jp-train-w-conductor", "translation": "conductor", "text": "車掌", "pronunciation": "shashou" },
+    { "id": "jp-train-w-top-up", "translation": "top up (IC card recharge)", "text": "チャージ", "pronunciation": "chaaji" }
   ]
 }

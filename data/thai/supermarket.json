@@ -3,228 +3,176 @@
   "languageId": "thai",
   "phrases": [
     {
-      "id": "th-super-1",
-      "english": "Where is...?",
-      "translation": "...อยู่ที่ไหน?",
-      "pronunciation": "...yoo tee nai?"
+      "id": "th-super-where-is",
+      "translation": "Where is...?",
+      "text": "...อยู่ที่ไหน?",
+      "pronunciation": "...yòo têe nǎi?",
+      "words": [
+        { "text": "อยู่", "pronunciation": "yòo", "translation": "is / located" },
+        { "text": "ที่ไหน", "pronunciation": "têe nǎi", "translation": "where" }
+      ]
     },
     {
-      "id": "th-super-2",
-      "english": "Do you have...?",
-      "translation": "มี...ไหม?",
-      "pronunciation": "Mee...mai?"
+      "id": "th-super-do-you-have",
+      "translation": "Do you have...?",
+      "text": "มี...ไหม?",
+      "pronunciation": "mee...mǎi?",
+      "words": [
+        { "text": "มี", "pronunciation": "mee", "translation": "have / is there" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
     },
     {
-      "id": "th-super-3",
-      "english": "How much is this?",
-      "translation": "อันนี้เท่าไหร่?",
-      "pronunciation": "An nee tao rai?"
+      "id": "th-super-how-much",
+      "translation": "How much is this?",
+      "text": "อันนี้เท่าไหร่?",
+      "pronunciation": "an née tâo rài?",
+      "words": [
+        { "text": "อัน", "pronunciation": "an", "translation": "(classifier)" },
+        { "text": "นี้", "pronunciation": "née", "translation": "this" },
+        { "text": "เท่าไหร่", "pronunciation": "tâo rài", "translation": "how much" }
+      ]
     },
     {
-      "id": "th-super-p4",
-      "english": "Do you have a member card?",
-      "translation": "มีเมมเบอร์ไหม?",
-      "pronunciation": "Mee member mai?"
+      "id": "th-super-member-card",
+      "translation": "Do you have a member card?",
+      "text": "มีเมมเบอร์ไหม?",
+      "pronunciation": "mee mem-bêr mǎi?",
+      "words": [
+        { "text": "มี", "pronunciation": "mee", "translation": "have / is there" },
+        { "text": "เมมเบอร์", "pronunciation": "mem-bêr", "translation": "member (card)" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
     },
     {
-      "id": "th-super-9",
-      "english": "No, I don't",
-      "translation": "ไม่มี",
-      "pronunciation": "Mai mee"
+      "id": "th-super-no",
+      "translation": "No, I don't",
+      "text": "ไม่มี",
+      "pronunciation": "mâi mee",
+      "words": [
+        { "text": "ไม่", "pronunciation": "mâi", "translation": "no / not" },
+        { "text": "มี", "pronunciation": "mee", "translation": "have / exist" }
+      ]
     },
     {
-      "id": "th-super-p3",
-      "english": "Your total is... baht",
-      "translation": "ทั้งหมด...บาท",
-      "pronunciation": "Tang mod...baht"
+      "id": "th-super-total",
+      "translation": "Your total is... baht",
+      "text": "ทั้งหมด...บาท",
+      "pronunciation": "táng mòt...bàat",
+      "words": [
+        { "text": "ทั้งหมด", "pronunciation": "táng mòt", "translation": "all / total" },
+        { "text": "บาท", "pronunciation": "bàat", "translation": "baht (currency)" }
+      ]
     },
     {
-      "id": "th-super-p1",
-      "english": "Do you need a bag?",
-      "translation": "เอาถุงไหม?",
-      "pronunciation": "Ao toong mai?"
+      "id": "th-super-need-bag",
+      "translation": "Do you need a bag?",
+      "text": "เอาถุงไหม?",
+      "pronunciation": "ao tǒong mǎi?",
+      "words": [
+        { "text": "เอา", "pronunciation": "ao", "translation": "want / take" },
+        { "text": "ถุง", "pronunciation": "tǒong", "translation": "bag" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
     },
     {
-      "id": "th-super-5",
-      "english": "A bag, please",
-      "translation": "ขอถุงด้วย",
-      "pronunciation": "Khor toong duay"
+      "id": "th-super-bag-please",
+      "translation": "A bag, please",
+      "text": "ขอถุงด้วย",
+      "pronunciation": "khǒr tǒong dûay",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "ถุง", "pronunciation": "tǒong", "translation": "bag" },
+        { "text": "ด้วย", "pronunciation": "dûay", "translation": "also / please (add-on)" }
+      ]
     },
     {
-      "id": "th-super-4",
-      "english": "I don't need a bag",
-      "translation": "ไม่เอาถุง",
-      "pronunciation": "Mai ao toong"
+      "id": "th-super-no-bag",
+      "translation": "I don't need a bag",
+      "text": "ไม่เอาถุง",
+      "pronunciation": "mâi ao tǒong",
+      "words": [
+        { "text": "ไม่", "pronunciation": "mâi", "translation": "no / not" },
+        { "text": "เอา", "pronunciation": "ao", "translation": "want / take" },
+        { "text": "ถุง", "pronunciation": "tǒong", "translation": "bag" }
+      ]
     },
     {
-      "id": "th-super-p2",
-      "english": "Cash or card?",
-      "translation": "เงินสดหรือบัตร?",
-      "pronunciation": "Ngern sod reu bat?"
+      "id": "th-super-cash-or-card",
+      "translation": "Cash or card?",
+      "text": "เงินสดหรือบัตร?",
+      "pronunciation": "ngern sòt rěu bàt?",
+      "words": [
+        { "text": "เงินสด", "pronunciation": "ngern sòt", "translation": "cash" },
+        { "text": "หรือ", "pronunciation": "rěu", "translation": "or" },
+        { "text": "บัตร", "pronunciation": "bàt", "translation": "card" }
+      ]
     },
     {
-      "id": "th-super-6",
-      "english": "I'll pay by card",
-      "translation": "จ่ายบัตร",
-      "pronunciation": "Jai bat"
+      "id": "th-super-pay-card",
+      "translation": "I'll pay by card",
+      "text": "จ่ายบัตร",
+      "pronunciation": "jàai bàt",
+      "words": [
+        { "text": "จ่าย", "pronunciation": "jàai", "translation": "pay" },
+        { "text": "บัตร", "pronunciation": "bàt", "translation": "card" }
+      ]
     },
     {
-      "id": "th-super-7",
-      "english": "I'll pay with cash",
-      "translation": "จ่ายเงินสด",
-      "pronunciation": "Jai ngern sod"
+      "id": "th-super-pay-cash",
+      "translation": "I'll pay with cash",
+      "text": "จ่ายเงินสด",
+      "pronunciation": "jàai ngern sòt",
+      "words": [
+        { "text": "จ่าย", "pronunciation": "jàai", "translation": "pay" },
+        { "text": "เงินสด", "pronunciation": "ngern sòt", "translation": "cash" }
+      ]
     },
     {
-      "id": "th-super-10",
-      "english": "I'll pay by QR code",
-      "translation": "จ่ายสแกน",
-      "pronunciation": "Jai sa-gaen"
+      "id": "th-super-pay-qr",
+      "translation": "I'll pay by QR code",
+      "text": "จ่ายสแกน",
+      "pronunciation": "jàai sà-gaen",
+      "words": [
+        { "text": "จ่าย", "pronunciation": "jàai", "translation": "pay" },
+        { "text": "สแกน", "pronunciation": "sà-gaen", "translation": "scan (QR)" }
+      ]
     },
     {
-      "id": "th-super-8",
-      "english": "Can I have a receipt?",
-      "translation": "ขอใบเสร็จด้วย",
-      "pronunciation": "Khor bai set duay"
+      "id": "th-super-receipt",
+      "translation": "Can I have a receipt?",
+      "text": "ขอใบเสร็จด้วย",
+      "pronunciation": "khǒr bai sèt dûay",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "ใบเสร็จ", "pronunciation": "bai sèt", "translation": "receipt" },
+        { "text": "ด้วย", "pronunciation": "dûay", "translation": "also / please (add-on)" }
+      ]
     }
   ],
   "words": [
-    {
-      "id": "th-super-w1",
-      "english": "water",
-      "translation": "น้ำ",
-      "pronunciation": "Nam"
-    },
-    {
-      "id": "th-super-w2",
-      "english": "milk",
-      "translation": "นม",
-      "pronunciation": "Nom"
-    },
-    {
-      "id": "th-super-w3",
-      "english": "bread",
-      "translation": "ขนมปัง",
-      "pronunciation": "Khanom pang"
-    },
-    {
-      "id": "th-super-w4",
-      "english": "eggs",
-      "translation": "ไข่",
-      "pronunciation": "Khai"
-    },
-    {
-      "id": "th-super-w5",
-      "english": "rice",
-      "translation": "ข้าวสาร",
-      "pronunciation": "Khao saan"
-    },
-    {
-      "id": "th-super-w6",
-      "english": "fruit",
-      "translation": "ผลไม้",
-      "pronunciation": "Phon la mai"
-    },
-    {
-      "id": "th-super-w7",
-      "english": "snack",
-      "translation": "ขนม",
-      "pronunciation": "Khanom"
-    },
-    {
-      "id": "th-super-w8",
-      "english": "candy",
-      "translation": "ลูกอม",
-      "pronunciation": "Look om"
-    },
-    {
-      "id": "th-super-w9",
-      "english": "instant noodles",
-      "translation": "มาม่า",
-      "pronunciation": "Mama"
-    },
-    {
-      "id": "th-super-w10",
-      "english": "dried food",
-      "translation": "อาหารแห้ง",
-      "pronunciation": "Ahaan haeng"
-    },
-    {
-      "id": "th-super-w11",
-      "english": "bag",
-      "translation": "ถุง",
-      "pronunciation": "Toong"
-    },
-    {
-      "id": "th-super-w12",
-      "english": "receipt",
-      "translation": "ใบเสร็จ",
-      "pronunciation": "Bai set"
-    },
-    {
-      "id": "th-super-w13",
-      "english": "cash",
-      "translation": "เงินสด",
-      "pronunciation": "Ngern sod"
-    },
-    {
-      "id": "th-super-w14",
-      "english": "card",
-      "translation": "บัตร",
-      "pronunciation": "Bat"
-    },
-    {
-      "id": "th-super-w15",
-      "english": "change",
-      "translation": "เงินทอน",
-      "pronunciation": "Ngern ton"
-    },
-    {
-      "id": "th-super-w16",
-      "english": "price",
-      "translation": "ราคา",
-      "pronunciation": "Raka"
-    },
-    {
-      "id": "th-super-w17",
-      "english": "cheap",
-      "translation": "ถูก",
-      "pronunciation": "Took"
-    },
-    {
-      "id": "th-super-w18",
-      "english": "expensive",
-      "translation": "แพง",
-      "pronunciation": "Paeng"
-    },
-    {
-      "id": "th-super-w19",
-      "english": "entrance",
-      "translation": "ทางเข้า",
-      "pronunciation": "Tang khao"
-    },
-    {
-      "id": "th-super-w20",
-      "english": "exit",
-      "translation": "ทางออก",
-      "pronunciation": "Tang ok"
-    },
-    {
-      "id": "th-super-w21",
-      "english": "have",
-      "translation": "มี",
-      "pronunciation": "Mee"
-    },
-    {
-      "id": "th-super-w22",
-      "english": "want",
-      "translation": "เอา",
-      "pronunciation": "Ao"
-    },
-    {
-      "id": "th-super-w23",
-      "english": "no / not",
-      "translation": "ไม่",
-      "pronunciation": "Mai"
-    }
+    { "id": "th-super-w-water", "translation": "water", "text": "น้ำ", "pronunciation": "nám" },
+    { "id": "th-super-w-milk", "translation": "milk", "text": "นม", "pronunciation": "nom" },
+    { "id": "th-super-w-bread", "translation": "bread", "text": "ขนมปัง", "pronunciation": "khà-nǒm bpang" },
+    { "id": "th-super-w-eggs", "translation": "eggs", "text": "ไข่", "pronunciation": "khài" },
+    { "id": "th-super-w-rice", "translation": "rice (uncooked)", "text": "ข้าวสาร", "pronunciation": "khâo sǎan" },
+    { "id": "th-super-w-fruit", "translation": "fruit", "text": "ผลไม้", "pronunciation": "phǒn-lá-mái" },
+    { "id": "th-super-w-vegetables", "translation": "vegetables", "text": "ผัก", "pronunciation": "pàk" },
+    { "id": "th-super-w-meat", "translation": "meat", "text": "เนื้อ", "pronunciation": "nêua" },
+    { "id": "th-super-w-snack", "translation": "snack", "text": "ขนม", "pronunciation": "khà-nǒm" },
+    { "id": "th-super-w-candy", "translation": "candy", "text": "ลูกอม", "pronunciation": "lôok om" },
+    { "id": "th-super-w-instant-noodles", "translation": "instant noodles", "text": "มาม่า", "pronunciation": "maa-mâa" },
+    { "id": "th-super-w-dried-food", "translation": "dried food", "text": "อาหารแห้ง", "pronunciation": "aa-hǎan hâeng" },
+    { "id": "th-super-w-sauce", "translation": "sauce", "text": "ซอส", "pronunciation": "sôrt" },
+    { "id": "th-super-w-bag", "translation": "bag", "text": "ถุง", "pronunciation": "tǒong" },
+    { "id": "th-super-w-receipt", "translation": "receipt", "text": "ใบเสร็จ", "pronunciation": "bai sèt" },
+    { "id": "th-super-w-cash", "translation": "cash", "text": "เงินสด", "pronunciation": "ngern sòt" },
+    { "id": "th-super-w-card", "translation": "card", "text": "บัตร", "pronunciation": "bàt" },
+    { "id": "th-super-w-change", "translation": "change (money)", "text": "เงินทอน", "pronunciation": "ngern torn" },
+    { "id": "th-super-w-price", "translation": "price", "text": "ราคา", "pronunciation": "raa-khaa" },
+    { "id": "th-super-w-cheap", "translation": "cheap", "text": "ถูก", "pronunciation": "tòok" },
+    { "id": "th-super-w-expensive", "translation": "expensive", "text": "แพง", "pronunciation": "paeng" },
+    { "id": "th-super-w-entrance", "translation": "entrance", "text": "ทางเข้า", "pronunciation": "taang khâo" },
+    { "id": "th-super-w-exit", "translation": "exit", "text": "ทางออก", "pronunciation": "taang òok" }
   ]
 }

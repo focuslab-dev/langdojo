@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Phrase, LanguageId } from '@/types';
 
-interface FavoriteItem {
-  phrase: Phrase;
+export interface FavoriteItem {
+  phraseId: string;
   languageId: LanguageId;
   categoryId: string;
 }
@@ -17,7 +17,15 @@ export const useFavorites = () => {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored) {
       try {
-        setFavorites(JSON.parse(stored));
+        const parsed = JSON.parse(stored);
+        // Migrate old format that stored full phrase objects
+        const migrated = parsed.map((item: FavoriteItem & { phrase?: Phrase }) => {
+          if (item.phrase) {
+            return { phraseId: item.phrase.id, languageId: item.languageId, categoryId: item.categoryId };
+          }
+          return item;
+        });
+        setFavorites(migrated);
       } catch {
         setFavorites([]);
       }
@@ -34,17 +42,17 @@ export const useFavorites = () => {
   const addFavorite = useCallback((phrase: Phrase, languageId: LanguageId, categoryId: string) => {
     setFavorites((prev) => {
       const exists = prev.some(
-        (fav) => fav.phrase.id === phrase.id && fav.languageId === languageId
+        (fav) => fav.phraseId === phrase.id && fav.languageId === languageId
       );
       if (exists) return prev;
-      return [...prev, { phrase, languageId, categoryId }];
+      return [...prev, { phraseId: phrase.id, languageId, categoryId }];
     });
   }, []);
 
   const removeFavorite = useCallback((phraseId: string, languageId: LanguageId) => {
     setFavorites((prev) =>
       prev.filter(
-        (fav) => !(fav.phrase.id === phraseId && fav.languageId === languageId)
+        (fav) => !(fav.phraseId === phraseId && fav.languageId === languageId)
       )
     );
   }, []);
@@ -52,7 +60,7 @@ export const useFavorites = () => {
   const isFavorite = useCallback(
     (phraseId: string, languageId: LanguageId): boolean => {
       return favorites.some(
-        (fav) => fav.phrase.id === phraseId && fav.languageId === languageId
+        (fav) => fav.phraseId === phraseId && fav.languageId === languageId
       );
     },
     [favorites]

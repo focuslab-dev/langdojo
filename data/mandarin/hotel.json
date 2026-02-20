@@ -2,42 +2,210 @@
   "categoryId": "hotel",
   "languageId": "mandarin",
   "phrases": [
-    { "id": "zh-hotel-p1", "english": "Do you have a reservation?", "translation": "您有预订吗？", "pronunciation": "Nín yǒu yùdìng ma?" },
-    { "id": "zh-hotel-1", "english": "I have a reservation", "translation": "我有预订", "pronunciation": "Wǒ yǒu yùdìng" },
-    { "id": "zh-hotel-2", "english": "I'd like to check in", "translation": "我要办理入住", "pronunciation": "Wǒ yào bànlǐ rùzhù" },
-    { "id": "zh-hotel-3", "english": "I'd like to check out", "translation": "我要退房", "pronunciation": "Wǒ yào tuìfáng" },
-    { "id": "zh-hotel-p2", "english": "Your room is on the 3rd floor", "translation": "您的房间在三楼", "pronunciation": "Nín de fángjiān zài sān lóu" },
-    { "id": "zh-hotel-4", "english": "A single room, please", "translation": "我要一间单人房", "pronunciation": "Wǒ yào yī jiān dānrénfáng" },
-    { "id": "zh-hotel-5", "english": "A double room, please", "translation": "我要一间双人房", "pronunciation": "Wǒ yào yī jiān shuāngrénfáng" },
-    { "id": "zh-hotel-6", "english": "How much per night?", "translation": "一晚多少钱？", "pronunciation": "Yī wǎn duōshao qián?" },
-    { "id": "zh-hotel-7", "english": "Is breakfast included?", "translation": "包含早餐吗？", "pronunciation": "Bāohán zǎocān ma?" },
-    { "id": "zh-hotel-8", "english": "What time is checkout?", "translation": "几点退房？", "pronunciation": "Jǐ diǎn tuìfáng?" },
-    { "id": "zh-hotel-p3", "english": "Checkout is at 11am", "translation": "退房时间是上午十一点", "pronunciation": "Tuìfáng shíjiān shì shàngwǔ shíyī diǎn" },
-    { "id": "zh-hotel-9", "english": "Can I leave my luggage?", "translation": "可以寄存行李吗？", "pronunciation": "Kěyǐ jìcún xínglǐ ma?" },
-    { "id": "zh-hotel-10", "english": "The Wi-Fi password, please", "translation": "请问Wi-Fi密码是什么？", "pronunciation": "Qǐngwèn Wi-Fi mìmǎ shì shénme?" },
-    { "id": "zh-hotel-11", "english": "Could I get extra towels?", "translation": "可以多给几条毛巾吗？", "pronunciation": "Kěyǐ duō gěi jǐ tiáo máojīn ma?" },
-    { "id": "zh-hotel-12", "english": "The air conditioning doesn't work", "translation": "空调坏了", "pronunciation": "Kōngtiáo huài le" }
+    {
+      "id": "zh-hotel-have-reservation",
+      "translation": "Do you have a reservation?",
+      "text": "您有预订吗？",
+      "pronunciation": "nín yǒu yùdìng ma?",
+      "words": [
+        { "text": "您", "pronunciation": "nín", "translation": "you (polite)" },
+        { "text": "有", "pronunciation": "yǒu", "translation": "have" },
+        { "text": "预订", "pronunciation": "yùdìng", "translation": "reservation" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-hotel-i-have-reservation",
+      "translation": "I have a reservation",
+      "text": "我有预订",
+      "pronunciation": "wǒ yǒu yùdìng",
+      "words": [
+        { "text": "我", "pronunciation": "wǒ", "translation": "I / me" },
+        { "text": "有", "pronunciation": "yǒu", "translation": "have" },
+        { "text": "预订", "pronunciation": "yùdìng", "translation": "reservation" }
+      ]
+    },
+    {
+      "id": "zh-hotel-check-in",
+      "translation": "I'd like to check in",
+      "text": "我要办理入住",
+      "pronunciation": "wǒ yào bànlǐ rùzhù",
+      "words": [
+        { "text": "我", "pronunciation": "wǒ", "translation": "I / me" },
+        { "text": "要", "pronunciation": "yào", "translation": "want / would like" },
+        { "text": "办理", "pronunciation": "bànlǐ", "translation": "handle / process" },
+        { "text": "入住", "pronunciation": "rùzhù", "translation": "check in" }
+      ]
+    },
+    {
+      "id": "zh-hotel-check-out",
+      "translation": "I'd like to check out",
+      "text": "我要退房",
+      "pronunciation": "wǒ yào tuìfáng",
+      "words": [
+        { "text": "我", "pronunciation": "wǒ", "translation": "I / me" },
+        { "text": "要", "pronunciation": "yào", "translation": "want / would like" },
+        { "text": "退房", "pronunciation": "tuìfáng", "translation": "check out" }
+      ]
+    },
+    {
+      "id": "zh-hotel-room-floor",
+      "translation": "Your room is on the 3rd floor",
+      "text": "您的房间在三楼",
+      "pronunciation": "nín de fángjiān zài sān lóu",
+      "words": [
+        { "text": "您的", "pronunciation": "nín de", "translation": "your (polite)" },
+        { "text": "房间", "pronunciation": "fángjiān", "translation": "room" },
+        { "text": "在", "pronunciation": "zài", "translation": "at / on" },
+        { "text": "三", "pronunciation": "sān", "translation": "three" },
+        { "text": "楼", "pronunciation": "lóu", "translation": "floor / storey" }
+      ]
+    },
+    {
+      "id": "zh-hotel-single-room",
+      "translation": "A single room, please",
+      "text": "我要一间单人房",
+      "pronunciation": "wǒ yào yī jiān dānrénfáng",
+      "words": [
+        { "text": "我", "pronunciation": "wǒ", "translation": "I / me" },
+        { "text": "要", "pronunciation": "yào", "translation": "want" },
+        { "text": "一间", "pronunciation": "yī jiān", "translation": "one (room measure word)" },
+        { "text": "单人房", "pronunciation": "dānrénfáng", "translation": "single room" }
+      ]
+    },
+    {
+      "id": "zh-hotel-double-room",
+      "translation": "A double room, please",
+      "text": "我要一间双人房",
+      "pronunciation": "wǒ yào yī jiān shuāngrénfáng",
+      "words": [
+        { "text": "我", "pronunciation": "wǒ", "translation": "I / me" },
+        { "text": "要", "pronunciation": "yào", "translation": "want" },
+        { "text": "一间", "pronunciation": "yī jiān", "translation": "one (room measure word)" },
+        { "text": "双人房", "pronunciation": "shuāngrénfáng", "translation": "double room" }
+      ]
+    },
+    {
+      "id": "zh-hotel-price-per-night",
+      "translation": "How much per night?",
+      "text": "一晚多少钱？",
+      "pronunciation": "yī wǎn duōshao qián?",
+      "words": [
+        { "text": "一", "pronunciation": "yī", "translation": "one" },
+        { "text": "晚", "pronunciation": "wǎn", "translation": "night" },
+        { "text": "多少", "pronunciation": "duōshao", "translation": "how much" },
+        { "text": "钱", "pronunciation": "qián", "translation": "money" }
+      ]
+    },
+    {
+      "id": "zh-hotel-breakfast-included",
+      "translation": "Is breakfast included?",
+      "text": "包含早餐吗？",
+      "pronunciation": "bāohán zǎocān ma?",
+      "words": [
+        { "text": "包含", "pronunciation": "bāohán", "translation": "include / contain" },
+        { "text": "早餐", "pronunciation": "zǎocān", "translation": "breakfast" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-hotel-checkout-time",
+      "translation": "What time is checkout?",
+      "text": "几点退房？",
+      "pronunciation": "jǐ diǎn tuìfáng?",
+      "words": [
+        { "text": "几", "pronunciation": "jǐ", "translation": "what (number)" },
+        { "text": "点", "pronunciation": "diǎn", "translation": "o'clock" },
+        { "text": "退房", "pronunciation": "tuìfáng", "translation": "check out" }
+      ]
+    },
+    {
+      "id": "zh-hotel-checkout-eleven",
+      "translation": "Checkout is at 11am",
+      "text": "退房时间是上午十一点",
+      "pronunciation": "tuìfáng shíjiān shì shàngwǔ shíyī diǎn",
+      "words": [
+        { "text": "退房", "pronunciation": "tuìfáng", "translation": "checkout" },
+        { "text": "时间", "pronunciation": "shíjiān", "translation": "time" },
+        { "text": "是", "pronunciation": "shì", "translation": "is" },
+        { "text": "上午", "pronunciation": "shàngwǔ", "translation": "morning / AM" },
+        { "text": "十一点", "pronunciation": "shíyī diǎn", "translation": "eleven o'clock" }
+      ]
+    },
+    {
+      "id": "zh-hotel-leave-luggage",
+      "translation": "Can I leave my luggage?",
+      "text": "可以寄存行李吗？",
+      "pronunciation": "kěyǐ jìcún xínglǐ ma?",
+      "words": [
+        { "text": "可以", "pronunciation": "kěyǐ", "translation": "can / may" },
+        { "text": "寄存", "pronunciation": "jìcún", "translation": "store / check (luggage)" },
+        { "text": "行李", "pronunciation": "xínglǐ", "translation": "luggage" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-hotel-wifi-password",
+      "translation": "The Wi-Fi password, please",
+      "text": "请问Wi-Fi密码是什么？",
+      "pronunciation": "qǐngwèn Wi-Fi mìmǎ shì shénme?",
+      "words": [
+        { "text": "请问", "pronunciation": "qǐngwèn", "translation": "excuse me / may I ask" },
+        { "text": "Wi-Fi", "pronunciation": "Wi-Fi", "translation": "Wi-Fi" },
+        { "text": "密码", "pronunciation": "mìmǎ", "translation": "password" },
+        { "text": "是", "pronunciation": "shì", "translation": "is" },
+        { "text": "什么", "pronunciation": "shénme", "translation": "what" }
+      ]
+    },
+    {
+      "id": "zh-hotel-extra-towels",
+      "translation": "Could I get extra towels?",
+      "text": "可以多给几条毛巾吗？",
+      "pronunciation": "kěyǐ duō gěi jǐ tiáo máojīn ma?",
+      "words": [
+        { "text": "可以", "pronunciation": "kěyǐ", "translation": "can / may" },
+        { "text": "多", "pronunciation": "duō", "translation": "more / extra" },
+        { "text": "给", "pronunciation": "gěi", "translation": "give" },
+        { "text": "几条", "pronunciation": "jǐ tiáo", "translation": "a few (strip measure word)" },
+        { "text": "毛巾", "pronunciation": "máojīn", "translation": "towel" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-hotel-ac-broken",
+      "translation": "The air conditioning doesn't work",
+      "text": "空调坏了",
+      "pronunciation": "kōngtiáo huài le",
+      "words": [
+        { "text": "空调", "pronunciation": "kōngtiáo", "translation": "air conditioning" },
+        { "text": "坏了", "pronunciation": "huài le", "translation": "broken / not working" }
+      ]
+    }
   ],
   "words": [
-    { "id": "zh-hotel-w1", "english": "room", "translation": "房间", "pronunciation": "Fángjiān" },
-    { "id": "zh-hotel-w2", "english": "key", "translation": "钥匙", "pronunciation": "Yàoshi" },
-    { "id": "zh-hotel-w3", "english": "floor", "translation": "楼", "pronunciation": "Lóu" },
-    { "id": "zh-hotel-w4", "english": "elevator", "translation": "电梯", "pronunciation": "Diàntī" },
-    { "id": "zh-hotel-w5", "english": "stairs", "translation": "楼梯", "pronunciation": "Lóutī" },
-    { "id": "zh-hotel-w6", "english": "lobby", "translation": "大厅", "pronunciation": "Dàtīng" },
-    { "id": "zh-hotel-w7", "english": "front desk", "translation": "前台", "pronunciation": "Qiántái" },
-    { "id": "zh-hotel-w8", "english": "bed", "translation": "床", "pronunciation": "Chuáng" },
-    { "id": "zh-hotel-w9", "english": "pillow", "translation": "枕头", "pronunciation": "Zhěntou" },
-    { "id": "zh-hotel-w10", "english": "blanket", "translation": "毯子", "pronunciation": "Tǎnzi" },
-    { "id": "zh-hotel-w11", "english": "towel", "translation": "毛巾", "pronunciation": "Máojīn" },
-    { "id": "zh-hotel-w12", "english": "bathroom", "translation": "浴室", "pronunciation": "Yùshì" },
-    { "id": "zh-hotel-w13", "english": "shower", "translation": "淋浴", "pronunciation": "Línyù" },
-    { "id": "zh-hotel-w14", "english": "hot water", "translation": "热水", "pronunciation": "Rèshuǐ" },
-    { "id": "zh-hotel-w15", "english": "air conditioning", "translation": "空调", "pronunciation": "Kōngtiáo" },
-    { "id": "zh-hotel-w16", "english": "luggage", "translation": "行李", "pronunciation": "Xínglǐ" },
-    { "id": "zh-hotel-w17", "english": "passport", "translation": "护照", "pronunciation": "Hùzhào" },
-    { "id": "zh-hotel-w18", "english": "reservation", "translation": "预订", "pronunciation": "Yùdìng" },
-    { "id": "zh-hotel-w19", "english": "breakfast", "translation": "早餐", "pronunciation": "Zǎocān" },
-    { "id": "zh-hotel-w20", "english": "Wi-Fi", "translation": "无线网络", "pronunciation": "Wúxiàn wǎngluò" }
+    { "id": "zh-hotel-w-room", "translation": "room", "text": "房间", "pronunciation": "fángjiān" },
+    { "id": "zh-hotel-w-key", "translation": "key", "text": "钥匙", "pronunciation": "yàoshi" },
+    { "id": "zh-hotel-w-floor", "translation": "floor", "text": "楼", "pronunciation": "lóu" },
+    { "id": "zh-hotel-w-elevator", "translation": "elevator", "text": "电梯", "pronunciation": "diàntī" },
+    { "id": "zh-hotel-w-stairs", "translation": "stairs", "text": "楼梯", "pronunciation": "lóutī" },
+    { "id": "zh-hotel-w-lobby", "translation": "lobby", "text": "大厅", "pronunciation": "dàtīng" },
+    { "id": "zh-hotel-w-front-desk", "translation": "front desk", "text": "前台", "pronunciation": "qiántái" },
+    { "id": "zh-hotel-w-bed", "translation": "bed", "text": "床", "pronunciation": "chuáng" },
+    { "id": "zh-hotel-w-pillow", "translation": "pillow", "text": "枕头", "pronunciation": "zhěntou" },
+    { "id": "zh-hotel-w-blanket", "translation": "blanket", "text": "毯子", "pronunciation": "tǎnzi" },
+    { "id": "zh-hotel-w-towel", "translation": "towel", "text": "毛巾", "pronunciation": "máojīn" },
+    { "id": "zh-hotel-w-bathroom", "translation": "bathroom", "text": "浴室", "pronunciation": "yùshì" },
+    { "id": "zh-hotel-w-shower", "translation": "shower", "text": "淋浴", "pronunciation": "línyù" },
+    { "id": "zh-hotel-w-hot-water", "translation": "hot water", "text": "热水", "pronunciation": "rèshuǐ" },
+    { "id": "zh-hotel-w-ac", "translation": "air conditioning", "text": "空调", "pronunciation": "kōngtiáo" },
+    { "id": "zh-hotel-w-luggage", "translation": "luggage", "text": "行李", "pronunciation": "xínglǐ" },
+    { "id": "zh-hotel-w-passport", "translation": "passport", "text": "护照", "pronunciation": "hùzhào" },
+    { "id": "zh-hotel-w-reservation", "translation": "reservation", "text": "预订", "pronunciation": "yùdìng" },
+    { "id": "zh-hotel-w-breakfast", "translation": "breakfast", "text": "早餐", "pronunciation": "zǎocān" },
+    { "id": "zh-hotel-w-wifi", "translation": "Wi-Fi", "text": "无线网络", "pronunciation": "wúxiàn wǎngluò" },
+    { "id": "zh-hotel-w-charger", "translation": "charger", "text": "充电器", "pronunciation": "chōngdiànqì" },
+    { "id": "zh-hotel-w-safe", "translation": "safe (lockbox)", "text": "保险箱", "pronunciation": "bǎoxiǎnxiāng" },
+    { "id": "zh-hotel-w-toilet", "translation": "restroom / toilet", "text": "洗手间", "pronunciation": "xǐshǒujiān" },
+    { "id": "zh-hotel-w-wake-up-call", "translation": "wake-up call", "text": "叫醒服务", "pronunciation": "jiàoxǐng fúwù" }
   ]
 }

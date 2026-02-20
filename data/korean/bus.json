@@ -3,174 +3,158 @@
   "languageId": "korean",
   "phrases": [
     {
-      "id": "ko-bus-1",
-      "english": "Where is the bus stop?",
-      "translation": "버스 정류장이 어디에 있어요?",
-      "pronunciation": "beoseu jeongnyujangi eodie isseoyo?"
+      "id": "ko-bus-bus-stop",
+      "translation": "Where is the bus stop?",
+      "text": "버스 정류장이 어디에 있어요?",
+      "pronunciation": "beoseu jeongnyujangi eodie isseoyo?",
+      "words": [
+        { "text": "버스", "pronunciation": "beoseu", "translation": "bus" },
+        { "text": "정류장", "pronunciation": "jeongnyujang", "translation": "bus stop" },
+        { "text": "이", "pronunciation": "i", "translation": "(subject marker)" },
+        { "text": "어디", "pronunciation": "eodi", "translation": "where" },
+        { "text": "에", "pronunciation": "e", "translation": "at / in" },
+        { "text": "있어요", "pronunciation": "isseoyo", "translation": "is / exists (question)" }
+      ]
     },
     {
-      "id": "ko-bus-2",
-      "english": "What time is the last bus?",
-      "translation": "막차가 몇 시예요?",
-      "pronunciation": "makchaga myeot siyeyo?"
+      "id": "ko-bus-last-bus",
+      "translation": "What time is the last bus?",
+      "text": "막차가 몇 시예요?",
+      "pronunciation": "makchaga myeot siyeyo?",
+      "words": [
+        { "text": "막차", "pronunciation": "makcha", "translation": "last bus / train" },
+        { "text": "가", "pronunciation": "ga", "translation": "(subject marker)" },
+        { "text": "몇 시", "pronunciation": "myeot si", "translation": "what time" },
+        { "text": "예요", "pronunciation": "yeyo", "translation": "is (question)" }
+      ]
     },
     {
-      "id": "ko-bus-3",
-      "english": "Does this bus go to...?",
-      "translation": "이 버스 ...에 가요?",
-      "pronunciation": "i beoseu ...e gayo?"
+      "id": "ko-bus-goes-to",
+      "translation": "Does this bus go to...?",
+      "text": "이 버스 ...에 가요?",
+      "pronunciation": "i beoseu ...e gayo?",
+      "words": [
+        { "text": "이", "pronunciation": "i", "translation": "this" },
+        { "text": "버스", "pronunciation": "beoseu", "translation": "bus" },
+        { "text": "에", "pronunciation": "e", "translation": "to" },
+        { "text": "가요", "pronunciation": "gayo", "translation": "goes (question)" }
+      ]
     },
     {
-      "id": "ko-bus-4",
-      "english": "Which bus goes to...?",
-      "translation": "...에 가려면 몇 번 버스를 타야 해요?",
-      "pronunciation": "...e garyeomyeon myeot beon beoseureul taya haeyo?"
+      "id": "ko-bus-which-bus",
+      "translation": "Which bus goes to...?",
+      "text": "...에 가려면 몇 번 버스를 타야 해요?",
+      "pronunciation": "...e garyeomyeon myeot beon beoseureul taya haeyo?",
+      "words": [
+        { "text": "에", "pronunciation": "e", "translation": "to" },
+        { "text": "가려면", "pronunciation": "garyeomyeon", "translation": "if wanting to go" },
+        { "text": "몇 번", "pronunciation": "myeot beon", "translation": "which number" },
+        { "text": "버스", "pronunciation": "beoseu", "translation": "bus" },
+        { "text": "를", "pronunciation": "reul", "translation": "(object marker)" },
+        { "text": "타야 해요", "pronunciation": "taya haeyo", "translation": "must ride / take" }
+      ]
     },
     {
-      "id": "ko-bus-5",
-      "english": "How much is the fare?",
-      "translation": "요금이 얼마예요?",
-      "pronunciation": "yogeumi eolmayeyo?"
+      "id": "ko-bus-how-much",
+      "translation": "How much is the fare?",
+      "text": "요금이 얼마예요?",
+      "pronunciation": "yogeumi eolmayeyo?",
+      "words": [
+        { "text": "요금", "pronunciation": "yogeum", "translation": "fare" },
+        { "text": "이", "pronunciation": "i", "translation": "(subject marker)" },
+        { "text": "얼마", "pronunciation": "eolma", "translation": "how much" },
+        { "text": "예요", "pronunciation": "yeyo", "translation": "is (question)" }
+      ]
     },
     {
-      "id": "ko-bus-6",
-      "english": "Can I use a card?",
-      "translation": "카드로 결제할 수 있어요?",
-      "pronunciation": "kadeu-ro gyeoljaehal su isseoyo?"
+      "id": "ko-bus-use-card",
+      "translation": "Can I use a card?",
+      "text": "카드로 결제할 수 있어요?",
+      "pronunciation": "kadeu-ro gyeoljaehal su isseoyo?",
+      "words": [
+        { "text": "카드", "pronunciation": "kadeu", "translation": "card" },
+        { "text": "로", "pronunciation": "ro", "translation": "by / with" },
+        { "text": "결제할 수 있어요", "pronunciation": "gyeoljaehal su isseoyo", "translation": "can pay" }
+      ]
     },
     {
-      "id": "ko-bus-p1",
-      "english": "Please tap your card",
-      "translation": "카드를 찍어 주세요",
-      "pronunciation": "kadeureul jjigeo juseyo"
+      "id": "ko-bus-tap-card",
+      "translation": "Please tap your card",
+      "text": "카드를 찍어 주세요",
+      "pronunciation": "kadeureul jjigeo juseyo",
+      "words": [
+        { "text": "카드", "pronunciation": "kadeu", "translation": "card" },
+        { "text": "를", "pronunciation": "reul", "translation": "(object marker)" },
+        { "text": "찍어", "pronunciation": "jjigeo", "translation": "tap / scan" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
     },
     {
-      "id": "ko-bus-7",
-      "english": "Please tell me when we arrive at...",
-      "translation": "...에 도착하면 알려 주세요",
-      "pronunciation": "...e dochakahmyeon allyeo juseyo"
+      "id": "ko-bus-tell-me-arrival",
+      "translation": "Please tell me when we arrive at...",
+      "text": "...에 도착하면 알려 주세요",
+      "pronunciation": "...e dochakahmyeon allyeo juseyo",
+      "words": [
+        { "text": "에", "pronunciation": "e", "translation": "at" },
+        { "text": "도착하면", "pronunciation": "dochakahmyeon", "translation": "when arriving" },
+        { "text": "알려", "pronunciation": "allyeo", "translation": "inform / tell" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
     },
     {
-      "id": "ko-bus-p2",
-      "english": "Next stop is...",
-      "translation": "다음 정류장은 ...입니다",
-      "pronunciation": "daeum jeongnyujang-eun ...imnida"
+      "id": "ko-bus-next-stop",
+      "translation": "Next stop is...",
+      "text": "다음 정류장은 ...입니다",
+      "pronunciation": "daeum jeongnyujang-eun ...imnida",
+      "words": [
+        { "text": "다음", "pronunciation": "daeum", "translation": "next" },
+        { "text": "정류장", "pronunciation": "jeongnyujang", "translation": "stop" },
+        { "text": "은", "pronunciation": "eun", "translation": "(topic marker)" },
+        { "text": "입니다", "pronunciation": "imnida", "translation": "is (formal)" }
+      ]
     },
     {
-      "id": "ko-bus-8",
-      "english": "I want to get off here",
-      "translation": "여기서 내릴게요",
-      "pronunciation": "yeogiseo naerilgeyo"
+      "id": "ko-bus-get-off",
+      "translation": "I want to get off here",
+      "text": "여기서 내릴게요",
+      "pronunciation": "yeogiseo naerilgeyo",
+      "words": [
+        { "text": "여기서", "pronunciation": "yeogiseo", "translation": "here" },
+        { "text": "내릴게요", "pronunciation": "naerilgeyo", "translation": "I will get off" }
+      ]
     },
     {
-      "id": "ko-bus-p3",
-      "english": "Please exit from the back",
-      "translation": "뒷문으로 내려 주세요",
-      "pronunciation": "dwinmun-euro naeryeo juseyo"
+      "id": "ko-bus-exit-back",
+      "translation": "Please exit from the back",
+      "text": "뒷문으로 내려 주세요",
+      "pronunciation": "dwinmun-euro naeryeo juseyo",
+      "words": [
+        { "text": "뒷문", "pronunciation": "dwinmun", "translation": "back door" },
+        { "text": "으로", "pronunciation": "euro", "translation": "from / through" },
+        { "text": "내려", "pronunciation": "naeryeo", "translation": "come down / exit" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
     }
   ],
   "words": [
-    {
-      "id": "ko-bus-w1",
-      "english": "bus stop",
-      "translation": "버스 정류장",
-      "pronunciation": "beoseu jeongnyujang"
-    },
-    {
-      "id": "ko-bus-w2",
-      "english": "route",
-      "translation": "노선",
-      "pronunciation": "noseon"
-    },
-    {
-      "id": "ko-bus-w3",
-      "english": "fare",
-      "translation": "요금",
-      "pronunciation": "yogeum"
-    },
-    {
-      "id": "ko-bus-w4",
-      "english": "seat",
-      "translation": "좌석",
-      "pronunciation": "jwaseok"
-    },
-    {
-      "id": "ko-bus-w5",
-      "english": "next",
-      "translation": "다음",
-      "pronunciation": "daeum"
-    },
-    {
-      "id": "ko-bus-w6",
-      "english": "last",
-      "translation": "마지막",
-      "pronunciation": "majimak"
-    },
-    {
-      "id": "ko-bus-w7",
-      "english": "first",
-      "translation": "첫",
-      "pronunciation": "cheot"
-    },
-    {
-      "id": "ko-bus-w8",
-      "english": "exit",
-      "translation": "출구",
-      "pronunciation": "chulgu"
-    },
-    {
-      "id": "ko-bus-w9",
-      "english": "entrance",
-      "translation": "입구",
-      "pronunciation": "ipgu"
-    },
-    {
-      "id": "ko-bus-w10",
-      "english": "card",
-      "translation": "카드",
-      "pronunciation": "kadeu"
-    },
-    {
-      "id": "ko-bus-w11",
-      "english": "cash",
-      "translation": "현금",
-      "pronunciation": "hyeongeum"
-    },
-    {
-      "id": "ko-bus-w12",
-      "english": "driver",
-      "translation": "기사님",
-      "pronunciation": "gisanim"
-    },
-    {
-      "id": "ko-bus-w13",
-      "english": "door",
-      "translation": "문",
-      "pronunciation": "mun"
-    },
-    {
-      "id": "ko-bus-w14",
-      "english": "front",
-      "translation": "앞",
-      "pronunciation": "ap"
-    },
-    {
-      "id": "ko-bus-w15",
-      "english": "back",
-      "translation": "뒤",
-      "pronunciation": "dwi"
-    },
-    {
-      "id": "ko-bus-w16",
-      "english": "to / at",
-      "translation": "에",
-      "pronunciation": "e"
-    },
-    {
-      "id": "ko-bus-w17",
-      "english": "at / from",
-      "translation": "에서",
-      "pronunciation": "eseo"
-    }
+    { "id": "ko-bus-w-bus-stop", "translation": "bus stop", "text": "버스 정류장", "pronunciation": "beoseu jeongnyujang" },
+    { "id": "ko-bus-w-route", "translation": "route", "text": "노선", "pronunciation": "noseon" },
+    { "id": "ko-bus-w-fare", "translation": "fare", "text": "요금", "pronunciation": "yogeum" },
+    { "id": "ko-bus-w-seat", "translation": "seat", "text": "좌석", "pronunciation": "jwaseok" },
+    { "id": "ko-bus-w-next", "translation": "next", "text": "다음", "pronunciation": "daeum" },
+    { "id": "ko-bus-w-last", "translation": "last", "text": "마지막", "pronunciation": "majimak" },
+    { "id": "ko-bus-w-first", "translation": "first", "text": "첫", "pronunciation": "cheot" },
+    { "id": "ko-bus-w-exit", "translation": "exit", "text": "출구", "pronunciation": "chulgu" },
+    { "id": "ko-bus-w-entrance", "translation": "entrance", "text": "입구", "pronunciation": "ipgu" },
+    { "id": "ko-bus-w-card", "translation": "card", "text": "카드", "pronunciation": "kadeu" },
+    { "id": "ko-bus-w-cash", "translation": "cash", "text": "현금", "pronunciation": "hyeongeum" },
+    { "id": "ko-bus-w-driver", "translation": "driver", "text": "기사님", "pronunciation": "gisanim" },
+    { "id": "ko-bus-w-door", "translation": "door", "text": "문", "pronunciation": "mun" },
+    { "id": "ko-bus-w-front", "translation": "front", "text": "앞", "pronunciation": "ap" },
+    { "id": "ko-bus-w-back", "translation": "back", "text": "뒤", "pronunciation": "dwi" },
+    { "id": "ko-bus-w-transfer-station", "translation": "transfer station", "text": "환승역", "pronunciation": "hwanseungyeok" },
+    { "id": "ko-bus-w-timetable", "translation": "timetable", "text": "시간표", "pronunciation": "siganpyo" },
+    { "id": "ko-bus-w-transit-card", "translation": "transit card", "text": "교통카드", "pronunciation": "gyotongkadeu" },
+    { "id": "ko-bus-w-last-bus", "translation": "last bus", "text": "막차", "pronunciation": "makcha" }
   ]
 }

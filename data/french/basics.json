@@ -3,173 +3,240 @@
   "languageId": "french",
   "phrases": [
     {
-      "id": "fr-greetings-1",
-      "english": "Welcome",
-      "translation": "Bienvenue",
-      "pronunciation": "Bee-en-veh-noo"
+      "id": "fr-greetings-welcome",
+      "translation": "Welcome",
+      "text": "Bienvenue",
+      "pronunciation": "Bee-en-veh-noo",
+      "words": []
     },
     {
-      "id": "fr-greetings-2",
-      "english": "Hello",
-      "translation": "Bonjour",
-      "pronunciation": "Bon-zhoor"
+      "id": "fr-greetings-hello",
+      "translation": "Hello",
+      "text": "Bonjour",
+      "pronunciation": "Bon-zhoor",
+      "words": []
     },
     {
-      "id": "fr-greetings-3",
-      "english": "Good morning",
-      "translation": "Bonjour",
-      "pronunciation": "Bon-zhoor"
+      "id": "fr-greetings-good-morning",
+      "translation": "Good morning",
+      "text": "Bonjour",
+      "pronunciation": "Bon-zhoor",
+      "words": []
     },
     {
-      "id": "fr-greetings-4",
-      "english": "Good evening",
-      "translation": "Bonsoir",
-      "pronunciation": "Bon-swahr"
+      "id": "fr-greetings-good-evening",
+      "translation": "Good evening",
+      "text": "Bonsoir",
+      "pronunciation": "Bon-swahr",
+      "words": [
+        {
+          "text": "Bon",
+          "pronunciation": "bon",
+          "translation": "good"
+        },
+        {
+          "text": "soir",
+          "pronunciation": "swahr",
+          "translation": "evening"
+        }
+      ]
     },
     {
-      "id": "fr-greetings-5",
-      "english": "Excuse me / Sorry",
-      "translation": "Excusez-moi / Pardon",
-      "pronunciation": "Eks-koo-zay mwah / Par-don"
+      "id": "fr-greetings-excuse-me",
+      "translation": "Excuse me / Sorry",
+      "text": "Excusez-moi / Pardon",
+      "pronunciation": "Eks-koo-zay mwah / Par-don",
+      "words": [
+        {
+          "text": "Excusez-moi",
+          "pronunciation": "eks-koo-zay mwah",
+          "translation": "excuse me"
+        },
+        {
+          "text": "Pardon",
+          "pronunciation": "par-don",
+          "translation": "sorry / pardon"
+        }
+      ]
     },
     {
-      "id": "fr-greetings-6",
-      "english": "Please",
-      "translation": "S'il vous plaît",
-      "pronunciation": "Seel voo pleh"
+      "id": "fr-greetings-please",
+      "translation": "Please",
+      "text": "S'il vous plaît",
+      "pronunciation": "Seel voo pleh",
+      "words": []
     },
     {
-      "id": "fr-greetings-7",
-      "english": "Yes",
-      "translation": "Oui",
-      "pronunciation": "Wee"
+      "id": "fr-greetings-yes",
+      "translation": "Yes",
+      "text": "Oui",
+      "pronunciation": "Wee",
+      "words": []
     },
     {
-      "id": "fr-greetings-8",
-      "english": "No",
-      "translation": "Non",
-      "pronunciation": "Non"
+      "id": "fr-greetings-no",
+      "translation": "No",
+      "text": "Non",
+      "pronunciation": "Non",
+      "words": []
     },
     {
-      "id": "fr-greetings-9",
-      "english": "I don't understand",
-      "translation": "Je ne comprends pas",
-      "pronunciation": "Zhuh nuh kom-pron pah"
+      "id": "fr-greetings-dont-understand",
+      "translation": "I don't understand",
+      "text": "Je ne comprends pas",
+      "pronunciation": "Zhuh nuh kom-pron pah",
+      "words": [
+        {
+          "text": "Je",
+          "pronunciation": "zhuh",
+          "translation": "I"
+        },
+        {
+          "text": "ne...pas",
+          "pronunciation": "nuh...pah",
+          "translation": "not (negation)"
+        },
+        {
+          "text": "comprends",
+          "pronunciation": "kom-pron",
+          "translation": "understand"
+        }
+      ]
     },
     {
-      "id": "fr-greetings-10",
-      "english": "Please wait a moment",
-      "translation": "Attendez un moment, s'il vous plaît",
-      "pronunciation": "Ah-ton-day un mo-mon, seel voo pleh"
+      "id": "fr-greetings-please-wait",
+      "translation": "Please wait a moment",
+      "text": "Attendez un moment, s'il vous plaît",
+      "pronunciation": "Ah-ton-day un mo-mon, seel voo pleh",
+      "words": [
+        {
+          "text": "Attendez",
+          "pronunciation": "ah-ton-day",
+          "translation": "wait (imperative)"
+        },
+        {
+          "text": "un moment",
+          "pronunciation": "un mo-mon",
+          "translation": "a moment"
+        },
+        {
+          "text": "s'il vous plaît",
+          "pronunciation": "seel voo pleh",
+          "translation": "please"
+        }
+      ]
     },
     {
-      "id": "fr-greetings-11",
-      "english": "Thank you",
-      "translation": "Merci",
-      "pronunciation": "Mair-see"
+      "id": "fr-greetings-thank-you",
+      "translation": "Thank you",
+      "text": "Merci",
+      "pronunciation": "Mair-see",
+      "words": []
     },
     {
-      "id": "fr-greetings-12",
-      "english": "You're welcome",
-      "translation": "De rien",
-      "pronunciation": "Duh ree-en"
+      "id": "fr-greetings-youre-welcome",
+      "translation": "You're welcome",
+      "text": "De rien",
+      "pronunciation": "Duh ree-en",
+      "words": []
     },
     {
-      "id": "fr-greetings-13",
-      "english": "Goodbye",
-      "translation": "Au revoir",
-      "pronunciation": "Oh ruh-vwahr"
+      "id": "fr-greetings-goodbye",
+      "translation": "Goodbye",
+      "text": "Au revoir",
+      "pronunciation": "Oh ruh-vwahr",
+      "words": []
     }
   ],
   "words": [
     {
-      "id": "fr-greetings-w1",
-      "english": "morning",
-      "translation": "matin",
+      "id": "fr-greetings-w-morning",
+      "translation": "morning",
+      "text": "matin",
       "pronunciation": "mah-tan"
     },
     {
-      "id": "fr-greetings-w2",
-      "english": "evening",
-      "translation": "soir",
+      "id": "fr-greetings-w-evening",
+      "translation": "evening",
+      "text": "soir",
       "pronunciation": "swahr"
     },
     {
-      "id": "fr-greetings-w3",
-      "english": "night",
-      "translation": "nuit",
+      "id": "fr-greetings-w-night",
+      "translation": "night",
+      "text": "nuit",
       "pronunciation": "nwee"
     },
     {
-      "id": "fr-greetings-w4",
-      "english": "today",
-      "translation": "aujourd'hui",
+      "id": "fr-greetings-w-today",
+      "translation": "today",
+      "text": "aujourd'hui",
       "pronunciation": "oh-zhoor-dwee"
     },
     {
-      "id": "fr-greetings-w5",
-      "english": "tomorrow",
-      "translation": "demain",
+      "id": "fr-greetings-w-tomorrow",
+      "translation": "tomorrow",
+      "text": "demain",
       "pronunciation": "duh-man"
     },
     {
-      "id": "fr-greetings-w6",
-      "english": "yesterday",
-      "translation": "hier",
+      "id": "fr-greetings-w-yesterday",
+      "translation": "yesterday",
+      "text": "hier",
       "pronunciation": "ee-air"
     },
     {
-      "id": "fr-greetings-w7",
-      "english": "name",
-      "translation": "nom",
+      "id": "fr-greetings-w-name",
+      "translation": "name",
+      "text": "nom",
       "pronunciation": "nom"
     },
     {
-      "id": "fr-greetings-w8",
-      "english": "person",
-      "translation": "personne",
+      "id": "fr-greetings-w-person",
+      "translation": "person",
+      "text": "personne",
       "pronunciation": "pair-son"
     },
     {
-      "id": "fr-greetings-w9",
-      "english": "friend",
-      "translation": "ami",
+      "id": "fr-greetings-w-friend",
+      "translation": "friend",
+      "text": "ami",
       "pronunciation": "ah-mee"
     },
     {
-      "id": "fr-greetings-w10",
-      "english": "I / me",
-      "translation": "je / moi",
+      "id": "fr-greetings-w-i-me",
+      "translation": "I / me",
+      "text": "je / moi",
       "pronunciation": "zhuh / mwah"
     },
     {
-      "id": "fr-greetings-w11",
-      "english": "you",
-      "translation": "vous",
+      "id": "fr-greetings-w-you",
+      "translation": "you",
+      "text": "vous",
       "pronunciation": "voo"
     },
     {
-      "id": "fr-greetings-w12",
-      "english": "this",
-      "translation": "ceci",
+      "id": "fr-greetings-w-this",
+      "translation": "this",
+      "text": "ceci",
       "pronunciation": "suh-see"
     },
     {
-      "id": "fr-greetings-w13",
-      "english": "that",
-      "translation": "cela",
+      "id": "fr-greetings-w-that",
+      "translation": "that",
+      "text": "cela",
       "pronunciation": "suh-lah"
     },
     {
-      "id": "fr-greetings-w14",
-      "english": "here",
-      "translation": "ici",
+      "id": "fr-greetings-w-here",
+      "translation": "here",
+      "text": "ici",
       "pronunciation": "ee-see"
     },
     {
-      "id": "fr-greetings-w15",
-      "english": "there",
-      "translation": "là-bas",
+      "id": "fr-greetings-w-there",
+      "translation": "there",
+      "text": "là-bas",
       "pronunciation": "lah-bah"
     }
   ]

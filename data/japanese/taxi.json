@@ -2,38 +2,157 @@
   "categoryId": "taxi",
   "languageId": "japanese",
   "phrases": [
-    { "id": "jp-taxi-p1", "english": "Where would you like to go?", "translation": "どちらまで？", "pronunciation": "Dochira made?" },
-    { "id": "jp-taxi-1", "english": "To this address, please", "translation": "この住所までお願いします", "pronunciation": "Kono juusho made onegaishimasu" },
-    { "id": "jp-taxi-2", "english": "To the station, please", "translation": "駅までお願いします", "pronunciation": "Eki made onegaishimasu" },
-    { "id": "jp-taxi-3", "english": "To the airport, please", "translation": "空港までお願いします", "pronunciation": "Kuukou made onegaishimasu" },
-    { "id": "jp-taxi-5", "english": "How much will it cost?", "translation": "いくらぐらいですか？", "pronunciation": "Ikura gurai desuka?" },
-    { "id": "jp-taxi-p2", "english": "It will be about... yen", "translation": "だいたい...円くらいです", "pronunciation": "Daitai...en kurai desu" },
-    { "id": "jp-taxi-6", "english": "Can I pay by card?", "translation": "カードで払えますか？", "pronunciation": "Kaado de haraemasuka?" },
-    { "id": "jp-taxi-8", "english": "Turn right / left", "translation": "右 / 左に曲がってください", "pronunciation": "Migi / Hidari ni magatte kudasai" },
-    { "id": "jp-taxi-7", "english": "Can you wait here?", "translation": "ここで待っていてもらえますか？", "pronunciation": "Koko de matte ite moraemasuka?" },
-    { "id": "jp-taxi-4", "english": "Please stop here", "translation": "ここで止めてください", "pronunciation": "Koko de tomete kudasai" },
-    { "id": "jp-taxi-p3", "english": "We've arrived", "translation": "着きました", "pronunciation": "Tsukimashita" }
+    {
+      "id": "jp-taxi-where-to",
+      "translation": "Where would you like to go?",
+      "text": "どちらまで？",
+      "pronunciation": "dochira made?",
+      "words": [
+        { "text": "どちら", "pronunciation": "dochira", "translation": "where / which direction (polite)" },
+        { "text": "まで", "pronunciation": "made", "translation": "to / until" }
+      ]
+    },
+    {
+      "id": "jp-taxi-this-address",
+      "translation": "To this address, please",
+      "text": "この住所までお願いします",
+      "pronunciation": "kono juusho made onegaishimasu",
+      "words": [
+        { "text": "この", "pronunciation": "kono", "translation": "this" },
+        { "text": "住所", "pronunciation": "juusho", "translation": "address" },
+        { "text": "まで", "pronunciation": "made", "translation": "to / until" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-taxi-to-station",
+      "translation": "To the station, please",
+      "text": "駅までお願いします",
+      "pronunciation": "eki made onegaishimasu",
+      "words": [
+        { "text": "駅", "pronunciation": "eki", "translation": "station" },
+        { "text": "まで", "pronunciation": "made", "translation": "to / until" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-taxi-to-airport",
+      "translation": "To the airport, please",
+      "text": "空港までお願いします",
+      "pronunciation": "kuukou made onegaishimasu",
+      "words": [
+        { "text": "空港", "pronunciation": "kuukou", "translation": "airport" },
+        { "text": "まで", "pronunciation": "made", "translation": "to / until" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-taxi-how-much",
+      "translation": "How much will it cost?",
+      "text": "いくらぐらいですか？",
+      "pronunciation": "ikura gurai desuka?",
+      "words": [
+        { "text": "いくら", "pronunciation": "ikura", "translation": "how much" },
+        { "text": "ぐらい", "pronunciation": "gurai", "translation": "about / approximately" },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-taxi-approx-yen",
+      "translation": "It will be about... yen",
+      "text": "だいたい...円くらいです",
+      "pronunciation": "daitai...en kurai desu",
+      "words": [
+        { "text": "だいたい", "pronunciation": "daitai", "translation": "approximately / about" },
+        { "text": "円", "pronunciation": "en", "translation": "yen" },
+        { "text": "くらい", "pronunciation": "kurai", "translation": "about / approximately" },
+        { "text": "です", "pronunciation": "desu", "translation": "(it) is" }
+      ]
+    },
+    {
+      "id": "jp-taxi-pay-by-card",
+      "translation": "Can I pay by card?",
+      "text": "カードで払えますか？",
+      "pronunciation": "kaado de haraemasuka?",
+      "words": [
+        { "text": "カード", "pronunciation": "kaado", "translation": "card" },
+        { "text": "で", "pronunciation": "de", "translation": "by (means particle)" },
+        { "text": "払えます", "pronunciation": "haraemasu", "translation": "can pay" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-taxi-turn-right-left",
+      "translation": "Turn right / left",
+      "text": "右 / 左に曲がってください",
+      "pronunciation": "migi / hidari ni magatte kudasai",
+      "words": [
+        { "text": "右", "pronunciation": "migi", "translation": "right" },
+        { "text": "左", "pronunciation": "hidari", "translation": "left" },
+        { "text": "に", "pronunciation": "ni", "translation": "(direction particle)" },
+        { "text": "曲がって", "pronunciation": "magatte", "translation": "turn (te-form)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-taxi-wait-here",
+      "translation": "Can you wait here?",
+      "text": "ここで待っていてもらえますか？",
+      "pronunciation": "koko de matte ite moraemasuka?",
+      "words": [
+        { "text": "ここ", "pronunciation": "koko", "translation": "here" },
+        { "text": "で", "pronunciation": "de", "translation": "(location particle)" },
+        { "text": "待っていて", "pronunciation": "matte ite", "translation": "be waiting (te-form + progressive)" },
+        { "text": "もらえます", "pronunciation": "moraemasu", "translation": "could you (request form)" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-taxi-stop-here",
+      "translation": "Please stop here",
+      "text": "ここで止めてください",
+      "pronunciation": "koko de tomete kudasai",
+      "words": [
+        { "text": "ここ", "pronunciation": "koko", "translation": "here" },
+        { "text": "で", "pronunciation": "de", "translation": "(location particle)" },
+        { "text": "止めて", "pronunciation": "tomete", "translation": "stop (te-form)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-taxi-arrived",
+      "translation": "We've arrived",
+      "text": "着きました",
+      "pronunciation": "tsukimashita",
+      "words": [
+        { "text": "着き", "pronunciation": "tsuki", "translation": "arrive (verb stem)" },
+        { "text": "ました", "pronunciation": "mashita", "translation": "(past polite ending)" }
+      ]
+    }
   ],
   "words": [
-    { "id": "jp-taxi-w1", "english": "right", "translation": "右", "pronunciation": "Migi" },
-    { "id": "jp-taxi-w2", "english": "left", "translation": "左", "pronunciation": "Hidari" },
-    { "id": "jp-taxi-w3", "english": "straight", "translation": "まっすぐ", "pronunciation": "Massugu" },
-    { "id": "jp-taxi-w4", "english": "here", "translation": "ここ", "pronunciation": "Koko" },
-    { "id": "jp-taxi-w5", "english": "there", "translation": "あそこ", "pronunciation": "Asoko" },
-    { "id": "jp-taxi-w6", "english": "near", "translation": "近い", "pronunciation": "Chikai" },
-    { "id": "jp-taxi-w7", "english": "far", "translation": "遠い", "pronunciation": "Tooi" },
-    { "id": "jp-taxi-w8", "english": "fast", "translation": "速い", "pronunciation": "Hayai" },
-    { "id": "jp-taxi-w9", "english": "slow", "translation": "遅い", "pronunciation": "Osoi" },
-    { "id": "jp-taxi-w10", "english": "stop", "translation": "止まる", "pronunciation": "Tomaru" },
-    { "id": "jp-taxi-w11", "english": "airport", "translation": "空港", "pronunciation": "Kuukou" },
-    { "id": "jp-taxi-w12", "english": "station", "translation": "駅", "pronunciation": "Eki" },
-    { "id": "jp-taxi-w13", "english": "hotel", "translation": "ホテル", "pronunciation": "Hoteru" },
-    { "id": "jp-taxi-w14", "english": "map", "translation": "地図", "pronunciation": "Chizu" },
-    { "id": "jp-taxi-w15", "english": "address", "translation": "住所", "pronunciation": "Juusho" },
-    { "id": "jp-taxi-w16", "english": "meter", "translation": "メーター", "pronunciation": "Meetaa" },
-    { "id": "jp-taxi-w17", "english": "money", "translation": "お金", "pronunciation": "Okane" },
-    { "id": "jp-taxi-w18", "english": "traffic", "translation": "渋滞", "pronunciation": "Juutai" },
-    { "id": "jp-taxi-w19", "english": "to / until", "translation": "まで", "pronunciation": "Made" },
-    { "id": "jp-taxi-w20", "english": "please (request)", "translation": "お願いします", "pronunciation": "Onegaishimasu" }
+    { "id": "jp-taxi-w-right", "translation": "right", "text": "右", "pronunciation": "migi" },
+    { "id": "jp-taxi-w-left", "translation": "left", "text": "左", "pronunciation": "hidari" },
+    { "id": "jp-taxi-w-straight", "translation": "straight", "text": "まっすぐ", "pronunciation": "massugu" },
+    { "id": "jp-taxi-w-here", "translation": "here", "text": "ここ", "pronunciation": "koko" },
+    { "id": "jp-taxi-w-there", "translation": "there", "text": "あそこ", "pronunciation": "asoko" },
+    { "id": "jp-taxi-w-near", "translation": "near", "text": "近い", "pronunciation": "chikai" },
+    { "id": "jp-taxi-w-far", "translation": "far", "text": "遠い", "pronunciation": "tooi" },
+    { "id": "jp-taxi-w-fast", "translation": "fast", "text": "速い", "pronunciation": "hayai" },
+    { "id": "jp-taxi-w-slow", "translation": "slow", "text": "遅い", "pronunciation": "osoi" },
+    { "id": "jp-taxi-w-stop", "translation": "stop", "text": "止まる", "pronunciation": "tomaru" },
+    { "id": "jp-taxi-w-airport", "translation": "airport", "text": "空港", "pronunciation": "kuukou" },
+    { "id": "jp-taxi-w-station", "translation": "station", "text": "駅", "pronunciation": "eki" },
+    { "id": "jp-taxi-w-hotel", "translation": "hotel", "text": "ホテル", "pronunciation": "hoteru" },
+    { "id": "jp-taxi-w-map", "translation": "map", "text": "地図", "pronunciation": "chizu" },
+    { "id": "jp-taxi-w-address", "translation": "address", "text": "住所", "pronunciation": "juusho" },
+    { "id": "jp-taxi-w-meter", "translation": "meter", "text": "メーター", "pronunciation": "meetaa" },
+    { "id": "jp-taxi-w-money", "translation": "money", "text": "お金", "pronunciation": "okane" },
+    { "id": "jp-taxi-w-traffic", "translation": "traffic jam", "text": "渋滞", "pronunciation": "juutai" },
+    { "id": "jp-taxi-w-receipt", "translation": "receipt", "text": "領収書", "pronunciation": "ryoushuusho" },
+    { "id": "jp-taxi-w-destination", "translation": "destination", "text": "目的地", "pronunciation": "mokutekichi" },
+    { "id": "jp-taxi-w-highway", "translation": "expressway / highway", "text": "高速道路", "pronunciation": "kousoku douro" },
+    { "id": "jp-taxi-w-fare", "translation": "fare / fee", "text": "料金", "pronunciation": "ryoukin" }
   ]
 }

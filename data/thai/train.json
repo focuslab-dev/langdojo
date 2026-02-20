@@ -2,41 +2,167 @@
   "categoryId": "train",
   "languageId": "thai",
   "phrases": [
-    { "id": "th-train-8", "english": "Where is the ticket office?", "translation": "ที่ขายตั๋วอยู่ที่ไหน?", "pronunciation": "Tee kai tua yoo tee nai?" },
-    { "id": "th-train-1", "english": "One ticket to..., please", "translation": "ขอตั๋วไป...หนึ่งใบ", "pronunciation": "Khor tua pai...nueng bai" },
-    { "id": "th-train-7", "english": "Round trip ticket, please", "translation": "ขอตั๋วไป-กลับ", "pronunciation": "Khor tua pai-glap" },
-    { "id": "th-train-4", "english": "What time is the next train?", "translation": "รถไฟขบวนต่อไปกี่โมง?", "pronunciation": "Rot fai kabuan tor pai gee mong?" },
-    { "id": "th-train-2", "english": "Which platform for...?", "translation": "ไป...ชานชาลาไหน?", "pronunciation": "Pai...chanchala nai?" },
-    { "id": "th-train-5", "english": "Where should I transfer?", "translation": "ต่อรถที่ไหน?", "pronunciation": "Tor rot tee nai?" },
-    { "id": "th-train-p4", "english": "This train goes to...", "translation": "รถไฟขบวนนี้ไป...", "pronunciation": "Rot fai kabuan nee pai..." },
-    { "id": "th-train-3", "english": "Is this the train to...?", "translation": "รถไฟนี้ไป...ใช่ไหม?", "pronunciation": "Rot fai nee pai...chai mai?" },
-    { "id": "th-train-p2", "english": "Please show your ticket", "translation": "กรุณาแสดงตั๋ว", "pronunciation": "Karuna sadaeng tua" },
-    { "id": "th-train-p1", "english": "The train is arriving", "translation": "รถไฟกำลังเข้าสถานี", "pronunciation": "Rot fai gamlang kao satanee" },
-    { "id": "th-train-6", "english": "Is this seat taken?", "translation": "ที่นี่ว่างไหม?", "pronunciation": "Tee nee wang mai?" },
-    { "id": "th-train-p3", "english": "The next stop is...", "translation": "สถานีต่อไป...", "pronunciation": "Satanee tor pai..." }
+    {
+      "id": "th-train-where-ticket-office",
+      "translation": "Where is the ticket office?",
+      "text": "ที่ขายตั๋วอยู่ที่ไหน?",
+      "pronunciation": "têe khǎai tǔa yòo têe nǎi?",
+      "words": [
+        { "text": "ที่ขายตั๋ว", "pronunciation": "têe khǎai tǔa", "translation": "ticket office" },
+        { "text": "อยู่", "pronunciation": "yòo", "translation": "is / located" },
+        { "text": "ที่ไหน", "pronunciation": "têe nǎi", "translation": "where" }
+      ]
+    },
+    {
+      "id": "th-train-one-ticket",
+      "translation": "One ticket to..., please",
+      "text": "ขอตั๋วไป...หนึ่งใบ",
+      "pronunciation": "khǒr tǔa bpai...nùeng bai",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "ตั๋ว", "pronunciation": "tǔa", "translation": "ticket" },
+        { "text": "ไป", "pronunciation": "bpai", "translation": "to / go" },
+        { "text": "หนึ่ง", "pronunciation": "nùeng", "translation": "one" },
+        { "text": "ใบ", "pronunciation": "bai", "translation": "(classifier for flat items)" }
+      ]
+    },
+    {
+      "id": "th-train-round-trip",
+      "translation": "Round trip ticket, please",
+      "text": "ขอตั๋วไป-กลับ",
+      "pronunciation": "khǒr tǔa bpai-glàp",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "ตั๋ว", "pronunciation": "tǔa", "translation": "ticket" },
+        { "text": "ไป", "pronunciation": "bpai", "translation": "go / one way" },
+        { "text": "กลับ", "pronunciation": "glàp", "translation": "return / go back" }
+      ]
+    },
+    {
+      "id": "th-train-next-train-time",
+      "translation": "What time is the next train?",
+      "text": "รถไฟขบวนต่อไปกี่โมง?",
+      "pronunciation": "rót fai khà-buan tòr bpai gèe mohng?",
+      "words": [
+        { "text": "รถไฟ", "pronunciation": "rót fai", "translation": "train" },
+        { "text": "ขบวน", "pronunciation": "khà-buan", "translation": "train (service/convoy)" },
+        { "text": "ต่อไป", "pronunciation": "tòr bpai", "translation": "next" },
+        { "text": "กี่โมง", "pronunciation": "gèe mohng", "translation": "what time" }
+      ]
+    },
+    {
+      "id": "th-train-which-platform",
+      "translation": "Which platform for...?",
+      "text": "ไป...ชานชาลาไหน?",
+      "pronunciation": "bpai...chaan-chaa-laa nǎi?",
+      "words": [
+        { "text": "ไป", "pronunciation": "bpai", "translation": "go to" },
+        { "text": "ชานชาลา", "pronunciation": "chaan-chaa-laa", "translation": "platform" },
+        { "text": "ไหน", "pronunciation": "nǎi", "translation": "which" }
+      ]
+    },
+    {
+      "id": "th-train-where-transfer",
+      "translation": "Where should I transfer?",
+      "text": "ต่อรถที่ไหน?",
+      "pronunciation": "tòr rót têe nǎi?",
+      "words": [
+        { "text": "ต่อ", "pronunciation": "tòr", "translation": "transfer / connect" },
+        { "text": "รถ", "pronunciation": "rót", "translation": "vehicle / train" },
+        { "text": "ที่ไหน", "pronunciation": "têe nǎi", "translation": "where" }
+      ]
+    },
+    {
+      "id": "th-train-goes-to",
+      "translation": "This train goes to...",
+      "text": "รถไฟขบวนนี้ไป...",
+      "pronunciation": "rót fai khà-buan née bpai...",
+      "words": [
+        { "text": "รถไฟ", "pronunciation": "rót fai", "translation": "train" },
+        { "text": "ขบวน", "pronunciation": "khà-buan", "translation": "train (service)" },
+        { "text": "นี้", "pronunciation": "née", "translation": "this" },
+        { "text": "ไป", "pronunciation": "bpai", "translation": "go to" }
+      ]
+    },
+    {
+      "id": "th-train-is-this-to",
+      "translation": "Is this the train to...?",
+      "text": "รถไฟนี้ไป...ใช่ไหม?",
+      "pronunciation": "rót fai née bpai...châi mǎi?",
+      "words": [
+        { "text": "รถไฟ", "pronunciation": "rót fai", "translation": "train" },
+        { "text": "นี้", "pronunciation": "née", "translation": "this" },
+        { "text": "ไป", "pronunciation": "bpai", "translation": "go to" },
+        { "text": "ใช่ไหม", "pronunciation": "châi mǎi", "translation": "right? / isn't it?" }
+      ]
+    },
+    {
+      "id": "th-train-show-ticket",
+      "translation": "Please show your ticket",
+      "text": "กรุณาแสดงตั๋ว",
+      "pronunciation": "gà-rú-naa sà-daeng tǔa",
+      "words": [
+        { "text": "กรุณา", "pronunciation": "gà-rú-naa", "translation": "please / kindly" },
+        { "text": "แสดง", "pronunciation": "sà-daeng", "translation": "show / display" },
+        { "text": "ตั๋ว", "pronunciation": "tǔa", "translation": "ticket" }
+      ]
+    },
+    {
+      "id": "th-train-arriving",
+      "translation": "The train is arriving",
+      "text": "รถไฟกำลังเข้าสถานี",
+      "pronunciation": "rót fai gam-lang khâo sà-tǎa-nee",
+      "words": [
+        { "text": "รถไฟ", "pronunciation": "rót fai", "translation": "train" },
+        { "text": "กำลัง", "pronunciation": "gam-lang", "translation": "(present tense marker)" },
+        { "text": "เข้า", "pronunciation": "khâo", "translation": "enter / arrive at" },
+        { "text": "สถานี", "pronunciation": "sà-tǎa-nee", "translation": "station" }
+      ]
+    },
+    {
+      "id": "th-train-seat-taken",
+      "translation": "Is this seat taken?",
+      "text": "ที่นี่ว่างไหม?",
+      "pronunciation": "têe née wâang mǎi?",
+      "words": [
+        { "text": "ที่นี่", "pronunciation": "têe née", "translation": "here / this place" },
+        { "text": "ว่าง", "pronunciation": "wâang", "translation": "free / available / empty" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "th-train-next-stop",
+      "translation": "The next stop is...",
+      "text": "สถานีต่อไป...",
+      "pronunciation": "sà-tǎa-nee tòr bpai...",
+      "words": [
+        { "text": "สถานี", "pronunciation": "sà-tǎa-nee", "translation": "station" },
+        { "text": "ต่อไป", "pronunciation": "tòr bpai", "translation": "next" }
+      ]
+    }
   ],
   "words": [
-    { "id": "th-train-w1", "english": "ticket", "translation": "ตั๋ว", "pronunciation": "Tua" },
-    { "id": "th-train-w2", "english": "platform", "translation": "ชานชาลา", "pronunciation": "Chanchala" },
-    { "id": "th-train-w3", "english": "express", "translation": "ด่วน", "pronunciation": "Duan" },
-    { "id": "th-train-w4", "english": "local train", "translation": "รถไฟธรรมดา", "pronunciation": "Rot fai tammada" },
-    { "id": "th-train-w5", "english": "BTS (sky train)", "translation": "รถไฟฟ้า", "pronunciation": "Rot fai faa" },
-    { "id": "th-train-w6", "english": "MRT (subway)", "translation": "รถไฟใต้ดิน", "pronunciation": "Rot fai tai din" },
-    { "id": "th-train-w7", "english": "transfer", "translation": "ต่อรถ", "pronunciation": "Tor rot" },
-    { "id": "th-train-w8", "english": "exit", "translation": "ทางออก", "pronunciation": "Tang ok" },
-    { "id": "th-train-w9", "english": "entrance", "translation": "ทางเข้า", "pronunciation": "Tang khao" },
-    { "id": "th-train-w10", "english": "one-way", "translation": "เที่ยวเดียว", "pronunciation": "Tiao diao" },
-    { "id": "th-train-w11", "english": "round trip", "translation": "ไป-กลับ", "pronunciation": "Pai-glap" },
-    { "id": "th-train-w12", "english": "seat", "translation": "ที่นั่ง", "pronunciation": "Tee nang" },
-    { "id": "th-train-w13", "english": "timetable", "translation": "ตารางเวลา", "pronunciation": "Tarang welaa" },
-    { "id": "th-train-w14", "english": "departure", "translation": "ออกเดินทาง", "pronunciation": "Ok dern tang" },
-    { "id": "th-train-w15", "english": "arrival", "translation": "ถึง", "pronunciation": "Teung" },
-    { "id": "th-train-w16", "english": "ticket office", "translation": "ที่ขายตั๋ว", "pronunciation": "Tee kai tua" },
-    { "id": "th-train-w17", "english": "line", "translation": "สาย", "pronunciation": "Sai" },
-    { "id": "th-train-w18", "english": "delay", "translation": "ล่าช้า", "pronunciation": "La cha" },
-    { "id": "th-train-w19", "english": "Rabbit card", "translation": "บัตรแรบบิท", "pronunciation": "Bat Rabbit" },
-    { "id": "th-train-w20", "english": "last train", "translation": "รถไฟเที่ยวสุดท้าย", "pronunciation": "Rot fai tiao soot tai" },
-    { "id": "th-train-w21", "english": "go", "translation": "ไป", "pronunciation": "Pai" },
-    { "id": "th-train-w22", "english": "return / go back", "translation": "กลับ", "pronunciation": "Glap" }
+    { "id": "th-train-w-ticket", "translation": "ticket", "text": "ตั๋ว", "pronunciation": "tǔa" },
+    { "id": "th-train-w-platform", "translation": "platform", "text": "ชานชาลา", "pronunciation": "chaan-chaa-laa" },
+    { "id": "th-train-w-station", "translation": "station", "text": "สถานี", "pronunciation": "sà-tǎa-nee" },
+    { "id": "th-train-w-express", "translation": "express train", "text": "รถไฟด่วน", "pronunciation": "rót fai dùan" },
+    { "id": "th-train-w-local", "translation": "local train", "text": "รถไฟธรรมดา", "pronunciation": "rót fai tam-má-daa" },
+    { "id": "th-train-w-bts", "translation": "BTS (sky train)", "text": "รถไฟฟ้า", "pronunciation": "rót fai fáa" },
+    { "id": "th-train-w-mrt", "translation": "MRT (subway)", "text": "รถไฟใต้ดิน", "pronunciation": "rót fai tâi din" },
+    { "id": "th-train-w-transfer", "translation": "transfer", "text": "ต่อรถ", "pronunciation": "tòr rót" },
+    { "id": "th-train-w-exit", "translation": "exit", "text": "ทางออก", "pronunciation": "taang òok" },
+    { "id": "th-train-w-entrance", "translation": "entrance", "text": "ทางเข้า", "pronunciation": "taang khâo" },
+    { "id": "th-train-w-one-way", "translation": "one-way", "text": "เที่ยวเดียว", "pronunciation": "tîao diao" },
+    { "id": "th-train-w-round-trip", "translation": "round trip", "text": "ไป-กลับ", "pronunciation": "bpai-glàp" },
+    { "id": "th-train-w-seat", "translation": "seat", "text": "ที่นั่ง", "pronunciation": "têe nâng" },
+    { "id": "th-train-w-timetable", "translation": "timetable", "text": "ตารางเวลา", "pronunciation": "taa-raang we-laa" },
+    { "id": "th-train-w-departure", "translation": "departure", "text": "ออกเดินทาง", "pronunciation": "òok dern taang" },
+    { "id": "th-train-w-arrival", "translation": "arrival", "text": "ถึง", "pronunciation": "tǔeng" },
+    { "id": "th-train-w-ticket-office", "translation": "ticket office", "text": "ที่ขายตั๋ว", "pronunciation": "têe khǎai tǔa" },
+    { "id": "th-train-w-line", "translation": "line", "text": "สาย", "pronunciation": "sǎai" },
+    { "id": "th-train-w-delay", "translation": "delay", "text": "ล่าช้า", "pronunciation": "lâa cháa" },
+    { "id": "th-train-w-rabbit-card", "translation": "Rabbit card", "text": "บัตรแรบบิท", "pronunciation": "bàt ráep-bìt" },
+    { "id": "th-train-w-last-train", "translation": "last train", "text": "รถไฟเที่ยวสุดท้าย", "pronunciation": "rót fai tîao sùt táai" },
+    { "id": "th-train-w-class", "translation": "class", "text": "ชั้น", "pronunciation": "chán" }
   ]
 }

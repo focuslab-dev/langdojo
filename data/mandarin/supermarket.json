@@ -2,42 +2,376 @@
   "categoryId": "supermarket",
   "languageId": "mandarin",
   "phrases": [
-    { "id": "zh-super-1", "english": "Where is...?", "translation": "...在哪里？", "pronunciation": "...zài nǎlǐ?" },
-    { "id": "zh-super-2", "english": "Do you have...?", "translation": "有...吗？", "pronunciation": "Yǒu...ma?" },
-    { "id": "zh-super-3", "english": "How much is this?", "translation": "这个多少钱？", "pronunciation": "Zhège duōshǎo qián?" },
-    { "id": "zh-super-p4", "english": "Do you have a membership card?", "translation": "有会员卡吗？", "pronunciation": "Yǒu huìyuán kǎ ma?" },
-    { "id": "zh-super-p3", "english": "Your total is... yuan", "translation": "一共...块", "pronunciation": "Yígòng...kuài" },
-    { "id": "zh-super-p1", "english": "Do you need a bag?", "translation": "要袋子吗？", "pronunciation": "Yào dàizi ma?" },
-    { "id": "zh-super-5", "english": "A bag, please", "translation": "要袋子", "pronunciation": "Yào dàizi" },
-    { "id": "zh-super-4", "english": "I don't need a bag", "translation": "不用袋子", "pronunciation": "Bùyòng dàizi" },
-    { "id": "zh-super-p2", "english": "Cash or card?", "translation": "现金还是刷卡？", "pronunciation": "Xiànjīn háishì shuā kǎ?" },
-    { "id": "zh-super-6", "english": "I'll pay by card", "translation": "刷卡", "pronunciation": "Shuā kǎ" },
-    { "id": "zh-super-7", "english": "I'll pay with cash", "translation": "现金", "pronunciation": "Xiànjīn" },
-    { "id": "zh-super-8", "english": "WeChat Pay / Alipay", "translation": "微信 / 支付宝", "pronunciation": "Wēixìn / Zhīfùbǎo" }
+    {
+      "id": "zh-super-where-is",
+      "translation": "Where is...?",
+      "text": "...在哪里？",
+      "pronunciation": "...zài nǎlǐ?",
+      "words": [
+        {
+          "text": "在",
+          "pronunciation": "zài",
+          "translation": "at / is located"
+        },
+        {
+          "text": "哪里",
+          "pronunciation": "nǎlǐ",
+          "translation": "where"
+        }
+      ]
+    },
+    {
+      "id": "zh-super-do-you-have",
+      "translation": "Do you have...?",
+      "text": "有...吗？",
+      "pronunciation": "yǒu...ma?",
+      "words": [
+        {
+          "text": "有",
+          "pronunciation": "yǒu",
+          "translation": "have / there is"
+        },
+        {
+          "text": "吗",
+          "pronunciation": "ma",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "zh-super-how-much",
+      "translation": "How much is this?",
+      "text": "这个多少钱？",
+      "pronunciation": "zhège duōshao qián?",
+      "words": [
+        {
+          "text": "这个",
+          "pronunciation": "zhège",
+          "translation": "this"
+        },
+        {
+          "text": "多少",
+          "pronunciation": "duōshao",
+          "translation": "how much"
+        },
+        {
+          "text": "钱",
+          "pronunciation": "qián",
+          "translation": "money"
+        }
+      ]
+    },
+    {
+      "id": "zh-super-membership-card",
+      "translation": "Do you have a membership card?",
+      "text": "有会员卡吗？",
+      "pronunciation": "yǒu huìyuán kǎ ma?",
+      "words": [
+        {
+          "text": "有",
+          "pronunciation": "yǒu",
+          "translation": "have"
+        },
+        {
+          "text": "会员卡",
+          "pronunciation": "huìyuán kǎ",
+          "translation": "membership card"
+        },
+        {
+          "text": "吗",
+          "pronunciation": "ma",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "zh-super-total",
+      "translation": "Your total is... yuan",
+      "text": "一共...块",
+      "pronunciation": "yígòng...kuài",
+      "words": [
+        {
+          "text": "一共",
+          "pronunciation": "yígòng",
+          "translation": "in total / altogether"
+        },
+        {
+          "text": "块",
+          "pronunciation": "kuài",
+          "translation": "yuan"
+        }
+      ]
+    },
+    {
+      "id": "zh-super-need-bag",
+      "translation": "Do you need a bag?",
+      "text": "要袋子吗？",
+      "pronunciation": "yào dàizi ma?",
+      "words": [
+        {
+          "text": "要",
+          "pronunciation": "yào",
+          "translation": "need / want"
+        },
+        {
+          "text": "袋子",
+          "pronunciation": "dàizi",
+          "translation": "bag"
+        },
+        {
+          "text": "吗",
+          "pronunciation": "ma",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "zh-super-yes-bag",
+      "translation": "A bag, please",
+      "text": "要袋子",
+      "pronunciation": "yào dàizi",
+      "words": [
+        {
+          "text": "要",
+          "pronunciation": "yào",
+          "translation": "want / need"
+        },
+        {
+          "text": "袋子",
+          "pronunciation": "dàizi",
+          "translation": "bag"
+        }
+      ]
+    },
+    {
+      "id": "zh-super-no-bag",
+      "translation": "I don't need a bag",
+      "text": "不用袋子",
+      "pronunciation": "bùyòng dàizi",
+      "words": [
+        {
+          "text": "不用",
+          "pronunciation": "bùyòng",
+          "translation": "no need / don't need"
+        },
+        {
+          "text": "袋子",
+          "pronunciation": "dàizi",
+          "translation": "bag"
+        }
+      ]
+    },
+    {
+      "id": "zh-super-cash-or-card",
+      "translation": "Cash or card?",
+      "text": "现金还是刷卡？",
+      "pronunciation": "xiànjīn háishì shuā kǎ?",
+      "words": [
+        {
+          "text": "现金",
+          "pronunciation": "xiànjīn",
+          "translation": "cash"
+        },
+        {
+          "text": "还是",
+          "pronunciation": "háishì",
+          "translation": "or (choice)"
+        },
+        {
+          "text": "刷卡",
+          "pronunciation": "shuā kǎ",
+          "translation": "pay by card"
+        }
+      ]
+    },
+    {
+      "id": "zh-super-pay-card",
+      "translation": "I'll pay by card",
+      "text": "刷卡",
+      "pronunciation": "shuā kǎ",
+      "words": [
+        {
+          "text": "刷",
+          "pronunciation": "shuā",
+          "translation": "swipe"
+        },
+        {
+          "text": "卡",
+          "pronunciation": "kǎ",
+          "translation": "card"
+        }
+      ]
+    },
+    {
+      "id": "zh-super-pay-cash",
+      "translation": "I'll pay with cash",
+      "text": "现金",
+      "pronunciation": "xiànjīn",
+      "words": []
+    },
+    {
+      "id": "zh-super-wechat-alipay",
+      "translation": "WeChat Pay / Alipay",
+      "text": "微信 / 支付宝",
+      "pronunciation": "wēixìn / zhīfùbǎo",
+      "words": [
+        {
+          "text": "微信",
+          "pronunciation": "wēixìn",
+          "translation": "WeChat"
+        },
+        {
+          "text": "支付宝",
+          "pronunciation": "zhīfùbǎo",
+          "translation": "Alipay"
+        }
+      ]
+    }
   ],
   "words": [
-    { "id": "zh-super-w1", "english": "water", "translation": "水", "pronunciation": "Shuǐ" },
-    { "id": "zh-super-w2", "english": "milk", "translation": "牛奶", "pronunciation": "Niúnǎi" },
-    { "id": "zh-super-w3", "english": "bread", "translation": "面包", "pronunciation": "Miànbāo" },
-    { "id": "zh-super-w4", "english": "eggs", "translation": "鸡蛋", "pronunciation": "Jīdàn" },
-    { "id": "zh-super-w5", "english": "rice", "translation": "大米", "pronunciation": "Dàmǐ" },
-    { "id": "zh-super-w6", "english": "fruit", "translation": "水果", "pronunciation": "Shuǐguǒ" },
-    { "id": "zh-super-w7", "english": "snack", "translation": "零食", "pronunciation": "Língshí" },
-    { "id": "zh-super-w8", "english": "candy", "translation": "糖果", "pronunciation": "Tángguǒ" },
-    { "id": "zh-super-w9", "english": "instant noodles", "translation": "方便面", "pronunciation": "Fāngbiàn miàn" },
-    { "id": "zh-super-w10", "english": "tofu", "translation": "豆腐", "pronunciation": "Dòufu" },
-    { "id": "zh-super-w11", "english": "bag", "translation": "袋子", "pronunciation": "Dàizi" },
-    { "id": "zh-super-w12", "english": "receipt", "translation": "收据", "pronunciation": "Shōujù" },
-    { "id": "zh-super-w13", "english": "cash", "translation": "现金", "pronunciation": "Xiànjīn" },
-    { "id": "zh-super-w14", "english": "card", "translation": "卡", "pronunciation": "Kǎ" },
-    { "id": "zh-super-w15", "english": "change", "translation": "找零", "pronunciation": "Zhǎolíng" },
-    { "id": "zh-super-w16", "english": "price", "translation": "价格", "pronunciation": "Jiàgé" },
-    { "id": "zh-super-w17", "english": "cheap", "translation": "便宜", "pronunciation": "Piányi" },
-    { "id": "zh-super-w18", "english": "expensive", "translation": "贵", "pronunciation": "Guì" },
-    { "id": "zh-super-w19", "english": "entrance", "translation": "入口", "pronunciation": "Rùkǒu" },
-    { "id": "zh-super-w20", "english": "exit", "translation": "出口", "pronunciation": "Chūkǒu" },
-    { "id": "zh-super-w21", "english": "have", "translation": "有", "pronunciation": "Yǒu" },
-    { "id": "zh-super-w22", "english": "no need", "translation": "不用", "pronunciation": "Bùyòng" },
-    { "id": "zh-super-w23", "english": "how much", "translation": "多少", "pronunciation": "Duōshǎo" }
+    {
+      "id": "zh-super-w-water",
+      "translation": "water",
+      "text": "水",
+      "pronunciation": "shuǐ"
+    },
+    {
+      "id": "zh-super-w-milk",
+      "translation": "milk",
+      "text": "牛奶",
+      "pronunciation": "niúnǎi"
+    },
+    {
+      "id": "zh-super-w-bread",
+      "translation": "bread",
+      "text": "面包",
+      "pronunciation": "miànbāo"
+    },
+    {
+      "id": "zh-super-w-eggs",
+      "translation": "eggs",
+      "text": "鸡蛋",
+      "pronunciation": "jīdàn"
+    },
+    {
+      "id": "zh-super-w-rice",
+      "translation": "rice",
+      "text": "大米",
+      "pronunciation": "dàmǐ"
+    },
+    {
+      "id": "zh-super-w-fruit",
+      "translation": "fruit",
+      "text": "水果",
+      "pronunciation": "shuǐguǒ"
+    },
+    {
+      "id": "zh-super-w-snack",
+      "translation": "snack",
+      "text": "零食",
+      "pronunciation": "língshí"
+    },
+    {
+      "id": "zh-super-w-candy",
+      "translation": "candy",
+      "text": "糖果",
+      "pronunciation": "tángguǒ"
+    },
+    {
+      "id": "zh-super-w-instant-noodles",
+      "translation": "instant noodles",
+      "text": "方便面",
+      "pronunciation": "fāngbiàn miàn"
+    },
+    {
+      "id": "zh-super-w-tofu",
+      "translation": "tofu",
+      "text": "豆腐",
+      "pronunciation": "dòufu"
+    },
+    {
+      "id": "zh-super-w-bag",
+      "translation": "bag",
+      "text": "袋子",
+      "pronunciation": "dàizi"
+    },
+    {
+      "id": "zh-super-w-receipt",
+      "translation": "receipt",
+      "text": "收据",
+      "pronunciation": "shōujù"
+    },
+    {
+      "id": "zh-super-w-cash",
+      "translation": "cash",
+      "text": "现金",
+      "pronunciation": "xiànjīn"
+    },
+    {
+      "id": "zh-super-w-card",
+      "translation": "card",
+      "text": "卡",
+      "pronunciation": "kǎ"
+    },
+    {
+      "id": "zh-super-w-change",
+      "translation": "change (coins)",
+      "text": "找零",
+      "pronunciation": "zhǎolíng"
+    },
+    {
+      "id": "zh-super-w-price",
+      "translation": "price",
+      "text": "价格",
+      "pronunciation": "jiàgé"
+    },
+    {
+      "id": "zh-super-w-cheap",
+      "translation": "cheap",
+      "text": "便宜",
+      "pronunciation": "piányi"
+    },
+    {
+      "id": "zh-super-w-expensive",
+      "translation": "expensive",
+      "text": "贵",
+      "pronunciation": "guì"
+    },
+    {
+      "id": "zh-super-w-entrance",
+      "translation": "entrance",
+      "text": "入口",
+      "pronunciation": "rùkǒu"
+    },
+    {
+      "id": "zh-super-w-exit",
+      "translation": "exit",
+      "text": "出口",
+      "pronunciation": "chūkǒu"
+    },
+    {
+      "id": "zh-super-w-vegetables",
+      "translation": "vegetables",
+      "text": "蔬菜",
+      "pronunciation": "shūcài"
+    },
+    {
+      "id": "zh-super-w-beverages",
+      "translation": "beverages / drinks",
+      "text": "饮料",
+      "pronunciation": "yǐnliào"
+    },
+    {
+      "id": "zh-super-w-meat",
+      "translation": "meat",
+      "text": "肉",
+      "pronunciation": "ròu"
+    },
+    {
+      "id": "zh-super-w-soy-sauce",
+      "translation": "soy sauce",
+      "text": "酱油",
+      "pronunciation": "jiàngyóu"
+    }
   ]
 }

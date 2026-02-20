@@ -3,216 +3,375 @@
   "languageId": "french",
   "phrases": [
     {
-      "id": "fr-cafe-1",
-      "english": "Can I have the menu?",
-      "translation": "Est-ce que je peux avoir la carte ?",
-      "pronunciation": "Ess-kuh zhuh puh ah-vwahr lah kart?"
+      "id": "fr-cafe-menu",
+      "translation": "Can I have the menu?",
+      "text": "Est-ce que je peux avoir la carte ?",
+      "pronunciation": "Ess-kuh zhuh puh ah-vwahr lah kart?",
+      "words": [
+        {
+          "text": "Est-ce que",
+          "pronunciation": "ess-kuh",
+          "translation": "can / do (question)"
+        },
+        {
+          "text": "je peux",
+          "pronunciation": "zhuh puh",
+          "translation": "I can"
+        },
+        {
+          "text": "avoir",
+          "pronunciation": "ah-vwahr",
+          "translation": "have / get"
+        },
+        {
+          "text": "la carte",
+          "pronunciation": "lah kart",
+          "translation": "the menu"
+        }
+      ]
     },
     {
-      "id": "fr-cafe-2",
-      "english": "One coffee please",
-      "translation": "Un café, s'il vous plaît",
-      "pronunciation": "Un kah-fay, seel voo pleh"
+      "id": "fr-cafe-one-coffee",
+      "translation": "One coffee please",
+      "text": "Un café, s'il vous plaît",
+      "pronunciation": "Un kah-fay, seel voo pleh",
+      "words": [
+        {
+          "text": "Un",
+          "pronunciation": "un",
+          "translation": "a / one (m.)"
+        },
+        {
+          "text": "café",
+          "pronunciation": "kah-fay",
+          "translation": "coffee"
+        },
+        {
+          "text": "s'il vous plaît",
+          "pronunciation": "seel voo pleh",
+          "translation": "please"
+        }
+      ]
     },
     {
-      "id": "fr-cafe-3",
-      "english": "A croissant please",
-      "translation": "Un croissant, s'il vous plaît",
-      "pronunciation": "Un kwah-son, seel voo pleh"
+      "id": "fr-cafe-croissant",
+      "translation": "A croissant please",
+      "text": "Un croissant, s'il vous plaît",
+      "pronunciation": "Un kwah-son, seel voo pleh",
+      "words": [
+        {
+          "text": "Un",
+          "pronunciation": "un",
+          "translation": "a / one (m.)"
+        },
+        {
+          "text": "croissant",
+          "pronunciation": "kwah-son",
+          "translation": "croissant"
+        },
+        {
+          "text": "s'il vous plaît",
+          "pronunciation": "seel voo pleh",
+          "translation": "please"
+        }
+      ]
     },
     {
-      "id": "fr-cafe-p1",
-      "english": "What size?",
-      "translation": "Quelle taille ?",
-      "pronunciation": "Kell tie?"
+      "id": "fr-cafe-what-size",
+      "translation": "What size?",
+      "text": "Quelle taille ?",
+      "pronunciation": "Kell tie?",
+      "words": [
+        {
+          "text": "Quelle",
+          "pronunciation": "kell",
+          "translation": "which / what"
+        },
+        {
+          "text": "taille",
+          "pronunciation": "tie",
+          "translation": "size"
+        }
+      ]
     },
     {
-      "id": "fr-cafe-4",
-      "english": "Medium size please",
-      "translation": "Taille moyenne, s'il vous plaît",
-      "pronunciation": "Tie mwah-yen, seel voo pleh"
+      "id": "fr-cafe-medium-size",
+      "translation": "Medium size please",
+      "text": "Taille moyenne, s'il vous plaît",
+      "pronunciation": "Tie mwah-yen, seel voo pleh",
+      "words": [
+        {
+          "text": "Taille",
+          "pronunciation": "tie",
+          "translation": "size"
+        },
+        {
+          "text": "moyenne",
+          "pronunciation": "mwah-yen",
+          "translation": "medium"
+        },
+        {
+          "text": "s'il vous plaît",
+          "pronunciation": "seel voo pleh",
+          "translation": "please"
+        }
+      ]
     },
     {
-      "id": "fr-cafe-p2",
-      "english": "Hot or iced?",
-      "translation": "Chaud ou glacé ?",
-      "pronunciation": "Shoh oo glah-say?"
+      "id": "fr-cafe-hot-or-iced",
+      "translation": "Hot or iced?",
+      "text": "Chaud ou glacé ?",
+      "pronunciation": "Shoh oo glah-say?",
+      "words": [
+        {
+          "text": "Chaud",
+          "pronunciation": "shoh",
+          "translation": "hot"
+        },
+        {
+          "text": "ou",
+          "pronunciation": "oo",
+          "translation": "or"
+        },
+        {
+          "text": "glacé",
+          "pronunciation": "glah-say",
+          "translation": "iced"
+        }
+      ]
     },
     {
-      "id": "fr-cafe-5",
-      "english": "Hot",
-      "translation": "Chaud",
-      "pronunciation": "Shoh"
+      "id": "fr-cafe-hot",
+      "translation": "Hot",
+      "text": "Chaud",
+      "pronunciation": "Shoh",
+      "words": []
     },
     {
-      "id": "fr-cafe-6",
-      "english": "Iced",
-      "translation": "Glacé",
-      "pronunciation": "Glah-say"
+      "id": "fr-cafe-iced",
+      "translation": "Iced",
+      "text": "Glacé",
+      "pronunciation": "Glah-say",
+      "words": []
     },
     {
-      "id": "fr-cafe-p3",
-      "english": "For here or to go?",
-      "translation": "Sur place ou à emporter ?",
-      "pronunciation": "Soor plass oo ah om-por-tay?"
+      "id": "fr-cafe-here-or-to-go",
+      "translation": "For here or to go?",
+      "text": "Sur place ou à emporter ?",
+      "pronunciation": "Soor plass oo ah om-por-tay?",
+      "words": [
+        {
+          "text": "Sur place",
+          "pronunciation": "soor plass",
+          "translation": "here / on-site"
+        },
+        {
+          "text": "ou",
+          "pronunciation": "oo",
+          "translation": "or"
+        },
+        {
+          "text": "à emporter",
+          "pronunciation": "ah om-por-tay",
+          "translation": "to take away"
+        }
+      ]
     },
     {
-      "id": "fr-cafe-7",
-      "english": "To eat here",
-      "translation": "Sur place",
-      "pronunciation": "Soor plass"
+      "id": "fr-cafe-eat-here",
+      "translation": "To eat here",
+      "text": "Sur place",
+      "pronunciation": "Soor plass",
+      "words": []
     },
     {
-      "id": "fr-cafe-8",
-      "english": "To take away",
-      "translation": "À emporter",
-      "pronunciation": "Ah om-por-tay"
+      "id": "fr-cafe-take-away",
+      "translation": "To take away",
+      "text": "À emporter",
+      "pronunciation": "Ah om-por-tay",
+      "words": []
     },
     {
-      "id": "fr-cafe-p4",
-      "english": "Would you like anything else?",
-      "translation": "Vous désirez autre chose ?",
-      "pronunciation": "Voo day-zee-ray oh-truh shohz?"
+      "id": "fr-cafe-anything-else",
+      "translation": "Would you like anything else?",
+      "text": "Vous désirez autre chose ?",
+      "pronunciation": "Voo day-zee-ray oh-truh shohz?",
+      "words": [
+        {
+          "text": "Vous désirez",
+          "pronunciation": "voo day-zee-ray",
+          "translation": "would you like"
+        },
+        {
+          "text": "autre chose",
+          "pronunciation": "oh-truh shohz",
+          "translation": "something else"
+        }
+      ]
     },
     {
-      "id": "fr-cafe-9",
-      "english": "The bill please",
-      "translation": "L'addition, s'il vous plaît",
-      "pronunciation": "Lah-dee-syon, seel voo pleh"
+      "id": "fr-cafe-bill",
+      "translation": "The bill please",
+      "text": "L'addition, s'il vous plaît",
+      "pronunciation": "Lah-dee-syon, seel voo pleh",
+      "words": [
+        {
+          "text": "L'addition",
+          "pronunciation": "lah-dee-syon",
+          "translation": "the bill"
+        },
+        {
+          "text": "s'il vous plaît",
+          "pronunciation": "seel voo pleh",
+          "translation": "please"
+        }
+      ]
     }
   ],
   "words": [
     {
-      "id": "fr-cafe-w1",
-      "english": "coffee",
-      "translation": "café",
+      "id": "fr-cafe-w-coffee",
+      "translation": "coffee",
+      "text": "café",
       "pronunciation": "kah-fay"
     },
     {
-      "id": "fr-cafe-w2",
-      "english": "latte",
-      "translation": "café au lait",
+      "id": "fr-cafe-w-latte",
+      "translation": "latte",
+      "text": "café au lait",
       "pronunciation": "kah-fay oh leh"
     },
     {
-      "id": "fr-cafe-w3",
-      "english": "americano",
-      "translation": "café américain",
+      "id": "fr-cafe-w-americano",
+      "translation": "americano",
+      "text": "café américain",
       "pronunciation": "kah-fay ah-may-ree-kan"
     },
     {
-      "id": "fr-cafe-w4",
-      "english": "espresso",
-      "translation": "expresso",
+      "id": "fr-cafe-w-espresso",
+      "translation": "espresso",
+      "text": "expresso",
       "pronunciation": "eks-preh-soh"
     },
     {
-      "id": "fr-cafe-w5",
-      "english": "cappuccino",
+      "id": "fr-cafe-w-cappuccino",
       "translation": "cappuccino",
+      "text": "cappuccino",
       "pronunciation": "kah-poo-chee-noh"
     },
     {
-      "id": "fr-cafe-w6",
-      "english": "croissant",
+      "id": "fr-cafe-w-croissant",
       "translation": "croissant",
+      "text": "croissant",
       "pronunciation": "kwah-son"
     },
     {
-      "id": "fr-cafe-w7",
-      "english": "tea",
-      "translation": "thé",
+      "id": "fr-cafe-w-tea",
+      "translation": "tea",
+      "text": "thé",
       "pronunciation": "tay"
     },
     {
-      "id": "fr-cafe-w8",
-      "english": "milk",
-      "translation": "lait",
+      "id": "fr-cafe-w-milk",
+      "translation": "milk",
+      "text": "lait",
       "pronunciation": "leh"
     },
     {
-      "id": "fr-cafe-w9",
-      "english": "sugar",
-      "translation": "sucre",
+      "id": "fr-cafe-w-sugar",
+      "translation": "sugar",
+      "text": "sucre",
       "pronunciation": "soo-kruh"
     },
     {
-      "id": "fr-cafe-w10",
-      "english": "ice",
-      "translation": "glace",
+      "id": "fr-cafe-w-ice",
+      "translation": "ice",
+      "text": "glace",
       "pronunciation": "glass"
     },
     {
-      "id": "fr-cafe-w11",
-      "english": "hot",
-      "translation": "chaud",
+      "id": "fr-cafe-w-hot",
+      "translation": "hot",
+      "text": "chaud",
       "pronunciation": "shoh"
     },
     {
-      "id": "fr-cafe-w12",
-      "english": "cold",
-      "translation": "froid",
+      "id": "fr-cafe-w-cold",
+      "translation": "cold",
+      "text": "froid",
       "pronunciation": "frwah"
     },
     {
-      "id": "fr-cafe-w13",
-      "english": "cup",
-      "translation": "tasse",
+      "id": "fr-cafe-w-cup",
+      "translation": "cup",
+      "text": "tasse",
       "pronunciation": "tass"
     },
     {
-      "id": "fr-cafe-w14",
-      "english": "straw",
-      "translation": "paille",
+      "id": "fr-cafe-w-straw",
+      "translation": "straw",
+      "text": "paille",
       "pronunciation": "pie"
     },
     {
-      "id": "fr-cafe-w15",
-      "english": "small",
-      "translation": "petit",
+      "id": "fr-cafe-w-small",
+      "translation": "small",
+      "text": "petit",
       "pronunciation": "puh-tee"
     },
     {
-      "id": "fr-cafe-w16",
-      "english": "medium",
-      "translation": "moyen",
+      "id": "fr-cafe-w-medium",
+      "translation": "medium",
+      "text": "moyen",
       "pronunciation": "mwah-yen"
     },
     {
-      "id": "fr-cafe-w17",
-      "english": "large",
-      "translation": "grand",
+      "id": "fr-cafe-w-large",
+      "translation": "large",
+      "text": "grand",
       "pronunciation": "gron"
     },
     {
-      "id": "fr-cafe-w18",
-      "english": "water",
-      "translation": "eau",
+      "id": "fr-cafe-w-water",
+      "translation": "water",
+      "text": "eau",
       "pronunciation": "oh"
     },
     {
-      "id": "fr-cafe-w19",
-      "english": "cake",
-      "translation": "gâteau",
+      "id": "fr-cafe-w-cake",
+      "translation": "cake",
+      "text": "gâteau",
       "pronunciation": "gah-toh"
     },
     {
-      "id": "fr-cafe-w20",
-      "english": "pastry",
-      "translation": "pâtisserie",
+      "id": "fr-cafe-w-pastry",
+      "translation": "pastry",
+      "text": "pâtisserie",
       "pronunciation": "pah-tee-sree"
     },
     {
-      "id": "fr-cafe-w21",
-      "english": "a (masc. / fem.)",
-      "translation": "un / une",
-      "pronunciation": "un / oon"
+      "id": "fr-cafe-w-juice",
+      "translation": "juice",
+      "text": "jus",
+      "pronunciation": "zhoo"
     },
     {
-      "id": "fr-cafe-w22",
-      "english": "is it / do (question)",
-      "translation": "est-ce que",
-      "pronunciation": "ess-kuh"
+      "id": "fr-cafe-w-hot-chocolate",
+      "translation": "hot chocolate",
+      "text": "chocolat chaud",
+      "pronunciation": "shoh-koh-lah shoh"
+    },
+    {
+      "id": "fr-cafe-w-sandwich",
+      "translation": "sandwich",
+      "text": "sandwich",
+      "pronunciation": "sond-weech"
+    },
+    {
+      "id": "fr-cafe-w-muffin",
+      "translation": "muffin",
+      "text": "muffin",
+      "pronunciation": "muh-fin"
     }
   ]
 }

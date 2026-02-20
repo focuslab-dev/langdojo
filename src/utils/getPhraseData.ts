@@ -1,4 +1,5 @@
 import { LanguageId, Phrase, PhraseCategory } from "@/types";
+import { FavoriteItem } from "@/hooks/useFavorites";
 
 // Japanese
 import japaneseBasics from "@/data/japanese/basics.json";
@@ -150,4 +151,80 @@ export function getCategoryData(
     phrases: categoryData.phrases || [],
     words: categoryData.words || [],
   };
+}
+
+/**
+ * Builds an ordered list for download/study material:
+ * For each phrase: its word breakdowns (skipping duplicates) → the phrase,
+ * then any remaining category-level words at the end.
+ */
+export function getDownloadItems(
+  languageId: LanguageId,
+  categoryId: string,
+): Phrase[] {
+  const { phrases, words } = getCategoryData(languageId, categoryId);
+  const seenWords = new Set<string>();
+  const items: Phrase[] = [];
+
+  for (const phrase of phrases) {
+    if (phrase.words) {
+      for (const word of phrase.words) {
+        if (!seenWords.has(word.text)) {
+          seenWords.add(word.text);
+          items.push({
+            id: `wd-${word.text}`,
+            text: word.text,
+            translation: word.translation,
+            pronunciation: word.pronunciation,
+          });
+        }
+      }
+    }
+    items.push(phrase);
+  }
+
+  for (const word of words) {
+    if (!seenWords.has(word.text)) {
+      seenWords.add(word.text);
+      items.push(word);
+    }
+  }
+
+  return items;
+}
+
+/**
+ * Builds a download list from a set of favorite items, applying the same
+ * word-breakdown-first ordering as getDownloadItems.
+ */
+export function getDownloadItemsForFavorites(
+  favorites: FavoriteItem[],
+  languageId: LanguageId,
+): Phrase[] {
+  const langFavorites = favorites.filter((f) => f.languageId === languageId);
+  const seenWords = new Set<string>();
+  const items: Phrase[] = [];
+
+  for (const fav of langFavorites) {
+    const { phrases, words } = getCategoryData(languageId, fav.categoryId);
+    const phrase = [...phrases, ...words].find((p) => p.id === fav.phraseId);
+    if (!phrase) continue;
+
+    if (phrase.words) {
+      for (const word of phrase.words) {
+        if (!seenWords.has(word.text)) {
+          seenWords.add(word.text);
+          items.push({
+            id: `wd-${word.text}`,
+            text: word.text,
+            translation: word.translation,
+            pronunciation: word.pronunciation,
+          });
+        }
+      }
+    }
+    items.push(phrase);
+  }
+
+  return items;
 }

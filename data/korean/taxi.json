@@ -3,204 +3,176 @@
   "languageId": "korean",
   "phrases": [
     {
-      "id": "ko-taxi-p1",
-      "english": "Where are you going?",
-      "translation": "어디로 가시나요?",
-      "pronunciation": "eodiro gasinayo?"
+      "id": "ko-taxi-where-going",
+      "translation": "Where are you going?",
+      "text": "어디로 가시나요?",
+      "pronunciation": "eodiro gasinayo?",
+      "words": [
+        { "text": "어디", "pronunciation": "eodi", "translation": "where" },
+        { "text": "로", "pronunciation": "ro", "translation": "to / toward" },
+        { "text": "가시나요", "pronunciation": "gasinayo", "translation": "are you going (honorific)" }
+      ]
     },
     {
-      "id": "ko-taxi-1",
-      "english": "To this address please",
-      "translation": "이 주소로 가 주세요",
-      "pronunciation": "i juso-ro ga juseyo"
+      "id": "ko-taxi-this-address",
+      "translation": "To this address please",
+      "text": "이 주소로 가 주세요",
+      "pronunciation": "i juso-ro ga juseyo",
+      "words": [
+        { "text": "이", "pronunciation": "i", "translation": "this" },
+        { "text": "주소", "pronunciation": "juso", "translation": "address" },
+        { "text": "로", "pronunciation": "ro", "translation": "to / toward" },
+        { "text": "가", "pronunciation": "ga", "translation": "go" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
     },
     {
-      "id": "ko-taxi-2",
-      "english": "To the station please",
-      "translation": "역으로 가 주세요",
-      "pronunciation": "yeog-euro ga juseyo"
+      "id": "ko-taxi-to-station",
+      "translation": "To the station please",
+      "text": "역으로 가 주세요",
+      "pronunciation": "yeog-euro ga juseyo",
+      "words": [
+        { "text": "역", "pronunciation": "yeok", "translation": "station" },
+        { "text": "으로", "pronunciation": "euro", "translation": "to / toward" },
+        { "text": "가", "pronunciation": "ga", "translation": "go" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
     },
     {
-      "id": "ko-taxi-3",
-      "english": "To the airport please",
-      "translation": "공항으로 가 주세요",
-      "pronunciation": "gonghang-euro ga juseyo"
+      "id": "ko-taxi-to-airport",
+      "translation": "To the airport please",
+      "text": "공항으로 가 주세요",
+      "pronunciation": "gonghang-euro ga juseyo",
+      "words": [
+        { "text": "공항", "pronunciation": "gonghang", "translation": "airport" },
+        { "text": "으로", "pronunciation": "euro", "translation": "to / toward" },
+        { "text": "가", "pronunciation": "ga", "translation": "go" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
     },
     {
-      "id": "ko-taxi-4",
-      "english": "How much will it cost?",
-      "translation": "얼마나 나올까요?",
-      "pronunciation": "eolmana naolkkayo?"
+      "id": "ko-taxi-how-much",
+      "translation": "How much will it cost?",
+      "text": "얼마나 나올까요?",
+      "pronunciation": "eolmana naolkkayo?",
+      "words": [
+        { "text": "얼마나", "pronunciation": "eolmana", "translation": "how much" },
+        { "text": "나올까요", "pronunciation": "naolkkayo", "translation": "will it come out / will it be" }
+      ]
     },
     {
-      "id": "ko-taxi-p2",
-      "english": "It will be about... won",
-      "translation": "약 ...원 정도 나올 거예요",
-      "pronunciation": "yak ...won jeongdo naol geoyeyo"
+      "id": "ko-taxi-fare-estimate",
+      "translation": "It will be about... won",
+      "text": "약 ...원 정도 나올 거예요",
+      "pronunciation": "yak ...won jeongdo naol geoyeyo",
+      "words": [
+        { "text": "약", "pronunciation": "yak", "translation": "approximately" },
+        { "text": "원", "pronunciation": "won", "translation": "won (currency)" },
+        { "text": "정도", "pronunciation": "jeongdo", "translation": "about / roughly" },
+        { "text": "나올 거예요", "pronunciation": "naol geoyeyo", "translation": "will be" }
+      ]
     },
     {
-      "id": "ko-taxi-5",
-      "english": "Can I pay by card?",
-      "translation": "카드로 결제할 수 있어요?",
-      "pronunciation": "kadeu-ro gyeoljaehal su isseoyo?"
+      "id": "ko-taxi-pay-by-card",
+      "translation": "Can I pay by card?",
+      "text": "카드로 결제할 수 있어요?",
+      "pronunciation": "kadeu-ro gyeoljaehal su isseoyo?",
+      "words": [
+        { "text": "카드", "pronunciation": "kadeu", "translation": "card" },
+        { "text": "로", "pronunciation": "ro", "translation": "by / with" },
+        { "text": "결제할 수 있어요", "pronunciation": "gyeoljaehal su isseoyo", "translation": "can pay" }
+      ]
     },
     {
-      "id": "ko-taxi-6",
-      "english": "Turn right",
-      "translation": "오른쪽으로 가 주세요",
-      "pronunciation": "oreunjjog-euro ga juseyo"
+      "id": "ko-taxi-turn-right",
+      "translation": "Turn right",
+      "text": "오른쪽으로 가 주세요",
+      "pronunciation": "oreunjjog-euro ga juseyo",
+      "words": [
+        { "text": "오른쪽", "pronunciation": "oreunjjok", "translation": "right side" },
+        { "text": "으로", "pronunciation": "euro", "translation": "toward" },
+        { "text": "가", "pronunciation": "ga", "translation": "go" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
     },
     {
-      "id": "ko-taxi-7",
-      "english": "Turn left",
-      "translation": "왼쪽으로 가 주세요",
-      "pronunciation": "oenjjog-euro ga juseyo"
+      "id": "ko-taxi-turn-left",
+      "translation": "Turn left",
+      "text": "왼쪽으로 가 주세요",
+      "pronunciation": "oenjjog-euro ga juseyo",
+      "words": [
+        { "text": "왼쪽", "pronunciation": "oenjjok", "translation": "left side" },
+        { "text": "으로", "pronunciation": "euro", "translation": "toward" },
+        { "text": "가", "pronunciation": "ga", "translation": "go" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
     },
     {
-      "id": "ko-taxi-8",
-      "english": "Go straight",
-      "translation": "직진해 주세요",
-      "pronunciation": "jikjinhae juseyo"
+      "id": "ko-taxi-go-straight",
+      "translation": "Go straight",
+      "text": "직진해 주세요",
+      "pronunciation": "jikjinhae juseyo",
+      "words": [
+        { "text": "직진", "pronunciation": "jikjin", "translation": "going straight" },
+        { "text": "해", "pronunciation": "hae", "translation": "do" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
     },
     {
-      "id": "ko-taxi-9",
-      "english": "Please stop here",
-      "translation": "여기서 세워 주세요",
-      "pronunciation": "yeogiseo sewo juseyo"
+      "id": "ko-taxi-stop-here",
+      "translation": "Please stop here",
+      "text": "여기서 세워 주세요",
+      "pronunciation": "yeogiseo sewo juseyo",
+      "words": [
+        { "text": "여기서", "pronunciation": "yeogiseo", "translation": "here (at this place)" },
+        { "text": "세워", "pronunciation": "sewo", "translation": "stop / pull over" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
     },
     {
-      "id": "ko-taxi-10",
-      "english": "Can you wait here?",
-      "translation": "여기서 기다려 주실 수 있어요?",
-      "pronunciation": "yeogiseo gidaryeo jusil su isseoyo?"
+      "id": "ko-taxi-wait-here",
+      "translation": "Can you wait here?",
+      "text": "여기서 기다려 주실 수 있어요?",
+      "pronunciation": "yeogiseo gidaryeo jusil su isseoyo?",
+      "words": [
+        { "text": "여기서", "pronunciation": "yeogiseo", "translation": "here" },
+        { "text": "기다려", "pronunciation": "gidaryeo", "translation": "wait" },
+        { "text": "주실 수 있어요", "pronunciation": "jusil su isseoyo", "translation": "can you please" }
+      ]
     },
     {
-      "id": "ko-taxi-p3",
-      "english": "We've arrived",
-      "translation": "도착했습니다",
-      "pronunciation": "dochakaetseumnida"
+      "id": "ko-taxi-arrived",
+      "translation": "We've arrived",
+      "text": "도착했습니다",
+      "pronunciation": "dochakaetseumnida",
+      "words": [
+        { "text": "도착", "pronunciation": "dochak", "translation": "arrival" },
+        { "text": "했습니다", "pronunciation": "haetseumnida", "translation": "did (formal)" }
+      ]
     }
   ],
   "words": [
-    {
-      "id": "ko-taxi-w1",
-      "english": "right",
-      "translation": "오른쪽",
-      "pronunciation": "oreunjjok"
-    },
-    {
-      "id": "ko-taxi-w2",
-      "english": "left",
-      "translation": "왼쪽",
-      "pronunciation": "oenjjok"
-    },
-    {
-      "id": "ko-taxi-w3",
-      "english": "straight",
-      "translation": "직진",
-      "pronunciation": "jikjin"
-    },
-    {
-      "id": "ko-taxi-w4",
-      "english": "here",
-      "translation": "여기",
-      "pronunciation": "yeogi"
-    },
-    {
-      "id": "ko-taxi-w5",
-      "english": "there",
-      "translation": "거기",
-      "pronunciation": "geogi"
-    },
-    {
-      "id": "ko-taxi-w6",
-      "english": "near",
-      "translation": "가까운",
-      "pronunciation": "gakkaun"
-    },
-    {
-      "id": "ko-taxi-w7",
-      "english": "far",
-      "translation": "먼",
-      "pronunciation": "meon"
-    },
-    {
-      "id": "ko-taxi-w8",
-      "english": "fast",
-      "translation": "빠른",
-      "pronunciation": "ppareun"
-    },
-    {
-      "id": "ko-taxi-w9",
-      "english": "slow",
-      "translation": "느린",
-      "pronunciation": "neurin"
-    },
-    {
-      "id": "ko-taxi-w10",
-      "english": "stop",
-      "translation": "정지",
-      "pronunciation": "jeongji"
-    },
-    {
-      "id": "ko-taxi-w11",
-      "english": "airport",
-      "translation": "공항",
-      "pronunciation": "gonghang"
-    },
-    {
-      "id": "ko-taxi-w12",
-      "english": "station",
-      "translation": "역",
-      "pronunciation": "yeok"
-    },
-    {
-      "id": "ko-taxi-w13",
-      "english": "hotel",
-      "translation": "호텔",
-      "pronunciation": "hotel"
-    },
-    {
-      "id": "ko-taxi-w14",
-      "english": "map",
-      "translation": "지도",
-      "pronunciation": "jido"
-    },
-    {
-      "id": "ko-taxi-w15",
-      "english": "address",
-      "translation": "주소",
-      "pronunciation": "juso"
-    },
-    {
-      "id": "ko-taxi-w16",
-      "english": "meter",
-      "translation": "미터기",
-      "pronunciation": "miteogi"
-    },
-    {
-      "id": "ko-taxi-w17",
-      "english": "money",
-      "translation": "돈",
-      "pronunciation": "don"
-    },
-    {
-      "id": "ko-taxi-w18",
-      "english": "traffic",
-      "translation": "교통",
-      "pronunciation": "gyotong"
-    },
-    {
-      "id": "ko-taxi-w19",
-      "english": "please (do)",
-      "translation": "주세요",
-      "pronunciation": "juseyo"
-    },
-    {
-      "id": "ko-taxi-w20",
-      "english": "to / toward",
-      "translation": "(으)로",
-      "pronunciation": "(eu)ro"
-    }
+    { "id": "ko-taxi-w-right", "translation": "right", "text": "오른쪽", "pronunciation": "oreunjjok" },
+    { "id": "ko-taxi-w-left", "translation": "left", "text": "왼쪽", "pronunciation": "oenjjok" },
+    { "id": "ko-taxi-w-straight", "translation": "straight", "text": "직진", "pronunciation": "jikjin" },
+    { "id": "ko-taxi-w-here", "translation": "here", "text": "여기", "pronunciation": "yeogi" },
+    { "id": "ko-taxi-w-there", "translation": "there", "text": "거기", "pronunciation": "geogi" },
+    { "id": "ko-taxi-w-near", "translation": "near", "text": "가까운", "pronunciation": "gakkaun" },
+    { "id": "ko-taxi-w-far", "translation": "far", "text": "먼", "pronunciation": "meon" },
+    { "id": "ko-taxi-w-fast", "translation": "fast", "text": "빠른", "pronunciation": "ppareun" },
+    { "id": "ko-taxi-w-slow", "translation": "slow", "text": "느린", "pronunciation": "neurin" },
+    { "id": "ko-taxi-w-stop", "translation": "stop", "text": "정지", "pronunciation": "jeongji" },
+    { "id": "ko-taxi-w-airport", "translation": "airport", "text": "공항", "pronunciation": "gonghang" },
+    { "id": "ko-taxi-w-station", "translation": "station", "text": "역", "pronunciation": "yeok" },
+    { "id": "ko-taxi-w-hotel", "translation": "hotel", "text": "호텔", "pronunciation": "hotel" },
+    { "id": "ko-taxi-w-map", "translation": "map", "text": "지도", "pronunciation": "jido" },
+    { "id": "ko-taxi-w-address", "translation": "address", "text": "주소", "pronunciation": "juso" },
+    { "id": "ko-taxi-w-meter", "translation": "meter", "text": "미터기", "pronunciation": "miteogi" },
+    { "id": "ko-taxi-w-money", "translation": "money", "text": "돈", "pronunciation": "don" },
+    { "id": "ko-taxi-w-traffic", "translation": "traffic", "text": "교통", "pronunciation": "gyotong" },
+    { "id": "ko-taxi-w-neighborhood", "translation": "neighborhood", "text": "동네", "pronunciation": "dongne" },
+    { "id": "ko-taxi-w-intersection", "translation": "intersection", "text": "교차로", "pronunciation": "gyocharo" },
+    { "id": "ko-taxi-w-traffic-light", "translation": "traffic light", "text": "신호등", "pronunciation": "sinhodeung" },
+    { "id": "ko-taxi-w-expressway", "translation": "expressway", "text": "고속도로", "pronunciation": "gosokdoro" }
   ]
 }

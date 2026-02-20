@@ -1,8 +1,15 @@
+export interface Word {
+  text: string;
+  pronunciation: string;
+  translation: string;
+}
+
 export interface Phrase {
   id: string;
-  english: string;
+  text: string;
   translation: string;
   pronunciation: string;
+  words?: Word[];
 }
 
 export interface PhraseCategory {
@@ -27,5 +34,21 @@ export interface Category {
   color: string;
 }
 
-export type LanguageId = 'japanese' | 'mandarin' | 'thai' | 'korean' | 'french' | 'spanish';
-export type CategoryId = 'favorites' | 'basics' | 'numbers' | 'cafe' | 'restaurant' | 'supermarket' | 'taxi' | 'train' | 'bus' | 'hotel';
+export type LanguageId =
+  | "japanese"
+  | "mandarin"
+  | "thai"
+  | "korean"
+  | "french"
+  | "spanish";
+export type CategoryId =
+  | "favorites"
+  | "basics"
+  | "numbers"
+  | "cafe"
+  | "restaurant"
+  | "supermarket"
+  | "taxi"
+  | "train"
+  | "bus"
+  | "hotel";

@@ -2,39 +2,158 @@
   "categoryId": "taxi",
   "languageId": "mandarin",
   "phrases": [
-    { "id": "zh-taxi-p1", "english": "Where are you going?", "translation": "去哪里？", "pronunciation": "Qù nǎlǐ?" },
-    { "id": "zh-taxi-1", "english": "To this address, please", "translation": "请去这个地址", "pronunciation": "Qǐng qù zhège dìzhǐ" },
-    { "id": "zh-taxi-2", "english": "To the train station, please", "translation": "请去火车站", "pronunciation": "Qǐng qù huǒchē zhàn" },
-    { "id": "zh-taxi-3", "english": "To the airport, please", "translation": "请去机场", "pronunciation": "Qǐng qù jīchǎng" },
-    { "id": "zh-taxi-7", "english": "Please turn on the meter", "translation": "请打表", "pronunciation": "Qǐng dǎ biǎo" },
-    { "id": "zh-taxi-5", "english": "How much will it cost?", "translation": "大概多少钱？", "pronunciation": "Dàgài duōshǎo qián?" },
-    { "id": "zh-taxi-p2", "english": "It will be about... yuan", "translation": "大概...块", "pronunciation": "Dàgài...kuài" },
-    { "id": "zh-taxi-6", "english": "Can I pay by card?", "translation": "可以刷卡吗？", "pronunciation": "Kěyǐ shuā kǎ ma?" },
-    { "id": "zh-taxi-8", "english": "Turn right / left", "translation": "右转 / 左转", "pronunciation": "Yòu zhuǎn / Zuǒ zhuǎn" },
-    { "id": "zh-taxi-9", "english": "Go straight", "translation": "直走", "pronunciation": "Zhí zǒu" },
-    { "id": "zh-taxi-4", "english": "Please stop here", "translation": "请在这里停", "pronunciation": "Qǐng zài zhèlǐ tíng" },
-    { "id": "zh-taxi-p3", "english": "We've arrived", "translation": "到了", "pronunciation": "Dào le" }
+    {
+      "id": "zh-taxi-where-going",
+      "translation": "Where are you going?",
+      "text": "去哪里？",
+      "pronunciation": "qù nǎlǐ?",
+      "words": [
+        { "text": "去", "pronunciation": "qù", "translation": "go / going to" },
+        { "text": "哪里", "pronunciation": "nǎlǐ", "translation": "where" }
+      ]
+    },
+    {
+      "id": "zh-taxi-this-address",
+      "translation": "To this address, please",
+      "text": "请去这个地址",
+      "pronunciation": "qǐng qù zhège dìzhǐ",
+      "words": [
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "去", "pronunciation": "qù", "translation": "go to" },
+        { "text": "这个", "pronunciation": "zhège", "translation": "this" },
+        { "text": "地址", "pronunciation": "dìzhǐ", "translation": "address" }
+      ]
+    },
+    {
+      "id": "zh-taxi-train-station",
+      "translation": "To the train station, please",
+      "text": "请去火车站",
+      "pronunciation": "qǐng qù huǒchē zhàn",
+      "words": [
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "去", "pronunciation": "qù", "translation": "go to" },
+        { "text": "火车站", "pronunciation": "huǒchē zhàn", "translation": "train station" }
+      ]
+    },
+    {
+      "id": "zh-taxi-airport",
+      "translation": "To the airport, please",
+      "text": "请去机场",
+      "pronunciation": "qǐng qù jīchǎng",
+      "words": [
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "去", "pronunciation": "qù", "translation": "go to" },
+        { "text": "机场", "pronunciation": "jīchǎng", "translation": "airport" }
+      ]
+    },
+    {
+      "id": "zh-taxi-turn-on-meter",
+      "translation": "Please turn on the meter",
+      "text": "请打表",
+      "pronunciation": "qǐng dǎ biǎo",
+      "words": [
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "打表", "pronunciation": "dǎ biǎo", "translation": "turn on the meter" }
+      ]
+    },
+    {
+      "id": "zh-taxi-how-much",
+      "translation": "How much will it cost?",
+      "text": "大概多少钱？",
+      "pronunciation": "dàgài duōshao qián?",
+      "words": [
+        { "text": "大概", "pronunciation": "dàgài", "translation": "approximately" },
+        { "text": "多少", "pronunciation": "duōshao", "translation": "how much" },
+        { "text": "钱", "pronunciation": "qián", "translation": "money" }
+      ]
+    },
+    {
+      "id": "zh-taxi-approx-amount",
+      "translation": "It will be about... yuan",
+      "text": "大概...块",
+      "pronunciation": "dàgài...kuài",
+      "words": [
+        { "text": "大概", "pronunciation": "dàgài", "translation": "approximately" },
+        { "text": "块", "pronunciation": "kuài", "translation": "yuan" }
+      ]
+    },
+    {
+      "id": "zh-taxi-pay-card",
+      "translation": "Can I pay by card?",
+      "text": "可以刷卡吗？",
+      "pronunciation": "kěyǐ shuā kǎ ma?",
+      "words": [
+        { "text": "可以", "pronunciation": "kěyǐ", "translation": "can / may" },
+        { "text": "刷卡", "pronunciation": "shuā kǎ", "translation": "pay by card / swipe card" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-taxi-turn-right-left",
+      "translation": "Turn right / left",
+      "text": "右转 / 左转",
+      "pronunciation": "yòu zhuǎn / zuǒ zhuǎn",
+      "words": [
+        { "text": "右", "pronunciation": "yòu", "translation": "right" },
+        { "text": "转", "pronunciation": "zhuǎn", "translation": "turn" },
+        { "text": "左", "pronunciation": "zuǒ", "translation": "left" }
+      ]
+    },
+    {
+      "id": "zh-taxi-go-straight",
+      "translation": "Go straight",
+      "text": "直走",
+      "pronunciation": "zhí zǒu",
+      "words": [
+        { "text": "直", "pronunciation": "zhí", "translation": "straight" },
+        { "text": "走", "pronunciation": "zǒu", "translation": "walk / go" }
+      ]
+    },
+    {
+      "id": "zh-taxi-stop-here",
+      "translation": "Please stop here",
+      "text": "请在这里停",
+      "pronunciation": "qǐng zài zhèlǐ tíng",
+      "words": [
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "在", "pronunciation": "zài", "translation": "at" },
+        { "text": "这里", "pronunciation": "zhèlǐ", "translation": "here" },
+        { "text": "停", "pronunciation": "tíng", "translation": "stop" }
+      ]
+    },
+    {
+      "id": "zh-taxi-arrived",
+      "translation": "We've arrived",
+      "text": "到了",
+      "pronunciation": "dào le",
+      "words": [
+        { "text": "到", "pronunciation": "dào", "translation": "arrive / reach" },
+        { "text": "了", "pronunciation": "le", "translation": "(completed action particle)" }
+      ]
+    }
   ],
   "words": [
-    { "id": "zh-taxi-w1", "english": "right", "translation": "右", "pronunciation": "Yòu" },
-    { "id": "zh-taxi-w2", "english": "left", "translation": "左", "pronunciation": "Zuǒ" },
-    { "id": "zh-taxi-w3", "english": "straight", "translation": "直走", "pronunciation": "Zhí zǒu" },
-    { "id": "zh-taxi-w4", "english": "here", "translation": "这里", "pronunciation": "Zhèlǐ" },
-    { "id": "zh-taxi-w5", "english": "there", "translation": "那里", "pronunciation": "Nàlǐ" },
-    { "id": "zh-taxi-w6", "english": "near", "translation": "近", "pronunciation": "Jìn" },
-    { "id": "zh-taxi-w7", "english": "far", "translation": "远", "pronunciation": "Yuǎn" },
-    { "id": "zh-taxi-w8", "english": "fast", "translation": "快", "pronunciation": "Kuài" },
-    { "id": "zh-taxi-w9", "english": "slow", "translation": "慢", "pronunciation": "Màn" },
-    { "id": "zh-taxi-w10", "english": "stop", "translation": "停", "pronunciation": "Tíng" },
-    { "id": "zh-taxi-w11", "english": "airport", "translation": "机场", "pronunciation": "Jīchǎng" },
-    { "id": "zh-taxi-w12", "english": "train station", "translation": "火车站", "pronunciation": "Huǒchē zhàn" },
-    { "id": "zh-taxi-w13", "english": "hotel", "translation": "酒店", "pronunciation": "Jiǔdiàn" },
-    { "id": "zh-taxi-w14", "english": "map", "translation": "地图", "pronunciation": "Dìtú" },
-    { "id": "zh-taxi-w15", "english": "address", "translation": "地址", "pronunciation": "Dìzhǐ" },
-    { "id": "zh-taxi-w16", "english": "meter", "translation": "计价器", "pronunciation": "Jìjiàqì" },
-    { "id": "zh-taxi-w17", "english": "money", "translation": "钱", "pronunciation": "Qián" },
-    { "id": "zh-taxi-w18", "english": "traffic jam", "translation": "堵车", "pronunciation": "Dǔchē" },
-    { "id": "zh-taxi-w19", "english": "go (to)", "translation": "去", "pronunciation": "Qù" },
-    { "id": "zh-taxi-w20", "english": "approximately", "translation": "大概", "pronunciation": "Dàgài" }
+    { "id": "zh-taxi-w-right", "translation": "right", "text": "右", "pronunciation": "yòu" },
+    { "id": "zh-taxi-w-left", "translation": "left", "text": "左", "pronunciation": "zuǒ" },
+    { "id": "zh-taxi-w-straight", "translation": "straight ahead", "text": "直走", "pronunciation": "zhí zǒu" },
+    { "id": "zh-taxi-w-here", "translation": "here", "text": "这里", "pronunciation": "zhèlǐ" },
+    { "id": "zh-taxi-w-there", "translation": "there", "text": "那里", "pronunciation": "nàlǐ" },
+    { "id": "zh-taxi-w-near", "translation": "near", "text": "近", "pronunciation": "jìn" },
+    { "id": "zh-taxi-w-far", "translation": "far", "text": "远", "pronunciation": "yuǎn" },
+    { "id": "zh-taxi-w-fast", "translation": "fast", "text": "快", "pronunciation": "kuài" },
+    { "id": "zh-taxi-w-slow", "translation": "slow", "text": "慢", "pronunciation": "màn" },
+    { "id": "zh-taxi-w-stop", "translation": "stop", "text": "停", "pronunciation": "tíng" },
+    { "id": "zh-taxi-w-airport", "translation": "airport", "text": "机场", "pronunciation": "jīchǎng" },
+    { "id": "zh-taxi-w-train-station", "translation": "train station", "text": "火车站", "pronunciation": "huǒchē zhàn" },
+    { "id": "zh-taxi-w-hotel", "translation": "hotel", "text": "酒店", "pronunciation": "jiǔdiàn" },
+    { "id": "zh-taxi-w-map", "translation": "map", "text": "地图", "pronunciation": "dìtú" },
+    { "id": "zh-taxi-w-address", "translation": "address", "text": "地址", "pronunciation": "dìzhǐ" },
+    { "id": "zh-taxi-w-meter", "translation": "meter", "text": "计价器", "pronunciation": "jìjiàqì" },
+    { "id": "zh-taxi-w-money", "translation": "money", "text": "钱", "pronunciation": "qián" },
+    { "id": "zh-taxi-w-traffic-jam", "translation": "traffic jam", "text": "堵车", "pronunciation": "dǔchē" },
+    { "id": "zh-taxi-w-taxi", "translation": "taxi", "text": "出租车", "pronunciation": "chūzū chē" },
+    { "id": "zh-taxi-w-receipt", "translation": "receipt", "text": "收据", "pronunciation": "shōujù" },
+    { "id": "zh-taxi-w-intersection", "translation": "intersection", "text": "路口", "pronunciation": "lùkǒu" },
+    { "id": "zh-taxi-w-didi", "translation": "DiDi (ride-hailing app)", "text": "滴滴", "pronunciation": "dīdī" }
   ]
 }

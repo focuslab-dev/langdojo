@@ -3,251 +3,317 @@
   "languageId": "french",
   "phrases": [
     {
-      "id": "fr-restaurant-p1",
-      "english": "How many people?",
-      "translation": "Combien de personnes ?",
-      "pronunciation": "Kom-bee-en duh pair-son?"
+      "id": "fr-restaurant-how-many",
+      "translation": "How many people?",
+      "text": "Combien de personnes ?",
+      "pronunciation": "Kom-bee-en duh pair-son?",
+      "words": [
+        { "text": "Combien de", "pronunciation": "kom-bee-en duh", "translation": "how many" },
+        { "text": "personnes", "pronunciation": "pair-son", "translation": "people / persons" }
+      ]
     },
     {
-      "id": "fr-restaurant-1",
-      "english": "Table for two",
-      "translation": "Une table pour deux",
-      "pronunciation": "Oon tah-bluh poor duh"
+      "id": "fr-restaurant-table-two",
+      "translation": "Table for two",
+      "text": "Une table pour deux",
+      "pronunciation": "Oon tah-bluh poor duh",
+      "words": [
+        { "text": "Une table", "pronunciation": "oon tah-bluh", "translation": "a table" },
+        { "text": "pour", "pronunciation": "poor", "translation": "for" },
+        { "text": "deux", "pronunciation": "duh", "translation": "two" }
+      ]
     },
     {
-      "id": "fr-restaurant-p2",
-      "english": "Please wait",
-      "translation": "Veuillez patienter",
-      "pronunciation": "Vuh-yay pah-syon-tay"
+      "id": "fr-restaurant-please-wait",
+      "translation": "Please wait",
+      "text": "Veuillez patienter",
+      "pronunciation": "Vuh-yay pah-syon-tay",
+      "words": [
+        { "text": "Veuillez", "pronunciation": "vuh-yay", "translation": "please (formal)" },
+        { "text": "patienter", "pronunciation": "pah-syon-tay", "translation": "wait / be patient" }
+      ]
     },
     {
-      "id": "fr-restaurant-2",
-      "english": "Can I see the menu?",
-      "translation": "Est-ce que je peux voir la carte ?",
-      "pronunciation": "Ess-kuh zhuh puh vwahr lah kart?"
+      "id": "fr-restaurant-menu",
+      "translation": "Can I see the menu?",
+      "text": "Est-ce que je peux voir la carte ?",
+      "pronunciation": "Ess-kuh zhuh puh vwahr lah kart?",
+      "words": [
+        { "text": "Est-ce que", "pronunciation": "ess-kuh", "translation": "can / do (question)" },
+        { "text": "je peux", "pronunciation": "zhuh puh", "translation": "I can" },
+        { "text": "voir", "pronunciation": "vwahr", "translation": "see" },
+        { "text": "la carte", "pronunciation": "lah kart", "translation": "the menu" }
+      ]
     },
     {
-      "id": "fr-restaurant-3",
-      "english": "Is this spicy?",
-      "translation": "Est-ce que c'est épicé ?",
-      "pronunciation": "Ess-kuh say ay-pee-say?"
+      "id": "fr-restaurant-is-spicy",
+      "translation": "Is this spicy?",
+      "text": "Est-ce que c'est épicé ?",
+      "pronunciation": "Ess-kuh say ay-pee-say?",
+      "words": [
+        { "text": "Est-ce que", "pronunciation": "ess-kuh", "translation": "is it (question)" },
+        { "text": "c'est", "pronunciation": "say", "translation": "it is" },
+        { "text": "épicé", "pronunciation": "ay-pee-say", "translation": "spicy" }
+      ]
     },
     {
-      "id": "fr-restaurant-4",
-      "english": "Vegetarian option?",
-      "translation": "Une option végétarienne ?",
-      "pronunciation": "Oon op-syon vay-zhay-tah-ree-en?"
+      "id": "fr-restaurant-vegetarian",
+      "translation": "Vegetarian option?",
+      "text": "Une option végétarienne ?",
+      "pronunciation": "Oon op-syon vay-zhay-tah-ree-en?",
+      "words": [
+        { "text": "Une option", "pronunciation": "oon op-syon", "translation": "an option" },
+        { "text": "végétarienne", "pronunciation": "vay-zhay-tah-ree-en", "translation": "vegetarian (f.)" }
+      ]
     },
     {
-      "id": "fr-restaurant-5",
-      "english": "No meat please",
-      "translation": "Sans viande, s'il vous plaît",
-      "pronunciation": "Son vee-ond, seel voo pleh"
+      "id": "fr-restaurant-no-meat",
+      "translation": "No meat please",
+      "text": "Sans viande, s'il vous plaît",
+      "pronunciation": "Son vee-ond, seel voo pleh",
+      "words": [
+        { "text": "Sans", "pronunciation": "son", "translation": "without" },
+        { "text": "viande", "pronunciation": "vee-ond", "translation": "meat" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
+      ]
     },
     {
-      "id": "fr-restaurant-p3",
-      "english": "Ready to order?",
-      "translation": "Vous êtes prêts à commander ?",
-      "pronunciation": "Voo zet preh ah ko-mon-day?"
+      "id": "fr-restaurant-ready-to-order",
+      "translation": "Ready to order?",
+      "text": "Vous êtes prêts à commander ?",
+      "pronunciation": "Voo zet preh ah ko-mon-day?",
+      "words": [
+        { "text": "Vous êtes", "pronunciation": "voo zet", "translation": "are you (formal)" },
+        { "text": "prêts", "pronunciation": "preh", "translation": "ready" },
+        { "text": "à commander", "pronunciation": "ah ko-mon-day", "translation": "to order" }
+      ]
     },
     {
-      "id": "fr-restaurant-6",
-      "english": "I'll have this",
-      "translation": "Je vais prendre ceci",
-      "pronunciation": "Zhuh vay pron-druh suh-see"
+      "id": "fr-restaurant-ill-have-this",
+      "translation": "I'll have this",
+      "text": "Je vais prendre ceci",
+      "pronunciation": "Zhuh vay pron-druh suh-see",
+      "words": [
+        { "text": "Je vais", "pronunciation": "zhuh vay", "translation": "I will" },
+        { "text": "prendre", "pronunciation": "pron-druh", "translation": "have / take" },
+        { "text": "ceci", "pronunciation": "suh-see", "translation": "this" }
+      ]
     },
     {
-      "id": "fr-restaurant-7",
-      "english": "Water please",
-      "translation": "De l'eau, s'il vous plaît",
-      "pronunciation": "Duh loh, seel voo pleh"
+      "id": "fr-restaurant-water",
+      "translation": "Water please",
+      "text": "De l'eau, s'il vous plaît",
+      "pronunciation": "Duh loh, seel voo pleh",
+      "words": [
+        { "text": "De l'eau", "pronunciation": "duh loh", "translation": "some water" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
+      ]
     },
     {
-      "id": "fr-restaurant-8",
-      "english": "The bill please",
-      "translation": "L'addition, s'il vous plaît",
-      "pronunciation": "Lah-dee-syon, seel voo pleh"
+      "id": "fr-restaurant-bill",
+      "translation": "The bill please",
+      "text": "L'addition, s'il vous plaît",
+      "pronunciation": "Lah-dee-syon, seel voo pleh",
+      "words": [
+        { "text": "L'addition", "pronunciation": "lah-dee-syon", "translation": "the bill" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
+      ]
     },
     {
-      "id": "fr-restaurant-9",
-      "english": "Can I pay by card?",
-      "translation": "Est-ce que je peux payer par carte ?",
-      "pronunciation": "Ess-kuh zhuh puh pay-yay par kart?"
+      "id": "fr-restaurant-pay-by-card",
+      "translation": "Can I pay by card?",
+      "text": "Est-ce que je peux payer par carte ?",
+      "pronunciation": "Ess-kuh zhuh puh pay-yay par kart?",
+      "words": [
+        { "text": "Est-ce que", "pronunciation": "ess-kuh", "translation": "can / do (question)" },
+        { "text": "je peux", "pronunciation": "zhuh puh", "translation": "I can" },
+        { "text": "payer", "pronunciation": "pay-yay", "translation": "pay" },
+        { "text": "par carte", "pronunciation": "par kart", "translation": "by card" }
+      ]
     },
     {
-      "id": "fr-restaurant-p4",
-      "english": "Cash or card?",
-      "translation": "Espèces ou carte ?",
-      "pronunciation": "Ess-pess oo kart?"
+      "id": "fr-restaurant-cash-or-card",
+      "translation": "Cash or card?",
+      "text": "Espèces ou carte ?",
+      "pronunciation": "Ess-pess oo kart?",
+      "words": [
+        { "text": "Espèces", "pronunciation": "ess-pess", "translation": "cash" },
+        { "text": "ou", "pronunciation": "oo", "translation": "or" },
+        { "text": "carte", "pronunciation": "kart", "translation": "card" }
+      ]
     },
     {
-      "id": "fr-restaurant-10",
-      "english": "It was delicious",
-      "translation": "C'était délicieux",
-      "pronunciation": "Say-teh day-lee-syuh"
+      "id": "fr-restaurant-delicious",
+      "translation": "It was delicious",
+      "text": "C'était délicieux",
+      "pronunciation": "Say-teh day-lee-syuh",
+      "words": [
+        { "text": "C'était", "pronunciation": "say-teh", "translation": "it was" },
+        { "text": "délicieux", "pronunciation": "day-lee-syuh", "translation": "delicious" }
+      ]
     }
   ],
   "words": [
     {
-      "id": "fr-restaurant-w1",
-      "english": "rice",
-      "translation": "riz",
+      "id": "fr-restaurant-w-rice",
+      "translation": "rice",
+      "text": "riz",
       "pronunciation": "ree"
     },
     {
-      "id": "fr-restaurant-w2",
-      "english": "pasta",
-      "translation": "pâtes",
+      "id": "fr-restaurant-w-pasta",
+      "translation": "pasta",
+      "text": "pâtes",
       "pronunciation": "paht"
     },
     {
-      "id": "fr-restaurant-w3",
-      "english": "bread",
-      "translation": "pain",
+      "id": "fr-restaurant-w-bread",
+      "translation": "bread",
+      "text": "pain",
       "pronunciation": "pan"
     },
     {
-      "id": "fr-restaurant-w4",
-      "english": "cheese",
-      "translation": "fromage",
+      "id": "fr-restaurant-w-cheese",
+      "translation": "cheese",
+      "text": "fromage",
       "pronunciation": "fro-mahzh"
     },
     {
-      "id": "fr-restaurant-w5",
-      "english": "crepe",
-      "translation": "crêpe",
+      "id": "fr-restaurant-w-crepe",
+      "translation": "crepe",
+      "text": "crêpe",
       "pronunciation": "krep"
     },
     {
-      "id": "fr-restaurant-w6",
-      "english": "quiche",
+      "id": "fr-restaurant-w-quiche",
       "translation": "quiche",
+      "text": "quiche",
       "pronunciation": "keesh"
     },
     {
-      "id": "fr-restaurant-w7",
-      "english": "chicken",
-      "translation": "poulet",
+      "id": "fr-restaurant-w-chicken",
+      "translation": "chicken",
+      "text": "poulet",
       "pronunciation": "poo-leh"
     },
     {
-      "id": "fr-restaurant-w8",
-      "english": "pork",
-      "translation": "porc",
+      "id": "fr-restaurant-w-pork",
+      "translation": "pork",
+      "text": "porc",
       "pronunciation": "por"
     },
     {
-      "id": "fr-restaurant-w9",
-      "english": "beef",
-      "translation": "bœuf",
+      "id": "fr-restaurant-w-beef",
+      "translation": "beef",
+      "text": "bœuf",
       "pronunciation": "buff"
     },
     {
-      "id": "fr-restaurant-w10",
-      "english": "fish",
-      "translation": "poisson",
+      "id": "fr-restaurant-w-fish",
+      "translation": "fish",
+      "text": "poisson",
       "pronunciation": "pwah-son"
     },
     {
-      "id": "fr-restaurant-w11",
-      "english": "shrimp",
-      "translation": "crevette",
+      "id": "fr-restaurant-w-shrimp",
+      "translation": "shrimp",
+      "text": "crevette",
       "pronunciation": "kruh-vet"
     },
     {
-      "id": "fr-restaurant-w12",
-      "english": "egg",
-      "translation": "œuf",
+      "id": "fr-restaurant-w-egg",
+      "translation": "egg",
+      "text": "œuf",
       "pronunciation": "uhf"
     },
     {
-      "id": "fr-restaurant-w13",
-      "english": "vegetable",
-      "translation": "légume",
+      "id": "fr-restaurant-w-vegetable",
+      "translation": "vegetable",
+      "text": "légume",
       "pronunciation": "lay-goom"
     },
     {
-      "id": "fr-restaurant-w14",
-      "english": "soup",
-      "translation": "soupe",
+      "id": "fr-restaurant-w-soup",
+      "translation": "soup",
+      "text": "soupe",
       "pronunciation": "soop"
     },
     {
-      "id": "fr-restaurant-w15",
-      "english": "salad",
-      "translation": "salade",
+      "id": "fr-restaurant-w-salad",
+      "translation": "salad",
+      "text": "salade",
       "pronunciation": "sah-lahd"
     },
     {
-      "id": "fr-restaurant-w16",
-      "english": "spicy",
-      "translation": "épicé",
+      "id": "fr-restaurant-w-spicy",
+      "translation": "spicy",
+      "text": "épicé",
       "pronunciation": "ay-pee-say"
     },
     {
-      "id": "fr-restaurant-w17",
-      "english": "sweet",
-      "translation": "sucré",
+      "id": "fr-restaurant-w-sweet",
+      "translation": "sweet",
+      "text": "sucré",
       "pronunciation": "soo-kray"
     },
     {
-      "id": "fr-restaurant-w18",
-      "english": "sour",
-      "translation": "acide",
+      "id": "fr-restaurant-w-sour",
+      "translation": "sour",
+      "text": "acide",
       "pronunciation": "ah-seed"
     },
     {
-      "id": "fr-restaurant-w19",
-      "english": "salty",
-      "translation": "salé",
+      "id": "fr-restaurant-w-salty",
+      "translation": "salty",
+      "text": "salé",
       "pronunciation": "sah-lay"
     },
     {
-      "id": "fr-restaurant-w20",
-      "english": "fork",
-      "translation": "fourchette",
+      "id": "fr-restaurant-w-fork",
+      "translation": "fork",
+      "text": "fourchette",
       "pronunciation": "foor-shet"
     },
     {
-      "id": "fr-restaurant-w21",
-      "english": "knife",
-      "translation": "couteau",
+      "id": "fr-restaurant-w-knife",
+      "translation": "knife",
+      "text": "couteau",
       "pronunciation": "koo-toh"
     },
     {
-      "id": "fr-restaurant-w22",
-      "english": "spoon",
-      "translation": "cuillère",
+      "id": "fr-restaurant-w-spoon",
+      "translation": "spoon",
+      "text": "cuillère",
       "pronunciation": "kwee-yair"
     },
     {
-      "id": "fr-restaurant-w23",
-      "english": "water",
-      "translation": "eau",
+      "id": "fr-restaurant-w-water",
+      "translation": "water",
+      "text": "eau",
       "pronunciation": "oh"
     },
     {
-      "id": "fr-restaurant-w24",
-      "english": "wine",
-      "translation": "vin",
+      "id": "fr-restaurant-w-wine",
+      "translation": "wine",
+      "text": "vin",
       "pronunciation": "van"
     },
     {
-      "id": "fr-restaurant-w25",
-      "english": "dessert",
+      "id": "fr-restaurant-w-dessert",
       "translation": "dessert",
+      "text": "dessert",
       "pronunciation": "deh-sair"
     },
     {
-      "id": "fr-restaurant-w26",
-      "english": "without",
-      "translation": "sans",
+      "id": "fr-restaurant-w-without",
+      "translation": "without",
+      "text": "sans",
       "pronunciation": "son"
     },
     {
-      "id": "fr-restaurant-w27",
-      "english": "with",
-      "translation": "avec",
+      "id": "fr-restaurant-w-with",
+      "translation": "with",
+      "text": "avec",
       "pronunciation": "ah-vek"
     }
   ]

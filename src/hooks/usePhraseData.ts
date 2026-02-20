@@ -2,12 +2,7 @@ import { useMemo } from "react";
 import { LanguageId, CategoryId, Phrase } from "@/types";
 import { getCategoryData } from "@/utils/getPhraseData";
 import { getCategoryById } from "@/utils/languages";
-
-interface FavoriteItem {
-  phrase: Phrase;
-  languageId: LanguageId;
-  categoryId: string;
-}
+import { FavoriteItem } from "@/hooks/useFavorites";
 
 export interface FavoriteGroup {
   categoryId: string;
@@ -30,7 +25,10 @@ export const usePhraseData = ({
   const phrases = useMemo(() => {
     if (categoryId === "favorites") {
       const favorites = getFavoritesByLanguage(languageId);
-      return favorites.map((f) => f.phrase);
+      return favorites.flatMap((f) => {
+        const { phrases: catPhrases, words: catWords } = getCategoryData(languageId, f.categoryId);
+        return [...catPhrases, ...catWords].filter((p) => p.id === f.phraseId);
+      });
     }
 
     return getCategoryData(languageId, categoryId).phrases;
@@ -51,11 +49,15 @@ export const usePhraseData = ({
     const groupMap = new Map<string, Phrase[]>();
 
     for (const fav of favorites) {
+      const { phrases: catPhrases, words: catWords } = getCategoryData(languageId, fav.categoryId);
+      const phrase = [...catPhrases, ...catWords].find((p) => p.id === fav.phraseId);
+      if (!phrase) continue;
+
       const list = groupMap.get(fav.categoryId);
       if (list) {
-        list.push(fav.phrase);
+        list.push(phrase);
       } else {
-        groupMap.set(fav.categoryId, [fav.phrase]);
+        groupMap.set(fav.categoryId, [phrase]);
       }
     }
 

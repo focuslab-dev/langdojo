@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import clsx from "clsx";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import { ChevronDown, Download } from "lucide-react";
@@ -17,6 +18,9 @@ import { PhraseList } from "@/components/PhraseList";
 import { NavigationModal } from "@/components/NavigationModal";
 import { LanguageDropdown } from "@/components/LanguageDropdown";
 import { Button } from "@/components/ui/Button";
+
+const HERO_SECTION_HEIGHT = 260; // px
+const BOTTOM_SHEET_MARGIN_TOP = 45; // px
 
 export default function Home() {
   const [selectedLanguage, setSelectedLanguage] = useState<Language>(() => {
@@ -166,6 +170,7 @@ export default function Home() {
             category={selectedCategory}
             languageId={selectedLanguage.id as LanguageId}
             categoryId={selectedCategoryId}
+            heroSectionHeight={HERO_SECTION_HEIGHT}
           />
         </div>
 
@@ -174,7 +179,18 @@ export default function Home() {
           // initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2 }}
-          className="relative mt-[25vh] lg:mt-0 min-h-[75vh] lg:min-h-screen bg-background rounded-t-3xl lg:rounded-none shadow-[0_-4px_20px_rgba(0,0,0,0.08)] lg:shadow-none z-10"
+          style={
+            {
+              "--hero-height": `${HERO_SECTION_HEIGHT}px`,
+              "--bottom-sheet-margin-top": `${BOTTOM_SHEET_MARGIN_TOP}px`,
+            } as React.CSSProperties
+          }
+          className={clsx(
+            "relative z-10 bg-background",
+            "mt-[calc(var(--hero-height)-var(--bottom-sheet-margin-top))] min-h-[calc(100vh-var(--hero-height))]",
+            "rounded-t-3xl shadow-[0_-4px_20px_rgba(0,0,0,0.08)]",
+            "lg:mt-0 lg:min-h-screen lg:rounded-none lg:shadow-none",
+          )}
         >
           {/* Mobile drag handle */}
           <div className="sticky top-0 pt-3 pb-2 bg-background rounded-t-3xl lg:hidden">
@@ -197,15 +213,13 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                {selectedCategoryId !== "favorites" && (
-                  <Button
-                    variant="ghost"
-                    href={`/download?lang=${selectedLanguage.id}&cat=${selectedCategoryId}`}
-                  >
-                    <Download className="w-4 h-4" />
-                    Download
-                  </Button>
-                )}
+                <Button
+                  variant="ghost"
+                  href={`/download?lang=${selectedLanguage.id}&cat=${selectedCategoryId}`}
+                >
+                  <Download className="w-4 h-4" />
+                  Download
+                </Button>
               </div>
             </div>
 

@@ -2,46 +2,148 @@
   "categoryId": "numbers",
   "languageId": "korean",
   "phrases": [
-    { "id": "ko-num-1", "english": "How much is this?", "translation": "이거 얼마예요?", "pronunciation": "igeo eolmayeyo?" },
-    { "id": "ko-num-p1", "english": "It's 5,000 won", "translation": "오천 원이에요", "pronunciation": "ocheon wonieyo" },
-    { "id": "ko-num-2", "english": "One coffee please", "translation": "커피 한 잔 주세요", "pronunciation": "keopi han jan juseyo" },
-    { "id": "ko-num-3", "english": "Two people", "translation": "두 명이요", "pronunciation": "du myeongiyo" },
-    { "id": "ko-num-4", "english": "Three of these please", "translation": "이거 세 개 주세요", "pronunciation": "igeo se gae juseyo" },
-    { "id": "ko-num-5", "english": "What time is it?", "translation": "몇 시예요?", "pronunciation": "myeot siyeyo?" },
-    { "id": "ko-num-p2", "english": "It's 3 o'clock", "translation": "세 시예요", "pronunciation": "se siyeyo" },
-    { "id": "ko-num-6", "english": "How many stops?", "translation": "몇 정거장이에요?", "pronunciation": "myeot jeonggeojangieyo?" },
-    { "id": "ko-num-p3", "english": "That's 50,000 won", "translation": "오만 원이에요", "pronunciation": "oman wonieyo" },
-    { "id": "ko-num-7", "english": "Give me ten please", "translation": "열 개 주세요", "pronunciation": "yeol gae juseyo" }
+    {
+      "id": "ko-num-how-much",
+      "translation": "How much is this?",
+      "text": "이거 얼마예요?",
+      "pronunciation": "igeo eolmayeyo?",
+      "words": [
+        { "text": "이거", "pronunciation": "igeo", "translation": "this" },
+        { "text": "얼마", "pronunciation": "eolma", "translation": "how much" },
+        { "text": "예요", "pronunciation": "yeyo", "translation": "is (question)" }
+      ]
+    },
+    {
+      "id": "ko-num-five-thousand-won",
+      "translation": "It's 5,000 won",
+      "text": "오천 원이에요",
+      "pronunciation": "ocheon wonieyo",
+      "words": [
+        { "text": "오천", "pronunciation": "ocheon", "translation": "5,000" },
+        { "text": "원", "pronunciation": "won", "translation": "won (currency)" },
+        { "text": "이에요", "pronunciation": "ieyo", "translation": "is" }
+      ]
+    },
+    {
+      "id": "ko-num-one-coffee",
+      "translation": "One coffee please",
+      "text": "커피 한 잔 주세요",
+      "pronunciation": "keopi han jan juseyo",
+      "words": [
+        { "text": "커피", "pronunciation": "keopi", "translation": "coffee" },
+        { "text": "한", "pronunciation": "han", "translation": "one" },
+        { "text": "잔", "pronunciation": "jan", "translation": "cup (counter)" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "ko-num-two-people",
+      "translation": "Two people",
+      "text": "두 명이요",
+      "pronunciation": "du myeongiyo",
+      "words": [
+        { "text": "두", "pronunciation": "du", "translation": "two" },
+        { "text": "명", "pronunciation": "myeong", "translation": "person (counter)" },
+        { "text": "이요", "pronunciation": "iyo", "translation": "(polite ending)" }
+      ]
+    },
+    {
+      "id": "ko-num-three-of-these",
+      "translation": "Three of these please",
+      "text": "이거 세 개 주세요",
+      "pronunciation": "igeo se gae juseyo",
+      "words": [
+        { "text": "이거", "pronunciation": "igeo", "translation": "this" },
+        { "text": "세", "pronunciation": "se", "translation": "three" },
+        { "text": "개", "pronunciation": "gae", "translation": "piece (counter)" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "ko-num-what-time",
+      "translation": "What time is it?",
+      "text": "몇 시예요?",
+      "pronunciation": "myeot siyeyo?",
+      "words": [
+        { "text": "몇", "pronunciation": "myeot", "translation": "how many / what" },
+        { "text": "시", "pronunciation": "si", "translation": "hour / o'clock" },
+        { "text": "예요", "pronunciation": "yeyo", "translation": "is (question)" }
+      ]
+    },
+    {
+      "id": "ko-num-three-oclock",
+      "translation": "It's 3 o'clock",
+      "text": "세 시예요",
+      "pronunciation": "se siyeyo",
+      "words": [
+        { "text": "세", "pronunciation": "se", "translation": "three" },
+        { "text": "시", "pronunciation": "si", "translation": "o'clock" },
+        { "text": "예요", "pronunciation": "yeyo", "translation": "is" }
+      ]
+    },
+    {
+      "id": "ko-num-how-many-stops",
+      "translation": "How many stops?",
+      "text": "몇 정거장이에요?",
+      "pronunciation": "myeot jeonggeojangieyo?",
+      "words": [
+        { "text": "몇", "pronunciation": "myeot", "translation": "how many" },
+        { "text": "정거장", "pronunciation": "jeonggeojang", "translation": "stop / station" },
+        { "text": "이에요", "pronunciation": "ieyo", "translation": "is (question)" }
+      ]
+    },
+    {
+      "id": "ko-num-fifty-thousand-won",
+      "translation": "That's 50,000 won",
+      "text": "오만 원이에요",
+      "pronunciation": "oman wonieyo",
+      "words": [
+        { "text": "오만", "pronunciation": "oman", "translation": "50,000" },
+        { "text": "원", "pronunciation": "won", "translation": "won (currency)" },
+        { "text": "이에요", "pronunciation": "ieyo", "translation": "is" }
+      ]
+    },
+    {
+      "id": "ko-num-ten-please",
+      "translation": "Give me ten please",
+      "text": "열 개 주세요",
+      "pronunciation": "yeol gae juseyo",
+      "words": [
+        { "text": "열", "pronunciation": "yeol", "translation": "ten" },
+        { "text": "개", "pronunciation": "gae", "translation": "piece (counter)" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
+    }
   ],
   "words": [
-    { "id": "ko-num-w1", "english": "1", "translation": "일", "pronunciation": "il" },
-    { "id": "ko-num-w2", "english": "2", "translation": "이", "pronunciation": "i" },
-    { "id": "ko-num-w3", "english": "3", "translation": "삼", "pronunciation": "sam" },
-    { "id": "ko-num-w4", "english": "4", "translation": "사", "pronunciation": "sa" },
-    { "id": "ko-num-w5", "english": "5", "translation": "오", "pronunciation": "o" },
-    { "id": "ko-num-w6", "english": "6", "translation": "육", "pronunciation": "yuk" },
-    { "id": "ko-num-w7", "english": "7", "translation": "칠", "pronunciation": "chil" },
-    { "id": "ko-num-w8", "english": "8", "translation": "팔", "pronunciation": "pal" },
-    { "id": "ko-num-w9", "english": "9", "translation": "구", "pronunciation": "gu" },
-    { "id": "ko-num-w10", "english": "10", "translation": "십", "pronunciation": "sip" },
-    { "id": "ko-num-w11", "english": "1 (counting)", "translation": "하나", "pronunciation": "hana" },
-    { "id": "ko-num-w12", "english": "2 (counting)", "translation": "둘", "pronunciation": "dul" },
-    { "id": "ko-num-w13", "english": "3 (counting)", "translation": "셋", "pronunciation": "set" },
-    { "id": "ko-num-w14", "english": "4 (counting)", "translation": "넷", "pronunciation": "net" },
-    { "id": "ko-num-w15", "english": "5 (counting)", "translation": "다섯", "pronunciation": "daseot" },
-    { "id": "ko-num-w16", "english": "6 (counting)", "translation": "여섯", "pronunciation": "yeoseot" },
-    { "id": "ko-num-w17", "english": "7 (counting)", "translation": "일곱", "pronunciation": "ilgop" },
-    { "id": "ko-num-w18", "english": "8 (counting)", "translation": "여덟", "pronunciation": "yeodeol" },
-    { "id": "ko-num-w19", "english": "9 (counting)", "translation": "아홉", "pronunciation": "ahop" },
-    { "id": "ko-num-w20", "english": "10 (counting)", "translation": "열", "pronunciation": "yeol" },
-    { "id": "ko-num-w21", "english": "11", "translation": "십일", "pronunciation": "sibil" },
-    { "id": "ko-num-w22", "english": "20", "translation": "이십", "pronunciation": "isip" },
-    { "id": "ko-num-w23", "english": "21", "translation": "이십일", "pronunciation": "isibil" },
-    { "id": "ko-num-w24", "english": "50", "translation": "오십", "pronunciation": "osip" },
-    { "id": "ko-num-w25", "english": "100", "translation": "백", "pronunciation": "baek" },
-    { "id": "ko-num-w26", "english": "500", "translation": "오백", "pronunciation": "obaek" },
-    { "id": "ko-num-w27", "english": "1,000", "translation": "천", "pronunciation": "cheon" },
-    { "id": "ko-num-w28", "english": "5,000", "translation": "오천", "pronunciation": "ocheon" },
-    { "id": "ko-num-w29", "english": "10,000", "translation": "만", "pronunciation": "man" }
+    { "id": "ko-num-w-one-sino", "translation": "1", "text": "일", "pronunciation": "il" },
+    { "id": "ko-num-w-two-sino", "translation": "2", "text": "이", "pronunciation": "i" },
+    { "id": "ko-num-w-three-sino", "translation": "3", "text": "삼", "pronunciation": "sam" },
+    { "id": "ko-num-w-four-sino", "translation": "4", "text": "사", "pronunciation": "sa" },
+    { "id": "ko-num-w-five-sino", "translation": "5", "text": "오", "pronunciation": "o" },
+    { "id": "ko-num-w-six-sino", "translation": "6", "text": "육", "pronunciation": "yuk" },
+    { "id": "ko-num-w-seven-sino", "translation": "7", "text": "칠", "pronunciation": "chil" },
+    { "id": "ko-num-w-eight-sino", "translation": "8", "text": "팔", "pronunciation": "pal" },
+    { "id": "ko-num-w-nine-sino", "translation": "9", "text": "구", "pronunciation": "gu" },
+    { "id": "ko-num-w-ten-sino", "translation": "10", "text": "십", "pronunciation": "sip" },
+    { "id": "ko-num-w-one-native", "translation": "1 (counting)", "text": "하나", "pronunciation": "hana" },
+    { "id": "ko-num-w-two-native", "translation": "2 (counting)", "text": "둘", "pronunciation": "dul" },
+    { "id": "ko-num-w-three-native", "translation": "3 (counting)", "text": "셋", "pronunciation": "set" },
+    { "id": "ko-num-w-four-native", "translation": "4 (counting)", "text": "넷", "pronunciation": "net" },
+    { "id": "ko-num-w-five-native", "translation": "5 (counting)", "text": "다섯", "pronunciation": "daseot" },
+    { "id": "ko-num-w-six-native", "translation": "6 (counting)", "text": "여섯", "pronunciation": "yeoseot" },
+    { "id": "ko-num-w-seven-native", "translation": "7 (counting)", "text": "일곱", "pronunciation": "ilgop" },
+    { "id": "ko-num-w-eight-native", "translation": "8 (counting)", "text": "여덟", "pronunciation": "yeodeol" },
+    { "id": "ko-num-w-nine-native", "translation": "9 (counting)", "text": "아홉", "pronunciation": "ahop" },
+    { "id": "ko-num-w-ten-native", "translation": "10 (counting)", "text": "열", "pronunciation": "yeol" },
+    { "id": "ko-num-w-eleven", "translation": "11", "text": "십일", "pronunciation": "sibil" },
+    { "id": "ko-num-w-twenty", "translation": "20", "text": "이십", "pronunciation": "isip" },
+    { "id": "ko-num-w-twenty-one", "translation": "21", "text": "이십일", "pronunciation": "isibil" },
+    { "id": "ko-num-w-fifty", "translation": "50", "text": "오십", "pronunciation": "osip" },
+    { "id": "ko-num-w-hundred", "translation": "100", "text": "백", "pronunciation": "baek" },
+    { "id": "ko-num-w-five-hundred", "translation": "500", "text": "오백", "pronunciation": "obaek" },
+    { "id": "ko-num-w-thousand", "translation": "1,000", "text": "천", "pronunciation": "cheon" },
+    { "id": "ko-num-w-five-thousand", "translation": "5,000", "text": "오천", "pronunciation": "ocheon" },
+    { "id": "ko-num-w-ten-thousand", "translation": "10,000", "text": "만", "pronunciation": "man" }
   ]
 }

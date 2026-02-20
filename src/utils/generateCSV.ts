@@ -1,19 +1,16 @@
 import { Phrase } from "@/types";
 
-function escapeCSVField(field: string): string {
-  if (field.includes('"') || field.includes(",") || field.includes("\n")) {
-    return `"${field.replace(/"/g, '""')}"`;
-  }
-  return field;
+function escapeTSVField(field: string): string {
+  return field.replace(/[\t\n\r]/g, " ");
 }
 
-export function generateCSV(items: Phrase[]): Blob {
-  const header = "Vocabulary,Translation,Pronunciation";
+export function generateTSV(items: Phrase[]): Blob {
+  const header = `Vocabulary\tTranslation\tPronunciation`;
   const rows = items.map(
     (item) =>
-      `${escapeCSVField(item.translation)}\t${escapeCSVField(item.english)}\t${escapeCSVField(item.pronunciation)}`,
+      `${escapeTSVField(item.text)}\t${escapeTSVField(item.translation)}\t${escapeTSVField(item.pronunciation)}`,
   );
 
-  const csv = [header, ...rows].join("\n");
-  return new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  const tsv = [header, ...rows].join("\n");
+  return new Blob([tsv], { type: "text/tab-separated-values;charset=utf-8;" });
 }

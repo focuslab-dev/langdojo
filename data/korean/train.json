@@ -3,210 +3,174 @@
   "languageId": "korean",
   "phrases": [
     {
-      "id": "ko-train-1",
-      "english": "One ticket to... please",
-      "translation": "...까지 표 한 장 주세요",
-      "pronunciation": "...kkaji pyo han jang juseyo"
+      "id": "ko-train-one-ticket",
+      "translation": "One ticket to... please",
+      "text": "...까지 표 한 장 주세요",
+      "pronunciation": "...kkaji pyo han jang juseyo",
+      "words": [
+        { "text": "까지", "pronunciation": "kkaji", "translation": "to / until" },
+        { "text": "표", "pronunciation": "pyo", "translation": "ticket" },
+        { "text": "한", "pronunciation": "han", "translation": "one" },
+        { "text": "장", "pronunciation": "jang", "translation": "sheet (counter for flat items)" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
     },
     {
-      "id": "ko-train-2",
-      "english": "Round trip ticket",
-      "translation": "왕복 표 주세요",
-      "pronunciation": "wangbok pyo juseyo"
+      "id": "ko-train-round-trip",
+      "translation": "Round trip ticket",
+      "text": "왕복 표 주세요",
+      "pronunciation": "wangbok pyo juseyo",
+      "words": [
+        { "text": "왕복", "pronunciation": "wangbok", "translation": "round trip" },
+        { "text": "표", "pronunciation": "pyo", "translation": "ticket" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
     },
     {
-      "id": "ko-train-3",
-      "english": "What time is the next train?",
-      "translation": "다음 기차는 몇 시에 있어요?",
-      "pronunciation": "daeum gichaneun myeot sie isseoyo?"
+      "id": "ko-train-next-train-time",
+      "translation": "What time is the next train?",
+      "text": "다음 기차는 몇 시에 있어요?",
+      "pronunciation": "daeum gichaneun myeot sie isseoyo?",
+      "words": [
+        { "text": "다음", "pronunciation": "daeum", "translation": "next" },
+        { "text": "기차", "pronunciation": "gicha", "translation": "train" },
+        { "text": "는", "pronunciation": "neun", "translation": "(topic marker)" },
+        { "text": "몇 시", "pronunciation": "myeot si", "translation": "what time" },
+        { "text": "에", "pronunciation": "e", "translation": "at" },
+        { "text": "있어요", "pronunciation": "isseoyo", "translation": "is / available (question)" }
+      ]
     },
     {
-      "id": "ko-train-4",
-      "english": "Which platform?",
-      "translation": "몇 번 승강장이에요?",
-      "pronunciation": "myeot beon seunggangjangieyo?"
+      "id": "ko-train-which-platform",
+      "translation": "Which platform?",
+      "text": "몇 번 승강장이에요?",
+      "pronunciation": "myeot beon seunggangjangieyo?",
+      "words": [
+        { "text": "몇 번", "pronunciation": "myeot beon", "translation": "which number" },
+        { "text": "승강장", "pronunciation": "seunggangjang", "translation": "platform" },
+        { "text": "이에요", "pronunciation": "ieyo", "translation": "is (question)" }
+      ]
     },
     {
-      "id": "ko-train-5",
-      "english": "Where should I transfer?",
-      "translation": "어디서 환승해야 돼요?",
-      "pronunciation": "eodiseo hwanseunghaeya dwaeyo?"
+      "id": "ko-train-transfer-where",
+      "translation": "Where should I transfer?",
+      "text": "어디서 환승해야 돼요?",
+      "pronunciation": "eodiseo hwanseunghaeya dwaeyo?",
+      "words": [
+        { "text": "어디서", "pronunciation": "eodiseo", "translation": "where" },
+        { "text": "환승", "pronunciation": "hwanseung", "translation": "transfer" },
+        { "text": "해야 돼요", "pronunciation": "haeya dwaeyo", "translation": "must do" }
+      ]
     },
     {
-      "id": "ko-train-p1",
-      "english": "This train goes to...",
-      "translation": "이 기차는 ...행입니다",
-      "pronunciation": "i gichaneun ...haengimnida"
+      "id": "ko-train-goes-to",
+      "translation": "This train goes to...",
+      "text": "이 기차는 ...행입니다",
+      "pronunciation": "i gichaneun ...haengimnida",
+      "words": [
+        { "text": "이", "pronunciation": "i", "translation": "this" },
+        { "text": "기차", "pronunciation": "gicha", "translation": "train" },
+        { "text": "는", "pronunciation": "neun", "translation": "(topic marker)" },
+        { "text": "행", "pronunciation": "haeng", "translation": "bound for / going to" },
+        { "text": "입니다", "pronunciation": "imnida", "translation": "is (formal)" }
+      ]
     },
     {
-      "id": "ko-train-6",
-      "english": "Is this the train to...?",
-      "translation": "이 기차가 ...에 가요?",
-      "pronunciation": "i gichaga ...e gayo?"
+      "id": "ko-train-is-this-train",
+      "translation": "Is this the train to...?",
+      "text": "이 기차가 ...에 가요?",
+      "pronunciation": "i gichaga ...e gayo?",
+      "words": [
+        { "text": "이", "pronunciation": "i", "translation": "this" },
+        { "text": "기차", "pronunciation": "gicha", "translation": "train" },
+        { "text": "가", "pronunciation": "ga", "translation": "(subject marker)" },
+        { "text": "에", "pronunciation": "e", "translation": "to" },
+        { "text": "가요", "pronunciation": "gayo", "translation": "goes (question)" }
+      ]
     },
     {
-      "id": "ko-train-p2",
-      "english": "The train is arriving",
-      "translation": "열차가 들어오고 있습니다",
-      "pronunciation": "yeolchaga deureoogo itseumnida"
+      "id": "ko-train-arriving",
+      "translation": "The train is arriving",
+      "text": "열차가 들어오고 있습니다",
+      "pronunciation": "yeolchaga deureoogo itseumnida",
+      "words": [
+        { "text": "열차", "pronunciation": "yeolcha", "translation": "train (formal)" },
+        { "text": "가", "pronunciation": "ga", "translation": "(subject marker)" },
+        { "text": "들어오고 있습니다", "pronunciation": "deureoogo itseumnida", "translation": "is coming in (formal)" }
+      ]
     },
     {
-      "id": "ko-train-7",
-      "english": "Is this seat taken?",
-      "translation": "이 자리 비어 있어요?",
-      "pronunciation": "i jari bieo isseoyo?"
+      "id": "ko-train-seat-free",
+      "translation": "Is this seat taken?",
+      "text": "이 자리 비어 있어요?",
+      "pronunciation": "i jari bieo isseoyo?",
+      "words": [
+        { "text": "이", "pronunciation": "i", "translation": "this" },
+        { "text": "자리", "pronunciation": "jari", "translation": "seat / spot" },
+        { "text": "비어 있어요", "pronunciation": "bieo isseoyo", "translation": "is empty (question)" }
+      ]
     },
     {
-      "id": "ko-train-p3",
-      "english": "The next stop is...",
-      "translation": "다음 정거장은 ...입니다",
-      "pronunciation": "daeum jeonggeojang-eun ...imnida"
+      "id": "ko-train-next-stop",
+      "translation": "The next stop is...",
+      "text": "다음 정거장은 ...입니다",
+      "pronunciation": "daeum jeonggeojang-eun ...imnida",
+      "words": [
+        { "text": "다음", "pronunciation": "daeum", "translation": "next" },
+        { "text": "정거장", "pronunciation": "jeonggeojang", "translation": "stop / station" },
+        { "text": "은", "pronunciation": "eun", "translation": "(topic marker)" },
+        { "text": "입니다", "pronunciation": "imnida", "translation": "is (formal)" }
+      ]
     },
     {
-      "id": "ko-train-8",
-      "english": "Where is the ticket office?",
-      "translation": "매표소가 어디에 있어요?",
-      "pronunciation": "maepyosoga eodie isseoyo?"
+      "id": "ko-train-ticket-office",
+      "translation": "Where is the ticket office?",
+      "text": "매표소가 어디에 있어요?",
+      "pronunciation": "maepyosoga eodie isseoyo?",
+      "words": [
+        { "text": "매표소", "pronunciation": "maepyoso", "translation": "ticket office" },
+        { "text": "가", "pronunciation": "ga", "translation": "(subject marker)" },
+        { "text": "어디", "pronunciation": "eodi", "translation": "where" },
+        { "text": "에", "pronunciation": "e", "translation": "at" },
+        { "text": "있어요", "pronunciation": "isseoyo", "translation": "is (question)" }
+      ]
     },
     {
-      "id": "ko-train-9",
-      "english": "Reserved seat please",
-      "translation": "지정석으로 주세요",
-      "pronunciation": "jijeongseog-euro juseyo"
+      "id": "ko-train-reserved-seat",
+      "translation": "Reserved seat please",
+      "text": "지정석으로 주세요",
+      "pronunciation": "jijeongseog-euro juseyo",
+      "words": [
+        { "text": "지정석", "pronunciation": "jijeongseok", "translation": "reserved seat" },
+        { "text": "으로", "pronunciation": "euro", "translation": "(direction / means marker)" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
     }
   ],
   "words": [
-    {
-      "id": "ko-train-w1",
-      "english": "ticket",
-      "translation": "표",
-      "pronunciation": "pyo"
-    },
-    {
-      "id": "ko-train-w2",
-      "english": "platform",
-      "translation": "승강장",
-      "pronunciation": "seunggangjang"
-    },
-    {
-      "id": "ko-train-w3",
-      "english": "express (KTX)",
-      "translation": "KTX / 고속열차",
-      "pronunciation": "KTX / gosok yeolcha"
-    },
-    {
-      "id": "ko-train-w4",
-      "english": "local train",
-      "translation": "무궁화호",
-      "pronunciation": "mugunghwaho"
-    },
-    {
-      "id": "ko-train-w5",
-      "english": "subway",
-      "translation": "지하철",
-      "pronunciation": "jihacheol"
-    },
-    {
-      "id": "ko-train-w6",
-      "english": "transfer",
-      "translation": "환승",
-      "pronunciation": "hwanseung"
-    },
-    {
-      "id": "ko-train-w7",
-      "english": "exit",
-      "translation": "출구",
-      "pronunciation": "chulgu"
-    },
-    {
-      "id": "ko-train-w8",
-      "english": "entrance",
-      "translation": "입구",
-      "pronunciation": "ipgu"
-    },
-    {
-      "id": "ko-train-w9",
-      "english": "one-way",
-      "translation": "편도",
-      "pronunciation": "pyeondo"
-    },
-    {
-      "id": "ko-train-w10",
-      "english": "round trip",
-      "translation": "왕복",
-      "pronunciation": "wangbok"
-    },
-    {
-      "id": "ko-train-w11",
-      "english": "reserved seat",
-      "translation": "지정석",
-      "pronunciation": "jijeongseok"
-    },
-    {
-      "id": "ko-train-w12",
-      "english": "free seat",
-      "translation": "자유석",
-      "pronunciation": "jayuseok"
-    },
-    {
-      "id": "ko-train-w13",
-      "english": "timetable",
-      "translation": "시간표",
-      "pronunciation": "siganpyo"
-    },
-    {
-      "id": "ko-train-w14",
-      "english": "departure",
-      "translation": "출발",
-      "pronunciation": "chulbal"
-    },
-    {
-      "id": "ko-train-w15",
-      "english": "arrival",
-      "translation": "도착",
-      "pronunciation": "dochak"
-    },
-    {
-      "id": "ko-train-w16",
-      "english": "ticket gate",
-      "translation": "개찰구",
-      "pronunciation": "gaechalgu"
-    },
-    {
-      "id": "ko-train-w17",
-      "english": "line",
-      "translation": "호선",
-      "pronunciation": "hoseon"
-    },
-    {
-      "id": "ko-train-w18",
-      "english": "delay",
-      "translation": "지연",
-      "pronunciation": "jiyeon"
-    },
-    {
-      "id": "ko-train-w19",
-      "english": "T-money card",
-      "translation": "티머니 카드",
-      "pronunciation": "timeoni kadeu"
-    },
-    {
-      "id": "ko-train-w20",
-      "english": "last train",
-      "translation": "막차",
-      "pronunciation": "makcha"
-    },
-    {
-      "id": "ko-train-w21",
-      "english": "to / until",
-      "translation": "까지",
-      "pronunciation": "kkaji"
-    },
-    {
-      "id": "ko-train-w22",
-      "english": "please (give me)",
-      "translation": "주세요",
-      "pronunciation": "juseyo"
-    }
+    { "id": "ko-train-w-ticket", "translation": "ticket", "text": "표", "pronunciation": "pyo" },
+    { "id": "ko-train-w-platform", "translation": "platform", "text": "승강장", "pronunciation": "seunggangjang" },
+    { "id": "ko-train-w-ktx", "translation": "express (KTX)", "text": "KTX / 고속열차", "pronunciation": "KTX / gosok yeolcha" },
+    { "id": "ko-train-w-local-train", "translation": "local train", "text": "무궁화호", "pronunciation": "mugunghwaho" },
+    { "id": "ko-train-w-subway", "translation": "subway", "text": "지하철", "pronunciation": "jihacheol" },
+    { "id": "ko-train-w-transfer", "translation": "transfer", "text": "환승", "pronunciation": "hwanseung" },
+    { "id": "ko-train-w-exit", "translation": "exit", "text": "출구", "pronunciation": "chulgu" },
+    { "id": "ko-train-w-entrance", "translation": "entrance", "text": "입구", "pronunciation": "ipgu" },
+    { "id": "ko-train-w-one-way", "translation": "one-way", "text": "편도", "pronunciation": "pyeondo" },
+    { "id": "ko-train-w-round-trip", "translation": "round trip", "text": "왕복", "pronunciation": "wangbok" },
+    { "id": "ko-train-w-reserved-seat", "translation": "reserved seat", "text": "지정석", "pronunciation": "jijeongseok" },
+    { "id": "ko-train-w-free-seat", "translation": "free seat", "text": "자유석", "pronunciation": "jayuseok" },
+    { "id": "ko-train-w-timetable", "translation": "timetable", "text": "시간표", "pronunciation": "siganpyo" },
+    { "id": "ko-train-w-departure", "translation": "departure", "text": "출발", "pronunciation": "chulbal" },
+    { "id": "ko-train-w-arrival", "translation": "arrival", "text": "도착", "pronunciation": "dochak" },
+    { "id": "ko-train-w-ticket-gate", "translation": "ticket gate", "text": "개찰구", "pronunciation": "gaechalgu" },
+    { "id": "ko-train-w-line", "translation": "line", "text": "호선", "pronunciation": "hoseon" },
+    { "id": "ko-train-w-delay", "translation": "delay", "text": "지연", "pronunciation": "jiyeon" },
+    { "id": "ko-train-w-tmoney", "translation": "T-money card", "text": "티머니 카드", "pronunciation": "timeoni kadeu" },
+    { "id": "ko-train-w-last-train", "translation": "last train", "text": "막차", "pronunciation": "makcha" },
+    { "id": "ko-train-w-window-seat", "translation": "window seat", "text": "창가석", "pronunciation": "changaseok" },
+    { "id": "ko-train-w-aisle-seat", "translation": "aisle seat", "text": "복도석", "pronunciation": "bokdoseok" },
+    { "id": "ko-train-w-baggage-rack", "translation": "baggage rack", "text": "짐칸", "pronunciation": "jimkan" },
+    { "id": "ko-train-w-dining-car", "translation": "dining car", "text": "식당칸", "pronunciation": "sikdangkan" }
   ]
 }

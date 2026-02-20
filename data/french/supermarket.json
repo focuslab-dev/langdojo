@@ -3,210 +3,353 @@
   "languageId": "french",
   "phrases": [
     {
-      "id": "fr-supermarket-1",
-      "english": "Where is...?",
-      "translation": "Où est... ?",
-      "pronunciation": "Oo eh...?"
+      "id": "fr-supermarket-where-is",
+      "translation": "Where is...?",
+      "text": "Où est... ?",
+      "pronunciation": "Oo eh...?",
+      "words": []
     },
     {
-      "id": "fr-supermarket-2",
-      "english": "Do you have...?",
-      "translation": "Est-ce que vous avez... ?",
-      "pronunciation": "Ess-kuh voo zah-vay...?"
+      "id": "fr-supermarket-do-you-have",
+      "translation": "Do you have...?",
+      "text": "Est-ce que vous avez... ?",
+      "pronunciation": "Ess-kuh voo zah-vay...?",
+      "words": [
+        {
+          "text": "Est-ce que",
+          "pronunciation": "ess-kuh",
+          "translation": "do (question)"
+        },
+        {
+          "text": "vous avez",
+          "pronunciation": "voo zah-vay",
+          "translation": "you have"
+        }
+      ]
     },
     {
-      "id": "fr-supermarket-3",
-      "english": "How much is this?",
-      "translation": "Combien ça coûte ?",
-      "pronunciation": "Kom-bee-en sah koot?"
+      "id": "fr-supermarket-how-much",
+      "translation": "How much is this?",
+      "text": "Combien ça coûte ?",
+      "pronunciation": "Kom-bee-en sah koot?",
+      "words": [
+        {
+          "text": "Combien",
+          "pronunciation": "kom-bee-en",
+          "translation": "how much"
+        },
+        {
+          "text": "ça coûte",
+          "pronunciation": "sah koot",
+          "translation": "does it cost"
+        }
+      ]
     },
     {
-      "id": "fr-supermarket-p1",
-      "english": "Do you have a loyalty card?",
-      "translation": "Avez-vous une carte de fidélité ?",
-      "pronunciation": "Ah-vay voo oon kart duh fee-day-lee-tay?"
+      "id": "fr-supermarket-loyalty-card",
+      "translation": "Do you have a loyalty card?",
+      "text": "Avez-vous une carte de fidélité ?",
+      "pronunciation": "Ah-vay voo oon kart duh fee-day-lee-tay?",
+      "words": [
+        {
+          "text": "Avez-vous",
+          "pronunciation": "ah-vay voo",
+          "translation": "do you have"
+        },
+        {
+          "text": "une carte de fidélité",
+          "pronunciation": "oon kart duh fee-day-lee-tay",
+          "translation": "a loyalty card"
+        }
+      ]
     },
     {
-      "id": "fr-supermarket-p2",
-      "english": "Your total is... euros",
-      "translation": "Votre total est de... euros",
-      "pronunciation": "Vo-truh toh-tal eh duh... uh-roh"
+      "id": "fr-supermarket-total",
+      "translation": "Your total is... euros",
+      "text": "Votre total est de... euros",
+      "pronunciation": "Vo-truh toh-tal eh duh... uh-roh",
+      "words": [
+        {
+          "text": "Votre total",
+          "pronunciation": "vo-truh toh-tal",
+          "translation": "your total"
+        },
+        {
+          "text": "est de",
+          "pronunciation": "eh duh",
+          "translation": "is"
+        },
+        {
+          "text": "euros",
+          "pronunciation": "uh-roh",
+          "translation": "euros"
+        }
+      ]
     },
     {
-      "id": "fr-supermarket-p3",
-      "english": "Do you need a bag?",
-      "translation": "Avez-vous besoin d'un sac ?",
-      "pronunciation": "Ah-vay voo buh-zwan dun sahk?"
+      "id": "fr-supermarket-need-bag",
+      "translation": "Do you need a bag?",
+      "text": "Avez-vous besoin d'un sac ?",
+      "pronunciation": "Ah-vay voo buh-zwan dun sahk?",
+      "words": [
+        {
+          "text": "Avez-vous besoin",
+          "pronunciation": "ah-vay voo buh-zwan",
+          "translation": "do you need"
+        },
+        {
+          "text": "d'un sac",
+          "pronunciation": "dun sahk",
+          "translation": "a bag"
+        }
+      ]
     },
     {
-      "id": "fr-supermarket-4",
-      "english": "A bag please",
-      "translation": "Un sac, s'il vous plaît",
-      "pronunciation": "Un sahk, seel voo pleh"
+      "id": "fr-supermarket-bag-please",
+      "translation": "A bag please",
+      "text": "Un sac, s'il vous plaît",
+      "pronunciation": "Un sahk, seel voo pleh",
+      "words": [
+        {
+          "text": "Un sac",
+          "pronunciation": "un sahk",
+          "translation": "a bag"
+        },
+        {
+          "text": "s'il vous plaît",
+          "pronunciation": "seel voo pleh",
+          "translation": "please"
+        }
+      ]
     },
     {
-      "id": "fr-supermarket-5",
-      "english": "I don't need a bag",
-      "translation": "Pas de sac, merci",
-      "pronunciation": "Pah duh sahk, mair-see"
+      "id": "fr-supermarket-no-bag",
+      "translation": "I don't need a bag",
+      "text": "Pas de sac, merci",
+      "pronunciation": "Pah duh sahk, mair-see",
+      "words": [
+        {
+          "text": "Pas de sac",
+          "pronunciation": "pah duh sahk",
+          "translation": "no bag"
+        },
+        {
+          "text": "merci",
+          "pronunciation": "mair-see",
+          "translation": "thank you"
+        }
+      ]
     },
     {
-      "id": "fr-supermarket-p4",
-      "english": "Cash or card?",
-      "translation": "Espèces ou carte ?",
-      "pronunciation": "Ess-pess oo kart?"
+      "id": "fr-supermarket-cash-or-card",
+      "translation": "Cash or card?",
+      "text": "Espèces ou carte ?",
+      "pronunciation": "Ess-pess oo kart?",
+      "words": [
+        {
+          "text": "Espèces",
+          "pronunciation": "ess-pess",
+          "translation": "cash"
+        },
+        {
+          "text": "ou",
+          "pronunciation": "oo",
+          "translation": "or"
+        },
+        {
+          "text": "carte",
+          "pronunciation": "kart",
+          "translation": "card"
+        }
+      ]
     },
     {
-      "id": "fr-supermarket-6",
-      "english": "I'll pay by card",
-      "translation": "Par carte",
-      "pronunciation": "Par kart"
+      "id": "fr-supermarket-pay-card",
+      "translation": "I'll pay by card",
+      "text": "Par carte",
+      "pronunciation": "Par kart",
+      "words": []
     },
     {
-      "id": "fr-supermarket-7",
-      "english": "I'll pay with cash",
-      "translation": "En espèces",
-      "pronunciation": "On ess-pess"
+      "id": "fr-supermarket-pay-cash",
+      "translation": "I'll pay with cash",
+      "text": "En espèces",
+      "pronunciation": "On ess-pess",
+      "words": []
     },
     {
-      "id": "fr-supermarket-8",
-      "english": "Can I have a receipt?",
-      "translation": "Est-ce que je peux avoir un reçu ?",
-      "pronunciation": "Ess-kuh zhuh puh ah-vwahr un ruh-soo?"
+      "id": "fr-supermarket-receipt",
+      "translation": "Can I have a receipt?",
+      "text": "Est-ce que je peux avoir un reçu ?",
+      "pronunciation": "Ess-kuh zhuh puh ah-vwahr un ruh-soo?",
+      "words": [
+        {
+          "text": "Est-ce que",
+          "pronunciation": "ess-kuh",
+          "translation": "can / do (question)"
+        },
+        {
+          "text": "je peux",
+          "pronunciation": "zhuh puh",
+          "translation": "I can"
+        },
+        {
+          "text": "avoir",
+          "pronunciation": "ah-vwahr",
+          "translation": "have / get"
+        },
+        {
+          "text": "un reçu",
+          "pronunciation": "un ruh-soo",
+          "translation": "a receipt"
+        }
+      ]
     }
   ],
   "words": [
     {
-      "id": "fr-supermarket-w1",
-      "english": "water",
-      "translation": "eau",
+      "id": "fr-supermarket-w-water",
+      "translation": "water",
+      "text": "eau",
       "pronunciation": "oh"
     },
     {
-      "id": "fr-supermarket-w2",
-      "english": "milk",
-      "translation": "lait",
+      "id": "fr-supermarket-w-milk",
+      "translation": "milk",
+      "text": "lait",
       "pronunciation": "leh"
     },
     {
-      "id": "fr-supermarket-w3",
-      "english": "bread",
-      "translation": "pain",
+      "id": "fr-supermarket-w-bread",
+      "translation": "bread",
+      "text": "pain",
       "pronunciation": "pan"
     },
     {
-      "id": "fr-supermarket-w4",
-      "english": "eggs",
-      "translation": "œufs",
+      "id": "fr-supermarket-w-eggs",
+      "translation": "eggs",
+      "text": "œufs",
       "pronunciation": "uh"
     },
     {
-      "id": "fr-supermarket-w5",
-      "english": "rice",
-      "translation": "riz",
+      "id": "fr-supermarket-w-rice",
+      "translation": "rice",
+      "text": "riz",
       "pronunciation": "ree"
     },
     {
-      "id": "fr-supermarket-w6",
-      "english": "fruit",
+      "id": "fr-supermarket-w-fruit",
       "translation": "fruit",
+      "text": "fruit",
       "pronunciation": "frwee"
     },
     {
-      "id": "fr-supermarket-w7",
-      "english": "snack",
-      "translation": "en-cas",
+      "id": "fr-supermarket-w-snack",
+      "translation": "snack",
+      "text": "en-cas",
       "pronunciation": "on-kah"
     },
     {
-      "id": "fr-supermarket-w8",
-      "english": "candy",
-      "translation": "bonbon",
+      "id": "fr-supermarket-w-candy",
+      "translation": "candy",
+      "text": "bonbon",
       "pronunciation": "bon-bon"
     },
     {
-      "id": "fr-supermarket-w9",
-      "english": "cheese",
-      "translation": "fromage",
+      "id": "fr-supermarket-w-cheese",
+      "translation": "cheese",
+      "text": "fromage",
       "pronunciation": "fro-mahzh"
     },
     {
-      "id": "fr-supermarket-w10",
-      "english": "baguette",
+      "id": "fr-supermarket-w-baguette",
       "translation": "baguette",
+      "text": "baguette",
       "pronunciation": "bah-get"
     },
     {
-      "id": "fr-supermarket-w11",
-      "english": "bag",
-      "translation": "sac",
+      "id": "fr-supermarket-w-bag",
+      "translation": "bag",
+      "text": "sac",
       "pronunciation": "sahk"
     },
     {
-      "id": "fr-supermarket-w12",
-      "english": "receipt",
-      "translation": "reçu",
+      "id": "fr-supermarket-w-receipt",
+      "translation": "receipt",
+      "text": "reçu",
       "pronunciation": "ruh-soo"
     },
     {
-      "id": "fr-supermarket-w13",
-      "english": "cash",
-      "translation": "espèces",
+      "id": "fr-supermarket-w-cash",
+      "translation": "cash",
+      "text": "espèces",
       "pronunciation": "ess-pess"
     },
     {
-      "id": "fr-supermarket-w14",
-      "english": "card",
-      "translation": "carte",
+      "id": "fr-supermarket-w-card",
+      "translation": "card",
+      "text": "carte",
       "pronunciation": "kart"
     },
     {
-      "id": "fr-supermarket-w15",
-      "english": "change",
-      "translation": "monnaie",
+      "id": "fr-supermarket-w-change",
+      "translation": "change",
+      "text": "monnaie",
       "pronunciation": "mo-neh"
     },
     {
-      "id": "fr-supermarket-w16",
-      "english": "price",
-      "translation": "prix",
+      "id": "fr-supermarket-w-price",
+      "translation": "price",
+      "text": "prix",
       "pronunciation": "pree"
     },
     {
-      "id": "fr-supermarket-w17",
-      "english": "cheap",
-      "translation": "bon marché",
+      "id": "fr-supermarket-w-cheap",
+      "translation": "cheap",
+      "text": "bon marché",
       "pronunciation": "bon mar-shay"
     },
     {
-      "id": "fr-supermarket-w18",
-      "english": "expensive",
-      "translation": "cher",
+      "id": "fr-supermarket-w-expensive",
+      "translation": "expensive",
+      "text": "cher",
       "pronunciation": "shair"
     },
     {
-      "id": "fr-supermarket-w19",
-      "english": "entrance",
-      "translation": "entrée",
+      "id": "fr-supermarket-w-entrance",
+      "translation": "entrance",
+      "text": "entrée",
       "pronunciation": "on-tray"
     },
     {
-      "id": "fr-supermarket-w20",
-      "english": "exit",
-      "translation": "sortie",
+      "id": "fr-supermarket-w-exit",
+      "translation": "exit",
+      "text": "sortie",
       "pronunciation": "sor-tee"
     },
     {
-      "id": "fr-supermarket-w21",
-      "english": "no / none of",
-      "translation": "pas de",
-      "pronunciation": "pah duh"
+      "id": "fr-supermarket-w-yogurt",
+      "translation": "yogurt",
+      "text": "yaourt",
+      "pronunciation": "yah-oort"
     },
     {
-      "id": "fr-supermarket-w22",
-      "english": "is it / do (question)",
-      "translation": "est-ce que",
-      "pronunciation": "ess-kuh"
+      "id": "fr-supermarket-w-butter",
+      "translation": "butter",
+      "text": "beurre",
+      "pronunciation": "buhr"
+    },
+    {
+      "id": "fr-supermarket-w-vegetables",
+      "translation": "vegetables",
+      "text": "légumes",
+      "pronunciation": "lay-goom"
+    },
+    {
+      "id": "fr-supermarket-w-meat",
+      "translation": "meat",
+      "text": "viande",
+      "pronunciation": "vee-ond"
     }
   ]
 }

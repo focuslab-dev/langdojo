@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import {
@@ -11,13 +11,16 @@ import {
   Keyboard,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { LanguageId, CategoryId } from "@/types";
+import { LanguageId, CategoryId, Phrase } from "@/types";
 import { getCategoryById, getLanguageById } from "@/utils/languages";
-import { getCategoryData } from "@/utils/getPhraseData";
-import { generateCSV } from "@/utils/generateCSV";
+import {
+  getDownloadItems,
+  getDownloadItemsForFavorites,
+} from "@/utils/getPhraseData";
+import { generateTSV } from "@/utils/generateCSV";
 import { generateAnkiDeck } from "@/utils/generateAnkiDeck";
 import { Card } from "@/components/ui/Card";
-import { div } from "framer-motion/client";
+import { FavoriteItem } from "@/hooks/useFavorites";
 
 function triggerDownload(blob: Blob, filename: string) {
   const url = URL.createObjectURL(blob);
@@ -34,39 +37,29 @@ export default function DownloadPage() {
   const router = useRouter();
   const { lang, cat } = router.query;
   const [ankiLoading, setAnkiLoading] = useState(false);
+  const [favoriteItems, setFavoriteItems] = useState<Phrase[] | null>(null);
 
   const languageId = lang as LanguageId;
   const categoryId = cat as CategoryId;
+  const isFavorites = categoryId === "favorites";
 
   const language = languageId ? getLanguageById(languageId) : undefined;
-  const category = categoryId ? getCategoryById(categoryId) : undefined;
+  const category =
+    !isFavorites && categoryId ? getCategoryById(categoryId) : undefined;
 
-  // Handle favorites
-  if (categoryId === "favorites") {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
-        <Head>
-          <title>Download - Travel Phrases</title>
-        </Head>
-        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 max-w-md w-full text-center">
-          <div className="text-4xl mb-4">❤️</div>
-          <h1 className="text-xl font-bold text-gray-800 mb-2">
-            Favorites can&apos;t be exported
-          </h1>
-          <p className="text-sm text-gray-500 mb-6">
-            Select a specific category to download its phrases and words.
-          </p>
-          <Button variant="link-blue" href="/">
-            <ArrowLeft className="w-4 h-4" />
-            Back to phrases
-          </Button>
-        </div>
-      </div>
-    );
-  }
+  useEffect(() => {
+    if (!isFavorites || !languageId) return;
+    try {
+      const stored = localStorage.getItem("travel-phrases-favorites");
+      const parsed: FavoriteItem[] = stored ? JSON.parse(stored) : [];
+      setFavoriteItems(getDownloadItemsForFavorites(parsed, languageId));
+    } catch {
+      setFavoriteItems([]);
+    }
+  }, [isFavorites, languageId]);
 
-  // Invalid params
-  if (router.isReady && (!language || !category)) {
+  // Invalid params (not favorites and no valid language/category)
+  if (router.isReady && !isFavorites && (!language || !category)) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
         <Head>
@@ -89,8 +82,8 @@ export default function DownloadPage() {
     );
   }
 
-  // Loading state before router is ready
-  if (!router.isReady || !language || !category) {
+  // Loading state
+  if (!router.isReady || !language || (isFavorites && favoriteItems === null)) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="animate-pulse text-gray-400">Loading...</div>
@@ -98,14 +91,18 @@ export default function DownloadPage() {
     );
   }
 
-  const { phrases, words } = getCategoryData(languageId, categoryId);
-  const items = [...words, ...phrases];
-  const deckName = `${language.name} - ${category.name}`;
+  const items = isFavorites
+    ? favoriteItems!
+    : getDownloadItems(languageId, categoryId);
+  const displayName = isFavorites ? "Favorites" : category!.name;
+  const displayEmoji = isFavorites ? "❤️" : category!.emoji;
+  const displayColor = isFavorites ? "#f87171" : category!.color;
+  const deckName = `${language.name} - ${displayName}`;
   const fileBase = `${languageId}-${categoryId}`;
 
   const handleDownloadCSV = () => {
-    const blob = generateCSV(items);
-    triggerDownload(blob, `${fileBase}.csv`);
+    const blob = generateTSV(items);
+    triggerDownload(blob, `${fileBase}.tsv`);
   };
 
   const handleDownloadAnki = async () => {
@@ -122,7 +119,7 @@ export default function DownloadPage() {
     <div className="min-h-screen bg-gray-50">
       <Head>
         <title>
-          Download {category.name} - {language.name}
+          Download {displayName} - {language.name}
         </title>
       </Head>
 
@@ -137,11 +134,11 @@ export default function DownloadPage() {
         <div className="text-center mb-8">
           <div
             className="inline-flex items-center justify-center w-20 h-20 rounded-2xl text-5xl mb-4"
-            style={{ backgroundColor: category.color + "20" }}
+            style={{ backgroundColor: displayColor + "20" }}
           >
-            {category.emoji}
+            {displayEmoji}
           </div>
-          <h1 className="text-2xl font-bold text-gray-800">{category.name}</h1>
+          <h1 className="text-2xl font-bold text-gray-800">{displayName}</h1>
           <p className="text-sm text-gray-500 mt-1">
             {language.flag} {language.name} &middot; {items.length} items
           </p>
@@ -241,7 +238,7 @@ export default function DownloadPage() {
             />
             <div>
               <p className="text-lg font-bold leading-snug text-gray-900 group-hover:text-teal-700 transition-colors">
-                Anki alternative for serious language learners
+                Anki alternative for language learners
               </p>
             </div>
           </a>

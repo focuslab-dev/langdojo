@@ -2,48 +2,197 @@
   "categoryId": "restaurant",
   "languageId": "japanese",
   "phrases": [
-    { "id": "jp-rest-p1", "english": "How many people?", "translation": "何名様ですか？", "pronunciation": "Nanmei-sama desuka?" },
-    { "id": "jp-rest-1", "english": "Table for two, please", "translation": "二人です", "pronunciation": "Futari desu" },
-    { "id": "jp-rest-p2", "english": "Please wait to be seated", "translation": "少々お待ちください", "pronunciation": "Shoushou omachi kudasai" },
-    { "id": "jp-rest-2", "english": "Can I see the menu?", "translation": "メニューを見せてください", "pronunciation": "Menyuu wo misete kudasai" },
-    { "id": "jp-rest-8", "english": "Is this spicy?", "translation": "これは辛いですか？", "pronunciation": "Kore wa karai desuka?" },
-    { "id": "jp-rest-9", "english": "I'm allergic to...", "translation": "...アレルギーがあります", "pronunciation": "...arerugii ga arimasu" },
-    { "id": "jp-rest-7", "english": "No meat, please", "translation": "肉抜きでお願いします", "pronunciation": "Niku nuki de onegaishimasu" },
-    { "id": "jp-rest-p3", "english": "Are you ready to order?", "translation": "ご注文はお決まりですか？", "pronunciation": "Gochuumon wa okimari desuka?" },
-    { "id": "jp-rest-3", "english": "I'll have this one", "translation": "これをください", "pronunciation": "Kore wo kudasai" },
-    { "id": "jp-rest-4", "english": "Water, please", "translation": "お水をください", "pronunciation": "Omizu wo kudasai" },
-    { "id": "jp-rest-5", "english": "The bill, please", "translation": "お会計をお願いします", "pronunciation": "Okaikei wo onegaishimasu" },
-    { "id": "jp-rest-10", "english": "Can I pay by card?", "translation": "カードで払えますか？", "pronunciation": "Kaado de haraemasuka?" },
-    { "id": "jp-rest-p4", "english": "Cash or card?", "translation": "現金ですか、カードですか？", "pronunciation": "Genkin desuka, kaado desuka?" },
-    { "id": "jp-rest-6", "english": "It was delicious", "translation": "おいしかったです", "pronunciation": "Oishikatta desu" }
+    {
+      "id": "jp-rest-how-many-people",
+      "translation": "How many people?",
+      "text": "何名様ですか？",
+      "pronunciation": "nanmei-sama desuka?",
+      "words": [
+        { "text": "何名様", "pronunciation": "nanmei-sama", "translation": "how many people (honorific)" },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-rest-table-for-two",
+      "translation": "Table for two, please",
+      "text": "二人です",
+      "pronunciation": "futari desu",
+      "words": [
+        { "text": "二人", "pronunciation": "futari", "translation": "two people" },
+        { "text": "です", "pronunciation": "desu", "translation": "(it) is" }
+      ]
+    },
+    {
+      "id": "jp-rest-please-wait",
+      "translation": "Please wait to be seated",
+      "text": "少々お待ちください",
+      "pronunciation": "shoushou omachi kudasai",
+      "words": [
+        { "text": "少々", "pronunciation": "shoushou", "translation": "a brief moment" },
+        { "text": "お待ち", "pronunciation": "omachi", "translation": "wait (honorific form)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-rest-see-menu",
+      "translation": "Can I see the menu?",
+      "text": "メニューを見せてください",
+      "pronunciation": "menyuu wo misete kudasai",
+      "words": [
+        { "text": "メニュー", "pronunciation": "menyuu", "translation": "menu" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "見せて", "pronunciation": "misete", "translation": "show (te-form)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-rest-is-spicy",
+      "translation": "Is this spicy?",
+      "text": "これは辛いですか？",
+      "pronunciation": "kore wa karai desuka?",
+      "words": [
+        { "text": "これ", "pronunciation": "kore", "translation": "this" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "辛い", "pronunciation": "karai", "translation": "spicy" },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-rest-allergic-to",
+      "translation": "I'm allergic to...",
+      "text": "...アレルギーがあります",
+      "pronunciation": "...arerugii ga arimasu",
+      "words": [
+        { "text": "アレルギー", "pronunciation": "arerugii", "translation": "allergy" },
+        { "text": "が", "pronunciation": "ga", "translation": "(subject particle)" },
+        { "text": "あります", "pronunciation": "arimasu", "translation": "have / exist" }
+      ]
+    },
+    {
+      "id": "jp-rest-no-meat",
+      "translation": "No meat, please",
+      "text": "肉抜きでお願いします",
+      "pronunciation": "niku nuki de onegaishimasu",
+      "words": [
+        { "text": "肉", "pronunciation": "niku", "translation": "meat" },
+        { "text": "抜き", "pronunciation": "nuki", "translation": "without / minus" },
+        { "text": "で", "pronunciation": "de", "translation": "(manner particle)" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-rest-ready-to-order",
+      "translation": "Are you ready to order?",
+      "text": "ご注文はお決まりですか？",
+      "pronunciation": "gochuumon wa okimari desuka?",
+      "words": [
+        { "text": "ご注文", "pronunciation": "gochuumon", "translation": "order (honorific)" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "お決まり", "pronunciation": "okimari", "translation": "decided (honorific)" },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-rest-ill-have-this",
+      "translation": "I'll have this one",
+      "text": "これをください",
+      "pronunciation": "kore wo kudasai",
+      "words": [
+        { "text": "これ", "pronunciation": "kore", "translation": "this" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "jp-rest-water-please",
+      "translation": "Water, please",
+      "text": "お水をください",
+      "pronunciation": "omizu wo kudasai",
+      "words": [
+        { "text": "お水", "pronunciation": "omizu", "translation": "water (polite)" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "jp-rest-bill",
+      "translation": "The bill, please",
+      "text": "お会計をお願いします",
+      "pronunciation": "okaikei wo onegaishimasu",
+      "words": [
+        { "text": "お会計", "pronunciation": "okaikei", "translation": "bill / check" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-rest-pay-by-card",
+      "translation": "Can I pay by card?",
+      "text": "カードで払えますか？",
+      "pronunciation": "kaado de haraemasuka?",
+      "words": [
+        { "text": "カード", "pronunciation": "kaado", "translation": "card" },
+        { "text": "で", "pronunciation": "de", "translation": "by (means particle)" },
+        { "text": "払えます", "pronunciation": "haraemasu", "translation": "can pay" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-rest-cash-or-card",
+      "translation": "Cash or card?",
+      "text": "現金ですか、カードですか？",
+      "pronunciation": "genkin desuka, kaado desuka?",
+      "words": [
+        { "text": "現金", "pronunciation": "genkin", "translation": "cash" },
+        { "text": "ですか", "pronunciation": "desuka", "translation": "is it? (question)" },
+        { "text": "カード", "pronunciation": "kaado", "translation": "card" },
+        { "text": "ですか", "pronunciation": "desuka", "translation": "is it? (question)" }
+      ]
+    },
+    {
+      "id": "jp-rest-delicious",
+      "translation": "It was delicious",
+      "text": "おいしかったです",
+      "pronunciation": "oishikatta desu",
+      "words": [
+        { "text": "おいしかった", "pronunciation": "oishikatta", "translation": "was delicious (past tense)" },
+        { "text": "です", "pronunciation": "desu", "translation": "(polite ending)" }
+      ]
+    }
   ],
   "words": [
-    { "id": "jp-rest-w1", "english": "rice", "translation": "ご飯", "pronunciation": "Gohan" },
-    { "id": "jp-rest-w2", "english": "noodles", "translation": "麺", "pronunciation": "Men" },
-    { "id": "jp-rest-w3", "english": "ramen", "translation": "ラーメン", "pronunciation": "Raamen" },
-    { "id": "jp-rest-w4", "english": "udon", "translation": "うどん", "pronunciation": "Udon" },
-    { "id": "jp-rest-w5", "english": "soba", "translation": "そば", "pronunciation": "Soba" },
-    { "id": "jp-rest-w6", "english": "sushi", "translation": "寿司", "pronunciation": "Sushi" },
-    { "id": "jp-rest-w7", "english": "tempura", "translation": "天ぷら", "pronunciation": "Tenpura" },
-    { "id": "jp-rest-w8", "english": "chicken", "translation": "鶏肉", "pronunciation": "Toriniku" },
-    { "id": "jp-rest-w9", "english": "pork", "translation": "豚肉", "pronunciation": "Butaniku" },
-    { "id": "jp-rest-w10", "english": "beef", "translation": "牛肉", "pronunciation": "Gyuuniku" },
-    { "id": "jp-rest-w11", "english": "fish", "translation": "魚", "pronunciation": "Sakana" },
-    { "id": "jp-rest-w12", "english": "shrimp", "translation": "海老", "pronunciation": "Ebi" },
-    { "id": "jp-rest-w13", "english": "egg", "translation": "卵", "pronunciation": "Tamago" },
-    { "id": "jp-rest-w14", "english": "vegetable", "translation": "野菜", "pronunciation": "Yasai" },
-    { "id": "jp-rest-w15", "english": "soup", "translation": "スープ", "pronunciation": "Suupu" },
-    { "id": "jp-rest-w16", "english": "salad", "translation": "サラダ", "pronunciation": "Sarada" },
-    { "id": "jp-rest-w17", "english": "spicy", "translation": "辛い", "pronunciation": "Karai" },
-    { "id": "jp-rest-w18", "english": "sweet", "translation": "甘い", "pronunciation": "Amai" },
-    { "id": "jp-rest-w19", "english": "salty", "translation": "しょっぱい", "pronunciation": "Shoppai" },
-    { "id": "jp-rest-w20", "english": "chopsticks", "translation": "箸", "pronunciation": "Hashi" },
-    { "id": "jp-rest-w21", "english": "fork", "translation": "フォーク", "pronunciation": "Fooku" },
-    { "id": "jp-rest-w22", "english": "spoon", "translation": "スプーン", "pronunciation": "Supuun" },
-    { "id": "jp-rest-w23", "english": "water", "translation": "水", "pronunciation": "Mizu" },
-    { "id": "jp-rest-w24", "english": "beer", "translation": "ビール", "pronunciation": "Biiru" },
-    { "id": "jp-rest-w25", "english": "dessert", "translation": "デザート", "pronunciation": "Dezaato" },
-    { "id": "jp-rest-w26", "english": "please (give me)", "translation": "ください", "pronunciation": "Kudasai" },
-    { "id": "jp-rest-w27", "english": "without", "translation": "抜き", "pronunciation": "Nuki" }
+    { "id": "jp-rest-w-rice", "translation": "rice", "text": "ご飯", "pronunciation": "gohan" },
+    { "id": "jp-rest-w-noodles", "translation": "noodles", "text": "麺", "pronunciation": "men" },
+    { "id": "jp-rest-w-ramen", "translation": "ramen", "text": "ラーメン", "pronunciation": "raamen" },
+    { "id": "jp-rest-w-udon", "translation": "udon", "text": "うどん", "pronunciation": "udon" },
+    { "id": "jp-rest-w-soba", "translation": "soba", "text": "そば", "pronunciation": "soba" },
+    { "id": "jp-rest-w-sushi", "translation": "sushi", "text": "寿司", "pronunciation": "sushi" },
+    { "id": "jp-rest-w-tempura", "translation": "tempura", "text": "天ぷら", "pronunciation": "tenpura" },
+    { "id": "jp-rest-w-chicken", "translation": "chicken", "text": "鶏肉", "pronunciation": "toriniku" },
+    { "id": "jp-rest-w-pork", "translation": "pork", "text": "豚肉", "pronunciation": "butaniku" },
+    { "id": "jp-rest-w-beef", "translation": "beef", "text": "牛肉", "pronunciation": "gyuuniku" },
+    { "id": "jp-rest-w-fish", "translation": "fish", "text": "魚", "pronunciation": "sakana" },
+    { "id": "jp-rest-w-shrimp", "translation": "shrimp", "text": "海老", "pronunciation": "ebi" },
+    { "id": "jp-rest-w-egg", "translation": "egg", "text": "卵", "pronunciation": "tamago" },
+    { "id": "jp-rest-w-vegetable", "translation": "vegetable", "text": "野菜", "pronunciation": "yasai" },
+    { "id": "jp-rest-w-soup", "translation": "soup", "text": "スープ", "pronunciation": "suupu" },
+    { "id": "jp-rest-w-salad", "translation": "salad", "text": "サラダ", "pronunciation": "sarada" },
+    { "id": "jp-rest-w-spicy", "translation": "spicy", "text": "辛い", "pronunciation": "karai" },
+    { "id": "jp-rest-w-sweet", "translation": "sweet", "text": "甘い", "pronunciation": "amai" },
+    { "id": "jp-rest-w-salty", "translation": "salty", "text": "しょっぱい", "pronunciation": "shoppai" },
+    { "id": "jp-rest-w-chopsticks", "translation": "chopsticks", "text": "箸", "pronunciation": "hashi" },
+    { "id": "jp-rest-w-fork", "translation": "fork", "text": "フォーク", "pronunciation": "fooku" },
+    { "id": "jp-rest-w-spoon", "translation": "spoon", "text": "スプーン", "pronunciation": "supuun" },
+    { "id": "jp-rest-w-water", "translation": "water", "text": "水", "pronunciation": "mizu" },
+    { "id": "jp-rest-w-beer", "translation": "beer", "text": "ビール", "pronunciation": "biiru" },
+    { "id": "jp-rest-w-dessert", "translation": "dessert", "text": "デザート", "pronunciation": "dezaato" },
+    { "id": "jp-rest-w-without", "translation": "without", "text": "抜き", "pronunciation": "nuki" },
+    { "id": "jp-rest-w-tofu", "translation": "tofu", "text": "豆腐", "pronunciation": "toufu" },
+    { "id": "jp-rest-w-miso-soup", "translation": "miso soup", "text": "味噌汁", "pronunciation": "misoshiru" },
+    { "id": "jp-rest-w-sashimi", "translation": "sashimi", "text": "刺身", "pronunciation": "sashimi" },
+    { "id": "jp-rest-w-sake", "translation": "sake (rice wine)", "text": "日本酒", "pronunciation": "nihonshu" }
   ]
 }

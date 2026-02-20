@@ -2,39 +2,352 @@
   "categoryId": "taxi",
   "languageId": "thai",
   "phrases": [
-    { "id": "th-taxi-p1", "english": "Where are you going?", "translation": "ไปไหน?", "pronunciation": "Pai nai?" },
-    { "id": "th-taxi-1", "english": "To this address, please", "translation": "ไปที่นี่", "pronunciation": "Pai tee nee" },
-    { "id": "th-taxi-2", "english": "To the train station, please", "translation": "ไปสถานีรถไฟ", "pronunciation": "Pai satanee rot fai" },
-    { "id": "th-taxi-3", "english": "To the airport, please", "translation": "ไปสนามบิน", "pronunciation": "Pai sanam bin" },
-    { "id": "th-taxi-6", "english": "Please use the meter", "translation": "เปิดมิเตอร์ด้วย", "pronunciation": "Perd meter duay" },
-    { "id": "th-taxi-7", "english": "Turn on the air conditioning", "translation": "เปิดแอร์ด้วย", "pronunciation": "Perd air duay" },
-    { "id": "th-taxi-5", "english": "How much will it cost?", "translation": "เท่าไหร่?", "pronunciation": "Tao rai?" },
-    { "id": "th-taxi-p2", "english": "It will be about... baht", "translation": "ประมาณ...บาท", "pronunciation": "Praman...baht" },
-    { "id": "th-taxi-8", "english": "Turn right / left", "translation": "เลี้ยวขวา / ซ้าย", "pronunciation": "Liao kwa / sai" },
-    { "id": "th-taxi-9", "english": "Go straight", "translation": "ตรงไป", "pronunciation": "Trong pai" },
-    { "id": "th-taxi-4", "english": "Please stop here", "translation": "จอดที่นี่", "pronunciation": "Jort tee nee" },
-    { "id": "th-taxi-p3", "english": "We've arrived", "translation": "ถึงแล้ว", "pronunciation": "Teung laew" }
+    {
+      "id": "th-taxi-where-going",
+      "translation": "Where are you going?",
+      "text": "ไปไหน?",
+      "pronunciation": "bpai nǎi?",
+      "words": [
+        {
+          "text": "ไป",
+          "pronunciation": "bpai",
+          "translation": "go / to"
+        },
+        {
+          "text": "ไหน",
+          "pronunciation": "nǎi",
+          "translation": "where / which"
+        }
+      ]
+    },
+    {
+      "id": "th-taxi-this-address",
+      "translation": "To this address, please",
+      "text": "ไปที่นี่",
+      "pronunciation": "bpai têe née",
+      "words": [
+        {
+          "text": "ไป",
+          "pronunciation": "bpai",
+          "translation": "go / to"
+        },
+        {
+          "text": "ที่นี่",
+          "pronunciation": "têe née",
+          "translation": "here / this place"
+        }
+      ]
+    },
+    {
+      "id": "th-taxi-train-station",
+      "translation": "To the train station, please",
+      "text": "ไปสถานีรถไฟ",
+      "pronunciation": "bpai sà-tǎa-nee rót fai",
+      "words": [
+        {
+          "text": "ไป",
+          "pronunciation": "bpai",
+          "translation": "go / to"
+        },
+        {
+          "text": "สถานี",
+          "pronunciation": "sà-tǎa-nee",
+          "translation": "station"
+        },
+        {
+          "text": "รถไฟ",
+          "pronunciation": "rót fai",
+          "translation": "train"
+        }
+      ]
+    },
+    {
+      "id": "th-taxi-airport",
+      "translation": "To the airport, please",
+      "text": "ไปสนามบิน",
+      "pronunciation": "bpai sà-nǎam bin",
+      "words": [
+        {
+          "text": "ไป",
+          "pronunciation": "bpai",
+          "translation": "go / to"
+        },
+        {
+          "text": "สนามบิน",
+          "pronunciation": "sà-nǎam bin",
+          "translation": "airport"
+        }
+      ]
+    },
+    {
+      "id": "th-taxi-use-meter",
+      "translation": "Please use the meter",
+      "text": "เปิดมิเตอร์ด้วย",
+      "pronunciation": "bpêrt mee-têr dûay",
+      "words": [
+        {
+          "text": "เปิด",
+          "pronunciation": "bpêrt",
+          "translation": "open / turn on"
+        },
+        {
+          "text": "มิเตอร์",
+          "pronunciation": "mee-têr",
+          "translation": "meter"
+        },
+        {
+          "text": "ด้วย",
+          "pronunciation": "dûay",
+          "translation": "also / please (add-on)"
+        }
+      ]
+    },
+    {
+      "id": "th-taxi-ac-on",
+      "translation": "Turn on the air conditioning",
+      "text": "เปิดแอร์ด้วย",
+      "pronunciation": "bpêrt ae dûay",
+      "words": [
+        {
+          "text": "เปิด",
+          "pronunciation": "bpêrt",
+          "translation": "open / turn on"
+        },
+        {
+          "text": "แอร์",
+          "pronunciation": "ae",
+          "translation": "air conditioning"
+        },
+        {
+          "text": "ด้วย",
+          "pronunciation": "dûay",
+          "translation": "also / please (add-on)"
+        }
+      ]
+    },
+    {
+      "id": "th-taxi-how-much",
+      "translation": "How much will it cost?",
+      "text": "เท่าไหร่?",
+      "pronunciation": "tâo rài?",
+      "words": []
+    },
+    {
+      "id": "th-taxi-about-baht",
+      "translation": "It will be about... baht",
+      "text": "ประมาณ...บาท",
+      "pronunciation": "bprà-maan...bàat",
+      "words": [
+        {
+          "text": "ประมาณ",
+          "pronunciation": "bprà-maan",
+          "translation": "approximately / about"
+        },
+        {
+          "text": "บาท",
+          "pronunciation": "bàat",
+          "translation": "baht (currency)"
+        }
+      ]
+    },
+    {
+      "id": "th-taxi-turn-right-left",
+      "translation": "Turn right / left",
+      "text": "เลี้ยวขวา / ซ้าย",
+      "pronunciation": "lîao khwǎa / sâai",
+      "words": [
+        {
+          "text": "เลี้ยว",
+          "pronunciation": "lîao",
+          "translation": "turn"
+        },
+        {
+          "text": "ขวา",
+          "pronunciation": "khwǎa",
+          "translation": "right"
+        },
+        {
+          "text": "ซ้าย",
+          "pronunciation": "sâai",
+          "translation": "left"
+        }
+      ]
+    },
+    {
+      "id": "th-taxi-go-straight",
+      "translation": "Go straight",
+      "text": "ตรงไป",
+      "pronunciation": "trong bpai",
+      "words": [
+        {
+          "text": "ตรง",
+          "pronunciation": "trong",
+          "translation": "straight"
+        },
+        {
+          "text": "ไป",
+          "pronunciation": "bpai",
+          "translation": "go"
+        }
+      ]
+    },
+    {
+      "id": "th-taxi-stop-here",
+      "translation": "Please stop here",
+      "text": "จอดที่นี่",
+      "pronunciation": "jòrt têe née",
+      "words": [
+        {
+          "text": "จอด",
+          "pronunciation": "jòrt",
+          "translation": "stop / park"
+        },
+        {
+          "text": "ที่นี่",
+          "pronunciation": "têe née",
+          "translation": "here"
+        }
+      ]
+    },
+    {
+      "id": "th-taxi-arrived",
+      "translation": "We've arrived",
+      "text": "ถึงแล้ว",
+      "pronunciation": "tǔeng láew",
+      "words": [
+        {
+          "text": "ถึง",
+          "pronunciation": "tǔeng",
+          "translation": "arrive / reach"
+        },
+        {
+          "text": "แล้ว",
+          "pronunciation": "láew",
+          "translation": "already / now"
+        }
+      ]
+    }
   ],
   "words": [
-    { "id": "th-taxi-w1", "english": "right", "translation": "ขวา", "pronunciation": "Kwa" },
-    { "id": "th-taxi-w2", "english": "left", "translation": "ซ้าย", "pronunciation": "Sai" },
-    { "id": "th-taxi-w3", "english": "straight", "translation": "ตรงไป", "pronunciation": "Trong pai" },
-    { "id": "th-taxi-w4", "english": "here", "translation": "ที่นี่", "pronunciation": "Tee nee" },
-    { "id": "th-taxi-w5", "english": "there", "translation": "ที่นั่น", "pronunciation": "Tee nan" },
-    { "id": "th-taxi-w6", "english": "near", "translation": "ใกล้", "pronunciation": "Glai" },
-    { "id": "th-taxi-w7", "english": "far", "translation": "ไกล", "pronunciation": "Glai" },
-    { "id": "th-taxi-w8", "english": "fast", "translation": "เร็ว", "pronunciation": "Reo" },
-    { "id": "th-taxi-w9", "english": "slow", "translation": "ช้า", "pronunciation": "Cha" },
-    { "id": "th-taxi-w10", "english": "stop", "translation": "จอด", "pronunciation": "Jort" },
-    { "id": "th-taxi-w11", "english": "airport", "translation": "สนามบิน", "pronunciation": "Sanam bin" },
-    { "id": "th-taxi-w12", "english": "train station", "translation": "สถานีรถไฟ", "pronunciation": "Satanee rot fai" },
-    { "id": "th-taxi-w13", "english": "hotel", "translation": "โรงแรม", "pronunciation": "Rong raem" },
-    { "id": "th-taxi-w14", "english": "map", "translation": "แผนที่", "pronunciation": "Phaen tee" },
-    { "id": "th-taxi-w15", "english": "address", "translation": "ที่อยู่", "pronunciation": "Tee yoo" },
-    { "id": "th-taxi-w16", "english": "meter", "translation": "มิเตอร์", "pronunciation": "Meter" },
-    { "id": "th-taxi-w17", "english": "money", "translation": "เงิน", "pronunciation": "Ngern" },
-    { "id": "th-taxi-w18", "english": "traffic jam", "translation": "รถติด", "pronunciation": "Rot tit" },
-    { "id": "th-taxi-w19", "english": "also / please (add-on)", "translation": "ด้วย", "pronunciation": "Duay" },
-    { "id": "th-taxi-w20", "english": "turn", "translation": "เลี้ยว", "pronunciation": "Liao" }
+    {
+      "id": "th-taxi-w-right",
+      "translation": "right",
+      "text": "ขวา",
+      "pronunciation": "khwǎa"
+    },
+    {
+      "id": "th-taxi-w-left",
+      "translation": "left",
+      "text": "ซ้าย",
+      "pronunciation": "sâai"
+    },
+    {
+      "id": "th-taxi-w-straight",
+      "translation": "straight",
+      "text": "ตรงไป",
+      "pronunciation": "trong bpai"
+    },
+    {
+      "id": "th-taxi-w-here",
+      "translation": "here",
+      "text": "ที่นี่",
+      "pronunciation": "têe née"
+    },
+    {
+      "id": "th-taxi-w-there",
+      "translation": "there",
+      "text": "ที่นั่น",
+      "pronunciation": "têe nân"
+    },
+    {
+      "id": "th-taxi-w-near",
+      "translation": "near",
+      "text": "ใกล้",
+      "pronunciation": "glâi"
+    },
+    {
+      "id": "th-taxi-w-far",
+      "translation": "far",
+      "text": "ไกล",
+      "pronunciation": "glai"
+    },
+    {
+      "id": "th-taxi-w-fast",
+      "translation": "fast",
+      "text": "เร็ว",
+      "pronunciation": "reo"
+    },
+    {
+      "id": "th-taxi-w-slow",
+      "translation": "slow",
+      "text": "ช้า",
+      "pronunciation": "cháa"
+    },
+    {
+      "id": "th-taxi-w-stop",
+      "translation": "stop",
+      "text": "จอด",
+      "pronunciation": "jòrt"
+    },
+    {
+      "id": "th-taxi-w-airport",
+      "translation": "airport",
+      "text": "สนามบิน",
+      "pronunciation": "sà-nǎam bin"
+    },
+    {
+      "id": "th-taxi-w-train-station",
+      "translation": "train station",
+      "text": "สถานีรถไฟ",
+      "pronunciation": "sà-tǎa-nee rót fai"
+    },
+    {
+      "id": "th-taxi-w-hotel",
+      "translation": "hotel",
+      "text": "โรงแรม",
+      "pronunciation": "rohng raem"
+    },
+    {
+      "id": "th-taxi-w-map",
+      "translation": "map",
+      "text": "แผนที่",
+      "pronunciation": "phǎen têe"
+    },
+    {
+      "id": "th-taxi-w-address",
+      "translation": "address",
+      "text": "ที่อยู่",
+      "pronunciation": "têe yòo"
+    },
+    {
+      "id": "th-taxi-w-meter",
+      "translation": "meter",
+      "text": "มิเตอร์",
+      "pronunciation": "mee-têr"
+    },
+    {
+      "id": "th-taxi-w-money",
+      "translation": "money",
+      "text": "เงิน",
+      "pronunciation": "ngern"
+    },
+    {
+      "id": "th-taxi-w-traffic",
+      "translation": "traffic jam",
+      "text": "รถติด",
+      "pronunciation": "rót tìt"
+    },
+    {
+      "id": "th-taxi-w-expressway",
+      "translation": "expressway",
+      "text": "ทางด่วน",
+      "pronunciation": "taang dùan"
+    },
+    {
+      "id": "th-taxi-w-turn",
+      "translation": "turn",
+      "text": "เลี้ยว",
+      "pronunciation": "lîao"
+    }
   ]
 }

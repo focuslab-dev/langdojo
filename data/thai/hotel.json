@@ -2,42 +2,204 @@
   "categoryId": "hotel",
   "languageId": "thai",
   "phrases": [
-    { "id": "th-hotel-p1", "english": "Do you have a reservation?", "translation": "มีการจองไหม?", "pronunciation": "Mee gan jorng mai?" },
-    { "id": "th-hotel-1", "english": "I have a reservation", "translation": "ฉันจองไว้แล้ว", "pronunciation": "Chan jorng wai laew" },
-    { "id": "th-hotel-2", "english": "I'd like to check in", "translation": "ขอเช็คอินครับ/ค่ะ", "pronunciation": "Kor check-in krap/ka" },
-    { "id": "th-hotel-3", "english": "I'd like to check out", "translation": "ขอเช็คเอาท์ครับ/ค่ะ", "pronunciation": "Kor check-out krap/ka" },
-    { "id": "th-hotel-p2", "english": "Your room is on the 3rd floor", "translation": "ห้องของคุณอยู่ชั้น 3", "pronunciation": "Horng kong kun yoo chan saam" },
-    { "id": "th-hotel-4", "english": "A single room, please", "translation": "ขอห้องเดี่ยว", "pronunciation": "Kor horng diao" },
-    { "id": "th-hotel-5", "english": "A double room, please", "translation": "ขอห้องคู่", "pronunciation": "Kor horng koo" },
-    { "id": "th-hotel-6", "english": "How much per night?", "translation": "คืนละเท่าไหร่?", "pronunciation": "Keun la tao rai?" },
-    { "id": "th-hotel-7", "english": "Is breakfast included?", "translation": "รวมอาหารเช้าไหม?", "pronunciation": "Ruam ahaan chao mai?" },
-    { "id": "th-hotel-8", "english": "What time is checkout?", "translation": "เช็คเอาท์กี่โมง?", "pronunciation": "Check-out gee mohng?" },
-    { "id": "th-hotel-p3", "english": "Checkout is at 11am", "translation": "เช็คเอาท์ตอน 11 โมง", "pronunciation": "Check-out torn sip-et mohng" },
-    { "id": "th-hotel-9", "english": "Can I leave my luggage?", "translation": "ฝากกระเป๋าได้ไหม?", "pronunciation": "Faak grapao dai mai?" },
-    { "id": "th-hotel-10", "english": "The Wi-Fi password, please", "translation": "ขอรหัส Wi-Fi ครับ/ค่ะ", "pronunciation": "Kor rahat Wi-Fi krap/ka" },
-    { "id": "th-hotel-11", "english": "Could I get extra towels?", "translation": "ขอผ้าเช็ดตัวเพิ่มได้ไหม?", "pronunciation": "Kor pa chet tua perm dai mai?" },
-    { "id": "th-hotel-12", "english": "The air conditioning doesn't work", "translation": "แอร์ไม่ทำงาน", "pronunciation": "Air mai tam ngaan" }
+    {
+      "id": "th-hotel-reservation-q",
+      "translation": "Do you have a reservation?",
+      "text": "มีการจองไหม?",
+      "pronunciation": "mee gaan jorng mǎi?",
+      "words": [
+        { "text": "มี", "pronunciation": "mee", "translation": "have / is there" },
+        { "text": "การจอง", "pronunciation": "gaan jorng", "translation": "reservation / booking" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "th-hotel-have-reservation",
+      "translation": "I have a reservation",
+      "text": "ฉันจองไว้แล้ว",
+      "pronunciation": "chǎn jorng wâi láew",
+      "words": [
+        { "text": "ฉัน", "pronunciation": "chǎn", "translation": "I / me" },
+        { "text": "จอง", "pronunciation": "jorng", "translation": "reserve / book" },
+        { "text": "ไว้", "pronunciation": "wâi", "translation": "(in advance / already done)" },
+        { "text": "แล้ว", "pronunciation": "láew", "translation": "already" }
+      ]
+    },
+    {
+      "id": "th-hotel-check-in",
+      "translation": "I'd like to check in",
+      "text": "ขอเช็คอินครับ/ค่ะ",
+      "pronunciation": "khǒr chék in kráp / khâ",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "เช็คอิน", "pronunciation": "chék in", "translation": "check in" },
+        { "text": "ครับ/ค่ะ", "pronunciation": "kráp / khâ", "translation": "(polite particle)" }
+      ]
+    },
+    {
+      "id": "th-hotel-check-out",
+      "translation": "I'd like to check out",
+      "text": "ขอเช็คเอาท์ครับ/ค่ะ",
+      "pronunciation": "khǒr chék àot kráp / khâ",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "เช็คเอาท์", "pronunciation": "chék àot", "translation": "check out" },
+        { "text": "ครับ/ค่ะ", "pronunciation": "kráp / khâ", "translation": "(polite particle)" }
+      ]
+    },
+    {
+      "id": "th-hotel-room-floor",
+      "translation": "Your room is on the 3rd floor",
+      "text": "ห้องของคุณอยู่ชั้น 3",
+      "pronunciation": "hông khǒng khun yòo chán sǎam",
+      "words": [
+        { "text": "ห้อง", "pronunciation": "hông", "translation": "room" },
+        { "text": "ของ", "pronunciation": "khǒng", "translation": "of / possessive" },
+        { "text": "คุณ", "pronunciation": "khun", "translation": "you" },
+        { "text": "อยู่", "pronunciation": "yòo", "translation": "is at / located" },
+        { "text": "ชั้น", "pronunciation": "chán", "translation": "floor / level" },
+        { "text": "สาม", "pronunciation": "sǎam", "translation": "three" }
+      ]
+    },
+    {
+      "id": "th-hotel-single-room",
+      "translation": "A single room, please",
+      "text": "ขอห้องเดี่ยว",
+      "pronunciation": "khǒr hông dîao",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "ห้อง", "pronunciation": "hông", "translation": "room" },
+        { "text": "เดี่ยว", "pronunciation": "dîao", "translation": "single / alone" }
+      ]
+    },
+    {
+      "id": "th-hotel-double-room",
+      "translation": "A double room, please",
+      "text": "ขอห้องคู่",
+      "pronunciation": "khǒr hông khôo",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "ห้อง", "pronunciation": "hông", "translation": "room" },
+        { "text": "คู่", "pronunciation": "khôo", "translation": "pair / double" }
+      ]
+    },
+    {
+      "id": "th-hotel-price-per-night",
+      "translation": "How much per night?",
+      "text": "คืนละเท่าไหร่?",
+      "pronunciation": "keun lá tâo rài?",
+      "words": [
+        { "text": "คืน", "pronunciation": "keun", "translation": "night" },
+        { "text": "ละ", "pronunciation": "lá", "translation": "per / each" },
+        { "text": "เท่าไหร่", "pronunciation": "tâo rài", "translation": "how much" }
+      ]
+    },
+    {
+      "id": "th-hotel-breakfast-included",
+      "translation": "Is breakfast included?",
+      "text": "รวมอาหารเช้าไหม?",
+      "pronunciation": "ruam aa-hǎan cháo mǎi?",
+      "words": [
+        { "text": "รวม", "pronunciation": "ruam", "translation": "include / combined" },
+        { "text": "อาหาร", "pronunciation": "aa-hǎan", "translation": "food" },
+        { "text": "เช้า", "pronunciation": "cháo", "translation": "morning" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "th-hotel-checkout-time",
+      "translation": "What time is checkout?",
+      "text": "เช็คเอาท์กี่โมง?",
+      "pronunciation": "chék àot gèe mohng?",
+      "words": [
+        { "text": "เช็คเอาท์", "pronunciation": "chék àot", "translation": "check out" },
+        { "text": "กี่", "pronunciation": "gèe", "translation": "how many / what" },
+        { "text": "โมง", "pronunciation": "mohng", "translation": "o'clock" }
+      ]
+    },
+    {
+      "id": "th-hotel-checkout-11am",
+      "translation": "Checkout is at 11am",
+      "text": "เช็คเอาท์ตอน 11 โมง",
+      "pronunciation": "chék àot torn sìp-ét mohng",
+      "words": [
+        { "text": "เช็คเอาท์", "pronunciation": "chék àot", "translation": "check out" },
+        { "text": "ตอน", "pronunciation": "torn", "translation": "at (time)" },
+        { "text": "สิบเอ็ด", "pronunciation": "sìp ét", "translation": "eleven" },
+        { "text": "โมง", "pronunciation": "mohng", "translation": "o'clock" }
+      ]
+    },
+    {
+      "id": "th-hotel-leave-luggage",
+      "translation": "Can I leave my luggage?",
+      "text": "ฝากกระเป๋าได้ไหม?",
+      "pronunciation": "fàak grà-pǎo dâi mǎi?",
+      "words": [
+        { "text": "ฝาก", "pronunciation": "fàak", "translation": "leave with / entrust" },
+        { "text": "กระเป๋า", "pronunciation": "grà-pǎo", "translation": "bag / luggage" },
+        { "text": "ได้", "pronunciation": "dâi", "translation": "can / able to" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "th-hotel-wifi-password",
+      "translation": "The Wi-Fi password, please",
+      "text": "ขอรหัส Wi-Fi ครับ/ค่ะ",
+      "pronunciation": "khǒr rá-hàt waai-fai kráp / khâ",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "รหัส", "pronunciation": "rá-hàt", "translation": "password / code" },
+        { "text": "ไวไฟ", "pronunciation": "waai-fai", "translation": "Wi-Fi" },
+        { "text": "ครับ/ค่ะ", "pronunciation": "kráp / khâ", "translation": "(polite particle)" }
+      ]
+    },
+    {
+      "id": "th-hotel-extra-towels",
+      "translation": "Could I get extra towels?",
+      "text": "ขอผ้าเช็ดตัวเพิ่มได้ไหม?",
+      "pronunciation": "khǒr pâa chét tua pêem dâi mǎi?",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "ผ้าเช็ดตัว", "pronunciation": "pâa chét tua", "translation": "towel" },
+        { "text": "เพิ่ม", "pronunciation": "pêem", "translation": "more / additional" },
+        { "text": "ได้ไหม", "pronunciation": "dâi mǎi", "translation": "can I?" }
+      ]
+    },
+    {
+      "id": "th-hotel-ac-broken",
+      "translation": "The air conditioning doesn't work",
+      "text": "แอร์ไม่ทำงาน",
+      "pronunciation": "ae mâi tam ngaan",
+      "words": [
+        { "text": "แอร์", "pronunciation": "ae", "translation": "air conditioning" },
+        { "text": "ไม่", "pronunciation": "mâi", "translation": "no / not" },
+        { "text": "ทำงาน", "pronunciation": "tam ngaan", "translation": "work / function" }
+      ]
+    }
   ],
   "words": [
-    { "id": "th-hotel-w1", "english": "room", "translation": "ห้อง", "pronunciation": "Horng" },
-    { "id": "th-hotel-w2", "english": "key", "translation": "กุญแจ", "pronunciation": "Gunjae" },
-    { "id": "th-hotel-w3", "english": "floor", "translation": "ชั้น", "pronunciation": "Chan" },
-    { "id": "th-hotel-w4", "english": "elevator", "translation": "ลิฟต์", "pronunciation": "Lift" },
-    { "id": "th-hotel-w5", "english": "stairs", "translation": "บันได", "pronunciation": "Bandai" },
-    { "id": "th-hotel-w6", "english": "lobby", "translation": "ล็อบบี้", "pronunciation": "Lobby" },
-    { "id": "th-hotel-w7", "english": "front desk", "translation": "แผนกต้อนรับ", "pronunciation": "Panaek torn rap" },
-    { "id": "th-hotel-w8", "english": "bed", "translation": "เตียง", "pronunciation": "Tiang" },
-    { "id": "th-hotel-w9", "english": "pillow", "translation": "หมอน", "pronunciation": "Morn" },
-    { "id": "th-hotel-w10", "english": "blanket", "translation": "ผ้าห่ม", "pronunciation": "Pa hom" },
-    { "id": "th-hotel-w11", "english": "towel", "translation": "ผ้าเช็ดตัว", "pronunciation": "Pa chet tua" },
-    { "id": "th-hotel-w12", "english": "bathroom", "translation": "ห้องน้ำ", "pronunciation": "Horng nam" },
-    { "id": "th-hotel-w13", "english": "shower", "translation": "ฝักบัว", "pronunciation": "Fak bua" },
-    { "id": "th-hotel-w14", "english": "hot water", "translation": "น้ำร้อน", "pronunciation": "Nam rorn" },
-    { "id": "th-hotel-w15", "english": "air conditioning", "translation": "แอร์", "pronunciation": "Air" },
-    { "id": "th-hotel-w16", "english": "luggage", "translation": "กระเป๋า", "pronunciation": "Grapao" },
-    { "id": "th-hotel-w17", "english": "passport", "translation": "พาสปอร์ต", "pronunciation": "Passport" },
-    { "id": "th-hotel-w18", "english": "reservation", "translation": "การจอง", "pronunciation": "Gan jorng" },
-    { "id": "th-hotel-w19", "english": "breakfast", "translation": "อาหารเช้า", "pronunciation": "Ahaan chao" },
-    { "id": "th-hotel-w20", "english": "Wi-Fi", "translation": "ไวไฟ", "pronunciation": "Wai-fai" }
+    { "id": "th-hotel-w-room", "translation": "room", "text": "ห้อง", "pronunciation": "hông" },
+    { "id": "th-hotel-w-key", "translation": "key", "text": "กุญแจ", "pronunciation": "gun-jae" },
+    { "id": "th-hotel-w-floor", "translation": "floor", "text": "ชั้น", "pronunciation": "chán" },
+    { "id": "th-hotel-w-elevator", "translation": "elevator", "text": "ลิฟต์", "pronunciation": "líft" },
+    { "id": "th-hotel-w-stairs", "translation": "stairs", "text": "บันได", "pronunciation": "ban-dai" },
+    { "id": "th-hotel-w-lobby", "translation": "lobby", "text": "ล็อบบี้", "pronunciation": "lóp-bee" },
+    { "id": "th-hotel-w-front-desk", "translation": "front desk", "text": "แผนกต้อนรับ", "pronunciation": "phà-nàek tôn ráp" },
+    { "id": "th-hotel-w-bed", "translation": "bed", "text": "เตียง", "pronunciation": "tiang" },
+    { "id": "th-hotel-w-pillow", "translation": "pillow", "text": "หมอน", "pronunciation": "mǒrn" },
+    { "id": "th-hotel-w-blanket", "translation": "blanket", "text": "ผ้าห่ม", "pronunciation": "pâa hòm" },
+    { "id": "th-hotel-w-towel", "translation": "towel", "text": "ผ้าเช็ดตัว", "pronunciation": "pâa chét tua" },
+    { "id": "th-hotel-w-bathroom", "translation": "bathroom", "text": "ห้องน้ำ", "pronunciation": "hông nám" },
+    { "id": "th-hotel-w-shower", "translation": "shower", "text": "ฝักบัว", "pronunciation": "fàk bua" },
+    { "id": "th-hotel-w-hot-water", "translation": "hot water", "text": "น้ำร้อน", "pronunciation": "nám rón" },
+    { "id": "th-hotel-w-ac", "translation": "air conditioning", "text": "แอร์", "pronunciation": "ae" },
+    { "id": "th-hotel-w-luggage", "translation": "luggage", "text": "กระเป๋า", "pronunciation": "grà-pǎo" },
+    { "id": "th-hotel-w-passport", "translation": "passport", "text": "พาสปอร์ต", "pronunciation": "pát-sà-pòrt" },
+    { "id": "th-hotel-w-reservation", "translation": "reservation", "text": "การจอง", "pronunciation": "gaan jorng" },
+    { "id": "th-hotel-w-breakfast", "translation": "breakfast", "text": "อาหารเช้า", "pronunciation": "aa-hǎan cháo" },
+    { "id": "th-hotel-w-wifi", "translation": "Wi-Fi", "text": "ไวไฟ", "pronunciation": "waai-fai" },
+    { "id": "th-hotel-w-single", "translation": "single room", "text": "ห้องเดี่ยว", "pronunciation": "hông dîao" },
+    { "id": "th-hotel-w-double", "translation": "double room", "text": "ห้องคู่", "pronunciation": "hông khôo" },
+    { "id": "th-hotel-w-swimming-pool", "translation": "swimming pool", "text": "สระว่ายน้ำ", "pronunciation": "sà wâai nám" }
   ]
 }

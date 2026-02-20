@@ -239,7 +239,6 @@ export default function DownloadPage() {
               alt="Memozora"
               className="w-14 h-14 rounded-2xl shadow-sm flex-shrink-0"
             />
-
             <div>
               <p className="text-lg font-bold leading-snug text-gray-900 group-hover:text-teal-700 transition-colors">
                 Anki alternative for serious language learners

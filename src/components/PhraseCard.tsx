@@ -48,14 +48,8 @@ export const PhraseCard = ({
 
         {/* Action buttons */}
         <div className="flex flex-col gap-2">
-          <motion.button
-            whileTap={{ scale: 0.9 }}
-            onClick={(e) => {
-              e.stopPropagation();
-              onSpeak();
-            }}
-            className={`p-2 rounded-full transition-colors ${isSpeaking ? "bg-blue-50" : "bg-gray-50 hover:bg-gray-100"}`}
-            aria-label="Play pronunciation"
+          <motion.div
+            className="p-2"
           >
             <motion.div
               animate={isSpeaking ? { scale: [1, 1.25, 1] } : { scale: 1 }}
@@ -66,10 +60,10 @@ export const PhraseCard = ({
               }
             >
               <Volume2
-                className={`w-5 h-5 transition-colors ${isSpeaking ? "text-blue-500" : "text-gray-600"}`}
+                className={`w-5 h-5 transition-colors ${isSpeaking ? "text-blue-500" : "text-gray-400"}`}
               />
             </motion.div>
-          </motion.button>
+          </motion.div>
 
           <motion.button
             whileTap={{ scale: 0.9 }}
@@ -77,7 +71,7 @@ export const PhraseCard = ({
               e.stopPropagation();
               onToggleFavorite();
             }}
-            className="p-2 rounded-full bg-gray-50 hover:bg-gray-100 transition-colors"
+            className="p-2 rounded-full bg-gray-50 hover:bg-backgroundDim transition-colors"
             aria-label={
               isFavorite ? "Remove from favorites" : "Add to favorites"
             }

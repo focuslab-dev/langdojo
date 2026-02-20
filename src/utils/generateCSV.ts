@@ -11,7 +11,7 @@ export function generateCSV(items: Phrase[]): Blob {
   const header = "Vocabulary,Translation,Pronunciation";
   const rows = items.map(
     (item) =>
-      `${escapeCSVField(item.translation)},${escapeCSVField(item.english)},${escapeCSVField(item.pronunciation)}`,
+      `${escapeCSVField(item.translation)}\t${escapeCSVField(item.english)}\t${escapeCSVField(item.pronunciation)}`,
   );
 
   const csv = [header, ...rows].join("\n");

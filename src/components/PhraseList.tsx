@@ -94,7 +94,7 @@ export const PhraseList = ({
   return (
     <div className="space-y-3 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-4">
       {showTabs && (
-        <div className="flex bg-gray-100 rounded-full p-1 mb-1 lg:col-span-2">
+        <div className="flex bg-backgroundDim rounded-full p-1 mb-1 lg:col-span-2">
           <button
             onClick={() => setActiveTab("phrases")}
             className={`flex-1 py-1.5 text-sm font-medium rounded-full transition-all ${

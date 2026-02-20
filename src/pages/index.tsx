@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { ChevronDown, Download } from "lucide-react";
 import { Language, LanguageId, CategoryId } from "@/types";
@@ -17,6 +16,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { PhraseList } from "@/components/PhraseList";
 import { NavigationModal } from "@/components/NavigationModal";
 import { LanguageDropdown } from "@/components/LanguageDropdown";
+import { Button } from "@/components/ui/Button";
 
 export default function Home() {
   const [selectedLanguage, setSelectedLanguage] = useState<Language>(() => {
@@ -48,7 +48,11 @@ export default function Home() {
 
   const selectedCategory = getCategoryById(selectedCategoryId) || categories[1];
 
-  const { phrases: currentPhrases, words: currentWords, favoriteGroups } = usePhraseData({
+  const {
+    phrases: currentPhrases,
+    words: currentWords,
+    favoriteGroups,
+  } = usePhraseData({
     languageId: selectedLanguage.id as LanguageId,
     categoryId: selectedCategoryId,
     getFavoritesByLanguage,
@@ -155,10 +159,14 @@ export default function Home() {
         </div>
       </aside>
 
-      <main className="min-h-screen bg-white lg:ml-80">
+      <main className="min-h-screen bg-background lg:ml-80">
         {/* Mobile Hero - hidden on desktop */}
         <div className="lg:hidden">
-          <HeroSection category={selectedCategory} languageId={selectedLanguage.id as LanguageId} categoryId={selectedCategoryId} />
+          <HeroSection
+            category={selectedCategory}
+            languageId={selectedLanguage.id as LanguageId}
+            categoryId={selectedCategoryId}
+          />
         </div>
 
         {/* Bottom Sheet / Content Area */}
@@ -166,10 +174,10 @@ export default function Home() {
           // initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2 }}
-          className="relative mt-[25vh] lg:mt-0 min-h-[75vh] lg:min-h-screen bg-white rounded-t-3xl lg:rounded-none shadow-[0_-4px_20px_rgba(0,0,0,0.08)] lg:shadow-none z-10"
+          className="relative mt-[25vh] lg:mt-0 min-h-[75vh] lg:min-h-screen bg-background rounded-t-3xl lg:rounded-none shadow-[0_-4px_20px_rgba(0,0,0,0.08)] lg:shadow-none z-10"
         >
           {/* Mobile drag handle */}
-          <div className="sticky top-0 pt-3 pb-2 bg-white rounded-t-3xl lg:hidden">
+          <div className="sticky top-0 pt-3 pb-2 bg-background rounded-t-3xl lg:hidden">
             <div className="w-10 h-1 bg-gray-200 rounded-full mx-auto" />
           </div>
 
@@ -190,13 +198,13 @@ export default function Home() {
                   </div>
                 </div>
                 {selectedCategoryId !== "favorites" && (
-                  <Link
+                  <Button
+                    variant="ghost"
                     href={`/download?lang=${selectedLanguage.id}&cat=${selectedCategoryId}`}
-                    className="flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-gray-700 bg-gray-100 hover:bg-gray-200 px-4 py-2 rounded-xl transition-colors"
                   >
                     <Download className="w-4 h-4" />
                     Download
-                  </Link>
+                  </Button>
                 )}
               </div>
             </div>

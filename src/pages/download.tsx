@@ -1,13 +1,23 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
-import Link from "next/link";
-import { Download, ArrowLeft, Loader2 } from "lucide-react";
+import {
+  Download,
+  ArrowLeft,
+  Loader2,
+  RefreshCw,
+  BookOpen,
+  Volume2,
+  Keyboard,
+} from "lucide-react";
+import { Button } from "@/components/ui/Button";
 import { LanguageId, CategoryId } from "@/types";
 import { getCategoryById, getLanguageById } from "@/utils/languages";
 import { getCategoryData } from "@/utils/getPhraseData";
 import { generateCSV } from "@/utils/generateCSV";
 import { generateAnkiDeck } from "@/utils/generateAnkiDeck";
+import { Card } from "@/components/ui/Card";
+import { div } from "framer-motion/client";
 
 function triggerDownload(blob: Blob, filename: string) {
   const url = URL.createObjectURL(blob);
@@ -46,13 +56,10 @@ export default function DownloadPage() {
           <p className="text-sm text-gray-500 mb-6">
             Select a specific category to download its phrases and words.
           </p>
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 hover:text-blue-700"
-          >
+          <Button variant="link-blue" href="/">
             <ArrowLeft className="w-4 h-4" />
             Back to phrases
-          </Link>
+          </Button>
         </div>
       </div>
     );
@@ -73,13 +80,10 @@ export default function DownloadPage() {
           <p className="text-sm text-gray-500 mb-6">
             The language or category you specified doesn&apos;t exist.
           </p>
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-sm font-medium text-blue-600 hover:text-blue-700"
-          >
+          <Button variant="link-blue" href="/">
             <ArrowLeft className="w-4 h-4" />
             Back to phrases
-          </Link>
+          </Button>
         </div>
       </div>
     );
@@ -117,18 +121,17 @@ export default function DownloadPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Download {category.name} - {language.name}</title>
+        <title>
+          Download {category.name} - {language.name}
+        </title>
       </Head>
 
       <div className="max-w-lg mx-auto px-4 py-8">
         {/* Back link */}
-        <Link
-          href="/"
-          className="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-gray-700 mb-8"
-        >
+        <Button variant="link-gray" href="/" className="mb-8">
           <ArrowLeft className="w-4 h-4" />
           Back to phrases
-        </Link>
+        </Button>
 
         {/* Header */}
         <div className="text-center mb-8">
@@ -144,21 +147,28 @@ export default function DownloadPage() {
           </p>
         </div>
 
+        <h2 className="text-xs font-semibold text-gray-500 mb-4 uppercase tracking-widest">
+          Download options
+        </h2>
+
         {/* Anki Download Card */}
-        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-4">
+        <Card>
           <div className="flex items-start gap-4">
             <div className="flex-1">
               <h2 className="font-semibold text-gray-800">Anki Deck</h2>
               <p className="text-sm text-gray-500 mt-1">
-                Import into Anki for spaced repetition study. Cards show vocabulary
-                on the front, translation and pronunciation on the back.
+                Import into Anki for spaced repetition study. Cards show
+                vocabulary on the front, translation and pronunciation on the
+                back.
               </p>
             </div>
           </div>
-          <button
+          <Button
+            variant="primary"
+            fullWidth
             onClick={handleDownloadAnki}
             disabled={ankiLoading}
-            className="mt-4 w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium py-3 px-4 rounded-xl transition-colors"
+            className="mt-4"
           >
             {ankiLoading ? (
               <>
@@ -171,32 +181,122 @@ export default function DownloadPage() {
                 Download .apkg
               </>
             )}
-          </button>
-        </div>
+          </Button>
 
-        {/* CSV Download Card */}
-        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+          <Divider />
+
+          {/* Memozora */}
           <div className="flex items-start gap-4">
             <div className="flex-1">
-              <h2 className="font-semibold text-gray-800">CSV File</h2>
+              <h2 className="font-semibold text-gray-800">Memozora Deck</h2>
               <p className="text-sm text-gray-500 mt-1">
                 Import into{" "}
-                <a href="https://quizlet.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 underline">Quizlet</a>,{" "}
-                <a href="https://memozora.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 underline">Memozora</a>,
-                or open in any spreadsheet app.
-                Columns: Vocabulary, Translation, Pronunciation.
+                <a
+                  href="https://memozora.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-700 underline"
+                >
+                  Memozora
+                </a>{" "}
+                for spaced repetition study along with its enhanced language
+                learning features. Columns: Vocabulary, Translation,
+                Pronunciation.
               </p>
             </div>
           </div>
-          <button
+          <Button
+            variant="secondary"
+            fullWidth
             onClick={handleDownloadCSV}
-            className="mt-4 w-full flex items-center justify-center gap-2 bg-gray-800 hover:bg-gray-900 text-white font-medium py-3 px-4 rounded-xl transition-colors"
+            className="mt-4"
           >
             <Download className="w-4 h-4" />
             Download .csv
-          </button>
+          </Button>
+        </Card>
+
+        {/* Sponsored */}
+        <div className="mt-8 text-center text-xs text-[#b9c1c8] flex items-center justify-stretch gap-4">
+          <div className="h-[1px] w-full bg-[#ebedf0]" />
+          <span className="shrink-0">We are sponsored by</span>
+          <div className="h-[1px] w-full bg-[#ebedf0]" />
+        </div>
+
+        {/* Sponsored by Memozora */}
+        <div className="mt-8 rounded-2xl border border-teal-100 bg-teal-50 p-6">
+          <p className="text-xs font-medium uppercase tracking-widest text-teal-500 mb-4">
+            Memozora.com
+          </p>
+          <a
+            href="https://memozora.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 group"
+          >
+            <img
+              src="/img/memozora.png"
+              alt="Memozora"
+              className="w-14 h-14 rounded-2xl shadow-sm flex-shrink-0"
+            />
+
+            <div>
+              <p className="text-lg font-bold leading-snug text-gray-900 group-hover:text-teal-700 transition-colors">
+                Anki alternative for serious language learners
+              </p>
+            </div>
+          </a>
+          <ul className="mt-4 space-y-3">
+            {[
+              {
+                Icon: RefreshCw,
+                title: "Flexible spaced repetition",
+                description:
+                  "Review words at the right time, with different quiz formats",
+              },
+              {
+                Icon: BookOpen,
+                title: "Embedded dictionaries",
+                description: "Look up words without leaving the app",
+              },
+              {
+                Icon: Volume2,
+                title: "Human-level text-to-speech",
+                description:
+                  "Hear natural pronunciations for any word or phrase",
+              },
+              {
+                Icon: Keyboard,
+                title: "Typing quiz",
+                description: "Reinforce vocabulary by actively recalling it",
+              },
+            ].map(({ Icon, title, description }) => (
+              <li key={title} className="flex items-start gap-[16px] text-sm">
+                <span className="mt-[2px]">
+                  <Icon className="w-[16px] h-[16px] text-teal-500 mt-0.5 flex-shrink-0" />
+                </span>
+                <div>
+                  <span className="font-semibold text-gray-800">{title}</span>
+                  <p className="text-gray-500 mt-0.5">{description}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+          <Button
+            variant="teal"
+            fullWidth
+            href="https://memozora.com"
+            external
+            className="mt-5"
+          >
+            Try Memozora free →
+          </Button>
         </div>
       </div>
     </div>
   );
+}
+
+function Divider() {
+  return <div className="h-[1px] w-full bg-[#ebedf0] my-6" />;
 }

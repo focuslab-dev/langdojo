@@ -8,7 +8,7 @@ export function generateTSV(items: Phrase[]): Blob {
   // const header = `Vocabulary\tTranslation\tPronunciation`;
   const rows = items.map(
     (item) =>
-      `${escapeTSVField(item.text)}\t${escapeTSVField(item.translation)}\t${escapeTSVField(item.pronunciation)}`,
+      `${escapeTSVField(item.text)}\t${escapeTSVField(item.translation)}\t(${escapeTSVField(item.pronunciation)})`,
   );
 
   const tsv = rows.join("\n");

@@ -5,12 +5,12 @@ function escapeTSVField(field: string): string {
 }
 
 export function generateTSV(items: Phrase[]): Blob {
-  const header = `Vocabulary\tTranslation\tPronunciation`;
+  // const header = `Vocabulary\tTranslation\tPronunciation`;
   const rows = items.map(
     (item) =>
       `${escapeTSVField(item.text)}\t${escapeTSVField(item.translation)}\t${escapeTSVField(item.pronunciation)}`,
   );
 
-  const tsv = [header, ...rows].join("\n");
+  const tsv = rows.join("\n");
   return new Blob([tsv], { type: "text/tab-separated-values;charset=utf-8;" });
 }

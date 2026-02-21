@@ -6,7 +6,7 @@
       "id": "fr-hotel-have-reservation",
       "translation": "Do you have a reservation?",
       "text": "Avez-vous une réservation ?",
-      "pronunciation": "Avay-voo oon rayzairvasyohn?",
+      "pronunciation": "ah-vay voo oon ray-zair-vah-syon?",
       "words": [
         { "text": "Avez-vous", "pronunciation": "ah-vay voo", "translation": "do you have" },
         { "text": "une réservation", "pronunciation": "oon ray-zair-vah-syon", "translation": "a reservation" }
@@ -16,7 +16,7 @@
       "id": "fr-hotel-i-have-reservation",
       "translation": "I have a reservation",
       "text": "J'ai une réservation",
-      "pronunciation": "Zhay oon rayzairvasyohn",
+      "pronunciation": "zhay oon ray-zair-vah-syon",
       "words": [
         { "text": "J'ai", "pronunciation": "zhay", "translation": "I have" },
         { "text": "une réservation", "pronunciation": "oon ray-zair-vah-syon", "translation": "a reservation" }
@@ -26,7 +26,7 @@
       "id": "fr-hotel-check-in",
       "translation": "I'd like to check in",
       "text": "Je voudrais faire le check-in",
-      "pronunciation": "Zhuh voodray fair luh check-in",
+      "pronunciation": "zhuh voo-dreh fair luh check-in",
       "words": [
         { "text": "Je voudrais", "pronunciation": "zhuh voo-dreh", "translation": "I would like" },
         { "text": "faire", "pronunciation": "fair", "translation": "to do / make" },
@@ -34,32 +34,32 @@
       ]
     },
     {
-      "id": "fr-hotel-check-out",
-      "translation": "I'd like to check out",
-      "text": "Je voudrais faire le check-out",
-      "pronunciation": "Zhuh voodray fair luh check-out",
-      "words": [
-        { "text": "Je voudrais", "pronunciation": "zhuh voo-dreh", "translation": "I would like" },
-        { "text": "faire", "pronunciation": "fair", "translation": "to do / make" },
-        { "text": "le check-out", "pronunciation": "luh check-out", "translation": "check-out" }
-      ]
-    },
-    {
       "id": "fr-hotel-room-third-floor",
       "translation": "Your room is on the 3rd floor",
       "text": "Votre chambre est au troisième étage",
-      "pronunciation": "Votruh shombruh ay oh trwahzyem aytazh",
+      "pronunciation": "voh-truh shom-bruh ay oh trwah-zyem ay-tazh",
       "words": [
-        { "text": "Votre chambre", "pronunciation": "vo-truh shom-bruh", "translation": "your room" },
+        { "text": "Votre chambre", "pronunciation": "voh-truh shom-bruh", "translation": "your room" },
         { "text": "est au", "pronunciation": "ay oh", "translation": "is on the" },
         { "text": "troisième étage", "pronunciation": "trwah-zyem ay-tazh", "translation": "third floor" }
+      ]
+    },
+    {
+      "id": "fr-hotel-room-key",
+      "translation": "Could I get my room key?",
+      "text": "Puis-je avoir la clé de ma chambre ?",
+      "pronunciation": "pweezh ah-vwahr lah klay duh mah shom-bruh?",
+      "words": [
+        { "text": "Puis-je avoir", "pronunciation": "pweezh ah-vwahr", "translation": "could I have" },
+        { "text": "la clé", "pronunciation": "lah klay", "translation": "the key" },
+        { "text": "de ma chambre", "pronunciation": "duh mah shom-bruh", "translation": "of my room" }
       ]
     },
     {
       "id": "fr-hotel-single-room",
       "translation": "A single room, please",
       "text": "Une chambre simple, s'il vous plaît",
-      "pronunciation": "Oon shombruh sampluh, seel voo play",
+      "pronunciation": "oon shom-bruh sam-pluh, seel voo pleh",
       "words": [
         { "text": "Une chambre", "pronunciation": "oon shom-bruh", "translation": "a room" },
         { "text": "simple", "pronunciation": "sam-pluh", "translation": "single" },
@@ -70,7 +70,7 @@
       "id": "fr-hotel-double-room",
       "translation": "A double room, please",
       "text": "Une chambre double, s'il vous plaît",
-      "pronunciation": "Oon shombruh doobluh, seel voo play",
+      "pronunciation": "oon shom-bruh doo-bluh, seel voo pleh",
       "words": [
         { "text": "Une chambre", "pronunciation": "oon shom-bruh", "translation": "a room" },
         { "text": "double", "pronunciation": "doo-bluh", "translation": "double" },
@@ -81,27 +81,91 @@
       "id": "fr-hotel-price-per-night",
       "translation": "How much per night?",
       "text": "C'est combien par nuit ?",
-      "pronunciation": "Say kombyen par nwee?",
+      "pronunciation": "say kom-bee-en par nwee?",
       "words": [
         { "text": "C'est combien", "pronunciation": "say kom-bee-en", "translation": "how much is it" },
         { "text": "par nuit", "pronunciation": "par nwee", "translation": "per night" }
       ]
     },
     {
+      "id": "fr-hotel-wifi-password",
+      "translation": "The Wi-Fi password, please",
+      "text": "Le mot de passe Wi-Fi, s'il vous plaît",
+      "pronunciation": "luh moh duh pass wee-fee, seel voo pleh",
+      "words": [
+        { "text": "Le mot de passe", "pronunciation": "luh moh duh pass", "translation": "the password" },
+        { "text": "Wi-Fi", "pronunciation": "wee-fee", "translation": "Wi-Fi" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
+      ]
+    },
+    {
       "id": "fr-hotel-breakfast-included",
       "translation": "Is breakfast included?",
       "text": "Le petit-déjeuner est inclus ?",
-      "pronunciation": "Luh puhtee dayzhunay ay anklew?",
+      "pronunciation": "luh puh-tee day-zhuh-nay ay an-klew?",
       "words": [
         { "text": "Le petit-déjeuner", "pronunciation": "luh puh-tee day-zhuh-nay", "translation": "breakfast" },
         { "text": "est inclus", "pronunciation": "ay an-klew", "translation": "is included" }
       ]
     },
     {
+      "id": "fr-hotel-extra-towels",
+      "translation": "Could I get extra towels?",
+      "text": "Puis-je avoir des serviettes supplémentaires ?",
+      "pronunciation": "pweezh ah-vwahr day sair-vyet soo-play-mon-tair?",
+      "words": [
+        { "text": "Puis-je avoir", "pronunciation": "pweezh ah-vwahr", "translation": "could I have" },
+        { "text": "des serviettes", "pronunciation": "day sair-vyet", "translation": "some towels" },
+        { "text": "supplémentaires", "pronunciation": "soo-play-mon-tair", "translation": "extra / additional" }
+      ]
+    },
+    {
+      "id": "fr-hotel-extra-pillow",
+      "translation": "Could I get an extra pillow?",
+      "text": "Puis-je avoir un oreiller supplémentaire ?",
+      "pronunciation": "pweezh ah-vwahr uhn oh-ray-yay soo-play-mon-tair?",
+      "words": [
+        { "text": "Puis-je avoir", "pronunciation": "pweezh ah-vwahr", "translation": "could I have" },
+        { "text": "un oreiller", "pronunciation": "uhn oh-ray-yay", "translation": "a pillow" },
+        { "text": "supplémentaire", "pronunciation": "soo-play-mon-tair", "translation": "extra" }
+      ]
+    },
+    {
+      "id": "fr-hotel-ac-broken",
+      "translation": "The air conditioning doesn't work",
+      "text": "La climatisation ne marche pas",
+      "pronunciation": "lah klee-mah-tee-zah-syon nuh marsh pah",
+      "words": [
+        { "text": "La climatisation", "pronunciation": "lah klee-mah-tee-zah-syon", "translation": "the air conditioning" },
+        { "text": "ne marche pas", "pronunciation": "nuh marsh pah", "translation": "doesn't work" }
+      ]
+    },
+    {
+      "id": "fr-hotel-no-hot-water",
+      "translation": "There's no hot water",
+      "text": "Il n'y a pas d'eau chaude",
+      "pronunciation": "eel nyah pah doh shohd",
+      "words": [
+        { "text": "Il n'y a pas", "pronunciation": "eel nyah pah", "translation": "there is no" },
+        { "text": "d'eau chaude", "pronunciation": "doh shohd", "translation": "hot water" }
+      ]
+    },
+    {
+      "id": "fr-hotel-late-checkout",
+      "translation": "Can I have a late checkout?",
+      "text": "Puis-je avoir un départ tardif ?",
+      "pronunciation": "pweezh ah-vwahr uhn day-par tar-deef?",
+      "words": [
+        { "text": "Puis-je avoir", "pronunciation": "pweezh ah-vwahr", "translation": "could I have" },
+        { "text": "un départ", "pronunciation": "uhn day-par", "translation": "a departure" },
+        { "text": "tardif", "pronunciation": "tar-deef", "translation": "late" }
+      ]
+    },
+    {
       "id": "fr-hotel-checkout-time",
       "translation": "What time is checkout?",
       "text": "Le check-out est à quelle heure ?",
-      "pronunciation": "Luh check-out ay ah kel uhr?",
+      "pronunciation": "luh check-out ay ah kel uhr?",
       "words": [
         { "text": "Le check-out", "pronunciation": "luh check-out", "translation": "checkout" },
         { "text": "est à", "pronunciation": "ay ah", "translation": "is at" },
@@ -112,7 +176,7 @@
       "id": "fr-hotel-checkout-eleven",
       "translation": "Checkout is at 11am",
       "text": "Le check-out est à onze heures",
-      "pronunciation": "Luh check-out ay ah onz uhr",
+      "pronunciation": "luh check-out ay ah onz uhr",
       "words": [
         { "text": "Le check-out", "pronunciation": "luh check-out", "translation": "checkout" },
         { "text": "est à", "pronunciation": "ay ah", "translation": "is at" },
@@ -120,10 +184,21 @@
       ]
     },
     {
+      "id": "fr-hotel-check-out",
+      "translation": "I'd like to check out",
+      "text": "Je voudrais faire le check-out",
+      "pronunciation": "zhuh voo-dreh fair luh check-out",
+      "words": [
+        { "text": "Je voudrais", "pronunciation": "zhuh voo-dreh", "translation": "I would like" },
+        { "text": "faire", "pronunciation": "fair", "translation": "to do / make" },
+        { "text": "le check-out", "pronunciation": "luh check-out", "translation": "check-out" }
+      ]
+    },
+    {
       "id": "fr-hotel-leave-luggage",
       "translation": "Can I leave my luggage?",
       "text": "Puis-je laisser mes bagages ?",
-      "pronunciation": "Pweezh laysay may bagazh?",
+      "pronunciation": "pweezh lay-say may bah-gazh?",
       "words": [
         { "text": "Puis-je", "pronunciation": "pweezh", "translation": "may I" },
         { "text": "laisser", "pronunciation": "lay-say", "translation": "leave / store" },
@@ -131,58 +206,47 @@
       ]
     },
     {
-      "id": "fr-hotel-wifi-password",
-      "translation": "The Wi-Fi password, please",
-      "text": "Le mot de passe Wi-Fi, s'il vous plaît",
-      "pronunciation": "Luh moh duh pass Wi-Fi, seel voo play",
+      "id": "fr-hotel-thank-you",
+      "translation": "Thank you for your hospitality",
+      "text": "Merci pour votre accueil",
+      "pronunciation": "mair-see poor voh-truh ah-kuh-y",
       "words": [
-        { "text": "Le mot de passe", "pronunciation": "luh moh duh pass", "translation": "the password" },
-        { "text": "Wi-Fi", "pronunciation": "wee-fee", "translation": "Wi-Fi" },
-        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
-      ]
-    },
-    {
-      "id": "fr-hotel-extra-towels",
-      "translation": "Could I get extra towels?",
-      "text": "Puis-je avoir des serviettes supplémentaires ?",
-      "pronunciation": "Pweezh avwar day sairvyet sooplaymohtair?",
-      "words": [
-        { "text": "Puis-je avoir", "pronunciation": "pweezh ah-vwahr", "translation": "could I have" },
-        { "text": "des serviettes", "pronunciation": "day sair-vyet", "translation": "some towels" },
-        { "text": "supplémentaires", "pronunciation": "soo-play-mon-tair", "translation": "extra / additional" }
-      ]
-    },
-    {
-      "id": "fr-hotel-ac-broken",
-      "translation": "The air conditioning doesn't work",
-      "text": "La climatisation ne marche pas",
-      "pronunciation": "Lah kleemateezasyohn nuh marsh pah",
-      "words": [
-        { "text": "La climatisation", "pronunciation": "lah klee-mah-tee-zah-syon", "translation": "the air conditioning" },
-        { "text": "ne marche pas", "pronunciation": "nuh marsh pah", "translation": "doesn't work" }
+        { "text": "Merci", "pronunciation": "mair-see", "translation": "thank you" },
+        { "text": "pour", "pronunciation": "poor", "translation": "for" },
+        { "text": "votre accueil", "pronunciation": "voh-truh ah-kuh-y", "translation": "your welcome / hospitality" }
       ]
     }
   ],
   "words": [
-    { "id": "fr-hotel-w-room", "translation": "room", "text": "chambre", "pronunciation": "Shombruh" },
-    { "id": "fr-hotel-w-key", "translation": "key", "text": "clé", "pronunciation": "Klay" },
-    { "id": "fr-hotel-w-floor", "translation": "floor", "text": "étage", "pronunciation": "Aytazh" },
-    { "id": "fr-hotel-w-elevator", "translation": "elevator", "text": "ascenseur", "pronunciation": "Ahsonsur" },
-    { "id": "fr-hotel-w-stairs", "translation": "stairs", "text": "escalier", "pronunciation": "Eskahlyay" },
-    { "id": "fr-hotel-w-lobby", "translation": "lobby", "text": "hall", "pronunciation": "Ohl" },
-    { "id": "fr-hotel-w-front-desk", "translation": "front desk", "text": "réception", "pronunciation": "Raysepsyohn" },
-    { "id": "fr-hotel-w-bed", "translation": "bed", "text": "lit", "pronunciation": "Lee" },
-    { "id": "fr-hotel-w-pillow", "translation": "pillow", "text": "oreiller", "pronunciation": "Orayay" },
-    { "id": "fr-hotel-w-blanket", "translation": "blanket", "text": "couverture", "pronunciation": "Koovairtewr" },
-    { "id": "fr-hotel-w-towel", "translation": "towel", "text": "serviette", "pronunciation": "Sairvyet" },
-    { "id": "fr-hotel-w-bathroom", "translation": "bathroom", "text": "salle de bain", "pronunciation": "Sal duh ban" },
-    { "id": "fr-hotel-w-shower", "translation": "shower", "text": "douche", "pronunciation": "Doosh" },
-    { "id": "fr-hotel-w-hot-water", "translation": "hot water", "text": "eau chaude", "pronunciation": "Oh shohd" },
-    { "id": "fr-hotel-w-air-conditioning", "translation": "air conditioning", "text": "climatisation", "pronunciation": "Kleemateezasyohn" },
-    { "id": "fr-hotel-w-luggage", "translation": "luggage", "text": "bagages", "pronunciation": "Bagazh" },
-    { "id": "fr-hotel-w-passport", "translation": "passport", "text": "passeport", "pronunciation": "Paspor" },
-    { "id": "fr-hotel-w-reservation", "translation": "reservation", "text": "réservation", "pronunciation": "Rayzairvasyohn" },
-    { "id": "fr-hotel-w-breakfast", "translation": "breakfast", "text": "petit-déjeuner", "pronunciation": "Puhtee dayzhunay" },
-    { "id": "fr-hotel-w-wifi", "translation": "Wi-Fi", "text": "Wi-Fi", "pronunciation": "Wee-Fee" }
+    { "id": "fr-hotel-w-room", "translation": "room", "text": "chambre", "pronunciation": "shom-bruh" },
+    { "id": "fr-hotel-w-key", "translation": "key", "text": "clé", "pronunciation": "klay" },
+    { "id": "fr-hotel-w-keycard", "translation": "keycard", "text": "carte magnétique", "pronunciation": "kart mahn-yay-teek" },
+    { "id": "fr-hotel-w-floor", "translation": "floor", "text": "étage", "pronunciation": "ay-tazh" },
+    { "id": "fr-hotel-w-elevator", "translation": "elevator", "text": "ascenseur", "pronunciation": "ah-son-suhr" },
+    { "id": "fr-hotel-w-stairs", "translation": "stairs", "text": "escalier", "pronunciation": "es-kah-lyay" },
+    { "id": "fr-hotel-w-lobby", "translation": "lobby", "text": "hall", "pronunciation": "ohl" },
+    { "id": "fr-hotel-w-front-desk", "translation": "front desk", "text": "réception", "pronunciation": "ray-sep-syon" },
+    { "id": "fr-hotel-w-bed", "translation": "bed", "text": "lit", "pronunciation": "lee" },
+    { "id": "fr-hotel-w-pillow", "translation": "pillow", "text": "oreiller", "pronunciation": "oh-ray-yay" },
+    { "id": "fr-hotel-w-blanket", "translation": "blanket", "text": "couverture", "pronunciation": "koo-vair-tewr" },
+    { "id": "fr-hotel-w-towel", "translation": "towel", "text": "serviette", "pronunciation": "sair-vyet" },
+    { "id": "fr-hotel-w-bathroom", "translation": "bathroom", "text": "salle de bain", "pronunciation": "sal duh ban" },
+    { "id": "fr-hotel-w-shower", "translation": "shower", "text": "douche", "pronunciation": "doosh" },
+    { "id": "fr-hotel-w-hot-water", "translation": "hot water", "text": "eau chaude", "pronunciation": "oh shohd" },
+    { "id": "fr-hotel-w-air-conditioning", "translation": "air conditioning", "text": "climatisation", "pronunciation": "klee-mah-tee-zah-syon" },
+    { "id": "fr-hotel-w-luggage", "translation": "luggage", "text": "bagages", "pronunciation": "bah-gazh" },
+    { "id": "fr-hotel-w-passport", "translation": "passport", "text": "passeport", "pronunciation": "pas-por" },
+    { "id": "fr-hotel-w-reservation", "translation": "reservation", "text": "réservation", "pronunciation": "ray-zair-vah-syon" },
+    { "id": "fr-hotel-w-breakfast", "translation": "breakfast", "text": "petit-déjeuner", "pronunciation": "puh-tee day-zhuh-nay" },
+    { "id": "fr-hotel-w-wifi", "translation": "Wi-Fi", "text": "Wi-Fi", "pronunciation": "wee-fee" },
+    { "id": "fr-hotel-w-night", "translation": "night", "text": "nuit", "pronunciation": "nwee" },
+    { "id": "fr-hotel-w-view", "translation": "view", "text": "vue", "pronunciation": "vew" },
+    { "id": "fr-hotel-w-receipt", "translation": "receipt", "text": "reçu", "pronunciation": "ruh-sew" },
+    { "id": "fr-hotel-w-toothbrush", "translation": "toothbrush", "text": "brosse à dents", "pronunciation": "bross ah don" },
+    { "id": "fr-hotel-w-slippers", "translation": "slippers", "text": "pantoufles", "pronunciation": "pon-toofl" },
+    { "id": "fr-hotel-w-safe", "translation": "safe (lockbox)", "text": "coffre-fort", "pronunciation": "kofr for" },
+    { "id": "fr-hotel-w-laundry", "translation": "laundry", "text": "blanchisserie", "pronunciation": "blon-shee-sree" },
+    { "id": "fr-hotel-w-check-in", "translation": "check-in", "text": "enregistrement", "pronunciation": "on-ruh-zhees-truh-mon" },
+    { "id": "fr-hotel-w-departure", "translation": "departure / check-out", "text": "départ", "pronunciation": "day-par" }
   ]
 }

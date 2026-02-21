@@ -8,16 +8,8 @@
       "text": "C'est combien ?",
       "pronunciation": "Say com-bee-en?",
       "words": [
-        {
-          "text": "C'est",
-          "pronunciation": "say",
-          "translation": "it is"
-        },
-        {
-          "text": "combien",
-          "pronunciation": "kom-bee-en",
-          "translation": "how much / how many"
-        }
+        { "text": "C'est", "pronunciation": "say", "translation": "it is" },
+        { "text": "combien", "pronunciation": "kom-bee-en", "translation": "how much / how many" }
       ]
     },
     {
@@ -26,21 +18,9 @@
       "text": "C'est dix euros",
       "pronunciation": "Say dees eu-roh",
       "words": [
-        {
-          "text": "C'est",
-          "pronunciation": "say",
-          "translation": "it is"
-        },
-        {
-          "text": "dix",
-          "pronunciation": "dees",
-          "translation": "ten"
-        },
-        {
-          "text": "euros",
-          "pronunciation": "uh-roh",
-          "translation": "euros"
-        }
+        { "text": "C'est", "pronunciation": "say", "translation": "it is" },
+        { "text": "dix", "pronunciation": "dees", "translation": "ten" },
+        { "text": "euros", "pronunciation": "uh-roh", "translation": "euros" }
       ]
     },
     {
@@ -49,21 +29,9 @@
       "text": "Un billet, s'il vous plaît",
       "pronunciation": "Uhn bee-yeh, seel voo pleh",
       "words": [
-        {
-          "text": "Un",
-          "pronunciation": "uhn",
-          "translation": "one / a (m.)"
-        },
-        {
-          "text": "billet",
-          "pronunciation": "bee-yeh",
-          "translation": "ticket"
-        },
-        {
-          "text": "s'il vous plaît",
-          "pronunciation": "seel voo pleh",
-          "translation": "please"
-        }
+        { "text": "Un", "pronunciation": "uhn", "translation": "one / a (m.)" },
+        { "text": "billet", "pronunciation": "bee-yeh", "translation": "ticket" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
       ]
     },
     {
@@ -72,21 +40,9 @@
       "text": "Deux cafés, s'il vous plaît",
       "pronunciation": "Duh kah-fay, seel voo pleh",
       "words": [
-        {
-          "text": "Deux",
-          "pronunciation": "duh",
-          "translation": "two"
-        },
-        {
-          "text": "cafés",
-          "pronunciation": "kah-fay",
-          "translation": "coffees"
-        },
-        {
-          "text": "s'il vous plaît",
-          "pronunciation": "seel voo pleh",
-          "translation": "please"
-        }
+        { "text": "Deux", "pronunciation": "duh", "translation": "two" },
+        { "text": "cafés", "pronunciation": "kah-fay", "translation": "coffees" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
       ]
     },
     {
@@ -95,21 +51,9 @@
       "text": "Une table pour quatre",
       "pronunciation": "Ewn tahbl poor katr",
       "words": [
-        {
-          "text": "Une table",
-          "pronunciation": "ewn tahbl",
-          "translation": "a table"
-        },
-        {
-          "text": "pour",
-          "pronunciation": "poor",
-          "translation": "for"
-        },
-        {
-          "text": "quatre",
-          "pronunciation": "katr",
-          "translation": "four"
-        }
+        { "text": "Une table", "pronunciation": "ewn tahbl", "translation": "a table" },
+        { "text": "pour", "pronunciation": "poor", "translation": "for" },
+        { "text": "quatre", "pronunciation": "katr", "translation": "four" }
       ]
     },
     {
@@ -118,16 +62,8 @@
       "text": "Quelle heure est-il ?",
       "pronunciation": "Kel uhr eh-teel?",
       "words": [
-        {
-          "text": "Quelle heure",
-          "pronunciation": "kel uhr",
-          "translation": "what time"
-        },
-        {
-          "text": "est-il",
-          "pronunciation": "eh-teel",
-          "translation": "is it"
-        }
+        { "text": "Quelle heure", "pronunciation": "kel uhr", "translation": "what time" },
+        { "text": "est-il", "pronunciation": "eh-teel", "translation": "is it" }
       ]
     },
     {
@@ -136,21 +72,9 @@
       "text": "Il est trois heures",
       "pronunciation": "Eel eh twah uhr",
       "words": [
-        {
-          "text": "Il est",
-          "pronunciation": "eel eh",
-          "translation": "it is"
-        },
-        {
-          "text": "trois",
-          "pronunciation": "twah",
-          "translation": "three"
-        },
-        {
-          "text": "heures",
-          "pronunciation": "uhr",
-          "translation": "o'clock / hours"
-        }
+        { "text": "Il est", "pronunciation": "eel eh", "translation": "it is" },
+        { "text": "trois", "pronunciation": "twah", "translation": "three" },
+        { "text": "heures", "pronunciation": "uhr", "translation": "o'clock / hours" }
       ]
     },
     {
@@ -166,21 +90,9 @@
       "text": "Ça fait cinquante euros",
       "pronunciation": "Sah feh san-kont eu-roh",
       "words": [
-        {
-          "text": "Ça fait",
-          "pronunciation": "sah feh",
-          "translation": "that comes to"
-        },
-        {
-          "text": "cinquante",
-          "pronunciation": "san-kont",
-          "translation": "fifty"
-        },
-        {
-          "text": "euros",
-          "pronunciation": "uh-roh",
-          "translation": "euros"
-        }
+        { "text": "Ça fait", "pronunciation": "sah feh", "translation": "that comes to" },
+        { "text": "cinquante", "pronunciation": "san-kont", "translation": "fifty" },
+        { "text": "euros", "pronunciation": "uh-roh", "translation": "euros" }
       ]
     },
     {
@@ -189,162 +101,152 @@
       "text": "J'en voudrais cinq, s'il vous plaît",
       "pronunciation": "Zhon voo-dreh sank, seel voo pleh",
       "words": [
-        {
-          "text": "J'en voudrais",
-          "pronunciation": "zhon voo-dreh",
-          "translation": "I'd like (some)"
-        },
-        {
-          "text": "cinq",
-          "pronunciation": "sank",
-          "translation": "five"
-        },
-        {
-          "text": "s'il vous plaît",
-          "pronunciation": "seel voo pleh",
-          "translation": "please"
-        }
+        { "text": "J'en voudrais", "pronunciation": "zhon voo-dreh", "translation": "I'd like (some)" },
+        { "text": "cinq", "pronunciation": "sank", "translation": "five" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
+      ]
+    },
+    {
+      "id": "fr-num-two-tickets",
+      "translation": "Two tickets please",
+      "text": "Deux billets, s'il vous plaît",
+      "pronunciation": "Duh bee-yeh, seel voo pleh",
+      "words": [
+        { "text": "Deux", "pronunciation": "duh", "translation": "two" },
+        { "text": "billets", "pronunciation": "bee-yeh", "translation": "tickets" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
+      ]
+    },
+    {
+      "id": "fr-num-how-many-people",
+      "translation": "How many people?",
+      "text": "Combien de personnes ?",
+      "pronunciation": "Com-bee-en duh pehr-son?",
+      "words": [
+        { "text": "Combien", "pronunciation": "com-bee-en", "translation": "how many" },
+        { "text": "de", "pronunciation": "duh", "translation": "of" },
+        { "text": "personnes", "pronunciation": "pehr-son", "translation": "people" }
+      ]
+    },
+    {
+      "id": "fr-num-what-floor",
+      "translation": "What floor is it on?",
+      "text": "C'est à quel étage ?",
+      "pronunciation": "Say-tah kel ay-tahzh?",
+      "words": [
+        { "text": "C'est à", "pronunciation": "say-tah", "translation": "it's on" },
+        { "text": "quel", "pronunciation": "kel", "translation": "which" },
+        { "text": "étage", "pronunciation": "ay-tahzh", "translation": "floor" }
+      ]
+    },
+    {
+      "id": "fr-num-room-number",
+      "translation": "What's the room number?",
+      "text": "C'est quel numéro de chambre ?",
+      "pronunciation": "Say kel new-may-roh duh shombr?",
+      "words": [
+        { "text": "C'est", "pronunciation": "say", "translation": "it is" },
+        { "text": "quel", "pronunciation": "kel", "translation": "which" },
+        { "text": "numéro", "pronunciation": "new-may-roh", "translation": "number" },
+        { "text": "de chambre", "pronunciation": "duh shombr", "translation": "of room" }
+      ]
+    },
+    {
+      "id": "fr-num-phone-number",
+      "translation": "What's the phone number?",
+      "text": "Quel est le numéro de téléphone ?",
+      "pronunciation": "Kel eh luh new-may-roh duh tay-lay-fon?",
+      "words": [
+        { "text": "Quel est", "pronunciation": "kel eh", "translation": "what is" },
+        { "text": "le numéro", "pronunciation": "luh new-may-roh", "translation": "the number" },
+        { "text": "de téléphone", "pronunciation": "duh tay-lay-fon", "translation": "of phone" }
+      ]
+    },
+    {
+      "id": "fr-num-my-phone-number",
+      "translation": "What's your phone number?",
+      "text": "Quel est votre numéro de téléphone ?",
+      "pronunciation": "Kel eh vo-truh noo-may-roh duh tay-lay-fon?",
+      "words": [
+        { "text": "Quel est", "pronunciation": "kel eh", "translation": "what is" },
+        { "text": "votre", "pronunciation": "vo-truh", "translation": "your (formal)" },
+        { "text": "numéro de téléphone", "pronunciation": "noo-may-roh duh tay-lay-fon", "translation": "phone number" }
+      ]
+    },
+    {
+      "id": "fr-num-how-old",
+      "translation": "How old are you?",
+      "text": "Vous avez quel âge ?",
+      "pronunciation": "Voo-zah-vay kel ahzh?",
+      "words": [
+        { "text": "Vous avez", "pronunciation": "voo-zah-vay", "translation": "you have" },
+        { "text": "quel", "pronunciation": "kel", "translation": "what" },
+        { "text": "âge", "pronunciation": "ahzh", "translation": "age" }
+      ]
+    },
+    {
+      "id": "fr-num-wifi-password",
+      "translation": "What's the WiFi password?",
+      "text": "Quel est le mot de passe WiFi ?",
+      "pronunciation": "Kel eh luh moh duh pass wee-fee?",
+      "words": [
+        { "text": "Quel est", "pronunciation": "kel eh", "translation": "what is" },
+        { "text": "le mot de passe", "pronunciation": "luh moh duh pass", "translation": "the password" },
+        { "text": "WiFi", "pronunciation": "wee-fee", "translation": "WiFi" }
+      ]
+    },
+    {
+      "id": "fr-num-table-number",
+      "translation": "Table number three",
+      "text": "Table numéro trois",
+      "pronunciation": "Tahbl new-may-roh twah",
+      "words": [
+        { "text": "Table", "pronunciation": "tahbl", "translation": "table" },
+        { "text": "numéro", "pronunciation": "new-may-roh", "translation": "number" },
+        { "text": "trois", "pronunciation": "twah", "translation": "three" }
+      ]
+    },
+    {
+      "id": "fr-num-how-many-minutes",
+      "translation": "How many minutes?",
+      "text": "Combien de minutes ?",
+      "pronunciation": "Com-bee-en duh mee-newt?",
+      "words": [
+        { "text": "Combien", "pronunciation": "com-bee-en", "translation": "how many" },
+        { "text": "de", "pronunciation": "duh", "translation": "of" },
+        { "text": "minutes", "pronunciation": "mee-newt", "translation": "minutes" }
       ]
     }
   ],
   "words": [
-    {
-      "id": "fr-num-w-one",
-      "translation": "1",
-      "text": "un",
-      "pronunciation": "Uhn"
-    },
-    {
-      "id": "fr-num-w-two",
-      "translation": "2",
-      "text": "deux",
-      "pronunciation": "Duh"
-    },
-    {
-      "id": "fr-num-w-three",
-      "translation": "3",
-      "text": "trois",
-      "pronunciation": "Twah"
-    },
-    {
-      "id": "fr-num-w-four",
-      "translation": "4",
-      "text": "quatre",
-      "pronunciation": "Katr"
-    },
-    {
-      "id": "fr-num-w-five",
-      "translation": "5",
-      "text": "cinq",
-      "pronunciation": "Sank"
-    },
-    {
-      "id": "fr-num-w-six",
-      "translation": "6",
-      "text": "six",
-      "pronunciation": "Sees"
-    },
-    {
-      "id": "fr-num-w-seven",
-      "translation": "7",
-      "text": "sept",
-      "pronunciation": "Set"
-    },
-    {
-      "id": "fr-num-w-eight",
-      "translation": "8",
-      "text": "huit",
-      "pronunciation": "Weet"
-    },
-    {
-      "id": "fr-num-w-nine",
-      "translation": "9",
-      "text": "neuf",
-      "pronunciation": "Nuhf"
-    },
-    {
-      "id": "fr-num-w-ten",
-      "translation": "10",
-      "text": "dix",
-      "pronunciation": "Dees"
-    },
-    {
-      "id": "fr-num-w-eleven",
-      "translation": "11",
-      "text": "onze",
-      "pronunciation": "Onz"
-    },
-    {
-      "id": "fr-num-w-sixteen",
-      "translation": "16",
-      "text": "seize",
-      "pronunciation": "Sez"
-    },
-    {
-      "id": "fr-num-w-seventeen",
-      "translation": "17",
-      "text": "dix-sept",
-      "pronunciation": "Dee-set"
-    },
-    {
-      "id": "fr-num-w-twenty",
-      "translation": "20",
-      "text": "vingt",
-      "pronunciation": "Van"
-    },
-    {
-      "id": "fr-num-w-twenty-one",
-      "translation": "21",
-      "text": "vingt et un",
-      "pronunciation": "Van-tay-uhn"
-    },
-    {
-      "id": "fr-num-w-fifty",
-      "translation": "50",
-      "text": "cinquante",
-      "pronunciation": "San-kont"
-    },
-    {
-      "id": "fr-num-w-seventy",
-      "translation": "70",
-      "text": "soixante-dix",
-      "pronunciation": "Swah-sont-dees"
-    },
-    {
-      "id": "fr-num-w-eighty",
-      "translation": "80",
-      "text": "quatre-vingts",
-      "pronunciation": "Katr-van"
-    },
-    {
-      "id": "fr-num-w-ninety",
-      "translation": "90",
-      "text": "quatre-vingt-dix",
-      "pronunciation": "Katr-van-dees"
-    },
-    {
-      "id": "fr-num-w-hundred",
-      "translation": "100",
-      "text": "cent",
-      "pronunciation": "Son"
-    },
-    {
-      "id": "fr-num-w-five-hundred",
-      "translation": "500",
-      "text": "cinq cents",
-      "pronunciation": "Sank-son"
-    },
-    {
-      "id": "fr-num-w-thousand",
-      "translation": "1,000",
-      "text": "mille",
-      "pronunciation": "Meel"
-    },
-    {
-      "id": "fr-num-w-ten-thousand",
-      "translation": "10,000",
-      "text": "dix mille",
-      "pronunciation": "Dee meel"
-    }
+    { "id": "fr-num-w-zero", "translation": "0", "text": "zéro", "pronunciation": "Zay-roh" },
+    { "id": "fr-num-w-one", "translation": "1", "text": "un", "pronunciation": "Uhn" },
+    { "id": "fr-num-w-two", "translation": "2", "text": "deux", "pronunciation": "Duh" },
+    { "id": "fr-num-w-three", "translation": "3", "text": "trois", "pronunciation": "Twah" },
+    { "id": "fr-num-w-four", "translation": "4", "text": "quatre", "pronunciation": "Katr" },
+    { "id": "fr-num-w-five", "translation": "5", "text": "cinq", "pronunciation": "Sank" },
+    { "id": "fr-num-w-six", "translation": "6", "text": "six", "pronunciation": "Sees" },
+    { "id": "fr-num-w-seven", "translation": "7", "text": "sept", "pronunciation": "Set" },
+    { "id": "fr-num-w-eight", "translation": "8", "text": "huit", "pronunciation": "Weet" },
+    { "id": "fr-num-w-nine", "translation": "9", "text": "neuf", "pronunciation": "Nuhf" },
+    { "id": "fr-num-w-ten", "translation": "10", "text": "dix", "pronunciation": "Dees" },
+    { "id": "fr-num-w-eleven", "translation": "11", "text": "onze", "pronunciation": "Onz" },
+    { "id": "fr-num-w-sixteen", "translation": "16", "text": "seize", "pronunciation": "Sez" },
+    { "id": "fr-num-w-seventeen", "translation": "17", "text": "dix-sept", "pronunciation": "Dee-set" },
+    { "id": "fr-num-w-twenty", "translation": "20", "text": "vingt", "pronunciation": "Van" },
+    { "id": "fr-num-w-twenty-one", "translation": "21", "text": "vingt et un", "pronunciation": "Van-tay-uhn" },
+    { "id": "fr-num-w-thirty", "translation": "30", "text": "trente", "pronunciation": "Tront" },
+    { "id": "fr-num-w-fifty", "translation": "50", "text": "cinquante", "pronunciation": "San-kont" },
+    { "id": "fr-num-w-seventy", "translation": "70", "text": "soixante-dix", "pronunciation": "Swah-sont-dees" },
+    { "id": "fr-num-w-eighty", "translation": "80", "text": "quatre-vingts", "pronunciation": "Katr-van" },
+    { "id": "fr-num-w-ninety", "translation": "90", "text": "quatre-vingt-dix", "pronunciation": "Katr-van-dees" },
+    { "id": "fr-num-w-hundred", "translation": "100", "text": "cent", "pronunciation": "Son" },
+    { "id": "fr-num-w-five-hundred", "translation": "500", "text": "cinq cents", "pronunciation": "Sank-son" },
+    { "id": "fr-num-w-thousand", "translation": "1,000", "text": "mille", "pronunciation": "Meel" },
+    { "id": "fr-num-w-ten-thousand", "translation": "10,000", "text": "dix mille", "pronunciation": "Dee meel" },
+    { "id": "fr-num-w-half", "translation": "half", "text": "demi", "pronunciation": "Duh-mee" },
+    { "id": "fr-num-w-first", "translation": "first", "text": "premier", "pronunciation": "Pruh-mee-yay" },
+    { "id": "fr-num-w-second", "translation": "second", "text": "deuxième", "pronunciation": "Duh-zee-em" },
+    { "id": "fr-num-w-third", "translation": "third", "text": "troisième", "pronunciation": "Twah-zee-em" }
   ]
 }

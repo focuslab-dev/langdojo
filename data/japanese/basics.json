@@ -1,153 +1,184 @@
 {
-  "categoryId": "greetings",
+  "categoryId": "basics",
   "languageId": "japanese",
   "phrases": [
     {
-      "id": "jp-greet-welcome",
+      "id": "jp-bas-welcome",
       "translation": "Welcome",
       "text": "いらっしゃいませ",
       "pronunciation": "irasshaimase",
       "words": []
     },
     {
-      "id": "jp-greet-hello",
+      "id": "jp-bas-hello",
       "translation": "Hello",
       "text": "こんにちは",
       "pronunciation": "konnichiwa",
       "words": []
     },
     {
-      "id": "jp-greet-good-morning",
+      "id": "jp-bas-good-morning",
       "translation": "Good morning",
       "text": "おはようございます",
       "pronunciation": "ohayou gozaimasu",
       "words": [
-        {
-          "text": "おはよう",
-          "pronunciation": "ohayou",
-          "translation": "good morning"
-        },
-        {
-          "text": "ございます",
-          "pronunciation": "gozaimasu",
-          "translation": "(polite honorific suffix)"
-        }
+        { "text": "おはよう", "pronunciation": "ohayou", "translation": "good morning" },
+        { "text": "ございます", "pronunciation": "gozaimasu", "translation": "(polite honorific suffix)" }
       ]
     },
     {
-      "id": "jp-greet-good-evening",
+      "id": "jp-bas-good-evening",
       "translation": "Good evening",
       "text": "こんばんは",
       "pronunciation": "konbanwa",
       "words": []
     },
     {
-      "id": "jp-greet-excuse-me",
+      "id": "jp-bas-nice-to-meet",
+      "translation": "Nice to meet you",
+      "text": "はじめまして",
+      "pronunciation": "hajimemashite",
+      "words": []
+    },
+    {
+      "id": "jp-bas-excuse-me",
       "translation": "Excuse me / Sorry",
       "text": "すみません",
       "pronunciation": "sumimasen",
       "words": []
     },
     {
-      "id": "jp-greet-please",
+      "id": "jp-bas-please",
       "translation": "Please",
       "text": "お願いします",
       "pronunciation": "onegaishimasu",
       "words": [
-        {
-          "text": "お願い",
-          "pronunciation": "onegai",
-          "translation": "request / wish"
-        },
-        {
-          "text": "します",
-          "pronunciation": "shimasu",
-          "translation": "do (polite present)"
-        }
+        { "text": "お願い", "pronunciation": "onegai", "translation": "request / wish" },
+        { "text": "します", "pronunciation": "shimasu", "translation": "do (polite present)" }
       ]
     },
     {
-      "id": "jp-greet-yes",
+      "id": "jp-bas-yes",
       "translation": "Yes",
       "text": "はい",
       "pronunciation": "hai",
       "words": []
     },
     {
-      "id": "jp-greet-no",
+      "id": "jp-bas-no",
       "translation": "No",
       "text": "いいえ",
       "pronunciation": "iie",
       "words": []
     },
     {
-      "id": "jp-greet-dont-understand",
+      "id": "jp-bas-dont-understand",
       "translation": "I don't understand",
       "text": "わかりません",
       "pronunciation": "wakarimasen",
       "words": [
-        {
-          "text": "わかり",
-          "pronunciation": "wakari",
-          "translation": "understand (verb stem)"
-        },
-        {
-          "text": "ません",
-          "pronunciation": "masen",
-          "translation": "(polite negative ending)"
-        }
+        { "text": "わかり", "pronunciation": "wakari", "translation": "understand (verb stem)" },
+        { "text": "ません", "pronunciation": "masen", "translation": "(polite negative ending)" }
       ]
     },
     {
-      "id": "jp-greet-please-wait",
+      "id": "jp-bas-speak-english",
+      "translation": "Do you speak English?",
+      "text": "英語を話しますか？",
+      "pronunciation": "eigo wo hanashimasu ka?",
+      "words": [
+        { "text": "英語", "pronunciation": "eigo", "translation": "English" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "話します", "pronunciation": "hanashimasu", "translation": "speak (polite)" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-bas-little-japanese",
+      "translation": "I speak a little Japanese",
+      "text": "日本語を少し話します",
+      "pronunciation": "nihongo wo sukoshi hanashimasu",
+      "words": [
+        { "text": "日本語", "pronunciation": "nihongo", "translation": "Japanese (language)" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "少し", "pronunciation": "sukoshi", "translation": "a little" },
+        { "text": "話します", "pronunciation": "hanashimasu", "translation": "speak (polite)" }
+      ]
+    },
+    {
+      "id": "jp-bas-what-is-this",
+      "translation": "What is this?",
+      "text": "これは何ですか？",
+      "pronunciation": "kore wa nan desuka?",
+      "words": [
+        { "text": "これ", "pronunciation": "kore", "translation": "this" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "何", "pronunciation": "nan", "translation": "what" },
+        { "text": "ですか", "pronunciation": "desuka", "translation": "is it? (question)" }
+      ]
+    },
+    {
+      "id": "jp-bas-where-bathroom",
+      "translation": "Where is the bathroom?",
+      "text": "トイレはどこですか？",
+      "pronunciation": "toire wa doko desuka?",
+      "words": [
+        { "text": "トイレ", "pronunciation": "toire", "translation": "bathroom / toilet" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "どこ", "pronunciation": "doko", "translation": "where" },
+        { "text": "ですか", "pronunciation": "desuka", "translation": "is it? (question)" }
+      ]
+    },
+    {
+      "id": "jp-bas-how-much",
+      "translation": "How much is this?",
+      "text": "いくらですか？",
+      "pronunciation": "ikura desuka?",
+      "words": [
+        { "text": "いくら", "pronunciation": "ikura", "translation": "how much" },
+        { "text": "ですか", "pronunciation": "desuka", "translation": "is it? (question)" }
+      ]
+    },
+    {
+      "id": "jp-bas-help",
+      "translation": "Help me, please",
+      "text": "助けてください",
+      "pronunciation": "tasukete kudasai",
+      "words": [
+        { "text": "助けて", "pronunciation": "tasukete", "translation": "help (te-form)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-bas-please-wait",
       "translation": "Please wait a moment",
       "text": "少々お待ちください",
       "pronunciation": "shoushou omachi kudasai",
       "words": [
-        {
-          "text": "少々",
-          "pronunciation": "shoushou",
-          "translation": "a brief moment"
-        },
-        {
-          "text": "お待ち",
-          "pronunciation": "omachi",
-          "translation": "wait (honorific form)"
-        },
-        {
-          "text": "ください",
-          "pronunciation": "kudasai",
-          "translation": "please"
-        }
+        { "text": "少々", "pronunciation": "shoushou", "translation": "a brief moment" },
+        { "text": "お待ち", "pronunciation": "omachi", "translation": "wait (honorific form)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please" }
       ]
     },
     {
-      "id": "jp-greet-thank-you",
+      "id": "jp-bas-thank-you",
       "translation": "Thank you",
       "text": "ありがとうございます",
       "pronunciation": "arigatou gozaimasu",
       "words": [
-        {
-          "text": "ありがとう",
-          "pronunciation": "arigatou",
-          "translation": "thank you"
-        },
-        {
-          "text": "ございます",
-          "pronunciation": "gozaimasu",
-          "translation": "(polite honorific suffix)"
-        }
+        { "text": "ありがとう", "pronunciation": "arigatou", "translation": "thank you" },
+        { "text": "ございます", "pronunciation": "gozaimasu", "translation": "(polite honorific suffix)" }
       ]
     },
     {
-      "id": "jp-greet-youre-welcome",
+      "id": "jp-bas-youre-welcome",
       "translation": "You're welcome",
       "text": "どういたしまして",
       "pronunciation": "douitashimashite",
       "words": []
     },
     {
-      "id": "jp-greet-goodbye",
+      "id": "jp-bas-goodbye",
       "translation": "Goodbye",
       "text": "さようなら",
       "pronunciation": "sayounara",
@@ -155,95 +186,35 @@
     }
   ],
   "words": [
-    {
-      "id": "jp-greet-w-morning",
-      "translation": "morning",
-      "text": "朝",
-      "pronunciation": "asa"
-    },
-    {
-      "id": "jp-greet-w-evening",
-      "translation": "evening",
-      "text": "夜",
-      "pronunciation": "yoru"
-    },
-    {
-      "id": "jp-greet-w-night",
-      "translation": "night",
-      "text": "夜中",
-      "pronunciation": "yonaka"
-    },
-    {
-      "id": "jp-greet-w-today",
-      "translation": "today",
-      "text": "今日",
-      "pronunciation": "kyou"
-    },
-    {
-      "id": "jp-greet-w-tomorrow",
-      "translation": "tomorrow",
-      "text": "明日",
-      "pronunciation": "ashita"
-    },
-    {
-      "id": "jp-greet-w-yesterday",
-      "translation": "yesterday",
-      "text": "昨日",
-      "pronunciation": "kinou"
-    },
-    {
-      "id": "jp-greet-w-name",
-      "translation": "name",
-      "text": "名前",
-      "pronunciation": "namae"
-    },
-    {
-      "id": "jp-greet-w-person",
-      "translation": "person",
-      "text": "人",
-      "pronunciation": "hito"
-    },
-    {
-      "id": "jp-greet-w-friend",
-      "translation": "friend",
-      "text": "友達",
-      "pronunciation": "tomodachi"
-    },
-    {
-      "id": "jp-greet-w-i",
-      "translation": "I / me",
-      "text": "私",
-      "pronunciation": "watashi"
-    },
-    {
-      "id": "jp-greet-w-you",
-      "translation": "you",
-      "text": "あなた",
-      "pronunciation": "anata"
-    },
-    {
-      "id": "jp-greet-w-this",
-      "translation": "this",
-      "text": "これ",
-      "pronunciation": "kore"
-    },
-    {
-      "id": "jp-greet-w-that",
-      "translation": "that",
-      "text": "あれ",
-      "pronunciation": "are"
-    },
-    {
-      "id": "jp-greet-w-here",
-      "translation": "here",
-      "text": "ここ",
-      "pronunciation": "koko"
-    },
-    {
-      "id": "jp-greet-w-there",
-      "translation": "there",
-      "text": "あそこ",
-      "pronunciation": "asoko"
-    }
+    { "id": "jp-bas-w-morning", "translation": "morning", "text": "朝", "pronunciation": "asa" },
+    { "id": "jp-bas-w-evening", "translation": "evening", "text": "夜", "pronunciation": "yoru" },
+    { "id": "jp-bas-w-night", "translation": "night", "text": "夜中", "pronunciation": "yonaka" },
+    { "id": "jp-bas-w-today", "translation": "today", "text": "今日", "pronunciation": "kyou" },
+    { "id": "jp-bas-w-tomorrow", "translation": "tomorrow", "text": "明日", "pronunciation": "ashita" },
+    { "id": "jp-bas-w-yesterday", "translation": "yesterday", "text": "昨日", "pronunciation": "kinou" },
+    { "id": "jp-bas-w-name", "translation": "name", "text": "名前", "pronunciation": "namae" },
+    { "id": "jp-bas-w-person", "translation": "person", "text": "人", "pronunciation": "hito" },
+    { "id": "jp-bas-w-friend", "translation": "friend", "text": "友達", "pronunciation": "tomodachi" },
+    { "id": "jp-bas-w-i", "translation": "I / me", "text": "私", "pronunciation": "watashi" },
+    { "id": "jp-bas-w-you", "translation": "you", "text": "あなた", "pronunciation": "anata" },
+    { "id": "jp-bas-w-this", "translation": "this", "text": "これ", "pronunciation": "kore" },
+    { "id": "jp-bas-w-that", "translation": "that", "text": "あれ", "pronunciation": "are" },
+    { "id": "jp-bas-w-here", "translation": "here", "text": "ここ", "pronunciation": "koko" },
+    { "id": "jp-bas-w-there", "translation": "there", "text": "あそこ", "pronunciation": "asoko" },
+    { "id": "jp-bas-w-bathroom", "translation": "bathroom / toilet", "text": "トイレ", "pronunciation": "toire" },
+    { "id": "jp-bas-w-money", "translation": "money", "text": "お金", "pronunciation": "okane" },
+    { "id": "jp-bas-w-phone", "translation": "phone", "text": "電話", "pronunciation": "denwa" },
+    { "id": "jp-bas-w-time", "translation": "time", "text": "時間", "pronunciation": "jikan" },
+    { "id": "jp-bas-w-good", "translation": "good", "text": "いい", "pronunciation": "ii" },
+    { "id": "jp-bas-w-bad", "translation": "bad", "text": "悪い", "pronunciation": "warui" },
+    { "id": "jp-bas-w-big", "translation": "big", "text": "大きい", "pronunciation": "ookii" },
+    { "id": "jp-bas-w-small", "translation": "small", "text": "小さい", "pronunciation": "chiisai" },
+    { "id": "jp-bas-w-hot", "translation": "hot (weather)", "text": "暑い", "pronunciation": "atsui" },
+    { "id": "jp-bas-w-cold", "translation": "cold", "text": "寒い", "pronunciation": "samui" },
+    { "id": "jp-bas-w-where", "translation": "where", "text": "どこ", "pronunciation": "doko" },
+    { "id": "jp-bas-w-when", "translation": "when", "text": "いつ", "pronunciation": "itsu" },
+    { "id": "jp-bas-w-how", "translation": "how", "text": "どう", "pronunciation": "dou" },
+    { "id": "jp-bas-w-right", "translation": "right (direction)", "text": "右", "pronunciation": "migi" },
+    { "id": "jp-bas-w-left", "translation": "left (direction)", "text": "左", "pronunciation": "hidari" }
   ]
 }

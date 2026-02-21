@@ -3,370 +3,239 @@
   "languageId": "spanish",
   "phrases": [
     {
-      "id": "es-supermarket-where-is",
-      "translation": "Where is...?",
-      "text": "¿Dónde está...?",
-      "pronunciation": "DOHN-deh ehs-TAH...?",
-      "words": [
-        {
-          "text": "¿Dónde",
-          "pronunciation": "DOHN-deh",
-          "translation": "where"
-        },
-        {
-          "text": "está...?",
-          "pronunciation": "ehs-TAH",
-          "translation": "is"
-        }
-      ]
-    },
-    {
-      "id": "es-supermarket-do-you-have",
-      "translation": "Do you have...?",
-      "text": "¿Tiene...?",
-      "pronunciation": "tee-EH-neh...?",
+      "id": "es-super-excuse-me",
+      "translation": "Excuse me",
+      "text": "Disculpe",
+      "pronunciation": "dees-KOOL-peh",
       "words": []
     },
     {
-      "id": "es-supermarket-how-much",
+      "id": "es-super-looking-for",
+      "translation": "I'm looking for the milk",
+      "text": "Estoy buscando la leche",
+      "pronunciation": "ehs-TOY boos-KAHN-doh lah LEH-cheh",
+      "words": [
+        { "text": "Estoy", "pronunciation": "ehs-TOY", "translation": "I am" },
+        { "text": "buscando", "pronunciation": "boos-KAHN-doh", "translation": "looking for" },
+        { "text": "la leche", "pronunciation": "lah LEH-cheh", "translation": "the milk" }
+      ]
+    },
+    {
+      "id": "es-super-where-is",
+      "translation": "Where is the bread?",
+      "text": "¿Dónde está el pan?",
+      "pronunciation": "DOHN-deh ehs-TAH ehl PAHN?",
+      "words": [
+        { "text": "¿Dónde", "pronunciation": "DOHN-deh", "translation": "where" },
+        { "text": "está", "pronunciation": "ehs-TAH", "translation": "is" },
+        { "text": "el pan?", "pronunciation": "ehl PAHN", "translation": "the bread" }
+      ]
+    },
+    {
+      "id": "es-super-do-you-have",
+      "translation": "Do you have olive oil?",
+      "text": "¿Tiene aceite de oliva?",
+      "pronunciation": "tee-EH-neh ah-SEY-teh deh oh-LEE-vah?",
+      "words": [
+        { "text": "aceite de oliva", "pronunciation": "ah-SEY-teh deh oh-LEE-vah", "translation": "olive oil" }
+      ]
+    },
+    {
+      "id": "es-super-is-fresh",
+      "translation": "Is this fresh?",
+      "text": "¿Esto es fresco?",
+      "pronunciation": "EHS-toh ehs FREHS-koh?",
+      "words": [
+        { "text": "¿Esto", "pronunciation": "EHS-toh", "translation": "this" },
+        { "text": "es", "pronunciation": "ehs", "translation": "is" },
+        { "text": "fresco?", "pronunciation": "FREHS-koh", "translation": "fresh" }
+      ]
+    },
+    {
+      "id": "es-super-organic",
+      "translation": "Do you have organic products?",
+      "text": "¿Tienen productos orgánicos?",
+      "pronunciation": "tee-EH-nehn proh-DOOK-tohs ohr-GAH-nee-kohs?",
+      "words": [
+        { "text": "¿Tienen", "pronunciation": "tee-EH-nehn", "translation": "do you have (plural)" },
+        { "text": "productos orgánicos?", "pronunciation": "proh-DOOK-tohs ohr-GAH-nee-kohs", "translation": "organic products" }
+      ]
+    },
+    {
+      "id": "es-super-how-much",
       "translation": "How much is this?",
       "text": "¿Cuánto cuesta esto?",
       "pronunciation": "KWAHN-toh KWEHS-tah EHS-toh?",
       "words": [
-        {
-          "text": "¿Cuánto",
-          "pronunciation": "KWAHN-toh",
-          "translation": "how much"
-        },
-        {
-          "text": "cuesta",
-          "pronunciation": "KWEHS-tah",
-          "translation": "costs"
-        },
-        {
-          "text": "esto?",
-          "pronunciation": "EHS-toh",
-          "translation": "this"
-        }
+        { "text": "¿Cuánto", "pronunciation": "KWAHN-toh", "translation": "how much" },
+        { "text": "cuesta", "pronunciation": "KWEHS-tah", "translation": "costs" },
+        { "text": "esto?", "pronunciation": "EHS-toh", "translation": "this" }
       ]
     },
     {
-      "id": "es-supermarket-member-card",
+      "id": "es-super-on-sale",
+      "translation": "Is this on sale?",
+      "text": "¿Está en oferta?",
+      "pronunciation": "ehs-TAH ehn oh-FEHR-tah?",
+      "words": [
+        { "text": "¿Está", "pronunciation": "ehs-TAH", "translation": "is" },
+        { "text": "en oferta?", "pronunciation": "ehn oh-FEHR-tah", "translation": "on sale" }
+      ]
+    },
+    {
+      "id": "es-super-self-checkout",
+      "translation": "Where is the self-checkout?",
+      "text": "¿Dónde está la caja automática?",
+      "pronunciation": "DOHN-deh ehs-TAH lah KAH-hah ow-toh-MAH-tee-kah?",
+      "words": [
+        { "text": "¿Dónde está", "pronunciation": "DOHN-deh ehs-TAH", "translation": "where is" },
+        { "text": "la caja automática?", "pronunciation": "lah KAH-hah ow-toh-MAH-tee-kah", "translation": "the self-checkout" }
+      ]
+    },
+    {
+      "id": "es-super-member-card",
       "translation": "Do you have a member card?",
       "text": "¿Tiene tarjeta de socio?",
       "pronunciation": "Tee-EH-neh tar-HEH-tah deh SOH-see-oh?",
       "words": [
-        {
-          "text": "¿Tiene",
-          "pronunciation": "tee-EH-neh",
-          "translation": "do you have"
-        },
-        {
-          "text": "tarjeta de socio?",
-          "pronunciation": "tar-HEH-tah deh SOH-see-oh",
-          "translation": "a member card"
-        }
+        { "text": "¿Tiene", "pronunciation": "tee-EH-neh", "translation": "do you have" },
+        { "text": "tarjeta de socio?", "pronunciation": "tar-HEH-tah deh SOH-see-oh", "translation": "a member card" }
       ]
     },
     {
-      "id": "es-supermarket-total",
-      "translation": "Your total is... euros",
-      "text": "Su total es... euros",
-      "pronunciation": "Soo toh-TAHL ehs... EH-oo-rohs",
+      "id": "es-super-total",
+      "translation": "Your total is 15 euros",
+      "text": "Su total es 15 euros",
+      "pronunciation": "soo toh-TAHL ehs KEEN-seh EH-oo-rohs",
       "words": [
-        {
-          "text": "Su total",
-          "pronunciation": "soo toh-TAHL",
-          "translation": "your total"
-        },
-        {
-          "text": "es...",
-          "pronunciation": "ehs",
-          "translation": "is"
-        },
-        {
-          "text": "euros",
-          "pronunciation": "EH-oo-rohs",
-          "translation": "euros"
-        }
+        { "text": "Su total", "pronunciation": "soo toh-TAHL", "translation": "your total" },
+        { "text": "es", "pronunciation": "ehs", "translation": "is" },
+        { "text": "15", "pronunciation": "KEEN-seh", "translation": "fifteen" },
+        { "text": "euros", "pronunciation": "EH-oo-rohs", "translation": "euros" }
       ]
     },
     {
-      "id": "es-supermarket-need-bag",
+      "id": "es-super-need-bag",
       "translation": "Do you need a bag?",
       "text": "¿Necesita una bolsa?",
       "pronunciation": "Neh-seh-SEE-tah OO-nah BOHL-sah?",
       "words": [
-        {
-          "text": "¿Necesita",
-          "pronunciation": "neh-seh-SEE-tah",
-          "translation": "do you need"
-        },
-        {
-          "text": "una bolsa?",
-          "pronunciation": "OO-nah BOHL-sah",
-          "translation": "a bag"
-        }
+        { "text": "¿Necesita", "pronunciation": "neh-seh-SEE-tah", "translation": "do you need" },
+        { "text": "una bolsa?", "pronunciation": "OO-nah BOHL-sah", "translation": "a bag" }
       ]
     },
     {
-      "id": "es-supermarket-a-bag",
+      "id": "es-super-bag-please",
       "translation": "A bag please",
       "text": "Una bolsa, por favor",
       "pronunciation": "OO-nah BOHL-sah pohr fah-VOHR",
       "words": [
-        {
-          "text": "Una bolsa,",
-          "pronunciation": "OO-nah BOHL-sah",
-          "translation": "a bag"
-        },
-        {
-          "text": "por favor",
-          "pronunciation": "pohr fah-VOHR",
-          "translation": "please"
-        }
+        { "text": "Una bolsa,", "pronunciation": "OO-nah BOHL-sah", "translation": "a bag" },
+        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
       ]
     },
     {
-      "id": "es-supermarket-no-bag",
+      "id": "es-super-no-bag",
       "translation": "I don't need a bag",
       "text": "No necesito bolsa",
       "pronunciation": "Noh neh-seh-SEE-toh BOHL-sah",
       "words": [
-        {
-          "text": "No necesito",
-          "pronunciation": "noh neh-seh-SEE-toh",
-          "translation": "I don't need"
-        },
-        {
-          "text": "bolsa",
-          "pronunciation": "BOHL-sah",
-          "translation": "bag"
-        }
+        { "text": "No necesito", "pronunciation": "noh neh-seh-SEE-toh", "translation": "I don't need" },
+        { "text": "bolsa", "pronunciation": "BOHL-sah", "translation": "bag" }
       ]
     },
     {
-      "id": "es-supermarket-cash-or-card",
+      "id": "es-super-cash-or-card",
       "translation": "Cash or card?",
       "text": "¿Efectivo o tarjeta?",
       "pronunciation": "Eh-fehk-TEE-voh oh tar-HEH-tah?",
       "words": [
-        {
-          "text": "¿Efectivo",
-          "pronunciation": "eh-fehk-TEE-voh",
-          "translation": "cash"
-        },
-        {
-          "text": "o",
-          "pronunciation": "oh",
-          "translation": "or"
-        },
-        {
-          "text": "tarjeta?",
-          "pronunciation": "tar-HEH-tah",
-          "translation": "card"
-        }
+        { "text": "¿Efectivo", "pronunciation": "eh-fehk-TEE-voh", "translation": "cash" },
+        { "text": "o", "pronunciation": "oh", "translation": "or" },
+        { "text": "tarjeta?", "pronunciation": "tar-HEH-tah", "translation": "card" }
       ]
     },
     {
-      "id": "es-supermarket-pay-card",
+      "id": "es-super-pay-card",
       "translation": "I'll pay by card",
       "text": "Pago con tarjeta",
       "pronunciation": "PAH-goh kohn tar-HEH-tah",
       "words": [
-        {
-          "text": "Pago",
-          "pronunciation": "PAH-goh",
-          "translation": "I pay"
-        },
-        {
-          "text": "con tarjeta",
-          "pronunciation": "kohn tar-HEH-tah",
-          "translation": "by card"
-        }
+        { "text": "Pago", "pronunciation": "PAH-goh", "translation": "I pay" },
+        { "text": "con tarjeta", "pronunciation": "kohn tar-HEH-tah", "translation": "by card" }
       ]
     },
     {
-      "id": "es-supermarket-pay-cash",
+      "id": "es-super-pay-cash",
       "translation": "I'll pay with cash",
       "text": "Pago en efectivo",
       "pronunciation": "PAH-goh ehn eh-fehk-TEE-voh",
       "words": [
-        {
-          "text": "Pago",
-          "pronunciation": "PAH-goh",
-          "translation": "I pay"
-        },
-        {
-          "text": "en efectivo",
-          "pronunciation": "ehn eh-fehk-TEE-voh",
-          "translation": "in cash"
-        }
+        { "text": "Pago", "pronunciation": "PAH-goh", "translation": "I pay" },
+        { "text": "en efectivo", "pronunciation": "ehn eh-fehk-TEE-voh", "translation": "in cash" }
       ]
     },
     {
-      "id": "es-supermarket-receipt",
+      "id": "es-super-receipt",
       "translation": "Can I have a receipt?",
       "text": "¿Me da el recibo?",
       "pronunciation": "Meh dah ehl reh-SEE-boh?",
       "words": [
-        {
-          "text": "¿Me da",
-          "pronunciation": "meh dah",
-          "translation": "can you give me"
-        },
-        {
-          "text": "el recibo?",
-          "pronunciation": "ehl reh-SEE-boh",
-          "translation": "the receipt"
-        }
+        { "text": "¿Me da", "pronunciation": "meh dah", "translation": "can you give me" },
+        { "text": "el recibo?", "pronunciation": "ehl reh-SEE-boh", "translation": "the receipt" }
+      ]
+    },
+    {
+      "id": "es-super-no-receipt",
+      "translation": "I don't need a receipt",
+      "text": "No necesito recibo",
+      "pronunciation": "Noh neh-seh-SEE-toh reh-SEE-boh",
+      "words": [
+        { "text": "No necesito", "pronunciation": "noh neh-seh-SEE-toh", "translation": "I don't need" },
+        { "text": "recibo", "pronunciation": "reh-SEE-boh", "translation": "receipt" }
+      ]
+    },
+    {
+      "id": "es-super-thank-you",
+      "translation": "Thank you, good day",
+      "text": "Gracias, buen día",
+      "pronunciation": "GRAH-see-ahs, bwehn DEE-ah",
+      "words": [
+        { "text": "Gracias", "pronunciation": "GRAH-see-ahs", "translation": "thank you" },
+        { "text": "buen día", "pronunciation": "bwehn DEE-ah", "translation": "good day" }
       ]
     }
   ],
   "words": [
-    {
-      "id": "es-supermarket-w-water",
-      "translation": "water",
-      "text": "agua",
-      "pronunciation": "AH-gwah"
-    },
-    {
-      "id": "es-supermarket-w-milk",
-      "translation": "milk",
-      "text": "leche",
-      "pronunciation": "LEH-cheh"
-    },
-    {
-      "id": "es-supermarket-w-bread",
-      "translation": "bread",
-      "text": "pan",
-      "pronunciation": "PAHN"
-    },
-    {
-      "id": "es-supermarket-w-eggs",
-      "translation": "eggs",
-      "text": "huevos",
-      "pronunciation": "WEH-vohs"
-    },
-    {
-      "id": "es-supermarket-w-rice",
-      "translation": "rice",
-      "text": "arroz",
-      "pronunciation": "ah-ROHS"
-    },
-    {
-      "id": "es-supermarket-w-fruit",
-      "translation": "fruit",
-      "text": "fruta",
-      "pronunciation": "FROO-tah"
-    },
-    {
-      "id": "es-supermarket-w-snack",
-      "translation": "snack",
-      "text": "aperitivo",
-      "pronunciation": "ah-peh-ree-TEE-voh"
-    },
-    {
-      "id": "es-supermarket-w-candy",
-      "translation": "candy",
-      "text": "caramelo",
-      "pronunciation": "kah-rah-MEH-loh"
-    },
-    {
-      "id": "es-supermarket-w-ham",
-      "translation": "ham",
-      "text": "jamón",
-      "pronunciation": "hah-MOHN"
-    },
-    {
-      "id": "es-supermarket-w-olive-oil",
-      "translation": "olive oil",
-      "text": "aceite de oliva",
-      "pronunciation": "ah-SAY-teh deh oh-LEE-vah"
-    },
-    {
-      "id": "es-supermarket-w-bag",
-      "translation": "bag",
-      "text": "bolsa",
-      "pronunciation": "BOHL-sah"
-    },
-    {
-      "id": "es-supermarket-w-receipt",
-      "translation": "receipt",
-      "text": "recibo",
-      "pronunciation": "reh-SEE-boh"
-    },
-    {
-      "id": "es-supermarket-w-cash",
-      "translation": "cash",
-      "text": "efectivo",
-      "pronunciation": "eh-fehk-TEE-voh"
-    },
-    {
-      "id": "es-supermarket-w-card",
-      "translation": "card",
-      "text": "tarjeta",
-      "pronunciation": "tar-HEH-tah"
-    },
-    {
-      "id": "es-supermarket-w-change",
-      "translation": "change",
-      "text": "cambio",
-      "pronunciation": "KAHM-bee-oh"
-    },
-    {
-      "id": "es-supermarket-w-price",
-      "translation": "price",
-      "text": "precio",
-      "pronunciation": "PREH-see-oh"
-    },
-    {
-      "id": "es-supermarket-w-cheap",
-      "translation": "cheap",
-      "text": "barato",
-      "pronunciation": "bah-RAH-toh"
-    },
-    {
-      "id": "es-supermarket-w-expensive",
-      "translation": "expensive",
-      "text": "caro",
-      "pronunciation": "KAH-roh"
-    },
-    {
-      "id": "es-supermarket-w-entrance",
-      "translation": "entrance",
-      "text": "entrada",
-      "pronunciation": "ehn-TRAH-dah"
-    },
-    {
-      "id": "es-supermarket-w-exit",
-      "translation": "exit",
-      "text": "salida",
-      "pronunciation": "sah-LEE-dah"
-    },
-    {
-      "id": "es-supermarket-w-yogurt",
-      "translation": "yogurt",
-      "text": "yogur",
-      "pronunciation": "yoh-GOOR"
-    },
-    {
-      "id": "es-supermarket-w-cheese",
-      "translation": "cheese",
-      "text": "queso",
-      "pronunciation": "KEH-soh"
-    },
-    {
-      "id": "es-supermarket-w-vegetables",
-      "translation": "vegetables",
-      "text": "verduras",
-      "pronunciation": "vehr-DOO-rahs"
-    },
-    {
-      "id": "es-supermarket-w-soap",
-      "translation": "soap",
-      "text": "jabón",
-      "pronunciation": "hah-BOHN"
-    }
+    { "id": "es-super-w-water", "translation": "water", "text": "agua", "pronunciation": "AH-gwah" },
+    { "id": "es-super-w-milk", "translation": "milk", "text": "leche", "pronunciation": "LEH-cheh" },
+    { "id": "es-super-w-bread", "translation": "bread", "text": "pan", "pronunciation": "PAHN" },
+    { "id": "es-super-w-eggs", "translation": "eggs", "text": "huevos", "pronunciation": "WEH-vohs" },
+    { "id": "es-super-w-rice", "translation": "rice", "text": "arroz", "pronunciation": "ah-ROHS" },
+    { "id": "es-super-w-fruit", "translation": "fruit", "text": "fruta", "pronunciation": "FROO-tah" },
+    { "id": "es-super-w-snack", "translation": "snack", "text": "aperitivo", "pronunciation": "ah-peh-ree-TEE-voh" },
+    { "id": "es-super-w-candy", "translation": "candy", "text": "caramelo", "pronunciation": "kah-rah-MEH-loh" },
+    { "id": "es-super-w-ham", "translation": "ham", "text": "jamón", "pronunciation": "hah-MOHN" },
+    { "id": "es-super-w-olive-oil", "translation": "olive oil", "text": "aceite de oliva", "pronunciation": "ah-SAY-teh deh oh-LEE-vah" },
+    { "id": "es-super-w-bag", "translation": "bag", "text": "bolsa", "pronunciation": "BOHL-sah" },
+    { "id": "es-super-w-receipt", "translation": "receipt", "text": "recibo", "pronunciation": "reh-SEE-boh" },
+    { "id": "es-super-w-cash", "translation": "cash", "text": "efectivo", "pronunciation": "eh-fehk-TEE-voh" },
+    { "id": "es-super-w-card", "translation": "card", "text": "tarjeta", "pronunciation": "tar-HEH-tah" },
+    { "id": "es-super-w-change", "translation": "change", "text": "cambio", "pronunciation": "KAHM-bee-oh" },
+    { "id": "es-super-w-price", "translation": "price", "text": "precio", "pronunciation": "PREH-see-oh" },
+    { "id": "es-super-w-cheap", "translation": "cheap", "text": "barato", "pronunciation": "bah-RAH-toh" },
+    { "id": "es-super-w-expensive", "translation": "expensive", "text": "caro", "pronunciation": "KAH-roh" },
+    { "id": "es-super-w-entrance", "translation": "entrance", "text": "entrada", "pronunciation": "ehn-TRAH-dah" },
+    { "id": "es-super-w-exit", "translation": "exit", "text": "salida", "pronunciation": "sah-LEE-dah" },
+    { "id": "es-super-w-yogurt", "translation": "yogurt", "text": "yogur", "pronunciation": "yoh-GOOR" },
+    { "id": "es-super-w-cheese", "translation": "cheese", "text": "queso", "pronunciation": "KEH-soh" },
+    { "id": "es-super-w-vegetables", "translation": "vegetables", "text": "verduras", "pronunciation": "vehr-DOO-rahs" },
+    { "id": "es-super-w-soap", "translation": "soap", "text": "jabón", "pronunciation": "hah-BOHN" },
+    { "id": "es-super-w-fish", "translation": "fish", "text": "pescado", "pronunciation": "pehs-KAH-doh" },
+    { "id": "es-super-w-meat", "translation": "meat", "text": "carne", "pronunciation": "KAHR-neh" },
+    { "id": "es-super-w-frozen", "translation": "frozen food", "text": "congelados", "pronunciation": "kohn-heh-LAH-dohs" },
+    { "id": "es-super-w-fresh", "translation": "fresh", "text": "fresco", "pronunciation": "FREHS-koh" },
+    { "id": "es-super-w-discount", "translation": "sale / offer", "text": "oferta", "pronunciation": "oh-FEHR-tah" },
+    { "id": "es-super-w-organic", "translation": "organic", "text": "orgánico", "pronunciation": "ohr-GAH-nee-koh" }
   ]
 }

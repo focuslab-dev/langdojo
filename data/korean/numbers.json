@@ -113,9 +113,123 @@
         { "text": "개", "pronunciation": "gae", "translation": "piece (counter)" },
         { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
       ]
+    },
+    {
+      "id": "ko-num-two-tickets",
+      "translation": "Two tickets please",
+      "text": "표 두 장 주세요",
+      "pronunciation": "pyo du jang juseyo",
+      "words": [
+        { "text": "표", "pronunciation": "pyo", "translation": "ticket" },
+        { "text": "두", "pronunciation": "du", "translation": "two" },
+        { "text": "장", "pronunciation": "jang", "translation": "sheet (counter)" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "ko-num-how-many-people",
+      "translation": "How many people?",
+      "text": "몇 명이에요?",
+      "pronunciation": "myeot myeongieyo?",
+      "words": [
+        { "text": "몇", "pronunciation": "myeot", "translation": "how many" },
+        { "text": "명", "pronunciation": "myeong", "translation": "person (counter)" },
+        { "text": "이에요", "pronunciation": "ieyo", "translation": "is (question)" }
+      ]
+    },
+    {
+      "id": "ko-num-what-floor",
+      "translation": "What floor is it on?",
+      "text": "몇 층이에요?",
+      "pronunciation": "myeot cheungieyo?",
+      "words": [
+        { "text": "몇", "pronunciation": "myeot", "translation": "what / which" },
+        { "text": "층", "pronunciation": "cheung", "translation": "floor" },
+        { "text": "이에요", "pronunciation": "ieyo", "translation": "is (question)" }
+      ]
+    },
+    {
+      "id": "ko-num-room-number",
+      "translation": "What's the room number?",
+      "text": "방 번호가 뭐예요?",
+      "pronunciation": "bang beonhoga mwoyeyo?",
+      "words": [
+        { "text": "방", "pronunciation": "bang", "translation": "room" },
+        { "text": "번호", "pronunciation": "beonho", "translation": "number" },
+        { "text": "가", "pronunciation": "ga", "translation": "(subject particle)" },
+        { "text": "뭐예요", "pronunciation": "mwoyeyo", "translation": "what is" }
+      ]
+    },
+    {
+      "id": "ko-num-phone-number",
+      "translation": "What's the phone number?",
+      "text": "전화번호가 뭐예요?",
+      "pronunciation": "jeonhwa beonhoga mwoyeyo?",
+      "words": [
+        { "text": "전화번호", "pronunciation": "jeonhwa beonho", "translation": "phone number" },
+        { "text": "가", "pronunciation": "ga", "translation": "(subject particle)" },
+        { "text": "뭐예요", "pronunciation": "mwoyeyo", "translation": "what is" }
+      ]
+    },
+    {
+      "id": "ko-num-my-phone-number",
+      "translation": "What's your phone number?",
+      "text": "전화번호가 뭐예요?",
+      "pronunciation": "jeonhwa beonhoga mwoyeyo?",
+      "words": [
+        { "text": "전화번호", "pronunciation": "jeonhwa beonho", "translation": "phone number" },
+        { "text": "가", "pronunciation": "ga", "translation": "(subject particle)" },
+        { "text": "뭐예요", "pronunciation": "mwoyeyo", "translation": "what is it" }
+      ]
+    },
+    {
+      "id": "ko-num-how-old",
+      "translation": "How old are you?",
+      "text": "몇 살이에요?",
+      "pronunciation": "myeot sarieyo?",
+      "words": [
+        { "text": "몇", "pronunciation": "myeot", "translation": "how many" },
+        { "text": "살", "pronunciation": "sal", "translation": "years old" },
+        { "text": "이에요", "pronunciation": "ieyo", "translation": "is (question)" }
+      ]
+    },
+    {
+      "id": "ko-num-wifi-password",
+      "translation": "What's the WiFi password?",
+      "text": "와이파이 비밀번호가 뭐예요?",
+      "pronunciation": "waipai bimilbeonhoga mwoyeyo?",
+      "words": [
+        { "text": "와이파이", "pronunciation": "waipai", "translation": "WiFi" },
+        { "text": "비밀번호", "pronunciation": "bimilbeonho", "translation": "password" },
+        { "text": "가", "pronunciation": "ga", "translation": "(subject particle)" },
+        { "text": "뭐예요", "pronunciation": "mwoyeyo", "translation": "what is" }
+      ]
+    },
+    {
+      "id": "ko-num-table-number",
+      "translation": "Table number three",
+      "text": "삼번 테이블이에요",
+      "pronunciation": "sambeon teibeulieyo",
+      "words": [
+        { "text": "삼번", "pronunciation": "sambeon", "translation": "number three" },
+        { "text": "테이블", "pronunciation": "teibeul", "translation": "table" },
+        { "text": "이에요", "pronunciation": "ieyo", "translation": "is" }
+      ]
+    },
+    {
+      "id": "ko-num-how-many-minutes",
+      "translation": "How many minutes?",
+      "text": "몇 분이에요?",
+      "pronunciation": "myeot bunieyo?",
+      "words": [
+        { "text": "몇", "pronunciation": "myeot", "translation": "how many" },
+        { "text": "분", "pronunciation": "bun", "translation": "minute" },
+        { "text": "이에요", "pronunciation": "ieyo", "translation": "is (question)" }
+      ]
     }
   ],
   "words": [
+    { "id": "ko-num-w-zero", "translation": "0", "text": "영", "pronunciation": "yeong" },
     { "id": "ko-num-w-one-sino", "translation": "1", "text": "일", "pronunciation": "il" },
     { "id": "ko-num-w-two-sino", "translation": "2", "text": "이", "pronunciation": "i" },
     { "id": "ko-num-w-three-sino", "translation": "3", "text": "삼", "pronunciation": "sam" },
@@ -139,11 +253,16 @@
     { "id": "ko-num-w-eleven", "translation": "11", "text": "십일", "pronunciation": "sibil" },
     { "id": "ko-num-w-twenty", "translation": "20", "text": "이십", "pronunciation": "isip" },
     { "id": "ko-num-w-twenty-one", "translation": "21", "text": "이십일", "pronunciation": "isibil" },
+    { "id": "ko-num-w-thirty", "translation": "30", "text": "삼십", "pronunciation": "samsip" },
     { "id": "ko-num-w-fifty", "translation": "50", "text": "오십", "pronunciation": "osip" },
     { "id": "ko-num-w-hundred", "translation": "100", "text": "백", "pronunciation": "baek" },
     { "id": "ko-num-w-five-hundred", "translation": "500", "text": "오백", "pronunciation": "obaek" },
     { "id": "ko-num-w-thousand", "translation": "1,000", "text": "천", "pronunciation": "cheon" },
     { "id": "ko-num-w-five-thousand", "translation": "5,000", "text": "오천", "pronunciation": "ocheon" },
-    { "id": "ko-num-w-ten-thousand", "translation": "10,000", "text": "만", "pronunciation": "man" }
+    { "id": "ko-num-w-ten-thousand", "translation": "10,000", "text": "만", "pronunciation": "man" },
+    { "id": "ko-num-w-half", "translation": "half", "text": "반", "pronunciation": "ban" },
+    { "id": "ko-num-w-first", "translation": "first", "text": "첫째", "pronunciation": "cheotjjae" },
+    { "id": "ko-num-w-second", "translation": "second", "text": "둘째", "pronunciation": "duljjae" },
+    { "id": "ko-num-w-third", "translation": "third", "text": "셋째", "pronunciation": "setjjae" }
   ]
 }

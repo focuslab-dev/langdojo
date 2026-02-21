@@ -3,26 +3,24 @@
   "languageId": "korean",
   "phrases": [
     {
+      "id": "ko-rest-excuse-me",
+      "translation": "Excuse me",
+      "text": "저기요",
+      "pronunciation": "jeogiyo",
+      "words": [
+        { "text": "저기", "pronunciation": "jeogi", "translation": "hey / over there" },
+        { "text": "요", "pronunciation": "yo", "translation": "(polite ending)" }
+      ]
+    },
+    {
       "id": "ko-rest-how-many-people",
       "translation": "How many people?",
       "text": "몇 분이세요?",
       "pronunciation": "myeot buniseyo?",
       "words": [
-        {
-          "text": "몇",
-          "pronunciation": "myeot",
-          "translation": "how many"
-        },
-        {
-          "text": "분",
-          "pronunciation": "bun",
-          "translation": "person (honorific counter)"
-        },
-        {
-          "text": "이세요",
-          "pronunciation": "iseyo",
-          "translation": "are (honorific)"
-        }
+        { "text": "몇", "pronunciation": "myeot", "translation": "how many" },
+        { "text": "분", "pronunciation": "bun", "translation": "person (honorific counter)" },
+        { "text": "이세요", "pronunciation": "iseyo", "translation": "are (honorific)" }
       ]
     },
     {
@@ -31,21 +29,9 @@
       "text": "두 명이요",
       "pronunciation": "du myeongiyo",
       "words": [
-        {
-          "text": "두",
-          "pronunciation": "du",
-          "translation": "two"
-        },
-        {
-          "text": "명",
-          "pronunciation": "myeong",
-          "translation": "person (counter)"
-        },
-        {
-          "text": "이요",
-          "pronunciation": "iyo",
-          "translation": "(polite ending)"
-        }
+        { "text": "두", "pronunciation": "du", "translation": "two" },
+        { "text": "명", "pronunciation": "myeong", "translation": "person (counter)" },
+        { "text": "이요", "pronunciation": "iyo", "translation": "(polite ending)" }
       ]
     },
     {
@@ -54,21 +40,31 @@
       "text": "잠시만 기다려 주세요",
       "pronunciation": "jamsiman gidaryeo juseyo",
       "words": [
-        {
-          "text": "잠시만",
-          "pronunciation": "jamsiman",
-          "translation": "just a moment"
-        },
-        {
-          "text": "기다려",
-          "pronunciation": "gidaryeo",
-          "translation": "wait"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please"
-        }
+        { "text": "잠시만", "pronunciation": "jamsiman", "translation": "just a moment" },
+        { "text": "기다려", "pronunciation": "gidaryeo", "translation": "wait" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
+    },
+    {
+      "id": "ko-rest-here-or-takeaway",
+      "translation": "Will you eat here?",
+      "text": "여기서 드실 거예요?",
+      "pronunciation": "yeogiseo deusil geoyeyo?",
+      "words": [
+        { "text": "여기서", "pronunciation": "yeogiseo", "translation": "here (at this place)" },
+        { "text": "드실", "pronunciation": "deusil", "translation": "eat (honorific, future)" },
+        { "text": "거예요", "pronunciation": "geoyeyo", "translation": "will you (question)" }
+      ]
+    },
+    {
+      "id": "ko-rest-takeaway",
+      "translation": "Takeaway, please",
+      "text": "포장해 주세요",
+      "pronunciation": "pojanghae juseyo",
+      "words": [
+        { "text": "포장", "pronunciation": "pojang", "translation": "wrapping / packaging" },
+        { "text": "해", "pronunciation": "hae", "translation": "do" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
       ]
     },
     {
@@ -77,16 +73,19 @@
       "text": "메뉴 주세요",
       "pronunciation": "menyu juseyo",
       "words": [
-        {
-          "text": "메뉴",
-          "pronunciation": "menyu",
-          "translation": "menu"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please give me"
-        }
+        { "text": "메뉴", "pronunciation": "menyu", "translation": "menu" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "ko-rest-recommend",
+      "translation": "What's good here?",
+      "text": "뭐가 맛있어요?",
+      "pronunciation": "mwoga masisseoyo?",
+      "words": [
+        { "text": "뭐", "pronunciation": "mwo", "translation": "what" },
+        { "text": "가", "pronunciation": "ga", "translation": "(subject particle)" },
+        { "text": "맛있어요", "pronunciation": "masisseoyo", "translation": "is delicious" }
       ]
     },
     {
@@ -95,16 +94,8 @@
       "text": "이거 매워요?",
       "pronunciation": "igeo maewoyo?",
       "words": [
-        {
-          "text": "이거",
-          "pronunciation": "igeo",
-          "translation": "this"
-        },
-        {
-          "text": "매워요",
-          "pronunciation": "maewoyo",
-          "translation": "is spicy (question)"
-        }
+        { "text": "이거", "pronunciation": "igeo", "translation": "this" },
+        { "text": "매워요", "pronunciation": "maewoyo", "translation": "is spicy (question)" }
       ]
     },
     {
@@ -113,26 +104,10 @@
       "text": "안 맵게 해 주세요",
       "pronunciation": "an maepge hae juseyo",
       "words": [
-        {
-          "text": "안",
-          "pronunciation": "an",
-          "translation": "not"
-        },
-        {
-          "text": "맵게",
-          "pronunciation": "maepge",
-          "translation": "spicy (adverb)"
-        },
-        {
-          "text": "해",
-          "pronunciation": "hae",
-          "translation": "make"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please"
-        }
+        { "text": "안", "pronunciation": "an", "translation": "not" },
+        { "text": "맵게", "pronunciation": "maepge", "translation": "spicy (adverb)" },
+        { "text": "해", "pronunciation": "hae", "translation": "make" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
       ]
     },
     {
@@ -141,21 +116,9 @@
       "text": "고기 빼 주세요",
       "pronunciation": "gogi ppae juseyo",
       "words": [
-        {
-          "text": "고기",
-          "pronunciation": "gogi",
-          "translation": "meat"
-        },
-        {
-          "text": "빼",
-          "pronunciation": "ppae",
-          "translation": "remove"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please"
-        }
+        { "text": "고기", "pronunciation": "gogi", "translation": "meat" },
+        { "text": "빼", "pronunciation": "ppae", "translation": "remove" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
       ]
     },
     {
@@ -164,16 +127,8 @@
       "text": "주문하시겠어요?",
       "pronunciation": "jumunhasigesseoyo?",
       "words": [
-        {
-          "text": "주문",
-          "pronunciation": "jumun",
-          "translation": "order"
-        },
-        {
-          "text": "하시겠어요",
-          "pronunciation": "hasigesseoyo",
-          "translation": "will you do (honorific)"
-        }
+        { "text": "주문", "pronunciation": "jumun", "translation": "order" },
+        { "text": "하시겠어요", "pronunciation": "hasigesseoyo", "translation": "will you do (honorific)" }
       ]
     },
     {
@@ -182,16 +137,8 @@
       "text": "이걸로 할게요",
       "pronunciation": "igeollo halgeyo",
       "words": [
-        {
-          "text": "이걸로",
-          "pronunciation": "igeollo",
-          "translation": "with this / this one"
-        },
-        {
-          "text": "할게요",
-          "pronunciation": "halgeyo",
-          "translation": "I will do / I'll have"
-        }
+        { "text": "이걸로", "pronunciation": "igeollo", "translation": "with this / this one" },
+        { "text": "할게요", "pronunciation": "halgeyo", "translation": "I will do / I'll have" }
       ]
     },
     {
@@ -200,85 +147,30 @@
       "text": "물 주세요",
       "pronunciation": "mul juseyo",
       "words": [
-        {
-          "text": "물",
-          "pronunciation": "mul",
-          "translation": "water"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please give me"
-        }
+        { "text": "물", "pronunciation": "mul", "translation": "water" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
       ]
     },
     {
-      "id": "ko-rest-bill",
-      "translation": "The bill please",
-      "text": "계산서 주세요",
-      "pronunciation": "gyesanseo juseyo",
+      "id": "ko-rest-before-eating",
+      "translation": "I will eat well",
+      "text": "잘 먹겠습니다",
+      "pronunciation": "jal meokgesseumnida",
       "words": [
-        {
-          "text": "계산서",
-          "pronunciation": "gyesanseo",
-          "translation": "bill / check"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please give me"
-        }
+        { "text": "잘", "pronunciation": "jal", "translation": "well" },
+        { "text": "먹겠습니다", "pronunciation": "meokgesseumnida", "translation": "will eat (formal)" }
       ]
     },
     {
-      "id": "ko-rest-pay-by-card",
-      "translation": "Can I pay by card?",
-      "text": "카드로 결제할 수 있어요?",
-      "pronunciation": "kadeu-ro gyeoljaehal su isseoyo?",
+      "id": "ko-rest-more-side-dishes",
+      "translation": "More side dishes, please",
+      "text": "반찬 좀 더 주세요",
+      "pronunciation": "banchan jom deo juseyo",
       "words": [
-        {
-          "text": "카드",
-          "pronunciation": "kadeu",
-          "translation": "card"
-        },
-        {
-          "text": "로",
-          "pronunciation": "ro",
-          "translation": "by / with"
-        },
-        {
-          "text": "결제할 수 있어요",
-          "pronunciation": "gyeoljaehal su isseoyo",
-          "translation": "can pay"
-        }
-      ]
-    },
-    {
-      "id": "ko-rest-cash-or-card",
-      "translation": "Cash or card?",
-      "text": "현금이요, 카드요?",
-      "pronunciation": "hyeongeumi-yo, kadeu-yo?",
-      "words": [
-        {
-          "text": "현금",
-          "pronunciation": "hyeongeum",
-          "translation": "cash"
-        },
-        {
-          "text": "이요",
-          "pronunciation": "iyo",
-          "translation": "(polite ending)"
-        },
-        {
-          "text": "카드",
-          "pronunciation": "kadeu",
-          "translation": "card"
-        },
-        {
-          "text": "요",
-          "pronunciation": "yo",
-          "translation": "(polite ending)"
-        }
+        { "text": "반찬", "pronunciation": "banchan", "translation": "side dishes" },
+        { "text": "좀", "pronunciation": "jom", "translation": "a little (softener)" },
+        { "text": "더", "pronunciation": "deo", "translation": "more" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give" }
       ]
     },
     {
@@ -287,182 +179,82 @@
       "text": "맛있었어요",
       "pronunciation": "masisseosseoyo",
       "words": []
+    },
+    {
+      "id": "ko-rest-after-eating",
+      "translation": "Thank you for the meal",
+      "text": "잘 먹었습니다",
+      "pronunciation": "jal meogeosseumnida",
+      "words": [
+        { "text": "잘", "pronunciation": "jal", "translation": "well" },
+        { "text": "먹었습니다", "pronunciation": "meogeosseumnida", "translation": "ate (formal, past)" }
+      ]
+    },
+    {
+      "id": "ko-rest-bill",
+      "translation": "The bill please",
+      "text": "계산서 주세요",
+      "pronunciation": "gyesanseo juseyo",
+      "words": [
+        { "text": "계산서", "pronunciation": "gyesanseo", "translation": "bill / check" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "ko-rest-pay-by-card",
+      "translation": "Can I pay by card?",
+      "text": "카드로 결제할 수 있어요?",
+      "pronunciation": "kadeu-ro gyeoljaehal su isseoyo?",
+      "words": [
+        { "text": "카드", "pronunciation": "kadeu", "translation": "card" },
+        { "text": "로", "pronunciation": "ro", "translation": "by / with" },
+        { "text": "결제할 수 있어요", "pronunciation": "gyeoljaehal su isseoyo", "translation": "can pay" }
+      ]
+    },
+    {
+      "id": "ko-rest-cash-or-card",
+      "translation": "Cash or card?",
+      "text": "현금이요, 카드요?",
+      "pronunciation": "hyeongeumi-yo, kadeu-yo?",
+      "words": [
+        { "text": "현금", "pronunciation": "hyeongeum", "translation": "cash" },
+        { "text": "이요", "pronunciation": "iyo", "translation": "(polite ending)" },
+        { "text": "카드", "pronunciation": "kadeu", "translation": "card" },
+        { "text": "요", "pronunciation": "yo", "translation": "(polite ending)" }
+      ]
     }
   ],
   "words": [
-    {
-      "id": "ko-rest-w-rice",
-      "translation": "rice",
-      "text": "밥",
-      "pronunciation": "bap"
-    },
-    {
-      "id": "ko-rest-w-noodles",
-      "translation": "noodles",
-      "text": "면",
-      "pronunciation": "myeon"
-    },
-    {
-      "id": "ko-rest-w-bibimbap",
-      "translation": "bibimbap",
-      "text": "비빔밥",
-      "pronunciation": "bibimbap"
-    },
-    {
-      "id": "ko-rest-w-bulgogi",
-      "translation": "bulgogi",
-      "text": "불고기",
-      "pronunciation": "bulgogi"
-    },
-    {
-      "id": "ko-rest-w-kimchi",
-      "translation": "kimchi",
-      "text": "김치",
-      "pronunciation": "gimchi"
-    },
-    {
-      "id": "ko-rest-w-tteokbokki",
-      "translation": "tteokbokki",
-      "text": "떡볶이",
-      "pronunciation": "tteokbokki"
-    },
-    {
-      "id": "ko-rest-w-chicken",
-      "translation": "chicken",
-      "text": "닭고기",
-      "pronunciation": "dalgogi"
-    },
-    {
-      "id": "ko-rest-w-pork",
-      "translation": "pork",
-      "text": "돼지고기",
-      "pronunciation": "dwaejigogi"
-    },
-    {
-      "id": "ko-rest-w-beef",
-      "translation": "beef",
-      "text": "소고기",
-      "pronunciation": "sogogi"
-    },
-    {
-      "id": "ko-rest-w-fish",
-      "translation": "fish",
-      "text": "생선",
-      "pronunciation": "saengseon"
-    },
-    {
-      "id": "ko-rest-w-shrimp",
-      "translation": "shrimp",
-      "text": "새우",
-      "pronunciation": "saeu"
-    },
-    {
-      "id": "ko-rest-w-egg",
-      "translation": "egg",
-      "text": "계란",
-      "pronunciation": "gyeran"
-    },
-    {
-      "id": "ko-rest-w-vegetable",
-      "translation": "vegetable",
-      "text": "채소",
-      "pronunciation": "chaeso"
-    },
-    {
-      "id": "ko-rest-w-soup",
-      "translation": "soup (guk)",
-      "text": "국",
-      "pronunciation": "guk"
-    },
-    {
-      "id": "ko-rest-w-stew",
-      "translation": "stew (jjigae)",
-      "text": "찌개",
-      "pronunciation": "jjigae"
-    },
-    {
-      "id": "ko-rest-w-spicy",
-      "translation": "spicy",
-      "text": "매운",
-      "pronunciation": "maeun"
-    },
-    {
-      "id": "ko-rest-w-sweet",
-      "translation": "sweet",
-      "text": "달콤한",
-      "pronunciation": "dalkomhan"
-    },
-    {
-      "id": "ko-rest-w-salty",
-      "translation": "salty",
-      "text": "짠",
-      "pronunciation": "jjan"
-    },
-    {
-      "id": "ko-rest-w-chopsticks",
-      "translation": "chopsticks",
-      "text": "젓가락",
-      "pronunciation": "jeotgarak"
-    },
-    {
-      "id": "ko-rest-w-spoon",
-      "translation": "spoon",
-      "text": "숟가락",
-      "pronunciation": "sutgarak"
-    },
-    {
-      "id": "ko-rest-w-plate",
-      "translation": "plate",
-      "text": "접시",
-      "pronunciation": "jeopsi"
-    },
-    {
-      "id": "ko-rest-w-water",
-      "translation": "water",
-      "text": "물",
-      "pronunciation": "mul"
-    },
-    {
-      "id": "ko-rest-w-beer",
-      "translation": "beer",
-      "text": "맥주",
-      "pronunciation": "maekju"
-    },
-    {
-      "id": "ko-rest-w-soju",
-      "translation": "soju",
-      "text": "소주",
-      "pronunciation": "soju"
-    },
-    {
-      "id": "ko-rest-w-dessert",
-      "translation": "dessert",
-      "text": "디저트",
-      "pronunciation": "dijeoteu"
-    },
-    {
-      "id": "ko-rest-w-tofu",
-      "translation": "tofu",
-      "text": "두부",
-      "pronunciation": "dubu"
-    },
-    {
-      "id": "ko-rest-w-mushroom",
-      "translation": "mushroom",
-      "text": "버섯",
-      "pronunciation": "beoseot"
-    },
-    {
-      "id": "ko-rest-w-sauce",
-      "translation": "sauce",
-      "text": "소스",
-      "pronunciation": "soseu"
-    },
-    {
-      "id": "ko-rest-w-side-dish",
-      "translation": "side dish",
-      "text": "반찬",
-      "pronunciation": "banchan"
-    }
+    { "id": "ko-rest-w-rice", "translation": "rice", "text": "밥", "pronunciation": "bap" },
+    { "id": "ko-rest-w-noodles", "translation": "noodles", "text": "면", "pronunciation": "myeon" },
+    { "id": "ko-rest-w-bibimbap", "translation": "bibimbap", "text": "비빔밥", "pronunciation": "bibimbap" },
+    { "id": "ko-rest-w-bulgogi", "translation": "bulgogi", "text": "불고기", "pronunciation": "bulgogi" },
+    { "id": "ko-rest-w-kimchi", "translation": "kimchi", "text": "김치", "pronunciation": "gimchi" },
+    { "id": "ko-rest-w-tteokbokki", "translation": "tteokbokki", "text": "떡볶이", "pronunciation": "tteokbokki" },
+    { "id": "ko-rest-w-samgyeopsal", "translation": "pork belly (grilled)", "text": "삼겹살", "pronunciation": "samgyeopsal" },
+    { "id": "ko-rest-w-naengmyeon", "translation": "cold noodles", "text": "냉면", "pronunciation": "naengmyeon" },
+    { "id": "ko-rest-w-chicken", "translation": "chicken", "text": "닭고기", "pronunciation": "dalgogi" },
+    { "id": "ko-rest-w-pork", "translation": "pork", "text": "돼지고기", "pronunciation": "dwaejigogi" },
+    { "id": "ko-rest-w-beef", "translation": "beef", "text": "소고기", "pronunciation": "sogogi" },
+    { "id": "ko-rest-w-fish", "translation": "fish", "text": "생선", "pronunciation": "saengseon" },
+    { "id": "ko-rest-w-shrimp", "translation": "shrimp", "text": "새우", "pronunciation": "saeu" },
+    { "id": "ko-rest-w-egg", "translation": "egg", "text": "계란", "pronunciation": "gyeran" },
+    { "id": "ko-rest-w-vegetable", "translation": "vegetable", "text": "채소", "pronunciation": "chaeso" },
+    { "id": "ko-rest-w-soup", "translation": "soup (guk)", "text": "국", "pronunciation": "guk" },
+    { "id": "ko-rest-w-stew", "translation": "stew (jjigae)", "text": "찌개", "pronunciation": "jjigae" },
+    { "id": "ko-rest-w-spicy", "translation": "spicy", "text": "매운", "pronunciation": "maeun" },
+    { "id": "ko-rest-w-sweet", "translation": "sweet", "text": "달콤한", "pronunciation": "dalkomhan" },
+    { "id": "ko-rest-w-salty", "translation": "salty", "text": "짠", "pronunciation": "jjan" },
+    { "id": "ko-rest-w-chopsticks", "translation": "chopsticks", "text": "젓가락", "pronunciation": "jeotgarak" },
+    { "id": "ko-rest-w-spoon", "translation": "spoon", "text": "숟가락", "pronunciation": "sutgarak" },
+    { "id": "ko-rest-w-plate", "translation": "plate", "text": "접시", "pronunciation": "jeopsi" },
+    { "id": "ko-rest-w-water", "translation": "water", "text": "물", "pronunciation": "mul" },
+    { "id": "ko-rest-w-beer", "translation": "beer", "text": "맥주", "pronunciation": "maekju" },
+    { "id": "ko-rest-w-soju", "translation": "soju", "text": "소주", "pronunciation": "soju" },
+    { "id": "ko-rest-w-dessert", "translation": "dessert", "text": "디저트", "pronunciation": "dijeoteu" },
+    { "id": "ko-rest-w-tofu", "translation": "tofu", "text": "두부", "pronunciation": "dubu" },
+    { "id": "ko-rest-w-mushroom", "translation": "mushroom", "text": "버섯", "pronunciation": "beoseot" },
+    { "id": "ko-rest-w-sauce", "translation": "sauce", "text": "소스", "pronunciation": "soseu" },
+    { "id": "ko-rest-w-side-dish", "translation": "side dish", "text": "반찬", "pronunciation": "banchan" }
   ]
 }

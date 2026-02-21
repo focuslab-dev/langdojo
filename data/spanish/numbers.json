@@ -18,11 +18,7 @@
           "pronunciation": "KWEHS-tah",
           "translation": "costs"
         },
-        {
-          "text": "esto?",
-          "pronunciation": "EHS-toh",
-          "translation": "this"
-        }
+        { "text": "esto?", "pronunciation": "EHS-toh", "translation": "this" }
       ]
     },
     {
@@ -36,16 +32,8 @@
           "pronunciation": "sohn",
           "translation": "they are / it's"
         },
-        {
-          "text": "diez",
-          "pronunciation": "dee-EHS",
-          "translation": "ten"
-        },
-        {
-          "text": "euros",
-          "pronunciation": "EU-rohs",
-          "translation": "euros"
-        }
+        { "text": "diez", "pronunciation": "dee-EHS", "translation": "ten" },
+        { "text": "euros", "pronunciation": "EU-rohs", "translation": "euros" }
       ]
     },
     {
@@ -54,11 +42,7 @@
       "text": "Uno, por favor",
       "pronunciation": "OO-noh, pohr fah-VOHR",
       "words": [
-        {
-          "text": "Uno,",
-          "pronunciation": "OO-noh",
-          "translation": "one"
-        },
+        { "text": "Uno,", "pronunciation": "OO-noh", "translation": "one" },
         {
           "text": "por favor",
           "pronunciation": "pohr fah-VOHR",
@@ -72,11 +56,7 @@
       "text": "Dos billetes, por favor",
       "pronunciation": "Dohs bee-YEH-tehs, pohr fah-VOHR",
       "words": [
-        {
-          "text": "Dos",
-          "pronunciation": "dohs",
-          "translation": "two"
-        },
+        { "text": "Dos", "pronunciation": "dohs", "translation": "two" },
         {
           "text": "billetes,",
           "pronunciation": "bee-YEH-tehs",
@@ -95,16 +75,8 @@
       "text": "Mesa para cuatro",
       "pronunciation": "MEH-sah PAH-rah KWAH-troh",
       "words": [
-        {
-          "text": "Mesa",
-          "pronunciation": "MEH-sah",
-          "translation": "table"
-        },
-        {
-          "text": "para",
-          "pronunciation": "PAH-rah",
-          "translation": "for"
-        },
+        { "text": "Mesa", "pronunciation": "MEH-sah", "translation": "table" },
+        { "text": "para", "pronunciation": "PAH-rah", "translation": "for" },
         {
           "text": "cuatro",
           "pronunciation": "KWAH-troh",
@@ -118,21 +90,13 @@
       "text": "¿Qué hora es?",
       "pronunciation": "Keh OH-rah ehs?",
       "words": [
-        {
-          "text": "¿Qué",
-          "pronunciation": "keh",
-          "translation": "what"
-        },
+        { "text": "¿Qué", "pronunciation": "keh", "translation": "what" },
         {
           "text": "hora",
           "pronunciation": "OH-rah",
           "translation": "hour / time"
         },
-        {
-          "text": "es?",
-          "pronunciation": "ehs",
-          "translation": "is"
-        }
+        { "text": "es?", "pronunciation": "ehs", "translation": "is" }
       ]
     },
     {
@@ -141,21 +105,13 @@
       "text": "Son las tres",
       "pronunciation": "Sohn lahs trehs",
       "words": [
-        {
-          "text": "Son",
-          "pronunciation": "sohn",
-          "translation": "it is"
-        },
+        { "text": "Son", "pronunciation": "sohn", "translation": "it is" },
         {
           "text": "las",
           "pronunciation": "lahs",
           "translation": "the (f.pl.)"
         },
-        {
-          "text": "tres",
-          "pronunciation": "trehs",
-          "translation": "three"
-        }
+        { "text": "tres", "pronunciation": "trehs", "translation": "three" }
       ]
     },
     {
@@ -181,11 +137,7 @@
           "pronunciation": "seen-KWEHN-tah",
           "translation": "fifty"
         },
-        {
-          "text": "euros",
-          "pronunciation": "EU-rohs",
-          "translation": "euros"
-        }
+        { "text": "euros", "pronunciation": "EU-rohs", "translation": "euros" }
       ]
     },
     {
@@ -210,9 +162,203 @@
           "translation": "please"
         }
       ]
+    },
+    {
+      "id": "es-num-three-of-these",
+      "translation": "I'd like three of these",
+      "text": "Quiero tres de estos",
+      "pronunciation": "kee-EH-roh trehs deh EHS-tohs",
+      "words": [
+        {
+          "text": "Quiero",
+          "pronunciation": "kee-EH-roh",
+          "translation": "I want / I'd like"
+        },
+        { "text": "tres", "pronunciation": "trehs", "translation": "three" },
+        {
+          "text": "de estos",
+          "pronunciation": "deh EHS-tohs",
+          "translation": "of these"
+        }
+      ]
+    },
+    {
+      "id": "es-num-how-many-people",
+      "translation": "How many people?",
+      "text": "¿Cuántas personas?",
+      "pronunciation": "KWAHN-tahs pehr-SOH-nahs?",
+      "words": [
+        {
+          "text": "¿Cuántas",
+          "pronunciation": "KWAHN-tahs",
+          "translation": "how many (f.)"
+        },
+        {
+          "text": "personas?",
+          "pronunciation": "pehr-SOH-nahs",
+          "translation": "people"
+        }
+      ]
+    },
+    {
+      "id": "es-num-what-floor",
+      "translation": "What floor is it on?",
+      "text": "¿En qué piso está?",
+      "pronunciation": "Ehn keh PEE-soh ehs-TAH?",
+      "words": [
+        { "text": "¿En", "pronunciation": "ehn", "translation": "on / in" },
+        {
+          "text": "qué",
+          "pronunciation": "keh",
+          "translation": "which / what"
+        },
+        { "text": "piso", "pronunciation": "PEE-soh", "translation": "floor" },
+        { "text": "está?", "pronunciation": "ehs-TAH", "translation": "is it" }
+      ]
+    },
+    {
+      "id": "es-num-room-number",
+      "translation": "What's the room number?",
+      "text": "¿Cuál es el número de habitación?",
+      "pronunciation": "Kwahl ehs ehl NOO-meh-roh deh ah-bee-tah-see-OHN?",
+      "words": [
+        {
+          "text": "¿Cuál",
+          "pronunciation": "kwahl",
+          "translation": "what / which"
+        },
+        { "text": "es", "pronunciation": "ehs", "translation": "is" },
+        {
+          "text": "el número",
+          "pronunciation": "ehl NOO-meh-roh",
+          "translation": "the number"
+        },
+        {
+          "text": "de habitación?",
+          "pronunciation": "deh ah-bee-tah-see-OHN",
+          "translation": "of room"
+        }
+      ]
+    },
+    {
+      "id": "es-num-phone-number",
+      "translation": "What's the phone number?",
+      "text": "¿Cuál es el número de teléfono?",
+      "pronunciation": "Kwahl ehs ehl NOO-meh-roh deh teh-LEH-foh-noh?",
+      "words": [
+        { "text": "¿Cuál", "pronunciation": "kwahl", "translation": "what" },
+        { "text": "es", "pronunciation": "ehs", "translation": "is" },
+        {
+          "text": "el número",
+          "pronunciation": "ehl NOO-meh-roh",
+          "translation": "the number"
+        },
+        {
+          "text": "de teléfono?",
+          "pronunciation": "deh teh-LEH-foh-noh",
+          "translation": "of phone"
+        }
+      ]
+    },
+    {
+      "id": "es-num-my-phone-number",
+      "translation": "What's your phone number?",
+      "text": "¿Cuál es su número de teléfono?",
+      "pronunciation": "KWAHL ehs soo NOO-meh-roh deh teh-LEH-foh-noh?",
+      "words": [
+        {
+          "text": "¿Cuál es",
+          "pronunciation": "KWAHL ehs",
+          "translation": "what is"
+        },
+        { "text": "su", "pronunciation": "soo", "translation": "your (formal)" },
+        {
+          "text": "número de teléfono",
+          "pronunciation": "NOO-meh-roh deh teh-LEH-foh-noh",
+          "translation": "phone number"
+        }
+      ]
+    },
+    {
+      "id": "es-num-how-old",
+      "translation": "How old are you?",
+      "text": "¿Cuántos años tienes?",
+      "pronunciation": "KWAHN-tohs AH-nyohs tee-EH-nehs?",
+      "words": [
+        {
+          "text": "¿Cuántos",
+          "pronunciation": "KWAHN-tohs",
+          "translation": "how many"
+        },
+        { "text": "años", "pronunciation": "AH-nyohs", "translation": "years" },
+        {
+          "text": "tienes?",
+          "pronunciation": "tee-EH-nehs",
+          "translation": "do you have"
+        }
+      ]
+    },
+    {
+      "id": "es-num-wifi-password",
+      "translation": "What's the WiFi password?",
+      "text": "¿Cuál es la contraseña del WiFi?",
+      "pronunciation": "Kwahl ehs lah kohn-trah-SEH-nyah dehl WAI-fai?",
+      "words": [
+        { "text": "¿Cuál", "pronunciation": "kwahl", "translation": "what" },
+        { "text": "es", "pronunciation": "ehs", "translation": "is" },
+        {
+          "text": "la contraseña",
+          "pronunciation": "lah kohn-trah-SEH-nyah",
+          "translation": "the password"
+        },
+        {
+          "text": "del WiFi?",
+          "pronunciation": "dehl WAI-fai",
+          "translation": "of the WiFi"
+        }
+      ]
+    },
+    {
+      "id": "es-num-table-number",
+      "translation": "Table number three",
+      "text": "Mesa número tres",
+      "pronunciation": "MEH-sah NOO-meh-roh trehs",
+      "words": [
+        { "text": "Mesa", "pronunciation": "MEH-sah", "translation": "table" },
+        {
+          "text": "número",
+          "pronunciation": "NOO-meh-roh",
+          "translation": "number"
+        },
+        { "text": "tres", "pronunciation": "trehs", "translation": "three" }
+      ]
+    },
+    {
+      "id": "es-num-how-many-minutes",
+      "translation": "How many minutes?",
+      "text": "¿Cuántos minutos?",
+      "pronunciation": "KWAHN-tohs mee-NOO-tohs?",
+      "words": [
+        {
+          "text": "¿Cuántos",
+          "pronunciation": "KWAHN-tohs",
+          "translation": "how many"
+        },
+        {
+          "text": "minutos?",
+          "pronunciation": "mee-NOO-tohs",
+          "translation": "minutes"
+        }
+      ]
     }
   ],
   "words": [
+    {
+      "id": "es-num-w-zero",
+      "translation": "0",
+      "text": "cero",
+      "pronunciation": "SEH-roh"
+    },
     {
       "id": "es-num-w-one",
       "translation": "1",
@@ -304,6 +450,12 @@
       "pronunciation": "vayn-tee-OO-noh"
     },
     {
+      "id": "es-num-w-thirty",
+      "translation": "30",
+      "text": "treinta",
+      "pronunciation": "TRAYN-tah"
+    },
+    {
       "id": "es-num-w-thirty-one",
       "translation": "31",
       "text": "treinta y uno",
@@ -344,6 +496,30 @@
       "translation": "10,000",
       "text": "diez mil",
       "pronunciation": "dee-EHS meel"
+    },
+    {
+      "id": "es-num-w-half",
+      "translation": "half",
+      "text": "medio",
+      "pronunciation": "MEH-dee-oh"
+    },
+    {
+      "id": "es-num-w-first",
+      "translation": "first",
+      "text": "primero",
+      "pronunciation": "pree-MEH-roh"
+    },
+    {
+      "id": "es-num-w-second",
+      "translation": "second",
+      "text": "segundo",
+      "pronunciation": "seh-GOON-doh"
+    },
+    {
+      "id": "es-num-w-third",
+      "translation": "third",
+      "text": "tercero",
+      "pronunciation": "tehr-SEH-roh"
     }
   ]
 }

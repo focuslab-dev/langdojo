@@ -8,21 +8,34 @@
       "text": "公交车站在哪里？",
       "pronunciation": "gōngjiāo chē zhàn zài nǎlǐ?",
       "words": [
-        {
-          "text": "公交车站",
-          "pronunciation": "gōngjiāo chē zhàn",
-          "translation": "bus stop"
-        },
-        {
-          "text": "在",
-          "pronunciation": "zài",
-          "translation": "at / is located"
-        },
-        {
-          "text": "哪里",
-          "pronunciation": "nǎlǐ",
-          "translation": "where"
-        }
+        { "text": "公交车站", "pronunciation": "gōngjiāo chē zhàn", "translation": "bus stop" },
+        { "text": "在", "pronunciation": "zài", "translation": "at / is located" },
+        { "text": "哪里", "pronunciation": "nǎlǐ", "translation": "where" }
+      ]
+    },
+    {
+      "id": "zh-bus-which-bus-to",
+      "translation": "Which bus goes to the train station?",
+      "text": "几路车去火车站？",
+      "pronunciation": "jǐ lù chē qù huǒchēzhàn?",
+      "words": [
+        { "text": "几路", "pronunciation": "jǐ lù", "translation": "which route number" },
+        { "text": "车", "pronunciation": "chē", "translation": "bus / vehicle" },
+        { "text": "去", "pronunciation": "qù", "translation": "go to" },
+        { "text": "火车站", "pronunciation": "huǒchēzhàn", "translation": "train station" }
+      ]
+    },
+    {
+      "id": "zh-bus-does-this-go-to",
+      "translation": "Does this bus go to the airport?",
+      "text": "这辆公交车去机场吗？",
+      "pronunciation": "zhè liàng gōngjiāo chē qù jīchǎng ma?",
+      "words": [
+        { "text": "这辆", "pronunciation": "zhè liàng", "translation": "this (vehicle measure word)" },
+        { "text": "公交车", "pronunciation": "gōngjiāo chē", "translation": "bus" },
+        { "text": "去", "pronunciation": "qù", "translation": "go to" },
+        { "text": "机场", "pronunciation": "jīchǎng", "translation": "airport" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
       ]
     },
     {
@@ -31,72 +44,9 @@
       "text": "最后一班车几点？",
       "pronunciation": "zuìhòu yì bān chē jǐ diǎn?",
       "words": [
-        {
-          "text": "最后",
-          "pronunciation": "zuìhòu",
-          "translation": "last / final"
-        },
-        {
-          "text": "一班车",
-          "pronunciation": "yì bān chē",
-          "translation": "one service of bus"
-        },
-        {
-          "text": "几点",
-          "pronunciation": "jǐ diǎn",
-          "translation": "what time"
-        }
-      ]
-    },
-    {
-      "id": "zh-bus-which-bus-to",
-      "translation": "Which bus goes to...?",
-      "text": "几路车去...？",
-      "pronunciation": "jǐ lù chē qù...?",
-      "words": [
-        {
-          "text": "几路",
-          "pronunciation": "jǐ lù",
-          "translation": "which route number"
-        },
-        {
-          "text": "车",
-          "pronunciation": "chē",
-          "translation": "bus / vehicle"
-        },
-        {
-          "text": "去",
-          "pronunciation": "qù",
-          "translation": "go to"
-        }
-      ]
-    },
-    {
-      "id": "zh-bus-does-this-go-to",
-      "translation": "Does this bus go to...?",
-      "text": "这辆公交车去...吗？",
-      "pronunciation": "zhè liàng gōngjiāo chē qù...ma?",
-      "words": [
-        {
-          "text": "这辆",
-          "pronunciation": "zhè liàng",
-          "translation": "this (vehicle measure word)"
-        },
-        {
-          "text": "公交车",
-          "pronunciation": "gōngjiāo chē",
-          "translation": "bus"
-        },
-        {
-          "text": "去",
-          "pronunciation": "qù",
-          "translation": "go to"
-        },
-        {
-          "text": "吗",
-          "pronunciation": "ma",
-          "translation": "(question particle)"
-        }
+        { "text": "最后", "pronunciation": "zuìhòu", "translation": "last / final" },
+        { "text": "一班车", "pronunciation": "yì bān chē", "translation": "one service of bus" },
+        { "text": "几点", "pronunciation": "jǐ diǎn", "translation": "what time" }
       ]
     },
     {
@@ -105,21 +55,21 @@
       "text": "车费多少钱？",
       "pronunciation": "chē fèi duōshao qián?",
       "words": [
-        {
-          "text": "车费",
-          "pronunciation": "chē fèi",
-          "translation": "fare"
-        },
-        {
-          "text": "多少",
-          "pronunciation": "duōshao",
-          "translation": "how much"
-        },
-        {
-          "text": "钱",
-          "pronunciation": "qián",
-          "translation": "money"
-        }
+        { "text": "车费", "pronunciation": "chē fèi", "translation": "fare" },
+        { "text": "多少", "pronunciation": "duōshao", "translation": "how much" },
+        { "text": "钱", "pronunciation": "qián", "translation": "money" }
+      ]
+    },
+    {
+      "id": "zh-bus-can-pay-cash",
+      "translation": "Can I pay with cash?",
+      "text": "可以付现金吗？",
+      "pronunciation": "kěyǐ fù xiànjīn ma?",
+      "words": [
+        { "text": "可以", "pronunciation": "kěyǐ", "translation": "can / may" },
+        { "text": "付", "pronunciation": "fù", "translation": "pay" },
+        { "text": "现金", "pronunciation": "xiànjīn", "translation": "cash" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
       ]
     },
     {
@@ -128,21 +78,33 @@
       "text": "可以刷卡吗？",
       "pronunciation": "kěyǐ shuā kǎ ma?",
       "words": [
-        {
-          "text": "可以",
-          "pronunciation": "kěyǐ",
-          "translation": "can / may"
-        },
-        {
-          "text": "刷卡",
-          "pronunciation": "shuā kǎ",
-          "translation": "tap / swipe card"
-        },
-        {
-          "text": "吗",
-          "pronunciation": "ma",
-          "translation": "(question particle)"
-        }
+        { "text": "可以", "pronunciation": "kěyǐ", "translation": "can / may" },
+        { "text": "刷卡", "pronunciation": "shuā kǎ", "translation": "tap / swipe card" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-bus-one-ticket",
+      "translation": "One ticket, please",
+      "text": "请给我一张票",
+      "pronunciation": "qǐng gěi wǒ yì zhāng piào",
+      "words": [
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "给我", "pronunciation": "gěi wǒ", "translation": "give me" },
+        { "text": "一张", "pronunciation": "yì zhāng", "translation": "one (flat object measure word)" },
+        { "text": "票", "pronunciation": "piào", "translation": "ticket" }
+      ]
+    },
+    {
+      "id": "zh-bus-board-front",
+      "translation": "Please board from the front door",
+      "text": "请从前门上车",
+      "pronunciation": "qǐng cóng qián mén shàng chē",
+      "words": [
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "从", "pronunciation": "cóng", "translation": "from" },
+        { "text": "前门", "pronunciation": "qián mén", "translation": "front door" },
+        { "text": "上车", "pronunciation": "shàng chē", "translation": "board (the bus)" }
       ]
     },
     {
@@ -151,52 +113,92 @@
       "text": "请刷卡",
       "pronunciation": "qǐng shuā kǎ",
       "words": [
-        {
-          "text": "请",
-          "pronunciation": "qǐng",
-          "translation": "please"
-        },
-        {
-          "text": "刷卡",
-          "pronunciation": "shuā kǎ",
-          "translation": "tap / swipe card"
-        }
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "刷卡", "pronunciation": "shuā kǎ", "translation": "tap / swipe card" }
+      ]
+    },
+    {
+      "id": "zh-bus-is-seat-free",
+      "translation": "Is this seat taken?",
+      "text": "这个座位有人吗？",
+      "pronunciation": "zhège zuòwèi yǒu rén ma?",
+      "words": [
+        { "text": "这个", "pronunciation": "zhège", "translation": "this" },
+        { "text": "座位", "pronunciation": "zuòwèi", "translation": "seat" },
+        { "text": "有人", "pronunciation": "yǒu rén", "translation": "someone (is there someone)" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
       ]
     },
     {
       "id": "zh-bus-tell-me-when",
-      "translation": "Please tell me when we arrive at...",
-      "text": "到...请告诉我",
-      "pronunciation": "dào...qǐng gàosù wǒ",
+      "translation": "Please tell me when we arrive at the train station",
+      "text": "到火车站请告诉我",
+      "pronunciation": "dào huǒchēzhàn qǐng gàosù wǒ",
       "words": [
-        {
-          "text": "到",
-          "pronunciation": "dào",
-          "translation": "arrive at / reach"
-        },
-        {
-          "text": "请",
-          "pronunciation": "qǐng",
-          "translation": "please"
-        },
-        {
-          "text": "告诉",
-          "pronunciation": "gàosù",
-          "translation": "tell"
-        },
-        {
-          "text": "我",
-          "pronunciation": "wǒ",
-          "translation": "me"
-        }
+        { "text": "到", "pronunciation": "dào", "translation": "arrive at / reach" },
+        { "text": "火车站", "pronunciation": "huǒchēzhàn", "translation": "train station" },
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "告诉", "pronunciation": "gàosù", "translation": "tell" },
+        { "text": "我", "pronunciation": "wǒ", "translation": "me" }
+      ]
+    },
+    {
+      "id": "zh-bus-how-many-stops",
+      "translation": "How many stops to the airport?",
+      "text": "到机场还有几站？",
+      "pronunciation": "dào jīchǎng hái yǒu jǐ zhàn?",
+      "words": [
+        { "text": "到", "pronunciation": "dào", "translation": "to / until" },
+        { "text": "机场", "pronunciation": "jīchǎng", "translation": "airport" },
+        { "text": "还有", "pronunciation": "hái yǒu", "translation": "still have / remaining" },
+        { "text": "几", "pronunciation": "jǐ", "translation": "how many" },
+        { "text": "站", "pronunciation": "zhàn", "translation": "stops" }
+      ]
+    },
+    {
+      "id": "zh-bus-transfer-where",
+      "translation": "Where should I transfer?",
+      "text": "我在哪里换乘？",
+      "pronunciation": "wǒ zài nǎlǐ huàn chéng?",
+      "words": [
+        { "text": "我", "pronunciation": "wǒ", "translation": "I" },
+        { "text": "在", "pronunciation": "zài", "translation": "at" },
+        { "text": "哪里", "pronunciation": "nǎlǐ", "translation": "where" },
+        { "text": "换乘", "pronunciation": "huàn chéng", "translation": "transfer" }
       ]
     },
     {
       "id": "zh-bus-next-stop",
-      "translation": "Next stop is...",
-      "text": "下一站...",
-      "pronunciation": "xià yí zhàn...",
-      "words": []
+      "translation": "Next stop is the train station",
+      "text": "下一站火车站",
+      "pronunciation": "xià yí zhàn huǒchēzhàn",
+      "words": [
+        { "text": "下一站", "pronunciation": "xià yí zhàn", "translation": "next stop" },
+        { "text": "火车站", "pronunciation": "huǒchēzhàn", "translation": "train station" }
+      ]
+    },
+    {
+      "id": "zh-bus-press-bell",
+      "translation": "To get off, please press the bell",
+      "text": "下车请按铃",
+      "pronunciation": "xià chē qǐng àn líng",
+      "words": [
+        { "text": "下车", "pronunciation": "xià chē", "translation": "get off" },
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "按", "pronunciation": "àn", "translation": "press" },
+        { "text": "铃", "pronunciation": "líng", "translation": "bell" }
+      ]
+    },
+    {
+      "id": "zh-bus-get-off-next",
+      "translation": "I'll get off at the next stop",
+      "text": "我下一站下车",
+      "pronunciation": "wǒ xià yí zhàn xià chē",
+      "words": [
+        { "text": "我", "pronunciation": "wǒ", "translation": "I" },
+        { "text": "下一站", "pronunciation": "xià yí zhàn", "translation": "next stop" },
+        { "text": "下车", "pronunciation": "xià chē", "translation": "get off" }
+      ]
     },
     {
       "id": "zh-bus-get-off-here",
@@ -204,31 +206,11 @@
       "text": "我要在这里下车",
       "pronunciation": "wǒ yào zài zhèlǐ xià chē",
       "words": [
-        {
-          "text": "我",
-          "pronunciation": "wǒ",
-          "translation": "I / me"
-        },
-        {
-          "text": "要",
-          "pronunciation": "yào",
-          "translation": "want"
-        },
-        {
-          "text": "在",
-          "pronunciation": "zài",
-          "translation": "at"
-        },
-        {
-          "text": "这里",
-          "pronunciation": "zhèlǐ",
-          "translation": "here"
-        },
-        {
-          "text": "下车",
-          "pronunciation": "xià chē",
-          "translation": "get off (the bus)"
-        }
+        { "text": "我", "pronunciation": "wǒ", "translation": "I / me" },
+        { "text": "要", "pronunciation": "yào", "translation": "want" },
+        { "text": "在", "pronunciation": "zài", "translation": "at" },
+        { "text": "这里", "pronunciation": "zhèlǐ", "translation": "here" },
+        { "text": "下车", "pronunciation": "xià chē", "translation": "get off (the bus)" }
       ]
     },
     {
@@ -237,143 +219,53 @@
       "text": "请从后门下车",
       "pronunciation": "qǐng cóng hòu mén xià chē",
       "words": [
-        {
-          "text": "请",
-          "pronunciation": "qǐng",
-          "translation": "please"
-        },
-        {
-          "text": "从",
-          "pronunciation": "cóng",
-          "translation": "from"
-        },
-        {
-          "text": "后门",
-          "pronunciation": "hòu mén",
-          "translation": "back door"
-        },
-        {
-          "text": "下车",
-          "pronunciation": "xià chē",
-          "translation": "exit the bus"
-        }
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "从", "pronunciation": "cóng", "translation": "from" },
+        { "text": "后门", "pronunciation": "hòu mén", "translation": "back door" },
+        { "text": "下车", "pronunciation": "xià chē", "translation": "exit the bus" }
+      ]
+    },
+    {
+      "id": "zh-bus-thank-you-driver",
+      "translation": "Thank you, driver",
+      "text": "谢谢师傅",
+      "pronunciation": "xièxie shīfu",
+      "words": [
+        { "text": "谢谢", "pronunciation": "xièxie", "translation": "thank you" },
+        { "text": "师傅", "pronunciation": "shīfu", "translation": "driver (respectful)" }
       ]
     }
   ],
   "words": [
-    {
-      "id": "zh-bus-w-bus-stop",
-      "translation": "bus stop",
-      "text": "公交车站",
-      "pronunciation": "gōngjiāo chē zhàn"
-    },
-    {
-      "id": "zh-bus-w-route",
-      "translation": "route",
-      "text": "路线",
-      "pronunciation": "lùxiàn"
-    },
-    {
-      "id": "zh-bus-w-fare",
-      "translation": "fare",
-      "text": "车费",
-      "pronunciation": "chē fèi"
-    },
-    {
-      "id": "zh-bus-w-seat",
-      "translation": "seat",
-      "text": "座位",
-      "pronunciation": "zuòwèi"
-    },
-    {
-      "id": "zh-bus-w-next",
-      "translation": "next",
-      "text": "下一个",
-      "pronunciation": "xià yíge"
-    },
-    {
-      "id": "zh-bus-w-last",
-      "translation": "last (final)",
-      "text": "最后",
-      "pronunciation": "zuìhòu"
-    },
-    {
-      "id": "zh-bus-w-first",
-      "translation": "first",
-      "text": "第一",
-      "pronunciation": "dì yī"
-    },
-    {
-      "id": "zh-bus-w-exit",
-      "translation": "exit",
-      "text": "出口",
-      "pronunciation": "chūkǒu"
-    },
-    {
-      "id": "zh-bus-w-entrance",
-      "translation": "entrance",
-      "text": "入口",
-      "pronunciation": "rùkǒu"
-    },
-    {
-      "id": "zh-bus-w-card",
-      "translation": "card",
-      "text": "卡",
-      "pronunciation": "kǎ"
-    },
-    {
-      "id": "zh-bus-w-cash",
-      "translation": "cash",
-      "text": "现金",
-      "pronunciation": "xiànjīn"
-    },
-    {
-      "id": "zh-bus-w-driver",
-      "translation": "driver",
-      "text": "司机",
-      "pronunciation": "sījī"
-    },
-    {
-      "id": "zh-bus-w-door",
-      "translation": "door",
-      "text": "门",
-      "pronunciation": "mén"
-    },
-    {
-      "id": "zh-bus-w-front",
-      "translation": "front",
-      "text": "前面",
-      "pronunciation": "qiánmiàn"
-    },
-    {
-      "id": "zh-bus-w-back",
-      "translation": "back",
-      "text": "后面",
-      "pronunciation": "hòumiàn"
-    },
-    {
-      "id": "zh-bus-w-transit-card",
-      "translation": "transit card",
-      "text": "公交卡",
-      "pronunciation": "gōngjiāo kǎ"
-    },
-    {
-      "id": "zh-bus-w-terminus",
-      "translation": "final stop / terminus",
-      "text": "终点站",
-      "pronunciation": "zhōngdiǎn zhàn"
-    },
-    {
-      "id": "zh-bus-w-transfer",
-      "translation": "transfer",
-      "text": "换乘",
-      "pronunciation": "huàn chéng"
-    },
-    {
-      "id": "zh-bus-w-bus-sign",
-      "translation": "bus stop sign",
-      "text": "站牌",
-      "pronunciation": "zhàn pái"
-    }
+    { "id": "zh-bus-w-bus-stop", "translation": "bus stop", "text": "公交车站", "pronunciation": "gōngjiāo chē zhàn" },
+    { "id": "zh-bus-w-route", "translation": "route", "text": "路线", "pronunciation": "lùxiàn" },
+    { "id": "zh-bus-w-fare", "translation": "fare", "text": "车费", "pronunciation": "chē fèi" },
+    { "id": "zh-bus-w-seat", "translation": "seat", "text": "座位", "pronunciation": "zuòwèi" },
+    { "id": "zh-bus-w-next", "translation": "next", "text": "下一个", "pronunciation": "xià yíge" },
+    { "id": "zh-bus-w-last", "translation": "last (final)", "text": "最后", "pronunciation": "zuìhòu" },
+    { "id": "zh-bus-w-first", "translation": "first", "text": "第一", "pronunciation": "dì yī" },
+    { "id": "zh-bus-w-exit", "translation": "exit", "text": "出口", "pronunciation": "chūkǒu" },
+    { "id": "zh-bus-w-entrance", "translation": "entrance", "text": "入口", "pronunciation": "rùkǒu" },
+    { "id": "zh-bus-w-card", "translation": "card", "text": "卡", "pronunciation": "kǎ" },
+    { "id": "zh-bus-w-cash", "translation": "cash", "text": "现金", "pronunciation": "xiànjīn" },
+    { "id": "zh-bus-w-driver", "translation": "driver", "text": "司机", "pronunciation": "sījī" },
+    { "id": "zh-bus-w-door", "translation": "door", "text": "门", "pronunciation": "mén" },
+    { "id": "zh-bus-w-front", "translation": "front", "text": "前面", "pronunciation": "qiánmiàn" },
+    { "id": "zh-bus-w-back", "translation": "back", "text": "后面", "pronunciation": "hòumiàn" },
+    { "id": "zh-bus-w-transit-card", "translation": "transit card", "text": "公交卡", "pronunciation": "gōngjiāo kǎ" },
+    { "id": "zh-bus-w-terminus", "translation": "final stop / terminus", "text": "终点站", "pronunciation": "zhōngdiǎn zhàn" },
+    { "id": "zh-bus-w-transfer", "translation": "transfer", "text": "换乘", "pronunciation": "huàn chéng" },
+    { "id": "zh-bus-w-bus-sign", "translation": "bus stop sign", "text": "站牌", "pronunciation": "zhàn pái" },
+    { "id": "zh-bus-w-ticket", "translation": "ticket", "text": "车票", "pronunciation": "chēpiào" },
+    { "id": "zh-bus-w-passenger", "translation": "passenger", "text": "乘客", "pronunciation": "chéngkè" },
+    { "id": "zh-bus-w-priority-seat", "translation": "priority seat", "text": "爱心专座", "pronunciation": "àixīn zhuānzuò" },
+    { "id": "zh-bus-w-bell", "translation": "bell", "text": "铃", "pronunciation": "líng" },
+    { "id": "zh-bus-w-one-card", "translation": "transit card (one-card)", "text": "一卡通", "pronunciation": "yīkǎtōng" },
+    { "id": "zh-bus-w-change", "translation": "change (coins)", "text": "零钱", "pronunciation": "língqián" },
+    { "id": "zh-bus-w-air-conditioned", "translation": "air conditioning", "text": "空调", "pronunciation": "kōngtiáo" },
+    { "id": "zh-bus-w-departure", "translation": "departure", "text": "出发", "pronunciation": "chūfā" },
+    { "id": "zh-bus-w-arrival", "translation": "arrival", "text": "到达", "pronunciation": "dàodá" },
+    { "id": "zh-bus-w-night-bus", "translation": "night bus", "text": "夜班车", "pronunciation": "yèbān chē" },
+    { "id": "zh-bus-w-standing", "translation": "standing (no seat)", "text": "站立", "pronunciation": "zhànlì" }
   ]
 }

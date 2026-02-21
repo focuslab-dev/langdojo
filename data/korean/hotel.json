@@ -34,17 +34,6 @@
       ]
     },
     {
-      "id": "ko-hotel-check-out",
-      "translation": "I'd like to check out",
-      "text": "체크아웃 하고 싶어요",
-      "pronunciation": "chekeu-aut hago sipeoyo",
-      "words": [
-        { "text": "체크아웃", "pronunciation": "chekeu-aut", "translation": "check-out" },
-        { "text": "하고", "pronunciation": "hago", "translation": "do and" },
-        { "text": "싶어요", "pronunciation": "sipeoyo", "translation": "want to" }
-      ]
-    },
-    {
       "id": "ko-hotel-room-floor",
       "translation": "Your room is on the 3rd floor",
       "text": "방은 3층에 있습니다",
@@ -55,6 +44,17 @@
         { "text": "삼층", "pronunciation": "samcheung", "translation": "3rd floor" },
         { "text": "에", "pronunciation": "e", "translation": "on / at" },
         { "text": "있습니다", "pronunciation": "isseumnida", "translation": "is / there is (formal)" }
+      ]
+    },
+    {
+      "id": "ko-hotel-keycard",
+      "translation": "Room keycard, please",
+      "text": "방 카드키 주세요",
+      "pronunciation": "bang kadeu-ki juseyo",
+      "words": [
+        { "text": "방", "pronunciation": "bang", "translation": "room" },
+        { "text": "카드키", "pronunciation": "kadeu-ki", "translation": "keycard" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
       ]
     },
     {
@@ -92,6 +92,17 @@
       ]
     },
     {
+      "id": "ko-hotel-wifi-password",
+      "translation": "The Wi-Fi password, please",
+      "text": "와이파이 비밀번호 알려주세요",
+      "pronunciation": "waipai bimilbeonho allyeojuseyo",
+      "words": [
+        { "text": "와이파이", "pronunciation": "waipai", "translation": "Wi-Fi" },
+        { "text": "비밀번호", "pronunciation": "bimilbeonho", "translation": "password" },
+        { "text": "알려주세요", "pronunciation": "allyeojuseyo", "translation": "please tell me" }
+      ]
+    },
+    {
       "id": "ko-hotel-breakfast-included",
       "translation": "Is breakfast included?",
       "text": "조식 포함인가요?",
@@ -100,6 +111,63 @@
         { "text": "조식", "pronunciation": "josik", "translation": "breakfast" },
         { "text": "포함", "pronunciation": "poham", "translation": "included" },
         { "text": "인가요", "pronunciation": "ingayo", "translation": "is it (question)" }
+      ]
+    },
+    {
+      "id": "ko-hotel-extra-towels",
+      "translation": "Could I get extra towels?",
+      "text": "수건 더 주실 수 있어요?",
+      "pronunciation": "sugeon deo jusil su isseoyo?",
+      "words": [
+        { "text": "수건", "pronunciation": "sugeon", "translation": "towel" },
+        { "text": "더", "pronunciation": "deo", "translation": "more" },
+        { "text": "주실 수 있어요", "pronunciation": "jusil su isseoyo", "translation": "can you give (honorific)" }
+      ]
+    },
+    {
+      "id": "ko-hotel-extra-pillow",
+      "translation": "One more pillow, please",
+      "text": "베개 하나 더 주세요",
+      "pronunciation": "begae hana deo juseyo",
+      "words": [
+        { "text": "베개", "pronunciation": "begae", "translation": "pillow" },
+        { "text": "하나", "pronunciation": "hana", "translation": "one" },
+        { "text": "더", "pronunciation": "deo", "translation": "more" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "ko-hotel-ac-broken",
+      "translation": "The air conditioning doesn't work",
+      "text": "에어컨이 안 돼요",
+      "pronunciation": "eeokeoni an dwaeyo",
+      "words": [
+        { "text": "에어컨", "pronunciation": "eeokeun", "translation": "air conditioner" },
+        { "text": "이", "pronunciation": "i", "translation": "(subject marker)" },
+        { "text": "안", "pronunciation": "an", "translation": "not" },
+        { "text": "돼요", "pronunciation": "dwaeyo", "translation": "works / functions" }
+      ]
+    },
+    {
+      "id": "ko-hotel-no-hot-water",
+      "translation": "There's no hot water",
+      "text": "뜨거운 물이 안 나와요",
+      "pronunciation": "tteugeoun muri an nawayo",
+      "words": [
+        { "text": "뜨거운 물", "pronunciation": "tteugeoun mul", "translation": "hot water" },
+        { "text": "이", "pronunciation": "i", "translation": "(subject marker)" },
+        { "text": "안 나와요", "pronunciation": "an nawayo", "translation": "doesn't come out" }
+      ]
+    },
+    {
+      "id": "ko-hotel-late-checkout",
+      "translation": "Can I have a late checkout?",
+      "text": "레이트 체크아웃 가능한가요?",
+      "pronunciation": "reiteu chekeu-aut ganeunghangayo?",
+      "words": [
+        { "text": "레이트", "pronunciation": "reiteu", "translation": "late" },
+        { "text": "체크아웃", "pronunciation": "chekeu-aut", "translation": "checkout" },
+        { "text": "가능한가요", "pronunciation": "ganeunghangayo", "translation": "is it possible?" }
       ]
     },
     {
@@ -128,6 +196,17 @@
       ]
     },
     {
+      "id": "ko-hotel-check-out",
+      "translation": "I'd like to check out",
+      "text": "체크아웃 하고 싶어요",
+      "pronunciation": "chekeu-aut hago sipeoyo",
+      "words": [
+        { "text": "체크아웃", "pronunciation": "chekeu-aut", "translation": "check-out" },
+        { "text": "하고", "pronunciation": "hago", "translation": "do and" },
+        { "text": "싶어요", "pronunciation": "sipeoyo", "translation": "want to" }
+      ]
+    },
+    {
       "id": "ko-hotel-leave-luggage",
       "translation": "Can I leave my luggage?",
       "text": "짐을 맡길 수 있어요?",
@@ -139,43 +218,20 @@
       ]
     },
     {
-      "id": "ko-hotel-wifi-password",
-      "translation": "The Wi-Fi password, please",
-      "text": "와이파이 비밀번호 알려주세요",
-      "pronunciation": "waipai bimilbeonho allyeojuseyo",
+      "id": "ko-hotel-pleasant-stay",
+      "translation": "I had a pleasant stay",
+      "text": "잘 지냈습니다",
+      "pronunciation": "jal jinaesseumnida",
       "words": [
-        { "text": "와이파이", "pronunciation": "waipai", "translation": "Wi-Fi" },
-        { "text": "비밀번호", "pronunciation": "bimilbeonho", "translation": "password" },
-        { "text": "알려주세요", "pronunciation": "allyeojuseyo", "translation": "please tell me" }
-      ]
-    },
-    {
-      "id": "ko-hotel-extra-towels",
-      "translation": "Could I get extra towels?",
-      "text": "수건 더 주실 수 있어요?",
-      "pronunciation": "sugeon deo jusil su isseoyo?",
-      "words": [
-        { "text": "수건", "pronunciation": "sugeon", "translation": "towel" },
-        { "text": "더", "pronunciation": "deo", "translation": "more" },
-        { "text": "주실 수 있어요", "pronunciation": "jusil su isseoyo", "translation": "can you give (honorific)" }
-      ]
-    },
-    {
-      "id": "ko-hotel-ac-broken",
-      "translation": "The air conditioning doesn't work",
-      "text": "에어컨이 안 돼요",
-      "pronunciation": "eeokeoni an dwaeyo",
-      "words": [
-        { "text": "에어컨", "pronunciation": "eeokeun", "translation": "air conditioner" },
-        { "text": "이", "pronunciation": "i", "translation": "(subject marker)" },
-        { "text": "안", "pronunciation": "an", "translation": "not" },
-        { "text": "돼요", "pronunciation": "dwaeyo", "translation": "works / functions" }
+        { "text": "잘", "pronunciation": "jal", "translation": "well / nicely" },
+        { "text": "지냈습니다", "pronunciation": "jinaesseumnida", "translation": "stayed / spent time (formal)" }
       ]
     }
   ],
   "words": [
     { "id": "ko-hotel-w-room", "translation": "room", "text": "방", "pronunciation": "bang" },
     { "id": "ko-hotel-w-key", "translation": "key", "text": "열쇠", "pronunciation": "yeolsoe" },
+    { "id": "ko-hotel-w-keycard", "translation": "keycard", "text": "카드키", "pronunciation": "kadeu-ki" },
     { "id": "ko-hotel-w-floor", "translation": "floor", "text": "층", "pronunciation": "cheung" },
     { "id": "ko-hotel-w-elevator", "translation": "elevator", "text": "엘리베이터", "pronunciation": "ellibeiteo" },
     { "id": "ko-hotel-w-stairs", "translation": "stairs", "text": "계단", "pronunciation": "gyedan" },
@@ -193,6 +249,15 @@
     { "id": "ko-hotel-w-passport", "translation": "passport", "text": "여권", "pronunciation": "yeogwon" },
     { "id": "ko-hotel-w-reservation", "translation": "reservation", "text": "예약", "pronunciation": "yeyak" },
     { "id": "ko-hotel-w-breakfast", "translation": "breakfast", "text": "조식", "pronunciation": "josik" },
-    { "id": "ko-hotel-w-wifi", "translation": "Wi-Fi", "text": "와이파이", "pronunciation": "waipai" }
+    { "id": "ko-hotel-w-wifi", "translation": "Wi-Fi", "text": "와이파이", "pronunciation": "waipai" },
+    { "id": "ko-hotel-w-check-in", "translation": "check-in", "text": "체크인", "pronunciation": "chekeu-in" },
+    { "id": "ko-hotel-w-check-out", "translation": "check-out", "text": "체크아웃", "pronunciation": "chekeu-aut" },
+    { "id": "ko-hotel-w-night-stay", "translation": "one night's stay", "text": "1박", "pronunciation": "ilbak" },
+    { "id": "ko-hotel-w-view", "translation": "view", "text": "전망", "pronunciation": "jeonmang" },
+    { "id": "ko-hotel-w-receipt", "translation": "receipt", "text": "영수증", "pronunciation": "yeongsujeung" },
+    { "id": "ko-hotel-w-toothbrush", "translation": "toothbrush", "text": "칫솔", "pronunciation": "chitsol" },
+    { "id": "ko-hotel-w-slippers", "translation": "slippers", "text": "슬리퍼", "pronunciation": "seullipeo" },
+    { "id": "ko-hotel-w-safe", "translation": "safe (lockbox)", "text": "금고", "pronunciation": "geumgo" },
+    { "id": "ko-hotel-w-laundry", "translation": "laundry", "text": "세탁", "pronunciation": "setak" }
   ]
 }

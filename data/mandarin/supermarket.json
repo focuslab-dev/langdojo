@@ -3,39 +3,69 @@
   "languageId": "mandarin",
   "phrases": [
     {
-      "id": "zh-super-where-is",
-      "translation": "Where is...?",
-      "text": "...在哪里？",
-      "pronunciation": "...zài nǎlǐ?",
+      "id": "zh-super-excuse-me",
+      "translation": "Excuse me / May I ask",
+      "text": "请问",
+      "pronunciation": "qǐngwèn",
       "words": [
-        {
-          "text": "在",
-          "pronunciation": "zài",
-          "translation": "at / is located"
-        },
-        {
-          "text": "哪里",
-          "pronunciation": "nǎlǐ",
-          "translation": "where"
-        }
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "问", "pronunciation": "wèn", "translation": "ask" }
+      ]
+    },
+    {
+      "id": "zh-super-looking-for",
+      "translation": "I'm looking for milk",
+      "text": "我在找牛奶",
+      "pronunciation": "wǒ zài zhǎo niúnǎi",
+      "words": [
+        { "text": "我", "pronunciation": "wǒ", "translation": "I" },
+        { "text": "在", "pronunciation": "zài", "translation": "currently" },
+        { "text": "找", "pronunciation": "zhǎo", "translation": "looking for" },
+        { "text": "牛奶", "pronunciation": "niúnǎi", "translation": "milk" }
+      ]
+    },
+    {
+      "id": "zh-super-where-is",
+      "translation": "Where is the bread?",
+      "text": "面包在哪里？",
+      "pronunciation": "miànbāo zài nǎlǐ?",
+      "words": [
+        { "text": "面包", "pronunciation": "miànbāo", "translation": "bread" },
+        { "text": "在", "pronunciation": "zài", "translation": "at / is located" },
+        { "text": "哪里", "pronunciation": "nǎlǐ", "translation": "where" }
       ]
     },
     {
       "id": "zh-super-do-you-have",
-      "translation": "Do you have...?",
-      "text": "有...吗？",
-      "pronunciation": "yǒu...ma?",
+      "translation": "Do you have soy sauce?",
+      "text": "有酱油吗？",
+      "pronunciation": "yǒu jiàngyóu ma?",
       "words": [
-        {
-          "text": "有",
-          "pronunciation": "yǒu",
-          "translation": "have / there is"
-        },
-        {
-          "text": "吗",
-          "pronunciation": "ma",
-          "translation": "(question particle)"
-        }
+        { "text": "有", "pronunciation": "yǒu", "translation": "have / there is" },
+        { "text": "酱油", "pronunciation": "jiàngyóu", "translation": "soy sauce" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-super-is-fresh",
+      "translation": "Is this fresh?",
+      "text": "这个新鲜吗？",
+      "pronunciation": "zhège xīnxiān ma?",
+      "words": [
+        { "text": "这个", "pronunciation": "zhège", "translation": "this" },
+        { "text": "新鲜", "pronunciation": "xīnxiān", "translation": "fresh" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-super-organic",
+      "translation": "Do you have organic?",
+      "text": "有有机的吗？",
+      "pronunciation": "yǒu yǒujī de ma?",
+      "words": [
+        { "text": "有", "pronunciation": "yǒu", "translation": "have / there is" },
+        { "text": "有机的", "pronunciation": "yǒujī de", "translation": "organic" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
       ]
     },
     {
@@ -44,21 +74,31 @@
       "text": "这个多少钱？",
       "pronunciation": "zhège duōshao qián?",
       "words": [
-        {
-          "text": "这个",
-          "pronunciation": "zhège",
-          "translation": "this"
-        },
-        {
-          "text": "多少",
-          "pronunciation": "duōshao",
-          "translation": "how much"
-        },
-        {
-          "text": "钱",
-          "pronunciation": "qián",
-          "translation": "money"
-        }
+        { "text": "这个", "pronunciation": "zhège", "translation": "this" },
+        { "text": "多少", "pronunciation": "duōshao", "translation": "how much" },
+        { "text": "钱", "pronunciation": "qián", "translation": "money" }
+      ]
+    },
+    {
+      "id": "zh-super-on-sale",
+      "translation": "Is this on sale?",
+      "text": "这个打折吗？",
+      "pronunciation": "zhège dǎzhé ma?",
+      "words": [
+        { "text": "这个", "pronunciation": "zhège", "translation": "this" },
+        { "text": "打折", "pronunciation": "dǎzhé", "translation": "on sale / discounted" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-super-self-checkout",
+      "translation": "Where is the self-checkout?",
+      "text": "自助结账在哪里？",
+      "pronunciation": "zìzhù jiézhàng zài nǎlǐ?",
+      "words": [
+        { "text": "自助结账", "pronunciation": "zìzhù jiézhàng", "translation": "self-checkout" },
+        { "text": "在", "pronunciation": "zài", "translation": "at / is located" },
+        { "text": "哪里", "pronunciation": "nǎlǐ", "translation": "where" }
       ]
     },
     {
@@ -67,39 +107,20 @@
       "text": "有会员卡吗？",
       "pronunciation": "yǒu huìyuán kǎ ma?",
       "words": [
-        {
-          "text": "有",
-          "pronunciation": "yǒu",
-          "translation": "have"
-        },
-        {
-          "text": "会员卡",
-          "pronunciation": "huìyuán kǎ",
-          "translation": "membership card"
-        },
-        {
-          "text": "吗",
-          "pronunciation": "ma",
-          "translation": "(question particle)"
-        }
+        { "text": "有", "pronunciation": "yǒu", "translation": "have" },
+        { "text": "会员卡", "pronunciation": "huìyuán kǎ", "translation": "membership card" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
       ]
     },
     {
       "id": "zh-super-total",
-      "translation": "Your total is... yuan",
-      "text": "一共...块",
-      "pronunciation": "yígòng...kuài",
+      "translation": "Your total is 68 yuan",
+      "text": "一共68块",
+      "pronunciation": "yígòng liùshíbā kuài",
       "words": [
-        {
-          "text": "一共",
-          "pronunciation": "yígòng",
-          "translation": "in total / altogether"
-        },
-        {
-          "text": "块",
-          "pronunciation": "kuài",
-          "translation": "yuan"
-        }
+        { "text": "一共", "pronunciation": "yígòng", "translation": "in total / altogether" },
+        { "text": "68", "pronunciation": "liùshíbā", "translation": "68" },
+        { "text": "块", "pronunciation": "kuài", "translation": "yuan" }
       ]
     },
     {
@@ -108,21 +129,9 @@
       "text": "要袋子吗？",
       "pronunciation": "yào dàizi ma?",
       "words": [
-        {
-          "text": "要",
-          "pronunciation": "yào",
-          "translation": "need / want"
-        },
-        {
-          "text": "袋子",
-          "pronunciation": "dàizi",
-          "translation": "bag"
-        },
-        {
-          "text": "吗",
-          "pronunciation": "ma",
-          "translation": "(question particle)"
-        }
+        { "text": "要", "pronunciation": "yào", "translation": "need / want" },
+        { "text": "袋子", "pronunciation": "dàizi", "translation": "bag" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
       ]
     },
     {
@@ -131,16 +140,8 @@
       "text": "要袋子",
       "pronunciation": "yào dàizi",
       "words": [
-        {
-          "text": "要",
-          "pronunciation": "yào",
-          "translation": "want / need"
-        },
-        {
-          "text": "袋子",
-          "pronunciation": "dàizi",
-          "translation": "bag"
-        }
+        { "text": "要", "pronunciation": "yào", "translation": "want / need" },
+        { "text": "袋子", "pronunciation": "dàizi", "translation": "bag" }
       ]
     },
     {
@@ -149,16 +150,8 @@
       "text": "不用袋子",
       "pronunciation": "bùyòng dàizi",
       "words": [
-        {
-          "text": "不用",
-          "pronunciation": "bùyòng",
-          "translation": "no need / don't need"
-        },
-        {
-          "text": "袋子",
-          "pronunciation": "dàizi",
-          "translation": "bag"
-        }
+        { "text": "不用", "pronunciation": "bùyòng", "translation": "no need / don't need" },
+        { "text": "袋子", "pronunciation": "dàizi", "translation": "bag" }
       ]
     },
     {
@@ -167,21 +160,9 @@
       "text": "现金还是刷卡？",
       "pronunciation": "xiànjīn háishì shuā kǎ?",
       "words": [
-        {
-          "text": "现金",
-          "pronunciation": "xiànjīn",
-          "translation": "cash"
-        },
-        {
-          "text": "还是",
-          "pronunciation": "háishì",
-          "translation": "or (choice)"
-        },
-        {
-          "text": "刷卡",
-          "pronunciation": "shuā kǎ",
-          "translation": "pay by card"
-        }
+        { "text": "现金", "pronunciation": "xiànjīn", "translation": "cash" },
+        { "text": "还是", "pronunciation": "háishì", "translation": "or (choice)" },
+        { "text": "刷卡", "pronunciation": "shuā kǎ", "translation": "pay by card" }
       ]
     },
     {
@@ -190,16 +171,8 @@
       "text": "刷卡",
       "pronunciation": "shuā kǎ",
       "words": [
-        {
-          "text": "刷",
-          "pronunciation": "shuā",
-          "translation": "swipe"
-        },
-        {
-          "text": "卡",
-          "pronunciation": "kǎ",
-          "translation": "card"
-        }
+        { "text": "刷", "pronunciation": "shuā", "translation": "swipe" },
+        { "text": "卡", "pronunciation": "kǎ", "translation": "card" }
       ]
     },
     {
@@ -215,163 +188,60 @@
       "text": "微信 / 支付宝",
       "pronunciation": "wēixìn / zhīfùbǎo",
       "words": [
-        {
-          "text": "微信",
-          "pronunciation": "wēixìn",
-          "translation": "WeChat"
-        },
-        {
-          "text": "支付宝",
-          "pronunciation": "zhīfùbǎo",
-          "translation": "Alipay"
-        }
+        { "text": "微信", "pronunciation": "wēixìn", "translation": "WeChat" },
+        { "text": "支付宝", "pronunciation": "zhīfùbǎo", "translation": "Alipay" }
       ]
+    },
+    {
+      "id": "zh-super-receipt",
+      "translation": "Receipt, please",
+      "text": "请给我小票",
+      "pronunciation": "qǐng gěi wǒ xiǎopiào",
+      "words": [
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "给", "pronunciation": "gěi", "translation": "give" },
+        { "text": "我", "pronunciation": "wǒ", "translation": "me" },
+        { "text": "小票", "pronunciation": "xiǎopiào", "translation": "receipt" }
+      ]
+    },
+    {
+      "id": "zh-super-thank-you",
+      "translation": "Thank you",
+      "text": "谢谢",
+      "pronunciation": "xièxie",
+      "words": []
     }
   ],
   "words": [
-    {
-      "id": "zh-super-w-water",
-      "translation": "water",
-      "text": "水",
-      "pronunciation": "shuǐ"
-    },
-    {
-      "id": "zh-super-w-milk",
-      "translation": "milk",
-      "text": "牛奶",
-      "pronunciation": "niúnǎi"
-    },
-    {
-      "id": "zh-super-w-bread",
-      "translation": "bread",
-      "text": "面包",
-      "pronunciation": "miànbāo"
-    },
-    {
-      "id": "zh-super-w-eggs",
-      "translation": "eggs",
-      "text": "鸡蛋",
-      "pronunciation": "jīdàn"
-    },
-    {
-      "id": "zh-super-w-rice",
-      "translation": "rice",
-      "text": "大米",
-      "pronunciation": "dàmǐ"
-    },
-    {
-      "id": "zh-super-w-fruit",
-      "translation": "fruit",
-      "text": "水果",
-      "pronunciation": "shuǐguǒ"
-    },
-    {
-      "id": "zh-super-w-snack",
-      "translation": "snack",
-      "text": "零食",
-      "pronunciation": "língshí"
-    },
-    {
-      "id": "zh-super-w-candy",
-      "translation": "candy",
-      "text": "糖果",
-      "pronunciation": "tángguǒ"
-    },
-    {
-      "id": "zh-super-w-instant-noodles",
-      "translation": "instant noodles",
-      "text": "方便面",
-      "pronunciation": "fāngbiàn miàn"
-    },
-    {
-      "id": "zh-super-w-tofu",
-      "translation": "tofu",
-      "text": "豆腐",
-      "pronunciation": "dòufu"
-    },
-    {
-      "id": "zh-super-w-bag",
-      "translation": "bag",
-      "text": "袋子",
-      "pronunciation": "dàizi"
-    },
-    {
-      "id": "zh-super-w-receipt",
-      "translation": "receipt",
-      "text": "收据",
-      "pronunciation": "shōujù"
-    },
-    {
-      "id": "zh-super-w-cash",
-      "translation": "cash",
-      "text": "现金",
-      "pronunciation": "xiànjīn"
-    },
-    {
-      "id": "zh-super-w-card",
-      "translation": "card",
-      "text": "卡",
-      "pronunciation": "kǎ"
-    },
-    {
-      "id": "zh-super-w-change",
-      "translation": "change (coins)",
-      "text": "找零",
-      "pronunciation": "zhǎolíng"
-    },
-    {
-      "id": "zh-super-w-price",
-      "translation": "price",
-      "text": "价格",
-      "pronunciation": "jiàgé"
-    },
-    {
-      "id": "zh-super-w-cheap",
-      "translation": "cheap",
-      "text": "便宜",
-      "pronunciation": "piányi"
-    },
-    {
-      "id": "zh-super-w-expensive",
-      "translation": "expensive",
-      "text": "贵",
-      "pronunciation": "guì"
-    },
-    {
-      "id": "zh-super-w-entrance",
-      "translation": "entrance",
-      "text": "入口",
-      "pronunciation": "rùkǒu"
-    },
-    {
-      "id": "zh-super-w-exit",
-      "translation": "exit",
-      "text": "出口",
-      "pronunciation": "chūkǒu"
-    },
-    {
-      "id": "zh-super-w-vegetables",
-      "translation": "vegetables",
-      "text": "蔬菜",
-      "pronunciation": "shūcài"
-    },
-    {
-      "id": "zh-super-w-beverages",
-      "translation": "beverages / drinks",
-      "text": "饮料",
-      "pronunciation": "yǐnliào"
-    },
-    {
-      "id": "zh-super-w-meat",
-      "translation": "meat",
-      "text": "肉",
-      "pronunciation": "ròu"
-    },
-    {
-      "id": "zh-super-w-soy-sauce",
-      "translation": "soy sauce",
-      "text": "酱油",
-      "pronunciation": "jiàngyóu"
-    }
+    { "id": "zh-super-w-water", "translation": "water", "text": "水", "pronunciation": "shuǐ" },
+    { "id": "zh-super-w-milk", "translation": "milk", "text": "牛奶", "pronunciation": "niúnǎi" },
+    { "id": "zh-super-w-bread", "translation": "bread", "text": "面包", "pronunciation": "miànbāo" },
+    { "id": "zh-super-w-eggs", "translation": "eggs", "text": "鸡蛋", "pronunciation": "jīdàn" },
+    { "id": "zh-super-w-rice", "translation": "rice", "text": "大米", "pronunciation": "dàmǐ" },
+    { "id": "zh-super-w-fruit", "translation": "fruit", "text": "水果", "pronunciation": "shuǐguǒ" },
+    { "id": "zh-super-w-snack", "translation": "snack", "text": "零食", "pronunciation": "língshí" },
+    { "id": "zh-super-w-candy", "translation": "candy", "text": "糖果", "pronunciation": "tángguǒ" },
+    { "id": "zh-super-w-instant-noodles", "translation": "instant noodles", "text": "方便面", "pronunciation": "fāngbiàn miàn" },
+    { "id": "zh-super-w-tofu", "translation": "tofu", "text": "豆腐", "pronunciation": "dòufu" },
+    { "id": "zh-super-w-bag", "translation": "bag", "text": "袋子", "pronunciation": "dàizi" },
+    { "id": "zh-super-w-receipt", "translation": "receipt", "text": "收据", "pronunciation": "shōujù" },
+    { "id": "zh-super-w-cash", "translation": "cash", "text": "现金", "pronunciation": "xiànjīn" },
+    { "id": "zh-super-w-card", "translation": "card", "text": "卡", "pronunciation": "kǎ" },
+    { "id": "zh-super-w-change", "translation": "change (coins)", "text": "找零", "pronunciation": "zhǎolíng" },
+    { "id": "zh-super-w-price", "translation": "price", "text": "价格", "pronunciation": "jiàgé" },
+    { "id": "zh-super-w-cheap", "translation": "cheap", "text": "便宜", "pronunciation": "piányi" },
+    { "id": "zh-super-w-expensive", "translation": "expensive", "text": "贵", "pronunciation": "guì" },
+    { "id": "zh-super-w-entrance", "translation": "entrance", "text": "入口", "pronunciation": "rùkǒu" },
+    { "id": "zh-super-w-exit", "translation": "exit", "text": "出口", "pronunciation": "chūkǒu" },
+    { "id": "zh-super-w-vegetables", "translation": "vegetables", "text": "蔬菜", "pronunciation": "shūcài" },
+    { "id": "zh-super-w-beverages", "translation": "beverages / drinks", "text": "饮料", "pronunciation": "yǐnliào" },
+    { "id": "zh-super-w-meat", "translation": "meat", "text": "肉", "pronunciation": "ròu" },
+    { "id": "zh-super-w-fish", "translation": "fish", "text": "鱼", "pronunciation": "yú" },
+    { "id": "zh-super-w-soy-sauce", "translation": "soy sauce", "text": "酱油", "pronunciation": "jiàngyóu" },
+    { "id": "zh-super-w-frozen", "translation": "frozen food", "text": "冷冻食品", "pronunciation": "lěngdòng shípǐn" },
+    { "id": "zh-super-w-alcohol", "translation": "alcohol", "text": "酒", "pronunciation": "jiǔ" },
+    { "id": "zh-super-w-fresh", "translation": "fresh", "text": "新鲜", "pronunciation": "xīnxiān" },
+    { "id": "zh-super-w-discount", "translation": "discount / on sale", "text": "打折", "pronunciation": "dǎzhé" },
+    { "id": "zh-super-w-organic", "translation": "organic", "text": "有机", "pronunciation": "yǒujī" }
   ]
 }

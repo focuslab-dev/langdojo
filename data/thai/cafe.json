@@ -3,31 +3,26 @@
   "languageId": "thai",
   "phrases": [
     {
+      "id": "th-cafe-welcome",
+      "translation": "Welcome!",
+      "text": "ยินดีต้อนรับค่ะ",
+      "pronunciation": "yindee tôn ráp khâ",
+      "words": [
+        { "text": "ยินดี", "pronunciation": "yindee", "translation": "glad / pleased" },
+        { "text": "ต้อนรับ", "pronunciation": "tôn ráp", "translation": "welcome / receive" },
+        { "text": "ค่ะ", "pronunciation": "khâ", "translation": "(polite particle, female)" }
+      ]
+    },
+    {
       "id": "th-cafe-menu",
       "translation": "Can I have the menu?",
       "text": "ขอดูเมนูหน่อย",
       "pronunciation": "khǒr doo menu nòi",
       "words": [
-        {
-          "text": "ขอ",
-          "pronunciation": "khǒr",
-          "translation": "please"
-        },
-        {
-          "text": "ดู",
-          "pronunciation": "doo",
-          "translation": "look"
-        },
-        {
-          "text": "เมนู",
-          "pronunciation": "menu",
-          "translation": "menu"
-        },
-        {
-          "text": "หน่อย",
-          "pronunciation": "nòi",
-          "translation": "a little"
-        }
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "please" },
+        { "text": "ดู", "pronunciation": "doo", "translation": "look" },
+        { "text": "เมนู", "pronunciation": "menu", "translation": "menu" },
+        { "text": "หน่อย", "pronunciation": "nòi", "translation": "a little" }
       ]
     },
     {
@@ -36,26 +31,10 @@
       "text": "ขอกาแฟหนึ่งแก้ว",
       "pronunciation": "khǒr kafae nùeng kâew",
       "words": [
-        {
-          "text": "ขอ",
-          "pronunciation": "khǒr",
-          "translation": "I'd like / may I"
-        },
-        {
-          "text": "กาแฟ",
-          "pronunciation": "kafae",
-          "translation": "coffee"
-        },
-        {
-          "text": "หนึ่ง",
-          "pronunciation": "nùeng",
-          "translation": "one"
-        },
-        {
-          "text": "แก้ว",
-          "pronunciation": "kâew",
-          "translation": "cup / glass"
-        }
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "กาแฟ", "pronunciation": "kafae", "translation": "coffee" },
+        { "text": "หนึ่ง", "pronunciation": "nùeng", "translation": "one" },
+        { "text": "แก้ว", "pronunciation": "kâew", "translation": "cup / glass" }
       ]
     },
     {
@@ -64,44 +43,44 @@
       "text": "ขอชาไทย",
       "pronunciation": "khǒr cha thai",
       "words": [
-        {
-          "text": "ขอ",
-          "pronunciation": "khǒr",
-          "translation": "I'd like / may I"
-        },
-        {
-          "text": "ชา",
-          "pronunciation": "cha",
-          "translation": "tea"
-        },
-        {
-          "text": "ไทย",
-          "pronunciation": "thai",
-          "translation": "Thai"
-        }
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "ชา", "pronunciation": "cha", "translation": "tea" },
+        { "text": "ไทย", "pronunciation": "thai", "translation": "Thai" }
+      ]
+    },
+    {
+      "id": "th-cafe-iced-coffee",
+      "translation": "One iced coffee, please",
+      "text": "ขอกาแฟเย็นหนึ่งแก้ว",
+      "pronunciation": "khǒr kafae yen nùeng kâew",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "กาแฟ", "pronunciation": "kafae", "translation": "coffee" },
+        { "text": "เย็น", "pronunciation": "yen", "translation": "cold / iced" },
+        { "text": "หนึ่ง", "pronunciation": "nùeng", "translation": "one" },
+        { "text": "แก้ว", "pronunciation": "kâew", "translation": "cup / glass" }
       ]
     },
     {
       "id": "th-cafe-what-size",
       "translation": "What size would you like?",
       "text": "เอาไซส์ไหน?",
-      "pronunciation": "ao size nǎi?",
+      "pronunciation": "ao sái nǎi?",
       "words": [
-        {
-          "text": "เอา",
-          "pronunciation": "ao",
-          "translation": "want / take"
-        },
-        {
-          "text": "ไซส์",
-          "pronunciation": "size",
-          "translation": "size"
-        },
-        {
-          "text": "ไหน",
-          "pronunciation": "nǎi",
-          "translation": "which / what"
-        }
+        { "text": "เอา", "pronunciation": "ao", "translation": "want / take" },
+        { "text": "ไซส์", "pronunciation": "sái", "translation": "size" },
+        { "text": "ไหน", "pronunciation": "nǎi", "translation": "which / what" }
+      ]
+    },
+    {
+      "id": "th-cafe-medium-please",
+      "translation": "Medium size, please",
+      "text": "ขอแก้วกลาง",
+      "pronunciation": "khǒr kâew glang",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "แก้ว", "pronunciation": "kâew", "translation": "cup / glass" },
+        { "text": "กลาง", "pronunciation": "glang", "translation": "medium / middle" }
       ]
     },
     {
@@ -110,39 +89,9 @@
       "text": "ร้อนหรือเย็น?",
       "pronunciation": "rón rěu yen?",
       "words": [
-        {
-          "text": "ร้อน",
-          "pronunciation": "rón",
-          "translation": "hot"
-        },
-        {
-          "text": "หรือ",
-          "pronunciation": "rěu",
-          "translation": "or"
-        },
-        {
-          "text": "เย็น",
-          "pronunciation": "yen",
-          "translation": "cold / iced"
-        }
-      ]
-    },
-    {
-      "id": "th-cafe-hot-iced",
-      "translation": "Hot / Iced",
-      "text": "ร้อน / เย็น",
-      "pronunciation": "rón / yen",
-      "words": [
-        {
-          "text": "ร้อน",
-          "pronunciation": "rón",
-          "translation": "hot"
-        },
-        {
-          "text": "เย็น",
-          "pronunciation": "yen",
-          "translation": "cold / iced"
-        }
+        { "text": "ร้อน", "pronunciation": "rón", "translation": "hot" },
+        { "text": "หรือ", "pronunciation": "rěu", "translation": "or" },
+        { "text": "เย็น", "pronunciation": "yen", "translation": "cold / iced" }
       ]
     },
     {
@@ -151,16 +100,8 @@
       "text": "หวานน้อย",
       "pronunciation": "wǎn nói",
       "words": [
-        {
-          "text": "หวาน",
-          "pronunciation": "wǎn",
-          "translation": "sweet"
-        },
-        {
-          "text": "น้อย",
-          "pronunciation": "nói",
-          "translation": "a little / less"
-        }
+        { "text": "หวาน", "pronunciation": "wǎn", "translation": "sweet" },
+        { "text": "น้อย", "pronunciation": "nói", "translation": "a little / less" }
       ]
     },
     {
@@ -169,16 +110,8 @@
       "text": "ไม่หวาน",
       "pronunciation": "mâi wǎn",
       "words": [
-        {
-          "text": "ไม่",
-          "pronunciation": "mâi",
-          "translation": "no / not"
-        },
-        {
-          "text": "หวาน",
-          "pronunciation": "wǎn",
-          "translation": "sweet"
-        }
+        { "text": "ไม่", "pronunciation": "mâi", "translation": "no / not" },
+        { "text": "หวาน", "pronunciation": "wǎn", "translation": "sweet" }
       ]
     },
     {
@@ -187,21 +120,9 @@
       "text": "ไม่ใส่น้ำตาล",
       "pronunciation": "mâi sài nám taan",
       "words": [
-        {
-          "text": "ไม่",
-          "pronunciation": "mâi",
-          "translation": "no / not"
-        },
-        {
-          "text": "ใส่",
-          "pronunciation": "sài",
-          "translation": "put / add"
-        },
-        {
-          "text": "น้ำตาล",
-          "pronunciation": "nám taan",
-          "translation": "sugar"
-        }
+        { "text": "ไม่", "pronunciation": "mâi", "translation": "no / not" },
+        { "text": "ใส่", "pronunciation": "sài", "translation": "put / add" },
+        { "text": "น้ำตาล", "pronunciation": "nám taan", "translation": "sugar" }
       ]
     },
     {
@@ -210,16 +131,8 @@
       "text": "หวานปกติ",
       "pronunciation": "wǎn pòkatee",
       "words": [
-        {
-          "text": "หวาน",
-          "pronunciation": "wǎn",
-          "translation": "sweet"
-        },
-        {
-          "text": "ปกติ",
-          "pronunciation": "pòkatee",
-          "translation": "normal / regular"
-        }
+        { "text": "หวาน", "pronunciation": "wǎn", "translation": "sweet" },
+        { "text": "ปกติ", "pronunciation": "pòkatee", "translation": "normal / regular" }
       ]
     },
     {
@@ -228,31 +141,11 @@
       "text": "ทานที่นี่หรือกลับบ้าน?",
       "pronunciation": "taan têe nêe rěu glàp bâan?",
       "words": [
-        {
-          "text": "ทาน",
-          "pronunciation": "taan",
-          "translation": "eat / dine"
-        },
-        {
-          "text": "ที่นี่",
-          "pronunciation": "têe nêe",
-          "translation": "here"
-        },
-        {
-          "text": "หรือ",
-          "pronunciation": "rěu",
-          "translation": "or"
-        },
-        {
-          "text": "กลับ",
-          "pronunciation": "glàp",
-          "translation": "return / go back"
-        },
-        {
-          "text": "บ้าน",
-          "pronunciation": "bâan",
-          "translation": "home"
-        }
+        { "text": "ทาน", "pronunciation": "taan", "translation": "eat / dine" },
+        { "text": "ที่นี่", "pronunciation": "têe nêe", "translation": "here" },
+        { "text": "หรือ", "pronunciation": "rěu", "translation": "or" },
+        { "text": "กลับ", "pronunciation": "glàp", "translation": "return / go back" },
+        { "text": "บ้าน", "pronunciation": "bâan", "translation": "home" }
       ]
     },
     {
@@ -261,21 +154,9 @@
       "text": "ทานที่นี่",
       "pronunciation": "taan têe nêe",
       "words": [
-        {
-          "text": "ทาน",
-          "pronunciation": "taan",
-          "translation": "eat / dine"
-        },
-        {
-          "text": "ที่",
-          "pronunciation": "têe",
-          "translation": "at / place"
-        },
-        {
-          "text": "นี่",
-          "pronunciation": "nêe",
-          "translation": "here / this"
-        }
+        { "text": "ทาน", "pronunciation": "taan", "translation": "eat / dine" },
+        { "text": "ที่", "pronunciation": "têe", "translation": "at / place" },
+        { "text": "นี่", "pronunciation": "nêe", "translation": "here / this" }
       ]
     },
     {
@@ -284,44 +165,45 @@
       "text": "กลับบ้าน",
       "pronunciation": "glàp bâan",
       "words": [
-        {
-          "text": "กลับ",
-          "pronunciation": "glàp",
-          "translation": "return / go back"
-        },
-        {
-          "text": "บ้าน",
-          "pronunciation": "bâan",
-          "translation": "home"
-        }
+        { "text": "กลับ", "pronunciation": "glàp", "translation": "return / go back" },
+        { "text": "บ้าน", "pronunciation": "bâan", "translation": "home" }
+      ]
+    },
+    {
+      "id": "th-cafe-wifi-password",
+      "translation": "Can I have the WiFi password?",
+      "text": "ขอรหัส Wi-Fi หน่อยครับ",
+      "pronunciation": "khǒr ráhàt waifai nòi khráp",
+      "words": [
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "I'd like / may I" },
+        { "text": "รหัส", "pronunciation": "ráhàt", "translation": "password / code" },
+        { "text": "Wi-Fi", "pronunciation": "waifai", "translation": "WiFi" },
+        { "text": "หน่อย", "pronunciation": "nòi", "translation": "a little (softener)" },
+        { "text": "ครับ", "pronunciation": "khráp", "translation": "(polite particle, male)" }
       ]
     },
     {
       "id": "th-cafe-anything-else",
       "translation": "Would you like anything else?",
       "text": "เอาอะไรเพิ่มไหม?",
-      "pronunciation": "ao àrai pêem mǎi?",
+      "pronunciation": "ao àrai pêrm mǎi?",
       "words": [
-        {
-          "text": "เอา",
-          "pronunciation": "ao",
-          "translation": "want / take"
-        },
-        {
-          "text": "อะไร",
-          "pronunciation": "àrai",
-          "translation": "anything / what"
-        },
-        {
-          "text": "เพิ่ม",
-          "pronunciation": "pêem",
-          "translation": "more / additional"
-        },
-        {
-          "text": "ไหม",
-          "pronunciation": "mǎi",
-          "translation": "(question particle)"
-        }
+        { "text": "เอา", "pronunciation": "ao", "translation": "want / take" },
+        { "text": "อะไร", "pronunciation": "àrai", "translation": "anything / what" },
+        { "text": "เพิ่ม", "pronunciation": "pêrm", "translation": "more / additional" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "th-cafe-please-wait",
+      "translation": "Please wait a moment",
+      "text": "รอสักครู่นะคะ",
+      "pronunciation": "ror sàk khrôo ná khá",
+      "words": [
+        { "text": "รอ", "pronunciation": "ror", "translation": "wait" },
+        { "text": "สักครู่", "pronunciation": "sàk khrôo", "translation": "a moment" },
+        { "text": "นะ", "pronunciation": "ná", "translation": "(softening particle)" },
+        { "text": "คะ", "pronunciation": "khá", "translation": "(polite particle, female)" }
       ]
     },
     {
@@ -330,180 +212,52 @@
       "text": "เก็บเงินด้วย",
       "pronunciation": "gèp ngern dûay",
       "words": [
-        {
-          "text": "เก็บ",
-          "pronunciation": "gèp",
-          "translation": "collect / take"
-        },
-        {
-          "text": "เงิน",
-          "pronunciation": "ngern",
-          "translation": "money"
-        },
-        {
-          "text": "ด้วย",
-          "pronunciation": "dûay",
-          "translation": "also / please (add-on)"
-        }
+        { "text": "เก็บ", "pronunciation": "gèp", "translation": "collect / take" },
+        { "text": "เงิน", "pronunciation": "ngern", "translation": "money" },
+        { "text": "ด้วย", "pronunciation": "dûay", "translation": "also / please (add-on)" }
+      ]
+    },
+    {
+      "id": "th-cafe-thank-you",
+      "translation": "Thank you",
+      "text": "ขอบคุณครับ",
+      "pronunciation": "khòrp khun khráp",
+      "words": [
+        { "text": "ขอบคุณ", "pronunciation": "khòrp khun", "translation": "thank you" },
+        { "text": "ครับ", "pronunciation": "khráp", "translation": "(polite particle, male)" }
       ]
     }
   ],
   "words": [
-    {
-      "id": "th-cafe-w-coffee",
-      "translation": "coffee",
-      "text": "กาแฟ",
-      "pronunciation": "kafae"
-    },
-    {
-      "id": "th-cafe-w-latte",
-      "translation": "latte",
-      "text": "ลาเต้",
-      "pronunciation": "latây"
-    },
-    {
-      "id": "th-cafe-w-americano",
-      "translation": "americano",
-      "text": "อเมริกาโน",
-      "pronunciation": "amerikano"
-    },
-    {
-      "id": "th-cafe-w-espresso",
-      "translation": "espresso",
-      "text": "เอสเปรสโซ",
-      "pronunciation": "espresso"
-    },
-    {
-      "id": "th-cafe-w-cappuccino",
-      "translation": "cappuccino",
-      "text": "คาปูชิโน",
-      "pronunciation": "kapuchino"
-    },
-    {
-      "id": "th-cafe-w-thai-tea",
-      "translation": "Thai tea",
-      "text": "ชาไทย",
-      "pronunciation": "cha thai"
-    },
-    {
-      "id": "th-cafe-w-tea",
-      "translation": "tea",
-      "text": "ชา",
-      "pronunciation": "cha"
-    },
-    {
-      "id": "th-cafe-w-milk",
-      "translation": "milk",
-      "text": "นม",
-      "pronunciation": "nom"
-    },
-    {
-      "id": "th-cafe-w-sugar",
-      "translation": "sugar",
-      "text": "น้ำตาล",
-      "pronunciation": "nám taan"
-    },
-    {
-      "id": "th-cafe-w-ice",
-      "translation": "ice",
-      "text": "น้ำแข็ง",
-      "pronunciation": "nám kǎeng"
-    },
-    {
-      "id": "th-cafe-w-hot",
-      "translation": "hot",
-      "text": "ร้อน",
-      "pronunciation": "rón"
-    },
-    {
-      "id": "th-cafe-w-cold",
-      "translation": "cold / iced",
-      "text": "เย็น",
-      "pronunciation": "yen"
-    },
-    {
-      "id": "th-cafe-w-cup",
-      "translation": "cup",
-      "text": "แก้ว",
-      "pronunciation": "kâew"
-    },
-    {
-      "id": "th-cafe-w-straw",
-      "translation": "straw",
-      "text": "หลอด",
-      "pronunciation": "lòrt"
-    },
-    {
-      "id": "th-cafe-w-small",
-      "translation": "small",
-      "text": "เล็ก",
-      "pronunciation": "lék"
-    },
-    {
-      "id": "th-cafe-w-medium",
-      "translation": "medium",
-      "text": "กลาง",
-      "pronunciation": "glang"
-    },
-    {
-      "id": "th-cafe-w-large",
-      "translation": "large",
-      "text": "ใหญ่",
-      "pronunciation": "yâi"
-    },
-    {
-      "id": "th-cafe-w-water",
-      "translation": "water",
-      "text": "น้ำ",
-      "pronunciation": "nám"
-    },
-    {
-      "id": "th-cafe-w-cake",
-      "translation": "cake",
-      "text": "เค้ก",
-      "pronunciation": "kék"
-    },
-    {
-      "id": "th-cafe-w-smoothie",
-      "translation": "smoothie",
-      "text": "สมูทตี้",
-      "pronunciation": "smoothie"
-    },
-    {
-      "id": "th-cafe-w-green-tea",
-      "translation": "green tea",
-      "text": "ชาเขียว",
-      "pronunciation": "cha khǐao"
-    },
-    {
-      "id": "th-cafe-w-matcha",
-      "translation": "matcha",
-      "text": "มัทฉะ",
-      "pronunciation": "matcha"
-    },
-    {
-      "id": "th-cafe-w-juice",
-      "translation": "juice",
-      "text": "น้ำผลไม้",
-      "pronunciation": "nám pǒnlamái"
-    },
-    {
-      "id": "th-cafe-w-croissant",
-      "translation": "croissant",
-      "text": "ครัวซองต์",
-      "pronunciation": "krawason"
-    },
-    {
-      "id": "th-cafe-w-receipt",
-      "translation": "receipt",
-      "text": "ใบเสร็จ",
-      "pronunciation": "bai sèt"
-    },
-    {
-      "id": "th-cafe-w-bag",
-      "translation": "bag",
-      "text": "ถุง",
-      "pronunciation": "tǒong"
-    }
+    { "id": "th-cafe-w-coffee", "translation": "coffee", "text": "กาแฟ", "pronunciation": "kafae" },
+    { "id": "th-cafe-w-latte", "translation": "latte", "text": "ลาเต้", "pronunciation": "latây" },
+    { "id": "th-cafe-w-americano", "translation": "americano", "text": "อเมริกาโน", "pronunciation": "amerikano" },
+    { "id": "th-cafe-w-espresso", "translation": "espresso", "text": "เอสเปรสโซ", "pronunciation": "espresso" },
+    { "id": "th-cafe-w-cappuccino", "translation": "cappuccino", "text": "คาปูชิโน", "pronunciation": "kapuchino" },
+    { "id": "th-cafe-w-thai-tea", "translation": "Thai tea", "text": "ชาไทย", "pronunciation": "cha thai" },
+    { "id": "th-cafe-w-tea", "translation": "tea", "text": "ชา", "pronunciation": "cha" },
+    { "id": "th-cafe-w-milk", "translation": "milk", "text": "นม", "pronunciation": "nom" },
+    { "id": "th-cafe-w-sugar", "translation": "sugar", "text": "น้ำตาล", "pronunciation": "nám taan" },
+    { "id": "th-cafe-w-ice", "translation": "ice", "text": "น้ำแข็ง", "pronunciation": "nám kǎeng" },
+    { "id": "th-cafe-w-hot", "translation": "hot", "text": "ร้อน", "pronunciation": "rón" },
+    { "id": "th-cafe-w-cold", "translation": "cold / iced", "text": "เย็น", "pronunciation": "yen" },
+    { "id": "th-cafe-w-cup", "translation": "cup", "text": "แก้ว", "pronunciation": "kâew" },
+    { "id": "th-cafe-w-straw", "translation": "straw", "text": "หลอด", "pronunciation": "lòrt" },
+    { "id": "th-cafe-w-small", "translation": "small", "text": "เล็ก", "pronunciation": "lék" },
+    { "id": "th-cafe-w-medium", "translation": "medium", "text": "กลาง", "pronunciation": "glang" },
+    { "id": "th-cafe-w-large", "translation": "large", "text": "ใหญ่", "pronunciation": "yâi" },
+    { "id": "th-cafe-w-water", "translation": "water", "text": "น้ำ", "pronunciation": "nám" },
+    { "id": "th-cafe-w-cake", "translation": "cake", "text": "เค้ก", "pronunciation": "kék" },
+    { "id": "th-cafe-w-smoothie", "translation": "smoothie", "text": "สมูทตี้", "pronunciation": "smoothie" },
+    { "id": "th-cafe-w-green-tea", "translation": "green tea", "text": "ชาเขียว", "pronunciation": "cha khǐao" },
+    { "id": "th-cafe-w-matcha", "translation": "matcha", "text": "มัทฉะ", "pronunciation": "matcha" },
+    { "id": "th-cafe-w-juice", "translation": "juice", "text": "น้ำผลไม้", "pronunciation": "nám pǒnlamái" },
+    { "id": "th-cafe-w-croissant", "translation": "croissant", "text": "ครัวซองต์", "pronunciation": "krawason" },
+    { "id": "th-cafe-w-receipt", "translation": "receipt", "text": "ใบเสร็จ", "pronunciation": "bai sèt" },
+    { "id": "th-cafe-w-bag", "translation": "bag", "text": "ถุง", "pronunciation": "tǒong" },
+    { "id": "th-cafe-w-cocoa", "translation": "cocoa", "text": "โกโก้", "pronunciation": "kokô" },
+    { "id": "th-cafe-w-honey", "translation": "honey", "text": "น้ำผึ้ง", "pronunciation": "nám phêung" },
+    { "id": "th-cafe-w-wifi", "translation": "WiFi", "text": "ไวไฟ", "pronunciation": "waifai" },
+    { "id": "th-cafe-w-toast", "translation": "toast", "text": "ขนมปังปิ้ง", "pronunciation": "khanǒmpang pîng" }
   ]
 }

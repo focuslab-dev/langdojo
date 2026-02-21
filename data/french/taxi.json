@@ -3,6 +3,27 @@
   "languageId": "french",
   "phrases": [
     {
+      "id": "fr-taxi-excuse-me",
+      "translation": "Excuse me",
+      "text": "Excusez-moi",
+      "pronunciation": "Ehk-skoo-zay mwah",
+      "words": [
+        { "text": "Excusez", "pronunciation": "ehk-skoo-zay", "translation": "excuse (formal)" },
+        { "text": "moi", "pronunciation": "mwah", "translation": "me" }
+      ]
+    },
+    {
+      "id": "fr-taxi-available",
+      "translation": "Are you available?",
+      "text": "Vous êtes libre ?",
+      "pronunciation": "Voo zeht lee-bruh?",
+      "words": [
+        { "text": "Vous", "pronunciation": "voo", "translation": "you (formal)" },
+        { "text": "êtes", "pronunciation": "eht", "translation": "are" },
+        { "text": "libre", "pronunciation": "lee-bruh", "translation": "free / available" }
+      ]
+    },
+    {
       "id": "fr-taxi-where-going",
       "translation": "Where are you going?",
       "text": "Où allez-vous ?",
@@ -55,25 +76,34 @@
     },
     {
       "id": "fr-taxi-about-euros",
-      "translation": "It will be about... euros",
-      "text": "Ce sera environ... euros",
-      "pronunciation": "Suh suh-rah on-vee-ron... uh-roh",
+      "translation": "It will be about 30 euros",
+      "text": "Ce sera environ 30 euros",
+      "pronunciation": "suh suh-rah on-vee-ron tront uh-roh",
       "words": [
         { "text": "Ce sera", "pronunciation": "suh suh-rah", "translation": "it will be" },
-        { "text": "environ", "pronunciation": "on-vee-ron", "translation": "approximately / around" },
+        { "text": "environ", "pronunciation": "on-vee-ron", "translation": "approximately" },
+        { "text": "30", "pronunciation": "tront", "translation": "thirty" },
         { "text": "euros", "pronunciation": "uh-roh", "translation": "euros" }
       ]
     },
     {
-      "id": "fr-taxi-pay-by-card",
-      "translation": "Can I pay by card?",
-      "text": "Est-ce que je peux payer par carte ?",
-      "pronunciation": "Ess-kuh zhuh puh pay-yay par kart?",
+      "id": "fr-taxi-how-long",
+      "translation": "How long will it take?",
+      "text": "Combien de temps ça prendra ?",
+      "pronunciation": "Kom-bee-en duh ton sah pron-drah?",
       "words": [
-        { "text": "Est-ce que", "pronunciation": "ess-kuh", "translation": "can / do (question)" },
-        { "text": "je peux", "pronunciation": "zhuh puh", "translation": "I can" },
-        { "text": "payer", "pronunciation": "pay-yay", "translation": "pay" },
-        { "text": "par carte", "pronunciation": "par kart", "translation": "by card" }
+        { "text": "Combien de temps", "pronunciation": "kom-bee-en duh ton", "translation": "how long" },
+        { "text": "ça prendra", "pronunciation": "sah pron-drah", "translation": "will it take" }
+      ]
+    },
+    {
+      "id": "fr-taxi-use-meter",
+      "translation": "The meter, please",
+      "text": "Le compteur, s'il vous plaît",
+      "pronunciation": "Luh kon-tur, seel voo pleh",
+      "words": [
+        { "text": "Le compteur", "pronunciation": "luh kon-tur", "translation": "the meter" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
       ]
     },
     {
@@ -98,13 +128,22 @@
       ]
     },
     {
-      "id": "fr-taxi-stop-here",
-      "translation": "Please stop here",
-      "text": "Arrêtez-vous ici, s'il vous plaît",
-      "pronunciation": "Ah-reh-tay voo ee-see, seel voo pleh",
+      "id": "fr-taxi-faster",
+      "translation": "Faster, please",
+      "text": "Plus vite, s'il vous plaît",
+      "pronunciation": "Plew veet, seel voo pleh",
       "words": [
-        { "text": "Arrêtez-vous", "pronunciation": "ah-reh-tay voo", "translation": "stop / pull over" },
-        { "text": "ici", "pronunciation": "ee-see", "translation": "here" },
+        { "text": "Plus vite", "pronunciation": "plew veet", "translation": "faster" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
+      ]
+    },
+    {
+      "id": "fr-taxi-slower",
+      "translation": "Slower, please",
+      "text": "Moins vite, s'il vous plaît",
+      "pronunciation": "Mwan veet, seel voo pleh",
+      "words": [
+        { "text": "Moins vite", "pronunciation": "mwan veet", "translation": "slower" },
         { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
       ]
     },
@@ -120,6 +159,17 @@
       ]
     },
     {
+      "id": "fr-taxi-stop-here",
+      "translation": "Please stop here",
+      "text": "Arrêtez-vous ici, s'il vous plaît",
+      "pronunciation": "Ah-reh-tay voo ee-see, seel voo pleh",
+      "words": [
+        { "text": "Arrêtez-vous", "pronunciation": "ah-reh-tay voo", "translation": "stop / pull over" },
+        { "text": "ici", "pronunciation": "ee-see", "translation": "here" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
+      ]
+    },
+    {
       "id": "fr-taxi-arrived",
       "translation": "We've arrived",
       "text": "Nous sommes arrivés",
@@ -128,140 +178,70 @@
         { "text": "Nous sommes", "pronunciation": "noo som", "translation": "we are" },
         { "text": "arrivés", "pronunciation": "ah-ree-vay", "translation": "arrived" }
       ]
+    },
+    {
+      "id": "fr-taxi-pay-by-card",
+      "translation": "Can I pay by card?",
+      "text": "Est-ce que je peux payer par carte ?",
+      "pronunciation": "Ess-kuh zhuh puh pay-yay par kart?",
+      "words": [
+        { "text": "Est-ce que", "pronunciation": "ess-kuh", "translation": "can / do (question)" },
+        { "text": "je peux", "pronunciation": "zhuh puh", "translation": "I can" },
+        { "text": "payer", "pronunciation": "pay-yay", "translation": "pay" },
+        { "text": "par carte", "pronunciation": "par kart", "translation": "by card" }
+      ]
+    },
+    {
+      "id": "fr-taxi-receipt",
+      "translation": "A receipt, please",
+      "text": "Un reçu, s'il vous plaît",
+      "pronunciation": "Un ruh-sue, seel voo pleh",
+      "words": [
+        { "text": "Un reçu", "pronunciation": "un ruh-sue", "translation": "a receipt" },
+        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
+      ]
+    },
+    {
+      "id": "fr-taxi-keep-change",
+      "translation": "Keep the change",
+      "text": "Gardez la monnaie",
+      "pronunciation": "Gar-day lah mo-neh",
+      "words": [
+        { "text": "Gardez", "pronunciation": "gar-day", "translation": "keep" },
+        { "text": "la monnaie", "pronunciation": "lah mo-neh", "translation": "the change" }
+      ]
     }
   ],
   "words": [
-    {
-      "id": "fr-taxi-w-right",
-      "translation": "right",
-      "text": "droite",
-      "pronunciation": "drwaht"
-    },
-    {
-      "id": "fr-taxi-w-left",
-      "translation": "left",
-      "text": "gauche",
-      "pronunciation": "gohsh"
-    },
-    {
-      "id": "fr-taxi-w-straight",
-      "translation": "straight",
-      "text": "tout droit",
-      "pronunciation": "too drwah"
-    },
-    {
-      "id": "fr-taxi-w-here",
-      "translation": "here",
-      "text": "ici",
-      "pronunciation": "ee-see"
-    },
-    {
-      "id": "fr-taxi-w-there",
-      "translation": "there",
-      "text": "là-bas",
-      "pronunciation": "lah-bah"
-    },
-    {
-      "id": "fr-taxi-w-near",
-      "translation": "near",
-      "text": "près",
-      "pronunciation": "preh"
-    },
-    {
-      "id": "fr-taxi-w-far",
-      "translation": "far",
-      "text": "loin",
-      "pronunciation": "lwan"
-    },
-    {
-      "id": "fr-taxi-w-fast",
-      "translation": "fast",
-      "text": "rapide",
-      "pronunciation": "rah-peed"
-    },
-    {
-      "id": "fr-taxi-w-slow",
-      "translation": "slow",
-      "text": "lent",
-      "pronunciation": "lon"
-    },
-    {
-      "id": "fr-taxi-w-stop",
-      "translation": "stop",
-      "text": "arrêt",
-      "pronunciation": "ah-reh"
-    },
-    {
-      "id": "fr-taxi-w-airport",
-      "translation": "airport",
-      "text": "aéroport",
-      "pronunciation": "ah-ay-ro-por"
-    },
-    {
-      "id": "fr-taxi-w-station",
-      "translation": "station",
-      "text": "gare",
-      "pronunciation": "gar"
-    },
-    {
-      "id": "fr-taxi-w-hotel",
-      "translation": "hotel",
-      "text": "hôtel",
-      "pronunciation": "oh-tel"
-    },
-    {
-      "id": "fr-taxi-w-map",
-      "translation": "map",
-      "text": "carte",
-      "pronunciation": "kart"
-    },
-    {
-      "id": "fr-taxi-w-address",
-      "translation": "address",
-      "text": "adresse",
-      "pronunciation": "ah-dress"
-    },
-    {
-      "id": "fr-taxi-w-meter",
-      "translation": "meter",
-      "text": "compteur",
-      "pronunciation": "kon-tur"
-    },
-    {
-      "id": "fr-taxi-w-money",
-      "translation": "money",
-      "text": "argent",
-      "pronunciation": "ar-zhon"
-    },
-    {
-      "id": "fr-taxi-w-traffic",
-      "translation": "traffic",
-      "text": "circulation",
-      "pronunciation": "seer-koo-lah-syon"
-    },
-    {
-      "id": "fr-taxi-w-hospital",
-      "translation": "hospital",
-      "text": "hôpital",
-      "pronunciation": "oh-pee-tal"
-    },
-    {
-      "id": "fr-taxi-w-city-center",
-      "translation": "city center",
-      "text": "centre-ville",
-      "pronunciation": "son-truh veel"
-    },
-    {
-      "id": "fr-taxi-w-museum",
-      "translation": "museum",
-      "text": "musée",
-      "pronunciation": "moo-zay"
-    },
-    {
-      "id": "fr-taxi-w-toll",
-      "translation": "toll",
-      "text": "péage",
-      "pronunciation": "pay-azh"
-    }
+    { "id": "fr-taxi-w-taxi", "translation": "taxi", "text": "taxi", "pronunciation": "tahk-see" },
+    { "id": "fr-taxi-w-driver", "translation": "driver", "text": "chauffeur", "pronunciation": "shoh-fur" },
+    { "id": "fr-taxi-w-right", "translation": "right", "text": "droite", "pronunciation": "drwaht" },
+    { "id": "fr-taxi-w-left", "translation": "left", "text": "gauche", "pronunciation": "gohsh" },
+    { "id": "fr-taxi-w-straight", "translation": "straight", "text": "tout droit", "pronunciation": "too drwah" },
+    { "id": "fr-taxi-w-here", "translation": "here", "text": "ici", "pronunciation": "ee-see" },
+    { "id": "fr-taxi-w-there", "translation": "there", "text": "là-bas", "pronunciation": "lah-bah" },
+    { "id": "fr-taxi-w-near", "translation": "near", "text": "près", "pronunciation": "preh" },
+    { "id": "fr-taxi-w-far", "translation": "far", "text": "loin", "pronunciation": "lwan" },
+    { "id": "fr-taxi-w-fast", "translation": "fast", "text": "rapide", "pronunciation": "rah-peed" },
+    { "id": "fr-taxi-w-slow", "translation": "slow", "text": "lent", "pronunciation": "lon" },
+    { "id": "fr-taxi-w-stop", "translation": "stop", "text": "arrêt", "pronunciation": "ah-reh" },
+    { "id": "fr-taxi-w-airport", "translation": "airport", "text": "aéroport", "pronunciation": "ah-ay-ro-por" },
+    { "id": "fr-taxi-w-station", "translation": "station", "text": "gare", "pronunciation": "gar" },
+    { "id": "fr-taxi-w-hotel", "translation": "hotel", "text": "hôtel", "pronunciation": "oh-tel" },
+    { "id": "fr-taxi-w-map", "translation": "map", "text": "carte", "pronunciation": "kart" },
+    { "id": "fr-taxi-w-address", "translation": "address", "text": "adresse", "pronunciation": "ah-dress" },
+    { "id": "fr-taxi-w-meter", "translation": "meter", "text": "compteur", "pronunciation": "kon-tur" },
+    { "id": "fr-taxi-w-money", "translation": "money", "text": "argent", "pronunciation": "ar-zhon" },
+    { "id": "fr-taxi-w-traffic", "translation": "traffic", "text": "circulation", "pronunciation": "seer-koo-lah-syon" },
+    { "id": "fr-taxi-w-hospital", "translation": "hospital", "text": "hôpital", "pronunciation": "oh-pee-tal" },
+    { "id": "fr-taxi-w-city-center", "translation": "city center", "text": "centre-ville", "pronunciation": "son-truh veel" },
+    { "id": "fr-taxi-w-museum", "translation": "museum", "text": "musée", "pronunciation": "moo-zay" },
+    { "id": "fr-taxi-w-toll", "translation": "toll", "text": "péage", "pronunciation": "pay-azh" },
+    { "id": "fr-taxi-w-luggage", "translation": "luggage", "text": "bagages", "pronunciation": "bah-gazh" },
+    { "id": "fr-taxi-w-trunk", "translation": "trunk", "text": "coffre", "pronunciation": "koh-fruh" },
+    { "id": "fr-taxi-w-seatbelt", "translation": "seat belt", "text": "ceinture de sécurité", "pronunciation": "san-tur duh say-koo-ree-tay" },
+    { "id": "fr-taxi-w-change", "translation": "change (money)", "text": "monnaie", "pronunciation": "mo-neh" },
+    { "id": "fr-taxi-w-receipt", "translation": "receipt", "text": "reçu", "pronunciation": "ruh-sue" },
+    { "id": "fr-taxi-w-fare", "translation": "fare", "text": "tarif", "pronunciation": "tah-reef" }
   ]
 }

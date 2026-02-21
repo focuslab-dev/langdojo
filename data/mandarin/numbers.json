@@ -112,6 +112,118 @@
         { "text": "五", "pronunciation": "wǔ", "translation": "five" },
         { "text": "个", "pronunciation": "gè", "translation": "(general measure word)" }
       ]
+    },
+    {
+      "id": "zh-num-two-tickets",
+      "translation": "Two tickets please",
+      "text": "两张票",
+      "pronunciation": "liǎng zhāng piào",
+      "words": [
+        { "text": "两", "pronunciation": "liǎng", "translation": "two" },
+        { "text": "张", "pronunciation": "zhāng", "translation": "(measure word for flat things)" },
+        { "text": "票", "pronunciation": "piào", "translation": "ticket" }
+      ]
+    },
+    {
+      "id": "zh-num-three-of-these",
+      "translation": "I'd like three of these",
+      "text": "这个要三个",
+      "pronunciation": "zhège yào sān gè",
+      "words": [
+        { "text": "这个", "pronunciation": "zhège", "translation": "this one" },
+        { "text": "要", "pronunciation": "yào", "translation": "want" },
+        { "text": "三个", "pronunciation": "sān gè", "translation": "three" }
+      ]
+    },
+    {
+      "id": "zh-num-what-floor",
+      "translation": "What floor?",
+      "text": "几楼？",
+      "pronunciation": "jǐ lóu?",
+      "words": [
+        { "text": "几", "pronunciation": "jǐ", "translation": "which / what number" },
+        { "text": "楼", "pronunciation": "lóu", "translation": "floor / building" }
+      ]
+    },
+    {
+      "id": "zh-num-room-number",
+      "translation": "What's the room number?",
+      "text": "房间号是多少？",
+      "pronunciation": "fángjiān hào shì duōshao?",
+      "words": [
+        { "text": "房间", "pronunciation": "fángjiān", "translation": "room" },
+        { "text": "号", "pronunciation": "hào", "translation": "number" },
+        { "text": "是", "pronunciation": "shì", "translation": "is" },
+        { "text": "多少", "pronunciation": "duōshao", "translation": "how much / what number" }
+      ]
+    },
+    {
+      "id": "zh-num-phone-number",
+      "translation": "What's the phone number?",
+      "text": "电话号码是多少？",
+      "pronunciation": "diànhuà hàomǎ shì duōshao?",
+      "words": [
+        { "text": "电话", "pronunciation": "diànhuà", "translation": "phone" },
+        { "text": "号码", "pronunciation": "hàomǎ", "translation": "number" },
+        { "text": "是", "pronunciation": "shì", "translation": "is" },
+        { "text": "多少", "pronunciation": "duōshao", "translation": "how much / what number" }
+      ]
+    },
+    {
+      "id": "zh-num-my-phone-number",
+      "translation": "What's your phone number?",
+      "text": "你的电话号码是多少？",
+      "pronunciation": "nǐ de diànhuà hàomǎ shì duōshao?",
+      "words": [
+        { "text": "你的", "pronunciation": "nǐ de", "translation": "your" },
+        { "text": "电话号码", "pronunciation": "diànhuà hàomǎ", "translation": "phone number" },
+        { "text": "是", "pronunciation": "shì", "translation": "is" },
+        { "text": "多少", "pronunciation": "duōshao", "translation": "what / how many" }
+      ]
+    },
+    {
+      "id": "zh-num-how-old",
+      "translation": "How old are you?",
+      "text": "你多大了？",
+      "pronunciation": "nǐ duō dà le?",
+      "words": [
+        { "text": "你", "pronunciation": "nǐ", "translation": "you" },
+        { "text": "多大", "pronunciation": "duō dà", "translation": "how old" },
+        { "text": "了", "pronunciation": "le", "translation": "(particle)" }
+      ]
+    },
+    {
+      "id": "zh-num-wifi-password",
+      "translation": "What's the WiFi password?",
+      "text": "WiFi密码是多少？",
+      "pronunciation": "WiFi mìmǎ shì duōshao?",
+      "words": [
+        { "text": "WiFi", "pronunciation": "WiFi", "translation": "WiFi" },
+        { "text": "密码", "pronunciation": "mìmǎ", "translation": "password" },
+        { "text": "是", "pronunciation": "shì", "translation": "is" },
+        { "text": "多少", "pronunciation": "duōshao", "translation": "what number" }
+      ]
+    },
+    {
+      "id": "zh-num-table-number",
+      "translation": "Table number three",
+      "text": "三号桌",
+      "pronunciation": "sān hào zhuō",
+      "words": [
+        { "text": "三", "pronunciation": "sān", "translation": "three" },
+        { "text": "号", "pronunciation": "hào", "translation": "number" },
+        { "text": "桌", "pronunciation": "zhuō", "translation": "table" }
+      ]
+    },
+    {
+      "id": "zh-num-how-many-minutes",
+      "translation": "How many minutes?",
+      "text": "几分钟？",
+      "pronunciation": "jǐ fēnzhōng?",
+      "words": [
+        { "text": "几", "pronunciation": "jǐ", "translation": "how many" },
+        { "text": "分钟", "pronunciation": "fēnzhōng", "translation": "minutes" }
+      ]
     }
   ],
   "words": [
@@ -130,12 +242,17 @@
     { "id": "zh-num-w-eleven", "translation": "11", "text": "十一", "pronunciation": "shí yī" },
     { "id": "zh-num-w-twenty", "translation": "20", "text": "二十", "pronunciation": "èr shí" },
     { "id": "zh-num-w-twenty-one", "translation": "21", "text": "二十一", "pronunciation": "èr shí yī" },
+    { "id": "zh-num-w-thirty", "translation": "30", "text": "三十", "pronunciation": "sān shí" },
     { "id": "zh-num-w-fifty", "translation": "50", "text": "五十", "pronunciation": "wǔ shí" },
     { "id": "zh-num-w-hundred", "translation": "100", "text": "一百", "pronunciation": "yī bǎi" },
     { "id": "zh-num-w-five-hundred", "translation": "500", "text": "五百", "pronunciation": "wǔ bǎi" },
     { "id": "zh-num-w-thousand", "translation": "1,000", "text": "一千", "pronunciation": "yī qiān" },
     { "id": "zh-num-w-five-thousand", "translation": "5,000", "text": "五千", "pronunciation": "wǔ qiān" },
     { "id": "zh-num-w-ten-thousand", "translation": "10,000", "text": "一万", "pronunciation": "yí wàn" },
-    { "id": "zh-num-w-hundred-five", "translation": "105 (zero placeholder)", "text": "一百零五", "pronunciation": "yī bǎi líng wǔ" }
+    { "id": "zh-num-w-hundred-five", "translation": "105 (zero placeholder)", "text": "一百零五", "pronunciation": "yī bǎi líng wǔ" },
+    { "id": "zh-num-w-half", "translation": "half", "text": "半", "pronunciation": "bàn" },
+    { "id": "zh-num-w-first", "translation": "first", "text": "第一", "pronunciation": "dì yī" },
+    { "id": "zh-num-w-second", "translation": "second", "text": "第二", "pronunciation": "dì èr" },
+    { "id": "zh-num-w-third", "translation": "third", "text": "第三", "pronunciation": "dì sān" }
   ]
 }

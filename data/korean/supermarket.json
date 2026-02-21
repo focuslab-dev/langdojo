@@ -3,39 +3,63 @@
   "languageId": "korean",
   "phrases": [
     {
-      "id": "ko-super-where-is",
-      "translation": "Where is...?",
-      "text": "...은/는 어디에 있어요?",
-      "pronunciation": "...eun/neun eodie isseoyo?",
+      "id": "ko-super-excuse-me",
+      "translation": "Excuse me",
+      "text": "저기요",
+      "pronunciation": "jeogiyo",
+      "words": []
+    },
+    {
+      "id": "ko-super-looking-for",
+      "translation": "I'm looking for milk",
+      "text": "우유를 찾고 있어요",
+      "pronunciation": "uyureul chatgo isseoyo",
       "words": [
-        {
-          "text": "은/는",
-          "pronunciation": "eun/neun",
-          "translation": "(topic marker)"
-        },
-        {
-          "text": "어디",
-          "pronunciation": "eodi",
-          "translation": "where"
-        },
-        {
-          "text": "에",
-          "pronunciation": "e",
-          "translation": "at / in"
-        },
-        {
-          "text": "있어요",
-          "pronunciation": "isseoyo",
-          "translation": "is / exists (question)"
-        }
+        { "text": "우유를", "pronunciation": "uyureul", "translation": "milk (object)" },
+        { "text": "찾고 있어요", "pronunciation": "chatgo isseoyo", "translation": "am looking for" }
+      ]
+    },
+    {
+      "id": "ko-super-where-is",
+      "translation": "Where is the bread?",
+      "text": "빵은 어디에 있어요?",
+      "pronunciation": "ppangeun eodie isseoyo?",
+      "words": [
+        { "text": "빵은", "pronunciation": "ppangeun", "translation": "bread (topic)" },
+        { "text": "어디", "pronunciation": "eodi", "translation": "where" },
+        { "text": "에", "pronunciation": "e", "translation": "at / in" },
+        { "text": "있어요", "pronunciation": "isseoyo", "translation": "is / exists (question)" }
       ]
     },
     {
       "id": "ko-super-do-you-have",
-      "translation": "Do you have...?",
-      "text": "...있어요?",
-      "pronunciation": "...isseoyo?",
-      "words": []
+      "translation": "Do you have kimbap?",
+      "text": "김밥 있어요?",
+      "pronunciation": "gimbap isseoyo?",
+      "words": [
+        { "text": "김밥", "pronunciation": "gimbap", "translation": "kimbap (seaweed rice roll)" }
+      ]
+    },
+    {
+      "id": "ko-super-is-fresh",
+      "translation": "Is this fresh?",
+      "text": "이거 신선해요?",
+      "pronunciation": "igeo sinseonhaeyo?",
+      "words": [
+        { "text": "이거", "pronunciation": "igeo", "translation": "this" },
+        { "text": "신선해요", "pronunciation": "sinseonhaeyo", "translation": "is fresh (question)" }
+      ]
+    },
+    {
+      "id": "ko-super-organic",
+      "translation": "Do you have organic products?",
+      "text": "유기농 제품 있어요?",
+      "pronunciation": "yuginong jepum isseoyo?",
+      "words": [
+        { "text": "유기농", "pronunciation": "yuginong", "translation": "organic" },
+        { "text": "제품", "pronunciation": "jepum", "translation": "product" },
+        { "text": "있어요", "pronunciation": "isseoyo", "translation": "is there? / do you have?" }
+      ]
     },
     {
       "id": "ko-super-how-much",
@@ -43,21 +67,31 @@
       "text": "이거 얼마예요?",
       "pronunciation": "igeo eolmayeyo?",
       "words": [
-        {
-          "text": "이거",
-          "pronunciation": "igeo",
-          "translation": "this"
-        },
-        {
-          "text": "얼마",
-          "pronunciation": "eolma",
-          "translation": "how much"
-        },
-        {
-          "text": "예요",
-          "pronunciation": "yeyo",
-          "translation": "is (question)"
-        }
+        { "text": "이거", "pronunciation": "igeo", "translation": "this" },
+        { "text": "얼마", "pronunciation": "eolma", "translation": "how much" },
+        { "text": "예요", "pronunciation": "yeyo", "translation": "is (question)" }
+      ]
+    },
+    {
+      "id": "ko-super-on-sale",
+      "translation": "Is this on sale?",
+      "text": "이거 할인 중이에요?",
+      "pronunciation": "igeo halin jungieyo?",
+      "words": [
+        { "text": "이거", "pronunciation": "igeo", "translation": "this" },
+        { "text": "할인", "pronunciation": "halin", "translation": "discount / sale" },
+        { "text": "중이에요", "pronunciation": "jungieyo", "translation": "is in progress" }
+      ]
+    },
+    {
+      "id": "ko-super-self-checkout",
+      "translation": "Where is the self-checkout?",
+      "text": "셀프 계산대 어디에 있어요?",
+      "pronunciation": "selpeu gyesandae eodie isseoyo?",
+      "words": [
+        { "text": "셀프 계산대", "pronunciation": "selpeu gyesandae", "translation": "self-checkout" },
+        { "text": "어디에", "pronunciation": "eodie", "translation": "where" },
+        { "text": "있어요", "pronunciation": "isseoyo", "translation": "is" }
       ]
     },
     {
@@ -66,44 +100,21 @@
       "text": "멤버십 카드 있으세요?",
       "pronunciation": "membeosip kadeu isseuseyo?",
       "words": [
-        {
-          "text": "멤버십",
-          "pronunciation": "membeosip",
-          "translation": "membership"
-        },
-        {
-          "text": "카드",
-          "pronunciation": "kadeu",
-          "translation": "card"
-        },
-        {
-          "text": "있으세요",
-          "pronunciation": "isseuseyo",
-          "translation": "do you have (honorific)"
-        }
+        { "text": "멤버십", "pronunciation": "membeosip", "translation": "membership" },
+        { "text": "카드", "pronunciation": "kadeu", "translation": "card" },
+        { "text": "있으세요", "pronunciation": "isseuseyo", "translation": "do you have (honorific)" }
       ]
     },
     {
       "id": "ko-super-total-amount",
-      "translation": "Your total is... won",
-      "text": "총 ...원입니다",
-      "pronunciation": "chong ...wonimnida",
+      "translation": "Your total is 15,000 won",
+      "text": "총 15,000원입니다",
+      "pronunciation": "chong man ohcheon wonimnida",
       "words": [
-        {
-          "text": "총",
-          "pronunciation": "chong",
-          "translation": "total"
-        },
-        {
-          "text": "원",
-          "pronunciation": "won",
-          "translation": "won (currency)"
-        },
-        {
-          "text": "입니다",
-          "pronunciation": "imnida",
-          "translation": "is (formal)"
-        }
+        { "text": "총", "pronunciation": "chong", "translation": "total" },
+        { "text": "만 오천", "pronunciation": "man ohcheon", "translation": "15,000" },
+        { "text": "원", "pronunciation": "won", "translation": "won (currency)" },
+        { "text": "입니다", "pronunciation": "imnida", "translation": "is (formal)" }
       ]
     },
     {
@@ -112,16 +123,8 @@
       "text": "봉투 필요하세요?",
       "pronunciation": "bongtu piryohaseyo?",
       "words": [
-        {
-          "text": "봉투",
-          "pronunciation": "bongtu",
-          "translation": "bag"
-        },
-        {
-          "text": "필요하세요",
-          "pronunciation": "piryohaseyo",
-          "translation": "do you need (honorific)"
-        }
+        { "text": "봉투", "pronunciation": "bongtu", "translation": "bag" },
+        { "text": "필요하세요", "pronunciation": "piryohaseyo", "translation": "do you need (honorific)" }
       ]
     },
     {
@@ -130,21 +133,9 @@
       "text": "봉투 하나 주세요",
       "pronunciation": "bongtu hana juseyo",
       "words": [
-        {
-          "text": "봉투",
-          "pronunciation": "bongtu",
-          "translation": "bag"
-        },
-        {
-          "text": "하나",
-          "pronunciation": "hana",
-          "translation": "one"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please give me"
-        }
+        { "text": "봉투", "pronunciation": "bongtu", "translation": "bag" },
+        { "text": "하나", "pronunciation": "hana", "translation": "one" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
       ]
     },
     {
@@ -153,21 +144,9 @@
       "text": "봉투 필요 없어요",
       "pronunciation": "bongtu piryo eopseoyo",
       "words": [
-        {
-          "text": "봉투",
-          "pronunciation": "bongtu",
-          "translation": "bag"
-        },
-        {
-          "text": "필요",
-          "pronunciation": "piryo",
-          "translation": "need"
-        },
-        {
-          "text": "없어요",
-          "pronunciation": "eopseoyo",
-          "translation": "don't have / not needed"
-        }
+        { "text": "봉투", "pronunciation": "bongtu", "translation": "bag" },
+        { "text": "필요", "pronunciation": "piryo", "translation": "need" },
+        { "text": "없어요", "pronunciation": "eopseoyo", "translation": "don't have / not needed" }
       ]
     },
     {
@@ -176,26 +155,10 @@
       "text": "현금이요, 카드요?",
       "pronunciation": "hyeongeumi-yo, kadeu-yo?",
       "words": [
-        {
-          "text": "현금",
-          "pronunciation": "hyeongeum",
-          "translation": "cash"
-        },
-        {
-          "text": "이요",
-          "pronunciation": "iyo",
-          "translation": "(polite ending)"
-        },
-        {
-          "text": "카드",
-          "pronunciation": "kadeu",
-          "translation": "card"
-        },
-        {
-          "text": "요",
-          "pronunciation": "yo",
-          "translation": "(polite ending)"
-        }
+        { "text": "현금", "pronunciation": "hyeongeum", "translation": "cash" },
+        { "text": "이요", "pronunciation": "iyo", "translation": "(polite ending)" },
+        { "text": "카드", "pronunciation": "kadeu", "translation": "card" },
+        { "text": "요", "pronunciation": "yo", "translation": "(polite ending)" }
       ]
     },
     {
@@ -204,21 +167,9 @@
       "text": "카드로 결제할게요",
       "pronunciation": "kadeu-ro gyeoljaehalgeyo",
       "words": [
-        {
-          "text": "카드",
-          "pronunciation": "kadeu",
-          "translation": "card"
-        },
-        {
-          "text": "로",
-          "pronunciation": "ro",
-          "translation": "by / with"
-        },
-        {
-          "text": "결제할게요",
-          "pronunciation": "gyeoljaehalgeyo",
-          "translation": "I will pay"
-        }
+        { "text": "카드", "pronunciation": "kadeu", "translation": "card" },
+        { "text": "로", "pronunciation": "ro", "translation": "by / with" },
+        { "text": "결제할게요", "pronunciation": "gyeoljaehalgeyo", "translation": "I will pay" }
       ]
     },
     {
@@ -227,21 +178,9 @@
       "text": "현금으로 결제할게요",
       "pronunciation": "hyeongeum-euro gyeoljaehalgeyo",
       "words": [
-        {
-          "text": "현금",
-          "pronunciation": "hyeongeum",
-          "translation": "cash"
-        },
-        {
-          "text": "으로",
-          "pronunciation": "euro",
-          "translation": "with / by"
-        },
-        {
-          "text": "결제할게요",
-          "pronunciation": "gyeoljaehalgeyo",
-          "translation": "I will pay"
-        }
+        { "text": "현금", "pronunciation": "hyeongeum", "translation": "cash" },
+        { "text": "으로", "pronunciation": "euro", "translation": "with / by" },
+        { "text": "결제할게요", "pronunciation": "gyeoljaehalgeyo", "translation": "I will pay" }
       ]
     },
     {
@@ -250,163 +189,59 @@
       "text": "영수증 주세요",
       "pronunciation": "yeongsujeung juseyo",
       "words": [
-        {
-          "text": "영수증",
-          "pronunciation": "yeongsujeung",
-          "translation": "receipt"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please give me"
-        }
+        { "text": "영수증", "pronunciation": "yeongsujeung", "translation": "receipt" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
       ]
+    },
+    {
+      "id": "ko-super-no-receipt",
+      "translation": "I don't need a receipt",
+      "text": "영수증 필요 없어요",
+      "pronunciation": "yeongsujeung piryo eopseoyo",
+      "words": [
+        { "text": "영수증", "pronunciation": "yeongsujeung", "translation": "receipt" },
+        { "text": "필요", "pronunciation": "piryo", "translation": "need" },
+        { "text": "없어요", "pronunciation": "eopseoyo", "translation": "don't have / not needed" }
+      ]
+    },
+    {
+      "id": "ko-super-thank-you",
+      "translation": "Thank you",
+      "text": "감사합니다",
+      "pronunciation": "gamsahamnida",
+      "words": []
     }
   ],
   "words": [
-    {
-      "id": "ko-super-w-water",
-      "translation": "water",
-      "text": "물",
-      "pronunciation": "mul"
-    },
-    {
-      "id": "ko-super-w-milk",
-      "translation": "milk",
-      "text": "우유",
-      "pronunciation": "uyu"
-    },
-    {
-      "id": "ko-super-w-bread",
-      "translation": "bread",
-      "text": "빵",
-      "pronunciation": "ppang"
-    },
-    {
-      "id": "ko-super-w-eggs",
-      "translation": "eggs",
-      "text": "계란",
-      "pronunciation": "gyeran"
-    },
-    {
-      "id": "ko-super-w-rice",
-      "translation": "rice",
-      "text": "쌀",
-      "pronunciation": "ssal"
-    },
-    {
-      "id": "ko-super-w-fruit",
-      "translation": "fruit",
-      "text": "과일",
-      "pronunciation": "gwail"
-    },
-    {
-      "id": "ko-super-w-snack",
-      "translation": "snack",
-      "text": "과자",
-      "pronunciation": "gwaja"
-    },
-    {
-      "id": "ko-super-w-candy",
-      "translation": "candy",
-      "text": "사탕",
-      "pronunciation": "satang"
-    },
-    {
-      "id": "ko-super-w-ramen",
-      "translation": "ramen",
-      "text": "라면",
-      "pronunciation": "ramyeon"
-    },
-    {
-      "id": "ko-super-w-kimchi",
-      "translation": "kimchi",
-      "text": "김치",
-      "pronunciation": "gimchi"
-    },
-    {
-      "id": "ko-super-w-bag",
-      "translation": "bag",
-      "text": "봉투",
-      "pronunciation": "bongtu"
-    },
-    {
-      "id": "ko-super-w-receipt",
-      "translation": "receipt",
-      "text": "영수증",
-      "pronunciation": "yeongsujeung"
-    },
-    {
-      "id": "ko-super-w-cash",
-      "translation": "cash",
-      "text": "현금",
-      "pronunciation": "hyeongeum"
-    },
-    {
-      "id": "ko-super-w-card",
-      "translation": "card",
-      "text": "카드",
-      "pronunciation": "kadeu"
-    },
-    {
-      "id": "ko-super-w-change",
-      "translation": "change",
-      "text": "거스름돈",
-      "pronunciation": "geoseureumdeon"
-    },
-    {
-      "id": "ko-super-w-price",
-      "translation": "price",
-      "text": "가격",
-      "pronunciation": "gagyeok"
-    },
-    {
-      "id": "ko-super-w-cheap",
-      "translation": "cheap",
-      "text": "싼",
-      "pronunciation": "ssan"
-    },
-    {
-      "id": "ko-super-w-expensive",
-      "translation": "expensive",
-      "text": "비싼",
-      "pronunciation": "bissan"
-    },
-    {
-      "id": "ko-super-w-entrance",
-      "translation": "entrance",
-      "text": "입구",
-      "pronunciation": "ipgu"
-    },
-    {
-      "id": "ko-super-w-exit",
-      "translation": "exit",
-      "text": "출구",
-      "pronunciation": "chulgu"
-    },
-    {
-      "id": "ko-super-w-toothpaste",
-      "translation": "toothpaste",
-      "text": "치약",
-      "pronunciation": "chiyak"
-    },
-    {
-      "id": "ko-super-w-shampoo",
-      "translation": "shampoo",
-      "text": "샴푸",
-      "pronunciation": "syampu"
-    },
-    {
-      "id": "ko-super-w-meat",
-      "translation": "meat",
-      "text": "고기",
-      "pronunciation": "gogi"
-    },
-    {
-      "id": "ko-super-w-vegetable",
-      "translation": "vegetable",
-      "text": "채소",
-      "pronunciation": "chaeso"
-    }
+    { "id": "ko-super-w-water", "translation": "water", "text": "물", "pronunciation": "mul" },
+    { "id": "ko-super-w-milk", "translation": "milk", "text": "우유", "pronunciation": "uyu" },
+    { "id": "ko-super-w-bread", "translation": "bread", "text": "빵", "pronunciation": "ppang" },
+    { "id": "ko-super-w-eggs", "translation": "eggs", "text": "계란", "pronunciation": "gyeran" },
+    { "id": "ko-super-w-rice", "translation": "rice", "text": "쌀", "pronunciation": "ssal" },
+    { "id": "ko-super-w-fruit", "translation": "fruit", "text": "과일", "pronunciation": "gwail" },
+    { "id": "ko-super-w-snack", "translation": "snack", "text": "과자", "pronunciation": "gwaja" },
+    { "id": "ko-super-w-candy", "translation": "candy", "text": "사탕", "pronunciation": "satang" },
+    { "id": "ko-super-w-ramen", "translation": "ramen", "text": "라면", "pronunciation": "ramyeon" },
+    { "id": "ko-super-w-kimchi", "translation": "kimchi", "text": "김치", "pronunciation": "gimchi" },
+    { "id": "ko-super-w-bag", "translation": "bag", "text": "봉투", "pronunciation": "bongtu" },
+    { "id": "ko-super-w-receipt", "translation": "receipt", "text": "영수증", "pronunciation": "yeongsujeung" },
+    { "id": "ko-super-w-cash", "translation": "cash", "text": "현금", "pronunciation": "hyeongeum" },
+    { "id": "ko-super-w-card", "translation": "card", "text": "카드", "pronunciation": "kadeu" },
+    { "id": "ko-super-w-change", "translation": "change", "text": "거스름돈", "pronunciation": "geoseureumdeon" },
+    { "id": "ko-super-w-price", "translation": "price", "text": "가격", "pronunciation": "gagyeok" },
+    { "id": "ko-super-w-cheap", "translation": "cheap", "text": "싼", "pronunciation": "ssan" },
+    { "id": "ko-super-w-expensive", "translation": "expensive", "text": "비싼", "pronunciation": "bissan" },
+    { "id": "ko-super-w-entrance", "translation": "entrance", "text": "입구", "pronunciation": "ipgu" },
+    { "id": "ko-super-w-exit", "translation": "exit", "text": "출구", "pronunciation": "chulgu" },
+    { "id": "ko-super-w-toothpaste", "translation": "toothpaste", "text": "치약", "pronunciation": "chiyak" },
+    { "id": "ko-super-w-shampoo", "translation": "shampoo", "text": "샴푸", "pronunciation": "syampu" },
+    { "id": "ko-super-w-meat", "translation": "meat", "text": "고기", "pronunciation": "gogi" },
+    { "id": "ko-super-w-vegetable", "translation": "vegetable", "text": "채소", "pronunciation": "chaeso" },
+    { "id": "ko-super-w-fish", "translation": "fish", "text": "생선", "pronunciation": "saengseon" },
+    { "id": "ko-super-w-tofu", "translation": "tofu", "text": "두부", "pronunciation": "dubu" },
+    { "id": "ko-super-w-soy-sauce", "translation": "soy sauce", "text": "간장", "pronunciation": "ganjang" },
+    { "id": "ko-super-w-frozen", "translation": "frozen food", "text": "냉동식품", "pronunciation": "naengdong sikpum" },
+    { "id": "ko-super-w-beverage", "translation": "beverage", "text": "음료수", "pronunciation": "eumnyosu" },
+    { "id": "ko-super-w-fresh", "translation": "fresh", "text": "신선한", "pronunciation": "sinseonhan" }
   ]
 }

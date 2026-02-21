@@ -3,325 +3,544 @@
   "languageId": "spanish",
   "phrases": [
     {
-      "id": "es-restaurant-how-many",
+      "id": "es-rest-excuse-me",
+      "translation": "Excuse me",
+      "text": "Disculpe",
+      "pronunciation": "dees-KOOL-peh",
+      "words": []
+    },
+    {
+      "id": "es-rest-how-many",
       "translation": "How many people?",
       "text": "¿Cuántas personas?",
       "pronunciation": "KWAHN-tahs pehr-SOH-nahs?",
       "words": [
-        { "text": "¿Cuántas", "pronunciation": "KWAHN-tahs", "translation": "how many (f.)" },
-        { "text": "personas?", "pronunciation": "pehr-SOH-nahs", "translation": "people" }
+        {
+          "text": "¿Cuántas",
+          "pronunciation": "KWAHN-tahs",
+          "translation": "how many (f.)"
+        },
+        {
+          "text": "personas?",
+          "pronunciation": "pehr-SOH-nahs",
+          "translation": "people"
+        }
       ]
     },
     {
-      "id": "es-restaurant-table-two",
+      "id": "es-rest-table-two",
       "translation": "Table for two",
       "text": "Mesa para dos",
       "pronunciation": "MEH-sah PAH-rah DOHS",
       "words": [
         { "text": "Mesa", "pronunciation": "MEH-sah", "translation": "table" },
         { "text": "para", "pronunciation": "PAH-rah", "translation": "for" },
-        { "text": "dos", "pronunciation": "dohs", "translation": "two" }
+        { "text": "dos", "pronunciation": "DOHS", "translation": "two" }
       ]
     },
     {
-      "id": "es-restaurant-please-wait",
+      "id": "es-rest-please-wait",
       "translation": "Please wait",
       "text": "Espere, por favor",
-      "pronunciation": "Ehs-PEH-reh pohr fah-VOHR",
+      "pronunciation": "ehs-PEH-reh pohr fah-VOHR",
       "words": [
-        { "text": "Espere,", "pronunciation": "ehs-PEH-reh", "translation": "wait (formal)" },
-        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
+        {
+          "text": "Espere",
+          "pronunciation": "ehs-PEH-reh",
+          "translation": "wait (formal)"
+        },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
       ]
     },
     {
-      "id": "es-restaurant-menu",
+      "id": "es-rest-here-or-takeaway",
+      "translation": "Eat here or takeaway?",
+      "text": "¿Para comer aquí o para llevar?",
+      "pronunciation": "PAH-rah koh-MEHR ah-KEE oh PAH-rah yeh-VAHR?",
+      "words": [
+        {
+          "text": "Para comer aquí",
+          "pronunciation": "PAH-rah koh-MEHR ah-KEE",
+          "translation": "to eat here"
+        },
+        { "text": "o", "pronunciation": "oh", "translation": "or" },
+        {
+          "text": "para llevar",
+          "pronunciation": "PAH-rah yeh-VAHR",
+          "translation": "to take away"
+        }
+      ]
+    },
+    {
+      "id": "es-rest-for-here",
+      "translation": "To eat here",
+      "text": "Para comer aquí",
+      "pronunciation": "PAH-rah koh-MEHR ah-KEE",
+      "words": [
+        {
+          "text": "Para",
+          "pronunciation": "PAH-rah",
+          "translation": "for / to"
+        },
+        { "text": "comer", "pronunciation": "koh-MEHR", "translation": "eat" },
+        { "text": "aquí", "pronunciation": "ah-KEE", "translation": "here" }
+      ]
+    },
+    {
+      "id": "es-rest-menu",
       "translation": "Can I see the menu?",
       "text": "¿Puedo ver la carta?",
       "pronunciation": "PWEH-doh vehr lah KAR-tah?",
       "words": [
-        { "text": "¿Puedo", "pronunciation": "PWEH-doh", "translation": "can I" },
+        {
+          "text": "¿Puedo",
+          "pronunciation": "PWEH-doh",
+          "translation": "can I"
+        },
         { "text": "ver", "pronunciation": "vehr", "translation": "see" },
-        { "text": "la carta?", "pronunciation": "lah KAR-tah", "translation": "the menu" }
+        {
+          "text": "la carta?",
+          "pronunciation": "lah KAR-tah",
+          "translation": "the menu"
+        }
       ]
     },
     {
-      "id": "es-restaurant-is-spicy",
+      "id": "es-rest-daily-special",
+      "translation": "What's the daily menu?",
+      "text": "¿Cuál es el menú del día?",
+      "pronunciation": "KWAHL ehs ehl meh-NOO dehl DEE-ah?",
+      "words": [
+        {
+          "text": "¿Cuál es",
+          "pronunciation": "KWAHL ehs",
+          "translation": "what is"
+        },
+        {
+          "text": "el menú del día?",
+          "pronunciation": "ehl meh-NOO dehl DEE-ah",
+          "translation": "the menu of the day"
+        }
+      ]
+    },
+    {
+      "id": "es-rest-recommend",
+      "translation": "What do you recommend?",
+      "text": "¿Qué me recomienda?",
+      "pronunciation": "KEH meh reh-koh-mee-EHN-dah?",
+      "words": [
+        { "text": "¿Qué", "pronunciation": "KEH", "translation": "what" },
+        { "text": "me", "pronunciation": "meh", "translation": "to me" },
+        {
+          "text": "recomienda?",
+          "pronunciation": "reh-koh-mee-EHN-dah",
+          "translation": "do you recommend"
+        }
+      ]
+    },
+    {
+      "id": "es-rest-is-spicy",
       "translation": "Is this spicy?",
       "text": "¿Esto es picante?",
       "pronunciation": "EHS-toh ehs pee-KAHN-teh?",
       "words": [
         { "text": "¿Esto", "pronunciation": "EHS-toh", "translation": "this" },
         { "text": "es", "pronunciation": "ehs", "translation": "is" },
-        { "text": "picante?", "pronunciation": "pee-KAHN-teh", "translation": "spicy" }
+        {
+          "text": "picante?",
+          "pronunciation": "pee-KAHN-teh",
+          "translation": "spicy"
+        }
       ]
     },
     {
-      "id": "es-restaurant-vegetarian",
+      "id": "es-rest-vegetarian",
       "translation": "Vegetarian option?",
       "text": "¿Hay opción vegetariana?",
       "pronunciation": "AY ohp-see-OHN veh-heh-tah-ree-AH-nah?",
       "words": [
         { "text": "¿Hay", "pronunciation": "AY", "translation": "is there" },
-        { "text": "opción", "pronunciation": "ohp-see-OHN", "translation": "option" },
-        { "text": "vegetariana?", "pronunciation": "veh-heh-tah-ree-AH-nah", "translation": "vegetarian (f.)" }
+        {
+          "text": "opción",
+          "pronunciation": "ohp-see-OHN",
+          "translation": "option"
+        },
+        {
+          "text": "vegetariana?",
+          "pronunciation": "veh-heh-tah-ree-AH-nah",
+          "translation": "vegetarian (f.)"
+        }
       ]
     },
     {
-      "id": "es-restaurant-no-meat",
+      "id": "es-rest-no-meat",
       "translation": "No meat please",
       "text": "Sin carne, por favor",
-      "pronunciation": "Seen KAR-neh pohr fah-VOHR",
+      "pronunciation": "seen KAR-neh pohr fah-VOHR",
       "words": [
         { "text": "Sin", "pronunciation": "seen", "translation": "without" },
-        { "text": "carne,", "pronunciation": "KAR-neh", "translation": "meat" },
-        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
+        { "text": "carne", "pronunciation": "KAR-neh", "translation": "meat" },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
       ]
     },
     {
-      "id": "es-restaurant-ready-order",
+      "id": "es-rest-allergy",
+      "translation": "I have a nut allergy",
+      "text": "Tengo alergia a los frutos secos",
+      "pronunciation": "TEHN-goh ah-LEHR-hee-ah ah lohs FROO-tohs SEH-kohs",
+      "words": [
+        {
+          "text": "Tengo",
+          "pronunciation": "TEHN-goh",
+          "translation": "I have"
+        },
+        {
+          "text": "alergia",
+          "pronunciation": "ah-LEHR-hee-ah",
+          "translation": "allergy"
+        },
+        {
+          "text": "a los frutos secos",
+          "pronunciation": "ah lohs FROO-tohs SEH-kohs",
+          "translation": "to nuts"
+        }
+      ]
+    },
+    {
+      "id": "es-rest-ready-order",
       "translation": "Ready to order?",
       "text": "¿Están listos para pedir?",
-      "pronunciation": "Ehs-TAHN LEES-tohs PAH-rah peh-DEER?",
+      "pronunciation": "ehs-TAHN LEES-tohs PAH-rah peh-DEER?",
       "words": [
-        { "text": "¿Están", "pronunciation": "ehs-TAHN", "translation": "are you (pl.)" },
-        { "text": "listos", "pronunciation": "LEES-tohs", "translation": "ready" },
-        { "text": "para pedir?", "pronunciation": "PAH-rah peh-DEER", "translation": "to order" }
+        {
+          "text": "¿Están",
+          "pronunciation": "ehs-TAHN",
+          "translation": "are you (pl.)"
+        },
+        {
+          "text": "listos",
+          "pronunciation": "LEES-tohs",
+          "translation": "ready"
+        },
+        {
+          "text": "para pedir?",
+          "pronunciation": "PAH-rah peh-DEER",
+          "translation": "to order"
+        }
       ]
     },
     {
-      "id": "es-restaurant-ill-have-this",
+      "id": "es-rest-ill-have-this",
       "translation": "I'll have this",
       "text": "Quiero esto",
       "pronunciation": "kee-EH-roh EHS-toh",
       "words": [
-        { "text": "Quiero", "pronunciation": "kee-EH-roh", "translation": "I want / I'll have" },
+        {
+          "text": "Quiero",
+          "pronunciation": "kee-EH-roh",
+          "translation": "I want / I'll have"
+        },
         { "text": "esto", "pronunciation": "EHS-toh", "translation": "this" }
       ]
     },
     {
-      "id": "es-restaurant-water",
+      "id": "es-rest-water",
       "translation": "Water please",
       "text": "Agua, por favor",
       "pronunciation": "AH-gwah pohr fah-VOHR",
       "words": [
-        { "text": "Agua,", "pronunciation": "AH-gwah", "translation": "water" },
-        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
+        { "text": "Agua", "pronunciation": "AH-gwah", "translation": "water" },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
       ]
     },
     {
-      "id": "es-restaurant-bill",
+      "id": "es-rest-delicious",
+      "translation": "It was delicious",
+      "text": "Estaba delicioso",
+      "pronunciation": "ehs-TAH-bah deh-lee-see-OH-soh",
+      "words": [
+        {
+          "text": "Estaba",
+          "pronunciation": "ehs-TAH-bah",
+          "translation": "it was"
+        },
+        {
+          "text": "delicioso",
+          "pronunciation": "deh-lee-see-OH-soh",
+          "translation": "delicious"
+        }
+      ]
+    },
+    {
+      "id": "es-rest-bill",
       "translation": "The bill please",
       "text": "La cuenta, por favor",
-      "pronunciation": "Lah KWEHN-tah pohr fah-VOHR",
+      "pronunciation": "lah KWEHN-tah pohr fah-VOHR",
       "words": [
-        { "text": "La cuenta,", "pronunciation": "lah KWEHN-tah", "translation": "the bill" },
-        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
+        {
+          "text": "La cuenta",
+          "pronunciation": "lah KWEHN-tah",
+          "translation": "the bill"
+        },
+        {
+          "text": "por favor",
+          "pronunciation": "pohr fah-VOHR",
+          "translation": "please"
+        }
       ]
     },
     {
-      "id": "es-restaurant-pay-card",
+      "id": "es-rest-pay-card",
       "translation": "Can I pay by card?",
       "text": "¿Puedo pagar con tarjeta?",
       "pronunciation": "PWEH-doh pah-GAR kohn tar-HEH-tah?",
       "words": [
-        { "text": "¿Puedo", "pronunciation": "PWEH-doh", "translation": "can I" },
+        {
+          "text": "¿Puedo",
+          "pronunciation": "PWEH-doh",
+          "translation": "can I"
+        },
         { "text": "pagar", "pronunciation": "pah-GAR", "translation": "pay" },
-        { "text": "con tarjeta?", "pronunciation": "kohn tar-HEH-tah", "translation": "by card" }
+        {
+          "text": "con tarjeta?",
+          "pronunciation": "kohn tar-HEH-tah",
+          "translation": "by card"
+        }
       ]
     },
     {
-      "id": "es-restaurant-cash-or-card",
+      "id": "es-rest-cash-or-card",
       "translation": "Cash or card?",
       "text": "¿Efectivo o tarjeta?",
-      "pronunciation": "Eh-fehk-TEE-voh oh tar-HEH-tah?",
+      "pronunciation": "eh-fehk-TEE-voh oh tar-HEH-tah?",
       "words": [
-        { "text": "¿Efectivo", "pronunciation": "eh-fehk-TEE-voh", "translation": "cash" },
+        {
+          "text": "¿Efectivo",
+          "pronunciation": "eh-fehk-TEE-voh",
+          "translation": "cash"
+        },
         { "text": "o", "pronunciation": "oh", "translation": "or" },
-        { "text": "tarjeta?", "pronunciation": "tar-HEH-tah", "translation": "card" }
+        {
+          "text": "tarjeta?",
+          "pronunciation": "tar-HEH-tah",
+          "translation": "card"
+        }
       ]
     },
     {
-      "id": "es-restaurant-delicious",
-      "translation": "It was delicious",
-      "text": "Estaba delicioso",
-      "pronunciation": "Ehs-TAH-bah deh-lee-see-OH-soh",
+      "id": "es-rest-thank-you",
+      "translation": "Thank you very much",
+      "text": "Muchas gracias",
+      "pronunciation": "MOO-chahs GRAH-see-ahs",
       "words": [
-        { "text": "Estaba", "pronunciation": "ehs-TAH-bah", "translation": "it was" },
-        { "text": "delicioso", "pronunciation": "deh-lee-see-OH-soh", "translation": "delicious" }
+        {
+          "text": "Muchas",
+          "pronunciation": "MOO-chahs",
+          "translation": "many / very much"
+        },
+        {
+          "text": "gracias",
+          "pronunciation": "GRAH-see-ahs",
+          "translation": "thanks"
+        }
       ]
     }
   ],
   "words": [
     {
-      "id": "es-restaurant-w-rice",
+      "id": "es-rest-w-rice",
       "translation": "rice",
       "text": "arroz",
       "pronunciation": "ah-ROHS"
     },
     {
-      "id": "es-restaurant-w-pasta",
+      "id": "es-rest-w-pasta",
       "translation": "pasta",
       "text": "pasta",
       "pronunciation": "PAHS-tah"
     },
     {
-      "id": "es-restaurant-w-bread",
+      "id": "es-rest-w-bread",
       "translation": "bread",
       "text": "pan",
       "pronunciation": "PAHN"
     },
     {
-      "id": "es-restaurant-w-paella",
+      "id": "es-rest-w-paella",
       "translation": "paella",
       "text": "paella",
       "pronunciation": "pah-EH-yah"
     },
     {
-      "id": "es-restaurant-w-tapas",
+      "id": "es-rest-w-tapas",
       "translation": "tapas",
       "text": "tapas",
       "pronunciation": "TAH-pahs"
     },
     {
-      "id": "es-restaurant-w-tortilla",
+      "id": "es-rest-w-tortilla",
       "translation": "Spanish omelette",
       "text": "tortilla española",
       "pronunciation": "tor-TEE-yah ehs-pah-NYOH-lah"
     },
     {
-      "id": "es-restaurant-w-chicken",
+      "id": "es-rest-w-chicken",
       "translation": "chicken",
       "text": "pollo",
       "pronunciation": "POH-yoh"
     },
     {
-      "id": "es-restaurant-w-pork",
+      "id": "es-rest-w-pork",
       "translation": "pork",
       "text": "cerdo",
       "pronunciation": "SEHR-doh"
     },
     {
-      "id": "es-restaurant-w-beef",
+      "id": "es-rest-w-beef",
       "translation": "beef",
-      "text": "carne de res / ternera",
-      "pronunciation": "KAR-neh deh REHS / tehr-NEH-rah"
+      "text": "ternera",
+      "pronunciation": "tehr-NEH-rah"
     },
     {
-      "id": "es-restaurant-w-fish",
+      "id": "es-rest-w-fish",
       "translation": "fish",
       "text": "pescado",
       "pronunciation": "pehs-KAH-doh"
     },
     {
-      "id": "es-restaurant-w-shrimp",
+      "id": "es-rest-w-shrimp",
       "translation": "shrimp",
       "text": "gambas",
       "pronunciation": "GAHM-bahs"
     },
     {
-      "id": "es-restaurant-w-egg",
+      "id": "es-rest-w-egg",
       "translation": "egg",
       "text": "huevo",
       "pronunciation": "WEH-voh"
     },
     {
-      "id": "es-restaurant-w-vegetable",
+      "id": "es-rest-w-vegetable",
       "translation": "vegetable",
       "text": "verdura",
       "pronunciation": "vehr-DOO-rah"
     },
     {
-      "id": "es-restaurant-w-soup",
+      "id": "es-rest-w-soup",
       "translation": "soup",
-      "text": "sopa / gazpacho",
-      "pronunciation": "SOH-pah / gahs-PAH-choh"
+      "text": "sopa",
+      "pronunciation": "SOH-pah"
     },
     {
-      "id": "es-restaurant-w-salad",
+      "id": "es-rest-w-salad",
       "translation": "salad",
       "text": "ensalada",
       "pronunciation": "ehn-sah-LAH-dah"
     },
     {
-      "id": "es-restaurant-w-spicy",
+      "id": "es-rest-w-spicy",
       "translation": "spicy",
       "text": "picante",
       "pronunciation": "pee-KAHN-teh"
     },
     {
-      "id": "es-restaurant-w-sweet",
+      "id": "es-rest-w-sweet",
       "translation": "sweet",
       "text": "dulce",
       "pronunciation": "DOOL-seh"
     },
     {
-      "id": "es-restaurant-w-sour",
+      "id": "es-rest-w-sour",
       "translation": "sour",
       "text": "ácido",
       "pronunciation": "AH-see-doh"
     },
     {
-      "id": "es-restaurant-w-salty",
+      "id": "es-rest-w-salty",
       "translation": "salty",
       "text": "salado",
       "pronunciation": "sah-LAH-doh"
     },
     {
-      "id": "es-restaurant-w-fork",
+      "id": "es-rest-w-fork",
       "translation": "fork",
       "text": "tenedor",
       "pronunciation": "teh-neh-DOHR"
     },
     {
-      "id": "es-restaurant-w-knife",
+      "id": "es-rest-w-knife",
       "translation": "knife",
       "text": "cuchillo",
       "pronunciation": "koo-CHEE-yoh"
     },
     {
-      "id": "es-restaurant-w-spoon",
+      "id": "es-rest-w-spoon",
       "translation": "spoon",
       "text": "cuchara",
       "pronunciation": "koo-CHAH-rah"
     },
     {
-      "id": "es-restaurant-w-water",
+      "id": "es-rest-w-plate",
+      "translation": "plate",
+      "text": "plato",
+      "pronunciation": "PLAH-toh"
+    },
+    {
+      "id": "es-rest-w-water",
       "translation": "water",
       "text": "agua",
       "pronunciation": "AH-gwah"
     },
     {
-      "id": "es-restaurant-w-wine",
+      "id": "es-rest-w-wine",
       "translation": "wine",
       "text": "vino",
       "pronunciation": "VEE-noh"
     },
     {
-      "id": "es-restaurant-w-dessert",
+      "id": "es-rest-w-beer",
+      "translation": "beer",
+      "text": "cerveza",
+      "pronunciation": "sehr-VEH-sah"
+    },
+    {
+      "id": "es-rest-w-dessert",
       "translation": "dessert",
       "text": "postre",
       "pronunciation": "POHS-treh"
     },
     {
-      "id": "es-restaurant-w-cheese",
+      "id": "es-rest-w-cheese",
       "translation": "cheese",
       "text": "queso",
       "pronunciation": "KEH-soh"
     },
     {
-      "id": "es-restaurant-w-octopus",
+      "id": "es-rest-w-octopus",
       "translation": "octopus",
       "text": "pulpo",
       "pronunciation": "POOL-poh"
     },
     {
-      "id": "es-restaurant-w-chorizo",
+      "id": "es-rest-w-chorizo",
       "translation": "chorizo",
       "text": "chorizo",
       "pronunciation": "choh-REE-soh"
     },
     {
-      "id": "es-restaurant-w-ham",
+      "id": "es-rest-w-ham",
       "translation": "cured ham",
       "text": "jamón",
       "pronunciation": "hah-MOHN"

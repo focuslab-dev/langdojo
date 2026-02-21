@@ -3,6 +3,13 @@
   "languageId": "mandarin",
   "phrases": [
     {
+      "id": "zh-rest-excuse-me",
+      "translation": "Waiter!",
+      "text": "服务员！",
+      "pronunciation": "fúwùyuán!",
+      "words": []
+    },
+    {
       "id": "zh-rest-how-many",
       "translation": "How many people?",
       "text": "几位？",
@@ -34,6 +41,24 @@
       ]
     },
     {
+      "id": "zh-rest-here-or-takeaway",
+      "translation": "Dine in or takeaway?",
+      "text": "堂食还是外带？",
+      "pronunciation": "tángshí háishì wàidài?",
+      "words": [
+        { "text": "堂食", "pronunciation": "tángshí", "translation": "dine in" },
+        { "text": "还是", "pronunciation": "háishì", "translation": "or (choice)" },
+        { "text": "外带", "pronunciation": "wàidài", "translation": "takeaway" }
+      ]
+    },
+    {
+      "id": "zh-rest-takeaway",
+      "translation": "Wrap it up / takeaway",
+      "text": "打包",
+      "pronunciation": "dǎbāo",
+      "words": []
+    },
+    {
       "id": "zh-rest-see-menu",
       "translation": "Can I see the menu?",
       "text": "可以看菜单吗？",
@@ -43,6 +68,18 @@
         { "text": "看", "pronunciation": "kàn", "translation": "see / look" },
         { "text": "菜单", "pronunciation": "càidān", "translation": "menu" },
         { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-rest-recommend",
+      "translation": "What do you recommend?",
+      "text": "有什么推荐的？",
+      "pronunciation": "yǒu shénme tuījiàn de?",
+      "words": [
+        { "text": "有", "pronunciation": "yǒu", "translation": "have / there is" },
+        { "text": "什么", "pronunciation": "shénme", "translation": "what" },
+        { "text": "推荐", "pronunciation": "tuījiàn", "translation": "recommend" },
+        { "text": "的", "pronunciation": "de", "translation": "(attributive particle)" }
       ]
     },
     {
@@ -103,6 +140,17 @@
       ]
     },
     {
+      "id": "zh-rest-more-rice",
+      "translation": "One more bowl of rice",
+      "text": "再来一碗米饭",
+      "pronunciation": "zài lái yī wǎn mǐfàn",
+      "words": [
+        { "text": "再来", "pronunciation": "zài lái", "translation": "bring another" },
+        { "text": "一碗", "pronunciation": "yī wǎn", "translation": "one bowl" },
+        { "text": "米饭", "pronunciation": "mǐfàn", "translation": "rice" }
+      ]
+    },
+    {
       "id": "zh-rest-water",
       "translation": "Water, please",
       "text": "我要水",
@@ -111,6 +159,16 @@
         { "text": "我", "pronunciation": "wǒ", "translation": "I / me" },
         { "text": "要", "pronunciation": "yào", "translation": "want" },
         { "text": "水", "pronunciation": "shuǐ", "translation": "water" }
+      ]
+    },
+    {
+      "id": "zh-rest-delicious",
+      "translation": "It was delicious",
+      "text": "很好吃",
+      "pronunciation": "hěn hào chī",
+      "words": [
+        { "text": "很", "pronunciation": "hěn", "translation": "very" },
+        { "text": "好吃", "pronunciation": "hào chī", "translation": "delicious" }
       ]
     },
     {
@@ -135,6 +193,19 @@
       ]
     },
     {
+      "id": "zh-rest-wechat-pay",
+      "translation": "Can I use WeChat Pay?",
+      "text": "可以用微信支付吗？",
+      "pronunciation": "kěyǐ yòng wēixìn zhīfù ma?",
+      "words": [
+        { "text": "可以", "pronunciation": "kěyǐ", "translation": "can / may" },
+        { "text": "用", "pronunciation": "yòng", "translation": "use" },
+        { "text": "微信", "pronunciation": "wēixìn", "translation": "WeChat" },
+        { "text": "支付", "pronunciation": "zhīfù", "translation": "pay" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
       "id": "zh-rest-cash-or-card",
       "translation": "Cash or card?",
       "text": "现金还是刷卡？",
@@ -146,14 +217,11 @@
       ]
     },
     {
-      "id": "zh-rest-delicious",
-      "translation": "It was delicious",
-      "text": "很好吃",
-      "pronunciation": "hěn hào chī",
-      "words": [
-        { "text": "很", "pronunciation": "hěn", "translation": "very" },
-        { "text": "好吃", "pronunciation": "hào chī", "translation": "delicious" }
-      ]
+      "id": "zh-rest-thank-you",
+      "translation": "Thank you",
+      "text": "谢谢",
+      "pronunciation": "xièxie",
+      "words": []
     }
   ],
   "words": [
@@ -163,6 +231,8 @@
     { "id": "zh-rest-w-fried-rice", "translation": "fried rice", "text": "炒饭", "pronunciation": "chǎofàn" },
     { "id": "zh-rest-w-stir-fry", "translation": "stir-fry", "text": "炒菜", "pronunciation": "chǎocài" },
     { "id": "zh-rest-w-tofu", "translation": "tofu", "text": "豆腐", "pronunciation": "dòufu" },
+    { "id": "zh-rest-w-hot-pot", "translation": "hot pot", "text": "火锅", "pronunciation": "huǒguō" },
+    { "id": "zh-rest-w-steamed-bun", "translation": "steamed bun", "text": "包子", "pronunciation": "bāozi" },
     { "id": "zh-rest-w-chicken", "translation": "chicken", "text": "鸡肉", "pronunciation": "jīròu" },
     { "id": "zh-rest-w-pork", "translation": "pork", "text": "猪肉", "pronunciation": "zhūròu" },
     { "id": "zh-rest-w-beef", "translation": "beef", "text": "牛肉", "pronunciation": "niúròu" },
@@ -181,11 +251,9 @@
     { "id": "zh-rest-w-spoon", "translation": "spoon", "text": "勺子", "pronunciation": "sháozi" },
     { "id": "zh-rest-w-water", "translation": "water", "text": "水", "pronunciation": "shuǐ" },
     { "id": "zh-rest-w-beer", "translation": "beer", "text": "啤酒", "pronunciation": "píjiǔ" },
-    { "id": "zh-rest-w-dessert", "translation": "dessert", "text": "甜点", "pronunciation": "tiándiǎn" },
-    { "id": "zh-rest-w-dont-want", "translation": "don't want / no", "text": "不要", "pronunciation": "bù yào" },
-    { "id": "zh-rest-w-hot-pot", "translation": "hot pot", "text": "火锅", "pronunciation": "huǒguō" },
-    { "id": "zh-rest-w-steamed-bun", "translation": "steamed bun", "text": "包子", "pronunciation": "bāozi" },
+    { "id": "zh-rest-w-tea", "translation": "tea", "text": "茶", "pronunciation": "chá" },
     { "id": "zh-rest-w-soy-milk", "translation": "soy milk", "text": "豆浆", "pronunciation": "dòujiāng" },
-    { "id": "zh-rest-w-tea", "translation": "tea", "text": "茶", "pronunciation": "chá" }
+    { "id": "zh-rest-w-dessert", "translation": "dessert", "text": "甜点", "pronunciation": "tiándiǎn" },
+    { "id": "zh-rest-w-dont-want", "translation": "don't want / no", "text": "不要", "pronunciation": "bù yào" }
   ]
 }

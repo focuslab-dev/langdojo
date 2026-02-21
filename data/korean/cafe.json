@@ -3,21 +3,23 @@
   "languageId": "korean",
   "phrases": [
     {
+      "id": "ko-cafe-welcome",
+      "translation": "Welcome!",
+      "text": "어서 오세요",
+      "pronunciation": "eoseo oseyo",
+      "words": [
+        { "text": "어서", "pronunciation": "eoseo", "translation": "quickly / come on" },
+        { "text": "오세요", "pronunciation": "oseyo", "translation": "please come (honorific)" }
+      ]
+    },
+    {
       "id": "ko-cafe-menu",
       "translation": "Can I have the menu?",
       "text": "메뉴 주세요",
       "pronunciation": "menyu juseyo",
       "words": [
-        {
-          "text": "메뉴",
-          "pronunciation": "menyu",
-          "translation": "menu"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please give me"
-        }
+        { "text": "메뉴", "pronunciation": "menyu", "translation": "menu" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
       ]
     },
     {
@@ -26,26 +28,10 @@
       "text": "커피 한 잔 주세요",
       "pronunciation": "keopi han jan juseyo",
       "words": [
-        {
-          "text": "커피",
-          "pronunciation": "keopi",
-          "translation": "coffee"
-        },
-        {
-          "text": "한",
-          "pronunciation": "han",
-          "translation": "one"
-        },
-        {
-          "text": "잔",
-          "pronunciation": "jan",
-          "translation": "cup (counter)"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please give me"
-        }
+        { "text": "커피", "pronunciation": "keopi", "translation": "coffee" },
+        { "text": "한", "pronunciation": "han", "translation": "one" },
+        { "text": "잔", "pronunciation": "jan", "translation": "cup (counter)" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
       ]
     },
     {
@@ -54,26 +40,23 @@
       "text": "아메리카노 한 잔 주세요",
       "pronunciation": "amerikano han jan juseyo",
       "words": [
-        {
-          "text": "아메리카노",
-          "pronunciation": "amerikano",
-          "translation": "americano"
-        },
-        {
-          "text": "한",
-          "pronunciation": "han",
-          "translation": "one"
-        },
-        {
-          "text": "잔",
-          "pronunciation": "jan",
-          "translation": "cup (counter)"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please give me"
-        }
+        { "text": "아메리카노", "pronunciation": "amerikano", "translation": "americano" },
+        { "text": "한", "pronunciation": "han", "translation": "one" },
+        { "text": "잔", "pronunciation": "jan", "translation": "cup (counter)" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "ko-cafe-iced-americano",
+      "translation": "One iced Americano please",
+      "text": "아이스 아메리카노 한 잔 주세요",
+      "pronunciation": "aiseu amerikano han jan juseyo",
+      "words": [
+        { "text": "아이스", "pronunciation": "aiseu", "translation": "iced" },
+        { "text": "아메리카노", "pronunciation": "amerikano", "translation": "americano" },
+        { "text": "한", "pronunciation": "han", "translation": "one" },
+        { "text": "잔", "pronunciation": "jan", "translation": "cup (counter)" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
       ]
     },
     {
@@ -82,26 +65,10 @@
       "text": "사이즈 어떤 걸로 하시겠어요?",
       "pronunciation": "saijeu eotteon geollo hasigesseoyo?",
       "words": [
-        {
-          "text": "사이즈",
-          "pronunciation": "saijeu",
-          "translation": "size"
-        },
-        {
-          "text": "어떤",
-          "pronunciation": "eotteon",
-          "translation": "what / which"
-        },
-        {
-          "text": "걸로",
-          "pronunciation": "geollo",
-          "translation": "as / with (contracted)"
-        },
-        {
-          "text": "하시겠어요",
-          "pronunciation": "hasigesseoyo",
-          "translation": "will you have (honorific)"
-        }
+        { "text": "사이즈", "pronunciation": "saijeu", "translation": "size" },
+        { "text": "어떤", "pronunciation": "eotteon", "translation": "what / which" },
+        { "text": "걸로", "pronunciation": "geollo", "translation": "as / with (contracted)" },
+        { "text": "하시겠어요", "pronunciation": "hasigesseoyo", "translation": "will you have (honorific)" }
       ]
     },
     {
@@ -110,26 +77,10 @@
       "text": "미디움 사이즈로 주세요",
       "pronunciation": "midium saijeu-ro juseyo",
       "words": [
-        {
-          "text": "미디움",
-          "pronunciation": "midium",
-          "translation": "medium"
-        },
-        {
-          "text": "사이즈",
-          "pronunciation": "saijeu",
-          "translation": "size"
-        },
-        {
-          "text": "로",
-          "pronunciation": "ro",
-          "translation": "with / as"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please give me"
-        }
+        { "text": "미디움", "pronunciation": "midium", "translation": "medium" },
+        { "text": "사이즈", "pronunciation": "saijeu", "translation": "size" },
+        { "text": "로", "pronunciation": "ro", "translation": "with / as" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
       ]
     },
     {
@@ -138,26 +89,10 @@
       "text": "뜨거운 걸로 드릴까요, 차가운 걸로 드릴까요?",
       "pronunciation": "tteugeoun geollo deurilkkayo, chagaun geollo deurilkkayo?",
       "words": [
-        {
-          "text": "뜨거운",
-          "pronunciation": "tteugeoun",
-          "translation": "hot"
-        },
-        {
-          "text": "걸로",
-          "pronunciation": "geollo",
-          "translation": "as / with"
-        },
-        {
-          "text": "드릴까요",
-          "pronunciation": "deurilkkayo",
-          "translation": "shall I give you"
-        },
-        {
-          "text": "차가운",
-          "pronunciation": "chagaun",
-          "translation": "cold"
-        }
+        { "text": "뜨거운", "pronunciation": "tteugeoun", "translation": "hot" },
+        { "text": "걸로", "pronunciation": "geollo", "translation": "as / with" },
+        { "text": "드릴까요", "pronunciation": "deurilkkayo", "translation": "shall I give you" },
+        { "text": "차가운", "pronunciation": "chagaun", "translation": "cold" }
       ]
     },
     {
@@ -166,21 +101,9 @@
       "text": "뜨거운 걸로 주세요",
       "pronunciation": "tteugeoun geollo juseyo",
       "words": [
-        {
-          "text": "뜨거운",
-          "pronunciation": "tteugeoun",
-          "translation": "hot"
-        },
-        {
-          "text": "걸로",
-          "pronunciation": "geollo",
-          "translation": "as / with"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please give me"
-        }
+        { "text": "뜨거운", "pronunciation": "tteugeoun", "translation": "hot" },
+        { "text": "걸로", "pronunciation": "geollo", "translation": "as / with" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
       ]
     },
     {
@@ -189,21 +112,32 @@
       "text": "아이스로 주세요",
       "pronunciation": "aiseu-ro juseyo",
       "words": [
-        {
-          "text": "아이스",
-          "pronunciation": "aiseu",
-          "translation": "ice / iced"
-        },
-        {
-          "text": "로",
-          "pronunciation": "ro",
-          "translation": "with / as"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please give me"
-        }
+        { "text": "아이스", "pronunciation": "aiseu", "translation": "ice / iced" },
+        { "text": "로", "pronunciation": "ro", "translation": "with / as" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please give me" }
+      ]
+    },
+    {
+      "id": "ko-cafe-less-sweet",
+      "translation": "Less sweet, please",
+      "text": "덜 달게 해 주세요",
+      "pronunciation": "deol dalge hae juseyo",
+      "words": [
+        { "text": "덜", "pronunciation": "deol", "translation": "less" },
+        { "text": "달게", "pronunciation": "dalge", "translation": "sweetly" },
+        { "text": "해", "pronunciation": "hae", "translation": "do / make" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
+      ]
+    },
+    {
+      "id": "ko-cafe-add-shot",
+      "translation": "Add an extra shot, please",
+      "text": "샷 추가해 주세요",
+      "pronunciation": "syat chugahae juseyo",
+      "words": [
+        { "text": "샷", "pronunciation": "syat", "translation": "shot (espresso)" },
+        { "text": "추가해", "pronunciation": "chugahae", "translation": "add" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
       ]
     },
     {
@@ -212,31 +146,11 @@
       "text": "매장에서 드실 건가요, 가져가실 건가요?",
       "pronunciation": "maejang-eseo deusil geongayo, gajyeogasil geongayo?",
       "words": [
-        {
-          "text": "매장",
-          "pronunciation": "maejang",
-          "translation": "store / shop"
-        },
-        {
-          "text": "에서",
-          "pronunciation": "eseo",
-          "translation": "at / in"
-        },
-        {
-          "text": "드실",
-          "pronunciation": "deusil",
-          "translation": "eat / drink (honorific)"
-        },
-        {
-          "text": "건가요",
-          "pronunciation": "geongayo",
-          "translation": "are you going to"
-        },
-        {
-          "text": "가져가실",
-          "pronunciation": "gajyeogasil",
-          "translation": "take (honorific)"
-        }
+        { "text": "매장", "pronunciation": "maejang", "translation": "store / shop" },
+        { "text": "에서", "pronunciation": "eseo", "translation": "at / in" },
+        { "text": "드실", "pronunciation": "deusil", "translation": "eat / drink (honorific)" },
+        { "text": "건가요", "pronunciation": "geongayo", "translation": "are you going to" },
+        { "text": "가져가실", "pronunciation": "gajyeogasil", "translation": "take (honorific)" }
       ]
     },
     {
@@ -245,21 +159,9 @@
       "text": "매장에서 먹을게요",
       "pronunciation": "maejang-eseo meogeulgeyo",
       "words": [
-        {
-          "text": "매장",
-          "pronunciation": "maejang",
-          "translation": "store / shop"
-        },
-        {
-          "text": "에서",
-          "pronunciation": "eseo",
-          "translation": "at / in"
-        },
-        {
-          "text": "먹을게요",
-          "pronunciation": "meogeulgeyo",
-          "translation": "I will eat"
-        }
+        { "text": "매장", "pronunciation": "maejang", "translation": "store / shop" },
+        { "text": "에서", "pronunciation": "eseo", "translation": "at / in" },
+        { "text": "먹을게요", "pronunciation": "meogeulgeyo", "translation": "I will eat" }
       ]
     },
     {
@@ -270,31 +172,38 @@
       "words": []
     },
     {
+      "id": "ko-cafe-wifi-password",
+      "translation": "What's the WiFi password?",
+      "text": "와이파이 비밀번호가 뭐예요?",
+      "pronunciation": "waipai bimilbeonhoga mwoyeyo?",
+      "words": [
+        { "text": "와이파이", "pronunciation": "waipai", "translation": "WiFi" },
+        { "text": "비밀번호", "pronunciation": "bimilbeonho", "translation": "password" },
+        { "text": "가", "pronunciation": "ga", "translation": "(subject particle)" },
+        { "text": "뭐예요", "pronunciation": "mwoyeyo", "translation": "what is it?" }
+      ]
+    },
+    {
       "id": "ko-cafe-anything-else",
       "translation": "Would you like anything else?",
       "text": "다른 것도 필요하세요?",
       "pronunciation": "dareun geotdo piryohaseyo?",
       "words": [
-        {
-          "text": "다른",
-          "pronunciation": "dareun",
-          "translation": "other / another"
-        },
-        {
-          "text": "것",
-          "pronunciation": "geot",
-          "translation": "thing"
-        },
-        {
-          "text": "도",
-          "pronunciation": "do",
-          "translation": "also"
-        },
-        {
-          "text": "필요하세요",
-          "pronunciation": "piryohaseyo",
-          "translation": "do you need (polite)"
-        }
+        { "text": "다른", "pronunciation": "dareun", "translation": "other / another" },
+        { "text": "것", "pronunciation": "geot", "translation": "thing" },
+        { "text": "도", "pronunciation": "do", "translation": "also" },
+        { "text": "필요하세요", "pronunciation": "piryohaseyo", "translation": "do you need (polite)" }
+      ]
+    },
+    {
+      "id": "ko-cafe-confirm-order",
+      "translation": "Let me confirm your order",
+      "text": "주문 확인해 드릴게요",
+      "pronunciation": "jumun hwaginhae deurilgeyo",
+      "words": [
+        { "text": "주문", "pronunciation": "jumun", "translation": "order" },
+        { "text": "확인해", "pronunciation": "hwaginhae", "translation": "confirm" },
+        { "text": "드릴게요", "pronunciation": "deurilgeyo", "translation": "I will do (for you, humble)" }
       ]
     },
     {
@@ -303,168 +212,49 @@
       "text": "계산해 주세요",
       "pronunciation": "gyesanhae juseyo",
       "words": [
-        {
-          "text": "계산",
-          "pronunciation": "gyesan",
-          "translation": "bill / payment"
-        },
-        {
-          "text": "해",
-          "pronunciation": "hae",
-          "translation": "do"
-        },
-        {
-          "text": "주세요",
-          "pronunciation": "juseyo",
-          "translation": "please"
-        }
+        { "text": "계산", "pronunciation": "gyesan", "translation": "bill / payment" },
+        { "text": "해", "pronunciation": "hae", "translation": "do" },
+        { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
       ]
+    },
+    {
+      "id": "ko-cafe-thank-you",
+      "translation": "Thank you",
+      "text": "감사합니다",
+      "pronunciation": "gamsahamnida",
+      "words": []
     }
   ],
   "words": [
-    {
-      "id": "ko-cafe-w-coffee",
-      "translation": "coffee",
-      "text": "커피",
-      "pronunciation": "keopi"
-    },
-    {
-      "id": "ko-cafe-w-latte",
-      "translation": "latte",
-      "text": "라떼",
-      "pronunciation": "latte"
-    },
-    {
-      "id": "ko-cafe-w-americano",
-      "translation": "americano",
-      "text": "아메리카노",
-      "pronunciation": "amerikano"
-    },
-    {
-      "id": "ko-cafe-w-espresso",
-      "translation": "espresso",
-      "text": "에스프레소",
-      "pronunciation": "eseupeuleso"
-    },
-    {
-      "id": "ko-cafe-w-cappuccino",
-      "translation": "cappuccino",
-      "text": "카푸치노",
-      "pronunciation": "kapuchino"
-    },
-    {
-      "id": "ko-cafe-w-green-tea-latte",
-      "translation": "green tea latte",
-      "text": "녹차 라떼",
-      "pronunciation": "nokcha latte"
-    },
-    {
-      "id": "ko-cafe-w-tea",
-      "translation": "tea",
-      "text": "차",
-      "pronunciation": "cha"
-    },
-    {
-      "id": "ko-cafe-w-milk",
-      "translation": "milk",
-      "text": "우유",
-      "pronunciation": "uyu"
-    },
-    {
-      "id": "ko-cafe-w-sugar",
-      "translation": "sugar",
-      "text": "설탕",
-      "pronunciation": "seoltang"
-    },
-    {
-      "id": "ko-cafe-w-ice",
-      "translation": "ice",
-      "text": "얼음",
-      "pronunciation": "eoreum"
-    },
-    {
-      "id": "ko-cafe-w-hot",
-      "translation": "hot",
-      "text": "뜨거운",
-      "pronunciation": "tteugeoun"
-    },
-    {
-      "id": "ko-cafe-w-cold",
-      "translation": "cold / iced",
-      "text": "차가운 / 아이스",
-      "pronunciation": "chagaun / aiseu"
-    },
-    {
-      "id": "ko-cafe-w-cup",
-      "translation": "cup",
-      "text": "컵",
-      "pronunciation": "keop"
-    },
-    {
-      "id": "ko-cafe-w-straw",
-      "translation": "straw",
-      "text": "빨대",
-      "pronunciation": "ppaldae"
-    },
-    {
-      "id": "ko-cafe-w-small",
-      "translation": "small",
-      "text": "스몰",
-      "pronunciation": "seumol"
-    },
-    {
-      "id": "ko-cafe-w-medium",
-      "translation": "medium",
-      "text": "미디움",
-      "pronunciation": "midium"
-    },
-    {
-      "id": "ko-cafe-w-large",
-      "translation": "large",
-      "text": "라지",
-      "pronunciation": "raji"
-    },
-    {
-      "id": "ko-cafe-w-water",
-      "translation": "water",
-      "text": "물",
-      "pronunciation": "mul"
-    },
-    {
-      "id": "ko-cafe-w-cake",
-      "translation": "cake",
-      "text": "케이크",
-      "pronunciation": "keikeu"
-    },
-    {
-      "id": "ko-cafe-w-cookie",
-      "translation": "cookie",
-      "text": "쿠키",
-      "pronunciation": "kuki"
-    },
-    {
-      "id": "ko-cafe-w-sandwich",
-      "translation": "sandwich",
-      "text": "샌드위치",
-      "pronunciation": "saendeuwich"
-    },
-    {
-      "id": "ko-cafe-w-muffin",
-      "translation": "muffin",
-      "text": "머핀",
-      "pronunciation": "meopin"
-    },
-    {
-      "id": "ko-cafe-w-juice",
-      "translation": "juice",
-      "text": "주스",
-      "pronunciation": "juseu"
-    },
-    {
-      "id": "ko-cafe-w-oat-milk",
-      "translation": "oat milk",
-      "text": "오트 밀크",
-      "pronunciation": "oteu milkeu"
-    }
+    { "id": "ko-cafe-w-coffee", "translation": "coffee", "text": "커피", "pronunciation": "keopi" },
+    { "id": "ko-cafe-w-latte", "translation": "latte", "text": "라떼", "pronunciation": "latte" },
+    { "id": "ko-cafe-w-americano", "translation": "americano", "text": "아메리카노", "pronunciation": "amerikano" },
+    { "id": "ko-cafe-w-espresso", "translation": "espresso", "text": "에스프레소", "pronunciation": "eseupeuleso" },
+    { "id": "ko-cafe-w-cappuccino", "translation": "cappuccino", "text": "카푸치노", "pronunciation": "kapuchino" },
+    { "id": "ko-cafe-w-green-tea-latte", "translation": "green tea latte", "text": "녹차 라떼", "pronunciation": "nokcha latte" },
+    { "id": "ko-cafe-w-tea", "translation": "tea", "text": "차", "pronunciation": "cha" },
+    { "id": "ko-cafe-w-milk", "translation": "milk", "text": "우유", "pronunciation": "uyu" },
+    { "id": "ko-cafe-w-sugar", "translation": "sugar", "text": "설탕", "pronunciation": "seoltang" },
+    { "id": "ko-cafe-w-ice", "translation": "ice", "text": "얼음", "pronunciation": "eoreum" },
+    { "id": "ko-cafe-w-hot", "translation": "hot", "text": "뜨거운", "pronunciation": "tteugeoun" },
+    { "id": "ko-cafe-w-cold", "translation": "cold / iced", "text": "차가운 / 아이스", "pronunciation": "chagaun / aiseu" },
+    { "id": "ko-cafe-w-cup", "translation": "cup", "text": "컵", "pronunciation": "keop" },
+    { "id": "ko-cafe-w-straw", "translation": "straw", "text": "빨대", "pronunciation": "ppaldae" },
+    { "id": "ko-cafe-w-small", "translation": "small", "text": "스몰", "pronunciation": "seumol" },
+    { "id": "ko-cafe-w-medium", "translation": "medium", "text": "미디움", "pronunciation": "midium" },
+    { "id": "ko-cafe-w-large", "translation": "large", "text": "라지", "pronunciation": "raji" },
+    { "id": "ko-cafe-w-water", "translation": "water", "text": "물", "pronunciation": "mul" },
+    { "id": "ko-cafe-w-cake", "translation": "cake", "text": "케이크", "pronunciation": "keikeu" },
+    { "id": "ko-cafe-w-cookie", "translation": "cookie", "text": "쿠키", "pronunciation": "kuki" },
+    { "id": "ko-cafe-w-sandwich", "translation": "sandwich", "text": "샌드위치", "pronunciation": "saendeuwich" },
+    { "id": "ko-cafe-w-muffin", "translation": "muffin", "text": "머핀", "pronunciation": "meopin" },
+    { "id": "ko-cafe-w-juice", "translation": "juice", "text": "주스", "pronunciation": "juseu" },
+    { "id": "ko-cafe-w-oat-milk", "translation": "oat milk", "text": "오트 밀크", "pronunciation": "oteu milkeu" },
+    { "id": "ko-cafe-w-iced-americano", "translation": "iced americano", "text": "아이스 아메리카노", "pronunciation": "aiseu amerikano" },
+    { "id": "ko-cafe-w-shot", "translation": "shot (espresso)", "text": "샷", "pronunciation": "syat" },
+    { "id": "ko-cafe-w-whipped-cream", "translation": "whipped cream", "text": "휘핑크림", "pronunciation": "hwipingkeurim" },
+    { "id": "ko-cafe-w-caramel", "translation": "caramel", "text": "카라멜", "pronunciation": "karamel" },
+    { "id": "ko-cafe-w-soy-milk", "translation": "soy milk", "text": "두유", "pronunciation": "duyu" },
+    { "id": "ko-cafe-w-wifi", "translation": "WiFi", "text": "와이파이", "pronunciation": "waipai" }
   ]
 }

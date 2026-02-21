@@ -3,6 +3,24 @@
   "languageId": "thai",
   "phrases": [
     {
+      "id": "th-rest-excuse-me",
+      "translation": "Excuse me",
+      "text": "ขอโทษครับ",
+      "pronunciation": "khǒr thôht khráp",
+      "words": [
+        {
+          "text": "ขอโทษ",
+          "pronunciation": "khǒr thôht",
+          "translation": "excuse me / sorry"
+        },
+        {
+          "text": "ครับ",
+          "pronunciation": "khráp",
+          "translation": "polite particle (male)"
+        }
+      ]
+    },
+    {
       "id": "th-rest-how-many",
       "translation": "How many people?",
       "text": "กี่ที่?",
@@ -57,6 +75,57 @@
       ]
     },
     {
+      "id": "th-rest-eat-here-takeaway",
+      "translation": "Eat here or takeaway?",
+      "text": "ทานที่นี่หรือกลับบ้าน?",
+      "pronunciation": "thaan têe nêe rěu glàp bâan?",
+      "words": [
+        {
+          "text": "ทาน",
+          "pronunciation": "thaan",
+          "translation": "eat (polite)"
+        },
+        {
+          "text": "ที่นี่",
+          "pronunciation": "têe nêe",
+          "translation": "here"
+        },
+        {
+          "text": "หรือ",
+          "pronunciation": "rěu",
+          "translation": "or"
+        },
+        {
+          "text": "กลับบ้าน",
+          "pronunciation": "glàp bâan",
+          "translation": "takeaway / go home"
+        }
+      ]
+    },
+    {
+      "id": "th-rest-takeaway",
+      "translation": "Takeaway, please",
+      "text": "เอากลับบ้าน",
+      "pronunciation": "ao glàp bâan",
+      "words": [
+        {
+          "text": "เอา",
+          "pronunciation": "ao",
+          "translation": "want / take"
+        },
+        {
+          "text": "กลับ",
+          "pronunciation": "glàp",
+          "translation": "return / go back"
+        },
+        {
+          "text": "บ้าน",
+          "pronunciation": "bâan",
+          "translation": "home"
+        }
+      ]
+    },
+    {
       "id": "th-rest-menu",
       "translation": "Can I see the menu?",
       "text": "ขอดูเมนูหน่อย",
@@ -81,6 +150,29 @@
           "text": "หน่อย",
           "pronunciation": "nòi",
           "translation": "a little"
+        }
+      ]
+    },
+    {
+      "id": "th-rest-recommend",
+      "translation": "What do you recommend?",
+      "text": "มีอะไรแนะนำ?",
+      "pronunciation": "mee àrai náenam?",
+      "words": [
+        {
+          "text": "มี",
+          "pronunciation": "mee",
+          "translation": "have / there is"
+        },
+        {
+          "text": "อะไร",
+          "pronunciation": "àrai",
+          "translation": "what"
+        },
+        {
+          "text": "แนะนำ",
+          "pronunciation": "náenam",
+          "translation": "recommend"
         }
       ]
     },
@@ -195,6 +287,57 @@
       ]
     },
     {
+      "id": "th-rest-fried-egg",
+      "translation": "With a fried egg, please",
+      "text": "เอาไข่ดาวด้วย",
+      "pronunciation": "ao khài dao dûay",
+      "words": [
+        {
+          "text": "เอา",
+          "pronunciation": "ao",
+          "translation": "want / take"
+        },
+        {
+          "text": "ไข่ดาว",
+          "pronunciation": "khài dao",
+          "translation": "fried egg"
+        },
+        {
+          "text": "ด้วย",
+          "pronunciation": "dûay",
+          "translation": "also / too"
+        }
+      ]
+    },
+    {
+      "id": "th-rest-extra-rice",
+      "translation": "More rice, please",
+      "text": "ขอข้าวเพิ่มครับ",
+      "pronunciation": "khǒr khâo phêerm khráp",
+      "words": [
+        {
+          "text": "ขอ",
+          "pronunciation": "khǒr",
+          "translation": "I'd like / may I"
+        },
+        {
+          "text": "ข้าว",
+          "pronunciation": "khâo",
+          "translation": "rice"
+        },
+        {
+          "text": "เพิ่ม",
+          "pronunciation": "phêerm",
+          "translation": "more / additional"
+        },
+        {
+          "text": "ครับ",
+          "pronunciation": "khráp",
+          "translation": "polite particle (male)"
+        }
+      ]
+    },
+    {
       "id": "th-rest-water",
       "translation": "Water, please",
       "text": "ขอน้ำเปล่า",
@@ -214,6 +357,24 @@
           "text": "เปล่า",
           "pronunciation": "plào",
           "translation": "plain"
+        }
+      ]
+    },
+    {
+      "id": "th-rest-delicious",
+      "translation": "It was delicious",
+      "text": "อร่อยมาก",
+      "pronunciation": "àroi mâak",
+      "words": [
+        {
+          "text": "อร่อย",
+          "pronunciation": "àroi",
+          "translation": "delicious"
+        },
+        {
+          "text": "มาก",
+          "pronunciation": "mâak",
+          "translation": "very / much"
         }
       ]
     },
@@ -292,20 +453,20 @@
       ]
     },
     {
-      "id": "th-rest-delicious",
-      "translation": "It was delicious",
-      "text": "อร่อยมาก",
-      "pronunciation": "àroi mâak",
+      "id": "th-rest-thank-you",
+      "translation": "Thank you",
+      "text": "ขอบคุณครับ",
+      "pronunciation": "khòp khun khráp",
       "words": [
         {
-          "text": "อร่อย",
-          "pronunciation": "àroi",
-          "translation": "delicious"
+          "text": "ขอบคุณ",
+          "pronunciation": "khòp khun",
+          "translation": "thank you"
         },
         {
-          "text": "มาก",
-          "pronunciation": "mâak",
-          "translation": "very / much"
+          "text": "ครับ",
+          "pronunciation": "khráp",
+          "translation": "polite particle (male)"
         }
       ]
     }

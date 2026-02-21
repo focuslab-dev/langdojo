@@ -1,368 +1,239 @@
 {
-  "categoryId": "greetings",
+  "categoryId": "basics",
   "languageId": "thai",
   "phrases": [
     {
-      "id": "th-greet-welcome",
+      "id": "th-bas-welcome",
       "translation": "Welcome",
       "text": "ยินดีต้อนรับ",
       "pronunciation": "yin dee tôn ráp",
       "words": [
-        {
-          "text": "ยินดี",
-          "pronunciation": "yin dee",
-          "translation": "glad / pleased"
-        },
-        {
-          "text": "ต้อนรับ",
-          "pronunciation": "tôn ráp",
-          "translation": "receive / welcome"
-        }
+        { "text": "ยินดี", "pronunciation": "yin dee", "translation": "glad / pleased" },
+        { "text": "ต้อนรับ", "pronunciation": "tôn ráp", "translation": "receive / welcome" }
       ]
     },
     {
-      "id": "th-greet-hello-m",
+      "id": "th-bas-hello-m",
       "translation": "Hello (male)",
       "text": "สวัสดีครับ",
-      "pronunciation": "sà-wàt-dee kráp",
+      "pronunciation": "sà-wàt-dee khráp",
       "words": [
-        {
-          "text": "สวัสดี",
-          "pronunciation": "sà-wàt-dee",
-          "translation": "hello"
-        },
-        {
-          "text": "ครับ",
-          "pronunciation": "kráp",
-          "translation": "(polite particle, male)"
-        }
+        { "text": "สวัสดี", "pronunciation": "sà-wàt-dee", "translation": "hello" },
+        { "text": "ครับ", "pronunciation": "khráp", "translation": "(polite particle, male)" }
       ]
     },
     {
-      "id": "th-greet-hello-f",
+      "id": "th-bas-hello-f",
       "translation": "Hello (female)",
       "text": "สวัสดีค่ะ",
       "pronunciation": "sà-wàt-dee khâ",
       "words": [
-        {
-          "text": "สวัสดี",
-          "pronunciation": "sà-wàt-dee",
-          "translation": "hello"
-        },
-        {
-          "text": "ค่ะ",
-          "pronunciation": "khâ",
-          "translation": "(polite particle, female)"
-        }
+        { "text": "สวัสดี", "pronunciation": "sà-wàt-dee", "translation": "hello" },
+        { "text": "ค่ะ", "pronunciation": "khâ", "translation": "(polite particle, female)" }
       ]
     },
     {
-      "id": "th-greet-good-morning",
+      "id": "th-bas-good-morning",
       "translation": "Good morning",
       "text": "สวัสดีตอนเช้า",
       "pronunciation": "sà-wàt-dee torn cháo",
       "words": [
-        {
-          "text": "สวัสดี",
-          "pronunciation": "sà-wàt-dee",
-          "translation": "hello"
-        },
-        {
-          "text": "ตอน",
-          "pronunciation": "torn",
-          "translation": "period / time of"
-        },
-        {
-          "text": "เช้า",
-          "pronunciation": "cháo",
-          "translation": "morning"
-        }
+        { "text": "สวัสดี", "pronunciation": "sà-wàt-dee", "translation": "hello" },
+        { "text": "ตอน", "pronunciation": "torn", "translation": "period / time of" },
+        { "text": "เช้า", "pronunciation": "cháo", "translation": "morning" }
       ]
     },
     {
-      "id": "th-greet-good-evening",
+      "id": "th-bas-good-evening",
       "translation": "Good evening",
       "text": "สวัสดีตอนเย็น",
       "pronunciation": "sà-wàt-dee torn yen",
       "words": [
-        {
-          "text": "สวัสดี",
-          "pronunciation": "sà-wàt-dee",
-          "translation": "hello"
-        },
-        {
-          "text": "ตอน",
-          "pronunciation": "torn",
-          "translation": "period / time of"
-        },
-        {
-          "text": "เย็น",
-          "pronunciation": "yen",
-          "translation": "evening / cool"
-        }
+        { "text": "สวัสดี", "pronunciation": "sà-wàt-dee", "translation": "hello" },
+        { "text": "ตอน", "pronunciation": "torn", "translation": "period / time of" },
+        { "text": "เย็น", "pronunciation": "yen", "translation": "evening / cool" }
       ]
     },
     {
-      "id": "th-greet-sorry",
+      "id": "th-bas-sorry",
       "translation": "Excuse me / Sorry",
       "text": "ขอโทษ",
-      "pronunciation": "khǒr tôht",
+      "pronunciation": "khǒr thôht",
       "words": [
-        {
-          "text": "ขอ",
-          "pronunciation": "khǒr",
-          "translation": "please / may I"
-        },
-        {
-          "text": "โทษ",
-          "pronunciation": "tôht",
-          "translation": "fault / penalty"
-        }
+        { "text": "ขอ", "pronunciation": "khǒr", "translation": "please / may I" },
+        { "text": "โทษ", "pronunciation": "thôht", "translation": "fault / penalty" }
       ]
     },
     {
-      "id": "th-greet-please",
+      "id": "th-bas-please",
       "translation": "Please",
       "text": "กรุณา",
       "pronunciation": "gà-rú-naa",
       "words": []
     },
     {
-      "id": "th-greet-yes",
+      "id": "th-bas-yes",
       "translation": "Yes",
       "text": "ใช่",
       "pronunciation": "châi",
       "words": []
     },
     {
-      "id": "th-greet-no",
+      "id": "th-bas-no",
       "translation": "No",
       "text": "ไม่",
       "pronunciation": "mâi",
       "words": []
     },
     {
-      "id": "th-greet-dont-understand",
+      "id": "th-bas-dont-understand",
       "translation": "I don't understand",
       "text": "ไม่เข้าใจ",
       "pronunciation": "mâi khâo jai",
       "words": [
-        {
-          "text": "ไม่",
-          "pronunciation": "mâi",
-          "translation": "no / not"
-        },
-        {
-          "text": "เข้าใจ",
-          "pronunciation": "khâo jai",
-          "translation": "understand"
-        }
+        { "text": "ไม่", "pronunciation": "mâi", "translation": "no / not" },
+        { "text": "เข้าใจ", "pronunciation": "khâo jai", "translation": "understand" }
       ]
     },
     {
-      "id": "th-greet-wait",
+      "id": "th-bas-speak-english",
+      "translation": "Do you speak English?",
+      "text": "พูดภาษาอังกฤษได้ไหม?",
+      "pronunciation": "pôot paa-sǎa ang-grìt dâi mǎi?",
+      "words": [
+        { "text": "พูด", "pronunciation": "pôot", "translation": "speak" },
+        { "text": "ภาษาอังกฤษ", "pronunciation": "paa-sǎa ang-grìt", "translation": "English language" },
+        { "text": "ได้ไหม", "pronunciation": "dâi mǎi", "translation": "can you? (question)" }
+      ]
+    },
+    {
+      "id": "th-bas-little-thai",
+      "translation": "I speak a little Thai",
+      "text": "พูดไทยนิดหน่อย",
+      "pronunciation": "pôot thai nít nòi",
+      "words": [
+        { "text": "พูด", "pronunciation": "pôot", "translation": "speak" },
+        { "text": "ไทย", "pronunciation": "thai", "translation": "Thai" },
+        { "text": "นิดหน่อย", "pronunciation": "nít nòi", "translation": "a little bit" }
+      ]
+    },
+    {
+      "id": "th-bas-what-is-this",
+      "translation": "What is this?",
+      "text": "นี่คืออะไร?",
+      "pronunciation": "nêe keu àrai?",
+      "words": [
+        { "text": "นี่", "pronunciation": "nêe", "translation": "this" },
+        { "text": "คือ", "pronunciation": "keu", "translation": "is" },
+        { "text": "อะไร", "pronunciation": "àrai", "translation": "what" }
+      ]
+    },
+    {
+      "id": "th-bas-where-bathroom",
+      "translation": "Where is the bathroom?",
+      "text": "ห้องน้ำอยู่ที่ไหน?",
+      "pronunciation": "hông nám yòo têe nǎi?",
+      "words": [
+        { "text": "ห้องน้ำ", "pronunciation": "hông nám", "translation": "bathroom" },
+        { "text": "อยู่", "pronunciation": "yòo", "translation": "is located" },
+        { "text": "ที่ไหน", "pronunciation": "têe nǎi", "translation": "where" }
+      ]
+    },
+    {
+      "id": "th-bas-how-much",
+      "translation": "How much is this?",
+      "text": "อันนี้เท่าไร?",
+      "pronunciation": "an née thâo rai?",
+      "words": [
+        { "text": "อันนี้", "pronunciation": "an née", "translation": "this one" },
+        { "text": "เท่าไร", "pronunciation": "thâo rai", "translation": "how much" }
+      ]
+    },
+    {
+      "id": "th-bas-wait",
       "translation": "Please wait a moment",
       "text": "รอสักครู่",
       "pronunciation": "ror sàk krôo",
       "words": [
-        {
-          "text": "รอ",
-          "pronunciation": "ror",
-          "translation": "wait"
-        },
-        {
-          "text": "สักครู่",
-          "pronunciation": "sàk krôo",
-          "translation": "a moment"
-        }
+        { "text": "รอ", "pronunciation": "ror", "translation": "wait" },
+        { "text": "สักครู่", "pronunciation": "sàk krôo", "translation": "a moment" }
       ]
     },
     {
-      "id": "th-greet-thanks-m",
+      "id": "th-bas-thanks-m",
       "translation": "Thank you (male)",
       "text": "ขอบคุณครับ",
-      "pronunciation": "khòp khun kráp",
+      "pronunciation": "khòp khun khráp",
       "words": [
-        {
-          "text": "ขอบคุณ",
-          "pronunciation": "khòp khun",
-          "translation": "thank you"
-        },
-        {
-          "text": "ครับ",
-          "pronunciation": "kráp",
-          "translation": "(polite particle, male)"
-        }
+        { "text": "ขอบคุณ", "pronunciation": "khòp khun", "translation": "thank you" },
+        { "text": "ครับ", "pronunciation": "khráp", "translation": "(polite particle, male)" }
       ]
     },
     {
-      "id": "th-greet-thanks-f",
+      "id": "th-bas-thanks-f",
       "translation": "Thank you (female)",
       "text": "ขอบคุณค่ะ",
       "pronunciation": "khòp khun khâ",
       "words": [
-        {
-          "text": "ขอบคุณ",
-          "pronunciation": "khòp khun",
-          "translation": "thank you"
-        },
-        {
-          "text": "ค่ะ",
-          "pronunciation": "khâ",
-          "translation": "(polite particle, female)"
-        }
+        { "text": "ขอบคุณ", "pronunciation": "khòp khun", "translation": "thank you" },
+        { "text": "ค่ะ", "pronunciation": "khâ", "translation": "(polite particle, female)" }
       ]
     },
     {
-      "id": "th-greet-youre-welcome",
+      "id": "th-bas-youre-welcome",
       "translation": "You're welcome",
       "text": "ไม่เป็นไร",
       "pronunciation": "mâi pen rai",
       "words": [
-        {
-          "text": "ไม่",
-          "pronunciation": "mâi",
-          "translation": "no / not"
-        },
-        {
-          "text": "เป็น",
-          "pronunciation": "pen",
-          "translation": "be / is"
-        },
-        {
-          "text": "ไร",
-          "pronunciation": "rai",
-          "translation": "anything / nothing"
-        }
+        { "text": "ไม่", "pronunciation": "mâi", "translation": "no / not" },
+        { "text": "เป็น", "pronunciation": "pen", "translation": "be / is" },
+        { "text": "ไร", "pronunciation": "rai", "translation": "anything / nothing" }
       ]
     },
     {
-      "id": "th-greet-goodbye",
+      "id": "th-bas-goodbye",
       "translation": "Goodbye",
       "text": "ลาก่อน",
       "pronunciation": "laa gòn",
       "words": [
-        {
-          "text": "ลา",
-          "pronunciation": "laa",
-          "translation": "farewell / leave"
-        },
-        {
-          "text": "ก่อน",
-          "pronunciation": "gòn",
-          "translation": "first / before"
-        }
+        { "text": "ลา", "pronunciation": "laa", "translation": "farewell / leave" },
+        { "text": "ก่อน", "pronunciation": "gòn", "translation": "first / before" }
       ]
     }
   ],
   "words": [
-    {
-      "id": "th-greet-w-morning",
-      "translation": "morning",
-      "text": "เช้า",
-      "pronunciation": "cháo"
-    },
-    {
-      "id": "th-greet-w-evening",
-      "translation": "evening",
-      "text": "เย็น",
-      "pronunciation": "yen"
-    },
-    {
-      "id": "th-greet-w-night",
-      "translation": "night",
-      "text": "กลางคืน",
-      "pronunciation": "glang keun"
-    },
-    {
-      "id": "th-greet-w-today",
-      "translation": "today",
-      "text": "วันนี้",
-      "pronunciation": "wan née"
-    },
-    {
-      "id": "th-greet-w-tomorrow",
-      "translation": "tomorrow",
-      "text": "พรุ่งนี้",
-      "pronunciation": "prûng née"
-    },
-    {
-      "id": "th-greet-w-yesterday",
-      "translation": "yesterday",
-      "text": "เมื่อวาน",
-      "pronunciation": "mûea wan"
-    },
-    {
-      "id": "th-greet-w-name",
-      "translation": "name",
-      "text": "ชื่อ",
-      "pronunciation": "chêu"
-    },
-    {
-      "id": "th-greet-w-person",
-      "translation": "person",
-      "text": "คน",
-      "pronunciation": "khon"
-    },
-    {
-      "id": "th-greet-w-friend",
-      "translation": "friend",
-      "text": "เพื่อน",
-      "pronunciation": "pêuan"
-    },
-    {
-      "id": "th-greet-w-i-me",
-      "translation": "I / me",
-      "text": "ผม / ฉัน",
-      "pronunciation": "phǒm / chǎn"
-    },
-    {
-      "id": "th-greet-w-you",
-      "translation": "you",
-      "text": "คุณ",
-      "pronunciation": "khun"
-    },
-    {
-      "id": "th-greet-w-this",
-      "translation": "this",
-      "text": "นี่",
-      "pronunciation": "née"
-    },
-    {
-      "id": "th-greet-w-that",
-      "translation": "that",
-      "text": "นั่น",
-      "pronunciation": "nân"
-    },
-    {
-      "id": "th-greet-w-here",
-      "translation": "here",
-      "text": "ที่นี่",
-      "pronunciation": "têe née"
-    },
-    {
-      "id": "th-greet-w-there",
-      "translation": "there",
-      "text": "ที่นั่น",
-      "pronunciation": "têe nân"
-    },
-    {
-      "id": "th-greet-w-language",
-      "translation": "language",
-      "text": "ภาษา",
-      "pronunciation": "paa-sǎa"
-    },
-    {
-      "id": "th-greet-w-country",
-      "translation": "country",
-      "text": "ประเทศ",
-      "pronunciation": "bprà-têet"
-    },
-    {
-      "id": "th-greet-w-help",
-      "translation": "help",
-      "text": "ช่วย",
-      "pronunciation": "chûay"
-    }
+    { "id": "th-bas-w-morning", "translation": "morning", "text": "เช้า", "pronunciation": "cháo" },
+    { "id": "th-bas-w-evening", "translation": "evening", "text": "เย็น", "pronunciation": "yen" },
+    { "id": "th-bas-w-night", "translation": "night", "text": "กลางคืน", "pronunciation": "glang keun" },
+    { "id": "th-bas-w-today", "translation": "today", "text": "วันนี้", "pronunciation": "wan née" },
+    { "id": "th-bas-w-tomorrow", "translation": "tomorrow", "text": "พรุ่งนี้", "pronunciation": "prûng née" },
+    { "id": "th-bas-w-yesterday", "translation": "yesterday", "text": "เมื่อวาน", "pronunciation": "mêua wan" },
+    { "id": "th-bas-w-name", "translation": "name", "text": "ชื่อ", "pronunciation": "chêu" },
+    { "id": "th-bas-w-person", "translation": "person", "text": "คน", "pronunciation": "khon" },
+    { "id": "th-bas-w-friend", "translation": "friend", "text": "เพื่อน", "pronunciation": "pêuan" },
+    { "id": "th-bas-w-i-me", "translation": "I / me", "text": "ผม / ฉัน", "pronunciation": "phǒm / chǎn" },
+    { "id": "th-bas-w-you", "translation": "you", "text": "คุณ", "pronunciation": "khun" },
+    { "id": "th-bas-w-this", "translation": "this", "text": "นี่", "pronunciation": "nêe" },
+    { "id": "th-bas-w-that", "translation": "that", "text": "นั่น", "pronunciation": "nân" },
+    { "id": "th-bas-w-here", "translation": "here", "text": "ที่นี่", "pronunciation": "têe nêe" },
+    { "id": "th-bas-w-there", "translation": "there", "text": "ที่นั่น", "pronunciation": "têe nân" },
+    { "id": "th-bas-w-bathroom", "translation": "bathroom", "text": "ห้องน้ำ", "pronunciation": "hông nám" },
+    { "id": "th-bas-w-money", "translation": "money", "text": "เงิน", "pronunciation": "ngern" },
+    { "id": "th-bas-w-phone", "translation": "phone", "text": "โทรศัพท์", "pronunciation": "thoo-rá-sàp" },
+    { "id": "th-bas-w-time", "translation": "time", "text": "เวลา", "pronunciation": "way-laa" },
+    { "id": "th-bas-w-good", "translation": "good", "text": "ดี", "pronunciation": "dee" },
+    { "id": "th-bas-w-bad", "translation": "bad", "text": "ไม่ดี", "pronunciation": "mâi dee" },
+    { "id": "th-bas-w-big", "translation": "big", "text": "ใหญ่", "pronunciation": "yài" },
+    { "id": "th-bas-w-small", "translation": "small", "text": "เล็ก", "pronunciation": "lék" },
+    { "id": "th-bas-w-hot", "translation": "hot", "text": "ร้อน", "pronunciation": "rón" },
+    { "id": "th-bas-w-cold", "translation": "cold", "text": "เย็น", "pronunciation": "yen" },
+    { "id": "th-bas-w-where", "translation": "where", "text": "ที่ไหน", "pronunciation": "têe nǎi" },
+    { "id": "th-bas-w-when", "translation": "when", "text": "เมื่อไร", "pronunciation": "mêua rai" },
+    { "id": "th-bas-w-how", "translation": "how", "text": "อย่างไร", "pronunciation": "yàang rai" },
+    { "id": "th-bas-w-right", "translation": "right (direction)", "text": "ขวา", "pronunciation": "khwǎa" },
+    { "id": "th-bas-w-left", "translation": "left (direction)", "text": "ซ้าย", "pronunciation": "sáai" },
+    { "id": "th-bas-w-language", "translation": "language", "text": "ภาษา", "pronunciation": "paa-sǎa" },
+    { "id": "th-bas-w-country", "translation": "country", "text": "ประเทศ", "pronunciation": "bprà-têet" },
+    { "id": "th-bas-w-help", "translation": "help", "text": "ช่วย", "pronunciation": "chûay" }
   ]
 }

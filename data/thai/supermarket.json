@@ -3,22 +3,65 @@
   "languageId": "thai",
   "phrases": [
     {
-      "id": "th-super-where-is",
-      "translation": "Where is...?",
-      "text": "...อยู่ที่ไหน?",
-      "pronunciation": "...yòo têe nǎi?",
+      "id": "th-super-excuse-me",
+      "translation": "Excuse me",
+      "text": "ขอโทษ",
+      "pronunciation": "khǒr thôot",
+      "words": []
+    },
+    {
+      "id": "th-super-looking-for",
+      "translation": "I'm looking for milk",
+      "text": "กำลังหานม",
+      "pronunciation": "gamlang hǎa nom",
       "words": [
+        { "text": "กำลัง", "pronunciation": "gamlang", "translation": "currently / in process of" },
+        { "text": "หา", "pronunciation": "hǎa", "translation": "looking for" },
+        { "text": "นม", "pronunciation": "nom", "translation": "milk" }
+      ]
+    },
+    {
+      "id": "th-super-where-is",
+      "translation": "Where is the bread?",
+      "text": "ขนมปังอยู่ที่ไหน?",
+      "pronunciation": "khà-nǒm-pang yòo têe nǎi?",
+      "words": [
+        { "text": "ขนมปัง", "pronunciation": "khà-nǒm-pang", "translation": "bread" },
         { "text": "อยู่", "pronunciation": "yòo", "translation": "is / located" },
         { "text": "ที่ไหน", "pronunciation": "têe nǎi", "translation": "where" }
       ]
     },
     {
       "id": "th-super-do-you-have",
-      "translation": "Do you have...?",
-      "text": "มี...ไหม?",
-      "pronunciation": "mee...mǎi?",
+      "translation": "Do you have fish sauce?",
+      "text": "มีน้ำปลาไหม?",
+      "pronunciation": "mee nám plaa mǎi?",
       "words": [
         { "text": "มี", "pronunciation": "mee", "translation": "have / is there" },
+        { "text": "น้ำปลา", "pronunciation": "nám plaa", "translation": "fish sauce" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "th-super-is-fresh",
+      "translation": "Is this fresh?",
+      "text": "อันนี้สดไหม?",
+      "pronunciation": "an née sòt mǎi?",
+      "words": [
+        { "text": "อัน", "pronunciation": "an", "translation": "(classifier)" },
+        { "text": "นี้", "pronunciation": "née", "translation": "this" },
+        { "text": "สด", "pronunciation": "sòt", "translation": "fresh" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "th-super-organic",
+      "translation": "Do you have organic?",
+      "text": "มีออร์แกนิคไหม?",
+      "pronunciation": "mee or-gae-ník mǎi?",
+      "words": [
+        { "text": "มี", "pronunciation": "mee", "translation": "have / is there" },
+        { "text": "ออร์แกนิค", "pronunciation": "or-gae-ník", "translation": "organic" },
         { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
       ]
     },
@@ -31,6 +74,18 @@
         { "text": "อัน", "pronunciation": "an", "translation": "(classifier)" },
         { "text": "นี้", "pronunciation": "née", "translation": "this" },
         { "text": "เท่าไหร่", "pronunciation": "tâo rài", "translation": "how much" }
+      ]
+    },
+    {
+      "id": "th-super-on-sale",
+      "translation": "Is this on sale?",
+      "text": "อันนี้ลดราคาไหม?",
+      "pronunciation": "an née lót raa-khaa mǎi?",
+      "words": [
+        { "text": "อัน", "pronunciation": "an", "translation": "(classifier)" },
+        { "text": "นี้", "pronunciation": "née", "translation": "this" },
+        { "text": "ลดราคา", "pronunciation": "lót raa-khaa", "translation": "discounted / on sale" },
+        { "text": "ไหม", "pronunciation": "mǎi", "translation": "(question particle)" }
       ]
     },
     {
@@ -56,11 +111,12 @@
     },
     {
       "id": "th-super-total",
-      "translation": "Your total is... baht",
-      "text": "ทั้งหมด...บาท",
-      "pronunciation": "táng mòt...bàat",
+      "translation": "Your total is 350 baht",
+      "text": "ทั้งหมด 350 บาท",
+      "pronunciation": "táng mòt sǎam rói hâa sìp bàat",
       "words": [
         { "text": "ทั้งหมด", "pronunciation": "táng mòt", "translation": "all / total" },
+        { "text": "350", "pronunciation": "sǎam rói hâa sìp", "translation": "350" },
         { "text": "บาท", "pronunciation": "bàat", "translation": "baht (currency)" }
       ]
     },
@@ -148,6 +204,13 @@
         { "text": "ใบเสร็จ", "pronunciation": "bai sèt", "translation": "receipt" },
         { "text": "ด้วย", "pronunciation": "dûay", "translation": "also / please (add-on)" }
       ]
+    },
+    {
+      "id": "th-super-thank-you",
+      "translation": "Thank you",
+      "text": "ขอบคุณ",
+      "pronunciation": "khòp khun",
+      "words": []
     }
   ],
   "words": [
@@ -173,6 +236,13 @@
     { "id": "th-super-w-cheap", "translation": "cheap", "text": "ถูก", "pronunciation": "tòok" },
     { "id": "th-super-w-expensive", "translation": "expensive", "text": "แพง", "pronunciation": "paeng" },
     { "id": "th-super-w-entrance", "translation": "entrance", "text": "ทางเข้า", "pronunciation": "taang khâo" },
-    { "id": "th-super-w-exit", "translation": "exit", "text": "ทางออก", "pronunciation": "taang òok" }
+    { "id": "th-super-w-exit", "translation": "exit", "text": "ทางออก", "pronunciation": "taang òok" },
+    { "id": "th-super-w-fish", "translation": "fish", "text": "ปลา", "pronunciation": "bplaa" },
+    { "id": "th-super-w-tofu", "translation": "tofu", "text": "เต้าหู้", "pronunciation": "dtâo hôo" },
+    { "id": "th-super-w-alcohol", "translation": "alcohol", "text": "เหล้า", "pronunciation": "lâo" },
+    { "id": "th-super-w-fresh", "translation": "fresh", "text": "สด", "pronunciation": "sòt" },
+    { "id": "th-super-w-frozen", "translation": "frozen food", "text": "อาหารแช่แข็ง", "pronunciation": "aa-hǎan châe khǎeng" },
+    { "id": "th-super-w-discount", "translation": "discount / sale", "text": "ลดราคา", "pronunciation": "lót raa-khaa" },
+    { "id": "th-super-w-soap", "translation": "soap", "text": "สบู่", "pronunciation": "sà-bòo" }
   ]
 }

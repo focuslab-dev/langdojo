@@ -3,6 +3,16 @@
   "languageId": "mandarin",
   "phrases": [
     {
+      "id": "zh-cafe-welcome",
+      "translation": "Welcome!",
+      "text": "欢迎光临",
+      "pronunciation": "huānyíng guānglín",
+      "words": [
+        { "text": "欢迎", "pronunciation": "huānyíng", "translation": "welcome" },
+        { "text": "光临", "pronunciation": "guānglín", "translation": "to grace with one's presence" }
+      ]
+    },
+    {
       "id": "zh-cafe-menu",
       "translation": "Can I have the menu?",
       "text": "可以看一下菜单吗？",
@@ -73,14 +83,44 @@
       ]
     },
     {
-      "id": "zh-cafe-hot-iced",
-      "translation": "Hot / Iced",
-      "text": "热的 / 冰的",
-      "pronunciation": "rè de / bīng de",
+      "id": "zh-cafe-hot-please",
+      "translation": "Hot, please",
+      "text": "热的",
+      "pronunciation": "rè de",
       "words": [
         { "text": "热", "pronunciation": "rè", "translation": "hot" },
-        { "text": "的", "pronunciation": "de", "translation": "(descriptive particle)" },
-        { "text": "冰", "pronunciation": "bīng", "translation": "ice / iced" }
+        { "text": "的", "pronunciation": "de", "translation": "(descriptive particle)" }
+      ]
+    },
+    {
+      "id": "zh-cafe-iced-please",
+      "translation": "Iced, please",
+      "text": "冰的",
+      "pronunciation": "bīng de",
+      "words": [
+        { "text": "冰", "pronunciation": "bīng", "translation": "iced" },
+        { "text": "的", "pronunciation": "de", "translation": "(descriptive particle)" }
+      ]
+    },
+    {
+      "id": "zh-cafe-sweetness-level",
+      "translation": "What sweetness level?",
+      "text": "要什么甜度？",
+      "pronunciation": "yào shénme tiándù?",
+      "words": [
+        { "text": "要", "pronunciation": "yào", "translation": "want" },
+        { "text": "什么", "pronunciation": "shénme", "translation": "what" },
+        { "text": "甜度", "pronunciation": "tiándù", "translation": "sweetness level" }
+      ]
+    },
+    {
+      "id": "zh-cafe-half-sugar",
+      "translation": "Half sugar",
+      "text": "半糖",
+      "pronunciation": "bàn táng",
+      "words": [
+        { "text": "半", "pronunciation": "bàn", "translation": "half" },
+        { "text": "糖", "pronunciation": "táng", "translation": "sugar" }
       ]
     },
     {
@@ -118,7 +158,7 @@
     },
     {
       "id": "zh-cafe-eat-here",
-      "translation": "To eat here",
+      "translation": "To drink here",
       "text": "在这里喝",
       "pronunciation": "zài zhèlǐ hē",
       "words": [
@@ -138,6 +178,18 @@
       ]
     },
     {
+      "id": "zh-cafe-wifi-password",
+      "translation": "What's the WiFi password?",
+      "text": "Wi-Fi密码是什么？",
+      "pronunciation": "wàifái mìmǎ shì shénme?",
+      "words": [
+        { "text": "Wi-Fi", "pronunciation": "wàifái", "translation": "WiFi" },
+        { "text": "密码", "pronunciation": "mìmǎ", "translation": "password" },
+        { "text": "是", "pronunciation": "shì", "translation": "is" },
+        { "text": "什么", "pronunciation": "shénme", "translation": "what" }
+      ]
+    },
+    {
       "id": "zh-cafe-anything-else",
       "translation": "Would you like anything else?",
       "text": "还要别的吗？",
@@ -150,6 +202,17 @@
       ]
     },
     {
+      "id": "zh-cafe-please-wait",
+      "translation": "OK, please wait a moment",
+      "text": "好的，请稍等",
+      "pronunciation": "hǎo de, qǐng shāo děng",
+      "words": [
+        { "text": "好的", "pronunciation": "hǎo de", "translation": "OK / alright" },
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "稍等", "pronunciation": "shāo děng", "translation": "wait a moment" }
+      ]
+    },
+    {
       "id": "zh-cafe-bill",
       "translation": "The bill, please",
       "text": "买单",
@@ -158,6 +221,13 @@
         { "text": "买", "pronunciation": "mǎi", "translation": "pay / settle" },
         { "text": "单", "pronunciation": "dān", "translation": "bill / order" }
       ]
+    },
+    {
+      "id": "zh-cafe-thank-you",
+      "translation": "Thank you",
+      "text": "谢谢",
+      "pronunciation": "xièxie",
+      "words": []
     }
   ],
   "words": [
@@ -184,6 +254,13 @@
     { "id": "zh-cafe-w-juice", "translation": "juice", "text": "果汁", "pronunciation": "guǒzhī" },
     { "id": "zh-cafe-w-sandwich", "translation": "sandwich", "text": "三明治", "pronunciation": "sānmíngzhì" },
     { "id": "zh-cafe-w-smoothie", "translation": "smoothie / blended ice", "text": "沙冰", "pronunciation": "shābīng" },
-    { "id": "zh-cafe-w-cookie", "translation": "cookie / biscuit", "text": "饼干", "pronunciation": "bǐnggān" }
+    { "id": "zh-cafe-w-cookie", "translation": "cookie / biscuit", "text": "饼干", "pronunciation": "bǐnggān" },
+    { "id": "zh-cafe-w-matcha", "translation": "matcha", "text": "抹茶", "pronunciation": "mǒchá" },
+    { "id": "zh-cafe-w-soy-milk", "translation": "soy milk", "text": "豆浆", "pronunciation": "dòujiāng" },
+    { "id": "zh-cafe-w-caramel", "translation": "caramel", "text": "焦糖", "pronunciation": "jiāotáng" },
+    { "id": "zh-cafe-w-cream", "translation": "cream", "text": "奶油", "pronunciation": "nǎiyóu" },
+    { "id": "zh-cafe-w-wifi", "translation": "WiFi", "text": "Wi-Fi", "pronunciation": "wàifái" },
+    { "id": "zh-cafe-w-napkin", "translation": "napkin", "text": "纸巾", "pronunciation": "zhǐjīn" },
+    { "id": "zh-cafe-w-pastry", "translation": "pastry", "text": "糕点", "pronunciation": "gāodiǎn" }
   ]
 }

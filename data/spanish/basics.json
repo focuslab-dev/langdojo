@@ -1,271 +1,225 @@
 {
-  "categoryId": "greetings",
+  "categoryId": "basics",
   "languageId": "spanish",
   "phrases": [
     {
-      "id": "es-greetings-welcome",
+      "id": "es-bas-welcome",
       "translation": "Welcome",
       "text": "Bienvenido",
-      "pronunciation": "Bee-ehn-veh-NEE-doh",
+      "pronunciation": "bee-ehn-veh-NEE-doh",
       "words": []
     },
     {
-      "id": "es-greetings-hello",
+      "id": "es-bas-hello",
       "translation": "Hello",
       "text": "Hola",
       "pronunciation": "OH-lah",
       "words": []
     },
     {
-      "id": "es-greetings-good-morning",
+      "id": "es-bas-good-morning",
       "translation": "Good morning",
       "text": "Buenos días",
       "pronunciation": "BWEH-nohs DEE-ahs",
       "words": [
-        {
-          "text": "Buenos",
-          "pronunciation": "BWEH-nohs",
-          "translation": "good (m.pl.)"
-        },
-        {
-          "text": "días",
-          "pronunciation": "DEE-ahs",
-          "translation": "days / morning"
-        }
+        { "text": "Buenos", "pronunciation": "BWEH-nohs", "translation": "good (m.pl.)" },
+        { "text": "días", "pronunciation": "DEE-ahs", "translation": "days / morning" }
       ]
     },
     {
-      "id": "es-greetings-good-evening",
+      "id": "es-bas-good-evening",
       "translation": "Good evening",
       "text": "Buenas tardes",
       "pronunciation": "BWEH-nahs TAR-dehs",
       "words": [
-        {
-          "text": "Buenas",
-          "pronunciation": "BWEH-nahs",
-          "translation": "good (f.pl.)"
-        },
-        {
-          "text": "tardes",
-          "pronunciation": "TAR-dehs",
-          "translation": "afternoons / evenings"
-        }
+        { "text": "Buenas", "pronunciation": "BWEH-nahs", "translation": "good (f.pl.)" },
+        { "text": "tardes", "pronunciation": "TAR-dehs", "translation": "afternoons / evenings" }
       ]
     },
     {
-      "id": "es-greetings-excuse-me",
+      "id": "es-bas-nice-to-meet",
+      "translation": "Nice to meet you",
+      "text": "Mucho gusto",
+      "pronunciation": "MOO-choh GOOS-toh",
+      "words": [
+        { "text": "Mucho", "pronunciation": "MOO-choh", "translation": "much / a lot" },
+        { "text": "gusto", "pronunciation": "GOOS-toh", "translation": "pleasure" }
+      ]
+    },
+    {
+      "id": "es-bas-excuse-me",
       "translation": "Excuse me / Sorry",
       "text": "Perdón / Disculpe",
-      "pronunciation": "Pehr-DOHN / Dees-KOOL-peh",
+      "pronunciation": "pehr-DOHN / dees-KOOL-peh",
       "words": [
-        {
-          "text": "Perdón",
-          "pronunciation": "pehr-DOHN",
-          "translation": "pardon / sorry"
-        },
-        {
-          "text": "Disculpe",
-          "pronunciation": "dees-KOOL-peh",
-          "translation": "excuse me (formal)"
-        }
+        { "text": "Perdón", "pronunciation": "pehr-DOHN", "translation": "pardon / sorry" },
+        { "text": "Disculpe", "pronunciation": "dees-KOOL-peh", "translation": "excuse me (formal)" }
       ]
     },
     {
-      "id": "es-greetings-please",
+      "id": "es-bas-please",
       "translation": "Please",
       "text": "Por favor",
-      "pronunciation": "Pohr fah-VOHR",
+      "pronunciation": "pohr fah-VOHR",
       "words": [
-        {
-          "text": "Por",
-          "pronunciation": "pohr",
-          "translation": "for / by"
-        },
-        {
-          "text": "favor",
-          "pronunciation": "fah-VOHR",
-          "translation": "favor"
-        }
+        { "text": "Por", "pronunciation": "pohr", "translation": "for / by" },
+        { "text": "favor", "pronunciation": "fah-VOHR", "translation": "favor" }
       ]
     },
     {
-      "id": "es-greetings-yes",
+      "id": "es-bas-yes",
       "translation": "Yes",
       "text": "Sí",
       "pronunciation": "SEE",
       "words": []
     },
     {
-      "id": "es-greetings-no",
+      "id": "es-bas-no",
       "translation": "No",
       "text": "No",
       "pronunciation": "NOH",
       "words": []
     },
     {
-      "id": "es-greetings-dont-understand",
+      "id": "es-bas-dont-understand",
       "translation": "I don't understand",
       "text": "No entiendo",
-      "pronunciation": "Noh ehn-tee-EHN-doh",
+      "pronunciation": "noh ehn-tee-EHN-doh",
       "words": [
-        {
-          "text": "No",
-          "pronunciation": "noh",
-          "translation": "no / not"
-        },
-        {
-          "text": "entiendo",
-          "pronunciation": "ehn-tee-EHN-doh",
-          "translation": "I understand"
-        }
+        { "text": "No", "pronunciation": "noh", "translation": "no / not" },
+        { "text": "entiendo", "pronunciation": "ehn-tee-EHN-doh", "translation": "I understand" }
       ]
     },
     {
-      "id": "es-greetings-wait-moment",
+      "id": "es-bas-speak-english",
+      "translation": "Do you speak English?",
+      "text": "¿Habla inglés?",
+      "pronunciation": "AH-blah een-GLEHS?",
+      "words": [
+        { "text": "¿Habla", "pronunciation": "AH-blah", "translation": "do you speak (formal)" },
+        { "text": "inglés?", "pronunciation": "een-GLEHS", "translation": "English" }
+      ]
+    },
+    {
+      "id": "es-bas-little-spanish",
+      "translation": "I speak a little Spanish",
+      "text": "Hablo un poco de español",
+      "pronunciation": "AH-bloh oon POH-koh deh ehs-pah-NYOHL",
+      "words": [
+        { "text": "Hablo", "pronunciation": "AH-bloh", "translation": "I speak" },
+        { "text": "un poco de", "pronunciation": "oon POH-koh deh", "translation": "a little of" },
+        { "text": "español", "pronunciation": "ehs-pah-NYOHL", "translation": "Spanish" }
+      ]
+    },
+    {
+      "id": "es-bas-what-is-this",
+      "translation": "What is this?",
+      "text": "¿Qué es esto?",
+      "pronunciation": "KEH ehs EHS-toh?",
+      "words": [
+        { "text": "¿Qué", "pronunciation": "KEH", "translation": "what" },
+        { "text": "es", "pronunciation": "ehs", "translation": "is" },
+        { "text": "esto?", "pronunciation": "EHS-toh", "translation": "this" }
+      ]
+    },
+    {
+      "id": "es-bas-where-bathroom",
+      "translation": "Where is the bathroom?",
+      "text": "¿Dónde está el baño?",
+      "pronunciation": "DOHN-deh ehs-TAH ehl BAH-nyoh?",
+      "words": [
+        { "text": "¿Dónde", "pronunciation": "DOHN-deh", "translation": "where" },
+        { "text": "está", "pronunciation": "ehs-TAH", "translation": "is (location)" },
+        { "text": "el baño?", "pronunciation": "ehl BAH-nyoh", "translation": "the bathroom" }
+      ]
+    },
+    {
+      "id": "es-bas-how-much",
+      "translation": "How much is this?",
+      "text": "¿Cuánto cuesta esto?",
+      "pronunciation": "KWAHN-toh KWEHS-tah EHS-toh?",
+      "words": [
+        { "text": "¿Cuánto", "pronunciation": "KWAHN-toh", "translation": "how much" },
+        { "text": "cuesta", "pronunciation": "KWEHS-tah", "translation": "does it cost" },
+        { "text": "esto?", "pronunciation": "EHS-toh", "translation": "this" }
+      ]
+    },
+    {
+      "id": "es-bas-help",
+      "translation": "Can you help me?",
+      "text": "¿Puede ayudarme?",
+      "pronunciation": "PWEH-deh ah-yoo-DAR-meh?",
+      "words": [
+        { "text": "¿Puede", "pronunciation": "PWEH-deh", "translation": "can you (formal)" },
+        { "text": "ayudarme?", "pronunciation": "ah-yoo-DAR-meh", "translation": "help me" }
+      ]
+    },
+    {
+      "id": "es-bas-wait-moment",
       "translation": "Please wait a moment",
       "text": "Espere un momento, por favor",
-      "pronunciation": "Ehs-PEH-reh oon moh-MEHN-toh pohr fah-VOHR",
+      "pronunciation": "ehs-PEH-reh oon moh-MEHN-toh pohr fah-VOHR",
       "words": [
-        {
-          "text": "Espere",
-          "pronunciation": "ehs-PEH-reh",
-          "translation": "wait (formal)"
-        },
-        {
-          "text": "un momento,",
-          "pronunciation": "oon moh-MEHN-toh",
-          "translation": "a moment"
-        },
-        {
-          "text": "por favor",
-          "pronunciation": "pohr fah-VOHR",
-          "translation": "please"
-        }
+        { "text": "Espere", "pronunciation": "ehs-PEH-reh", "translation": "wait (formal)" },
+        { "text": "un momento", "pronunciation": "oon moh-MEHN-toh", "translation": "a moment" },
+        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
       ]
     },
     {
-      "id": "es-greetings-thank-you",
+      "id": "es-bas-thank-you",
       "translation": "Thank you",
       "text": "Gracias",
       "pronunciation": "GRAH-see-ahs",
       "words": []
     },
     {
-      "id": "es-greetings-youre-welcome",
+      "id": "es-bas-youre-welcome",
       "translation": "You're welcome",
       "text": "De nada",
-      "pronunciation": "Deh NAH-dah",
+      "pronunciation": "deh NAH-dah",
       "words": [
-        {
-          "text": "De",
-          "pronunciation": "deh",
-          "translation": "of / from"
-        },
-        {
-          "text": "nada",
-          "pronunciation": "NAH-dah",
-          "translation": "nothing"
-        }
+        { "text": "De", "pronunciation": "deh", "translation": "of / from" },
+        { "text": "nada", "pronunciation": "NAH-dah", "translation": "nothing" }
       ]
     },
     {
-      "id": "es-greetings-goodbye",
+      "id": "es-bas-goodbye",
       "translation": "Goodbye",
       "text": "Adiós",
-      "pronunciation": "Ah-dee-OHS",
+      "pronunciation": "ah-dee-OHS",
       "words": []
     }
   ],
   "words": [
-    {
-      "id": "es-greetings-w-morning",
-      "translation": "morning",
-      "text": "mañana",
-      "pronunciation": "mah-NYAH-nah"
-    },
-    {
-      "id": "es-greetings-w-evening",
-      "translation": "evening",
-      "text": "tarde",
-      "pronunciation": "TAR-deh"
-    },
-    {
-      "id": "es-greetings-w-night",
-      "translation": "night",
-      "text": "noche",
-      "pronunciation": "NOH-cheh"
-    },
-    {
-      "id": "es-greetings-w-today",
-      "translation": "today",
-      "text": "hoy",
-      "pronunciation": "OY"
-    },
-    {
-      "id": "es-greetings-w-tomorrow",
-      "translation": "tomorrow",
-      "text": "mañana",
-      "pronunciation": "mah-NYAH-nah"
-    },
-    {
-      "id": "es-greetings-w-yesterday",
-      "translation": "yesterday",
-      "text": "ayer",
-      "pronunciation": "ah-YEHR"
-    },
-    {
-      "id": "es-greetings-w-name",
-      "translation": "name",
-      "text": "nombre",
-      "pronunciation": "NOHM-breh"
-    },
-    {
-      "id": "es-greetings-w-person",
-      "translation": "person",
-      "text": "persona",
-      "pronunciation": "pehr-SOH-nah"
-    },
-    {
-      "id": "es-greetings-w-friend",
-      "translation": "friend",
-      "text": "amigo",
-      "pronunciation": "ah-MEE-goh"
-    },
-    {
-      "id": "es-greetings-w-i",
-      "translation": "I / me",
-      "text": "yo",
-      "pronunciation": "YOH"
-    },
-    {
-      "id": "es-greetings-w-you",
-      "translation": "you",
-      "text": "tú / usted",
-      "pronunciation": "TOO / oos-TEHD"
-    },
-    {
-      "id": "es-greetings-w-this",
-      "translation": "this",
-      "text": "esto",
-      "pronunciation": "EHS-toh"
-    },
-    {
-      "id": "es-greetings-w-that",
-      "translation": "that",
-      "text": "eso",
-      "pronunciation": "EH-soh"
-    },
-    {
-      "id": "es-greetings-w-here",
-      "translation": "here",
-      "text": "aquí",
-      "pronunciation": "ah-KEE"
-    },
-    {
-      "id": "es-greetings-w-there",
-      "translation": "there",
-      "text": "allí",
-      "pronunciation": "ah-YEE"
-    }
+    { "id": "es-bas-w-morning", "translation": "morning", "text": "mañana", "pronunciation": "mah-NYAH-nah" },
+    { "id": "es-bas-w-evening", "translation": "evening", "text": "tarde", "pronunciation": "TAR-deh" },
+    { "id": "es-bas-w-night", "translation": "night", "text": "noche", "pronunciation": "NOH-cheh" },
+    { "id": "es-bas-w-today", "translation": "today", "text": "hoy", "pronunciation": "OY" },
+    { "id": "es-bas-w-tomorrow", "translation": "tomorrow", "text": "mañana", "pronunciation": "mah-NYAH-nah" },
+    { "id": "es-bas-w-yesterday", "translation": "yesterday", "text": "ayer", "pronunciation": "ah-YEHR" },
+    { "id": "es-bas-w-name", "translation": "name", "text": "nombre", "pronunciation": "NOHM-breh" },
+    { "id": "es-bas-w-person", "translation": "person", "text": "persona", "pronunciation": "pehr-SOH-nah" },
+    { "id": "es-bas-w-friend", "translation": "friend", "text": "amigo", "pronunciation": "ah-MEE-goh" },
+    { "id": "es-bas-w-i", "translation": "I / me", "text": "yo", "pronunciation": "YOH" },
+    { "id": "es-bas-w-you", "translation": "you", "text": "tú / usted", "pronunciation": "TOO / oos-TEHD" },
+    { "id": "es-bas-w-this", "translation": "this", "text": "esto", "pronunciation": "EHS-toh" },
+    { "id": "es-bas-w-that", "translation": "that", "text": "eso", "pronunciation": "EH-soh" },
+    { "id": "es-bas-w-here", "translation": "here", "text": "aquí", "pronunciation": "ah-KEE" },
+    { "id": "es-bas-w-there", "translation": "there", "text": "allí", "pronunciation": "ah-YEE" },
+    { "id": "es-bas-w-bathroom", "translation": "bathroom", "text": "baño", "pronunciation": "BAH-nyoh" },
+    { "id": "es-bas-w-money", "translation": "money", "text": "dinero", "pronunciation": "dee-NEH-roh" },
+    { "id": "es-bas-w-phone", "translation": "phone", "text": "teléfono", "pronunciation": "teh-LEH-foh-noh" },
+    { "id": "es-bas-w-time", "translation": "time", "text": "tiempo", "pronunciation": "tee-EHM-poh" },
+    { "id": "es-bas-w-good", "translation": "good", "text": "bueno", "pronunciation": "BWEH-noh" },
+    { "id": "es-bas-w-bad", "translation": "bad", "text": "malo", "pronunciation": "MAH-loh" },
+    { "id": "es-bas-w-big", "translation": "big", "text": "grande", "pronunciation": "GRAHN-deh" },
+    { "id": "es-bas-w-small", "translation": "small", "text": "pequeño", "pronunciation": "peh-KEH-nyoh" },
+    { "id": "es-bas-w-hot", "translation": "hot", "text": "caliente", "pronunciation": "kah-lee-EHN-teh" },
+    { "id": "es-bas-w-cold", "translation": "cold", "text": "frío", "pronunciation": "FREE-oh" },
+    { "id": "es-bas-w-where", "translation": "where", "text": "dónde", "pronunciation": "DOHN-deh" },
+    { "id": "es-bas-w-when", "translation": "when", "text": "cuándo", "pronunciation": "KWAHN-doh" },
+    { "id": "es-bas-w-how", "translation": "how", "text": "cómo", "pronunciation": "KOH-moh" },
+    { "id": "es-bas-w-right", "translation": "right (direction)", "text": "derecha", "pronunciation": "deh-REH-chah" },
+    { "id": "es-bas-w-left", "translation": "left (direction)", "text": "izquierda", "pronunciation": "ees-kee-EHR-dah" }
   ]
 }

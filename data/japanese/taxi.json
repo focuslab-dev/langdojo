@@ -3,6 +3,23 @@
   "languageId": "japanese",
   "phrases": [
     {
+      "id": "jp-taxi-excuse-me",
+      "translation": "Excuse me",
+      "text": "すみません",
+      "pronunciation": "sumimasen",
+      "words": []
+    },
+    {
+      "id": "jp-taxi-available",
+      "translation": "Are you available?",
+      "text": "空車ですか？",
+      "pronunciation": "kuusha desuka?",
+      "words": [
+        { "text": "空車", "pronunciation": "kuusha", "translation": "vacant / available (taxi)" },
+        { "text": "ですか", "pronunciation": "desuka", "translation": "is it? (question)" }
+      ]
+    },
+    {
       "id": "jp-taxi-where-to",
       "translation": "Where would you like to go?",
       "text": "どちらまで？",
@@ -54,37 +71,47 @@
       "words": [
         { "text": "いくら", "pronunciation": "ikura", "translation": "how much" },
         { "text": "ぐらい", "pronunciation": "gurai", "translation": "about / approximately" },
-        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
-        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+        { "text": "ですか", "pronunciation": "desuka", "translation": "is it? (question)" }
       ]
     },
     {
       "id": "jp-taxi-approx-yen",
-      "translation": "It will be about... yen",
-      "text": "だいたい...円くらいです",
-      "pronunciation": "daitai...en kurai desu",
+      "translation": "It will be about 2,000 yen",
+      "text": "だいたい2,000円くらいです",
+      "pronunciation": "daitai nisen en kurai desu",
       "words": [
-        { "text": "だいたい", "pronunciation": "daitai", "translation": "approximately / about" },
+        { "text": "だいたい", "pronunciation": "daitai", "translation": "approximately" },
+        { "text": "2,000", "pronunciation": "nisen", "translation": "2,000" },
         { "text": "円", "pronunciation": "en", "translation": "yen" },
-        { "text": "くらい", "pronunciation": "kurai", "translation": "about / approximately" },
+        { "text": "くらい", "pronunciation": "kurai", "translation": "about" },
         { "text": "です", "pronunciation": "desu", "translation": "(it) is" }
       ]
     },
     {
-      "id": "jp-taxi-pay-by-card",
-      "translation": "Can I pay by card?",
-      "text": "カードで払えますか？",
-      "pronunciation": "kaado de haraemasuka?",
+      "id": "jp-taxi-how-long",
+      "translation": "How long will it take?",
+      "text": "どのくらいかかりますか？",
+      "pronunciation": "dono kurai kakarimasuka?",
       "words": [
-        { "text": "カード", "pronunciation": "kaado", "translation": "card" },
-        { "text": "で", "pronunciation": "de", "translation": "by (means particle)" },
-        { "text": "払えます", "pronunciation": "haraemasu", "translation": "can pay" },
+        { "text": "どのくらい", "pronunciation": "dono kurai", "translation": "how long / how much" },
+        { "text": "かかります", "pronunciation": "kakarimasu", "translation": "it takes" },
         { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
       ]
     },
     {
+      "id": "jp-taxi-use-meter",
+      "translation": "Please use the meter",
+      "text": "メーターでお願いします",
+      "pronunciation": "meetaa de onegaishimasu",
+      "words": [
+        { "text": "メーター", "pronunciation": "meetaa", "translation": "meter" },
+        { "text": "で", "pronunciation": "de", "translation": "by / with" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please" }
+      ]
+    },
+    {
       "id": "jp-taxi-turn-right-left",
-      "translation": "Turn right / left",
+      "translation": "Turn right / left, please",
       "text": "右 / 左に曲がってください",
       "pronunciation": "migi / hidari ni magatte kudasai",
       "words": [
@@ -96,6 +123,39 @@
       ]
     },
     {
+      "id": "jp-taxi-go-straight",
+      "translation": "Go straight, please",
+      "text": "まっすぐ行ってください",
+      "pronunciation": "massugu itte kudasai",
+      "words": [
+        { "text": "まっすぐ", "pronunciation": "massugu", "translation": "straight" },
+        { "text": "行って", "pronunciation": "itte", "translation": "go (te-form)" },
+        { "text": "ください", "pronunciation": "kudasai", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-taxi-please-hurry",
+      "translation": "Could you hurry a bit?",
+      "text": "急いでもらえますか？",
+      "pronunciation": "isoide moraemasuka?",
+      "words": [
+        { "text": "急いで", "pronunciation": "isoide", "translation": "hurry (te-form)" },
+        { "text": "もらえます", "pronunciation": "moraemasu", "translation": "could you (request form)" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-taxi-slower",
+      "translation": "A bit slower, please",
+      "text": "もう少しゆっくりお願いします",
+      "pronunciation": "mou sukoshi yukkuri onegaishimasu",
+      "words": [
+        { "text": "もう少し", "pronunciation": "mou sukoshi", "translation": "a little more" },
+        { "text": "ゆっくり", "pronunciation": "yukkuri", "translation": "slowly" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please" }
+      ]
+    },
+    {
       "id": "jp-taxi-wait-here",
       "translation": "Can you wait here?",
       "text": "ここで待っていてもらえますか？",
@@ -103,7 +163,7 @@
       "words": [
         { "text": "ここ", "pronunciation": "koko", "translation": "here" },
         { "text": "で", "pronunciation": "de", "translation": "(location particle)" },
-        { "text": "待っていて", "pronunciation": "matte ite", "translation": "be waiting (te-form + progressive)" },
+        { "text": "待っていて", "pronunciation": "matte ite", "translation": "be waiting" },
         { "text": "もらえます", "pronunciation": "moraemasu", "translation": "could you (request form)" },
         { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
       ]
@@ -129,9 +189,45 @@
         { "text": "着き", "pronunciation": "tsuki", "translation": "arrive (verb stem)" },
         { "text": "ました", "pronunciation": "mashita", "translation": "(past polite ending)" }
       ]
+    },
+    {
+      "id": "jp-taxi-pay-by-card",
+      "translation": "Can I pay by card?",
+      "text": "カードで払えますか？",
+      "pronunciation": "kaado de haraemasuka?",
+      "words": [
+        { "text": "カード", "pronunciation": "kaado", "translation": "card" },
+        { "text": "で", "pronunciation": "de", "translation": "by (means particle)" },
+        { "text": "払えます", "pronunciation": "haraemasu", "translation": "can pay" },
+        { "text": "か", "pronunciation": "ka", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "jp-taxi-receipt",
+      "translation": "A receipt, please",
+      "text": "領収書をお願いします",
+      "pronunciation": "ryoushuusho wo onegaishimasu",
+      "words": [
+        { "text": "領収書", "pronunciation": "ryoushuusho", "translation": "receipt" },
+        { "text": "を", "pronunciation": "wo", "translation": "(object particle)" },
+        { "text": "お願いします", "pronunciation": "onegaishimasu", "translation": "please" }
+      ]
+    },
+    {
+      "id": "jp-taxi-keep-change",
+      "translation": "Keep the change",
+      "text": "お釣りはけっこうです",
+      "pronunciation": "otsuri wa kekkou desu",
+      "words": [
+        { "text": "お釣り", "pronunciation": "otsuri", "translation": "change (money)" },
+        { "text": "は", "pronunciation": "wa", "translation": "(topic particle)" },
+        { "text": "けっこうです", "pronunciation": "kekkou desu", "translation": "no thank you / it's fine" }
+      ]
     }
   ],
   "words": [
+    { "id": "jp-taxi-w-taxi", "translation": "taxi", "text": "タクシー", "pronunciation": "takushii" },
+    { "id": "jp-taxi-w-driver", "translation": "driver", "text": "運転手", "pronunciation": "untenshu" },
     { "id": "jp-taxi-w-right", "translation": "right", "text": "右", "pronunciation": "migi" },
     { "id": "jp-taxi-w-left", "translation": "left", "text": "左", "pronunciation": "hidari" },
     { "id": "jp-taxi-w-straight", "translation": "straight", "text": "まっすぐ", "pronunciation": "massugu" },
@@ -152,7 +248,13 @@
     { "id": "jp-taxi-w-traffic", "translation": "traffic jam", "text": "渋滞", "pronunciation": "juutai" },
     { "id": "jp-taxi-w-receipt", "translation": "receipt", "text": "領収書", "pronunciation": "ryoushuusho" },
     { "id": "jp-taxi-w-destination", "translation": "destination", "text": "目的地", "pronunciation": "mokutekichi" },
-    { "id": "jp-taxi-w-highway", "translation": "expressway / highway", "text": "高速道路", "pronunciation": "kousoku douro" },
-    { "id": "jp-taxi-w-fare", "translation": "fare / fee", "text": "料金", "pronunciation": "ryoukin" }
+    { "id": "jp-taxi-w-highway", "translation": "expressway", "text": "高速道路", "pronunciation": "kousoku douro" },
+    { "id": "jp-taxi-w-fare", "translation": "fare", "text": "料金", "pronunciation": "ryoukin" },
+    { "id": "jp-taxi-w-luggage", "translation": "luggage", "text": "荷物", "pronunciation": "nimotsu" },
+    { "id": "jp-taxi-w-trunk", "translation": "trunk", "text": "トランク", "pronunciation": "toranku" },
+    { "id": "jp-taxi-w-seatbelt", "translation": "seat belt", "text": "シートベルト", "pronunciation": "shiito beruto" },
+    { "id": "jp-taxi-w-change", "translation": "change (money)", "text": "お釣り", "pronunciation": "otsuri" },
+    { "id": "jp-taxi-w-intersection", "translation": "intersection", "text": "交差点", "pronunciation": "kousaten" },
+    { "id": "jp-taxi-w-door", "translation": "door", "text": "ドア", "pronunciation": "doa" }
   ]
 }

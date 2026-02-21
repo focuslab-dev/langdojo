@@ -3,39 +3,113 @@
   "languageId": "french",
   "phrases": [
     {
-      "id": "fr-train-one-ticket-to",
-      "translation": "One ticket to... please",
-      "text": "Un billet pour..., s'il vous plaît",
-      "pronunciation": "Un bee-yeh poor..., seel voo pleh",
+      "id": "fr-trn-where-station",
+      "translation": "Where is the train station?",
+      "text": "Où est la gare ?",
+      "pronunciation": "Oo eh lah gar?",
       "words": [
-        { "text": "Un billet", "pronunciation": "un bee-yeh", "translation": "a ticket" },
-        { "text": "pour", "pronunciation": "poor", "translation": "to / for" },
-        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
+        {
+          "text": "Où est",
+          "pronunciation": "oo eh",
+          "translation": "where is"
+        },
+        {
+          "text": "la gare",
+          "pronunciation": "lah gar",
+          "translation": "the train station"
+        }
       ]
     },
     {
-      "id": "fr-train-round-trip",
-      "translation": "Round trip ticket",
+      "id": "fr-trn-ticket-office",
+      "translation": "Where is the ticket window?",
+      "text": "Où est le guichet ?",
+      "pronunciation": "Oo eh luh gee-sheh?",
+      "words": [
+        {
+          "text": "Où est",
+          "pronunciation": "oo eh",
+          "translation": "where is"
+        },
+        {
+          "text": "le guichet",
+          "pronunciation": "luh gee-sheh",
+          "translation": "the ticket window"
+        }
+      ]
+    },
+    {
+      "id": "fr-trn-one-ticket-to",
+      "translation": "One ticket to Paris, please",
+      "text": "Un billet pour Paris, s'il vous plaît",
+      "pronunciation": "Un bee-yeh poor pah-ree, seel voo pleh",
+      "words": [
+        {
+          "text": "Un billet",
+          "pronunciation": "un bee-yeh",
+          "translation": "a ticket"
+        },
+        { "text": "pour", "pronunciation": "poor", "translation": "to / for" },
+        {
+          "text": "Paris",
+          "pronunciation": "pah-ree",
+          "translation": "Paris"
+        },
+        {
+          "text": "s'il vous plaît",
+          "pronunciation": "seel voo pleh",
+          "translation": "please"
+        }
+      ]
+    },
+    {
+      "id": "fr-trn-one-way",
+      "translation": "A one-way ticket",
+      "text": "Un aller simple",
+      "pronunciation": "Un ah-lay sam-pluh",
+      "words": [
+        { "text": "Un", "pronunciation": "un", "translation": "a / one" },
+        {
+          "text": "aller simple",
+          "pronunciation": "ah-lay sam-pluh",
+          "translation": "one-way"
+        }
+      ]
+    },
+    {
+      "id": "fr-trn-round-trip",
+      "translation": "A round trip ticket",
       "text": "Un aller-retour",
       "pronunciation": "Un ah-lay ruh-toor",
       "words": [
         { "text": "Un", "pronunciation": "un", "translation": "a / one" },
-        { "text": "aller-retour", "pronunciation": "ah-lay ruh-toor", "translation": "round trip" }
+        {
+          "text": "aller-retour",
+          "pronunciation": "ah-lay ruh-toor",
+          "translation": "round trip"
+        }
       ]
     },
     {
-      "id": "fr-train-next-train-time",
-      "translation": "What time is the next train?",
-      "text": "À quelle heure est le prochain train ?",
-      "pronunciation": "Ah kell ur eh luh pro-shan tran?",
+      "id": "fr-trn-first-class",
+      "translation": "First class please",
+      "text": "Première classe, s'il vous plaît",
+      "pronunciation": "Pruh-myair klass, seel voo pleh",
       "words": [
-        { "text": "À quelle heure", "pronunciation": "ah kel uhr", "translation": "at what time" },
-        { "text": "est", "pronunciation": "eh", "translation": "is" },
-        { "text": "le prochain train", "pronunciation": "luh pro-shan tran", "translation": "the next train" }
+        {
+          "text": "Première classe",
+          "pronunciation": "pruh-myair klass",
+          "translation": "first class"
+        },
+        {
+          "text": "s'il vous plaît",
+          "pronunciation": "seel voo pleh",
+          "translation": "please"
+        }
       ]
     },
     {
-      "id": "fr-train-which-platform",
+      "id": "fr-trn-which-platform",
       "translation": "Which platform?",
       "text": "Quel quai ?",
       "pronunciation": "Kell kay?",
@@ -45,229 +119,423 @@
       ]
     },
     {
-      "id": "fr-train-where-transfer",
+      "id": "fr-trn-which-track",
+      "translation": "Which track?",
+      "text": "Quelle voie ?",
+      "pronunciation": "Kel vwah?",
+      "words": [
+        {
+          "text": "Quelle",
+          "pronunciation": "kel",
+          "translation": "which (feminine)"
+        },
+        { "text": "voie", "pronunciation": "vwah", "translation": "track" }
+      ]
+    },
+    {
+      "id": "fr-trn-compost-ticket",
+      "translation": "Do I need to validate my ticket?",
+      "text": "Faut-il composter mon billet ?",
+      "pronunciation": "Foh-teel kom-pos-tay mon bee-yeh?",
+      "words": [
+        {
+          "text": "Faut-il",
+          "pronunciation": "foh-teel",
+          "translation": "is it necessary / do I need to"
+        },
+        {
+          "text": "composter",
+          "pronunciation": "kom-pos-tay",
+          "translation": "validate / stamp"
+        },
+        {
+          "text": "mon billet",
+          "pronunciation": "mon bee-yeh",
+          "translation": "my ticket"
+        }
+      ]
+    },
+    {
+      "id": "fr-trn-is-tgv",
+      "translation": "Is this the TGV?",
+      "text": "C'est le TGV ?",
+      "pronunciation": "Seh luh tay-zhay-vay?",
+      "words": [
+        {
+          "text": "C'est",
+          "pronunciation": "seh",
+          "translation": "is this / this is"
+        },
+        {
+          "text": "le TGV",
+          "pronunciation": "luh tay-zhay-vay",
+          "translation": "the TGV (high-speed)"
+        }
+      ]
+    },
+    {
+      "id": "fr-trn-next-train-time",
+      "translation": "What time is the next train?",
+      "text": "À quelle heure est le prochain train ?",
+      "pronunciation": "Ah kell ur eh luh pro-shan tran?",
+      "words": [
+        {
+          "text": "À quelle heure",
+          "pronunciation": "ah kel uhr",
+          "translation": "at what time"
+        },
+        { "text": "est", "pronunciation": "eh", "translation": "is" },
+        {
+          "text": "le prochain train",
+          "pronunciation": "luh pro-shan tran",
+          "translation": "the next train"
+        }
+      ]
+    },
+    {
+      "id": "fr-trn-is-this-train-to",
+      "translation": "Is this the train to Lyon?",
+      "text": "Est-ce bien le train pour Lyon ?",
+      "pronunciation": "Ess bee-en luh tran poor lee-on?",
+      "words": [
+        {
+          "text": "Est-ce bien",
+          "pronunciation": "ess bee-en",
+          "translation": "is this indeed / is this the right"
+        },
+        {
+          "text": "le train pour",
+          "pronunciation": "luh tran poor",
+          "translation": "the train to"
+        },
+        {
+          "text": "Lyon",
+          "pronunciation": "lee-on",
+          "translation": "Lyon"
+        }
+      ]
+    },
+    {
+      "id": "fr-trn-this-train-goes",
+      "translation": "This train goes to Paris",
+      "text": "Ce train va à Paris",
+      "pronunciation": "Suh tran vah ah pah-ree",
+      "words": [
+        {
+          "text": "Ce train",
+          "pronunciation": "suh tran",
+          "translation": "this train"
+        },
+        { "text": "va à", "pronunciation": "vah ah", "translation": "goes to" },
+        {
+          "text": "Paris",
+          "pronunciation": "pah-ree",
+          "translation": "Paris"
+        }
+      ]
+    },
+    {
+      "id": "fr-trn-where-transfer",
       "translation": "Where should I transfer?",
       "text": "Où dois-je faire la correspondance ?",
       "pronunciation": "Oo dwah-zhuh fair lah ko-res-pon-dons?",
       "words": [
         { "text": "Où", "pronunciation": "oo", "translation": "where" },
-        { "text": "dois-je", "pronunciation": "dwah-zhuh", "translation": "do I / should I" },
-        { "text": "faire la correspondance", "pronunciation": "fair lah ko-res-pon-dons", "translation": "transfer / change trains" }
+        {
+          "text": "dois-je",
+          "pronunciation": "dwah-zhuh",
+          "translation": "do I / should I"
+        },
+        {
+          "text": "faire la correspondance",
+          "pronunciation": "fair lah ko-res-pon-dons",
+          "translation": "transfer / change trains"
+        }
       ]
     },
     {
-      "id": "fr-train-this-train-goes",
-      "translation": "This train goes to...",
-      "text": "Ce train va à...",
-      "pronunciation": "Suh tran vah ah...",
-      "words": [
-        { "text": "Ce train", "pronunciation": "suh tran", "translation": "this train" },
-        { "text": "va à", "pronunciation": "vah ah", "translation": "goes to" }
-      ]
-    },
-    {
-      "id": "fr-train-is-this-train-to",
-      "translation": "Is this the train to...?",
-      "text": "Est-ce bien le train pour... ?",
-      "pronunciation": "Ess bee-en luh tran poor...?",
-      "words": [
-        { "text": "Est-ce bien", "pronunciation": "ess bee-en", "translation": "is this indeed / is this the right" },
-        { "text": "le train pour", "pronunciation": "luh tran poor", "translation": "the train to" }
-      ]
-    },
-    {
-      "id": "fr-train-arriving",
+      "id": "fr-trn-arriving",
       "translation": "The train is arriving",
       "text": "Le train arrive",
       "pronunciation": "Luh tran ah-reev",
       "words": [
-        { "text": "Le train", "pronunciation": "luh tran", "translation": "the train" },
-        { "text": "arrive", "pronunciation": "ah-reev", "translation": "is arriving" }
+        {
+          "text": "Le train",
+          "pronunciation": "luh tran",
+          "translation": "the train"
+        },
+        {
+          "text": "arrive",
+          "pronunciation": "ah-reev",
+          "translation": "is arriving"
+        }
       ]
     },
     {
-      "id": "fr-train-seat-taken",
-      "translation": "Is this seat taken?",
+      "id": "fr-trn-seat-taken",
+      "translation": "Is this seat free?",
       "text": "Est-ce que cette place est libre ?",
       "pronunciation": "Ess-kuh set plass eh lee-bruh?",
       "words": [
-        { "text": "Est-ce que", "pronunciation": "ess-kuh", "translation": "is (question)" },
-        { "text": "cette place", "pronunciation": "set plass", "translation": "this seat" },
-        { "text": "est libre", "pronunciation": "eh lee-bruh", "translation": "is free / available" }
+        {
+          "text": "Est-ce que",
+          "pronunciation": "ess-kuh",
+          "translation": "is (question)"
+        },
+        {
+          "text": "cette place",
+          "pronunciation": "set plass",
+          "translation": "this seat"
+        },
+        {
+          "text": "est libre",
+          "pronunciation": "eh lee-bruh",
+          "translation": "is free / available"
+        }
       ]
     },
     {
-      "id": "fr-train-next-stop",
-      "translation": "The next stop is...",
-      "text": "Le prochain arrêt est...",
-      "pronunciation": "Luh pro-shan ah-reh eh...",
+      "id": "fr-trn-next-stop",
+      "translation": "The next stop is Lyon",
+      "text": "Le prochain arrêt est Lyon",
+      "pronunciation": "Luh pro-shan ah-reh eh lee-on",
       "words": [
-        { "text": "Le prochain arrêt", "pronunciation": "luh pro-shan ah-reh", "translation": "the next stop" },
-        { "text": "est", "pronunciation": "eh", "translation": "is" }
+        {
+          "text": "Le prochain arrêt",
+          "pronunciation": "luh pro-shan ah-reh",
+          "translation": "the next stop"
+        },
+        { "text": "est", "pronunciation": "eh", "translation": "is" },
+        {
+          "text": "Lyon",
+          "pronunciation": "lee-on",
+          "translation": "Lyon"
+        }
       ]
     },
     {
-      "id": "fr-train-ticket-office",
-      "translation": "Where is the ticket office?",
-      "text": "Où est le guichet ?",
-      "pronunciation": "Oo eh luh gee-sheh?",
+      "id": "fr-trn-arrived",
+      "translation": "We are arriving at Paris",
+      "text": "Nous arrivons à Paris",
+      "pronunciation": "Noo zah-ree-von ah pah-ree",
       "words": [
-        { "text": "Où est", "pronunciation": "oo eh", "translation": "where is" },
-        { "text": "le guichet", "pronunciation": "luh gee-sheh", "translation": "the ticket window" }
+        { "text": "Nous", "pronunciation": "noo", "translation": "we" },
+        {
+          "text": "arrivons",
+          "pronunciation": "ah-ree-von",
+          "translation": "are arriving"
+        },
+        { "text": "à", "pronunciation": "ah", "translation": "at" },
+        {
+          "text": "Paris",
+          "pronunciation": "pah-ree",
+          "translation": "Paris"
+        }
       ]
     },
     {
-      "id": "fr-train-first-class",
-      "translation": "First class please",
-      "text": "Première classe, s'il vous plaît",
-      "pronunciation": "Pruh-myair klass, seel voo pleh",
+      "id": "fr-trn-where-exit",
+      "translation": "Where is the exit?",
+      "text": "Où est la sortie ?",
+      "pronunciation": "Oo eh lah sor-tee?",
       "words": [
-        { "text": "Première classe", "pronunciation": "pruh-myair klass", "translation": "first class" },
-        { "text": "s'il vous plaît", "pronunciation": "seel voo pleh", "translation": "please" }
+        {
+          "text": "Où est",
+          "pronunciation": "oo eh",
+          "translation": "where is"
+        },
+        {
+          "text": "la sortie",
+          "pronunciation": "lah sor-tee",
+          "translation": "the exit"
+        }
       ]
+    },
+    {
+      "id": "fr-trn-thank-you",
+      "translation": "Thank you",
+      "text": "Merci",
+      "pronunciation": "Mair-see",
+      "words": []
     }
   ],
   "words": [
     {
-      "id": "fr-train-w-ticket",
+      "id": "fr-trn-w-station",
+      "translation": "train station",
+      "text": "gare",
+      "pronunciation": "gar"
+    },
+    {
+      "id": "fr-trn-w-ticket",
       "translation": "ticket",
       "text": "billet",
       "pronunciation": "bee-yeh"
     },
     {
-      "id": "fr-train-w-platform",
+      "id": "fr-trn-w-platform",
       "translation": "platform",
       "text": "quai",
       "pronunciation": "kay"
     },
     {
-      "id": "fr-train-w-tgv",
+      "id": "fr-trn-w-track",
+      "translation": "track",
+      "text": "voie",
+      "pronunciation": "vwah"
+    },
+    {
+      "id": "fr-trn-w-tgv",
       "translation": "TGV (high-speed)",
       "text": "TGV",
       "pronunciation": "tay-zhay-vay"
     },
     {
-      "id": "fr-train-w-ter",
+      "id": "fr-trn-w-ter",
       "translation": "regional train",
       "text": "TER",
       "pronunciation": "tay-uh-air"
     },
     {
-      "id": "fr-train-w-metro",
+      "id": "fr-trn-w-sncf",
+      "translation": "French railways",
+      "text": "SNCF",
+      "pronunciation": "ess-en-say-eff"
+    },
+    {
+      "id": "fr-trn-w-suburban-train",
+      "translation": "suburban train",
+      "text": "RER",
+      "pronunciation": "air-uh-air"
+    },
+    {
+      "id": "fr-trn-w-metro",
       "translation": "metro",
       "text": "métro",
       "pronunciation": "may-troh"
     },
     {
-      "id": "fr-train-w-transfer",
+      "id": "fr-trn-w-transfer",
       "translation": "transfer",
       "text": "correspondance",
       "pronunciation": "ko-res-pon-dons"
     },
     {
-      "id": "fr-train-w-exit",
+      "id": "fr-trn-w-exit",
       "translation": "exit",
       "text": "sortie",
       "pronunciation": "sor-tee"
     },
     {
-      "id": "fr-train-w-entrance",
+      "id": "fr-trn-w-entrance",
       "translation": "entrance",
       "text": "entrée",
       "pronunciation": "on-tray"
     },
     {
-      "id": "fr-train-w-one-way",
+      "id": "fr-trn-w-one-way",
       "translation": "one-way",
       "text": "aller simple",
       "pronunciation": "ah-lay sam-pluh"
     },
     {
-      "id": "fr-train-w-round-trip",
+      "id": "fr-trn-w-round-trip",
       "translation": "round trip",
       "text": "aller-retour",
       "pronunciation": "ah-lay ruh-toor"
     },
     {
-      "id": "fr-train-w-first-class",
+      "id": "fr-trn-w-first-class",
       "translation": "first class",
       "text": "première classe",
       "pronunciation": "pruh-myair klass"
     },
     {
-      "id": "fr-train-w-second-class",
+      "id": "fr-trn-w-second-class",
       "translation": "second class",
       "text": "deuxième classe",
       "pronunciation": "duh-zyem klass"
     },
     {
-      "id": "fr-train-w-timetable",
+      "id": "fr-trn-w-validate",
+      "translation": "to validate (ticket)",
+      "text": "composter",
+      "pronunciation": "kom-pos-tay"
+    },
+    {
+      "id": "fr-trn-w-inspector",
+      "translation": "ticket inspector",
+      "text": "contrôleur",
+      "pronunciation": "kon-troh-lur"
+    },
+    {
+      "id": "fr-trn-w-timetable",
       "translation": "timetable",
       "text": "horaire",
       "pronunciation": "oh-rair"
     },
     {
-      "id": "fr-train-w-departure",
+      "id": "fr-trn-w-departure",
       "translation": "departure",
       "text": "départ",
       "pronunciation": "day-par"
     },
     {
-      "id": "fr-train-w-arrival",
+      "id": "fr-trn-w-arrival",
       "translation": "arrival",
       "text": "arrivée",
       "pronunciation": "ah-ree-vay"
     },
     {
-      "id": "fr-train-w-ticket-window",
+      "id": "fr-trn-w-ticket-window",
       "translation": "ticket window",
       "text": "guichet",
       "pronunciation": "gee-sheh"
     },
     {
-      "id": "fr-train-w-line",
+      "id": "fr-trn-w-line",
       "translation": "line",
       "text": "ligne",
       "pronunciation": "lee-nyuh"
     },
     {
-      "id": "fr-train-w-delay",
+      "id": "fr-trn-w-delay",
       "translation": "delay",
       "text": "retard",
       "pronunciation": "ruh-tar"
     },
     {
-      "id": "fr-train-w-navigo",
+      "id": "fr-trn-w-navigo",
       "translation": "Navigo pass",
       "text": "passe Navigo",
       "pronunciation": "pass nah-vee-goh"
     },
     {
-      "id": "fr-train-w-last-train",
+      "id": "fr-trn-w-last-train",
       "translation": "last train",
       "text": "dernier train",
       "pronunciation": "dair-nyay tran"
     },
     {
-      "id": "fr-train-w-seat-reservation",
+      "id": "fr-trn-w-seat-reservation",
       "translation": "seat reservation",
       "text": "réservation de place",
       "pronunciation": "ray-zair-vah-syon duh plass"
     },
     {
-      "id": "fr-train-w-luggage-rack",
+      "id": "fr-trn-w-luggage-rack",
       "translation": "luggage rack",
       "text": "porte-bagages",
       "pronunciation": "port-bah-gazh"
     },
     {
-      "id": "fr-train-w-dining-car",
+      "id": "fr-trn-w-dining-car",
       "translation": "dining car",
       "text": "voiture-restaurant",
       "pronunciation": "vwah-toor res-toh-ron"
     },
     {
-      "id": "fr-train-w-strike",
+      "id": "fr-trn-w-strike",
       "translation": "strike",
       "text": "grève",
       "pronunciation": "grev"

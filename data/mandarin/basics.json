@@ -1,310 +1,243 @@
 {
-  "categoryId": "greetings",
+  "categoryId": "basics",
   "languageId": "mandarin",
   "phrases": [
     {
-      "id": "zh-greet-welcome",
+      "id": "zh-bas-welcome",
       "translation": "Welcome",
       "text": "欢迎光临",
       "pronunciation": "huānyíng guānglín",
       "words": [
-        {
-          "text": "欢迎",
-          "pronunciation": "huānyíng",
-          "translation": "welcome"
-        },
-        {
-          "text": "光临",
-          "pronunciation": "guānglín",
-          "translation": "your presence (honorific)"
-        }
+        { "text": "欢迎", "pronunciation": "huānyíng", "translation": "welcome" },
+        { "text": "光临", "pronunciation": "guānglín", "translation": "your presence (honorific)" }
       ]
     },
     {
-      "id": "zh-greet-hello",
+      "id": "zh-bas-hello",
       "translation": "Hello",
       "text": "你好",
       "pronunciation": "nǐ hǎo",
       "words": [
-        {
-          "text": "你",
-          "pronunciation": "nǐ",
-          "translation": "you"
-        },
-        {
-          "text": "好",
-          "pronunciation": "hǎo",
-          "translation": "good"
-        }
+        { "text": "你", "pronunciation": "nǐ", "translation": "you" },
+        { "text": "好", "pronunciation": "hǎo", "translation": "good" }
       ]
     },
     {
-      "id": "zh-greet-good-morning",
+      "id": "zh-bas-good-morning",
       "translation": "Good morning",
       "text": "早上好",
       "pronunciation": "zǎoshang hǎo",
       "words": [
-        {
-          "text": "早上",
-          "pronunciation": "zǎoshang",
-          "translation": "morning"
-        },
-        {
-          "text": "好",
-          "pronunciation": "hǎo",
-          "translation": "good"
-        }
+        { "text": "早上", "pronunciation": "zǎoshang", "translation": "morning" },
+        { "text": "好", "pronunciation": "hǎo", "translation": "good" }
       ]
     },
     {
-      "id": "zh-greet-good-evening",
+      "id": "zh-bas-good-evening",
       "translation": "Good evening",
       "text": "晚上好",
       "pronunciation": "wǎnshang hǎo",
       "words": [
-        {
-          "text": "晚上",
-          "pronunciation": "wǎnshang",
-          "translation": "evening"
-        },
-        {
-          "text": "好",
-          "pronunciation": "hǎo",
-          "translation": "good"
-        }
+        { "text": "晚上", "pronunciation": "wǎnshang", "translation": "evening" },
+        { "text": "好", "pronunciation": "hǎo", "translation": "good" }
       ]
     },
     {
-      "id": "zh-greet-sorry",
+      "id": "zh-bas-nice-to-meet",
+      "translation": "Nice to meet you",
+      "text": "很高兴认识你",
+      "pronunciation": "hěn gāoxìng rènshi nǐ",
+      "words": [
+        { "text": "很", "pronunciation": "hěn", "translation": "very" },
+        { "text": "高兴", "pronunciation": "gāoxìng", "translation": "happy / glad" },
+        { "text": "认识", "pronunciation": "rènshi", "translation": "know / meet" },
+        { "text": "你", "pronunciation": "nǐ", "translation": "you" }
+      ]
+    },
+    {
+      "id": "zh-bas-sorry",
       "translation": "Excuse me / Sorry",
       "text": "对不起",
       "pronunciation": "duìbùqǐ",
       "words": []
     },
     {
-      "id": "zh-greet-please",
+      "id": "zh-bas-please",
       "translation": "Please",
       "text": "请",
       "pronunciation": "qǐng",
       "words": []
     },
     {
-      "id": "zh-greet-yes",
+      "id": "zh-bas-yes",
       "translation": "Yes",
       "text": "是",
       "pronunciation": "shì",
       "words": []
     },
     {
-      "id": "zh-greet-no",
+      "id": "zh-bas-no",
       "translation": "No",
       "text": "不是",
       "pronunciation": "bù shì",
       "words": [
-        {
-          "text": "不",
-          "pronunciation": "bù",
-          "translation": "not"
-        },
-        {
-          "text": "是",
-          "pronunciation": "shì",
-          "translation": "is"
-        }
+        { "text": "不", "pronunciation": "bù", "translation": "not" },
+        { "text": "是", "pronunciation": "shì", "translation": "is" }
       ]
     },
     {
-      "id": "zh-greet-dont-understand",
+      "id": "zh-bas-dont-understand",
       "translation": "I don't understand",
       "text": "我不懂",
       "pronunciation": "wǒ bù dǒng",
       "words": [
-        {
-          "text": "我",
-          "pronunciation": "wǒ",
-          "translation": "I / me"
-        },
-        {
-          "text": "不",
-          "pronunciation": "bù",
-          "translation": "not"
-        },
-        {
-          "text": "懂",
-          "pronunciation": "dǒng",
-          "translation": "understand"
-        }
+        { "text": "我", "pronunciation": "wǒ", "translation": "I / me" },
+        { "text": "不", "pronunciation": "bù", "translation": "not" },
+        { "text": "懂", "pronunciation": "dǒng", "translation": "understand" }
       ]
     },
     {
-      "id": "zh-greet-please-wait",
+      "id": "zh-bas-speak-english",
+      "translation": "Do you speak English?",
+      "text": "你会说英语吗？",
+      "pronunciation": "nǐ huì shuō yīngyǔ ma?",
+      "words": [
+        { "text": "你", "pronunciation": "nǐ", "translation": "you" },
+        { "text": "会", "pronunciation": "huì", "translation": "can / know how to" },
+        { "text": "说", "pronunciation": "shuō", "translation": "speak" },
+        { "text": "英语", "pronunciation": "yīngyǔ", "translation": "English" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-bas-little-chinese",
+      "translation": "I speak a little Chinese",
+      "text": "我会说一点中文",
+      "pronunciation": "wǒ huì shuō yīdiǎn zhōngwén",
+      "words": [
+        { "text": "我", "pronunciation": "wǒ", "translation": "I" },
+        { "text": "会说", "pronunciation": "huì shuō", "translation": "can speak" },
+        { "text": "一点", "pronunciation": "yīdiǎn", "translation": "a little" },
+        { "text": "中文", "pronunciation": "zhōngwén", "translation": "Chinese (language)" }
+      ]
+    },
+    {
+      "id": "zh-bas-what-is-this",
+      "translation": "What is this?",
+      "text": "这是什么？",
+      "pronunciation": "zhè shì shénme?",
+      "words": [
+        { "text": "这", "pronunciation": "zhè", "translation": "this" },
+        { "text": "是", "pronunciation": "shì", "translation": "is" },
+        { "text": "什么", "pronunciation": "shénme", "translation": "what" }
+      ]
+    },
+    {
+      "id": "zh-bas-where-bathroom",
+      "translation": "Where is the bathroom?",
+      "text": "洗手间在哪里？",
+      "pronunciation": "xǐshǒujiān zài nǎlǐ?",
+      "words": [
+        { "text": "洗手间", "pronunciation": "xǐshǒujiān", "translation": "bathroom" },
+        { "text": "在", "pronunciation": "zài", "translation": "at / in" },
+        { "text": "哪里", "pronunciation": "nǎlǐ", "translation": "where" }
+      ]
+    },
+    {
+      "id": "zh-bas-how-much",
+      "translation": "How much is this?",
+      "text": "这个多少钱？",
+      "pronunciation": "zhège duōshao qián?",
+      "words": [
+        { "text": "这个", "pronunciation": "zhège", "translation": "this" },
+        { "text": "多少", "pronunciation": "duōshao", "translation": "how much / how many" },
+        { "text": "钱", "pronunciation": "qián", "translation": "money" }
+      ]
+    },
+    {
+      "id": "zh-bas-help",
+      "translation": "Can you help me?",
+      "text": "你能帮我吗？",
+      "pronunciation": "nǐ néng bāng wǒ ma?",
+      "words": [
+        { "text": "你", "pronunciation": "nǐ", "translation": "you" },
+        { "text": "能", "pronunciation": "néng", "translation": "can / able to" },
+        { "text": "帮", "pronunciation": "bāng", "translation": "help" },
+        { "text": "我", "pronunciation": "wǒ", "translation": "me" },
+        { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
+      ]
+    },
+    {
+      "id": "zh-bas-please-wait",
       "translation": "Please wait a moment",
       "text": "请稍等",
       "pronunciation": "qǐng shāo děng",
       "words": [
-        {
-          "text": "请",
-          "pronunciation": "qǐng",
-          "translation": "please"
-        },
-        {
-          "text": "稍",
-          "pronunciation": "shāo",
-          "translation": "a little / briefly"
-        },
-        {
-          "text": "等",
-          "pronunciation": "děng",
-          "translation": "wait"
-        }
+        { "text": "请", "pronunciation": "qǐng", "translation": "please" },
+        { "text": "稍", "pronunciation": "shāo", "translation": "a little / briefly" },
+        { "text": "等", "pronunciation": "děng", "translation": "wait" }
       ]
     },
     {
-      "id": "zh-greet-thank-you",
+      "id": "zh-bas-thank-you",
       "translation": "Thank you",
       "text": "谢谢",
-      "pronunciation": "xièxiè",
+      "pronunciation": "xièxie",
       "words": []
     },
     {
-      "id": "zh-greet-youre-welcome",
+      "id": "zh-bas-youre-welcome",
       "translation": "You're welcome",
       "text": "不客气",
       "pronunciation": "bù kèqì",
       "words": [
-        {
-          "text": "不",
-          "pronunciation": "bù",
-          "translation": "not"
-        },
-        {
-          "text": "客气",
-          "pronunciation": "kèqì",
-          "translation": "polite / formal"
-        }
+        { "text": "不", "pronunciation": "bù", "translation": "not" },
+        { "text": "客气", "pronunciation": "kèqì", "translation": "polite / formal" }
       ]
     },
     {
-      "id": "zh-greet-goodbye",
+      "id": "zh-bas-goodbye",
       "translation": "Goodbye",
       "text": "再见",
       "pronunciation": "zàijiàn",
       "words": [
-        {
-          "text": "再",
-          "pronunciation": "zài",
-          "translation": "again"
-        },
-        {
-          "text": "见",
-          "pronunciation": "jiàn",
-          "translation": "see / meet"
-        }
+        { "text": "再", "pronunciation": "zài", "translation": "again" },
+        { "text": "见", "pronunciation": "jiàn", "translation": "see / meet" }
       ]
     }
   ],
   "words": [
-    {
-      "id": "zh-greet-w-morning",
-      "translation": "morning",
-      "text": "早上",
-      "pronunciation": "zǎoshang"
-    },
-    {
-      "id": "zh-greet-w-evening",
-      "translation": "evening",
-      "text": "晚上",
-      "pronunciation": "wǎnshang"
-    },
-    {
-      "id": "zh-greet-w-night",
-      "translation": "night",
-      "text": "夜里",
-      "pronunciation": "yèlǐ"
-    },
-    {
-      "id": "zh-greet-w-today",
-      "translation": "today",
-      "text": "今天",
-      "pronunciation": "jīntiān"
-    },
-    {
-      "id": "zh-greet-w-tomorrow",
-      "translation": "tomorrow",
-      "text": "明天",
-      "pronunciation": "míngtiān"
-    },
-    {
-      "id": "zh-greet-w-yesterday",
-      "translation": "yesterday",
-      "text": "昨天",
-      "pronunciation": "zuótiān"
-    },
-    {
-      "id": "zh-greet-w-name",
-      "translation": "name",
-      "text": "名字",
-      "pronunciation": "míngzi"
-    },
-    {
-      "id": "zh-greet-w-person",
-      "translation": "person",
-      "text": "人",
-      "pronunciation": "rén"
-    },
-    {
-      "id": "zh-greet-w-friend",
-      "translation": "friend",
-      "text": "朋友",
-      "pronunciation": "péngyǒu"
-    },
-    {
-      "id": "zh-greet-w-me",
-      "translation": "I / me",
-      "text": "我",
-      "pronunciation": "wǒ"
-    },
-    {
-      "id": "zh-greet-w-you",
-      "translation": "you",
-      "text": "你",
-      "pronunciation": "nǐ"
-    },
-    {
-      "id": "zh-greet-w-this",
-      "translation": "this",
-      "text": "这个",
-      "pronunciation": "zhège"
-    },
-    {
-      "id": "zh-greet-w-that",
-      "translation": "that",
-      "text": "那个",
-      "pronunciation": "nàge"
-    },
-    {
-      "id": "zh-greet-w-here",
-      "translation": "here",
-      "text": "这里",
-      "pronunciation": "zhèlǐ"
-    },
-    {
-      "id": "zh-greet-w-there",
-      "translation": "there",
-      "text": "那里",
-      "pronunciation": "nàlǐ"
-    },
-    {
-      "id": "zh-greet-w-week",
-      "translation": "week",
-      "text": "星期",
-      "pronunciation": "xīngqī"
-    },
-    {
-      "id": "zh-greet-w-year",
-      "translation": "year",
-      "text": "年",
-      "pronunciation": "nián"
-    }
+    { "id": "zh-bas-w-morning", "translation": "morning", "text": "早上", "pronunciation": "zǎoshang" },
+    { "id": "zh-bas-w-evening", "translation": "evening", "text": "晚上", "pronunciation": "wǎnshang" },
+    { "id": "zh-bas-w-night", "translation": "night", "text": "夜里", "pronunciation": "yèlǐ" },
+    { "id": "zh-bas-w-today", "translation": "today", "text": "今天", "pronunciation": "jīntiān" },
+    { "id": "zh-bas-w-tomorrow", "translation": "tomorrow", "text": "明天", "pronunciation": "míngtiān" },
+    { "id": "zh-bas-w-yesterday", "translation": "yesterday", "text": "昨天", "pronunciation": "zuótiān" },
+    { "id": "zh-bas-w-name", "translation": "name", "text": "名字", "pronunciation": "míngzi" },
+    { "id": "zh-bas-w-person", "translation": "person", "text": "人", "pronunciation": "rén" },
+    { "id": "zh-bas-w-friend", "translation": "friend", "text": "朋友", "pronunciation": "péngyǒu" },
+    { "id": "zh-bas-w-me", "translation": "I / me", "text": "我", "pronunciation": "wǒ" },
+    { "id": "zh-bas-w-you", "translation": "you", "text": "你", "pronunciation": "nǐ" },
+    { "id": "zh-bas-w-this", "translation": "this", "text": "这个", "pronunciation": "zhège" },
+    { "id": "zh-bas-w-that", "translation": "that", "text": "那个", "pronunciation": "nàge" },
+    { "id": "zh-bas-w-here", "translation": "here", "text": "这里", "pronunciation": "zhèlǐ" },
+    { "id": "zh-bas-w-there", "translation": "there", "text": "那里", "pronunciation": "nàlǐ" },
+    { "id": "zh-bas-w-bathroom", "translation": "bathroom", "text": "洗手间", "pronunciation": "xǐshǒujiān" },
+    { "id": "zh-bas-w-money", "translation": "money", "text": "钱", "pronunciation": "qián" },
+    { "id": "zh-bas-w-phone", "translation": "phone", "text": "电话", "pronunciation": "diànhuà" },
+    { "id": "zh-bas-w-time", "translation": "time", "text": "时间", "pronunciation": "shíjiān" },
+    { "id": "zh-bas-w-good", "translation": "good", "text": "好", "pronunciation": "hǎo" },
+    { "id": "zh-bas-w-bad", "translation": "bad", "text": "坏", "pronunciation": "huài" },
+    { "id": "zh-bas-w-big", "translation": "big", "text": "大", "pronunciation": "dà" },
+    { "id": "zh-bas-w-small", "translation": "small", "text": "小", "pronunciation": "xiǎo" },
+    { "id": "zh-bas-w-hot", "translation": "hot", "text": "热", "pronunciation": "rè" },
+    { "id": "zh-bas-w-cold", "translation": "cold", "text": "冷", "pronunciation": "lěng" },
+    { "id": "zh-bas-w-where", "translation": "where", "text": "哪里", "pronunciation": "nǎlǐ" },
+    { "id": "zh-bas-w-when", "translation": "when", "text": "什么时候", "pronunciation": "shénme shíhòu" },
+    { "id": "zh-bas-w-how", "translation": "how", "text": "怎么", "pronunciation": "zěnme" },
+    { "id": "zh-bas-w-right", "translation": "right (direction)", "text": "右", "pronunciation": "yòu" },
+    { "id": "zh-bas-w-left", "translation": "left (direction)", "text": "左", "pronunciation": "zuǒ" },
+    { "id": "zh-bas-w-week", "translation": "week", "text": "星期", "pronunciation": "xīngqī" },
+    { "id": "zh-bas-w-year", "translation": "year", "text": "年", "pronunciation": "nián" }
   ]
 }

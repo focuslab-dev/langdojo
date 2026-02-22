@@ -53,7 +53,7 @@ export default function LandingPage({ languageCards }: Props) {
           {/* Hero */}
           <div className="text-center mb-12">
             <img
-              src="/img/hero-image.png"
+              src="/img/hero-image-sm.png"
               alt="Lang Dojo mascot"
               className="w-32 h-32 mx-auto mb-4 rounded-2xl object-cover"
             />
@@ -93,7 +93,6 @@ export default function LandingPage({ languageCards }: Props) {
               </Link>
             ))}
           </div>
-
         </div>
 
         <SiteFooter />

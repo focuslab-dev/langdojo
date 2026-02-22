@@ -53,9 +53,11 @@ export function SiteHeader({ breadcrumbs, showTagline }: SiteHeaderProps) {
 
           {/* GitHub link */}
           <a
-            href="#"
+            href="https://github.com/focuslab-dev/langdojo"
             className="text-gray-400 hover:text-gray-600 transition-colors shrink-0 ml-4"
             aria-label="View on GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <Github className="w-5 h-5" />
           </a>

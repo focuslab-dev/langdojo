@@ -6,21 +6,17 @@
       "id": "es-bus-where-bus-stop",
       "translation": "Where is the bus stop?",
       "text": "¿Dónde está la parada de autobús?",
-      "pronunciation": "DOHN-deh ehs-TAH lah pah-RAH-dah deh ow-toh-BOOS?",
       "words": [
         {
           "text": "¿Dónde está",
-          "pronunciation": "DOHN-deh ehs-TAH",
           "translation": "where is"
         },
         {
           "text": "la parada",
-          "pronunciation": "lah pah-RAH-dah",
           "translation": "the stop"
         },
         {
           "text": "de autobús?",
-          "pronunciation": "deh ow-toh-BOOS",
           "translation": "of the bus"
         }
       ]
@@ -29,21 +25,17 @@
       "id": "es-bus-which-bus-to",
       "translation": "Which bus goes to downtown?",
       "text": "¿Qué autobús va al centro?",
-      "pronunciation": "Keh ow-toh-BOOS vah ahl SEHN-troh?",
       "words": [
         {
           "text": "¿Qué autobús",
-          "pronunciation": "keh ow-toh-BOOS",
           "translation": "which bus"
         },
         {
           "text": "va al",
-          "pronunciation": "vah ahl",
           "translation": "goes to the"
         },
         {
           "text": "centro?",
-          "pronunciation": "SEHN-troh",
           "translation": "center / downtown"
         }
       ]
@@ -52,21 +44,17 @@
       "id": "es-bus-does-this-go-to",
       "translation": "Does this bus go to the station?",
       "text": "¿Este autobús va a la estación?",
-      "pronunciation": "EHS-teh ow-toh-BOOS vah ah lah ehs-tah-see-OHN?",
       "words": [
         {
           "text": "¿Este autobús",
-          "pronunciation": "EHS-teh ow-toh-BOOS",
           "translation": "does this bus"
         },
         {
           "text": "va a",
-          "pronunciation": "vah ah",
           "translation": "go to"
         },
         {
           "text": "la estación?",
-          "pronunciation": "lah ehs-tah-see-OHN",
           "translation": "the station"
         }
       ]
@@ -75,21 +63,17 @@
       "id": "es-bus-last-bus-time",
       "translation": "What time is the last bus?",
       "text": "¿A qué hora es el último autobús?",
-      "pronunciation": "Ah keh OH-rah ehs ehl OOL-tee-moh ow-toh-BOOS?",
       "words": [
         {
           "text": "¿A qué hora",
-          "pronunciation": "ah keh OH-rah",
           "translation": "at what time"
         },
         {
           "text": "es el último",
-          "pronunciation": "ehs ehl OOL-tee-moh",
           "translation": "is the last"
         },
         {
           "text": "autobús?",
-          "pronunciation": "ow-toh-BOOS",
           "translation": "bus"
         }
       ]
@@ -98,16 +82,13 @@
       "id": "es-bus-fare",
       "translation": "How much is the fare?",
       "text": "¿Cuánto cuesta el billete?",
-      "pronunciation": "KWAHN-toh KWEHS-tah ehl bee-YEH-teh?",
       "words": [
         {
           "text": "¿Cuánto cuesta",
-          "pronunciation": "KWAHN-toh KWEHS-tah",
           "translation": "how much is"
         },
         {
           "text": "el billete?",
-          "pronunciation": "ehl bee-YEH-teh",
           "translation": "the ticket"
         }
       ]
@@ -116,17 +97,17 @@
       "id": "es-bus-can-pay-cash",
       "translation": "Can I pay with cash?",
       "text": "¿Puedo pagar en efectivo?",
-      "pronunciation": "PWEH-doh pah-GAR ehn eh-fehk-TEE-voh?",
       "words": [
         {
           "text": "¿Puedo",
-          "pronunciation": "PWEH-doh",
           "translation": "can I"
         },
-        { "text": "pagar", "pronunciation": "pah-GAR", "translation": "pay" },
+        {
+          "text": "pagar",
+          "translation": "pay"
+        },
         {
           "text": "en efectivo?",
-          "pronunciation": "ehn eh-fehk-TEE-voh",
           "translation": "with cash"
         }
       ]
@@ -135,17 +116,17 @@
       "id": "es-bus-use-card",
       "translation": "Can I use a card?",
       "text": "¿Puedo usar tarjeta?",
-      "pronunciation": "PWEH-doh oo-SAR tar-HEH-tah?",
       "words": [
         {
           "text": "¿Puedo",
-          "pronunciation": "PWEH-doh",
           "translation": "can I"
         },
-        { "text": "usar", "pronunciation": "oo-SAR", "translation": "use" },
+        {
+          "text": "usar",
+          "translation": "use"
+        },
         {
           "text": "tarjeta?",
-          "pronunciation": "tar-HEH-tah",
           "translation": "card"
         }
       ]
@@ -154,16 +135,13 @@
       "id": "es-bus-one-ticket",
       "translation": "One ticket, please",
       "text": "Un billete, por favor",
-      "pronunciation": "Oon bee-YEH-teh, pohr fah-VOHR",
       "words": [
         {
           "text": "Un billete",
-          "pronunciation": "oon bee-YEH-teh",
           "translation": "one ticket"
         },
         {
           "text": "por favor",
-          "pronunciation": "pohr fah-VOHR",
           "translation": "please"
         }
       ]
@@ -172,21 +150,17 @@
       "id": "es-bus-validate-ticket",
       "translation": "Please validate your ticket",
       "text": "Valide su billete, por favor",
-      "pronunciation": "VAH-lee-deh soo bee-YEH-teh pohr fah-VOHR",
       "words": [
         {
           "text": "Valide",
-          "pronunciation": "VAH-lee-deh",
           "translation": "validate (formal)"
         },
         {
           "text": "su billete,",
-          "pronunciation": "soo bee-YEH-teh",
           "translation": "your ticket"
         },
         {
           "text": "por favor",
-          "pronunciation": "pohr fah-VOHR",
           "translation": "please"
         }
       ]
@@ -195,16 +169,13 @@
       "id": "es-bus-is-seat-free",
       "translation": "Is this seat free?",
       "text": "¿Está libre este asiento?",
-      "pronunciation": "ehs-TAH LEE-breh EHS-teh ah-see-EHN-toh?",
       "words": [
         {
           "text": "¿Está libre",
-          "pronunciation": "ehs-TAH LEE-breh",
           "translation": "is free / available"
         },
         {
           "text": "este asiento?",
-          "pronunciation": "EHS-teh ah-see-EHN-toh",
           "translation": "this seat"
         }
       ]
@@ -213,22 +184,21 @@
       "id": "es-bus-tell-me-when",
       "translation": "Please tell me when we arrive at downtown",
       "text": "Avíseme cuando lleguemos al centro, por favor",
-      "pronunciation": "Ah-VEE-seh-meh KWAHN-doh yeh-GEH-mohs ahl SEHN-troh pohr fah-VOHR",
       "words": [
         {
           "text": "Avíseme",
-          "pronunciation": "ah-VEE-seh-meh",
           "translation": "let me know (formal)"
         },
         {
           "text": "cuando lleguemos",
-          "pronunciation": "KWAHN-doh yeh-GEH-mohs",
           "translation": "when we arrive"
         },
-        { "text": "al centro,", "pronunciation": "ahl SEHN-troh", "translation": "to downtown" },
+        {
+          "text": "al centro,",
+          "translation": "to downtown"
+        },
         {
           "text": "por favor",
-          "pronunciation": "pohr fah-VOHR",
           "translation": "please"
         }
       ]
@@ -237,31 +207,25 @@
       "id": "es-bus-how-many-stops",
       "translation": "How many stops to the station?",
       "text": "¿Cuántas paradas faltan para la estación?",
-      "pronunciation": "KWAHN-tahs pah-RAH-dahs FAHL-tahn PAH-rah lah ehs-tah-see-OHN?",
       "words": [
         {
           "text": "¿Cuántas",
-          "pronunciation": "KWAHN-tahs",
           "translation": "how many"
         },
         {
           "text": "paradas",
-          "pronunciation": "pah-RAH-dahs",
           "translation": "stops"
         },
         {
           "text": "faltan",
-          "pronunciation": "FAHL-tahn",
           "translation": "are remaining"
         },
         {
           "text": "para",
-          "pronunciation": "PAH-rah",
           "translation": "for / until"
         },
         {
           "text": "la estación?",
-          "pronunciation": "lah ehs-tah-see-OHN",
           "translation": "the station"
         }
       ]
@@ -270,21 +234,17 @@
       "id": "es-bus-transfer-where",
       "translation": "Where should I transfer?",
       "text": "¿Dónde hago el transbordo?",
-      "pronunciation": "DOHN-deh AH-goh ehl trahns-BOHR-doh?",
       "words": [
         {
           "text": "¿Dónde",
-          "pronunciation": "DOHN-deh",
           "translation": "where"
         },
         {
           "text": "hago",
-          "pronunciation": "AH-goh",
           "translation": "do I make"
         },
         {
           "text": "el transbordo?",
-          "pronunciation": "ehl trahns-BOHR-doh",
           "translation": "the transfer"
         }
       ]
@@ -293,21 +253,17 @@
       "id": "es-bus-next-stop",
       "translation": "Next stop is downtown",
       "text": "Próxima parada el centro",
-      "pronunciation": "PROHK-see-mah pah-RAH-dah ehl SEHN-troh",
       "words": [
         {
           "text": "Próxima",
-          "pronunciation": "PROHK-see-mah",
           "translation": "next (f.)"
         },
         {
           "text": "parada",
-          "pronunciation": "pah-RAH-dah",
           "translation": "stop"
         },
         {
           "text": "el centro",
-          "pronunciation": "ehl SEHN-troh",
           "translation": "downtown"
         }
       ]
@@ -316,26 +272,21 @@
       "id": "es-bus-press-button",
       "translation": "Press the button to request stop",
       "text": "Pulse el botón para solicitar parada",
-      "pronunciation": "POOL-seh ehl boh-TOHN PAH-rah soh-lee-see-TAR pah-RAH-dah",
       "words": [
         {
           "text": "Pulse",
-          "pronunciation": "POOL-seh",
           "translation": "press (formal)"
         },
         {
           "text": "el botón",
-          "pronunciation": "ehl boh-TOHN",
           "translation": "the button"
         },
         {
           "text": "para solicitar",
-          "pronunciation": "PAH-rah soh-lee-see-TAR",
           "translation": "to request"
         },
         {
           "text": "parada",
-          "pronunciation": "pah-RAH-dah",
           "translation": "stop"
         }
       ]
@@ -344,21 +295,17 @@
       "id": "es-bus-get-off-next",
       "translation": "I'll get off at the next stop",
       "text": "Me bajo en la próxima parada",
-      "pronunciation": "Meh BAH-hoh ehn lah PROHK-see-mah pah-RAH-dah",
       "words": [
         {
           "text": "Me bajo",
-          "pronunciation": "meh BAH-hoh",
           "translation": "I get off"
         },
         {
           "text": "en la próxima",
-          "pronunciation": "ehn lah PROHK-see-mah",
           "translation": "at the next"
         },
         {
           "text": "parada",
-          "pronunciation": "pah-RAH-dah",
           "translation": "stop"
         }
       ]
@@ -367,40 +314,36 @@
       "id": "es-bus-get-off-here",
       "translation": "I want to get off here",
       "text": "Quiero bajar aquí",
-      "pronunciation": "Kee-EH-roh bah-HAR ah-KEE",
       "words": [
         {
           "text": "Quiero",
-          "pronunciation": "kee-EH-roh",
           "translation": "I want"
         },
         {
           "text": "bajar",
-          "pronunciation": "bah-HAR",
           "translation": "to get off"
         },
-        { "text": "aquí", "pronunciation": "ah-KEE", "translation": "here" }
+        {
+          "text": "aquí",
+          "translation": "here"
+        }
       ]
     },
     {
       "id": "es-bus-excuse-me-pass",
       "translation": "Excuse me, I need to pass",
       "text": "Disculpe, necesito pasar",
-      "pronunciation": "dees-KOOL-peh neh-seh-SEE-toh pah-SAR",
       "words": [
         {
           "text": "Disculpe",
-          "pronunciation": "dees-KOOL-peh",
           "translation": "excuse me (formal)"
         },
         {
           "text": "necesito",
-          "pronunciation": "neh-seh-SEE-toh",
           "translation": "I need"
         },
         {
           "text": "pasar",
-          "pronunciation": "pah-SAR",
           "translation": "to pass"
         }
       ]
@@ -409,26 +352,21 @@
       "id": "es-bus-exit-back",
       "translation": "Please exit from the back",
       "text": "Salgan por la puerta de atrás, por favor",
-      "pronunciation": "SAHL-gahn pohr lah PWEHR-tah deh ah-TRAHS pohr fah-VOHR",
       "words": [
         {
           "text": "Salgan",
-          "pronunciation": "SAHL-gahn",
           "translation": "exit / leave (pl. formal)"
         },
         {
           "text": "por la puerta",
-          "pronunciation": "pohr lah PWEHR-tah",
           "translation": "through the door"
         },
         {
           "text": "de atrás,",
-          "pronunciation": "deh ah-TRAHS",
           "translation": "at the back"
         },
         {
           "text": "por favor",
-          "pronunciation": "pohr fah-VOHR",
           "translation": "please"
         }
       ]
@@ -437,16 +375,13 @@
       "id": "es-bus-thank-you-driver",
       "translation": "Thank you, driver",
       "text": "Gracias, conductor",
-      "pronunciation": "GRAH-see-ahs, kohn-dook-TOHR",
       "words": [
         {
           "text": "Gracias",
-          "pronunciation": "GRAH-see-ahs",
           "translation": "thank you"
         },
         {
           "text": "conductor",
-          "pronunciation": "kohn-dook-TOHR",
           "translation": "driver"
         }
       ]
@@ -456,182 +391,152 @@
     {
       "id": "es-bus-w-bus-stop",
       "translation": "bus stop",
-      "text": "parada de autobús",
-      "pronunciation": "pah-RAH-dah deh ow-toh-BOOS"
+      "text": "parada de autobús"
     },
     {
       "id": "es-bus-w-route",
       "translation": "route / line",
-      "text": "ruta / línea",
-      "pronunciation": "ROO-tah / LEE-neh-ah"
+      "text": "ruta / línea"
     },
     {
       "id": "es-bus-w-fare",
       "translation": "fare",
-      "text": "tarifa",
-      "pronunciation": "tah-REE-fah"
+      "text": "tarifa"
     },
     {
       "id": "es-bus-w-seat",
       "translation": "seat",
-      "text": "asiento",
-      "pronunciation": "ah-see-EHN-toh"
+      "text": "asiento"
     },
     {
       "id": "es-bus-w-next",
       "translation": "next",
-      "text": "próximo",
-      "pronunciation": "PROHK-see-moh"
+      "text": "próximo"
     },
     {
       "id": "es-bus-w-last",
       "translation": "last",
-      "text": "último",
-      "pronunciation": "OOL-tee-moh"
+      "text": "último"
     },
     {
       "id": "es-bus-w-first",
       "translation": "first",
-      "text": "primero",
-      "pronunciation": "pree-MEH-roh"
+      "text": "primero"
     },
     {
       "id": "es-bus-w-exit",
       "translation": "exit",
-      "text": "salida",
-      "pronunciation": "sah-LEE-dah"
+      "text": "salida"
     },
     {
       "id": "es-bus-w-entrance",
       "translation": "entrance",
-      "text": "entrada",
-      "pronunciation": "ehn-TRAH-dah"
+      "text": "entrada"
     },
     {
       "id": "es-bus-w-card",
       "translation": "card",
-      "text": "tarjeta",
-      "pronunciation": "tar-HEH-tah"
+      "text": "tarjeta"
     },
     {
       "id": "es-bus-w-cash",
       "translation": "cash",
-      "text": "efectivo",
-      "pronunciation": "eh-fehk-TEE-voh"
+      "text": "efectivo"
     },
     {
       "id": "es-bus-w-driver",
       "translation": "driver",
-      "text": "conductor",
-      "pronunciation": "kohn-dook-TOHR"
+      "text": "conductor"
     },
     {
       "id": "es-bus-w-door",
       "translation": "door",
-      "text": "puerta",
-      "pronunciation": "PWEHR-tah"
+      "text": "puerta"
     },
     {
       "id": "es-bus-w-front",
       "translation": "front",
-      "text": "delante",
-      "pronunciation": "deh-LAHN-teh"
+      "text": "delante"
     },
     {
       "id": "es-bus-w-back",
       "translation": "back",
-      "text": "atrás",
-      "pronunciation": "ah-TRAHS"
+      "text": "atrás"
     },
     {
       "id": "es-bus-w-schedule",
       "translation": "schedule",
-      "text": "horario",
-      "pronunciation": "oh-RAH-ree-oh"
+      "text": "horario"
     },
     {
       "id": "es-bus-w-terminus",
       "translation": "terminus / terminal",
-      "text": "terminal",
-      "pronunciation": "tehr-mee-NAHL"
+      "text": "terminal"
     },
     {
       "id": "es-bus-w-transfer",
       "translation": "transfer / connection",
-      "text": "transbordo",
-      "pronunciation": "trahns-BOHR-doh"
+      "text": "transbordo"
     },
     {
       "id": "es-bus-w-night-bus",
       "translation": "night bus",
-      "text": "autobús nocturno",
-      "pronunciation": "ow-toh-BOOS nohk-TOOR-noh"
+      "text": "autobús nocturno"
     },
     {
       "id": "es-bus-w-ticket",
       "translation": "ticket",
-      "text": "billete",
-      "pronunciation": "bee-YEH-teh"
+      "text": "billete"
     },
     {
       "id": "es-bus-w-passenger",
       "translation": "passenger",
-      "text": "pasajero",
-      "pronunciation": "pah-sah-HEH-roh"
+      "text": "pasajero"
     },
     {
       "id": "es-bus-w-button",
       "translation": "button",
-      "text": "botón",
-      "pronunciation": "boh-TOHN"
+      "text": "botón"
     },
     {
       "id": "es-bus-w-priority-seat",
       "translation": "priority seat",
-      "text": "asiento preferente",
-      "pronunciation": "ah-see-EHN-toh preh-feh-REHN-teh"
+      "text": "asiento preferente"
     },
     {
       "id": "es-bus-w-change",
       "translation": "change (money)",
-      "text": "cambio",
-      "pronunciation": "KAHM-bee-oh"
+      "text": "cambio"
     },
     {
       "id": "es-bus-w-get-on",
       "translation": "to board / get on",
-      "text": "subir",
-      "pronunciation": "soo-BEER"
+      "text": "subir"
     },
     {
       "id": "es-bus-w-get-off",
       "translation": "to get off",
-      "text": "bajarse",
-      "pronunciation": "bah-HAR-seh"
+      "text": "bajarse"
     },
     {
       "id": "es-bus-w-direction",
       "translation": "direction",
-      "text": "dirección",
-      "pronunciation": "dee-rehk-see-OHN"
+      "text": "dirección"
     },
     {
       "id": "es-bus-w-validate",
       "translation": "to validate",
-      "text": "validar",
-      "pronunciation": "vah-lee-DAR"
+      "text": "validar"
     },
     {
       "id": "es-bus-w-stop-request",
       "translation": "request stop",
-      "text": "solicitar parada",
-      "pronunciation": "soh-lee-see-TAR pah-RAH-dah"
+      "text": "solicitar parada"
     },
     {
       "id": "es-bus-w-free",
       "translation": "free (available)",
-      "text": "libre",
-      "pronunciation": "LEE-breh"
+      "text": "libre"
     }
   ]
 }

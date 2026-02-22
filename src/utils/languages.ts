@@ -4,36 +4,42 @@ export const languages: Language[] = [
   {
     id: 'japanese',
     name: 'Japanese',
+    slug: 'ja',
     flag: '🇯🇵',
     ttsLang: 'ja-JP',
   },
   {
     id: 'mandarin',
     name: 'Mandarin',
+    slug: 'zh',
     flag: '🇨🇳',
     ttsLang: 'zh-CN',
   },
   {
     id: 'thai',
     name: 'Thai',
+    slug: 'th',
     flag: '🇹🇭',
     ttsLang: 'th-TH',
   },
   {
     id: 'korean',
     name: 'Korean',
+    slug: 'ko',
     flag: '🇰🇷',
     ttsLang: 'ko-KR',
   },
   {
     id: 'french',
     name: 'French',
+    slug: 'fr',
     flag: '🇫🇷',
     ttsLang: 'fr-FR',
   },
   {
     id: 'spanish',
     name: 'Spanish',
+    slug: 'es',
     flag: '🇪🇸',
     ttsLang: 'es-ES',
   },
@@ -114,6 +120,10 @@ export const categories: Category[] = [
 
 export const getLanguageById = (id: string): Language | undefined => {
   return languages.find((lang) => lang.id === id);
+};
+
+export const getLanguageBySlug = (slug: string): Language | undefined => {
+  return languages.find((lang) => lang.slug === slug);
 };
 
 export const getCategoryById = (id: string): Category | undefined => {

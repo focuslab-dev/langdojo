@@ -6,243 +6,493 @@
       "id": "es-taxi-available",
       "translation": "Are you available?",
       "text": "¿Está libre?",
-      "pronunciation": "Ehs-TAH LEE-breh?",
       "words": [
-        { "text": "¿Está", "pronunciation": "ehs-TAH", "translation": "are you / is it" },
-        { "text": "libre?", "pronunciation": "LEE-breh", "translation": "free / available" }
+        {
+          "text": "¿Está",
+          "translation": "are you / is it"
+        },
+        {
+          "text": "libre?",
+          "translation": "free / available"
+        }
       ]
     },
     {
       "id": "es-taxi-where-going",
       "translation": "Where are you going?",
       "text": "¿Adónde va?",
-      "pronunciation": "Ah-DOHN-deh VAH?",
       "words": [
-        { "text": "¿Adónde", "pronunciation": "ah-DOHN-deh", "translation": "where to" },
-        { "text": "va?", "pronunciation": "VAH", "translation": "are you going" }
+        {
+          "text": "¿Adónde",
+          "translation": "where to"
+        },
+        {
+          "text": "va?",
+          "translation": "are you going"
+        }
       ]
     },
     {
       "id": "es-taxi-open-trunk",
       "translation": "Can you open the trunk?",
       "text": "¿Puede abrir el maletero?",
-      "pronunciation": "PWEH-deh ah-BREER ehl mah-leh-TEH-roh?",
       "words": [
-        { "text": "¿Puede", "pronunciation": "PWEH-deh", "translation": "can you" },
-        { "text": "abrir", "pronunciation": "ah-BREER", "translation": "open" },
-        { "text": "el maletero?", "pronunciation": "ehl mah-leh-TEH-roh", "translation": "the trunk" }
+        {
+          "text": "¿Puede",
+          "translation": "can you"
+        },
+        {
+          "text": "abrir",
+          "translation": "open"
+        },
+        {
+          "text": "el maletero?",
+          "translation": "the trunk"
+        }
       ]
     },
     {
       "id": "es-taxi-this-address",
       "translation": "To this address please",
       "text": "A esta dirección, por favor",
-      "pronunciation": "Ah EHS-tah dee-rehk-see-OHN pohr fah-VOHR",
       "words": [
-        { "text": "A", "pronunciation": "ah", "translation": "to" },
-        { "text": "esta dirección,", "pronunciation": "EHS-tah dee-rehk-see-OHN", "translation": "this address" },
-        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
+        {
+          "text": "A",
+          "translation": "to"
+        },
+        {
+          "text": "esta dirección,",
+          "translation": "this address"
+        },
+        {
+          "text": "por favor",
+          "translation": "please"
+        }
       ]
     },
     {
       "id": "es-taxi-to-station",
       "translation": "To the station please",
       "text": "A la estación, por favor",
-      "pronunciation": "Ah lah ehs-tah-see-OHN pohr fah-VOHR",
       "words": [
-        { "text": "A la estación,", "pronunciation": "ah lah ehs-tah-see-OHN", "translation": "to the station" },
-        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
+        {
+          "text": "A la estación,",
+          "translation": "to the station"
+        },
+        {
+          "text": "por favor",
+          "translation": "please"
+        }
       ]
     },
     {
       "id": "es-taxi-to-airport",
       "translation": "To the airport please",
       "text": "Al aeropuerto, por favor",
-      "pronunciation": "Ahl ah-eh-roh-PWEHR-toh pohr fah-VOHR",
       "words": [
-        { "text": "Al aeropuerto,", "pronunciation": "ahl ah-eh-roh-PWEHR-toh", "translation": "to the airport" },
-        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
+        {
+          "text": "Al aeropuerto,",
+          "translation": "to the airport"
+        },
+        {
+          "text": "por favor",
+          "translation": "please"
+        }
       ]
     },
     {
       "id": "es-taxi-how-much",
       "translation": "How much will it cost?",
       "text": "¿Cuánto costará?",
-      "pronunciation": "KWAHN-toh kohs-tah-RAH?",
       "words": [
-        { "text": "¿Cuánto", "pronunciation": "KWAHN-toh", "translation": "how much" },
-        { "text": "costará?", "pronunciation": "kohs-tah-RAH", "translation": "will it cost" }
+        {
+          "text": "¿Cuánto",
+          "translation": "how much"
+        },
+        {
+          "text": "costará?",
+          "translation": "will it cost"
+        }
       ]
     },
     {
       "id": "es-taxi-about-euros",
       "translation": "It will be about 20 euros",
       "text": "Serán unos 20 euros",
-      "pronunciation": "seh-RAHN OO-nohs VEYN-teh EH-oo-rohs",
       "words": [
-        { "text": "Serán", "pronunciation": "seh-RAHN", "translation": "will be" },
-        { "text": "unos", "pronunciation": "OO-nohs", "translation": "about / some" },
-        { "text": "20", "pronunciation": "VEYN-teh", "translation": "twenty" },
-        { "text": "euros", "pronunciation": "EH-oo-rohs", "translation": "euros" }
+        {
+          "text": "Serán",
+          "translation": "will be"
+        },
+        {
+          "text": "unos",
+          "translation": "about / some"
+        },
+        {
+          "text": "20",
+          "translation": "twenty"
+        },
+        {
+          "text": "euros",
+          "translation": "euros"
+        }
       ]
     },
     {
       "id": "es-taxi-how-long",
       "translation": "How long will it take?",
       "text": "¿Cuánto tiempo tardará?",
-      "pronunciation": "KWAHN-toh tee-EHM-poh tar-dah-RAH?",
       "words": [
-        { "text": "¿Cuánto tiempo", "pronunciation": "KWAHN-toh tee-EHM-poh", "translation": "how long" },
-        { "text": "tardará?", "pronunciation": "tar-dah-RAH", "translation": "will it take" }
+        {
+          "text": "¿Cuánto tiempo",
+          "translation": "how long"
+        },
+        {
+          "text": "tardará?",
+          "translation": "will it take"
+        }
       ]
     },
     {
       "id": "es-taxi-use-meter",
       "translation": "With the meter, please",
       "text": "Con taxímetro, por favor",
-      "pronunciation": "Kohn tahk-SEE-meh-troh pohr fah-VOHR",
       "words": [
-        { "text": "Con", "pronunciation": "kohn", "translation": "with" },
-        { "text": "taxímetro,", "pronunciation": "tahk-SEE-meh-troh", "translation": "taximeter" },
-        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
+        {
+          "text": "Con",
+          "translation": "with"
+        },
+        {
+          "text": "taxímetro,",
+          "translation": "taximeter"
+        },
+        {
+          "text": "por favor",
+          "translation": "please"
+        }
       ]
     },
     {
       "id": "es-taxi-turn-right-left",
       "translation": "Turn right / left",
       "text": "Gire a la derecha / izquierda",
-      "pronunciation": "HEE-reh ah lah deh-REH-chah / ees-kee-EHR-dah",
       "words": [
-        { "text": "Gire", "pronunciation": "HEE-reh", "translation": "turn (formal)" },
-        { "text": "a la derecha", "pronunciation": "ah lah deh-REH-chah", "translation": "to the right" },
-        { "text": "/ izquierda", "pronunciation": "ees-kee-EHR-dah", "translation": "/ left" }
+        {
+          "text": "Gire",
+          "translation": "turn (formal)"
+        },
+        {
+          "text": "a la derecha",
+          "translation": "to the right"
+        },
+        {
+          "text": "/ izquierda",
+          "translation": "/ left"
+        }
       ]
     },
     {
       "id": "es-taxi-go-straight",
       "translation": "Go straight",
       "text": "Siga recto",
-      "pronunciation": "SEE-gah REHK-toh",
       "words": [
-        { "text": "Siga", "pronunciation": "SEE-gah", "translation": "continue / go (formal)" },
-        { "text": "recto", "pronunciation": "REHK-toh", "translation": "straight" }
+        {
+          "text": "Siga",
+          "translation": "continue / go (formal)"
+        },
+        {
+          "text": "recto",
+          "translation": "straight"
+        }
       ]
     },
     {
       "id": "es-taxi-faster",
       "translation": "Can you go a bit faster?",
       "text": "¿Puede ir más rápido?",
-      "pronunciation": "PWEH-deh eer MAHS RAH-pee-doh?",
       "words": [
-        { "text": "¿Puede", "pronunciation": "PWEH-deh", "translation": "can you" },
-        { "text": "ir", "pronunciation": "eer", "translation": "go" },
-        { "text": "más rápido?", "pronunciation": "MAHS RAH-pee-doh", "translation": "faster" }
+        {
+          "text": "¿Puede",
+          "translation": "can you"
+        },
+        {
+          "text": "ir",
+          "translation": "go"
+        },
+        {
+          "text": "más rápido?",
+          "translation": "faster"
+        }
       ]
     },
     {
       "id": "es-taxi-slower",
       "translation": "Slower, please",
       "text": "Más despacio, por favor",
-      "pronunciation": "MAHS dehs-PAH-see-oh pohr fah-VOHR",
       "words": [
-        { "text": "Más despacio,", "pronunciation": "MAHS dehs-PAH-see-oh", "translation": "slower" },
-        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
+        {
+          "text": "Más despacio,",
+          "translation": "slower"
+        },
+        {
+          "text": "por favor",
+          "translation": "please"
+        }
       ]
     },
     {
       "id": "es-taxi-wait-here",
       "translation": "Can you wait here?",
       "text": "¿Puede esperar aquí?",
-      "pronunciation": "PWEH-deh ehs-peh-RAR ah-KEE?",
       "words": [
-        { "text": "¿Puede", "pronunciation": "PWEH-deh", "translation": "can you" },
-        { "text": "esperar", "pronunciation": "ehs-peh-RAR", "translation": "wait" },
-        { "text": "aquí?", "pronunciation": "ah-KEE", "translation": "here" }
+        {
+          "text": "¿Puede",
+          "translation": "can you"
+        },
+        {
+          "text": "esperar",
+          "translation": "wait"
+        },
+        {
+          "text": "aquí?",
+          "translation": "here"
+        }
       ]
     },
     {
       "id": "es-taxi-stop-here",
       "translation": "Please stop here",
       "text": "Pare aquí, por favor",
-      "pronunciation": "PAH-reh ah-KEE pohr fah-VOHR",
       "words": [
-        { "text": "Pare", "pronunciation": "PAH-reh", "translation": "stop (formal)" },
-        { "text": "aquí,", "pronunciation": "ah-KEE", "translation": "here" },
-        { "text": "por favor", "pronunciation": "pohr fah-VOHR", "translation": "please" }
+        {
+          "text": "Pare",
+          "translation": "stop (formal)"
+        },
+        {
+          "text": "aquí,",
+          "translation": "here"
+        },
+        {
+          "text": "por favor",
+          "translation": "please"
+        }
       ]
     },
     {
       "id": "es-taxi-arrived",
       "translation": "We've arrived",
       "text": "Hemos llegado",
-      "pronunciation": "EH-mohs yeh-GAH-doh",
       "words": [
-        { "text": "Hemos", "pronunciation": "EH-mohs", "translation": "we have" },
-        { "text": "llegado", "pronunciation": "yeh-GAH-doh", "translation": "arrived" }
+        {
+          "text": "Hemos",
+          "translation": "we have"
+        },
+        {
+          "text": "llegado",
+          "translation": "arrived"
+        }
       ]
     },
     {
       "id": "es-taxi-pay-card",
       "translation": "Can I pay by card?",
       "text": "¿Puedo pagar con tarjeta?",
-      "pronunciation": "PWEH-doh pah-GAR kohn tar-HEH-tah?",
       "words": [
-        { "text": "¿Puedo", "pronunciation": "PWEH-doh", "translation": "can I" },
-        { "text": "pagar", "pronunciation": "pah-GAR", "translation": "pay" },
-        { "text": "con tarjeta?", "pronunciation": "kohn tar-HEH-tah", "translation": "by card" }
+        {
+          "text": "¿Puedo",
+          "translation": "can I"
+        },
+        {
+          "text": "pagar",
+          "translation": "pay"
+        },
+        {
+          "text": "con tarjeta?",
+          "translation": "by card"
+        }
       ]
     },
     {
       "id": "es-taxi-receipt",
       "translation": "Can I have a receipt?",
       "text": "¿Me da un recibo?",
-      "pronunciation": "Meh dah oon reh-SEE-boh?",
       "words": [
-        { "text": "¿Me da", "pronunciation": "meh dah", "translation": "can you give me" },
-        { "text": "un recibo?", "pronunciation": "oon reh-SEE-boh", "translation": "a receipt" }
+        {
+          "text": "¿Me da",
+          "translation": "can you give me"
+        },
+        {
+          "text": "un recibo?",
+          "translation": "a receipt"
+        }
       ]
     },
     {
       "id": "es-taxi-keep-change",
       "translation": "Keep the change",
       "text": "Quédese con el cambio",
-      "pronunciation": "KEH-deh-seh kohn ehl KAHM-bee-oh",
       "words": [
-        { "text": "Quédese", "pronunciation": "KEH-deh-seh", "translation": "keep (formal)" },
-        { "text": "con el cambio", "pronunciation": "kohn ehl KAHM-bee-oh", "translation": "with the change" }
+        {
+          "text": "Quédese",
+          "translation": "keep (formal)"
+        },
+        {
+          "text": "con el cambio",
+          "translation": "with the change"
+        }
       ]
     }
   ],
   "words": [
-    { "id": "es-taxi-w-taxi", "translation": "taxi", "text": "taxi", "pronunciation": "TAHK-see" },
-    { "id": "es-taxi-w-driver", "translation": "driver", "text": "conductor", "pronunciation": "kohn-dook-TOHR" },
-    { "id": "es-taxi-w-right", "translation": "right", "text": "derecha", "pronunciation": "deh-REH-chah" },
-    { "id": "es-taxi-w-left", "translation": "left", "text": "izquierda", "pronunciation": "ees-kee-EHR-dah" },
-    { "id": "es-taxi-w-straight", "translation": "straight", "text": "recto", "pronunciation": "REHK-toh" },
-    { "id": "es-taxi-w-here", "translation": "here", "text": "aquí", "pronunciation": "ah-KEE" },
-    { "id": "es-taxi-w-there", "translation": "there", "text": "allí", "pronunciation": "ah-YEE" },
-    { "id": "es-taxi-w-near", "translation": "near", "text": "cerca", "pronunciation": "SEHR-kah" },
-    { "id": "es-taxi-w-far", "translation": "far", "text": "lejos", "pronunciation": "LEH-hohs" },
-    { "id": "es-taxi-w-fast", "translation": "fast", "text": "rápido", "pronunciation": "RAH-pee-doh" },
-    { "id": "es-taxi-w-slow", "translation": "slow", "text": "lento", "pronunciation": "LEHN-toh" },
-    { "id": "es-taxi-w-stop", "translation": "stop", "text": "parada", "pronunciation": "pah-RAH-dah" },
-    { "id": "es-taxi-w-airport", "translation": "airport", "text": "aeropuerto", "pronunciation": "ah-eh-roh-PWEHR-toh" },
-    { "id": "es-taxi-w-station", "translation": "station", "text": "estación", "pronunciation": "ehs-tah-see-OHN" },
-    { "id": "es-taxi-w-hotel", "translation": "hotel", "text": "hotel", "pronunciation": "oh-TEHL" },
-    { "id": "es-taxi-w-map", "translation": "map", "text": "mapa", "pronunciation": "MAH-pah" },
-    { "id": "es-taxi-w-address", "translation": "address", "text": "dirección", "pronunciation": "dee-rehk-see-OHN" },
-    { "id": "es-taxi-w-meter", "translation": "meter", "text": "taxímetro", "pronunciation": "tahk-SEE-meh-troh" },
-    { "id": "es-taxi-w-money", "translation": "money", "text": "dinero", "pronunciation": "dee-NEH-roh" },
-    { "id": "es-taxi-w-traffic", "translation": "traffic", "text": "tráfico", "pronunciation": "TRAH-fee-koh" },
-    { "id": "es-taxi-w-traffic-light", "translation": "traffic light", "text": "semáforo", "pronunciation": "seh-MAH-foh-roh" },
-    { "id": "es-taxi-w-roundabout", "translation": "roundabout", "text": "rotonda", "pronunciation": "roh-TOHN-dah" },
-    { "id": "es-taxi-w-corner", "translation": "corner", "text": "esquina", "pronunciation": "ehs-KEE-nah" },
-    { "id": "es-taxi-w-neighborhood", "translation": "neighborhood", "text": "barrio", "pronunciation": "BAH-ree-oh" },
-    { "id": "es-taxi-w-luggage", "translation": "luggage", "text": "equipaje", "pronunciation": "eh-kee-PAH-heh" },
-    { "id": "es-taxi-w-trunk", "translation": "trunk", "text": "maletero", "pronunciation": "mah-leh-TEH-roh" },
-    { "id": "es-taxi-w-seatbelt", "translation": "seat belt", "text": "cinturón de seguridad", "pronunciation": "seen-too-ROHN deh seh-goo-ree-DAHD" },
-    { "id": "es-taxi-w-change", "translation": "change (money)", "text": "cambio", "pronunciation": "KAHM-bee-oh" },
-    { "id": "es-taxi-w-receipt", "translation": "receipt", "text": "recibo", "pronunciation": "reh-SEE-boh" },
-    { "id": "es-taxi-w-fare", "translation": "fare", "text": "tarifa", "pronunciation": "tah-REE-fah" }
+    {
+      "id": "es-taxi-w-taxi",
+      "translation": "taxi",
+      "text": "taxi"
+    },
+    {
+      "id": "es-taxi-w-driver",
+      "translation": "driver",
+      "text": "conductor"
+    },
+    {
+      "id": "es-taxi-w-right",
+      "translation": "right",
+      "text": "derecha"
+    },
+    {
+      "id": "es-taxi-w-left",
+      "translation": "left",
+      "text": "izquierda"
+    },
+    {
+      "id": "es-taxi-w-straight",
+      "translation": "straight",
+      "text": "recto"
+    },
+    {
+      "id": "es-taxi-w-here",
+      "translation": "here",
+      "text": "aquí"
+    },
+    {
+      "id": "es-taxi-w-there",
+      "translation": "there",
+      "text": "allí"
+    },
+    {
+      "id": "es-taxi-w-near",
+      "translation": "near",
+      "text": "cerca"
+    },
+    {
+      "id": "es-taxi-w-far",
+      "translation": "far",
+      "text": "lejos"
+    },
+    {
+      "id": "es-taxi-w-fast",
+      "translation": "fast",
+      "text": "rápido"
+    },
+    {
+      "id": "es-taxi-w-slow",
+      "translation": "slow",
+      "text": "lento"
+    },
+    {
+      "id": "es-taxi-w-stop",
+      "translation": "stop",
+      "text": "parada"
+    },
+    {
+      "id": "es-taxi-w-airport",
+      "translation": "airport",
+      "text": "aeropuerto"
+    },
+    {
+      "id": "es-taxi-w-station",
+      "translation": "station",
+      "text": "estación"
+    },
+    {
+      "id": "es-taxi-w-hotel",
+      "translation": "hotel",
+      "text": "hotel"
+    },
+    {
+      "id": "es-taxi-w-map",
+      "translation": "map",
+      "text": "mapa"
+    },
+    {
+      "id": "es-taxi-w-address",
+      "translation": "address",
+      "text": "dirección"
+    },
+    {
+      "id": "es-taxi-w-meter",
+      "translation": "meter",
+      "text": "taxímetro"
+    },
+    {
+      "id": "es-taxi-w-money",
+      "translation": "money",
+      "text": "dinero"
+    },
+    {
+      "id": "es-taxi-w-traffic",
+      "translation": "traffic",
+      "text": "tráfico"
+    },
+    {
+      "id": "es-taxi-w-traffic-light",
+      "translation": "traffic light",
+      "text": "semáforo"
+    },
+    {
+      "id": "es-taxi-w-roundabout",
+      "translation": "roundabout",
+      "text": "rotonda"
+    },
+    {
+      "id": "es-taxi-w-corner",
+      "translation": "corner",
+      "text": "esquina"
+    },
+    {
+      "id": "es-taxi-w-neighborhood",
+      "translation": "neighborhood",
+      "text": "barrio"
+    },
+    {
+      "id": "es-taxi-w-luggage",
+      "translation": "luggage",
+      "text": "equipaje"
+    },
+    {
+      "id": "es-taxi-w-trunk",
+      "translation": "trunk",
+      "text": "maletero"
+    },
+    {
+      "id": "es-taxi-w-seatbelt",
+      "translation": "seat belt",
+      "text": "cinturón de seguridad"
+    },
+    {
+      "id": "es-taxi-w-change",
+      "translation": "change (money)",
+      "text": "cambio"
+    },
+    {
+      "id": "es-taxi-w-receipt",
+      "translation": "receipt",
+      "text": "recibo"
+    },
+    {
+      "id": "es-taxi-w-fare",
+      "translation": "fare",
+      "text": "tarifa"
+    }
   ]
 }

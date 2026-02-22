@@ -6,16 +6,13 @@
       "id": "fr-bus-where-stop",
       "translation": "Where is the bus stop?",
       "text": "Où est l'arrêt de bus ?",
-      "pronunciation": "Oo eh lah-reh duh boos?",
       "words": [
         {
           "text": "Où est",
-          "pronunciation": "oo eh",
           "translation": "where is"
         },
         {
           "text": "l'arrêt de bus",
-          "pronunciation": "lah-reh duh boos",
           "translation": "the bus stop"
         }
       ]
@@ -24,17 +21,17 @@
       "id": "fr-bus-which-bus",
       "translation": "Which bus goes to the station?",
       "text": "Quel bus va à la gare ?",
-      "pronunciation": "Kell boos vah ah lah gar?",
       "words": [
         {
           "text": "Quel bus",
-          "pronunciation": "kel boos",
           "translation": "which bus"
         },
-        { "text": "va à", "pronunciation": "vah ah", "translation": "goes to" },
+        {
+          "text": "va à",
+          "translation": "goes to"
+        },
         {
           "text": "la gare",
-          "pronunciation": "lah gar",
           "translation": "the station"
         }
       ]
@@ -43,22 +40,21 @@
       "id": "fr-bus-goes-to",
       "translation": "Does this bus go to Châtelet?",
       "text": "Est-ce que ce bus va à Châtelet ?",
-      "pronunciation": "Ess-kuh suh boos vah ah shah-tuh-leh?",
       "words": [
         {
           "text": "Est-ce que",
-          "pronunciation": "ess-kuh",
           "translation": "does (question)"
         },
         {
           "text": "ce bus",
-          "pronunciation": "suh boos",
           "translation": "this bus"
         },
-        { "text": "va à", "pronunciation": "vah ah", "translation": "go to" },
+        {
+          "text": "va à",
+          "translation": "go to"
+        },
         {
           "text": "Châtelet",
-          "pronunciation": "shah-tuh-leh",
           "translation": "Châtelet"
         }
       ]
@@ -67,17 +63,17 @@
       "id": "fr-bus-last-bus-time",
       "translation": "What time is the last bus?",
       "text": "À quelle heure est le dernier bus ?",
-      "pronunciation": "Ah kell ur eh luh dair-nyay boos?",
       "words": [
         {
           "text": "À quelle heure",
-          "pronunciation": "ah kel uhr",
           "translation": "at what time"
         },
-        { "text": "est", "pronunciation": "eh", "translation": "is" },
+        {
+          "text": "est",
+          "translation": "is"
+        },
         {
           "text": "le dernier bus",
-          "pronunciation": "luh dair-nyay boos",
           "translation": "the last bus"
         }
       ]
@@ -86,16 +82,13 @@
       "id": "fr-bus-fare",
       "translation": "How much is the fare?",
       "text": "Combien coûte le trajet ?",
-      "pronunciation": "Kom-bee-en koot luh trah-zheh?",
       "words": [
         {
           "text": "Combien coûte",
-          "pronunciation": "kom-bee-en koot",
           "translation": "how much is"
         },
         {
           "text": "le trajet",
-          "pronunciation": "luh trah-zheh",
           "translation": "the fare / journey"
         }
       ]
@@ -104,22 +97,21 @@
       "id": "fr-bus-can-pay-cash",
       "translation": "Can I pay with cash?",
       "text": "Est-ce que je peux payer en espèces ?",
-      "pronunciation": "Ess-kuh zhuh puh pay-yay on ess-pess?",
       "words": [
         {
           "text": "Est-ce que",
-          "pronunciation": "ess-kuh",
           "translation": "can / do (question)"
         },
         {
           "text": "je peux",
-          "pronunciation": "zhuh puh",
           "translation": "I can"
         },
-        { "text": "payer", "pronunciation": "pay-yay", "translation": "pay" },
+        {
+          "text": "payer",
+          "translation": "pay"
+        },
         {
           "text": "en espèces",
-          "pronunciation": "on ess-pess",
           "translation": "with cash"
         }
       ]
@@ -128,26 +120,21 @@
       "id": "fr-bus-use-card",
       "translation": "Can I use a Navigo card?",
       "text": "Est-ce que je peux utiliser un passe Navigo ?",
-      "pronunciation": "Ess-kuh zhuh puh oo-tee-lee-zay un pass nah-vee-go?",
       "words": [
         {
           "text": "Est-ce que",
-          "pronunciation": "ess-kuh",
           "translation": "can / do (question)"
         },
         {
           "text": "je peux",
-          "pronunciation": "zhuh puh",
           "translation": "I can"
         },
         {
           "text": "utiliser",
-          "pronunciation": "oo-tee-lee-zay",
           "translation": "use"
         },
         {
           "text": "un passe Navigo",
-          "pronunciation": "un pass nah-vee-go",
           "translation": "a Navigo pass"
         }
       ]
@@ -156,16 +143,13 @@
       "id": "fr-bus-one-ticket",
       "translation": "One ticket, please",
       "text": "Un ticket, s'il vous plaît",
-      "pronunciation": "Un tee-keh, seel voo pleh",
       "words": [
         {
           "text": "Un ticket",
-          "pronunciation": "un tee-keh",
           "translation": "one ticket"
         },
         {
           "text": "s'il vous plaît",
-          "pronunciation": "seel voo pleh",
           "translation": "please"
         }
       ]
@@ -174,21 +158,17 @@
       "id": "fr-bus-validate-ticket",
       "translation": "Please validate your ticket",
       "text": "Veuillez valider votre titre de transport",
-      "pronunciation": "Vuh-yay vah-lee-day vo-truh tee-truh duh tron-spor",
       "words": [
         {
           "text": "Veuillez",
-          "pronunciation": "vuh-yay",
           "translation": "please (formal)"
         },
         {
           "text": "valider",
-          "pronunciation": "vah-lee-day",
           "translation": "validate"
         },
         {
           "text": "votre titre de transport",
-          "pronunciation": "vo-truh tee-truh duh tron-spor",
           "translation": "your travel pass / ticket"
         }
       ]
@@ -197,21 +177,17 @@
       "id": "fr-bus-board-from-front",
       "translation": "Please board from the front",
       "text": "Montez par l'avant, s'il vous plaît",
-      "pronunciation": "Mon-tay par lah-von, seel voo pleh",
       "words": [
         {
           "text": "Montez",
-          "pronunciation": "mon-tay",
           "translation": "board / get on (formal)"
         },
         {
           "text": "par l'avant",
-          "pronunciation": "par lah-von",
           "translation": "from the front"
         },
         {
           "text": "s'il vous plaît",
-          "pronunciation": "seel voo pleh",
           "translation": "please"
         }
       ]
@@ -220,16 +196,13 @@
       "id": "fr-bus-is-seat-free",
       "translation": "Is this seat free?",
       "text": "Cette place est libre ?",
-      "pronunciation": "Set plass eh lee-bruh?",
       "words": [
         {
           "text": "Cette place",
-          "pronunciation": "set plass",
           "translation": "this seat"
         },
         {
           "text": "est libre",
-          "pronunciation": "eh lee-bruh",
           "translation": "is free / available"
         }
       ]
@@ -238,26 +211,21 @@
       "id": "fr-bus-tell-when-arrive",
       "translation": "Please tell me when we arrive at the station",
       "text": "Dites-moi quand on arrive à la gare, s'il vous plaît",
-      "pronunciation": "Deet mwah kon on ah-reev ah lah gar, seel voo pleh",
       "words": [
         {
           "text": "Dites-moi",
-          "pronunciation": "deet mwah",
           "translation": "tell me"
         },
         {
           "text": "quand on arrive à",
-          "pronunciation": "kon on ah-reev ah",
           "translation": "when we arrive at"
         },
         {
           "text": "la gare",
-          "pronunciation": "lah gar",
           "translation": "the station"
         },
         {
           "text": "s'il vous plaît",
-          "pronunciation": "seel voo pleh",
           "translation": "please"
         }
       ]
@@ -266,26 +234,21 @@
       "id": "fr-bus-how-many-stops",
       "translation": "How many stops to Châtelet?",
       "text": "Combien d'arrêts avant Châtelet ?",
-      "pronunciation": "Kom-bee-en dah-reh ah-von shah-tuh-leh?",
       "words": [
         {
           "text": "Combien",
-          "pronunciation": "kom-bee-en",
           "translation": "how many"
         },
         {
           "text": "d'arrêts",
-          "pronunciation": "dah-reh",
           "translation": "stops"
         },
         {
           "text": "avant",
-          "pronunciation": "ah-von",
           "translation": "before / until"
         },
         {
           "text": "Châtelet",
-          "pronunciation": "shah-tuh-leh",
           "translation": "Châtelet"
         }
       ]
@@ -294,16 +257,13 @@
       "id": "fr-bus-next-stop",
       "translation": "Next stop is la gare",
       "text": "Prochain arrêt la gare",
-      "pronunciation": "Pro-shan ah-reh lah gar",
       "words": [
         {
           "text": "Prochain arrêt",
-          "pronunciation": "pro-shan ah-reh",
           "translation": "next stop"
         },
         {
           "text": "la gare",
-          "pronunciation": "lah gar",
           "translation": "the station"
         }
       ]
@@ -312,22 +272,21 @@
       "id": "fr-bus-press-button",
       "translation": "Press the button to stop",
       "text": "Appuyez sur le bouton d'arrêt",
-      "pronunciation": "Ah-pwee-yay soor luh boo-ton dah-reh",
       "words": [
         {
           "text": "Appuyez",
-          "pronunciation": "ah-pwee-yay",
           "translation": "press (formal)"
         },
-        { "text": "sur", "pronunciation": "soor", "translation": "on" },
+        {
+          "text": "sur",
+          "translation": "on"
+        },
         {
           "text": "le bouton",
-          "pronunciation": "luh boo-ton",
           "translation": "the button"
         },
         {
           "text": "d'arrêt",
-          "pronunciation": "dah-reh",
           "translation": "stop (noun)"
         }
       ]
@@ -336,16 +295,13 @@
       "id": "fr-bus-get-off-next",
       "translation": "I'll get off at the next stop",
       "text": "Je descends au prochain arrêt",
-      "pronunciation": "Zhuh deh-son oh pro-shan ah-reh",
       "words": [
         {
           "text": "Je descends",
-          "pronunciation": "zhuh deh-son",
           "translation": "I get off"
         },
         {
           "text": "au prochain arrêt",
-          "pronunciation": "oh pro-shan ah-reh",
           "translation": "at the next stop"
         }
       ]
@@ -354,40 +310,36 @@
       "id": "fr-bus-get-off-here",
       "translation": "I want to get off here",
       "text": "Je veux descendre ici",
-      "pronunciation": "Zhuh vuh deh-son-druh ee-see",
       "words": [
         {
           "text": "Je veux",
-          "pronunciation": "zhuh vuh",
           "translation": "I want to"
         },
         {
           "text": "descendre",
-          "pronunciation": "deh-son-druh",
           "translation": "get off / go down"
         },
-        { "text": "ici", "pronunciation": "ee-see", "translation": "here" }
+        {
+          "text": "ici",
+          "translation": "here"
+        }
       ]
     },
     {
       "id": "fr-bus-exit-back",
       "translation": "Please exit from the back",
       "text": "Veuillez sortir par l'arrière",
-      "pronunciation": "Vuh-yay sor-teer par lah-ree-air",
       "words": [
         {
           "text": "Veuillez",
-          "pronunciation": "vuh-yay",
           "translation": "please (formal)"
         },
         {
           "text": "sortir",
-          "pronunciation": "sor-teer",
           "translation": "exit"
         },
         {
           "text": "par l'arrière",
-          "pronunciation": "par lah-ree-air",
           "translation": "from the back"
         }
       ]
@@ -396,16 +348,13 @@
       "id": "fr-bus-thank-you-driver",
       "translation": "Thank you, have a nice day",
       "text": "Merci, bonne journée",
-      "pronunciation": "Mair-see, bun zhoor-nay",
       "words": [
         {
           "text": "Merci",
-          "pronunciation": "mair-see",
           "translation": "thank you"
         },
         {
           "text": "bonne journée",
-          "pronunciation": "bun zhoor-nay",
           "translation": "have a nice day"
         }
       ]
@@ -414,16 +363,13 @@
       "id": "fr-bus-excuse-me-pass",
       "translation": "Excuse me, I need to get off",
       "text": "Pardon, je descends",
-      "pronunciation": "Par-don, zhuh deh-son",
       "words": [
         {
           "text": "Pardon",
-          "pronunciation": "par-don",
           "translation": "excuse me"
         },
         {
           "text": "je descends",
-          "pronunciation": "zhuh deh-son",
           "translation": "I'm getting off"
         }
       ]
@@ -433,182 +379,152 @@
     {
       "id": "fr-bus-w-bus-stop",
       "translation": "bus stop",
-      "text": "arrêt de bus",
-      "pronunciation": "ah-reh duh boos"
+      "text": "arrêt de bus"
     },
     {
       "id": "fr-bus-w-route",
       "translation": "route / line",
-      "text": "ligne",
-      "pronunciation": "lee-nyuh"
+      "text": "ligne"
     },
     {
       "id": "fr-bus-w-fare",
       "translation": "fare",
-      "text": "tarif",
-      "pronunciation": "tah-reef"
+      "text": "tarif"
     },
     {
       "id": "fr-bus-w-seat",
       "translation": "seat",
-      "text": "place",
-      "pronunciation": "plass"
+      "text": "place"
     },
     {
       "id": "fr-bus-w-next",
       "translation": "next",
-      "text": "prochain",
-      "pronunciation": "pro-shan"
+      "text": "prochain"
     },
     {
       "id": "fr-bus-w-last",
       "translation": "last",
-      "text": "dernier",
-      "pronunciation": "dair-nyay"
+      "text": "dernier"
     },
     {
       "id": "fr-bus-w-first",
       "translation": "first",
-      "text": "premier",
-      "pronunciation": "pruh-myay"
+      "text": "premier"
     },
     {
       "id": "fr-bus-w-exit",
       "translation": "exit",
-      "text": "sortie",
-      "pronunciation": "sor-tee"
+      "text": "sortie"
     },
     {
       "id": "fr-bus-w-entrance",
       "translation": "entrance",
-      "text": "entrée",
-      "pronunciation": "on-tray"
+      "text": "entrée"
     },
     {
       "id": "fr-bus-w-card",
       "translation": "card",
-      "text": "carte",
-      "pronunciation": "kart"
+      "text": "carte"
     },
     {
       "id": "fr-bus-w-cash",
       "translation": "cash",
-      "text": "espèces",
-      "pronunciation": "ess-pess"
+      "text": "espèces"
     },
     {
       "id": "fr-bus-w-driver",
       "translation": "driver",
-      "text": "chauffeur",
-      "pronunciation": "shoh-fur"
+      "text": "chauffeur"
     },
     {
       "id": "fr-bus-w-door",
       "translation": "door",
-      "text": "porte",
-      "pronunciation": "port"
+      "text": "porte"
     },
     {
       "id": "fr-bus-w-front",
       "translation": "front",
-      "text": "avant",
-      "pronunciation": "ah-von"
+      "text": "avant"
     },
     {
       "id": "fr-bus-w-back",
       "translation": "back",
-      "text": "arrière",
-      "pronunciation": "ah-ree-air"
+      "text": "arrière"
     },
     {
       "id": "fr-bus-w-ticket",
       "translation": "ticket",
-      "text": "billet",
-      "pronunciation": "bee-yeh"
+      "text": "billet"
     },
     {
       "id": "fr-bus-w-schedule",
       "translation": "schedule / timetable",
-      "text": "horaire",
-      "pronunciation": "oh-rair"
+      "text": "horaire"
     },
     {
       "id": "fr-bus-w-terminus",
       "translation": "terminus / end of line",
-      "text": "terminus",
-      "pronunciation": "tair-mee-noos"
+      "text": "terminus"
     },
     {
       "id": "fr-bus-w-connection",
       "translation": "connection / transfer",
-      "text": "correspondance",
-      "pronunciation": "ko-res-pon-dons"
+      "text": "correspondance"
     },
     {
       "id": "fr-bus-w-navigo",
       "translation": "Navigo pass",
-      "text": "passe Navigo",
-      "pronunciation": "pass nah-vee-go"
+      "text": "passe Navigo"
     },
     {
       "id": "fr-bus-w-passenger",
       "translation": "passenger",
-      "text": "passager",
-      "pronunciation": "pah-sah-zhay"
+      "text": "passager"
     },
     {
       "id": "fr-bus-w-button",
       "translation": "button",
-      "text": "bouton",
-      "pronunciation": "boo-ton"
+      "text": "bouton"
     },
     {
       "id": "fr-bus-w-priority-seat",
       "translation": "priority seat",
-      "text": "place prioritaire",
-      "pronunciation": "plass pree-oh-ree-tair"
+      "text": "place prioritaire"
     },
     {
       "id": "fr-bus-w-change",
       "translation": "change (money)",
-      "text": "monnaie",
-      "pronunciation": "mo-neh"
+      "text": "monnaie"
     },
     {
       "id": "fr-bus-w-direction",
       "translation": "direction",
-      "text": "direction",
-      "pronunciation": "dee-rek-see-on"
+      "text": "direction"
     },
     {
       "id": "fr-bus-w-night-bus",
       "translation": "night bus",
-      "text": "bus de nuit",
-      "pronunciation": "boos duh nwee"
+      "text": "bus de nuit"
     },
     {
       "id": "fr-bus-w-validate",
       "translation": "to validate",
-      "text": "valider",
-      "pronunciation": "vah-lee-day"
+      "text": "valider"
     },
     {
       "id": "fr-bus-w-stop",
       "translation": "stop (noun)",
-      "text": "arrêt",
-      "pronunciation": "ah-reh"
+      "text": "arrêt"
     },
     {
       "id": "fr-bus-w-get-on",
       "translation": "to board / get on",
-      "text": "monter",
-      "pronunciation": "mon-tay"
+      "text": "monter"
     },
     {
       "id": "fr-bus-w-get-off",
       "translation": "to get off",
-      "text": "descendre",
-      "pronunciation": "deh-son-druh"
+      "text": "descendre"
     }
   ]
 }

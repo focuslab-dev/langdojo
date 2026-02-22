@@ -203,7 +203,7 @@ export async function generateAnkiDeck(
     const noteId = ts * 1000 + i;
     const cardId = noteId + items.length;
     const guid = guidFromFields(item.translation, item.text);
-    const flds = `${escapeHtml(item.text)}\x1f${escapeHtml(item.translation)}\x1f${escapeHtml(item.pronunciation)}`;
+    const flds = `${escapeHtml(item.text)}\x1f${escapeHtml(item.translation)}\x1f${escapeHtml(item.pronunciation ?? "")}`;
     const sfld = escapeHtml(item.text);
 
     // Simple checksum

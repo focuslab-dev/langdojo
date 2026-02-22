@@ -6,16 +6,13 @@
       "id": "es-trn-where-station",
       "translation": "Where is the train station?",
       "text": "¿Dónde está la estación de tren?",
-      "pronunciation": "DOHN-deh ehs-TAH lah ehs-tah-see-OHN deh TREHN?",
       "words": [
         {
           "text": "¿Dónde está",
-          "pronunciation": "DOHN-deh ehs-TAH",
           "translation": "where is"
         },
         {
           "text": "la estación de tren?",
-          "pronunciation": "lah ehs-tah-see-OHN deh trehn",
           "translation": "the train station"
         }
       ]
@@ -24,16 +21,13 @@
       "id": "es-trn-ticket-office",
       "translation": "Where is the ticket office?",
       "text": "¿Dónde está la taquilla?",
-      "pronunciation": "DOHN-deh ehs-TAH lah tah-KEE-yah?",
       "words": [
         {
           "text": "¿Dónde está",
-          "pronunciation": "DOHN-deh ehs-TAH",
           "translation": "where is"
         },
         {
           "text": "la taquilla?",
-          "pronunciation": "lah tah-KEE-yah",
           "translation": "the ticket office"
         }
       ]
@@ -42,22 +36,21 @@
       "id": "es-trn-one-ticket",
       "translation": "One ticket to Madrid, please",
       "text": "Un billete a Madrid, por favor",
-      "pronunciation": "Oon bee-YEH-teh ah mah-DREED, pohr fah-VOHR",
       "words": [
         {
           "text": "Un billete",
-          "pronunciation": "oon bee-YEH-teh",
           "translation": "one ticket"
         },
-        { "text": "a", "pronunciation": "ah", "translation": "to" },
+        {
+          "text": "a",
+          "translation": "to"
+        },
         {
           "text": "Madrid",
-          "pronunciation": "mah-DREED",
           "translation": "Madrid"
         },
         {
           "text": "por favor",
-          "pronunciation": "pohr fah-VOHR",
           "translation": "please"
         }
       ]
@@ -66,16 +59,13 @@
       "id": "es-trn-one-way",
       "translation": "One-way ticket",
       "text": "Billete de ida",
-      "pronunciation": "Bee-YEH-teh deh EE-dah",
       "words": [
         {
           "text": "Billete",
-          "pronunciation": "bee-YEH-teh",
           "translation": "ticket"
         },
         {
           "text": "de ida",
-          "pronunciation": "deh EE-dah",
           "translation": "one-way / outbound"
         }
       ]
@@ -84,21 +74,17 @@
       "id": "es-trn-round-trip",
       "translation": "Round trip ticket",
       "text": "Billete de ida y vuelta",
-      "pronunciation": "Bee-YEH-teh deh EE-dah ee VWEHL-tah",
       "words": [
         {
           "text": "Billete",
-          "pronunciation": "bee-YEH-teh",
           "translation": "ticket"
         },
         {
           "text": "de ida",
-          "pronunciation": "deh EE-dah",
           "translation": "one way"
         },
         {
           "text": "y vuelta",
-          "pronunciation": "ee VWEHL-tah",
           "translation": "and return"
         }
       ]
@@ -107,16 +93,13 @@
       "id": "es-trn-first-class",
       "translation": "First class please",
       "text": "Primera clase, por favor",
-      "pronunciation": "Pree-MEH-rah KLAH-seh pohr fah-VOHR",
       "words": [
         {
           "text": "Primera clase,",
-          "pronunciation": "pree-MEH-rah KLAH-seh",
           "translation": "first class"
         },
         {
           "text": "por favor",
-          "pronunciation": "pohr fah-VOHR",
           "translation": "please"
         }
       ]
@@ -125,12 +108,13 @@
       "id": "es-trn-which-platform",
       "translation": "Which platform?",
       "text": "¿Qué andén?",
-      "pronunciation": "Keh ahn-DEHN?",
       "words": [
-        { "text": "¿Qué", "pronunciation": "keh", "translation": "which" },
+        {
+          "text": "¿Qué",
+          "translation": "which"
+        },
         {
           "text": "andén?",
-          "pronunciation": "ahn-DEHN",
           "translation": "platform"
         }
       ]
@@ -139,26 +123,28 @@
       "id": "es-trn-which-track",
       "translation": "Which track?",
       "text": "¿Qué vía?",
-      "pronunciation": "Keh BEE-ah?",
       "words": [
-        { "text": "¿Qué", "pronunciation": "keh", "translation": "which" },
-        { "text": "vía?", "pronunciation": "BEE-ah", "translation": "track" }
+        {
+          "text": "¿Qué",
+          "translation": "which"
+        },
+        {
+          "text": "vía?",
+          "translation": "track"
+        }
       ]
     },
     {
       "id": "es-trn-is-ave",
       "translation": "Is this the AVE?",
       "text": "¿Es este el AVE?",
-      "pronunciation": "Ehs EHS-teh ehl AH-veh?",
       "words": [
         {
           "text": "¿Es este",
-          "pronunciation": "ehs EHS-teh",
           "translation": "is this"
         },
         {
           "text": "el AVE?",
-          "pronunciation": "ehl AH-veh",
           "translation": "the AVE (high-speed)"
         }
       ]
@@ -167,21 +153,17 @@
       "id": "es-trn-reserve-seat",
       "translation": "I'd like to reserve a seat",
       "text": "Quiero reservar un asiento",
-      "pronunciation": "Kee-EH-roh reh-sehr-VAHR oon ah-see-EHN-toh",
       "words": [
         {
           "text": "Quiero",
-          "pronunciation": "kee-EH-roh",
           "translation": "I want"
         },
         {
           "text": "reservar",
-          "pronunciation": "reh-sehr-VAHR",
           "translation": "to reserve"
         },
         {
           "text": "un asiento",
-          "pronunciation": "oon ah-see-EHN-toh",
           "translation": "a seat"
         }
       ]
@@ -190,41 +172,40 @@
       "id": "es-trn-next-train-time",
       "translation": "What time is the next train?",
       "text": "¿A qué hora es el próximo tren?",
-      "pronunciation": "Ah keh OH-rah ehs ehl PROHK-see-moh TREHN?",
       "words": [
         {
           "text": "¿A qué hora",
-          "pronunciation": "ah keh OH-rah",
           "translation": "at what time"
         },
         {
           "text": "es el próximo",
-          "pronunciation": "ehs ehl PROHK-see-moh",
           "translation": "is the next"
         },
-        { "text": "tren?", "pronunciation": "trehn", "translation": "train" }
+        {
+          "text": "tren?",
+          "translation": "train"
+        }
       ]
     },
     {
       "id": "es-trn-is-this-train-to",
       "translation": "Is this the train to Barcelona?",
       "text": "¿Es este el tren a Barcelona?",
-      "pronunciation": "Ehs EHS-teh ehl TREHN ah bar-seh-LOH-nah?",
       "words": [
         {
           "text": "¿Es este",
-          "pronunciation": "ehs EHS-teh",
           "translation": "is this"
         },
         {
           "text": "el tren",
-          "pronunciation": "ehl trehn",
           "translation": "the train"
         },
-        { "text": "a", "pronunciation": "ah", "translation": "to" },
+        {
+          "text": "a",
+          "translation": "to"
+        },
         {
           "text": "Barcelona",
-          "pronunciation": "bar-seh-LOH-nah",
           "translation": "Barcelona"
         }
       ]
@@ -233,21 +214,17 @@
       "id": "es-trn-this-goes-to",
       "translation": "This train goes to Madrid",
       "text": "Este tren va a Madrid",
-      "pronunciation": "EHS-teh TREHN vah ah mah-DREED",
       "words": [
         {
           "text": "Este tren",
-          "pronunciation": "EHS-teh trehn",
           "translation": "this train"
         },
         {
           "text": "va a",
-          "pronunciation": "vah ah",
           "translation": "goes to"
         },
         {
           "text": "Madrid",
-          "pronunciation": "mah-DREED",
           "translation": "Madrid"
         }
       ]
@@ -256,21 +233,17 @@
       "id": "es-trn-where-transfer",
       "translation": "Where should I transfer?",
       "text": "¿Dónde tengo que hacer transbordo?",
-      "pronunciation": "DOHN-deh TEHN-goh keh ah-SEHR trahns-BOHR-doh?",
       "words": [
         {
           "text": "¿Dónde",
-          "pronunciation": "DOHN-deh",
           "translation": "where"
         },
         {
           "text": "tengo que hacer",
-          "pronunciation": "TEHN-goh keh ah-SEHR",
           "translation": "do I need to do"
         },
         {
           "text": "transbordo?",
-          "pronunciation": "trahns-BOHR-doh",
           "translation": "transfer"
         }
       ]
@@ -279,16 +252,13 @@
       "id": "es-trn-arriving",
       "translation": "The train is arriving",
       "text": "El tren está llegando",
-      "pronunciation": "Ehl TREHN ehs-TAH yeh-GAHN-doh",
       "words": [
         {
           "text": "El tren",
-          "pronunciation": "ehl trehn",
           "translation": "the train"
         },
         {
           "text": "está llegando",
-          "pronunciation": "ehs-TAH yeh-GAHN-doh",
           "translation": "is arriving"
         }
       ]
@@ -297,16 +267,13 @@
       "id": "es-trn-seat-taken",
       "translation": "Is this seat taken?",
       "text": "¿Está ocupado este asiento?",
-      "pronunciation": "Ehs-TAH oh-koo-PAH-doh EHS-teh ah-see-EHN-toh?",
       "words": [
         {
           "text": "¿Está ocupado",
-          "pronunciation": "ehs-TAH oh-koo-PAH-doh",
           "translation": "is it taken"
         },
         {
           "text": "este asiento?",
-          "pronunciation": "EHS-teh ah-see-EHN-toh",
           "translation": "this seat"
         }
       ]
@@ -315,17 +282,17 @@
       "id": "es-trn-next-stop",
       "translation": "The next stop is Barcelona",
       "text": "La próxima parada es Barcelona",
-      "pronunciation": "Lah PROHK-see-mah pah-RAH-dah ehs bar-seh-LOH-nah",
       "words": [
         {
           "text": "La próxima parada",
-          "pronunciation": "lah PROHK-see-mah pah-RAH-dah",
           "translation": "the next stop"
         },
-        { "text": "es", "pronunciation": "ehs", "translation": "is" },
+        {
+          "text": "es",
+          "translation": "is"
+        },
         {
           "text": "Barcelona",
-          "pronunciation": "bar-seh-LOH-nah",
           "translation": "Barcelona"
         }
       ]
@@ -334,17 +301,17 @@
       "id": "es-trn-arrived",
       "translation": "We have arrived at Madrid",
       "text": "Hemos llegado a Madrid",
-      "pronunciation": "EH-mohs yeh-GAH-doh ah mah-DREED",
       "words": [
         {
           "text": "Hemos llegado",
-          "pronunciation": "EH-mohs yeh-GAH-doh",
           "translation": "we have arrived"
         },
-        { "text": "a", "pronunciation": "ah", "translation": "at" },
+        {
+          "text": "a",
+          "translation": "at"
+        },
         {
           "text": "Madrid",
-          "pronunciation": "mah-DREED",
           "translation": "Madrid"
         }
       ]
@@ -353,16 +320,13 @@
       "id": "es-trn-where-exit",
       "translation": "Where is the exit?",
       "text": "¿Dónde está la salida?",
-      "pronunciation": "DOHN-deh ehs-TAH lah sah-LEE-dah?",
       "words": [
         {
           "text": "¿Dónde está",
-          "pronunciation": "DOHN-deh ehs-TAH",
           "translation": "where is"
         },
         {
           "text": "la salida?",
-          "pronunciation": "lah sah-LEE-dah",
           "translation": "the exit"
         }
       ]
@@ -371,7 +335,6 @@
       "id": "es-trn-thank-you",
       "translation": "Thank you",
       "text": "Gracias",
-      "pronunciation": "GRAH-see-ahs",
       "words": []
     }
   ],
@@ -379,182 +342,152 @@
     {
       "id": "es-trn-w-station",
       "translation": "station",
-      "text": "estación",
-      "pronunciation": "ehs-tah-see-OHN"
+      "text": "estación"
     },
     {
       "id": "es-trn-w-ticket",
       "translation": "ticket",
-      "text": "billete",
-      "pronunciation": "bee-YEH-teh"
+      "text": "billete"
     },
     {
       "id": "es-trn-w-platform",
       "translation": "platform",
-      "text": "andén",
-      "pronunciation": "ahn-DEHN"
+      "text": "andén"
     },
     {
       "id": "es-trn-w-track",
       "translation": "track",
-      "text": "vía",
-      "pronunciation": "BEE-ah"
+      "text": "vía"
     },
     {
       "id": "es-trn-w-high-speed",
       "translation": "high-speed train (AVE)",
-      "text": "AVE (Alta Velocidad Española)",
-      "pronunciation": "AH-veh"
+      "text": "AVE (Alta Velocidad Española)"
     },
     {
       "id": "es-trn-w-renfe",
       "translation": "Spanish railway",
-      "text": "Renfe",
-      "pronunciation": "REHN-feh"
+      "text": "Renfe"
     },
     {
       "id": "es-trn-w-regional",
       "translation": "regional train",
-      "text": "cercanías",
-      "pronunciation": "sehr-kah-NEE-ahs"
+      "text": "cercanías"
     },
     {
       "id": "es-trn-w-metro",
       "translation": "metro",
-      "text": "metro",
-      "pronunciation": "MEH-troh"
+      "text": "metro"
     },
     {
       "id": "es-trn-w-transfer",
       "translation": "transfer",
-      "text": "transbordo",
-      "pronunciation": "trahns-BOHR-doh"
+      "text": "transbordo"
     },
     {
       "id": "es-trn-w-exit",
       "translation": "exit",
-      "text": "salida",
-      "pronunciation": "sah-LEE-dah"
+      "text": "salida"
     },
     {
       "id": "es-trn-w-entrance",
       "translation": "entrance",
-      "text": "entrada",
-      "pronunciation": "ehn-TRAH-dah"
+      "text": "entrada"
     },
     {
       "id": "es-trn-w-one-way",
       "translation": "one-way",
-      "text": "ida",
-      "pronunciation": "EE-dah"
+      "text": "ida"
     },
     {
       "id": "es-trn-w-round-trip",
       "translation": "round trip",
-      "text": "ida y vuelta",
-      "pronunciation": "EE-dah ee VWEHL-tah"
+      "text": "ida y vuelta"
     },
     {
       "id": "es-trn-w-first-class",
       "translation": "first class",
-      "text": "primera clase",
-      "pronunciation": "pree-MEH-rah KLAH-seh"
+      "text": "primera clase"
     },
     {
       "id": "es-trn-w-second-class",
       "translation": "second class",
-      "text": "segunda clase",
-      "pronunciation": "seh-GOON-dah KLAH-seh"
+      "text": "segunda clase"
     },
     {
       "id": "es-trn-w-inspector",
       "translation": "ticket inspector",
-      "text": "revisor",
-      "pronunciation": "reh-bee-SOHR"
+      "text": "revisor"
     },
     {
       "id": "es-trn-w-timetable",
       "translation": "timetable",
-      "text": "horario",
-      "pronunciation": "oh-RAH-ree-oh"
+      "text": "horario"
     },
     {
       "id": "es-trn-w-departure",
       "translation": "departure",
-      "text": "salida",
-      "pronunciation": "sah-LEE-dah"
+      "text": "salida"
     },
     {
       "id": "es-trn-w-arrival",
       "translation": "arrival",
-      "text": "llegada",
-      "pronunciation": "yeh-GAH-dah"
+      "text": "llegada"
     },
     {
       "id": "es-trn-w-ticket-window",
       "translation": "ticket window",
-      "text": "taquilla",
-      "pronunciation": "tah-KEE-yah"
+      "text": "taquilla"
     },
     {
       "id": "es-trn-w-line",
       "translation": "line",
-      "text": "línea",
-      "pronunciation": "LEE-neh-ah"
+      "text": "línea"
     },
     {
       "id": "es-trn-w-delay",
       "translation": "delay",
-      "text": "retraso",
-      "pronunciation": "reh-TRAH-soh"
+      "text": "retraso"
     },
     {
       "id": "es-trn-w-transport-card",
       "translation": "transport card",
-      "text": "tarjeta de transporte",
-      "pronunciation": "tar-HEH-tah deh trahns-POHR-teh"
+      "text": "tarjeta de transporte"
     },
     {
       "id": "es-trn-w-last-train",
       "translation": "last train",
-      "text": "último tren",
-      "pronunciation": "OOL-tee-moh TREHN"
+      "text": "último tren"
     },
     {
       "id": "es-trn-w-fare",
       "translation": "fare",
-      "text": "tarifa",
-      "pronunciation": "tah-REE-fah"
+      "text": "tarifa"
     },
     {
       "id": "es-trn-w-window-seat",
       "translation": "window seat",
-      "text": "asiento de ventanilla",
-      "pronunciation": "ah-see-EHN-toh deh behn-tah-NEE-yah"
+      "text": "asiento de ventanilla"
     },
     {
       "id": "es-trn-w-luggage-rack",
       "translation": "luggage rack",
-      "text": "portaequipajes",
-      "pronunciation": "pohr-tah-eh-kee-PAH-hehs"
+      "text": "portaequipajes"
     },
     {
       "id": "es-trn-w-transit-pass",
       "translation": "transit pass / monthly pass",
-      "text": "abono",
-      "pronunciation": "ah-BOH-noh"
+      "text": "abono"
     },
     {
       "id": "es-trn-w-zone",
       "translation": "fare zone",
-      "text": "zona tarifaria",
-      "pronunciation": "SOH-nah tah-ree-FAH-ree-ah"
+      "text": "zona tarifaria"
     },
     {
       "id": "es-trn-w-ticket-machine",
       "translation": "ticket machine",
-      "text": "máquina expendedora",
-      "pronunciation": "MAH-kee-nah ehks-pehn-deh-DOH-rah"
+      "text": "máquina expendedora"
     }
   ]
 }

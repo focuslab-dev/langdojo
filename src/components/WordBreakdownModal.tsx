@@ -50,9 +50,11 @@ export const WordBreakdownModal = ({
               <p className="text-xl font-bold text-gray-900 leading-snug">
                 {phrase.text}
               </p>
-              <p className="text-sm text-gray-400 mt-0.5">
-                {phrase.pronunciation}
-              </p>
+              {phrase.pronunciation && (
+                <p className="text-sm text-gray-400 mt-0.5">
+                  {phrase.pronunciation}
+                </p>
+              )}
             </div>
             <button
               onClick={onClose}
@@ -79,7 +81,9 @@ export const WordBreakdownModal = ({
                       <p className="text-base font-semibold text-gray-800">
                         {w.text}
                       </p>
-                      <p className="text-xs text-gray-400">{w.pronunciation}</p>
+                      {w.pronunciation && (
+                        <p className="text-xs text-gray-400">{w.pronunciation}</p>
+                      )}
                     </div>
                     <p className="text-sm text-gray-500 text-right flex-1">
                       {w.translation}

@@ -33,7 +33,7 @@ export const HeroSection = ({
           {category.emoji}
         </motion.div>
         <Link
-          href={`/download?lang=${languageId}&cat=${categoryId}`}
+          href={`/download?lang=${languageId}`}
           className="mt-3 flex items-center gap-1.5 bg-white/20 hover:bg-white/30 text-white text-xs font-medium px-3 py-1.5 rounded-full transition-colors"
         >
           <Download className="w-3.5 h-3.5" />

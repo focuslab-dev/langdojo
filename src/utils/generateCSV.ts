@@ -6,10 +6,12 @@ function escapeTSVField(field: string): string {
 
 export function generateTSV(items: Phrase[]): Blob {
   // const header = `Vocabulary\tTranslation\tPronunciation`;
-  const rows = items.map(
-    (item) =>
-      `${escapeTSVField(item.text)}\t${escapeTSVField(item.translation)}\t(${escapeTSVField(item.pronunciation)})`,
-  );
+  const rows = items.map((item) => {
+    const pron = item.pronunciation
+      ? `\t(${escapeTSVField(item.pronunciation)})`
+      : "";
+    return `${escapeTSVField(item.text)}\t${escapeTSVField(item.translation)}${pron}`;
+  });
 
   const tsv = rows.join("\n");
   return new Blob([tsv], { type: "text/tab-separated-values;charset=utf-8;" });

@@ -83,6 +83,8 @@ All IDs must be unique within a file. Descriptors should be short, lowercase, hy
 
 ### Pronunciation
 
+**Omit pronunciation for Latin-script languages.** Languages like Spanish and French use the Latin alphabet and have largely predictable pronunciation rules — don't include `pronunciation` fields for these languages. Pronunciation is only needed for languages with non-Latin scripts (Japanese, Mandarin, Thai, Korean) where romanization helps learners read the text.
+
 **Stay consistent within one romanization system.** For Japanese, use doubled vowels for long sounds (`shoushou`, `koohii`, `oomori`) — NOT macrons (`shōshō`) or circumflexes (`shôshô`). Pick one and stick to it across every file for that language.
 
 **Match actual spoken forms.** If a particle is pronounced differently from its written form (は → wa, を → wo), use the spoken pronunciation.

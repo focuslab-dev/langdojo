@@ -82,7 +82,9 @@ export const PhraseCard = ({
               {phrase.text}
             </p>
 
-            <p className="mt-1 text-base text-gray-500">{phrase.pronunciation}</p>
+            {phrase.pronunciation && (
+              <p className="mt-1 text-base text-gray-500">{phrase.pronunciation}</p>
+            )}
           </div>
 
           {/* Action buttons */}

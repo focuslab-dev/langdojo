@@ -175,7 +175,7 @@ export function getDownloadItems(
             id: `wd-${word.text}`,
             text: word.text,
             translation: word.translation,
-            pronunciation: word.pronunciation,
+            ...(word.pronunciation && { pronunciation: word.pronunciation }),
           });
         }
       }
@@ -187,6 +187,66 @@ export function getDownloadItems(
     if (!seenWords.has(word.text)) {
       seenWords.add(word.text);
       items.push(word);
+    }
+  }
+
+  return items;
+}
+
+/**
+ * Builds a download list aggregating all categories for a language,
+ * with the same word-breakdown-first ordering and deduplication.
+ */
+export function getDownloadItemsAll(languageId: LanguageId): Phrase[] {
+  const languageData = phraseData[languageId];
+  if (!languageData) return [];
+  return getDownloadItemsForCategories(languageId, Object.keys(languageData));
+}
+
+/**
+ * Builds a download list aggregating specified categories for a language,
+ * with the same word-breakdown-first ordering and deduplication.
+ */
+export function getDownloadItemsForCategories(
+  languageId: LanguageId,
+  categoryIds: string[],
+): Phrase[] {
+  const languageData = phraseData[languageId];
+  if (!languageData) return [];
+
+  const seenWords = new Set<string>();
+  const seenPhrases = new Set<string>();
+  const items: Phrase[] = [];
+
+  for (const catId of categoryIds) {
+    const categoryData = languageData[catId];
+    if (!categoryData) continue;
+
+    for (const phrase of categoryData.phrases || []) {
+      if (phrase.words) {
+        for (const word of phrase.words) {
+          if (!seenWords.has(word.text)) {
+            seenWords.add(word.text);
+            items.push({
+              id: `wd-${word.text}`,
+              text: word.text,
+              translation: word.translation,
+              ...(word.pronunciation && { pronunciation: word.pronunciation }),
+            });
+          }
+        }
+      }
+      if (!seenPhrases.has(phrase.id)) {
+        seenPhrases.add(phrase.id);
+        items.push(phrase);
+      }
+    }
+
+    for (const word of categoryData.words || []) {
+      if (!seenWords.has(word.text)) {
+        seenWords.add(word.text);
+        items.push(word);
+      }
     }
   }
 
@@ -218,7 +278,7 @@ export function getDownloadItemsForFavorites(
             id: `wd-${word.text}`,
             text: word.text,
             translation: word.translation,
-            pronunciation: word.pronunciation,
+            ...(word.pronunciation && { pronunciation: word.pronunciation }),
           });
         }
       }

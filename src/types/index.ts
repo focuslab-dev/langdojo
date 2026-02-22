@@ -1,6 +1,6 @@
 export interface Word {
   text: string;
-  pronunciation: string;
+  pronunciation?: string;
   translation: string;
 }
 
@@ -8,7 +8,7 @@ export interface Phrase {
   id: string;
   text: string;
   translation: string;
-  pronunciation: string;
+  pronunciation?: string;
   words?: Word[];
 }
 
@@ -22,6 +22,7 @@ export interface PhraseCategory {
 export interface Language {
   id: string;
   name: string;
+  slug: string;
   flag: string;
   ttsLang: string;
 }

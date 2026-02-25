@@ -3,12 +3,11 @@ import { useRouter } from "next/router";
 import clsx from "clsx";
 import Head from "next/head";
 import { motion } from "framer-motion";
-import { IconChevronDown, IconDownload } from "@/components/ui/Icons";
+import { IconChevronDown } from "@/components/ui/Icons";
 import { Language, LanguageId, CategoryId } from "@/types";
 import {
   languages,
   categories,
-  packages,
   getCategoryById,
   getLanguageById,
 } from "@/utils/languages";
@@ -19,7 +18,6 @@ import { HeroSection } from "@/components/HeroSection";
 import { PhraseList } from "@/components/PhraseList";
 import { NavigationModal } from "@/components/NavigationModal";
 import { LanguageDropdown } from "@/components/LanguageDropdown";
-import { Button } from "@/components/ui/Button";
 
 const HERO_SECTION_HEIGHT = 260; // px
 const BOTTOM_SHEET_MARGIN_TOP = 45; // px
@@ -230,13 +228,6 @@ export default function PhrasesPage() {
                     </p>
                   </div>
                 </div>
-                <Button
-                  variant="ghost"
-                  href={`/${packages[0].slug}/${selectedLanguage.slug}/download`}
-                >
-                  <IconDownload className="w-4 h-4" />
-                  Download
-                </Button>
               </div>
             </div>
 

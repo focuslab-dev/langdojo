@@ -34,13 +34,6 @@ export const HeroSection = ({
         >
           {category.emoji}
         </motion.div>
-        <Link
-          href={language ? `/${packages[0].slug}/${language.slug}/download` : "#"}
-          className="mt-3 flex items-center gap-1.5 bg-white/20 hover:bg-white/30 text-white text-xs font-medium px-3 py-1.5 rounded-full transition-colors"
-        >
-          <IconDownload className="w-3.5 h-3.5" />
-          Download
-        </Link>
       </div>
     </div>
   );

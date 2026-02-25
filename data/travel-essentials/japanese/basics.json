@@ -133,7 +133,7 @@
       "id": "jp-bas-little-japanese",
       "translation": "I speak a little Japanese",
       "text": "日本語は少し話せます",
-      "pronunciation": "nihongo wo sukoshi hanashimasu",
+      "pronunciation": "nihongo wa sukoshi hanasemasu",
       "words": [
         {
           "text": "日本語",
@@ -262,7 +262,7 @@
     },
     {
       "id": "jp-bas-thank-you",
-      "translation": "Thank you",
+      "translation": "Thank you (formal)",
       "text": "ありがとうございます",
       "pronunciation": "arigatou gozaimasu",
       "words": [

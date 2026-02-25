@@ -1,1 +1,1 @@
-export const BRAND_NAME = "Penguin Decks";
+export const BRAND_NAME = "Lang Dojo";

@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
-import { GetStaticProps } from "next";
-import { languages, categories } from "@/utils/languages";
+import { GetStaticPaths, GetStaticProps } from "next";
+import { languages, categories, packages } from "@/utils/languages";
 import { getDownloadItemsAll } from "@/utils/getPhraseData";
-import { LanguageId } from "@/types";
+import { Package, LanguageId } from "@/types";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { BRAND_NAME } from "@/constants/brand";
@@ -17,10 +17,27 @@ interface LanguageCard {
 }
 
 interface Props {
+  pkg: Package;
   languageCards: LanguageCard[];
+  categoryCount: number;
 }
 
-export const getStaticProps: GetStaticProps<Props> = async () => {
+export const getStaticPaths: GetStaticPaths = async () => {
+  const paths = packages.map((pkg) => ({
+    params: { package: pkg.slug },
+  }));
+  return { paths, fallback: false };
+};
+
+export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
+  const pkgSlug = params?.package as string;
+  const pkg = packages.find((p) => p.slug === pkgSlug);
+  if (!pkg) return { notFound: true };
+
+  const categoryCount = categories.filter(
+    (cat) => cat.id !== "favorites",
+  ).length;
+
   const languageCards = languages.map((lang) => ({
     id: lang.id,
     name: lang.name,
@@ -29,60 +46,43 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
     phraseCount: getDownloadItemsAll(lang.id as LanguageId).length,
   }));
 
-  return { props: { languageCards } };
+  return { props: { pkg, languageCards, categoryCount } };
 };
 
-export default function LandingPage({ languageCards }: Props) {
+export default function PackagePage({
+  pkg,
+  languageCards,
+  categoryCount,
+}: Props) {
   return (
     <>
       <Head>
-        <title>{BRAND_NAME} — Free Language Phrases & Anki Flashcards</title>
+        <title>{`${pkg.name} | ${BRAND_NAME}`}</title>
         <meta
           name="description"
-          content="Learn essential phrases and vocabulary in Japanese, Mandarin, Thai, Korean, French, and Spanish. Download Anki flashcards and study with spaced repetition."
-        />
-        <meta
-          name="keywords"
-          content="language phrases, language flashcards, anki deck, vocabulary, japanese phrases, mandarin phrases, thai phrases, korean phrases, french phrases, spanish phrases"
+          content={`${pkg.name} — phrases and vocabulary across ${languageCards.length} languages and ${categoryCount} categories. Download Anki flashcards and study with spaced repetition.`}
         />
       </Head>
 
       <div className="min-h-screen bg-gray-50">
-        <SiteHeader showTagline />
+        <SiteHeader breadcrumbs={[{ label: pkg.name, href: `/${pkg.slug}` }]} />
 
         <div className="max-w-3xl mx-auto px-4 py-16">
-          {/* Hero */}
           <div className="text-center mb-12">
-            <img
-              src="/img/hero-image-sm.webp"
-              alt={`${BRAND_NAME} mascot`}
-              className="w-32 h-32 mx-auto mb-4 rounded-2xl object-cover"
-            />
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">{BRAND_NAME}</h1>
-            <p className="text-lg text-gray-600 max-w-xl mx-auto">
-              A word and phrase list for language learners & travelers. Download
-              and import into Anki, Quizlet, Memozora, and other flashcard
-              applications.
-            </p>
-          </div>
-
-          {/* Travel Phrases section */}
-          <div className="mb-6">
-            <h2 className="text-xl font-bold text-gray-900">
-              Essential Travel Phrases & Words
-            </h2>
-            <p className="text-sm text-gray-500 mt-1">
+            <h1 className="text-3xl font-bold text-gray-900 mb-3">
+              {pkg.name}
+            </h1>
+            <p className="text-gray-600 max-w-xl mx-auto">
               Common phrases and vocabulary for everyday travel situations —
               restaurants, hotels, transportation, and more.
             </p>
           </div>
 
-          {/* Language Grid */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {languageCards.map((lang) => (
               <Link
                 key={lang.id}
-                href={`/travel-essentials/${lang.slug}`}
+                href={`/${pkg.slug}/${lang.slug}`}
                 className="group bg-white rounded-2xl border border-gray-100 p-6 text-center shadow-sm hover:shadow-md hover:border-gray-200 transition-all"
               >
                 <div className="text-5xl mb-3">{lang.flag}</div>

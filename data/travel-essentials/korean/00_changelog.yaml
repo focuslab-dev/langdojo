@@ -1,0 +1,14 @@
+# Changelog for Korean travel-essentials data.
+# Each entry records a review or modification to the content.
+#
+# Fields:
+#   date         (required) - Date of the change in "YYYY-MM-DD" format
+#   type         (required) - "review" (human-verified), "edit" (content added/changed), or "other"
+#   description  (required) - Brief summary of what was reviewed or changed
+#   contributor  (optional) - Person who contributed; object with `name` and `url`
+#   note         (optional) - Extra context (e.g. scope limitations, caveats)
+#   commit       (optional) - Related git commit hash
+
+- date: "2026-02-20"
+  type: edit
+  description: "Initial AI-generated content for all 9 categories"

@@ -12,9 +12,9 @@ Basics, Numbers, Cafe, Restaurant, Supermarket, Taxi, Train, Bus, Hotel
 
 ## Data
 
-All phrase and vocabulary data lives in `data/{language}/{category}.json`. See [`data/DATA_GUIDE.md`](data/DATA_GUIDE.md) for the JSON schema, ID format, and content quality guidelines.
+All phrase and vocabulary data lives in `data/{content-pack}/{language}/{category}.json`. See [`data/DATA_GUIDE.md`](data/DATA_GUIDE.md) for the JSON schema, ID format, and content quality guidelines.
 
-Content is initially generated with AI and reviewed by humans incrementally. See [`data/CHANGELOG.md`](data/CHANGELOG.md) for the current review status of each language and category.
+Content is initially generated with AI and reviewed by humans incrementally. Each language folder contains its own `00_changelog.yaml` for the review status of that language.
 
 ## Using the data
 

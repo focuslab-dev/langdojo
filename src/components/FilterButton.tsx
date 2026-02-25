@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Grid3X3 } from 'lucide-react';
+import { IconGrid } from '@/components/ui/Icons';
 
 interface FilterButtonProps {
   onClick: () => void;
@@ -14,7 +14,7 @@ export const FilterButton = ({ onClick }: FilterButtonProps) => {
       className="fixed bottom-6 right-6 w-14 h-14 bg-gray-800 rounded-full shadow-lg flex items-center justify-center z-30"
       aria-label="Open category navigation"
     >
-      <Grid3X3 className="w-6 h-6 text-white" />
+      <IconGrid className="w-6 h-6 text-white" />
     </motion.button>
   );
 };

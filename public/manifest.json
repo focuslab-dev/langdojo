@@ -2,7 +2,7 @@
   "name": "Lang Dojo",
   "short_name": "Phrases",
   "description": "Essential travel phrases in Mandarin, Thai, and Japanese",
-  "start_url": "/",
+  "start_url": "/phrases",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#FCD34D",

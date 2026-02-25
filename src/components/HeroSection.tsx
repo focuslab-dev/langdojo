@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Download } from "lucide-react";
+import { IconDownload } from "@/components/ui/Icons";
 import { Category, LanguageId, CategoryId } from "@/types";
+import { getLanguageById, packages } from "@/utils/languages";
 
 interface HeroSectionProps {
   category: Category;
@@ -16,6 +17,7 @@ export const HeroSection = ({
   categoryId,
   heroSectionHeight,
 }: HeroSectionProps) => {
+  const language = getLanguageById(languageId);
   return (
     <div
       className="fixed top-0 left-0 w-full flex flex-col"
@@ -33,10 +35,10 @@ export const HeroSection = ({
           {category.emoji}
         </motion.div>
         <Link
-          href={`/download?lang=${languageId}`}
+          href={language ? `/${packages[0].slug}/${language.slug}/download` : "#"}
           className="mt-3 flex items-center gap-1.5 bg-white/20 hover:bg-white/30 text-white text-xs font-medium px-3 py-1.5 rounded-full transition-colors"
         >
-          <Download className="w-3.5 h-3.5" />
+          <IconDownload className="w-3.5 h-3.5" />
           Download
         </Link>
       </div>

@@ -19,6 +19,12 @@ export interface PhraseCategory {
   words: Phrase[];
 }
 
+export interface Package {
+  id: string;
+  name: string;
+  slug: string;
+}
+
 export interface Language {
   id: string;
   name: string;
@@ -53,3 +59,12 @@ export type CategoryId =
   | "train"
   | "bus"
   | "hotel";
+
+export interface ChangelogEntry {
+  date: string;
+  type: "review" | "edit" | "other";
+  description: string;
+  contributor?: { name: string; url: string };
+  note?: string;
+  commit?: string;
+}

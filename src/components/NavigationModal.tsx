@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { X } from 'lucide-react';
+import { IconClose } from '@/components/ui/Icons';
 import { Category, CategoryId } from '@/types';
 import { categories } from '@/utils/languages';
 
@@ -50,7 +50,7 @@ export const NavigationModal = ({
                 onClick={onClose}
                 className="p-2 rounded-full hover:bg-backgroundDim transition-colors"
               >
-                <X className="w-5 h-5 text-gray-500" />
+                <IconClose className="w-5 h-5 text-gray-500" />
               </motion.button>
             </div>
 

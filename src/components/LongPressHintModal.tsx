@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X } from "lucide-react";
+import { IconClose } from "@/components/ui/Icons";
 import Image from "next/image";
 
 const GIF_SRC = "/img/word-breakdown2.gif";

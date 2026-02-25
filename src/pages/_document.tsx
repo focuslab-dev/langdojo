@@ -1,13 +1,14 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { BRAND_NAME } from "@/constants/brand";
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="application-name" content="Lang Dojo" />
+        <meta name="application-name" content={BRAND_NAME} />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Lang Dojo" />
+        <meta name="apple-mobile-web-app-title" content={BRAND_NAME} />
         <meta
           name="description"
           content="Essential travel phrases in Japanese, Mandarin, Thai, Korean, French, and Spanish. Download Anki flashcards for your next trip."

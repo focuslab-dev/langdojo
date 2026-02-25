@@ -1,0 +1,703 @@
+{
+  "categoryId": "bus",
+  "languageId": "japanese",
+  "phrases": [
+    {
+      "id": "jp-bus-where-is-stop",
+      "translation": "Where is the bus stop?",
+      "text": "バス停はどこですか？",
+      "pronunciation": "basutei wa doko desuka?",
+      "words": [
+        {
+          "text": "バス停",
+          "pronunciation": "basutei",
+          "translation": "bus stop"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        { "text": "どこ", "pronunciation": "doko", "translation": "where" },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-which-bus-to",
+      "translation": "Which bus goes to Tokyo Station?",
+      "text": "東京駅行きのバスはどれですか？",
+      "pronunciation": "toukyou-eki iki no basu wa dore desuka?",
+      "words": [
+        {
+          "text": "東京駅",
+          "pronunciation": "toukyou-eki",
+          "translation": "Tokyo Station"
+        },
+        { "text": "行き", "pronunciation": "iki", "translation": "bound for" },
+        {
+          "text": "の",
+          "pronunciation": "no",
+          "translation": "(possessive particle)"
+        },
+        { "text": "バス", "pronunciation": "basu", "translation": "bus" },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        { "text": "どれ", "pronunciation": "dore", "translation": "which one" },
+        {
+          "text": "ですか",
+          "pronunciation": "desuka",
+          "translation": "is it? (question)"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-does-go-to",
+      "translation": "Does this bus go to Shibuya?",
+      "text": "このバスは渋谷に行きますか？",
+      "pronunciation": "kono basu wa shibuya ni ikimasuka?",
+      "words": [
+        {
+          "text": "このバス",
+          "pronunciation": "kono basu",
+          "translation": "this bus"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "渋谷",
+          "pronunciation": "shibuya",
+          "translation": "Shibuya"
+        },
+        {
+          "text": "に",
+          "pronunciation": "ni",
+          "translation": "(direction particle)"
+        },
+        {
+          "text": "行きます",
+          "pronunciation": "ikimasu",
+          "translation": "goes"
+        },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-last-bus-time",
+      "translation": "What time is the last bus?",
+      "text": "最終バスは何時ですか？",
+      "pronunciation": "saishuu basu wa nanji desuka?",
+      "words": [
+        {
+          "text": "最終バス",
+          "pronunciation": "saishuu basu",
+          "translation": "last bus"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "何時",
+          "pronunciation": "nanji",
+          "translation": "what time"
+        },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-how-much-fare",
+      "translation": "How much is the fare?",
+      "text": "運賃はいくらですか？",
+      "pronunciation": "unchin wa ikura desuka?",
+      "words": [
+        { "text": "運賃", "pronunciation": "unchin", "translation": "fare" },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "いくら",
+          "pronunciation": "ikura",
+          "translation": "how much"
+        },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-can-pay-cash",
+      "translation": "Can I pay with cash?",
+      "text": "現金で払えますか？",
+      "pronunciation": "genkin de haraemasuka?",
+      "words": [
+        { "text": "現金", "pronunciation": "genkin", "translation": "cash" },
+        { "text": "で", "pronunciation": "de", "translation": "with / by" },
+        {
+          "text": "払えます",
+          "pronunciation": "haraemasu",
+          "translation": "can pay"
+        },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-use-ic-card",
+      "translation": "Can I use IC card?",
+      "text": "ICカードは使えますか？",
+      "pronunciation": "aishii kaado wa tsukaemasuka?",
+      "words": [
+        {
+          "text": "ICカード",
+          "pronunciation": "aishii kaado",
+          "translation": "IC card (transit card)"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "使えます",
+          "pronunciation": "tsukaemasu",
+          "translation": "can use"
+        },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-day-pass",
+      "translation": "One-day pass, please",
+      "text": "一日乗車券をください",
+      "pronunciation": "ichinichi joushaken wo kudasai",
+      "words": [
+        {
+          "text": "一日",
+          "pronunciation": "ichinichi",
+          "translation": "one-day"
+        },
+        {
+          "text": "乗車券",
+          "pronunciation": "joushaken",
+          "translation": "train pass"
+        },
+        {
+          "text": "を",
+          "pronunciation": "wo",
+          "translation": "(object particle)"
+        },
+        {
+          "text": "ください",
+          "pronunciation": "kudasai",
+          "translation": "please give me"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-board-from-back",
+      "translation": "Please board from the back door",
+      "text": "後ろのドアからご乗車ください",
+      "pronunciation": "ushiro no doa kara gojousha kudasai",
+      "words": [
+        { "text": "後ろ", "pronunciation": "ushiro", "translation": "back" },
+        {
+          "text": "の",
+          "pronunciation": "no",
+          "translation": "(possessive particle)"
+        },
+        { "text": "ドア", "pronunciation": "doa", "translation": "door" },
+        { "text": "から", "pronunciation": "kara", "translation": "from" },
+        {
+          "text": "ご乗車",
+          "pronunciation": "gojousha",
+          "translation": "boarding (honorific)"
+        },
+        {
+          "text": "ください",
+          "pronunciation": "kudasai",
+          "translation": "please"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-tap-card",
+      "translation": "Please tap your card",
+      "text": "カードをタッチしてください",
+      "pronunciation": "kaado wo tacchi shite kudasai",
+      "words": [
+        { "text": "カード", "pronunciation": "kaado", "translation": "card" },
+        {
+          "text": "を",
+          "pronunciation": "wo",
+          "translation": "(object particle)"
+        },
+        {
+          "text": "タッチして",
+          "pronunciation": "tacchi shite",
+          "translation": "tap (te-form)"
+        },
+        {
+          "text": "ください",
+          "pronunciation": "kudasai",
+          "translation": "please"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-is-seat-free",
+      "translation": "Is this seat free?",
+      "text": "この席は空いていますか？",
+      "pronunciation": "kono seki wa aite imasuka?",
+      "words": [
+        { "text": "この", "pronunciation": "kono", "translation": "this" },
+        { "text": "席", "pronunciation": "seki", "translation": "seat" },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "空いています",
+          "pronunciation": "aite imasu",
+          "translation": "is available"
+        },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-priority-seat",
+      "translation": "This is a priority seat",
+      "text": "こちらは優先席です",
+      "pronunciation": "kochira wa yuusenseki desu",
+      "words": [
+        {
+          "text": "こちら",
+          "pronunciation": "kochira",
+          "translation": "this (polite)"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "優先席",
+          "pronunciation": "yuusenseki",
+          "translation": "priority seat"
+        },
+        { "text": "です", "pronunciation": "desu", "translation": "is" }
+      ]
+    },
+    {
+      "id": "jp-bus-tell-me-when-arrive",
+      "translation": "Please tell me when we arrive at Tokyo Station",
+      "text": "東京駅に着いたら教えてください",
+      "pronunciation": "toukyou-eki ni tsuitara oshiete kudasai",
+      "words": [
+        {
+          "text": "東京駅",
+          "pronunciation": "toukyou-eki",
+          "translation": "Tokyo Station"
+        },
+        {
+          "text": "に",
+          "pronunciation": "ni",
+          "translation": "(destination particle)"
+        },
+        {
+          "text": "着いたら",
+          "pronunciation": "tsuitara",
+          "translation": "when (we) arrive"
+        },
+        {
+          "text": "教えて",
+          "pronunciation": "oshiete",
+          "translation": "tell (te-form)"
+        },
+        {
+          "text": "ください",
+          "pronunciation": "kudasai",
+          "translation": "please"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-how-many-stops",
+      "translation": "How many stops to Shibuya?",
+      "text": "渋谷まであと何駅ですか？",
+      "pronunciation": "shibuya made ato nanako-eki desuka?",
+      "words": [
+        {
+          "text": "渋谷",
+          "pronunciation": "shibuya",
+          "translation": "Shibuya"
+        },
+        {
+          "text": "まで",
+          "pronunciation": "made",
+          "translation": "until / to"
+        },
+        { "text": "あと", "pronunciation": "ato", "translation": "remaining" },
+        {
+          "text": "何駅",
+          "pronunciation": "nan-eki",
+          "translation": "how many stops"
+        },
+        {
+          "text": "ですか",
+          "pronunciation": "desuka",
+          "translation": "is it? (question)"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-transfer-where",
+      "translation": "Where can I transfer?",
+      "text": "乗り換えはどこでできますか？",
+      "pronunciation": "norikae wa doko de dekimasuka?",
+      "words": [
+        {
+          "text": "乗り換え",
+          "pronunciation": "norikae",
+          "translation": "transfer"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        { "text": "どこ", "pronunciation": "doko", "translation": "where" },
+        { "text": "で", "pronunciation": "de", "translation": "at" },
+        {
+          "text": "できます",
+          "pronunciation": "dekimasu",
+          "translation": "can do"
+        },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-next-stop",
+      "translation": "Next stop is Tokyo Station",
+      "text": "次は東京駅です",
+      "pronunciation": "tsugi wa toukyou-eki desu",
+      "words": [
+        { "text": "次", "pronunciation": "tsugi", "translation": "next" },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "東京駅",
+          "pronunciation": "toukyou-eki",
+          "translation": "Tokyo Station"
+        },
+        { "text": "です", "pronunciation": "desu", "translation": "(it) is" }
+      ]
+    },
+    {
+      "id": "jp-bus-press-button",
+      "translation": "Those getting off, please press the button",
+      "text": "降りる方はボタンを押してください",
+      "pronunciation": "oriru kata wa botan wo oshite kudasai",
+      "words": [
+        {
+          "text": "降りる方",
+          "pronunciation": "oriru kata",
+          "translation": "those getting off"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        { "text": "ボタン", "pronunciation": "botan", "translation": "button" },
+        {
+          "text": "を",
+          "pronunciation": "wo",
+          "translation": "(object particle)"
+        },
+        {
+          "text": "押して",
+          "pronunciation": "oshite",
+          "translation": "press (te-form)"
+        },
+        {
+          "text": "ください",
+          "pronunciation": "kudasai",
+          "translation": "please"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-get-off-here",
+      "translation": "I want to get off here",
+      "text": "ここで降ります",
+      "pronunciation": "koko de orimasu",
+      "words": [
+        { "text": "ここ", "pronunciation": "koko", "translation": "here" },
+        {
+          "text": "で",
+          "pronunciation": "de",
+          "translation": "(location particle)"
+        },
+        {
+          "text": "降ります",
+          "pronunciation": "orimasu",
+          "translation": "get off / disembark"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-exit-front",
+      "translation": "Please exit from the front",
+      "text": "前からお降りください",
+      "pronunciation": "mae kara oori kudasai",
+      "words": [
+        { "text": "前", "pronunciation": "mae", "translation": "front" },
+        { "text": "から", "pronunciation": "kara", "translation": "from" },
+        {
+          "text": "お降り",
+          "pronunciation": "oori",
+          "translation": "exit / get off (honorific)"
+        },
+        {
+          "text": "ください",
+          "pronunciation": "kudasai",
+          "translation": "please"
+        }
+      ]
+    },
+    {
+      "id": "jp-bus-thank-you-driver",
+      "translation": "Thank you (to driver when exiting)",
+      "text": "ありがとうございます",
+      "pronunciation": "arigatou gozaimasu",
+      "words": []
+    }
+  ],
+  "words": [
+    {
+      "id": "jp-bus-w-bus-stop",
+      "translation": "bus stop",
+      "text": "バス停",
+      "pronunciation": "basutei"
+    },
+    {
+      "id": "jp-bus-w-route",
+      "translation": "route",
+      "text": "路線",
+      "pronunciation": "rosen"
+    },
+    {
+      "id": "jp-bus-w-fare",
+      "translation": "fare",
+      "text": "運賃",
+      "pronunciation": "unchin"
+    },
+    {
+      "id": "jp-bus-w-seat",
+      "translation": "seat",
+      "text": "座席",
+      "pronunciation": "zaseki"
+    },
+    {
+      "id": "jp-bus-w-next",
+      "translation": "next",
+      "text": "次",
+      "pronunciation": "tsugi"
+    },
+    {
+      "id": "jp-bus-w-last",
+      "translation": "last (final)",
+      "text": "最終",
+      "pronunciation": "saishuu"
+    },
+    {
+      "id": "jp-bus-w-first",
+      "translation": "first",
+      "text": "最初",
+      "pronunciation": "saisho"
+    },
+    {
+      "id": "jp-bus-w-exit",
+      "translation": "exit",
+      "text": "出口",
+      "pronunciation": "deguchi"
+    },
+    {
+      "id": "jp-bus-w-entrance",
+      "translation": "entrance",
+      "text": "入口",
+      "pronunciation": "iriguchi"
+    },
+    {
+      "id": "jp-bus-w-card",
+      "translation": "card",
+      "text": "カード",
+      "pronunciation": "kaado"
+    },
+    {
+      "id": "jp-bus-w-cash",
+      "translation": "cash",
+      "text": "現金",
+      "pronunciation": "genkin"
+    },
+    {
+      "id": "jp-bus-w-driver",
+      "translation": "driver",
+      "text": "運転手",
+      "pronunciation": "untenshu"
+    },
+    {
+      "id": "jp-bus-w-door",
+      "translation": "door",
+      "text": "ドア",
+      "pronunciation": "doa"
+    },
+    {
+      "id": "jp-bus-w-front",
+      "translation": "front",
+      "text": "前",
+      "pronunciation": "mae"
+    },
+    {
+      "id": "jp-bus-w-back",
+      "translation": "back",
+      "text": "後ろ",
+      "pronunciation": "ushiro"
+    },
+    {
+      "id": "jp-bus-w-timetable",
+      "translation": "timetable",
+      "text": "時刻表",
+      "pronunciation": "jikokuhyou"
+    },
+    {
+      "id": "jp-bus-w-terminal",
+      "translation": "bus terminal",
+      "text": "バスターミナル",
+      "pronunciation": "basu taaminaru"
+    },
+    {
+      "id": "jp-bus-w-transfer",
+      "translation": "transfer",
+      "text": "乗り換え",
+      "pronunciation": "norikae"
+    },
+    {
+      "id": "jp-bus-w-ic-card",
+      "translation": "IC card (transit card)",
+      "text": "ICカード",
+      "pronunciation": "aishii kaado"
+    },
+    {
+      "id": "jp-bus-w-priority-seat",
+      "translation": "priority seat",
+      "text": "優先席",
+      "pronunciation": "yuusenseki"
+    },
+    {
+      "id": "jp-bus-w-passenger",
+      "translation": "passenger",
+      "text": "乗客",
+      "pronunciation": "joukyaku"
+    },
+    {
+      "id": "jp-bus-w-button",
+      "translation": "button",
+      "text": "ボタン",
+      "pronunciation": "botan"
+    },
+    {
+      "id": "jp-bus-w-suica",
+      "translation": "Suica (transit IC card)",
+      "text": "Suica",
+      "pronunciation": "suika"
+    },
+    {
+      "id": "jp-bus-w-change",
+      "translation": "change (money)",
+      "text": "おつり",
+      "pronunciation": "otsuri"
+    },
+    {
+      "id": "jp-bus-w-ticket",
+      "translation": "ticket",
+      "text": "切符",
+      "pronunciation": "kippu"
+    },
+    {
+      "id": "jp-bus-w-departure",
+      "translation": "departure",
+      "text": "出発",
+      "pronunciation": "shuppatsu"
+    },
+    {
+      "id": "jp-bus-w-arrival",
+      "translation": "arrival",
+      "text": "到着",
+      "pronunciation": "touchaku"
+    },
+    {
+      "id": "jp-bus-w-day-pass",
+      "translation": "one-day pass",
+      "text": "一日乗車券",
+      "pronunciation": "ichinichi joushaken"
+    },
+    {
+      "id": "jp-bus-w-fare-box",
+      "translation": "fare box",
+      "text": "運賃箱",
+      "pronunciation": "unchinbako"
+    },
+    {
+      "id": "jp-bus-w-announcement",
+      "translation": "announcement",
+      "text": "アナウンス",
+      "pronunciation": "anaunsu"
+    }
+  ]
+}

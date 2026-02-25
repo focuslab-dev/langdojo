@@ -1,6 +1,6 @@
 import { useRef, useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Volume2, Heart } from "lucide-react";
+import { IconVolume, IconHeart } from "@/components/ui/Icons";
 import clsx from "clsx";
 import { Phrase, LanguageId } from "@/types";
 import { WordBreakdownModal } from "./WordBreakdownModal";
@@ -98,7 +98,7 @@ export const PhraseCard = ({
                     : {}
                 }
               >
-                <Volume2
+                <IconVolume
                   className={`w-5 h-5 transition-colors ${isSpeaking ? "text-blue-500" : "text-gray-400"}`}
                 />
               </motion.div>
@@ -117,9 +117,9 @@ export const PhraseCard = ({
                 isFavorite ? "Remove from favorites" : "Add to favorites"
               }
             >
-              <Heart
+              <IconHeart
                 className={`w-5 h-5 transition-colors ${
-                  isFavorite ? "fill-red-500 text-red-500" : "text-gray-400"
+                  isFavorite ? "text-red-500" : "text-gray-400"
                 }`}
               />
             </motion.button>

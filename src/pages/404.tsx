@@ -2,12 +2,13 @@ import Head from "next/head";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { BRAND_NAME } from "@/constants/brand";
 
 export default function Custom404() {
   return (
     <>
       <Head>
-        <title>Page Not Found | Lang Dojo</title>
+        <title>{`Page Not Found | ${BRAND_NAME}`}</title>
       </Head>
 
       <div className="min-h-screen bg-gray-50">

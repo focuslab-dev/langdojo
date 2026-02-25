@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BRAND_NAME } from "@/constants/brand";
 
 export function SiteFooter() {
   return (
@@ -10,21 +11,32 @@ export function SiteFooter() {
             href="/"
             className="flex items-center gap-1.5 font-semibold text-gray-900 hover:text-gray-700 transition-colors"
           >
-            <span className="text-lg">🥋</span>
-            Lang Dojo
+            {BRAND_NAME}
           </Link>
 
           <nav className="flex items-center gap-6 text-sm text-gray-500">
-            <Link href="/about" className="hover:text-gray-700 transition-colors">
+            <Link
+              href="/about"
+              className="hover:text-gray-700 transition-colors"
+            >
               About
             </Link>
-            <Link href="/terms" className="hover:text-gray-700 transition-colors">
+            <Link
+              href="/terms"
+              className="hover:text-gray-700 transition-colors"
+            >
               Terms
             </Link>
-            <Link href="/privacy" className="hover:text-gray-700 transition-colors">
+            <Link
+              href="/privacy"
+              className="hover:text-gray-700 transition-colors"
+            >
               Privacy
             </Link>
-            <Link href="/changelog" className="hover:text-gray-700 transition-colors">
+            <Link
+              href="/changelog"
+              className="hover:text-gray-700 transition-colors"
+            >
               Change Log
             </Link>
           </nav>

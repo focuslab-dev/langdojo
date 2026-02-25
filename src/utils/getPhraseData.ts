@@ -2,70 +2,70 @@ import { LanguageId, Phrase, PhraseCategory } from "@/types";
 import { FavoriteItem } from "@/hooks/useFavorites";
 
 // Japanese
-import japaneseBasics from "@/data/japanese/basics.json";
-import japaneseCafe from "@/data/japanese/cafe.json";
-import japaneseRestaurant from "@/data/japanese/restaurant.json";
-import japaneseSupermarket from "@/data/japanese/supermarket.json";
-import japaneseTaxi from "@/data/japanese/taxi.json";
-import japaneseTrain from "@/data/japanese/train.json";
-import japaneseBus from "@/data/japanese/bus.json";
-import japaneseNumbers from "@/data/japanese/numbers.json";
-import japaneseHotel from "@/data/japanese/hotel.json";
+import japaneseBasics from "@/data/travel-essentials/japanese/basics.json";
+import japaneseCafe from "@/data/travel-essentials/japanese/cafe.json";
+import japaneseRestaurant from "@/data/travel-essentials/japanese/restaurant.json";
+import japaneseSupermarket from "@/data/travel-essentials/japanese/supermarket.json";
+import japaneseTaxi from "@/data/travel-essentials/japanese/taxi.json";
+import japaneseTrain from "@/data/travel-essentials/japanese/train.json";
+import japaneseBus from "@/data/travel-essentials/japanese/bus.json";
+import japaneseNumbers from "@/data/travel-essentials/japanese/numbers.json";
+import japaneseHotel from "@/data/travel-essentials/japanese/hotel.json";
 
 // Mandarin
-import mandarinBasics from "@/data/mandarin/basics.json";
-import mandarinCafe from "@/data/mandarin/cafe.json";
-import mandarinRestaurant from "@/data/mandarin/restaurant.json";
-import mandarinSupermarket from "@/data/mandarin/supermarket.json";
-import mandarinTaxi from "@/data/mandarin/taxi.json";
-import mandarinTrain from "@/data/mandarin/train.json";
-import mandarinBus from "@/data/mandarin/bus.json";
-import mandarinNumbers from "@/data/mandarin/numbers.json";
-import mandarinHotel from "@/data/mandarin/hotel.json";
+import mandarinBasics from "@/data/travel-essentials/mandarin/basics.json";
+import mandarinCafe from "@/data/travel-essentials/mandarin/cafe.json";
+import mandarinRestaurant from "@/data/travel-essentials/mandarin/restaurant.json";
+import mandarinSupermarket from "@/data/travel-essentials/mandarin/supermarket.json";
+import mandarinTaxi from "@/data/travel-essentials/mandarin/taxi.json";
+import mandarinTrain from "@/data/travel-essentials/mandarin/train.json";
+import mandarinBus from "@/data/travel-essentials/mandarin/bus.json";
+import mandarinNumbers from "@/data/travel-essentials/mandarin/numbers.json";
+import mandarinHotel from "@/data/travel-essentials/mandarin/hotel.json";
 
 // Thai
-import thaiBasics from "@/data/thai/basics.json";
-import thaiCafe from "@/data/thai/cafe.json";
-import thaiRestaurant from "@/data/thai/restaurant.json";
-import thaiSupermarket from "@/data/thai/supermarket.json";
-import thaiTaxi from "@/data/thai/taxi.json";
-import thaiTrain from "@/data/thai/train.json";
-import thaiBus from "@/data/thai/bus.json";
-import thaiNumbers from "@/data/thai/numbers.json";
-import thaiHotel from "@/data/thai/hotel.json";
+import thaiBasics from "@/data/travel-essentials/thai/basics.json";
+import thaiCafe from "@/data/travel-essentials/thai/cafe.json";
+import thaiRestaurant from "@/data/travel-essentials/thai/restaurant.json";
+import thaiSupermarket from "@/data/travel-essentials/thai/supermarket.json";
+import thaiTaxi from "@/data/travel-essentials/thai/taxi.json";
+import thaiTrain from "@/data/travel-essentials/thai/train.json";
+import thaiBus from "@/data/travel-essentials/thai/bus.json";
+import thaiNumbers from "@/data/travel-essentials/thai/numbers.json";
+import thaiHotel from "@/data/travel-essentials/thai/hotel.json";
 
 // Korean
-import koreanBasics from "@/data/korean/basics.json";
-import koreanCafe from "@/data/korean/cafe.json";
-import koreanRestaurant from "@/data/korean/restaurant.json";
-import koreanSupermarket from "@/data/korean/supermarket.json";
-import koreanTaxi from "@/data/korean/taxi.json";
-import koreanTrain from "@/data/korean/train.json";
-import koreanBus from "@/data/korean/bus.json";
-import koreanNumbers from "@/data/korean/numbers.json";
-import koreanHotel from "@/data/korean/hotel.json";
+import koreanBasics from "@/data/travel-essentials/korean/basics.json";
+import koreanCafe from "@/data/travel-essentials/korean/cafe.json";
+import koreanRestaurant from "@/data/travel-essentials/korean/restaurant.json";
+import koreanSupermarket from "@/data/travel-essentials/korean/supermarket.json";
+import koreanTaxi from "@/data/travel-essentials/korean/taxi.json";
+import koreanTrain from "@/data/travel-essentials/korean/train.json";
+import koreanBus from "@/data/travel-essentials/korean/bus.json";
+import koreanNumbers from "@/data/travel-essentials/korean/numbers.json";
+import koreanHotel from "@/data/travel-essentials/korean/hotel.json";
 
 // French
-import frenchBasics from "@/data/french/basics.json";
-import frenchCafe from "@/data/french/cafe.json";
-import frenchRestaurant from "@/data/french/restaurant.json";
-import frenchSupermarket from "@/data/french/supermarket.json";
-import frenchTaxi from "@/data/french/taxi.json";
-import frenchTrain from "@/data/french/train.json";
-import frenchBus from "@/data/french/bus.json";
-import frenchNumbers from "@/data/french/numbers.json";
-import frenchHotel from "@/data/french/hotel.json";
+import frenchBasics from "@/data/travel-essentials/french/basics.json";
+import frenchCafe from "@/data/travel-essentials/french/cafe.json";
+import frenchRestaurant from "@/data/travel-essentials/french/restaurant.json";
+import frenchSupermarket from "@/data/travel-essentials/french/supermarket.json";
+import frenchTaxi from "@/data/travel-essentials/french/taxi.json";
+import frenchTrain from "@/data/travel-essentials/french/train.json";
+import frenchBus from "@/data/travel-essentials/french/bus.json";
+import frenchNumbers from "@/data/travel-essentials/french/numbers.json";
+import frenchHotel from "@/data/travel-essentials/french/hotel.json";
 
 // Spanish
-import spanishBasics from "@/data/spanish/basics.json";
-import spanishCafe from "@/data/spanish/cafe.json";
-import spanishRestaurant from "@/data/spanish/restaurant.json";
-import spanishSupermarket from "@/data/spanish/supermarket.json";
-import spanishTaxi from "@/data/spanish/taxi.json";
-import spanishTrain from "@/data/spanish/train.json";
-import spanishBus from "@/data/spanish/bus.json";
-import spanishNumbers from "@/data/spanish/numbers.json";
-import spanishHotel from "@/data/spanish/hotel.json";
+import spanishBasics from "@/data/travel-essentials/spanish/basics.json";
+import spanishCafe from "@/data/travel-essentials/spanish/cafe.json";
+import spanishRestaurant from "@/data/travel-essentials/spanish/restaurant.json";
+import spanishSupermarket from "@/data/travel-essentials/spanish/supermarket.json";
+import spanishTaxi from "@/data/travel-essentials/spanish/taxi.json";
+import spanishTrain from "@/data/travel-essentials/spanish/train.json";
+import spanishBus from "@/data/travel-essentials/spanish/bus.json";
+import spanishNumbers from "@/data/travel-essentials/spanish/numbers.json";
+import spanishHotel from "@/data/travel-essentials/spanish/hotel.json";
 
 export const phraseData: Record<LanguageId, Record<string, PhraseCategory>> = {
   japanese: {

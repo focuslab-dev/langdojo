@@ -4,9 +4,13 @@
 
 ```
 data/
-  {language}/
-    {category}.json
+  {content-pack}/
+    {language}/
+      {category}.json
+      00_changelog.yaml
 ```
+
+Currently the only content pack is `travel-essentials`.
 
 ---
 
@@ -70,6 +74,8 @@ All IDs must be unique within a file. Descriptors should be short, lowercase, hy
 **Mix both sides of the conversation.** Include both what the learner says ("I'll have this one") and what they'll hear from staff ("Are you ready to order?"). A traveler needs to both speak and comprehend.
 
 **Prefer concrete over abstract.** Instead of a template like "...アレルギーがあります" (I'm allergic to...), use a complete example like "卵アレルギーがあります" (I have an egg allergy). Concrete phrases are more useful for flashcard export and pattern recognition.
+
+**One phrase, one form.** Never combine alternatives with "/" in a single phrase (e.g. "前/後ろからお降りください"). Pick one concrete form and use that. If both variants are important, create separate phrases for each.
 
 **Include culturally significant phrases.** For Japanese restaurants, いただきます and ごちそうさまでした are essential. For Thai, ending particles (ครับ/ค่ะ) matter. Don't reduce the list to pure utility — cultural fluency is part of the product.
 

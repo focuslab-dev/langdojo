@@ -119,8 +119,8 @@
     {
       "id": "jp-rest-see-menu",
       "translation": "Can I see the menu?",
-      "text": "メニューを見せてください",
-      "pronunciation": "menyuu wo misete kudasai",
+      "text": "メニューをください",
+      "pronunciation": "menyuu wo kudasai",
       "words": [
         {
           "text": "メニュー",
@@ -133,14 +133,9 @@
           "translation": "(object particle)"
         },
         {
-          "text": "見せて",
-          "pronunciation": "misete",
-          "translation": "show (te-form)"
-        },
-        {
           "text": "ください",
           "pronunciation": "kudasai",
-          "translation": "please"
+          "translation": "please give me"
         }
       ]
     },
@@ -294,6 +289,52 @@
       ]
     },
     {
+      "id": "jp-rest-oomori-onegaishimasu",
+      "translation": "Large serving, please",
+      "text": "大盛りでお願いします",
+      "pronunciation": "oomori de onegaishimasu",
+      "words": [
+        {
+          "text": "大盛り",
+          "pronunciation": "oomori",
+          "translation": "large serving"
+        },
+        {
+          "text": "で",
+          "pronunciation": "de",
+          "translation": "(by/with/as - particle indicating manner)"
+        },
+        {
+          "text": "お願いします",
+          "pronunciation": "onegaishimasu",
+          "translation": "please (request)"
+        }
+      ]
+    },
+    {
+      "id": "jp-rest-sukuname-onegaishimasu",
+      "translation": "Small portion, please",
+      "text": "少なめでお願いします",
+      "pronunciation": "sukuname de onegaishimasu",
+      "words": [
+        {
+          "text": "少なめ",
+          "pronunciation": "sukuname",
+          "translation": "small portion / less"
+        },
+        {
+          "text": "で",
+          "pronunciation": "de",
+          "translation": "(by/with/as - particle indicating manner)"
+        },
+        {
+          "text": "お願いします",
+          "pronunciation": "onegaishimasu",
+          "translation": "please (request)"
+        }
+      ]
+    },
+    {
       "id": "jp-rest-one-more",
       "translation": "One more, please",
       "text": "もう一つください",
@@ -390,6 +431,29 @@
           "text": "か",
           "pronunciation": "ka",
           "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-rest-cash-only",
+      "translation": "Cash only",
+      "text": "現金のみになります",
+      "pronunciation": "genkin nomi ni narimasu",
+      "words": [
+        {
+          "text": "現金",
+          "pronunciation": "genkin",
+          "translation": "cash"
+        },
+        {
+          "text": "のみ",
+          "pronunciation": "nomi",
+          "translation": "only"
+        },
+        {
+          "text": "になります",
+          "pronunciation": "ni narimasu",
+          "translation": "is (polite form)"
         }
       ]
     },

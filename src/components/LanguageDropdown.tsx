@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronDown } from "lucide-react";
+import { IconChevronDown } from "@/components/ui/Icons";
 import { Language } from "@/types";
 import { languages } from "@/utils/languages";
 
@@ -49,7 +49,7 @@ export const LanguageDropdown = ({
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.2 }}
         >
-          <ChevronDown className="w-4 h-4 text-gray-500" />
+          <IconChevronDown className="w-4 h-4 text-gray-500" />
         </motion.div>
       </button>
 

@@ -1,19 +1,25 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
+import { GetStaticPaths, GetStaticProps } from "next";
 import {
-  Download,
-  Loader2,
-  RefreshCw,
-  BookOpen,
-  Volume2,
-  Keyboard,
-  ChevronDown,
-  Check,
-} from "lucide-react";
+  IconDownload,
+  IconSpinner,
+  IconRefresh,
+  IconBookOpen,
+  IconVolume,
+  IconKeyboard,
+  IconChevronDown,
+  IconCheck,
+} from "@/components/ui/Icons";
 import { Button } from "@/components/ui/Button";
-import { LanguageId, Phrase } from "@/types";
-import { categories, getLanguageById } from "@/utils/languages";
+import { LanguageId, Language, Package, Phrase } from "@/types";
+import {
+  languages,
+  categories,
+  packages,
+  getLanguageBySlug,
+} from "@/utils/languages";
 import {
   getDownloadItemsForCategories,
   getDownloadItemsForFavorites,
@@ -24,6 +30,7 @@ import { Card } from "@/components/ui/Card";
 import { FavoriteItem } from "@/hooks/useFavorites";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { BRAND_NAME } from "@/constants/brand";
 
 const DATA_CATEGORIES = categories.filter((c) => c.id !== "favorites");
 const ALL_CATEGORY_IDS = DATA_CATEGORIES.map((c) => c.id);
@@ -39,9 +46,33 @@ function triggerDownload(blob: Blob, filename: string) {
   URL.revokeObjectURL(url);
 }
 
-export default function DownloadPage() {
+interface Props {
+  pkg: Package;
+  language: Language;
+}
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const paths = packages.flatMap((pkg) =>
+    languages.map((lang) => ({
+      params: { package: pkg.slug, lang: lang.slug },
+    })),
+  );
+  return { paths, fallback: false };
+};
+
+export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
+  const pkgSlug = params?.package as string;
+  const langSlug = params?.lang as string;
+  const pkg = packages.find((p) => p.slug === pkgSlug);
+  const language = getLanguageBySlug(langSlug);
+  if (!pkg || !language) return { notFound: true };
+
+  return { props: { pkg, language } };
+};
+
+export default function DownloadPage({ pkg, language }: Props) {
   const router = useRouter();
-  const { lang, cat } = router.query;
+  const { cat } = router.query;
   const [ankiLoading, setAnkiLoading] = useState(false);
   const [favoriteItems, setFavoriteItems] = useState<Phrase[] | null>(null);
   const [selectedCategories, setSelectedCategories] =
@@ -49,9 +80,8 @@ export default function DownloadPage() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  const languageId = lang as LanguageId;
+  const languageId = language.id as LanguageId;
   const isFavorites = cat === "favorites";
-  const language = languageId ? getLanguageById(languageId) : undefined;
 
   useEffect(() => {
     if (!isFavorites || !languageId) return;
@@ -64,7 +94,6 @@ export default function DownloadPage() {
     }
   }, [isFavorites, languageId]);
 
-  // Close dropdown on outside click
   useEffect(() => {
     function handleClick(e: MouseEvent) {
       if (
@@ -78,34 +107,7 @@ export default function DownloadPage() {
     return () => document.removeEventListener("mousedown", handleClick);
   }, []);
 
-  // Invalid params
-  if (router.isReady && !isFavorites && !language) {
-    return (
-      <div className="min-h-screen bg-gray-50">
-        <Head>
-          <title>Download | Lang Dojo</title>
-        </Head>
-        <SiteHeader />
-        <div className="flex items-center justify-center p-4 py-16">
-          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 max-w-md w-full text-center">
-            <div className="text-4xl mb-4">🤔</div>
-            <h1 className="text-xl font-bold text-gray-800 mb-2">
-              Invalid parameters
-            </h1>
-            <p className="text-sm text-gray-500 mb-6">
-              The language you specified doesn&apos;t exist.
-            </p>
-            <Button variant="link-blue" href="/">
-              Back to home
-            </Button>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  // Loading state
-  if (!router.isReady || !language || (isFavorites && favoriteItems === null)) {
+  if (!router.isReady || (isFavorites && favoriteItems === null)) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="animate-pulse text-gray-400">Loading...</div>
@@ -135,10 +137,12 @@ export default function DownloadPage() {
     : isAllSelected
       ? `${languageId}-all`
       : `${languageId}-${selectedCategories.length}cat`;
+  const langHref = `/${pkg.slug}/${language.slug}`;
   const breadcrumbs = isFavorites
     ? [{ label: "Download", href: "#" }]
     : [
-        { label: language.name, href: `/${language.slug}` },
+        { label: pkg.name, href: `/${pkg.slug}` },
+        { label: language.name, href: langHref },
         { label: "Download", href: "#" },
       ];
 
@@ -173,7 +177,7 @@ export default function DownloadPage() {
     <div className="min-h-screen bg-gray-50">
       <Head>
         <title>
-          Download {displayName} — {language.name} | Lang Dojo
+          {`Download ${displayName} — ${language.name} | ${BRAND_NAME}`}
         </title>
       </Head>
 
@@ -209,7 +213,7 @@ export default function DownloadPage() {
                       ? "No categories selected"
                       : `${selectedCategories.length} of ${ALL_CATEGORY_IDS.length} categories`}
                 </span>
-                <ChevronDown
+                <IconChevronDown
                   className={`w-4 h-4 text-gray-400 transition-transform ${dropdownOpen ? "rotate-180" : ""}`}
                 />
               </button>
@@ -229,7 +233,7 @@ export default function DownloadPage() {
                       }`}
                     >
                       {isAllSelected && (
-                        <Check className="w-3 h-3 text-white" />
+                        <IconCheck className="w-3 h-3 text-white" />
                       )}
                     </span>
                     {isAllSelected ? "Deselect all" : "Select all"}
@@ -252,7 +256,7 @@ export default function DownloadPage() {
                           }`}
                         >
                           {isSelected && (
-                            <Check className="w-3 h-3 text-white" />
+                            <IconCheck className="w-3 h-3 text-white" />
                           )}
                         </span>
                         <span>{cat.emoji}</span>
@@ -291,12 +295,12 @@ export default function DownloadPage() {
           >
             {ankiLoading ? (
               <>
-                <Loader2 className="w-4 h-4 animate-spin" />
+                <IconSpinner className="w-4 h-4 animate-spin" />
                 Generating...
               </>
             ) : (
               <>
-                <Download className="w-4 h-4" />
+                <IconDownload className="w-4 h-4" />
                 Download .apkg
               </>
             )}
@@ -331,7 +335,7 @@ export default function DownloadPage() {
             disabled={items.length === 0}
             className="mt-4"
           >
-            <Download className="w-4 h-4" />
+            <IconDownload className="w-4 h-4" />
             Download .csv
           </Button>
         </Card>
@@ -368,24 +372,24 @@ export default function DownloadPage() {
           <ul className="mt-4 space-y-3">
             {[
               {
-                Icon: RefreshCw,
+                Icon: IconRefresh,
                 title: "Flexible spaced repetition",
                 description:
                   "Review words at the right time, with different quiz formats",
               },
               {
-                Icon: BookOpen,
+                Icon: IconBookOpen,
                 title: "Embedded dictionaries",
                 description: "Look up words without leaving the app",
               },
               {
-                Icon: Volume2,
+                Icon: IconVolume,
                 title: "Human-level text-to-speech",
                 description:
                   "Hear natural pronunciations for any word or phrase",
               },
               {
-                Icon: Keyboard,
+                Icon: IconKeyboard,
                 title: "Typing quiz",
                 description: "Reinforce vocabulary by actively recalling it",
               },
@@ -411,9 +415,8 @@ export default function DownloadPage() {
             Try Memozora free →
           </Button>
         </div>
-
-        <SiteFooter />
       </div>
+      <SiteFooter />
     </div>
   );
 }

@@ -2,15 +2,16 @@ import Head from "next/head";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { BRAND_NAME } from "@/constants/brand";
 
 export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>About | Lang Dojo</title>
+        <title>{`About | ${BRAND_NAME}`}</title>
         <meta
           name="description"
-          content="Learn about Lang Dojo — a free language phrase and vocabulary database for travelers and language learners."
+          content={`Learn about ${BRAND_NAME} — a free language phrase and vocabulary database for travelers and language learners.`}
         />
       </Head>
 
@@ -19,12 +20,12 @@ export default function AboutPage() {
 
         <div className="max-w-2xl mx-auto px-4 py-12">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
-            About Lang Dojo
+            About {BRAND_NAME}
           </h1>
 
           <div className="prose-custom">
             <p>
-              Lang Dojo is a free, open word and phrase database built for
+              {BRAND_NAME} is a free, open word and phrase database built for
               travelers and language learners. It covers everyday situations —
               ordering at cafes, taking taxis, checking into hotels — across
               multiple languages.
@@ -46,14 +47,14 @@ export default function AboutPage() {
 
             <h2>Using our data</h2>
             <p>
-              Anyone is free to use Lang Dojo data for personal or educational
-              purposes. For commercial use, please credit Lang Dojo by FocusLab
+              Anyone is free to use {BRAND_NAME} data for personal or educational
+              purposes. For commercial use, please credit {BRAND_NAME} by FocusLab
               LLC.
             </p>
 
             <h2>Who we are</h2>
             <p>
-              Lang Dojo is built and maintained by{" "}
+              {BRAND_NAME} is built and maintained by{" "}
               <strong>FocusLab LLC</strong>.
             </p>
             <p>

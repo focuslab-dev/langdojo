@@ -293,30 +293,6 @@
       ]
     },
     {
-      "id": "jp-num-my-phone-number",
-      "translation": "What's your phone number?",
-      "text": "電話番号は何ですか？",
-      "pronunciation": "denwa bangou wa nan desuka?",
-      "words": [
-        {
-          "text": "電話番号",
-          "pronunciation": "denwa bangou",
-          "translation": "phone number"
-        },
-        {
-          "text": "は",
-          "pronunciation": "wa",
-          "translation": "(topic particle)"
-        },
-        { "text": "何", "pronunciation": "nan", "translation": "what" },
-        {
-          "text": "ですか",
-          "pronunciation": "desuka",
-          "translation": "is it? (question)"
-        }
-      ]
-    },
-    {
       "id": "jp-num-how-old",
       "translation": "How old are you?",
       "text": "おいくつですか？",

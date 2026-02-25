@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Github } from "lucide-react";
+import { IconGithub } from "@/components/ui/Icons";
+import { BRAND_NAME } from "@/constants/brand";
 
 interface Breadcrumb {
   label: string;
@@ -17,13 +18,12 @@ export function SiteHeader({ breadcrumbs, showTagline }: SiteHeaderProps) {
       <div className="max-w-3xl mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Brand + Breadcrumbs */}
-          <div className="flex items-center gap-1.5 text-sm min-w-0">
+          <div className="flex items-center gap-1.5 min-w-0">
             <Link
               href="/"
-              className="flex items-center gap-1.5 font-semibold text-gray-900 hover:text-gray-700 transition-colors shrink-0"
+              className="flex text-xl items-center gap-1.5 font-bold text-gray-900 hover:text-gray-700 transition-colors shrink-0"
             >
-              <span className="text-lg">🥋</span>
-              Lang Dojo
+              {BRAND_NAME}
             </Link>
 
             {breadcrumbs?.map((crumb, i) => {
@@ -31,7 +31,7 @@ export function SiteHeader({ breadcrumbs, showTagline }: SiteHeaderProps) {
               return (
                 <span
                   key={crumb.href}
-                  className="flex items-center gap-1.5 min-w-0"
+                  className="flex items-center gap-1.5 min-w-0 text-sm"
                 >
                   <span className="text-gray-300">›</span>
                   {isLast ? (
@@ -59,12 +59,14 @@ export function SiteHeader({ breadcrumbs, showTagline }: SiteHeaderProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Github className="w-5 h-5" />
+            <IconGithub className="w-5 h-5" />
           </a>
         </div>
 
         {showTagline && (
-          <p className="text-xs text-gray-400 mt-1">Free & open source</p>
+          <p className="text-xs text-gray-400 mt-1">
+            Free & open language decks
+          </p>
         )}
       </div>
     </header>

@@ -1,0 +1,630 @@
+{
+  "categoryId": "supermarket",
+  "languageId": "japanese",
+  "phrases": [
+    {
+      "id": "jp-super-excuse-me",
+      "translation": "Excuse me",
+      "text": "すみません",
+      "pronunciation": "sumimasen",
+      "words": []
+    },
+    {
+      "id": "jp-super-looking-for",
+      "translation": "I'm looking for milk",
+      "text": "牛乳を探しています",
+      "pronunciation": "gyuunyuu wo sagashite imasu",
+      "words": [
+        { "text": "牛乳", "pronunciation": "gyuunyuu", "translation": "milk" },
+        {
+          "text": "を",
+          "pronunciation": "wo",
+          "translation": "(object particle)"
+        },
+        {
+          "text": "探しています",
+          "pronunciation": "sagashite imasu",
+          "translation": "looking for"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-where-is",
+      "translation": "Where is the bread?",
+      "text": "パンはどこですか？",
+      "pronunciation": "pan wa doko desuka?",
+      "words": [
+        { "text": "パン", "pronunciation": "pan", "translation": "bread" },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        { "text": "どこ", "pronunciation": "doko", "translation": "where" },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-do-you-have",
+      "translation": "Do you have onigiri?",
+      "text": "おにぎりはありますか？",
+      "pronunciation": "onigiri wa arimasuka?",
+      "words": [
+        {
+          "text": "おにぎり",
+          "pronunciation": "onigiri",
+          "translation": "onigiri (rice ball)"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "あります",
+          "pronunciation": "arimasu",
+          "translation": "have / exist"
+        },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-is-fresh",
+      "translation": "Is this fresh?",
+      "text": "これは新鮮ですか？",
+      "pronunciation": "kore wa shinsen desuka?",
+      "words": [
+        { "text": "これ", "pronunciation": "kore", "translation": "this" },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        { "text": "新鮮", "pronunciation": "shinsen", "translation": "fresh" },
+        {
+          "text": "ですか",
+          "pronunciation": "desuka",
+          "translation": "is? (question)"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-organic",
+      "translation": "Do you have organic ones?",
+      "text": "オーガニックのものはありますか？",
+      "pronunciation": "ooganikku no mono wa arimasuka?",
+      "words": [
+        {
+          "text": "オーガニック",
+          "pronunciation": "ooganikku",
+          "translation": "organic"
+        },
+        { "text": "の", "pronunciation": "no", "translation": "of" },
+        {
+          "text": "もの",
+          "pronunciation": "mono",
+          "translation": "things"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "ありますか",
+          "pronunciation": "arimasuka",
+          "translation": "is there? / do you have?"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-how-much",
+      "translation": "How much is this?",
+      "text": "これはいくらですか？",
+      "pronunciation": "kore wa ikura desuka?",
+      "words": [
+        { "text": "これ", "pronunciation": "kore", "translation": "this" },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "いくら",
+          "pronunciation": "ikura",
+          "translation": "how much"
+        },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-self-checkout",
+      "translation": "Where is the self-checkout?",
+      "text": "セルフレジはどこですか？",
+      "pronunciation": "serufu reji wa doko desuka?",
+      "words": [
+        {
+          "text": "セルフレジ",
+          "pronunciation": "serufu reji",
+          "translation": "self-checkout"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        { "text": "どこ", "pronunciation": "doko", "translation": "where" },
+        { "text": "ですか", "pronunciation": "desuka", "translation": "is?" }
+      ]
+    },
+    {
+      "id": "jp-super-point-card",
+      "translation": "Do you have a point card?",
+      "text": "ポイントカードはお持ちですか？",
+      "pronunciation": "pointo kaado wa omochi desuka?",
+      "words": [
+        {
+          "text": "ポイントカード",
+          "pronunciation": "pointo kaado",
+          "translation": "point card / loyalty card"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "お持ち",
+          "pronunciation": "omochi",
+          "translation": "have (honorific)"
+        },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-total-is",
+      "translation": "Your total is 1,580 yen",
+      "text": "お会計は1,580円です",
+      "pronunciation": "okaikei wa sen gohyaku hachijuu en desu",
+      "words": [
+        {
+          "text": "お会計",
+          "pronunciation": "okaikei",
+          "translation": "total / bill"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "1,580",
+          "pronunciation": "sen gohyaku hachijuu",
+          "translation": "1,580"
+        },
+        { "text": "円", "pronunciation": "en", "translation": "yen" },
+        { "text": "です", "pronunciation": "desu", "translation": "(it) is" }
+      ]
+    },
+    {
+      "id": "jp-super-need-bag-q",
+      "translation": "Do you need a bag?",
+      "text": "袋はご利用ですか？",
+      "pronunciation": "fukuro wa goriyou desuka?",
+      "words": [
+        { "text": "袋", "pronunciation": "fukuro", "translation": "bag" },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "ご利用",
+          "pronunciation": "goriyou",
+          "translation": "use (honorific)"
+        },
+        { "text": "です", "pronunciation": "desu", "translation": "(copula)" },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-bag-please",
+      "translation": "A bag, please",
+      "text": "袋をお願いします",
+      "pronunciation": "fukuro wo onegaishimasu",
+      "words": [
+        { "text": "袋", "pronunciation": "fukuro", "translation": "bag" },
+        {
+          "text": "を",
+          "pronunciation": "wo",
+          "translation": "(object particle)"
+        },
+        {
+          "text": "お願いします",
+          "pronunciation": "onegaishimasu",
+          "translation": "please"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-no-bag",
+      "translation": "I don't need a bag",
+      "text": "袋はいりません",
+      "pronunciation": "fukuro wa irimasen",
+      "words": [
+        { "text": "袋", "pronunciation": "fukuro", "translation": "bag" },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "いりません",
+          "pronunciation": "irimasen",
+          "translation": "don't need"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-chopsticks",
+      "translation": "Can I get chopsticks?",
+      "text": "お箸をください",
+      "pronunciation": "ohashi wo kudasai",
+      "words": [
+        {
+          "text": "お箸",
+          "pronunciation": "ohashi",
+          "translation": "chopsticks (polite)"
+        },
+        {
+          "text": "を",
+          "pronunciation": "wo",
+          "translation": "(object particle)"
+        },
+        {
+          "text": "ください",
+          "pronunciation": "kudasai",
+          "translation": "please give me"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-cash-or-card",
+      "translation": "Cash or card?",
+      "text": "現金ですか、カードですか？",
+      "pronunciation": "genkin desuka, kaado desuka?",
+      "words": [
+        { "text": "現金", "pronunciation": "genkin", "translation": "cash" },
+        {
+          "text": "ですか",
+          "pronunciation": "desuka",
+          "translation": "is it? (question)"
+        },
+        { "text": "カード", "pronunciation": "kaado", "translation": "card" },
+        {
+          "text": "ですか",
+          "pronunciation": "desuka",
+          "translation": "is it? (question)"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-pay-by-card",
+      "translation": "I'll pay by card",
+      "text": "カードで払います",
+      "pronunciation": "kaado de haraimasu",
+      "words": [
+        { "text": "カード", "pronunciation": "kaado", "translation": "card" },
+        {
+          "text": "で",
+          "pronunciation": "de",
+          "translation": "by (means particle)"
+        },
+        {
+          "text": "払います",
+          "pronunciation": "haraimasu",
+          "translation": "will pay"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-pay-cash",
+      "translation": "I'll pay with cash",
+      "text": "現金で払います",
+      "pronunciation": "genkin de haraimasu",
+      "words": [
+        { "text": "現金", "pronunciation": "genkin", "translation": "cash" },
+        {
+          "text": "で",
+          "pronunciation": "de",
+          "translation": "by (means particle)"
+        },
+        {
+          "text": "払います",
+          "pronunciation": "haraimasu",
+          "translation": "will pay"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-receipt-needed",
+      "translation": "Do you need a receipt?",
+      "text": "レシートは要りますか？",
+      "pronunciation": "reshiito wa irimasu ka?",
+      "words": [
+        {
+          "text": "レシート",
+          "pronunciation": "reshiito",
+          "translation": "receipt"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "要ります",
+          "pronunciation": "irimasu",
+          "translation": "need / want (polite)"
+        },
+        {
+          "text": "か",
+          "pronunciation": "ka",
+          "translation": "(question particle)"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-receipt-please",
+      "translation": "Receipt, please",
+      "text": "レシートをお願いします",
+      "pronunciation": "reshiito wo onegaishimasu",
+      "words": [
+        {
+          "text": "レシート",
+          "pronunciation": "reshiito",
+          "translation": "receipt"
+        },
+        {
+          "text": "を",
+          "pronunciation": "wo",
+          "translation": "(object particle)"
+        },
+        {
+          "text": "お願いします",
+          "pronunciation": "onegaishimasu",
+          "translation": "please"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-no-receipt",
+      "translation": "I don't need a receipt",
+      "text": "レシートは要りません",
+      "pronunciation": "reshiito wa irimasen",
+      "words": [
+        {
+          "text": "レシート",
+          "pronunciation": "reshiito",
+          "translation": "receipt"
+        },
+        {
+          "text": "は",
+          "pronunciation": "wa",
+          "translation": "(topic particle)"
+        },
+        {
+          "text": "要りません",
+          "pronunciation": "irimasen",
+          "translation": "don't need (polite)"
+        }
+      ]
+    },
+    {
+      "id": "jp-super-thank-you",
+      "translation": "Thank you",
+      "text": "ありがとうございます",
+      "pronunciation": "arigatou gozaimasu",
+      "words": []
+    }
+  ],
+  "words": [
+    {
+      "id": "jp-super-w-water",
+      "translation": "water",
+      "text": "水",
+      "pronunciation": "mizu"
+    },
+    {
+      "id": "jp-super-w-milk",
+      "translation": "milk",
+      "text": "牛乳",
+      "pronunciation": "gyuunyuu"
+    },
+    {
+      "id": "jp-super-w-bread",
+      "translation": "bread",
+      "text": "パン",
+      "pronunciation": "pan"
+    },
+    {
+      "id": "jp-super-w-eggs",
+      "translation": "eggs",
+      "text": "卵",
+      "pronunciation": "tamago"
+    },
+    {
+      "id": "jp-super-w-rice",
+      "translation": "rice",
+      "text": "お米",
+      "pronunciation": "okome"
+    },
+    {
+      "id": "jp-super-w-fruit",
+      "translation": "fruit",
+      "text": "果物",
+      "pronunciation": "kudamono"
+    },
+    {
+      "id": "jp-super-w-snack",
+      "translation": "snack",
+      "text": "お菓子",
+      "pronunciation": "okashi"
+    },
+    {
+      "id": "jp-super-w-candy",
+      "translation": "candy",
+      "text": "飴",
+      "pronunciation": "ame"
+    },
+    {
+      "id": "jp-super-w-bento",
+      "translation": "bento (lunch box)",
+      "text": "弁当",
+      "pronunciation": "bentou"
+    },
+    {
+      "id": "jp-super-w-onigiri",
+      "translation": "onigiri (rice ball)",
+      "text": "おにぎり",
+      "pronunciation": "onigiri"
+    },
+    {
+      "id": "jp-super-w-bag",
+      "translation": "bag",
+      "text": "袋",
+      "pronunciation": "fukuro"
+    },
+    {
+      "id": "jp-super-w-receipt",
+      "translation": "receipt",
+      "text": "レシート",
+      "pronunciation": "reshiito"
+    },
+    {
+      "id": "jp-super-w-cash",
+      "translation": "cash",
+      "text": "現金",
+      "pronunciation": "genkin"
+    },
+    {
+      "id": "jp-super-w-card",
+      "translation": "card",
+      "text": "カード",
+      "pronunciation": "kaado"
+    },
+    {
+      "id": "jp-super-w-change",
+      "translation": "change",
+      "text": "お釣り",
+      "pronunciation": "otsuri"
+    },
+    {
+      "id": "jp-super-w-price",
+      "translation": "price",
+      "text": "値段",
+      "pronunciation": "nedan"
+    },
+    {
+      "id": "jp-super-w-cheap",
+      "translation": "cheap",
+      "text": "安い",
+      "pronunciation": "yasui"
+    },
+    {
+      "id": "jp-super-w-expensive",
+      "translation": "expensive",
+      "text": "高い",
+      "pronunciation": "takai"
+    },
+    {
+      "id": "jp-super-w-entrance",
+      "translation": "entrance",
+      "text": "入口",
+      "pronunciation": "iriguchi"
+    },
+    {
+      "id": "jp-super-w-exit",
+      "translation": "exit",
+      "text": "出口",
+      "pronunciation": "deguchi"
+    },
+    {
+      "id": "jp-super-w-juice",
+      "translation": "juice",
+      "text": "ジュース",
+      "pronunciation": "juusu"
+    },
+    {
+      "id": "jp-super-w-alcohol",
+      "translation": "alcohol / sake",
+      "text": "お酒",
+      "pronunciation": "osake"
+    },
+    {
+      "id": "jp-super-w-frozen",
+      "translation": "frozen food",
+      "text": "冷凍食品",
+      "pronunciation": "reitou shokuhin"
+    },
+    {
+      "id": "jp-super-w-vegetables",
+      "translation": "vegetables",
+      "text": "野菜",
+      "pronunciation": "yasai"
+    },
+    {
+      "id": "jp-super-w-meat",
+      "translation": "meat",
+      "text": "肉",
+      "pronunciation": "niku"
+    },
+    {
+      "id": "jp-super-w-fish",
+      "translation": "fish",
+      "text": "魚",
+      "pronunciation": "sakana"
+    },
+    {
+      "id": "jp-super-w-tofu",
+      "translation": "tofu",
+      "text": "豆腐",
+      "pronunciation": "toufu"
+    },
+    {
+      "id": "jp-super-w-soy-sauce",
+      "translation": "soy sauce",
+      "text": "醤油",
+      "pronunciation": "shouyu"
+    },
+    {
+      "id": "jp-super-w-fresh",
+      "translation": "fresh",
+      "text": "新鮮",
+      "pronunciation": "shinsen"
+    }
+  ]
+}

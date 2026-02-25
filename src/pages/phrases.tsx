@@ -3,11 +3,12 @@ import { useRouter } from "next/router";
 import clsx from "clsx";
 import Head from "next/head";
 import { motion } from "framer-motion";
-import { ChevronDown, Download } from "lucide-react";
+import { IconChevronDown, IconDownload } from "@/components/ui/Icons";
 import { Language, LanguageId, CategoryId } from "@/types";
 import {
   languages,
   categories,
+  packages,
   getCategoryById,
   getLanguageById,
 } from "@/utils/languages";
@@ -118,7 +119,7 @@ export default function PhrasesPage() {
           <span className="text-xs font-medium text-gray-700">
             {selectedCategory.name}
           </span>
-          <ChevronDown className="w-4 h-4 text-gray-500" />
+          <IconChevronDown className="w-4 h-4 text-gray-500" />
         </button>
       </div>
 
@@ -231,9 +232,9 @@ export default function PhrasesPage() {
                 </div>
                 <Button
                   variant="ghost"
-                  href={`/download?lang=${selectedLanguage.id}`}
+                  href={`/${packages[0].slug}/${selectedLanguage.slug}/download`}
                 >
-                  <Download className="w-4 h-4" />
+                  <IconDownload className="w-4 h-4" />
                   Download
                 </Button>
               </div>

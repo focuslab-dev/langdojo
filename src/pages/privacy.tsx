@@ -1,12 +1,13 @@
 import Head from "next/head";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { BRAND_NAME } from "@/constants/brand";
 
 export default function PrivacyPage() {
   return (
     <>
       <Head>
-        <title>Privacy Policy | Lang Dojo</title>
+        <title>{`Privacy Policy | ${BRAND_NAME}`}</title>
       </Head>
 
       <div className="min-h-screen bg-gray-50">
@@ -22,7 +23,7 @@ export default function PrivacyPage() {
 
           <div className="prose-custom">
             <p>
-              This policy describes how Lang Dojo, operated by FocusLab LLC
+              This policy describes how {BRAND_NAME}, operated by FocusLab LLC
               (&quot;we&quot;, &quot;us&quot;), handles your information.
             </p>
 
@@ -30,7 +31,7 @@ export default function PrivacyPage() {
 
             <h3>Local storage</h3>
             <p>
-              Lang Dojo stores your preferences (selected language, category) and
+              {BRAND_NAME} stores your preferences (selected language, category) and
               favorited phrases in your browser&apos;s local storage. This data
               never leaves your device and is not sent to our servers.
             </p>
@@ -62,7 +63,7 @@ export default function PrivacyPage() {
 
             <h2>Cookies</h2>
             <p>
-              The only cookies used on Lang Dojo are those set by Google
+              The only cookies used on {BRAND_NAME} are those set by Google
               Analytics for anonymous usage tracking. No advertising or
               third-party tracking cookies are used.
             </p>

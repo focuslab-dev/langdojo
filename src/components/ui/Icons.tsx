@@ -1,0 +1,13 @@
+export { FaGithub as IconGithub } from "react-icons/fa6";
+export { LuDownload as IconDownload } from "react-icons/lu";
+export { LuLoaderCircle as IconSpinner } from "react-icons/lu";
+export { LuRefreshCw as IconRefresh } from "react-icons/lu";
+export { LuBookOpen as IconBookOpen } from "react-icons/lu";
+export { LuVolume2 as IconVolume } from "react-icons/lu";
+export { LuKeyboard as IconKeyboard } from "react-icons/lu";
+export { LuChevronDown as IconChevronDown } from "react-icons/lu";
+export { LuCheck as IconCheck } from "react-icons/lu";
+export { LuHeart as IconHeart } from "react-icons/lu";
+export { LuX as IconClose } from "react-icons/lu";
+export { LuFileText as IconNotes } from "react-icons/lu";
+export { LuLayoutGrid as IconGrid } from "react-icons/lu";

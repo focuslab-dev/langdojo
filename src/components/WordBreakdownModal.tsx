@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Volume2 } from "lucide-react";
+import { IconClose, IconVolume } from "@/components/ui/Icons";
 import { Phrase, LanguageId } from "@/types";
 import { useTTS } from "@/hooks/useTTS";
 
@@ -61,7 +61,7 @@ export const WordBreakdownModal = ({
               className="shrink-0 p-1.5 rounded-full text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors"
               aria-label="Close"
             >
-              <X className="w-4 h-4" />
+              <IconClose className="w-4 h-4" />
             </button>
           </div>
 
@@ -109,7 +109,7 @@ export const WordBreakdownModal = ({
                             : {}
                         }
                       >
-                        <Volume2
+                        <IconVolume
                           className={`w-4 h-4 transition-colors ${
                             speakingText === w.text
                               ? "text-blue-500"

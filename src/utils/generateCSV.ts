@@ -13,6 +13,6 @@ export function generateTSV(items: Phrase[]): Blob {
     return `${escapeTSVField(item.text)}\t${escapeTSVField(item.translation)}${pron}`;
   });
 
-  const tsv = rows.join("\n");
-  return new Blob([tsv], { type: "text/tab-separated-values;charset=utf-8;" });
+  const csv = rows.join("\n");
+  return new Blob([csv], { type: "text/csv;charset=utf-8" });
 }

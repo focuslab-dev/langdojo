@@ -160,7 +160,7 @@ export default function DownloadPage({ pkg, language }: Props) {
 
   const handleDownloadCSV = () => {
     const blob = generateTSV(items);
-    triggerDownload(blob, `${fileBase}.tsv`);
+    triggerDownload(blob, `${fileBase}.csv`);
   };
 
   const handleDownloadAnki = async () => {

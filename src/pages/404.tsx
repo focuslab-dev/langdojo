@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
+import { AppShell } from "@/components/global/AppShell";
 import { BRAND_NAME } from "@/constants/brand";
 
 export default function Custom404() {
@@ -11,9 +10,7 @@ export default function Custom404() {
         <title>{`Page Not Found | ${BRAND_NAME}`}</title>
       </Head>
 
-      <div className="min-h-screen bg-gray-50">
-        <SiteHeader />
-
+      <AppShell>
         <div className="flex flex-col items-center justify-center max-w-md mx-auto px-6 py-32">
           <h1 className="text-6xl font-bold text-gray-200">404</h1>
           <p className="mt-4 text-gray-500 text-sm">Page not found</p>
@@ -24,9 +21,7 @@ export default function Custom404() {
             Go back home
           </Link>
         </div>
-
-        <SiteFooter />
-      </div>
+      </AppShell>
     </>
   );
 }

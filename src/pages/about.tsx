@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
+import { AppShell } from "@/components/global/AppShell";
 import { BRAND_NAME } from "@/constants/brand";
 
 export default function AboutPage() {
@@ -15,8 +14,7 @@ export default function AboutPage() {
         />
       </Head>
 
-      <div className="min-h-screen bg-gray-50">
-        <SiteHeader breadcrumbs={[{ label: "About", href: "/about" }]} />
+      <AppShell breadcrumbs={[{ label: "About", href: "/about" }]}>
 
         <div className="max-w-2xl mx-auto px-4 py-12">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
@@ -64,8 +62,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <SiteFooter />
-      </div>
+      </AppShell>
     </>
   );
 }

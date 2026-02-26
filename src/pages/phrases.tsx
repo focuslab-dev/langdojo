@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import clsx from "clsx";
 import Head from "next/head";
 import { motion } from "framer-motion";
-import { IconChevronDown } from "@/components/ui/Icons";
+import { IconChevronDown, IconFeedback } from "@/components/ui/Icons";
 import { Language, LanguageId, CategoryId } from "@/types";
 import {
   languages,
@@ -17,6 +17,7 @@ import { useTTS } from "@/hooks/useTTS";
 import { HeroSection } from "@/components/HeroSection";
 import { PhraseList } from "@/components/PhraseList";
 import { NavigationModal } from "@/components/NavigationModal";
+import { FeedbackModal } from "@/components/FeedbackModal";
 import { LanguageDropdown } from "@/components/LanguageDropdown";
 
 const HERO_SECTION_HEIGHT = 260; // px
@@ -39,6 +40,7 @@ export default function PhrasesPage() {
     },
   );
   const [isNavModalOpen, setIsNavModalOpen] = useState(false);
+  const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
 
   // Apply query params for deep-linking (e.g. /phrases?lang=japanese&cat=basics)
   useEffect(() => {
@@ -102,6 +104,17 @@ export default function PhrasesPage() {
           content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
         />
       </Head>
+
+      {/* Mobile feedback button - top left, hidden on desktop */}
+      <div className="fixed top-4 left-0 z-20 px-4 lg:hidden">
+        <button
+          onClick={() => setIsFeedbackOpen(true)}
+          className="flex items-center gap-1.5 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm border border-gray-100 hover:bg-white transition-colors"
+        >
+          <IconFeedback className="w-3.5 h-3.5 text-gray-500" />
+          <span className="text-xs font-medium text-gray-700">Feedback</span>
+        </button>
+      </div>
 
       {/* Mobile top controls - hidden on desktop */}
       <div className="fixed top-4 right-0 z-20 flex items-center justify-end gap-2 px-4 lg:hidden">
@@ -228,6 +241,13 @@ export default function PhrasesPage() {
                     </p>
                   </div>
                 </div>
+                <button
+                  onClick={() => setIsFeedbackOpen(true)}
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-gray-200 hover:bg-gray-50 transition-colors"
+                >
+                  <IconFeedback className="w-4 h-4 text-gray-500" />
+                  <span className="text-sm font-medium text-gray-600">Feedback</span>
+                </button>
               </div>
             </div>
 
@@ -254,6 +274,12 @@ export default function PhrasesPage() {
           onClose={() => setIsNavModalOpen(false)}
           selectedCategoryId={selectedCategoryId}
           onSelectCategory={setSelectedCategoryId}
+        />
+
+        {/* Feedback Modal */}
+        <FeedbackModal
+          isOpen={isFeedbackOpen}
+          onClose={() => setIsFeedbackOpen(false)}
         />
       </main>
     </>

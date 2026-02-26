@@ -11,3 +11,4 @@ export { LuHeart as IconHeart } from "react-icons/lu";
 export { LuX as IconClose } from "react-icons/lu";
 export { LuFileText as IconNotes } from "react-icons/lu";
 export { LuLayoutGrid as IconGrid } from "react-icons/lu";
+export { LuMessageCircle as IconFeedback } from "react-icons/lu";

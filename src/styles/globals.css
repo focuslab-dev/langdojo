@@ -6,6 +6,15 @@
   .card {
     @apply bg-white rounded-2xl shadow-sm border border-gray-100;
   }
+  .heading-1 {
+    @apply text-3xl font-bold text-gray-900;
+  }
+  .heading-2 {
+    @apply text-2xl font-semibold text-gray-900;
+  }
+  .heading-3 {
+    @apply text-xl font-semibold text-gray-900;
+  }
 }
 
 html {

@@ -8,8 +8,16 @@
       "text": "환영합니다",
       "pronunciation": "hwanyeonghamnida",
       "words": [
-        { "text": "환영", "pronunciation": "hwanyeong", "translation": "welcome" },
-        { "text": "합니다", "pronunciation": "hamnida", "translation": "(formal verb ending)" }
+        {
+          "text": "환영",
+          "pronunciation": "hwanyeong",
+          "translation": "welcome"
+        },
+        {
+          "text": "합니다",
+          "pronunciation": "hamnida",
+          "translation": "(formal verb ending)"
+        }
       ]
     },
     {
@@ -18,8 +26,16 @@
       "text": "안녕하세요",
       "pronunciation": "annyeonghaseyo",
       "words": [
-        { "text": "안녕", "pronunciation": "annyeong", "translation": "peace / well-being" },
-        { "text": "하세요", "pronunciation": "haseyo", "translation": "are (polite)" }
+        {
+          "text": "안녕",
+          "pronunciation": "annyeong",
+          "translation": "peace / well-being"
+        },
+        {
+          "text": "하세요",
+          "pronunciation": "haseyo",
+          "translation": "are (polite)"
+        }
       ]
     },
     {
@@ -30,7 +46,11 @@
       "words": [
         { "text": "좋은", "pronunciation": "joeun", "translation": "good" },
         { "text": "아침", "pronunciation": "achim", "translation": "morning" },
-        { "text": "이에요", "pronunciation": "ieyo", "translation": "is (copula)" }
+        {
+          "text": "이에요",
+          "pronunciation": "ieyo",
+          "translation": "is (copula)"
+        }
       ]
     },
     {
@@ -40,8 +60,16 @@
       "pronunciation": "joeun jeonyeogieyo",
       "words": [
         { "text": "좋은", "pronunciation": "joeun", "translation": "good" },
-        { "text": "저녁", "pronunciation": "jeonyeok", "translation": "evening" },
-        { "text": "이에요", "pronunciation": "ieyo", "translation": "is (copula)" }
+        {
+          "text": "저녁",
+          "pronunciation": "jeonyeok",
+          "translation": "evening"
+        },
+        {
+          "text": "이에요",
+          "pronunciation": "ieyo",
+          "translation": "is (copula)"
+        }
       ]
     },
     {
@@ -50,8 +78,16 @@
       "text": "만나서 반갑습니다",
       "pronunciation": "mannaseo bangapseumnida",
       "words": [
-        { "text": "만나서", "pronunciation": "mannaseo", "translation": "having met" },
-        { "text": "반갑습니다", "pronunciation": "bangapseumnida", "translation": "glad (formal)" }
+        {
+          "text": "만나서",
+          "pronunciation": "mannaseo",
+          "translation": "having met"
+        },
+        {
+          "text": "반갑습니다",
+          "pronunciation": "bangapseumnida",
+          "translation": "glad (formal)"
+        }
       ]
     },
     {
@@ -60,8 +96,16 @@
       "text": "죄송합니다",
       "pronunciation": "joesonghamnida",
       "words": [
-        { "text": "죄송", "pronunciation": "joesong", "translation": "sorry / apologetic" },
-        { "text": "합니다", "pronunciation": "hamnida", "translation": "(formal verb ending)" }
+        {
+          "text": "죄송",
+          "pronunciation": "joesong",
+          "translation": "sorry / apologetic"
+        },
+        {
+          "text": "합니다",
+          "pronunciation": "hamnida",
+          "translation": "(formal verb ending)"
+        }
       ]
     },
     {
@@ -70,8 +114,16 @@
       "text": "부탁합니다",
       "pronunciation": "butakhamnida",
       "words": [
-        { "text": "부탁", "pronunciation": "butak", "translation": "request / favor" },
-        { "text": "합니다", "pronunciation": "hamnida", "translation": "(formal verb ending)" }
+        {
+          "text": "부탁",
+          "pronunciation": "butak",
+          "translation": "request / favor"
+        },
+        {
+          "text": "합니다",
+          "pronunciation": "hamnida",
+          "translation": "(formal verb ending)"
+        }
       ]
     },
     {
@@ -94,8 +146,16 @@
       "text": "이해하지 못해요",
       "pronunciation": "ihaehaji mothaeyo",
       "words": [
-        { "text": "이해", "pronunciation": "ihae", "translation": "understanding" },
-        { "text": "하지 못해요", "pronunciation": "haji mothaeyo", "translation": "cannot do" }
+        {
+          "text": "이해",
+          "pronunciation": "ihae",
+          "translation": "understanding"
+        },
+        {
+          "text": "하지 못해요",
+          "pronunciation": "haji mothaeyo",
+          "translation": "cannot do"
+        }
       ]
     },
     {
@@ -104,8 +164,16 @@
       "text": "영어 하세요?",
       "pronunciation": "yeongeo haseyo?",
       "words": [
-        { "text": "영어", "pronunciation": "yeongeo", "translation": "English" },
-        { "text": "하세요", "pronunciation": "haseyo", "translation": "do you (polite)" }
+        {
+          "text": "영어",
+          "pronunciation": "yeongeo",
+          "translation": "English"
+        },
+        {
+          "text": "하세요",
+          "pronunciation": "haseyo",
+          "translation": "do you (polite)"
+        }
       ]
     },
     {
@@ -114,9 +182,21 @@
       "text": "한국어 조금 해요",
       "pronunciation": "hangugeo jogeum haeyo",
       "words": [
-        { "text": "한국어", "pronunciation": "hangugeo", "translation": "Korean (language)" },
-        { "text": "조금", "pronunciation": "jogeum", "translation": "a little" },
-        { "text": "해요", "pronunciation": "haeyo", "translation": "do (polite)" }
+        {
+          "text": "한국어",
+          "pronunciation": "hangugeo",
+          "translation": "Korean (language)"
+        },
+        {
+          "text": "조금",
+          "pronunciation": "jogeum",
+          "translation": "a little"
+        },
+        {
+          "text": "해요",
+          "pronunciation": "haeyo",
+          "translation": "do (polite)"
+        }
       ]
     },
     {
@@ -125,8 +205,16 @@
       "text": "이게 뭐예요?",
       "pronunciation": "ige mwoyeyo?",
       "words": [
-        { "text": "이게", "pronunciation": "ige", "translation": "this (subject)" },
-        { "text": "뭐예요", "pronunciation": "mwoyeyo", "translation": "what is it" }
+        {
+          "text": "이게",
+          "pronunciation": "ige",
+          "translation": "this (subject)"
+        },
+        {
+          "text": "뭐예요",
+          "pronunciation": "mwoyeyo",
+          "translation": "what is it"
+        }
       ]
     },
     {
@@ -135,9 +223,21 @@
       "text": "화장실이 어디예요?",
       "pronunciation": "hwajangsiri eodiyeyo?",
       "words": [
-        { "text": "화장실", "pronunciation": "hwajangshil", "translation": "bathroom" },
-        { "text": "이", "pronunciation": "i", "translation": "(subject particle)" },
-        { "text": "어디예요", "pronunciation": "eodiyeyo", "translation": "where is" }
+        {
+          "text": "화장실",
+          "pronunciation": "hwajangshil",
+          "translation": "bathroom"
+        },
+        {
+          "text": "이",
+          "pronunciation": "i",
+          "translation": "(subject particle)"
+        },
+        {
+          "text": "어디예요",
+          "pronunciation": "eodiyeyo",
+          "translation": "where is"
+        }
       ]
     },
     {
@@ -147,7 +247,11 @@
       "pronunciation": "igeo eolmayeyo?",
       "words": [
         { "text": "이거", "pronunciation": "igeo", "translation": "this" },
-        { "text": "얼마예요", "pronunciation": "eolmayeyo", "translation": "how much is" }
+        {
+          "text": "얼마예요",
+          "pronunciation": "eolmayeyo",
+          "translation": "how much is"
+        }
       ]
     },
     {
@@ -166,8 +270,16 @@
       "text": "잠시만 기다려 주세요",
       "pronunciation": "jamsiman gidaryeo juseyo",
       "words": [
-        { "text": "잠시만", "pronunciation": "jamsiman", "translation": "just a moment" },
-        { "text": "기다려", "pronunciation": "gidaryeo", "translation": "wait" },
+        {
+          "text": "잠시만",
+          "pronunciation": "jamsiman",
+          "translation": "just a moment"
+        },
+        {
+          "text": "기다려",
+          "pronunciation": "gidaryeo",
+          "translation": "wait"
+        },
         { "text": "주세요", "pronunciation": "juseyo", "translation": "please" }
       ]
     },
@@ -177,8 +289,16 @@
       "text": "감사합니다",
       "pronunciation": "gamsahamnida",
       "words": [
-        { "text": "감사", "pronunciation": "gamsa", "translation": "gratitude / thanks" },
-        { "text": "합니다", "pronunciation": "hamnida", "translation": "(formal verb ending)" }
+        {
+          "text": "감사",
+          "pronunciation": "gamsa",
+          "translation": "gratitude / thanks"
+        },
+        {
+          "text": "합니다",
+          "pronunciation": "hamnida",
+          "translation": "(formal verb ending)"
+        }
       ]
     },
     {
@@ -194,41 +314,199 @@
       "text": "안녕히 가세요",
       "pronunciation": "annyeonghi gaseyo",
       "words": [
-        { "text": "안녕히", "pronunciation": "annyeonghi", "translation": "peacefully / safely" },
-        { "text": "가세요", "pronunciation": "gaseyo", "translation": "go (polite)" }
+        {
+          "text": "안녕히",
+          "pronunciation": "annyeonghi",
+          "translation": "peacefully / safely"
+        },
+        {
+          "text": "가세요",
+          "pronunciation": "gaseyo",
+          "translation": "go (polite)"
+        }
       ]
     }
   ],
   "words": [
-    { "id": "ko-bas-w-morning", "translation": "morning", "text": "아침", "pronunciation": "achim" },
-    { "id": "ko-bas-w-evening", "translation": "evening", "text": "저녁", "pronunciation": "jeonyeok" },
-    { "id": "ko-bas-w-night", "translation": "night", "text": "밤", "pronunciation": "bam" },
-    { "id": "ko-bas-w-today", "translation": "today", "text": "오늘", "pronunciation": "oneul" },
-    { "id": "ko-bas-w-tomorrow", "translation": "tomorrow", "text": "내일", "pronunciation": "naeil" },
-    { "id": "ko-bas-w-yesterday", "translation": "yesterday", "text": "어제", "pronunciation": "eoje" },
-    { "id": "ko-bas-w-name", "translation": "name", "text": "이름", "pronunciation": "ireum" },
-    { "id": "ko-bas-w-person", "translation": "person", "text": "사람", "pronunciation": "saram" },
-    { "id": "ko-bas-w-friend", "translation": "friend", "text": "친구", "pronunciation": "chingu" },
-    { "id": "ko-bas-w-i", "translation": "I / me", "text": "저", "pronunciation": "jeo" },
-    { "id": "ko-bas-w-you", "translation": "you", "text": "당신", "pronunciation": "dangsin" },
-    { "id": "ko-bas-w-this", "translation": "this", "text": "이것", "pronunciation": "igeot" },
-    { "id": "ko-bas-w-that", "translation": "that", "text": "그것", "pronunciation": "geugeot" },
-    { "id": "ko-bas-w-here", "translation": "here", "text": "여기", "pronunciation": "yeogi" },
-    { "id": "ko-bas-w-there", "translation": "there", "text": "거기", "pronunciation": "geogi" },
-    { "id": "ko-bas-w-bathroom", "translation": "bathroom", "text": "화장실", "pronunciation": "hwajangshil" },
-    { "id": "ko-bas-w-money", "translation": "money", "text": "돈", "pronunciation": "don" },
-    { "id": "ko-bas-w-phone", "translation": "phone", "text": "전화", "pronunciation": "jeonhwa" },
-    { "id": "ko-bas-w-time", "translation": "time", "text": "시간", "pronunciation": "sigan" },
-    { "id": "ko-bas-w-good", "translation": "good", "text": "좋은", "pronunciation": "joeun" },
-    { "id": "ko-bas-w-bad", "translation": "bad", "text": "나쁜", "pronunciation": "nappeun" },
-    { "id": "ko-bas-w-big", "translation": "big", "text": "큰", "pronunciation": "keun" },
-    { "id": "ko-bas-w-small", "translation": "small", "text": "작은", "pronunciation": "jageun" },
-    { "id": "ko-bas-w-hot", "translation": "hot", "text": "더운", "pronunciation": "deoun" },
-    { "id": "ko-bas-w-cold", "translation": "cold", "text": "추운", "pronunciation": "chuun" },
-    { "id": "ko-bas-w-where", "translation": "where", "text": "어디", "pronunciation": "eodi" },
-    { "id": "ko-bas-w-when", "translation": "when", "text": "언제", "pronunciation": "eonje" },
-    { "id": "ko-bas-w-how", "translation": "how", "text": "어떻게", "pronunciation": "eotteoke" },
-    { "id": "ko-bas-w-right", "translation": "right (direction)", "text": "오른쪽", "pronunciation": "oreunjjok" },
-    { "id": "ko-bas-w-left", "translation": "left (direction)", "text": "왼쪽", "pronunciation": "oenjjok" }
+    {
+      "id": "ko-bas-w-morning",
+      "translation": "morning",
+      "text": "아침",
+      "pronunciation": "achim"
+    },
+    {
+      "id": "ko-bas-w-evening",
+      "translation": "evening",
+      "text": "저녁",
+      "pronunciation": "jeonyeok"
+    },
+    {
+      "id": "ko-bas-w-night",
+      "translation": "night",
+      "text": "밤",
+      "pronunciation": "bam"
+    },
+    {
+      "id": "ko-bas-w-today",
+      "translation": "today",
+      "text": "오늘",
+      "pronunciation": "oneul"
+    },
+    {
+      "id": "ko-bas-w-tomorrow",
+      "translation": "tomorrow",
+      "text": "내일",
+      "pronunciation": "naeil"
+    },
+    {
+      "id": "ko-bas-w-yesterday",
+      "translation": "yesterday",
+      "text": "어제",
+      "pronunciation": "eoje"
+    },
+    {
+      "id": "ko-bas-w-name",
+      "translation": "name",
+      "text": "이름",
+      "pronunciation": "ireum"
+    },
+    {
+      "id": "ko-bas-w-person",
+      "translation": "person",
+      "text": "사람",
+      "pronunciation": "saram"
+    },
+    {
+      "id": "ko-bas-w-friend",
+      "translation": "friend",
+      "text": "친구",
+      "pronunciation": "chingu"
+    },
+    {
+      "id": "ko-bas-w-i",
+      "translation": "I / me",
+      "text": "저",
+      "pronunciation": "jeo"
+    },
+    {
+      "id": "ko-bas-w-you",
+      "translation": "you",
+      "text": "당신",
+      "pronunciation": "dangsin"
+    },
+    {
+      "id": "ko-bas-w-this",
+      "translation": "this",
+      "text": "이것",
+      "pronunciation": "igeot"
+    },
+    {
+      "id": "ko-bas-w-that",
+      "translation": "that",
+      "text": "그것",
+      "pronunciation": "geugeot"
+    },
+    {
+      "id": "ko-bas-w-here",
+      "translation": "here",
+      "text": "여기",
+      "pronunciation": "yeogi"
+    },
+    {
+      "id": "ko-bas-w-there",
+      "translation": "there",
+      "text": "거기",
+      "pronunciation": "geogi"
+    },
+    {
+      "id": "ko-bas-w-bathroom",
+      "translation": "bathroom",
+      "text": "화장실",
+      "pronunciation": "hwajangshil"
+    },
+    {
+      "id": "ko-bas-w-money",
+      "translation": "money",
+      "text": "돈",
+      "pronunciation": "don"
+    },
+    {
+      "id": "ko-bas-w-phone",
+      "translation": "phone",
+      "text": "전화",
+      "pronunciation": "jeonhwa"
+    },
+    {
+      "id": "ko-bas-w-time",
+      "translation": "time",
+      "text": "시간",
+      "pronunciation": "sigan"
+    },
+    {
+      "id": "ko-bas-w-good",
+      "translation": "good",
+      "text": "좋은",
+      "pronunciation": "joeun"
+    },
+    {
+      "id": "ko-bas-w-bad",
+      "translation": "bad",
+      "text": "나쁜",
+      "pronunciation": "nappeun"
+    },
+    {
+      "id": "ko-bas-w-big",
+      "translation": "big",
+      "text": "큰",
+      "pronunciation": "keun"
+    },
+    {
+      "id": "ko-bas-w-small",
+      "translation": "small",
+      "text": "작은",
+      "pronunciation": "jageun"
+    },
+    {
+      "id": "ko-bas-w-hot",
+      "translation": "hot",
+      "text": "더운",
+      "pronunciation": "deoun"
+    },
+    {
+      "id": "ko-bas-w-cold",
+      "translation": "cold",
+      "text": "추운",
+      "pronunciation": "chuun"
+    },
+    {
+      "id": "ko-bas-w-where",
+      "translation": "where",
+      "text": "어디",
+      "pronunciation": "eodi"
+    },
+    {
+      "id": "ko-bas-w-when",
+      "translation": "when",
+      "text": "언제",
+      "pronunciation": "eonje"
+    },
+    {
+      "id": "ko-bas-w-how",
+      "translation": "how",
+      "text": "어떻게",
+      "pronunciation": "eotteoke"
+    },
+    {
+      "id": "ko-bas-w-right",
+      "translation": "right (direction)",
+      "text": "오른쪽",
+      "pronunciation": "oreunjjok"
+    },
+    {
+      "id": "ko-bas-w-left",
+      "translation": "left (direction)",
+      "text": "왼쪽",
+      "pronunciation": "oenjjok"
+    }
   ]
 }

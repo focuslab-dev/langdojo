@@ -1,6 +1,5 @@
 import Head from "next/head";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
+import { AppShell } from "@/components/global/AppShell";
 import { BRAND_NAME } from "@/constants/brand";
 import { ReviewWizard } from "@/components/review/ReviewWizard";
 
@@ -15,11 +14,9 @@ export default function ReviewPage() {
         />
       </Head>
 
-      <div className="min-h-screen bg-gray-50">
-        <SiteHeader breadcrumbs={[{ label: "Review", href: "/review" }]} />
+      <AppShell breadcrumbs={[{ label: "Review", href: "/review" }]}>
         <ReviewWizard />
-        <SiteFooter />
-      </div>
+      </AppShell>
     </>
   );
 }

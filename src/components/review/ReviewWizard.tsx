@@ -5,6 +5,7 @@ import { getCategoryData } from "@/utils/getPhraseData";
 import { formatReviewEmail } from "@/utils/formatReviewEmail";
 import { ProgressBar } from "./ProgressBar";
 import { StepLanguageSelect } from "./StepLanguageSelect";
+import { StepGuidelines } from "./StepGuidelines";
 import { StepCategoryReview } from "./StepCategoryReview";
 import { StepFinalForm } from "./StepFinalForm";
 import { StepSubmit } from "./StepSubmit";
@@ -72,8 +73,8 @@ export function ReviewWizard() {
     [],
   );
 
-  // 0 = language select, 1-9 = categories, 10 = final form, 11 = preview
-  const totalSteps = reviewCategories.length + 3;
+  // 0 = language select, 1 = guidelines, 2-10 = categories, 11 = final form, 12 = preview
+  const totalSteps = reviewCategories.length + 4;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -85,6 +86,9 @@ export function ReviewWizard() {
   const handleLanguageSelect = (languageId: LanguageId) => {
     setState((s) => ({ ...s, selectedLanguageId: languageId, currentStep: 1 }));
   };
+
+  const handleGuidelinesNext = () => goTo(2);
+  const handleGuidelinesBack = () => goTo(0);
 
   const handleCommentChange = (
     categoryId: string,
@@ -162,7 +166,16 @@ export function ReviewWizard() {
       return <StepLanguageSelect onSelect={handleLanguageSelect} />;
     }
 
-    const categoryIndex = state.currentStep - 1;
+    if (state.currentStep === 1) {
+      return (
+        <StepGuidelines
+          onNext={handleGuidelinesNext}
+          onBack={handleGuidelinesBack}
+        />
+      );
+    }
+
+    const categoryIndex = state.currentStep - 2;
     if (categoryIndex >= 0 && categoryIndex < reviewCategories.length) {
       const category = reviewCategories[categoryIndex];
       return (
@@ -184,7 +197,7 @@ export function ReviewWizard() {
       );
     }
 
-    if (state.currentStep === reviewCategories.length + 1) {
+    if (state.currentStep === reviewCategories.length + 2) {
       return (
         <StepFinalForm
           overallFeedback={state.overallFeedback}
@@ -198,7 +211,7 @@ export function ReviewWizard() {
       );
     }
 
-    if (state.currentStep === reviewCategories.length + 2) {
+    if (state.currentStep === reviewCategories.length + 3) {
       return (
         <StepSubmit
           emailBody={emailBody}

@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
+import { AppShell } from "@/components/global/AppShell";
 import { BRAND_NAME } from "@/constants/brand";
 
 export default function TermsPage() {
@@ -11,8 +10,7 @@ export default function TermsPage() {
         <title>{`Terms of Service | ${BRAND_NAME}`}</title>
       </Head>
 
-      <div className="min-h-screen bg-gray-50">
-        <SiteHeader breadcrumbs={[{ label: "Terms", href: "/terms" }]} />
+      <AppShell breadcrumbs={[{ label: "Terms", href: "/terms" }]}>
 
         <div className="max-w-2xl mx-auto px-4 py-12">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
@@ -83,8 +81,7 @@ export default function TermsPage() {
           </div>
         </div>
 
-        <SiteFooter />
-      </div>
+      </AppShell>
     </>
   );
 }

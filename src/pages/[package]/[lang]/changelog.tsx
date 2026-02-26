@@ -1,11 +1,9 @@
 import Head from "next/head";
-import Link from "next/link";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { languages, packages } from "@/utils/languages";
 import { getChangelogEntries } from "@/utils/changelog";
 import { Language, Package, ChangelogEntry } from "@/types";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
+import { AppShell } from "@/components/global/AppShell";
 import { BRAND_NAME } from "@/constants/brand";
 import { ChangelogEntryCard } from "@/components/pages/changelog/ChangelogEntryCard";
 
@@ -60,28 +58,20 @@ export default function LanguageChangelogPage({
         />
       </Head>
 
-      <div className="min-h-screen bg-gray-50">
-        <SiteHeader
-          breadcrumbs={[
-            { label: pkg.name, href: `/${pkg.slug}` },
-            { label: language.name, href: basePath },
-            { label: "Change Log", href: `${basePath}/changelog` },
-          ]}
-        />
-
+      <AppShell
+        breadcrumbs={[
+          { label: pkg.name, href: `/${pkg.slug}` },
+          { label: language.name, href: basePath },
+          { label: "Change Log", href: `${basePath}/changelog` },
+        ]}
+      >
         <div className="max-w-2xl mx-auto px-4 py-12">
           <h1 className="text-2xl font-bold text-gray-900 mb-2">
             {language.flag} {language.name} Change Log
           </h1>
           <p className="text-sm text-gray-500 mb-8">
             Status of data review. Content is initially generated with AI and
-            then reviewed by human contributors.{" "}
-            <Link
-              href="/review"
-              className="text-blue-600 hover:text-blue-700 transition-colors"
-            >
-              Submit review →
-            </Link>
+            then reviewed by human contributors.
           </p>
 
           <div className="space-y-8 border-t border-gray-150 pt-6">
@@ -99,9 +89,7 @@ export default function LanguageChangelogPage({
             ))}
           </div>
         </div>
-
-        <SiteFooter />
-      </div>
+      </AppShell>
     </>
   );
 }

@@ -1,6 +1,5 @@
 import Head from "next/head";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
+import { AppShell } from "@/components/global/AppShell";
 import { BRAND_NAME } from "@/constants/brand";
 
 export default function PrivacyPage() {
@@ -10,8 +9,7 @@ export default function PrivacyPage() {
         <title>{`Privacy Policy | ${BRAND_NAME}`}</title>
       </Head>
 
-      <div className="min-h-screen bg-gray-50">
-        <SiteHeader breadcrumbs={[{ label: "Privacy", href: "/privacy" }]} />
+      <AppShell breadcrumbs={[{ label: "Privacy", href: "/privacy" }]}>
 
         <div className="max-w-2xl mx-auto px-4 py-12">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">
@@ -89,8 +87,7 @@ export default function PrivacyPage() {
           </div>
         </div>
 
-        <SiteFooter />
-      </div>
+      </AppShell>
     </>
   );
 }

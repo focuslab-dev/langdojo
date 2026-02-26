@@ -4,8 +4,7 @@ import { GetStaticProps } from "next";
 import { languages, packages } from "@/utils/languages";
 import { getChangelogEntries } from "@/utils/changelog";
 import { Package, Language, ChangelogEntry } from "@/types";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
+import { AppShell } from "@/components/global/AppShell";
 import { BRAND_NAME } from "@/constants/brand";
 import { ChangelogEntryCard } from "@/components/pages/changelog/ChangelogEntryCard";
 
@@ -48,22 +47,12 @@ export default function ChangelogIndexPage({ packageChangelogs }: Props) {
         />
       </Head>
 
-      <div className="min-h-screen bg-gray-50">
-        <SiteHeader
-          breadcrumbs={[{ label: "Change Log", href: "/changelog" }]}
-        />
-
+      <AppShell breadcrumbs={[{ label: "Change Log", href: "/changelog" }]}>
         <div className="max-w-2xl mx-auto px-4 py-12">
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Change Log</h1>
           <p className="text-sm text-gray-500 mb-8">
             Status of data review for each language. Content is initially
-            generated with AI and then reviewed by human contributors.{" "}
-            <Link
-              href="/review"
-              className="text-blue-600 hover:text-blue-700 transition-colors"
-            >
-              Submit review →
-            </Link>
+            generated with AI and then reviewed by human contributors.
           </p>
 
           <div className="space-y-10">
@@ -112,9 +101,7 @@ export default function ChangelogIndexPage({ packageChangelogs }: Props) {
             ))}
           </div>
         </div>
-
-        <SiteFooter />
-      </div>
+      </AppShell>
     </>
   );
 }

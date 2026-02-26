@@ -34,10 +34,10 @@ export function SiteFooter() {
               Privacy
             </Link>
             <Link
-              href="/review"
+              href="/feedback"
               className="hover:text-gray-700 transition-colors"
             >
-              Review
+              Feedback
             </Link>
             <Link
               href="/changelog"

@@ -4,8 +4,7 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import { languages, categories, packages } from "@/utils/languages";
 import { getDownloadItemsAll } from "@/utils/getPhraseData";
 import { Package, LanguageId } from "@/types";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
+import { AppShell } from "@/components/global/AppShell";
 import { BRAND_NAME } from "@/constants/brand";
 
 interface LanguageCard {
@@ -64,8 +63,7 @@ export default function PackagePage({
         />
       </Head>
 
-      <div className="min-h-screen bg-gray-50">
-        <SiteHeader breadcrumbs={[{ label: pkg.name, href: `/${pkg.slug}` }]} />
+      <AppShell breadcrumbs={[{ label: pkg.name, href: `/${pkg.slug}` }]}>
 
         <div className="max-w-3xl mx-auto px-4 py-16">
           <div className="text-center mb-12">
@@ -97,8 +95,7 @@ export default function PackagePage({
           </div>
         </div>
 
-        <SiteFooter />
-      </div>
+      </AppShell>
     </>
   );
 }

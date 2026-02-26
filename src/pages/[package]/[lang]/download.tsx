@@ -28,8 +28,7 @@ import { generateTSV } from "@/utils/generateCSV";
 import { generateAnkiDeck } from "@/utils/generateAnkiDeck";
 import { Card } from "@/components/ui/Card";
 import { FavoriteItem } from "@/hooks/useFavorites";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
+import { AppShell } from "@/components/global/AppShell";
 import { BRAND_NAME } from "@/constants/brand";
 
 const DATA_CATEGORIES = categories.filter((c) => c.id !== "favorites");
@@ -174,14 +173,14 @@ export default function DownloadPage({ pkg, language }: Props) {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <>
       <Head>
         <title>
           {`Download ${displayName} — ${language.name} | ${BRAND_NAME}`}
         </title>
       </Head>
 
-      <SiteHeader breadcrumbs={breadcrumbs} />
+      <AppShell breadcrumbs={breadcrumbs}>
 
       <div className="max-w-lg mx-auto px-4 py-8">
         {/* Header */}
@@ -416,8 +415,8 @@ export default function DownloadPage({ pkg, language }: Props) {
           </Button>
         </div>
       </div>
-      <SiteFooter />
-    </div>
+      </AppShell>
+    </>
   );
 }
 

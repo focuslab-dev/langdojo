@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { languages, packages } from "@/utils/languages";
 import { getChangelogEntries } from "@/utils/changelog";
@@ -74,7 +75,13 @@ export default function LanguageChangelogPage({
           </h1>
           <p className="text-sm text-gray-500 mb-8">
             Status of data review. Content is initially generated with AI and
-            then reviewed by human contributors.
+            then reviewed by human contributors.{" "}
+            <Link
+              href="/review"
+              className="text-blue-600 hover:text-blue-700 transition-colors"
+            >
+              Submit review →
+            </Link>
           </p>
 
           <div className="space-y-8 border-t border-gray-150 pt-6">

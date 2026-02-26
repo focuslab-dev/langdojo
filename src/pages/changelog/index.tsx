@@ -57,7 +57,13 @@ export default function ChangelogIndexPage({ packageChangelogs }: Props) {
           <h1 className="text-2xl font-bold text-gray-900 mb-2">Change Log</h1>
           <p className="text-sm text-gray-500 mb-8">
             Status of data review for each language. Content is initially
-            generated with AI and then reviewed by human contributors.
+            generated with AI and then reviewed by human contributors.{" "}
+            <Link
+              href="/review"
+              className="text-blue-600 hover:text-blue-700 transition-colors"
+            >
+              Submit review →
+            </Link>
           </p>
 
           <div className="space-y-10">

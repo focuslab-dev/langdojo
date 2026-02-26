@@ -43,10 +43,10 @@ export default function LandingPage({ languageCards }: Props) {
   return (
     <>
       <Head>
-        <title>{BRAND_NAME} — Free Language Phrases & Anki Flashcards</title>
+        <title>{`${BRAND_NAME} — Free Language Phrases & Anki Flashcards`}</title>
         <meta
           name="description"
-          content="Learn essential phrases and vocabulary in Japanese, Mandarin, Thai, Korean, French, and Spanish. Download Anki flashcards and study with spaced repetition."
+          content="Learn essential phrases and vocabulary in Japanese, Mandarin, Thai, Korean, French, and Spanish. Download Anki flashcards or use as a quick phrase book."
         />
         <meta
           name="keywords"
@@ -55,7 +55,6 @@ export default function LandingPage({ languageCards }: Props) {
       </Head>
 
       <AppShell showTagline>
-
         <div className="max-w-3xl mx-auto px-4 py-16">
           {/* Hero */}
           <div className="text-center mb-12">
@@ -145,7 +144,6 @@ export default function LandingPage({ languageCards }: Props) {
             </div>
           </a>
         </div>
-
       </AppShell>
     </>
   );

@@ -88,7 +88,7 @@ export default function LanguagePage({
         <title>{`${language.name} Travel Phrases | ${BRAND_NAME}`}</title>
         <meta
           name="description"
-          content={`Learn essential travel ${langLower} phrases and vocabulary. ${totalPhraseCount} items across ${categoryCount} categories. Download ${langLower} Anki flashcard decks for your next trip.`}
+          content={`Learn ${totalPhraseCount} essential ${langLower} travel phrases. Download it as an Anki flashcard deck or use it as a quick phrase book.`}
         />
         <meta
           name="keywords"
@@ -102,7 +102,6 @@ export default function LanguagePage({
           { label: language.name, href: basePath },
         ]}
       >
-
         <div className="max-w-3xl mx-auto px-4 py-8">
           {/* Language Hero */}
           <div className="text-center mb-4">
@@ -195,7 +194,6 @@ export default function LanguagePage({
             </p>
           </div>
         </div>
-
       </AppShell>
     </>
   );

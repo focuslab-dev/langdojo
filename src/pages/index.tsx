@@ -59,7 +59,7 @@ export default function LandingPage({ languageCards }: Props) {
           {/* Hero */}
           <div className="text-center mb-12">
             <img
-              src="/img/hero-image-sm2.webp"
+              src="/img/hero-image-sm.webp"
               alt={`${BRAND_NAME} mascot`}
               className="w-32 h-32 mx-auto mb-4 rounded-2xl object-cover"
             />

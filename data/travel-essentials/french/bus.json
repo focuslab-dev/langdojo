@@ -397,31 +397,6 @@
       "text": "place"
     },
     {
-      "id": "fr-bus-w-next",
-      "translation": "next",
-      "text": "prochain"
-    },
-    {
-      "id": "fr-bus-w-last",
-      "translation": "last",
-      "text": "dernier"
-    },
-    {
-      "id": "fr-bus-w-first",
-      "translation": "first",
-      "text": "premier"
-    },
-    {
-      "id": "fr-bus-w-exit",
-      "translation": "exit",
-      "text": "sortie"
-    },
-    {
-      "id": "fr-bus-w-entrance",
-      "translation": "entrance",
-      "text": "entrée"
-    },
-    {
       "id": "fr-bus-w-card",
       "translation": "card",
       "text": "carte"

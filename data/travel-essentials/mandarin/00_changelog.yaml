@@ -9,6 +9,13 @@
 #   note         (optional) - Extra context (e.g. scope limitations, caveats)
 #   commit       (optional) - Related git commit hash
 
+- date: "2026-03-07"
+  type: review
+  description: "Applied native speaker review across all 9 categories - fixed many pinyin tones, updated phrases to more natural ones, removed some irrelevant words and phrases."
+  contributor:
+    name: "Jacqueline Zhong"
+    url: "https://www.linkedin.com/in/xiaohuijacquelinezhong/"
+
 - date: "2026-02-20"
   type: edit
   description: "Initial AI-generated content for all 9 categories"

@@ -229,7 +229,6 @@
     { "id": "th-bas-w-cold", "translation": "cold", "text": "เย็น", "pronunciation": "yen" },
     { "id": "th-bas-w-where", "translation": "where", "text": "ที่ไหน", "pronunciation": "têe nǎi" },
     { "id": "th-bas-w-when", "translation": "when", "text": "เมื่อไร", "pronunciation": "mêua rai" },
-    { "id": "th-bas-w-how", "translation": "how", "text": "อย่างไร", "pronunciation": "yàang rai" },
     { "id": "th-bas-w-right", "translation": "right (direction)", "text": "ขวา", "pronunciation": "khwǎa" },
     { "id": "th-bas-w-left", "translation": "left (direction)", "text": "ซ้าย", "pronunciation": "sáai" },
     { "id": "th-bas-w-language", "translation": "language", "text": "ภาษา", "pronunciation": "paa-sǎa" },

@@ -544,36 +544,6 @@
       "pronunciation": "zaseki"
     },
     {
-      "id": "jp-bus-w-next",
-      "translation": "next",
-      "text": "次",
-      "pronunciation": "tsugi"
-    },
-    {
-      "id": "jp-bus-w-last",
-      "translation": "last (final)",
-      "text": "最終",
-      "pronunciation": "saishuu"
-    },
-    {
-      "id": "jp-bus-w-first",
-      "translation": "first",
-      "text": "最初",
-      "pronunciation": "saisho"
-    },
-    {
-      "id": "jp-bus-w-exit",
-      "translation": "exit",
-      "text": "出口",
-      "pronunciation": "deguchi"
-    },
-    {
-      "id": "jp-bus-w-entrance",
-      "translation": "entrance",
-      "text": "入口",
-      "pronunciation": "iriguchi"
-    },
-    {
       "id": "jp-bus-w-card",
       "translation": "card",
       "text": "カード",

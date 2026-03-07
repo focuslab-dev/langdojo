@@ -6,9 +6,9 @@
       "id": "zh-trn-where-station",
       "translation": "Where is the train station?",
       "text": "火车站在哪里？",
-      "pronunciation": "huǒchē zhàn zài nǎlǐ?",
+      "pronunciation": "huǒchēzhàn zài nǎlǐ?",
       "words": [
-        { "text": "火车站", "pronunciation": "huǒchē zhàn", "translation": "train station" },
+        { "text": "火车站", "pronunciation": "huǒchēzhàn", "translation": "train station" },
         { "text": "在", "pronunciation": "zài", "translation": "is located" },
         { "text": "哪里", "pronunciation": "nǎlǐ", "translation": "where" }
       ]
@@ -17,9 +17,20 @@
       "id": "zh-trn-ticket-office",
       "translation": "Where is the ticket office?",
       "text": "售票处在哪里？",
-      "pronunciation": "shòupiào chù zài nǎlǐ?",
+      "pronunciation": "shòupiàochù zài nǎlǐ?",
       "words": [
-        { "text": "售票处", "pronunciation": "shòupiào chù", "translation": "ticket office" },
+        { "text": "售票处", "pronunciation": "shòupiàochù", "translation": "ticket office" },
+        { "text": "在", "pronunciation": "zài", "translation": "at / is located" },
+        { "text": "哪里", "pronunciation": "nǎlǐ", "translation": "where" }
+      ]
+    },
+    {
+      "id": "zh-trn-ticket-gate-where",
+      "translation": "Where is the ticket gate?",
+      "text": "检票口在哪里？",
+      "pronunciation": "jiǎnpiàokǒu zài nǎlǐ?",
+      "words": [
+        { "text": "检票口", "pronunciation": "jiǎnpiàokǒu", "translation": "ticket gate" },
         { "text": "在", "pronunciation": "zài", "translation": "at / is located" },
         { "text": "哪里", "pronunciation": "nǎlǐ", "translation": "where" }
       ]
@@ -41,7 +52,7 @@
       "id": "zh-trn-one-way",
       "translation": "One-way ticket",
       "text": "单程票",
-      "pronunciation": "dānchéng piào",
+      "pronunciation": "dānchéngpiào",
       "words": [
         { "text": "单程", "pronunciation": "dānchéng", "translation": "one-way" },
         { "text": "票", "pronunciation": "piào", "translation": "ticket" }
@@ -51,7 +62,7 @@
       "id": "zh-trn-round-trip",
       "translation": "Round trip ticket",
       "text": "往返票",
-      "pronunciation": "wǎngfǎn piào",
+      "pronunciation": "wǎngfǎnpiào",
       "words": [
         { "text": "往返", "pronunciation": "wǎngfǎn", "translation": "round trip" },
         { "text": "票", "pronunciation": "piào", "translation": "ticket" }
@@ -85,11 +96,12 @@
     {
       "id": "zh-trn-next-train-time",
       "translation": "What time is the next train?",
-      "text": "下一班火车几点？",
-      "pronunciation": "xià yì bān huǒchē jǐ diǎn?",
+      "text": "下一班车是几点？",
+      "pronunciation": "xià yì bān chē shì jǐ diǎn?",
       "words": [
         { "text": "下一班", "pronunciation": "xià yì bān", "translation": "next (service)" },
-        { "text": "火车", "pronunciation": "huǒchē", "translation": "train" },
+        { "text": "车", "pronunciation": "chē", "translation": "train / vehicle" },
+        { "text": "是", "pronunciation": "shì", "translation": "is" },
         { "text": "几点", "pronunciation": "jǐ diǎn", "translation": "what time" }
       ]
     },
@@ -109,10 +121,10 @@
       "id": "zh-trn-standing-ticket",
       "translation": "Do you have standing tickets?",
       "text": "还有站票吗？",
-      "pronunciation": "hái yǒu zhàn piào ma?",
+      "pronunciation": "háiyǒu zhànpiào ma?",
       "words": [
-        { "text": "还有", "pronunciation": "hái yǒu", "translation": "still have / are there" },
-        { "text": "站票", "pronunciation": "zhàn piào", "translation": "standing ticket" },
+        { "text": "还有", "pronunciation": "háiyǒu", "translation": "still have / are there" },
+        { "text": "站票", "pronunciation": "zhànpiào", "translation": "standing ticket" },
         { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
       ]
     },
@@ -135,9 +147,9 @@
       "id": "zh-trn-this-goes-to",
       "translation": "This train is headed to Shanghai",
       "text": "本次列车开往上海",
-      "pronunciation": "běn cì lièchē kāi wǎng shànghǎi",
+      "pronunciation": "běncì lièchē kāi wǎng shànghǎi",
       "words": [
-        { "text": "本次", "pronunciation": "běn cì", "translation": "this (service / trip)" },
+        { "text": "本次", "pronunciation": "běncì", "translation": "this (service / trip)" },
         { "text": "列车", "pronunciation": "lièchē", "translation": "train" },
         { "text": "开往", "pronunciation": "kāi wǎng", "translation": "heading to / bound for" },
         { "text": "上海", "pronunciation": "shànghǎi", "translation": "Shanghai" }
@@ -193,18 +205,18 @@
       "id": "zh-trn-where-transfer",
       "translation": "Where should I transfer?",
       "text": "在哪里换乘？",
-      "pronunciation": "zài nǎlǐ huàn chéng?",
+      "pronunciation": "zài nǎlǐ huànchéng?",
       "words": [
         { "text": "在", "pronunciation": "zài", "translation": "at / where" },
         { "text": "哪里", "pronunciation": "nǎlǐ", "translation": "where" },
-        { "text": "换乘", "pronunciation": "huàn chéng", "translation": "transfer / change trains" }
+        { "text": "换乘", "pronunciation": "huànchéng", "translation": "transfer / change trains" }
       ]
     },
     {
       "id": "zh-trn-arrived",
       "translation": "Arrived at Shanghai station",
       "text": "上海站到了",
-      "pronunciation": "shànghǎi zhàn dào le",
+      "pronunciation": "shànghǎizhàn dào le",
       "words": [
         { "text": "上海", "pronunciation": "shànghǎi", "translation": "Shanghai" },
         { "text": "站", "pronunciation": "zhàn", "translation": "station" },
@@ -231,35 +243,33 @@
     }
   ],
   "words": [
-    { "id": "zh-trn-w-station", "translation": "train station", "text": "火车站", "pronunciation": "huǒchē zhàn" },
+    { "id": "zh-trn-w-station", "translation": "train station", "text": "火车站", "pronunciation": "huǒchēzhàn" },
     { "id": "zh-trn-w-ticket", "translation": "ticket", "text": "票", "pronunciation": "piào" },
     { "id": "zh-trn-w-platform", "translation": "platform", "text": "站台", "pronunciation": "zhàntái" },
-    { "id": "zh-trn-w-express", "translation": "express train", "text": "快车", "pronunciation": "kuàichē" },
-    { "id": "zh-trn-w-local", "translation": "local train", "text": "慢车", "pronunciation": "mànchē" },
     { "id": "zh-trn-w-high-speed", "translation": "high-speed rail", "text": "高铁", "pronunciation": "gāotiě" },
     { "id": "zh-trn-w-subway", "translation": "subway", "text": "地铁", "pronunciation": "dìtiě" },
-    { "id": "zh-trn-w-transfer", "translation": "transfer", "text": "换乘", "pronunciation": "huàn chéng" },
+    { "id": "zh-trn-w-transfer", "translation": "transfer", "text": "换乘", "pronunciation": "huànchéng" },
     { "id": "zh-trn-w-exit", "translation": "exit", "text": "出口", "pronunciation": "chūkǒu" },
     { "id": "zh-trn-w-entrance", "translation": "entrance", "text": "入口", "pronunciation": "rùkǒu" },
     { "id": "zh-trn-w-one-way", "translation": "one-way", "text": "单程", "pronunciation": "dānchéng" },
     { "id": "zh-trn-w-round-trip", "translation": "round trip", "text": "往返", "pronunciation": "wǎngfǎn" },
     { "id": "zh-trn-w-seat", "translation": "seat", "text": "座位", "pronunciation": "zuòwèi" },
-    { "id": "zh-trn-w-first-class", "translation": "first class seat", "text": "一等座", "pronunciation": "yī děng zuò" },
-    { "id": "zh-trn-w-second-class", "translation": "second class seat", "text": "二等座", "pronunciation": "èr děng zuò" },
-    { "id": "zh-trn-w-standing-ticket", "translation": "standing ticket", "text": "站票", "pronunciation": "zhàn piào" },
-    { "id": "zh-trn-w-timetable", "translation": "timetable", "text": "时刻表", "pronunciation": "shíkè biǎo" },
+    { "id": "zh-trn-w-first-class", "translation": "first class seat", "text": "一等座", "pronunciation": "yīděngzuò" },
+    { "id": "zh-trn-w-second-class", "translation": "second class seat", "text": "二等座", "pronunciation": "èrděngzuò" },
+    { "id": "zh-trn-w-standing-ticket", "translation": "standing ticket", "text": "站票", "pronunciation": "zhànpiào" },
+    { "id": "zh-trn-w-timetable", "translation": "timetable", "text": "时刻表", "pronunciation": "shíkèbiǎo" },
     { "id": "zh-trn-w-departure", "translation": "departure", "text": "出发", "pronunciation": "chūfā" },
     { "id": "zh-trn-w-arrival", "translation": "arrival", "text": "到达", "pronunciation": "dàodá" },
-    { "id": "zh-trn-w-ticket-office", "translation": "ticket office", "text": "售票处", "pronunciation": "shòupiào chù" },
+    { "id": "zh-trn-w-ticket-office", "translation": "ticket office", "text": "售票处", "pronunciation": "shòupiàochù" },
     { "id": "zh-trn-w-line", "translation": "line / route", "text": "线路", "pronunciation": "xiànlù" },
     { "id": "zh-trn-w-delay", "translation": "delay", "text": "晚点", "pronunciation": "wǎndiǎn" },
-    { "id": "zh-trn-w-transit-card", "translation": "transit card", "text": "交通卡", "pronunciation": "jiāotōng kǎ" },
+    { "id": "zh-trn-w-transit-card", "translation": "transit card", "text": "交通卡", "pronunciation": "jiāotōngkǎ" },
     { "id": "zh-trn-w-last-train", "translation": "last train", "text": "末班车", "pronunciation": "mòbānchē" },
-    { "id": "zh-trn-w-hard-seat", "translation": "hard seat", "text": "硬座", "pronunciation": "yìng zuò" },
-    { "id": "zh-trn-w-soft-sleeper", "translation": "soft sleeper", "text": "软卧", "pronunciation": "ruǎn wò" },
-    { "id": "zh-trn-w-ticket-gate", "translation": "ticket gate", "text": "检票口", "pronunciation": "jiǎn piào kǒu" },
-    { "id": "zh-trn-w-waiting-room", "translation": "waiting room", "text": "候车室", "pronunciation": "hòu chē shì" },
+    { "id": "zh-trn-w-hard-seat", "translation": "hard seat", "text": "硬座", "pronunciation": "yìngzuò" },
+    { "id": "zh-trn-w-soft-sleeper", "translation": "soft sleeper", "text": "软卧", "pronunciation": "ruǎnwò" },
+    { "id": "zh-trn-w-ticket-gate", "translation": "ticket gate", "text": "检票口", "pronunciation": "jiǎnpiàokǒu" },
+    { "id": "zh-trn-w-waiting-room", "translation": "waiting room", "text": "候车室", "pronunciation": "hòuchēshì" },
     { "id": "zh-trn-w-conductor", "translation": "conductor", "text": "列车员", "pronunciation": "lièchēyuán" },
-    { "id": "zh-trn-w-security-check", "translation": "security check", "text": "安检", "pronunciation": "ān jiǎn" }
+    { "id": "zh-trn-w-security-check", "translation": "security check", "text": "安检", "pronunciation": "ānjiǎn" }
   ]
 }

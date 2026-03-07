@@ -409,31 +409,6 @@
       "text": "asiento"
     },
     {
-      "id": "es-bus-w-next",
-      "translation": "next",
-      "text": "próximo"
-    },
-    {
-      "id": "es-bus-w-last",
-      "translation": "last",
-      "text": "último"
-    },
-    {
-      "id": "es-bus-w-first",
-      "translation": "first",
-      "text": "primero"
-    },
-    {
-      "id": "es-bus-w-exit",
-      "translation": "exit",
-      "text": "salida"
-    },
-    {
-      "id": "es-bus-w-entrance",
-      "translation": "entrance",
-      "text": "entrada"
-    },
-    {
       "id": "es-bus-w-card",
       "translation": "card",
       "text": "tarjeta"

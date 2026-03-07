@@ -5,12 +5,9 @@
     {
       "id": "zh-bas-welcome",
       "translation": "Welcome",
-      "text": "欢迎光临",
-      "pronunciation": "huānyíng guānglín",
-      "words": [
-        { "text": "欢迎", "pronunciation": "huānyíng", "translation": "welcome" },
-        { "text": "光临", "pronunciation": "guānglín", "translation": "your presence (honorific)" }
-      ]
+      "text": "欢迎",
+      "pronunciation": "huānyíng",
+      "words": []
     },
     {
       "id": "zh-bas-hello",
@@ -79,9 +76,9 @@
       "id": "zh-bas-no",
       "translation": "No",
       "text": "不是",
-      "pronunciation": "bù shì",
+      "pronunciation": "bú shì",
       "words": [
-        { "text": "不", "pronunciation": "bù", "translation": "not" },
+        { "text": "不", "pronunciation": "bú", "translation": "not" },
         { "text": "是", "pronunciation": "shì", "translation": "is" }
       ]
     },
@@ -113,11 +110,11 @@
       "id": "zh-bas-little-chinese",
       "translation": "I speak a little Chinese",
       "text": "我会说一点中文",
-      "pronunciation": "wǒ huì shuō yīdiǎn zhōngwén",
+      "pronunciation": "wǒ huì shuō yìdiǎn zhōngwén",
       "words": [
         { "text": "我", "pronunciation": "wǒ", "translation": "I" },
         { "text": "会说", "pronunciation": "huì shuō", "translation": "can speak" },
-        { "text": "一点", "pronunciation": "yīdiǎn", "translation": "a little" },
+        { "text": "一点", "pronunciation": "yìdiǎn", "translation": "a little" },
         { "text": "中文", "pronunciation": "zhōngwén", "translation": "Chinese (language)" }
       ]
     },
@@ -147,10 +144,10 @@
       "id": "zh-bas-how-much",
       "translation": "How much is this?",
       "text": "这个多少钱？",
-      "pronunciation": "zhège duōshao qián?",
+      "pronunciation": "zhège duōshǎo qián?",
       "words": [
         { "text": "这个", "pronunciation": "zhège", "translation": "this" },
-        { "text": "多少", "pronunciation": "duōshao", "translation": "how much / how many" },
+        { "text": "多少", "pronunciation": "duōshǎo", "translation": "how much / how many" },
         { "text": "钱", "pronunciation": "qián", "translation": "money" }
       ]
     },
@@ -189,10 +186,10 @@
       "id": "zh-bas-youre-welcome",
       "translation": "You're welcome",
       "text": "不客气",
-      "pronunciation": "bù kèqì",
+      "pronunciation": "bú kè qi",
       "words": [
-        { "text": "不", "pronunciation": "bù", "translation": "not" },
-        { "text": "客气", "pronunciation": "kèqì", "translation": "polite / formal" }
+        { "text": "不", "pronunciation": "bú", "translation": "not" },
+        { "text": "客气", "pronunciation": "kè qi", "translation": "polite / formal" }
       ]
     },
     {
@@ -208,8 +205,8 @@
   ],
   "words": [
     { "id": "zh-bas-w-morning", "translation": "morning", "text": "早上", "pronunciation": "zǎoshang" },
-    { "id": "zh-bas-w-evening", "translation": "evening", "text": "晚上", "pronunciation": "wǎnshang" },
-    { "id": "zh-bas-w-night", "translation": "night", "text": "夜里", "pronunciation": "yèlǐ" },
+    { "id": "zh-bas-w-evening", "translation": "evening", "text": "傍晚", "pronunciation": "bàngwǎn" },
+    { "id": "zh-bas-w-night", "translation": "night", "text": "晚上", "pronunciation": "wǎnshang" },
     { "id": "zh-bas-w-today", "translation": "today", "text": "今天", "pronunciation": "jīntiān" },
     { "id": "zh-bas-w-tomorrow", "translation": "tomorrow", "text": "明天", "pronunciation": "míngtiān" },
     { "id": "zh-bas-w-yesterday", "translation": "yesterday", "text": "昨天", "pronunciation": "zuótiān" },
@@ -234,7 +231,6 @@
     { "id": "zh-bas-w-cold", "translation": "cold", "text": "冷", "pronunciation": "lěng" },
     { "id": "zh-bas-w-where", "translation": "where", "text": "哪里", "pronunciation": "nǎlǐ" },
     { "id": "zh-bas-w-when", "translation": "when", "text": "什么时候", "pronunciation": "shénme shíhòu" },
-    { "id": "zh-bas-w-how", "translation": "how", "text": "怎么", "pronunciation": "zěnme" },
     { "id": "zh-bas-w-right", "translation": "right (direction)", "text": "右", "pronunciation": "yòu" },
     { "id": "zh-bas-w-left", "translation": "left (direction)", "text": "左", "pronunciation": "zuǒ" },
     { "id": "zh-bas-w-week", "translation": "week", "text": "星期", "pronunciation": "xīngqī" },

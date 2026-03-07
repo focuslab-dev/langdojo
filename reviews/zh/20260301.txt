@@ -1,0 +1,563 @@
+Lang Dojo Phrase Review — Mandarin
+========================================
+
+Reviewer: Jacqueline Zhong
+Link: https://www.linkedin.com/in/xiaohuijacquelinezhong/
+
+👋 Basics
+------------------------------
+  "Welcome" → 欢迎光临
+  Comment: Change to:
+欢迎
+huānyíng
+Comments: As the original "欢迎光临", is basically used in stores/restaurants/hotels. But "Welcome" may used in "Welcome to China", and in this case "欢迎光临" would be awkward.
+
+  "Yes" → 是
+  Comment: No need to change.
+
+  "No" → 不是
+  Comment: The romanization (pinyin) change to: bú shì
+
+  "I speak a little Chinese" → 我会说一点中文
+  Comment: The romanization (pinyin) change to: wǒ huì shuō yìdiǎn zhōngwén
+
+  "How much is this?" → 这个多少钱？
+  Comment: The romanization (pinyin) change to: zhège duōshǎo qián?
+
+  "You're welcome" → 不客气
+  Comment: The romanization (pinyin) change to: bú kè qi
+
+  "night" → 夜里
+  Comment: Change to:
+晚上
+wǎnshang
+
+  "how" → 怎么
+  Comment: Comments: "How" is a very general phrase, and it can be interpreted in many ways under different situations, so I suggest to delete this phrase.
+
+  "evening" → 晚上
+  Comment: Change to:
+傍晚
+bàngwǎn
+
+🔢 Numbers
+------------------------------
+  "How much is this?" → 这个多少钱？
+  Comment: The romanization (pinyin) change to:
+zhège duōshǎo qián?
+
+  "What's the room number?" → 房间号是多少？
+  Comment: The romanization (pinyin) change to:
+fángjiān hào shì duōshǎo？
+
+  "What's the phone number?" → 电话号码是多少？
+  Comment: The romanization (pinyin) change to:
+diànhuà hàomǎ shì duōshǎo？
+
+  "What's your phone number?" → 你的电话号码是多少？
+  Comment: The romanization (pinyin) change to:
+nǐ de diànhuà hàomǎ shì duōshǎo？
+
+  "What's the WiFi password?" → WiFi密码是多少？
+  Comment: The romanization (pinyin) change to:
+WiFi mìmǎ shì duōshǎo？
+
+  "100" → 一百
+  Comment: The romanization (pinyin) change to:
+yìbǎi
+
+  "1,000" → 一千
+  Comment: The romanization (pinyin) change to:
+yìqiān
+
+  "105 (zero placeholder)" → 一百零五
+  Comment: The romanization (pinyin) change to:
+yìbǎi líng wǔ
+
+  "half" → 半
+  Comment: In the context of number, "half (半)" is not commonly used.
+If you want to express half in time or money, I will add a few examples.
+Suggestion: delete this one.
+
+  "That's 500 yuan" → 五百块
+  Comment: The romanization (pinyin) change to:
+wǔbǎi kuài
+
+  "third" → 第三
+  Comment: The romanization (pinyin) change to:
+dì-sān
+
+  "second" → 第二
+  Comment: The romanization (pinyin) change to:
+dì-èr
+
+  "first" → 第一
+  Comment: The romanization (pinyin) change to:
+dì-yī
+
+  "10,000" → 一万
+  Comment: The romanization (pinyin) change to:
+yíwàn
+
+  "5,000" → 五千
+  Comment: The romanization (pinyin) change to:
+wǔqiān
+
+  "500" → 五百
+  Comment: The romanization (pinyin) change to:
+wǔbǎi
+
+  "50" → 五十
+  Comment: The romanization (pinyin) change to:
+wǔshí
+
+  "30" → 三十
+  Comment: The romanization (pinyin) change to:
+sānshí
+
+  "21" → 二十一
+  Comment: The romanization (pinyin) change to:
+èrshíyī
+
+  "20" → 二十
+  Comment: The romanization (pinyin) change to:
+èrshí
+
+  "11" → 十一
+  Comment: The romanization (pinyin) change to:
+shíyī
+
+  Suggested additions: 1) Eight thity/half past eight
+八点半
+bā diǎn bàn
+
+2) half an hour
+半个小时
+bàn gè xiǎoshí
+
+3) thirty minutes
+三十分钟
+sānshí fēnzhōng
+
+4) an hour and a half
+一个半小时
+yí gè bàn xiǎoshí
+
+5) five yuan fifty
+五块五/五块五毛
+wǔ kuài wǔ/wǔ kuài wǔ máo
+
+☕ Cafe
+------------------------------
+  "What's the WiFi password?" → Wi-Fi密码是什么？
+  Comment: The romanization (pinyin) change to:
+Wi-Fi mìmǎ shì shénme?
+
+  "latte" → 拿铁
+  Comment: The romanization (pinyin) change to:
+nátiě
+
+  "cappuccino" → 卡布奇诺
+  Comment: The romanization (pinyin) change to:
+kǎbùqínuò
+
+  "WiFi" → Wi-Fi
+  Comment: The romanization (pinyin) change to:
+Wi-Fi
+Comments: "Wi-Fi" is commonly used in Chinese, and it sounds the same as English.
+
+  "Half sugar" → 半糖
+  Comment: The romanization (pinyin) change to:
+bàntáng
+
+  "Less sugar" → 少糖
+  Comment: The romanization (pinyin) change to:
+shǎotáng
+
+  "No ice" → 去冰
+  Comment: The romanization (pinyin) change to:
+qùbīng
+
+  "To take away" → 带走
+  Comment: The romanization (pinyin) change to:
+dàizǒu
+
+  "small" → 小杯
+  Comment: The romanization (pinyin) change to:
+xiǎobēi
+
+  "medium" → 中杯
+  Comment: The romanization (pinyin) change to:
+zhōngbēi
+
+  "large" → 大杯
+  Comment: The romanization (pinyin) change to:
+zhōngbēi
+
+🍽️ Restaurant
+------------------------------
+  "Can I see the menu?" → 可以看菜单吗？
+  Comment: Change to:
+可以看一下菜单吗？
+kěyǐ kàn yíxià càidān ma?
+
+  "Not spicy, please" → 不要辣
+  Comment: The romanization (pinyin) change to:
+bú yào là
+
+  "No meat, please" → 不要肉
+  Comment: The romanization (pinyin) change to:
+bú yào ròu
+
+  "One more bowl of rice" → 再来一碗米饭
+  Comment: The romanization (pinyin) change to:
+zài lái yì wǎn mǐfàn
+
+  "Water, please" → 我要水
+  Comment: Change to:
+请给我一杯水
+qǐng gěi wǒ yì bēi shuǐ
+Comments: the original one sounds awkard and rude.
+
+  "It was delicious" → 很好吃
+  Comment: The romanization (pinyin) change to:
+hěn hǎo chī
+Comments: the pinyin is wrong.
+
+  "The bill, please" → 买单
+  Comment: The romanization (pinyin) change to:
+mǎi dān
+
+  "don't want / no" → 不要
+  Comment: The romanization (pinyin) change to:
+bú yào
+
+  Suggested additions: 1) The bill, please
+结账
+jié zhàng
+
+2) Can I pay by Alipay?
+可以用支付宝吗？
+kěyǐ yòng zhīfùbǎo ma?
+
+3) Do you have any dietary restrictions?
+有什么忌口的吗？
+yǒu shénme jìkǒu de ma?
+
+4) I don't eat pork.
+我不吃猪肉。
+wǒ bùchī zhūròu
+
+5) green onion / scallion
+葱
+cōng
+
+6) ginger
+姜
+jiāng
+
+7) garlic
+蒜
+suàn
+
+8) cilantro / coriander
+香菜
+xiāngcài
+
+🛒 Supermarket
+------------------------------
+  "I'm looking for milk" → 我在找牛奶
+  Comment: Change to: 我想找牛奶
+wǒ xiǎng zhǎo niúnǎi
+
+  "How much is this?" → 这个多少钱？
+  Comment: The romanization (pinyin) change to:
+zhège duōshǎo qián?
+
+  "receipt" → 收据
+  Comment: Change to:
+小票
+xiǎopiào
+
+🚕 Taxi
+------------------------------
+  "Are you available?" → 有空吗？
+  Comment: Change to:
+载客吗？
+zài kè ma?
+
+  "How much will it cost?" → 大概多少钱？
+  Comment: The romanization (pinyin) change to:
+dàgài duōshǎo qián?
+
+  "taxi" → 出租车
+  Comment: The romanization (pinyin) change to:
+chūzūchē
+
+  "To the train station, please" → 请去火车站
+  Comment: The romanization (pinyin) change to:
+qǐng qù huǒchēzhàn
+
+  "train station" → 火车站
+  Comment: The romanization (pinyin) change to:
+huǒchēzhàn
+
+  "receipt" → 收据
+  Comment: Change to:
+receipt
+发票
+fāpiào
+Comments: On taxi, the "receipt" is usually "fapiao", which can be used for taxation.
+
+🚆 Train
+------------------------------
+  "Where is the train station?" → 火车站在哪里？
+  Comment: The romanization (pinyin) change to:
+huǒchēzhàn zài nǎlǐ?
+
+  "Where is the ticket office?" → 售票处在哪里？
+  Comment: The romanization (pinyin) change to:
+shòupiàochù zài nǎlǐ?
+
+  "One-way ticket" → 单程票
+  Comment: The romanization (pinyin) change to:
+dānchéngpiào
+
+  "Round trip ticket" → 往返票
+  Comment: The romanization (pinyin) change to:
+wǎngfǎnpiào
+
+  "What time is the next train?" → 下一班火车几点？
+  Comment: Change to:
+下一班车是几点？
+xià yì bān chē shì jǐ diǎn?
+Comments: "Train" may refer to railway train or high speed rail, so I change to be more general.
+
+  "Do you have standing tickets?" → 还有站票吗？
+  Comment: The romanization (pinyin) change to:
+háiyǒu zhànpiào ma?
+
+  "This train is headed to Shanghai" → 本次列车开往上海
+  Comment: The romanization (pinyin) change to:
+běncì lièchē kāi wǎng shànghǎi
+
+  "Arrived at Shanghai station" → 上海站到了
+  Comment: The romanization (pinyin) change to:
+shànghǎizhàn dào le
+
+  "train station" → 火车站
+  Comment: The romanization (pinyin) change to:
+huǒchēzhàn
+
+  "express train" → 快车
+  Comment: Sugggestion: delete this phrase. It includes many types of trains and it is not very common to use as a tourist in this context.
+
+  "local train" → 慢车
+  Comment: Sugggestion: delete this phrase. It includes many types of trains and it is not very common to use as a tourist in this context.
+
+  "transfer" → 换乘
+  Comment: The romanization (pinyin) change to:
+huànchéng
+
+  "first class seat" → 一等座
+  Comment: The romanization (pinyin) change to:
+yīděngzuò
+
+  "second class seat" → 二等座
+  Comment: The romanization (pinyin) change to:
+èrděngzuò
+
+  "standing ticket" → 站票
+  Comment: The romanization (pinyin) change to:
+zhànpiào
+
+  "timetable" → 时刻表
+  Comment: The romanization (pinyin) change to:
+shíkèbiǎo
+
+  "ticket office" → 售票处
+  Comment: The romanization (pinyin) change to:
+shòupiàochù
+
+  "transit card" → 交通卡
+  Comment: The romanization (pinyin) change to:
+jiāotōngkǎ
+
+  "hard seat" → 硬座
+  Comment: The romanization (pinyin) change to:
+yìngzuò
+
+  "soft sleeper" → 软卧
+  Comment: The romanization (pinyin) change to:
+ruǎnwò
+
+  "ticket gate" → 检票口
+  Comment: The romanization (pinyin) change to:
+jiǎnpiàokǒu
+
+  "waiting room" → 候车室
+  Comment: The romanization (pinyin) change to:
+hòuchēshì
+
+  "security check" → 安检
+  Comment: The romanization (pinyin) change to:
+ānjiǎn
+
+  Suggested additions: 1) Where is the ticket gate?
+检票口在哪里？
+jiǎnpiàokǒu zài nǎlǐ?
+
+🚌 Bus
+------------------------------
+  "Where is the bus stop?" → 公交车站在哪里？
+  Comment: The romanization (pinyin) change to:
+gōngjiāo chēzhàn zài nǎlǐ?
+
+  "Does this bus go to the airport?" → 这辆公交车去机场吗？
+  Comment: Change to:
+这车去机场吗？
+zhèchē qù jīchǎng ma?
+
+  "What time is the last bus?" → 最后一班车几点？
+  Comment: Change to:
+最后一班车是几点？
+zuìhòu yì bān chē shì jǐ diǎn?
+
+  "How much is the fare?" → 车费多少钱？
+  Comment: The romanization (pinyin) change to:
+chēfèi duōshǎo qián?
+
+  "Please board from the front door" → 请从前门上车
+  Comment: The romanization (pinyin) change to:
+qǐng cóng qiánmén shàng chē
+
+  "How many stops to the airport?" → 到机场还有几站？
+  Comment: The romanization (pinyin) change to:
+dào jīchǎng háiyǒu jǐ zhàn?
+
+  "Where should I transfer?" → 我在哪里换乘？
+  Comment: The romanization (pinyin) change to:
+wǒ zài nǎlǐ huànchéng?
+
+  "Next stop is the train station" → 下一站火车站
+  Comment: Change to:
+下一站是火车站
+xiàyízhàn shì huǒchēzhàn
+
+  "Please exit from the back door" → 请从后门下车
+  Comment: The romanization (pinyin) change to:
+qǐng cóng hòumén xià chē
+
+  "bus stop" → 公交车站
+  Comment: The romanization (pinyin) change to:
+gōngjiāo chēzhàn
+
+  "fare" → 车费
+  Comment: The romanization (pinyin) change to:
+chēfèi
+
+  "entrance" → 入口
+  Comment: Comment: I don't think this phrase is relevant in this context.
+Suggestion: Delete.
+
+  "next" → 下一个
+  Comment: Comment: I don't think this phrase is relevant in this context.
+Suggestion: Delete.
+
+  "last (final)" → 最后
+  Comment: Comment: I don't think this phrase is relevant in this context.
+Suggestion: Delete.
+
+  "first" → 第一
+  Comment: Comment: I don't think this phrase is relevant in this context.
+Suggestion: Delete.
+
+  "exit" → 出口
+  Comment: Comment: I don't think this phrase is relevant in this context.
+Suggestion: Delete.
+
+  "transit card" → 公交卡
+  Comment: The romanization (pinyin) change to:
+gōngjiāokǎ
+
+  "final stop / terminus" → 终点站
+  Comment: The romanization (pinyin) change to:
+zhōngdiǎnzhàn
+
+  "transfer" → 换乘
+  Comment: The romanization (pinyin) change to:
+huànchéng
+
+  "bus stop sign" → 站牌
+  Comment: The romanization (pinyin) change to:
+zhànpái
+
+  "night bus" → 夜班车
+  Comment: The romanization (pinyin) change to:
+yèbānchē
+
+  "I'll get off at the next stop" → 我下一站下车
+  Comment: The romanization (pinyin) change to:
+wǒ xiàyízhàn xià chē
+
+🏨 Hotel
+------------------------------
+  "Your room is on the 3rd floor" → 您的房间在三楼
+  Comment: The romanization (pinyin) change to:
+nín de fángjiān zài sānlóu
+
+  "A single room, please" → 我要一间单人房
+  Comment: The romanization (pinyin) change to:
+wǒ yào yì jiān dānrénfáng
+
+  "A double room, please" → 我要一间双人房
+  Comment: The romanization (pinyin) change to:
+wǒ yào yì jiān shuāngrénfáng
+
+  "How much per night?" → 一晚多少钱？
+  Comment: The romanization (pinyin) change to:
+yì wǎn duōshǎo qián?
+
+  "Could I get one more pillow?" → 可以多给一个枕头吗？
+  Comment: The romanization (pinyin) change to:
+kěyǐ duō gěi yí gè zhěntou ma?
+
+  "There's no hot water" → 没有热水
+  Comment: The romanization (pinyin) change to:
+méiyǒu rèshuǐ
+
+  "Can I have a late checkout?" → 可以延迟退房吗？
+  Comment: The romanization (pinyin) change to:
+kěyǐ yánchí tuì fáng ma?
+
+  "What time is checkout?" → 几点退房？
+  Comment: The romanization (pinyin) change to:
+jǐ diǎn tuì fáng?
+
+  "I'd like to check out" → 我要退房
+  Comment: The romanization (pinyin) change to:
+wǒ yào tuì fáng
+
+  "Thanks, I had a great stay" → 谢谢，住得很开心
+  Comment: Change to:
+谢谢，我住得很开心
+xièxie, wǒ zhù de hěn kāixīn
+
+  "Wi-Fi" → 无线网络
+  Comment: Change to:
+Wi-Fi
+Wi-Fi
+Comment: You can just say "Wi-Fi" in Chinese, it is commonly used.
+
+  "receipt / invoice" → 发票
+  Comment: Change to:
+收据
+shōujù
+Comments: "fapiao" itself it's a very specific type of receipt that is mainly for the purpose of taxation. In the context of tourism, I don't think tourists would ask for such documents.
+
+Overall Feedback
+------------------------------
+In general it's good. Occasionally, the format of the romanization (pinyin) is not very standard, but not misleading. As for the topics, I would say it's a good start.
+
+---
+Sent via Lang Dojo /review

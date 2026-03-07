@@ -63,7 +63,7 @@
       "id": "zh-cafe-medium-size",
       "translation": "Medium size, please",
       "text": "中杯",
-      "pronunciation": "zhōng bēi",
+      "pronunciation": "zhōngbēi",
       "words": [
         { "text": "中", "pronunciation": "zhōng", "translation": "medium / middle" },
         { "text": "杯", "pronunciation": "bēi", "translation": "cup" }
@@ -117,7 +117,7 @@
       "id": "zh-cafe-half-sugar",
       "translation": "Half sugar",
       "text": "半糖",
-      "pronunciation": "bàn táng",
+      "pronunciation": "bàntáng",
       "words": [
         { "text": "半", "pronunciation": "bàn", "translation": "half" },
         { "text": "糖", "pronunciation": "táng", "translation": "sugar" }
@@ -127,7 +127,7 @@
       "id": "zh-cafe-less-sugar",
       "translation": "Less sugar",
       "text": "少糖",
-      "pronunciation": "shǎo táng",
+      "pronunciation": "shǎotáng",
       "words": [
         { "text": "少", "pronunciation": "shǎo", "translation": "less / few" },
         { "text": "糖", "pronunciation": "táng", "translation": "sugar" }
@@ -137,7 +137,7 @@
       "id": "zh-cafe-no-ice",
       "translation": "No ice",
       "text": "去冰",
-      "pronunciation": "qù bīng",
+      "pronunciation": "qùbīng",
       "words": [
         { "text": "去", "pronunciation": "qù", "translation": "remove / without" },
         { "text": "冰", "pronunciation": "bīng", "translation": "ice" }
@@ -147,13 +147,13 @@
       "id": "zh-cafe-here-or-go",
       "translation": "For here or to go?",
       "text": "在这里喝还是带走？",
-      "pronunciation": "zài zhèlǐ hē háishì dài zǒu?",
+      "pronunciation": "zài zhèlǐ hē háishì dàizǒu?",
       "words": [
         { "text": "在", "pronunciation": "zài", "translation": "at / in" },
         { "text": "这里", "pronunciation": "zhèlǐ", "translation": "here" },
         { "text": "喝", "pronunciation": "hē", "translation": "drink" },
         { "text": "还是", "pronunciation": "háishì", "translation": "or (choice)" },
-        { "text": "带走", "pronunciation": "dài zǒu", "translation": "take away" }
+        { "text": "带走", "pronunciation": "dàizǒu", "translation": "take away" }
       ]
     },
     {
@@ -171,7 +171,7 @@
       "id": "zh-cafe-takeaway",
       "translation": "To take away",
       "text": "带走",
-      "pronunciation": "dài zǒu",
+      "pronunciation": "dàizǒu",
       "words": [
         { "text": "带", "pronunciation": "dài", "translation": "take / bring" },
         { "text": "走", "pronunciation": "zǒu", "translation": "leave / go" }
@@ -181,9 +181,9 @@
       "id": "zh-cafe-wifi-password",
       "translation": "What's the WiFi password?",
       "text": "Wi-Fi密码是什么？",
-      "pronunciation": "wàifái mìmǎ shì shénme?",
+      "pronunciation": "Wi-Fi mìmǎ shì shénme?",
       "words": [
-        { "text": "Wi-Fi", "pronunciation": "wàifái", "translation": "WiFi" },
+        { "text": "Wi-Fi", "pronunciation": "Wi-Fi", "translation": "WiFi" },
         { "text": "密码", "pronunciation": "mìmǎ", "translation": "password" },
         { "text": "是", "pronunciation": "shì", "translation": "is" },
         { "text": "什么", "pronunciation": "shénme", "translation": "what" }
@@ -232,7 +232,7 @@
   ],
   "words": [
     { "id": "zh-cafe-w-coffee", "translation": "coffee", "text": "咖啡", "pronunciation": "kāfēi" },
-    { "id": "zh-cafe-w-latte", "translation": "latte", "text": "拿铁", "pronunciation": "ná tiě" },
+    { "id": "zh-cafe-w-latte", "translation": "latte", "text": "拿铁", "pronunciation": "nátiě" },
     { "id": "zh-cafe-w-americano", "translation": "americano", "text": "美式咖啡", "pronunciation": "měishì kāfēi" },
     { "id": "zh-cafe-w-espresso", "translation": "espresso", "text": "浓缩咖啡", "pronunciation": "nóngsuō kāfēi" },
     { "id": "zh-cafe-w-cappuccino", "translation": "cappuccino", "text": "卡布奇诺", "pronunciation": "kǎbùqínuò" },
@@ -246,9 +246,9 @@
     { "id": "zh-cafe-w-cold", "translation": "cold", "text": "冷", "pronunciation": "lěng" },
     { "id": "zh-cafe-w-cup", "translation": "cup", "text": "杯子", "pronunciation": "bēizi" },
     { "id": "zh-cafe-w-straw", "translation": "straw", "text": "吸管", "pronunciation": "xīguǎn" },
-    { "id": "zh-cafe-w-small", "translation": "small", "text": "小杯", "pronunciation": "xiǎo bēi" },
-    { "id": "zh-cafe-w-medium", "translation": "medium", "text": "中杯", "pronunciation": "zhōng bēi" },
-    { "id": "zh-cafe-w-large", "translation": "large", "text": "大杯", "pronunciation": "dà bēi" },
+    { "id": "zh-cafe-w-small", "translation": "small", "text": "小杯", "pronunciation": "xiǎobēi" },
+    { "id": "zh-cafe-w-medium", "translation": "medium", "text": "中杯", "pronunciation": "zhōngbēi" },
+    { "id": "zh-cafe-w-large", "translation": "large", "text": "大杯", "pronunciation": "dàbēi" },
     { "id": "zh-cafe-w-water", "translation": "water", "text": "水", "pronunciation": "shuǐ" },
     { "id": "zh-cafe-w-cake", "translation": "cake", "text": "蛋糕", "pronunciation": "dàngāo" },
     { "id": "zh-cafe-w-juice", "translation": "juice", "text": "果汁", "pronunciation": "guǒzhī" },
@@ -259,7 +259,7 @@
     { "id": "zh-cafe-w-soy-milk", "translation": "soy milk", "text": "豆浆", "pronunciation": "dòujiāng" },
     { "id": "zh-cafe-w-caramel", "translation": "caramel", "text": "焦糖", "pronunciation": "jiāotáng" },
     { "id": "zh-cafe-w-cream", "translation": "cream", "text": "奶油", "pronunciation": "nǎiyóu" },
-    { "id": "zh-cafe-w-wifi", "translation": "WiFi", "text": "Wi-Fi", "pronunciation": "wàifái" },
+    { "id": "zh-cafe-w-wifi", "translation": "WiFi", "text": "Wi-Fi", "pronunciation": "Wi-Fi" },
     { "id": "zh-cafe-w-napkin", "translation": "napkin", "text": "纸巾", "pronunciation": "zhǐjīn" },
     { "id": "zh-cafe-w-pastry", "translation": "pastry", "text": "糕点", "pronunciation": "gāodiǎn" }
   ]

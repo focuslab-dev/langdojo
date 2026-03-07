@@ -6,10 +6,10 @@
       "id": "zh-num-how-much",
       "translation": "How much is this?",
       "text": "这个多少钱？",
-      "pronunciation": "zhège duōshao qián?",
+      "pronunciation": "zhège duōshǎo qián?",
       "words": [
         { "text": "这个", "pronunciation": "zhège", "translation": "this" },
-        { "text": "多少", "pronunciation": "duōshao", "translation": "how much / how many" },
+        { "text": "多少", "pronunciation": "duōshǎo", "translation": "how much / how many" },
         { "text": "钱", "pronunciation": "qián", "translation": "money" }
       ]
     },
@@ -80,6 +80,17 @@
       ]
     },
     {
+      "id": "zh-num-half-past-eight",
+      "translation": "Half past eight",
+      "text": "八点半",
+      "pronunciation": "bā diǎn bàn",
+      "words": [
+        { "text": "八", "pronunciation": "bā", "translation": "eight" },
+        { "text": "点", "pronunciation": "diǎn", "translation": "o'clock" },
+        { "text": "半", "pronunciation": "bàn", "translation": "half" }
+      ]
+    },
+    {
       "id": "zh-num-how-many-people",
       "translation": "How many people?",
       "text": "几个人？",
@@ -94,11 +105,22 @@
       "id": "zh-num-five-hundred",
       "translation": "That's 500 yuan",
       "text": "五百块",
-      "pronunciation": "wǔ bǎi kuài",
+      "pronunciation": "wǔbǎi kuài",
       "words": [
         { "text": "五", "pronunciation": "wǔ", "translation": "five" },
         { "text": "百", "pronunciation": "bǎi", "translation": "hundred" },
         { "text": "块", "pronunciation": "kuài", "translation": "yuan" }
+      ]
+    },
+    {
+      "id": "zh-num-five-fifty",
+      "translation": "Five yuan fifty",
+      "text": "五块五",
+      "pronunciation": "wǔ kuài wǔ",
+      "words": [
+        { "text": "五", "pronunciation": "wǔ", "translation": "five" },
+        { "text": "块", "pronunciation": "kuài", "translation": "yuan" },
+        { "text": "五", "pronunciation": "wǔ", "translation": "fifty (cents implied)" }
       ]
     },
     {
@@ -149,36 +171,36 @@
       "id": "zh-num-room-number",
       "translation": "What's the room number?",
       "text": "房间号是多少？",
-      "pronunciation": "fángjiān hào shì duōshao?",
+      "pronunciation": "fángjiān hào shì duōshǎo?",
       "words": [
         { "text": "房间", "pronunciation": "fángjiān", "translation": "room" },
         { "text": "号", "pronunciation": "hào", "translation": "number" },
         { "text": "是", "pronunciation": "shì", "translation": "is" },
-        { "text": "多少", "pronunciation": "duōshao", "translation": "how much / what number" }
+        { "text": "多少", "pronunciation": "duōshǎo", "translation": "how much / what number" }
       ]
     },
     {
       "id": "zh-num-phone-number",
       "translation": "What's the phone number?",
       "text": "电话号码是多少？",
-      "pronunciation": "diànhuà hàomǎ shì duōshao?",
+      "pronunciation": "diànhuà hàomǎ shì duōshǎo?",
       "words": [
         { "text": "电话", "pronunciation": "diànhuà", "translation": "phone" },
         { "text": "号码", "pronunciation": "hàomǎ", "translation": "number" },
         { "text": "是", "pronunciation": "shì", "translation": "is" },
-        { "text": "多少", "pronunciation": "duōshao", "translation": "how much / what number" }
+        { "text": "多少", "pronunciation": "duōshǎo", "translation": "how much / what number" }
       ]
     },
     {
       "id": "zh-num-my-phone-number",
       "translation": "What's your phone number?",
       "text": "你的电话号码是多少？",
-      "pronunciation": "nǐ de diànhuà hàomǎ shì duōshao?",
+      "pronunciation": "nǐ de diànhuà hàomǎ shì duōshǎo?",
       "words": [
         { "text": "你的", "pronunciation": "nǐ de", "translation": "your" },
         { "text": "电话号码", "pronunciation": "diànhuà hàomǎ", "translation": "phone number" },
         { "text": "是", "pronunciation": "shì", "translation": "is" },
-        { "text": "多少", "pronunciation": "duōshao", "translation": "what / how many" }
+        { "text": "多少", "pronunciation": "duōshǎo", "translation": "what / how many" }
       ]
     },
     {
@@ -196,12 +218,12 @@
       "id": "zh-num-wifi-password",
       "translation": "What's the WiFi password?",
       "text": "WiFi密码是多少？",
-      "pronunciation": "WiFi mìmǎ shì duōshao?",
+      "pronunciation": "WiFi mìmǎ shì duōshǎo?",
       "words": [
         { "text": "WiFi", "pronunciation": "WiFi", "translation": "WiFi" },
         { "text": "密码", "pronunciation": "mìmǎ", "translation": "password" },
         { "text": "是", "pronunciation": "shì", "translation": "is" },
-        { "text": "多少", "pronunciation": "duōshao", "translation": "what number" }
+        { "text": "多少", "pronunciation": "duōshǎo", "translation": "what number" }
       ]
     },
     {
@@ -224,6 +246,37 @@
         { "text": "几", "pronunciation": "jǐ", "translation": "how many" },
         { "text": "分钟", "pronunciation": "fēnzhōng", "translation": "minutes" }
       ]
+    },
+    {
+      "id": "zh-num-half-hour",
+      "translation": "Half an hour",
+      "text": "半个小时",
+      "pronunciation": "bàn gè xiǎoshí",
+      "words": [
+        { "text": "半", "pronunciation": "bàn", "translation": "half" },
+        { "text": "个", "pronunciation": "gè", "translation": "(measure word)" },
+        { "text": "小时", "pronunciation": "xiǎoshí", "translation": "hour" }
+      ]
+    },
+    {
+      "id": "zh-num-thirty-minutes",
+      "translation": "Thirty minutes",
+      "text": "三十分钟",
+      "pronunciation": "sānshí fēnzhōng",
+      "words": [
+        { "text": "三十", "pronunciation": "sānshí", "translation": "thirty" },
+        { "text": "分钟", "pronunciation": "fēnzhōng", "translation": "minutes" }
+      ]
+    },
+    {
+      "id": "zh-num-hour-and-half",
+      "translation": "An hour and a half",
+      "text": "一个半小时",
+      "pronunciation": "yí gè bàn xiǎoshí",
+      "words": [
+        { "text": "一个半", "pronunciation": "yí gè bàn", "translation": "one and a half" },
+        { "text": "小时", "pronunciation": "xiǎoshí", "translation": "hour" }
+      ]
     }
   ],
   "words": [
@@ -239,20 +292,19 @@
     { "id": "zh-num-w-nine", "translation": "9", "text": "九", "pronunciation": "jiǔ" },
     { "id": "zh-num-w-ten", "translation": "10", "text": "十", "pronunciation": "shí" },
     { "id": "zh-num-w-two-measure", "translation": "2 (before measure words)", "text": "两", "pronunciation": "liǎng" },
-    { "id": "zh-num-w-eleven", "translation": "11", "text": "十一", "pronunciation": "shí yī" },
-    { "id": "zh-num-w-twenty", "translation": "20", "text": "二十", "pronunciation": "èr shí" },
-    { "id": "zh-num-w-twenty-one", "translation": "21", "text": "二十一", "pronunciation": "èr shí yī" },
-    { "id": "zh-num-w-thirty", "translation": "30", "text": "三十", "pronunciation": "sān shí" },
-    { "id": "zh-num-w-fifty", "translation": "50", "text": "五十", "pronunciation": "wǔ shí" },
-    { "id": "zh-num-w-hundred", "translation": "100", "text": "一百", "pronunciation": "yī bǎi" },
-    { "id": "zh-num-w-five-hundred", "translation": "500", "text": "五百", "pronunciation": "wǔ bǎi" },
-    { "id": "zh-num-w-thousand", "translation": "1,000", "text": "一千", "pronunciation": "yī qiān" },
-    { "id": "zh-num-w-five-thousand", "translation": "5,000", "text": "五千", "pronunciation": "wǔ qiān" },
-    { "id": "zh-num-w-ten-thousand", "translation": "10,000", "text": "一万", "pronunciation": "yí wàn" },
-    { "id": "zh-num-w-hundred-five", "translation": "105 (zero placeholder)", "text": "一百零五", "pronunciation": "yī bǎi líng wǔ" },
-    { "id": "zh-num-w-half", "translation": "half", "text": "半", "pronunciation": "bàn" },
-    { "id": "zh-num-w-first", "translation": "first", "text": "第一", "pronunciation": "dì yī" },
-    { "id": "zh-num-w-second", "translation": "second", "text": "第二", "pronunciation": "dì èr" },
-    { "id": "zh-num-w-third", "translation": "third", "text": "第三", "pronunciation": "dì sān" }
+    { "id": "zh-num-w-eleven", "translation": "11", "text": "十一", "pronunciation": "shíyī" },
+    { "id": "zh-num-w-twenty", "translation": "20", "text": "二十", "pronunciation": "èrshí" },
+    { "id": "zh-num-w-twenty-one", "translation": "21", "text": "二十一", "pronunciation": "èrshíyī" },
+    { "id": "zh-num-w-thirty", "translation": "30", "text": "三十", "pronunciation": "sānshí" },
+    { "id": "zh-num-w-fifty", "translation": "50", "text": "五十", "pronunciation": "wǔshí" },
+    { "id": "zh-num-w-hundred", "translation": "100", "text": "一百", "pronunciation": "yìbǎi" },
+    { "id": "zh-num-w-five-hundred", "translation": "500", "text": "五百", "pronunciation": "wǔbǎi" },
+    { "id": "zh-num-w-thousand", "translation": "1,000", "text": "一千", "pronunciation": "yìqiān" },
+    { "id": "zh-num-w-five-thousand", "translation": "5,000", "text": "五千", "pronunciation": "wǔqiān" },
+    { "id": "zh-num-w-ten-thousand", "translation": "10,000", "text": "一万", "pronunciation": "yíwàn" },
+    { "id": "zh-num-w-hundred-five", "translation": "105 (zero placeholder)", "text": "一百零五", "pronunciation": "yìbǎi líng wǔ" },
+    { "id": "zh-num-w-first", "translation": "first", "text": "第一", "pronunciation": "dì-yī" },
+    { "id": "zh-num-w-second", "translation": "second", "text": "第二", "pronunciation": "dì-èr" },
+    { "id": "zh-num-w-third", "translation": "third", "text": "第三", "pronunciation": "dì-sān" }
   ]
 }

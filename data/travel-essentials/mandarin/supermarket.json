@@ -15,12 +15,12 @@
     {
       "id": "zh-super-looking-for",
       "translation": "I'm looking for milk",
-      "text": "我在找牛奶",
-      "pronunciation": "wǒ zài zhǎo niúnǎi",
+      "text": "我想找牛奶",
+      "pronunciation": "wǒ xiǎng zhǎo niúnǎi",
       "words": [
         { "text": "我", "pronunciation": "wǒ", "translation": "I" },
-        { "text": "在", "pronunciation": "zài", "translation": "currently" },
-        { "text": "找", "pronunciation": "zhǎo", "translation": "looking for" },
+        { "text": "想", "pronunciation": "xiǎng", "translation": "want to" },
+        { "text": "找", "pronunciation": "zhǎo", "translation": "look for" },
         { "text": "牛奶", "pronunciation": "niúnǎi", "translation": "milk" }
       ]
     },
@@ -72,10 +72,10 @@
       "id": "zh-super-how-much",
       "translation": "How much is this?",
       "text": "这个多少钱？",
-      "pronunciation": "zhège duōshao qián?",
+      "pronunciation": "zhège duōshǎo qián?",
       "words": [
         { "text": "这个", "pronunciation": "zhège", "translation": "this" },
-        { "text": "多少", "pronunciation": "duōshao", "translation": "how much" },
+        { "text": "多少", "pronunciation": "duōshǎo", "translation": "how much" },
         { "text": "钱", "pronunciation": "qián", "translation": "money" }
       ]
     },
@@ -224,7 +224,7 @@
     { "id": "zh-super-w-instant-noodles", "translation": "instant noodles", "text": "方便面", "pronunciation": "fāngbiàn miàn" },
     { "id": "zh-super-w-tofu", "translation": "tofu", "text": "豆腐", "pronunciation": "dòufu" },
     { "id": "zh-super-w-bag", "translation": "bag", "text": "袋子", "pronunciation": "dàizi" },
-    { "id": "zh-super-w-receipt", "translation": "receipt", "text": "收据", "pronunciation": "shōujù" },
+    { "id": "zh-super-w-receipt", "translation": "receipt", "text": "小票", "pronunciation": "xiǎopiào" },
     { "id": "zh-super-w-cash", "translation": "cash", "text": "现金", "pronunciation": "xiànjīn" },
     { "id": "zh-super-w-card", "translation": "card", "text": "卡", "pronunciation": "kǎ" },
     { "id": "zh-super-w-change", "translation": "change (coins)", "text": "找零", "pronunciation": "zhǎolíng" },

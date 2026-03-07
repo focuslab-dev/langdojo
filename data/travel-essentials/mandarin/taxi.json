@@ -14,10 +14,10 @@
     {
       "id": "zh-taxi-available",
       "translation": "Are you available?",
-      "text": "有空吗？",
-      "pronunciation": "yǒu kòng ma?",
+      "text": "载客吗？",
+      "pronunciation": "zài kè ma?",
       "words": [
-        { "text": "有空", "pronunciation": "yǒu kòng", "translation": "have free time / available" },
+        { "text": "载客", "pronunciation": "zài kè", "translation": "taking passengers" },
         { "text": "吗", "pronunciation": "ma", "translation": "(question particle)" }
       ]
     },
@@ -47,11 +47,11 @@
       "id": "zh-taxi-train-station",
       "translation": "To the train station, please",
       "text": "请去火车站",
-      "pronunciation": "qǐng qù huǒchē zhàn",
+      "pronunciation": "qǐng qù huǒchēzhàn",
       "words": [
         { "text": "请", "pronunciation": "qǐng", "translation": "please" },
         { "text": "去", "pronunciation": "qù", "translation": "go to" },
-        { "text": "火车站", "pronunciation": "huǒchē zhàn", "translation": "train station" }
+        { "text": "火车站", "pronunciation": "huǒchēzhàn", "translation": "train station" }
       ]
     },
     {
@@ -69,10 +69,10 @@
       "id": "zh-taxi-how-much",
       "translation": "How much will it cost?",
       "text": "大概多少钱？",
-      "pronunciation": "dàgài duōshao qián?",
+      "pronunciation": "dàgài duōshǎo qián?",
       "words": [
         { "text": "大概", "pronunciation": "dàgài", "translation": "approximately" },
-        { "text": "多少", "pronunciation": "duōshao", "translation": "how much" },
+        { "text": "多少", "pronunciation": "duōshǎo", "translation": "how much" },
         { "text": "钱", "pronunciation": "qián", "translation": "money" }
       ]
     },
@@ -219,7 +219,7 @@
     }
   ],
   "words": [
-    { "id": "zh-taxi-w-taxi", "translation": "taxi", "text": "出租车", "pronunciation": "chūzū chē" },
+    { "id": "zh-taxi-w-taxi", "translation": "taxi", "text": "出租车", "pronunciation": "chūzūchē" },
     { "id": "zh-taxi-w-driver", "translation": "driver", "text": "司机", "pronunciation": "sījī" },
     { "id": "zh-taxi-w-right", "translation": "right", "text": "右", "pronunciation": "yòu" },
     { "id": "zh-taxi-w-left", "translation": "left", "text": "左", "pronunciation": "zuǒ" },
@@ -232,14 +232,14 @@
     { "id": "zh-taxi-w-slow", "translation": "slow", "text": "慢", "pronunciation": "màn" },
     { "id": "zh-taxi-w-stop", "translation": "stop", "text": "停", "pronunciation": "tíng" },
     { "id": "zh-taxi-w-airport", "translation": "airport", "text": "机场", "pronunciation": "jīchǎng" },
-    { "id": "zh-taxi-w-train-station", "translation": "train station", "text": "火车站", "pronunciation": "huǒchē zhàn" },
+    { "id": "zh-taxi-w-train-station", "translation": "train station", "text": "火车站", "pronunciation": "huǒchēzhàn" },
     { "id": "zh-taxi-w-hotel", "translation": "hotel", "text": "酒店", "pronunciation": "jiǔdiàn" },
     { "id": "zh-taxi-w-map", "translation": "map", "text": "地图", "pronunciation": "dìtú" },
     { "id": "zh-taxi-w-address", "translation": "address", "text": "地址", "pronunciation": "dìzhǐ" },
     { "id": "zh-taxi-w-meter", "translation": "meter", "text": "计价器", "pronunciation": "jìjiàqì" },
     { "id": "zh-taxi-w-money", "translation": "money", "text": "钱", "pronunciation": "qián" },
     { "id": "zh-taxi-w-traffic-jam", "translation": "traffic jam", "text": "堵车", "pronunciation": "dǔchē" },
-    { "id": "zh-taxi-w-receipt", "translation": "receipt", "text": "收据", "pronunciation": "shōujù" },
+    { "id": "zh-taxi-w-receipt", "translation": "receipt", "text": "发票", "pronunciation": "fāpiào" },
     { "id": "zh-taxi-w-intersection", "translation": "intersection", "text": "路口", "pronunciation": "lùkǒu" },
     { "id": "zh-taxi-w-didi", "translation": "DiDi (ride-hailing app)", "text": "滴滴", "pronunciation": "dīdī" },
     { "id": "zh-taxi-w-luggage", "translation": "luggage", "text": "行李", "pronunciation": "xíngli" },
